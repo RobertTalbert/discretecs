@@ -10,19 +10,17 @@ MTH 325: Discrete Structures for CS 2 -- Learning Modules
 
 ## Content modules 
 
-Each of these modules has three levels. Level 1 consists of basic mechanical computations, simple applications, and conceptual reasoning. Level 2 consists of more advanced work involving application and analysis. Level 3 is the highest level of work and includes programming and/or proof activities. See the master learning outcomes list for mid- and low-level learning outcomes for each module. 
+Each of these modules has two levels. Level 1 consists of basic mechanical computations, applications, and conceptual reasoning. Level 2 consists of more advanced work involving application and analysis, and programming and/or proof activities. See the master learning outcomes list for mid- and low-level learning outcomes for each module. 
 
 + Relations 1: Representation and Properties
 + Relations 2: Closures
 + Relations 3: Equivalence Relations and Partially Ordered Sets
-
 + Graphs 1: Representation and Properties
 + Graphs 2: Connectivity, Paths, and Circuits
 + Graphs 3: Shortest paths, Planarity, and Coloring
-
 + Trees 1: Properties 
 + Trees 2: Applications
 + Trees 3: Spanning Trees 
 
-9 modules x 3 levels = 27 in all from content. 
+9 modules x 2 levels = 18 in all from content. +2 for general work = 20 modules in all. 
 
