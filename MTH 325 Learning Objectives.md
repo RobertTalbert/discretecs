@@ -72,10 +72,21 @@ Will need to review matrices (3.8) and do some Sage work before this.
     
 ### 9.4: Connectivity
 
-+ 
++ Find paths and circuits inside both directed and undirected graphs. 
++ Determine if an undirected graph is connected, and find the connected components of a disconnected graph. 
++ Determine if a directed graph is strongly connected or weakly connected. 
++ Determine the number of paths of length $r$ between two nodes in a graph by using the graph's adjacency matrix. 
 
 ### 9.5: Euler and Hamilton Paths
+
++ Determine whether a graph (directed or undirected) has an Euler path or an Euler circuit. If it has one, construct it using Algorithm 1. 
++ Determine whether a graph (directed or undirected) has an Hamilton path or an Hamilton circuit. 
++ Use Dirac's Theorem and Ore's Theorem to draw conclusions about the existence of Hamilton circuits. 
+
 ### 9.6: Shortest-Path Problems
+
+
+
 ### 9.7: Planar Graphs
 ### 9.8: Graph Coloring
 
