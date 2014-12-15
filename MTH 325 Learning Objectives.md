@@ -85,9 +85,13 @@ Will need to review matrices (3.8) and do some Sage work before this.
 
 ### 9.6: Shortest-Path Problems
 
-
++ Determine the length of a path in a weighted graph. 
++ Use Dijkstra's Algorithm to find the shortest path between two vertices in a weighted graph. 
 
 ### 9.7: Planar Graphs
+
++ 
+
 ### 9.8: Graph Coloring
 
 ## Chapter 10: Trees
