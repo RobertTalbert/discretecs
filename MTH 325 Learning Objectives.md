@@ -8,6 +8,8 @@
 
 ### 8.1: Relations and their Properties
 
+__Objective for both 8.1 and 8.3: Represent relations in different forms, determine properties that are held by a relation, and compute the composite of a relation.__
+
 + Determine the ordered pairs in a relation from A to B (or from A to A) if the relation is given as a set in set-builder notation, in symbolic form, or in a diagram form. 
 + Determine whether a given relation is reflexive, symmetric, antisymmetric, or transitive. 
 + Given a relation from A to B and a relation from B to C, determine the ordered pairs in the composite of the two relations. 
@@ -29,12 +31,16 @@ Will need to review matrices (3.8) and do some Sage work before this.
 
 ### 8.4: Closures of Relations
 
+__Objective: Determine the various closures of a relation and apply these to real-world problems.__ 
+
 + Determine the reflexive closure of a relation on a set A. 
 + Determine the symmetric closure of a relation on a set A. 
 + Determine the transitive closure of a relation on a set A using a digraph or a matrix. 
 + Determine the transitive closure of a relation on a set A using Algorithm 1 and using Warshall's Algorithm. 
 
 ### 8.5: Equivalence Relations
+
+__Objective for 8.5 and 8.6: Identify equivalence relations and partial orderings, determine information related to equivalence relations and partial orderings.__ 
 
 + Determine whether a relation on a set is an equivalence relation. 
 + Given an equivalence relation on a set and an element x in that set, determine the equivalence class of x. 
@@ -52,6 +58,8 @@ Will need to review matrices (3.8) and do some Sage work before this.
 ## Chapter 9: Graphs
 
 ### 9.1: Graphs and Graph Models
+
+__Objective for 9.1, 9.2, and 9.3: Represent graphs in multiple ways; use multiple representations of graphs to determine information about the graph; and model real-world networks with graphs.__ 
 
 + Determine whether a given graph is a simple graph, a multigraph, or a pseudograph. (Similarly for directed graphs.) 
 + Use a graph to model a system of interconnected nodes. 
@@ -72,6 +80,8 @@ Will need to review matrices (3.8) and do some Sage work before this.
     
 ### 9.4: Connectivity
 
+__Objective for 9.4 and 9.5: Identify paths and circuits within directed and undirected graphs, especially Euler and Hamilton paths/circuits.__ 
+
 + Find paths and circuits inside both directed and undirected graphs. 
 + Determine if an undirected graph is connected, and find the connected components of a disconnected graph. 
 + Determine if a directed graph is strongly connected or weakly connected. 
@@ -84,6 +94,9 @@ Will need to review matrices (3.8) and do some Sage work before this.
 + Use Dirac's Theorem and Ore's Theorem to draw conclusions about the existence of Hamilton circuits. 
 
 ### 9.6: Shortest-Path Problems
+
+__Objective for 9.6, 9.7, 9.8: Use various algorithms and mathematical results to determine information about shortest paths, planarity, and graph coloring and apply the results to real-world problems.__ 
+
 
 + Determine the length of a path in a weighted graph. 
 + Use Dijkstra's Algorithm to find the shortest path between two vertices in a weighted graph. 
@@ -102,6 +115,8 @@ Will need to review matrices (3.8) and do some Sage work before this.
 
 ### 10.1: Introduction to Trees
 
+__Objective: Identify properties and information about trees.__
+
 + Determine whether a graph is a tree. 
 + Given a tree: 
     * Determine its root, if it has one
@@ -113,6 +128,8 @@ Will need to review matrices (3.8) and do some Sage work before this.
 
 ### 10.2: Applications of Trees
 
+__Objectives for 10.2 and 10.3: Use tree structures to solve problems such as search, information encoding, and parsing logical or mathematical sentences.__ 
+
 + Construct a binary search tree for an ordered set of objects. 
 + Use Algorithm 1 to find and add items into a binary search tree. 
 + Use Huffman coding to encode a list of symbols with associated frequencies. 
@@ -123,6 +140,8 @@ Will need to review matrices (3.8) and do some Sage work before this.
 + Represent a mathematical expression in infix, prefix, and postfix notation. 
 
 ### 10.4: Spanning Trees
+
+__Objective for 10.4 and 10.5: Find spanning trees and minimal spanning trees within a graph.__
 
 + Find a spanning tree within a graph using depth-first and breadth-first search. 
 
@@ -151,6 +170,8 @@ Will need to review matrices (3.8) and do some Sage work before this.
     * Will have to work on this... basic stuff involving lists, dictionaries, loops, conditional statements and logic -- focusing on stuff used in Sage
 
 ### Earlier MTH 225 content
+
+_Note: I don't foresee a module for this content or even spending class time reviewing it. Rather, this would be done through screencasts and out-of-class work._
 
 + 3.8: Matrices 
     * Identify the i-th column, j-th row, and the (i,j)-entry of a matrix. 
