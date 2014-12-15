@@ -90,22 +90,75 @@ Will need to review matrices (3.8) and do some Sage work before this.
 
 ### 9.7: Planar Graphs
 
-+ 
++ Determine whether a graph is planar. If it is, then draw a planar embedding of the graph. 
++ Use Euler's Formula to draw conclusions about the nodes and edges of a planar graph. 
 
 ### 9.8: Graph Coloring
+
++ Determine the chromatic number of a graph. 
++ Apply graph coloring to problems in scheduling and other areas. 
 
 ## Chapter 10: Trees
 
 ### 10.1: Introduction to Trees
+
++ Determine whether a graph is a tree. 
++ Given a tree: 
+    * Determine its root, if it has one
+    * Given a node in the tree, determine its parent and all of its children, siblings, and descendants; and determine whether the node is a leaf or an internal vertex
+    * Determine whether it is a full $m$-ary tree for some integer $m$
++ Given a binary tree and a node within the tree, find the left and right children of that node and the left and right subtrees at those children. 
++ Use trees to model various kinds of networks.
++ Use the formulas in the "Properties of Trees" subsection to draw conclusions about the edges and nodes in a tree. 
+
 ### 10.2: Applications of Trees
+
++ Construct a binary search tree for an ordered set of objects. 
++ Use Algorithm 1 to find and add items into a binary search tree. 
++ Use Huffman coding to encode a list of symbols with associated frequencies. 
+
 ### 10.3: Tree Traversal
+
++ Perform preorder, postorder, and inorder traversals of an ordered rooted tree. 
++ Represent a mathematical expression in infix, prefix, and postfix notation. 
+
 ### 10.4: Spanning Trees
+
++ Find a spanning tree within a graph using depth-first and breadth-first search. 
+
 ### 10.5: Minimum Spanning Trees
+
++ Find a minimum spanning tree in a connected weighted graph using Prim's algorithm. 
++ Find a minimum spanning tree in a connected weighted graph using Kruskal's algorithm.
+
 
 ## Other content 
 
 ### Technological competence 
 
++ Sage and SageMath Cloud setup: 
+    * Set up an account on SageMath Cloud and create projects and folders within the account for different kinds of work. 
+    * Create a Sage notebook in SMC. 
+    * Install Sage locally on your own computer. 
+    * Perform basic arithmetic calculations using Sage. 
+    * [More sage stuff here; suggestions?]
++ Discussion board: 
+    * Create an account on Piazza. 
+    * Create a new post on Piazza. 
+    * Reply to a post on Piazza. 
+    * Tweak your email settings on Piazza to raise/lower the frequency of post digests. 
++ Python: 
+    * Will have to work on this... basic stuff involving lists, dictionaries, loops, conditional statements and logic -- focusing on stuff used in Sage
+
 ### Earlier MTH 225 content
 
 + 3.8: Matrices 
+    * Identify the i-th column, j-th row, and the (i,j)-entry of a matrix. 
+    * Identify the size of a matrix. 
+    * Calculate the sum of two matrices. 
+    * Calculate the product of two matrices. 
+    * Write out the $n \times n$ identity matrix. 
+    * Given a matrix, write out its transpose. 
+    * Determine whether a matrix is symmetric. 
+    * Find the join, meet, and Boolean product of two zero-one matrices. 
+    * Find the r-th Boolean power of a square zero-one matrix.
