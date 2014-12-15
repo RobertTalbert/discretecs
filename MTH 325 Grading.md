@@ -72,8 +72,8 @@ Plus/minus grades: Students opting for grades of B, C, or D can attain plus/minu
     * Earned at least 75% of possible credit on Concept Quizzes. 
     * Passed 5/9 Level 1 learning modules. 
 + If a student earns an F in the course, it means at least one of the following: 
-    * The student did not pass the Getting Started module. 
-    * The student did not pass the Tech Competency module. 
-    * The student passed four or fewer of the nine Level 1 learning modules.
-    * The student earned less than 75% of possible credit on Concept Quizzes. 
+    * The student did not pass the Getting Started module, OR
+    * The student did not pass the Tech Competency module, OR 
+    * The student passed four or fewer of the nine Level 1 learning modules, OR
+    * The student earned less than 75% of possible credit on Concept Quizzes, OR 
     * The student completed fewer than 50% of the Guided Practice with a 2/2 score.
