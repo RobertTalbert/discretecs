@@ -14,5 +14,11 @@ Students in MTH 325 will have the following work available to them:
 
 # Grading scheme
 
-| 
+| | Grade | Needed to earn:                                                                                                                                                                                                                                                |
+|-------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| F     | Fail to meet the requirements for a D.                                                                                                                                                                                                                         |
+| D     | + Complete 50% of Guided Practice assignments with a grade of "2"; AND + Pass five of nine Level 1 learning modules; AND + Earn 60% of possible credit on Concept Quizzes.                                                                                     |
+| C     | + Complete 75% of Guided Practice assignments with a grade of "2"; AND + Earn 75% of possible credit on Concept Quizzes; AND + Pass all nine Level 1 learning modules; AND  + Pass six Timed Modules.                                                          |
+| B     | Complete all the requirements for a C, plus the following:  + Pass four Level 2 learning modules; AND  + Pass three additional Timed Modules (that is, pass all of the timed modules); AND + Successfully complete an Application Project with passing marks.  |
+| A     |                                                                                                                                                                                                                                                                |
 
