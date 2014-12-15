@@ -24,5 +24,5 @@ Each of these modules has three levels. Level 1 consists of basic mechanical com
 + Trees 2: Applications
 + Trees 3: Spanning Trees 
 
-
+9 modules x 3 levels = 27 in all from content. 
 
