@@ -110,6 +110,7 @@ The scheme below shows how to earn an A, B, C, D, or F in the course.
     * Complete an Application Project with passing marks. 
 + __To earn an A, complete all the requirements for a B as well as the following:__ 
     * Pass four additional Level 2 learning modules (for a total of 8 out of 9). 
+    * Pass one additional timed module (for a total of 9 out of 9). 
 
 Note that under this system, each student is allowed to choose the grade that is the most realistic and desirable goal for him or her, and only do the work that is associated with that grade. In other words, each student opts into the grade and the workload that he or she wishes to take on. I encourage each of you to aim high. But if you have given it careful consideration and all you want in the course is a C, then you are an adult and I will respect your wishes -- and the above description shows exactly what you need to do. Once you have met all the criteria in the description for a C, you have earned a "C" -- _no further work will lower that grade_, although there are plenty of opportunities to raise it through additional work. 
 
