@@ -124,7 +124,7 @@ __Objective: Identify properties and information about trees.__
     * Determine whether it is a full $m$-ary tree for some integer $m$
 + Given a binary tree and a node within the tree, find the left and right children of that node and the left and right subtrees at those children. 
 + Use trees to model various kinds of networks.
-+ Use the formulas in the "Properties of Trees" subsection to draw conclusions about the edges and nodes in a tree. 
++ Use the formulas and mathematical results in the "Properties of Trees" subsection to draw conclusions about the edges and nodes in a tree. 
 
 ### 10.2: Applications of Trees
 
