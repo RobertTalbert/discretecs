@@ -10,12 +10,11 @@ In addition to particular specifications that might be given in the Learning Mod
     * Incomplete sentences
     * Subject-verb disagreement 
     * Misuse of punctuation (periods, commas, apostrophes, etc.) 
-    * Use of slang or inappropriate abbreviations (for example, abbreviating "directed graph" as "dir. graph")
-+ Your writing must be clear to a member of the standard audience for this course, which is assumed to be __a peer in MTH 325 who is knowledgeable of the content of the course but who may not be familiar with what you are writing about.__ 
++ Your writing must be clear to a member of the __standard audience__ for MTH 325, which is assumed to be __a peer in MTH 325 who is knowledgeable of the content of the course but who may not be familiar with what you are writing about.__ 
 
 # Specifications for mathematical writing
 
-When writing a solution to a mathematical problem, or writing a narrative that contains significant mathematical notation in it, your work should abide by the general specifications for writing above _and_ the following: 
+When writing a solution to a mathematical problem, or writing a narrative that contains significant mathematical work in it, your work should abide by the general specifications for writing above _and_ the following: 
 
 + The solution to a mathematical problem must be correct, and the steps in the solution must also be correct. (So, getting a right answer by sheer coincidence when the solution is wrong is not acceptable.)
 + Solutions to mathematical problems should be framed as efforts to persuade a member of the standard MTH 325 audience (above) that your solution and answers are correct. This means among other things that 
@@ -23,12 +22,12 @@ When writing a solution to a mathematical problem, or writing a narrative that c
     * Your writing must keep the reader informed at all times. For example, if you are about to perform a computation, explain what you are going to do first in a short sentence. Also there must be a clear indicator of when the solution is finished. 
 + Additionally, mathematical writing should abide by the following format specifications: 
     * Sentences should not begin with variables. (Wrong: "deg(v) represents the degree of a vertex." Right: "We denote by deg(v) the degree of a vertex.")
-    * If the answer to a problem involves units, correct units must be attached to the answer. 
     * If a problem has multiple parts, the solution must be written up in multiple parts. 
-    * Mathematical notation is not to be used to replace wording in an English sentence. (Wrong: "We can see that the degree of this vertex = 5." Right: "We can see that the degree of this vertex equals 5.")
     * Use the equals sign "=" only for connecting two objects that are actually equal, not as an indicator of a step in a solution. 
     * Do not use * for multiplication or ^ for exponents. 
     * If you introduce a variable in a solution, you must first clearly state what that variable represents and then stick with that variable name throughout the solution. 
+    * Mathematical notation is not to be used to replace wording in an English sentence. (Wrong: "We can see that the degree of this vertex = 5." Right: "We can see that the degree of this vertex equals 5.")
+    * If the answer to a problem involves units, correct units must be attached to the answer. 
 
 
 # Specifications for mathematical proof
