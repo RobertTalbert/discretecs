@@ -1,0 +1,35 @@
+Guided Practice for MTH 325: Section 8.3
+========================================
+
+## Overview 
+
+We've learned that relations are an important and useful tool for modeling all kinds of "connected networks" in real life. To make them useful for computer science, we need different __representations__ of relations, and that's the focus of section 8.3. We will learn how to represent relations as _zero-one matrices_, as _directed graphs_ ("digraphs"), and as an extra not found in the textbook, we'll learn how the Python programming language -- and therefore the Sage mathematical software -- represents relations as a data structure known as a _dictionary_. We'll see how different representations of relations make it easier to discover information and properties of the relation. 
+
+## Learning Objectives in this section
+
++ CC.2: State the definitions of the following terms: Directed graph (digraph); initial and terminal nodes (vertices) of an edge in a digraph
++ CC.3: Given a relation represented as a matrix or a digraph, determine whether two elements are related. 
++ M.3 (CORE): Given a relation represented as a set of pairs, a symbolic relationship, a matrix, or a directed graph, convert it to another representation. 
++ M.4: Find matrices representing the union, intersection, and composition of two relations. 
+
+## Resources for learning
+
+This section requires some knowledge of _matrices_ and _Python dictionaries_. The following videos cover "just enough to be dangerous" on these topics. If you are fluent with these topics, the videos can be skipped. Otherwise watch. 
+
++ Constructing the zero-one matrix for a relation
++ The join and meet operations on zero-one matrices 
++ The Boolean product on zero-one matrices 
++ Python dictionaries
++ Representing a relation as a Python dictionary
+
+Once you've familiarized yourself with matrices and Python dictionaries, __read through Section 8.3 in Rosen__. 
+
+There are no other curated videos for this section, but Google is your friend if you want to look for more. 
+
+## Activities 
+
+The following activities are designed to help you "get your hands dirty" with the material from the section. You are not expected to get correct results on all of these. You _are_ expected to give a good-faith effort to each item, and you are expected to come to class with specific questions about what you've been working on so that we can discuss them as a group. 
+
+Work each of these items out in your notes. Put the final answers for each in the Google Form that is linked at the bottom of this page. 
+
+1. 

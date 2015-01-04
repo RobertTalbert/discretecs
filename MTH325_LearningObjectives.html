@@ -1,0 +1,238 @@
+<h1 id="learning-objectives-for-mth-325-discrete-mathematics-for-computer-science-2">Learning Objectives for MTH 325: Discrete Mathematics for Computer Science 2</h1>
+<p>This document can also be found online:</p>
+<ul>
+<li>At the course Blackboard site under <code>Course Documents &gt; MTH 325 Learning Objectives</code></li>
+<li>On Github Gists at: <a href="https://gist.github.com/RobertTalbert/00b1103d27c6e00c9b73">https://gist.github.com/RobertTalbert/00b1103d27c6e00c9b73</a></li>
+<li>On the MTH 325 Github repository</li>
+</ul>
+<p>Legend:</p>
+<ul>
+<li>CC = Learning objectives to be assessed through Concept Checks.</li>
+<li>M = Learning objectives to be assessed through Learning Modules.</li>
+<li>(CORE) = Learning objectives designated as belonging to the 20 CORE-M learning objectives for Modules, assessed during timed assessment periods.</li>
+</ul>
+<h1 id="mth-325-learning-objectives-in-order-of-appearance">MTH 325 Learning Objectives in order of appearance</h1>
+<h2 id="chapter-8-relations">Chapter 8: Relations</h2>
+<h3 id="relations-and-their-properties">8.1: Relations and their properties</h3>
+<ul>
+<li>CC.1: State the definitions of the following terms: binary relation from A to B; relation on a set A; reflexive relation; symmetric relation; antisymmetric relation; transitive relation; composite of two relations.</li>
+<li>M.1 (CORE): Determine whether a given relation is reflexive, symmetric, antisymmetric, or transitive.</li>
+<li>M.2 (CORE): Given a relation from A to B and a relation from B to C, determine the ordered pairs in the composite of the two relations.</li>
+</ul>
+<h3 id="representing-relations">8.3: Representing Relations</h3>
+<ul>
+<li>CC.2: State the definitions of the following terms: Directed graph (digraph); initial and terminal nodes (vertices) of an edge in a digraph</li>
+<li>CC.3: Given a relation represented as a matrix or a digraph, determine whether two elements are related.</li>
+<li>M.3 (CORE): Given a relation represented as a set of pairs, a symbolic relationship, a matrix, or a directed graph, convert it to another representation.</li>
+<li>M.4: Find matrices representing the union, intersection, and composition of two relations.</li>
+</ul>
+<p><em>Note</em>: Objective M.1 from Section 8.1 will be assessed using different representations of relations.</p>
+<h3 id="closures-of-relations">8.4: Closures of Relations</h3>
+<ul>
+<li>CC.4: State the definitions of the following terms: Transitive closure; reflexive closure; diagonal relation on A; symmetric closure; path between two nodes in a digraph; length of a path; circuit or cycle in a digraph; connectivity relation.</li>
+<li>CC.5: Identify paths and circuits in a digraph.</li>
+<li>M.5: Determine the reflexive and symmetric closures of a relation on a set.</li>
+<li>M.6: Apply Theorem 1 to determine whether a pair of points belongs to R^n where R is a relation; conversely use Theorem 1 to interpret membership in R^n in terms of paths in digraphs.</li>
+<li>M.7 (CORE): Determine the transitive closure of a relation using Algorithm 1 and using Warshall's Algorithm, and explain the practical significance of the transitive closure of a relation.</li>
+</ul>
+<h3 id="equivalence-relations">8.5: Equivalence Relations</h3>
+<ul>
+<li>CC.6: State the definitions of the following terms: Equivalence relation; equivalence class; partition of a set.</li>
+<li>CC.7: Given an equivalence relation on a set A, determine if two elements of A belong to the same equivalence class.</li>
+<li>M.8 (CORE): Determine whether a relation on a set is an equivalence relation.</li>
+<li>M.9 (CORE): Given an equivalence relation on a set A and a point x in A, determine the equivalence class of x.</li>
+<li>M.10: Given an equivalence relation on a set, determine a partition of the set using the equivalence relation. Conversely, given a partition of a set, use it to define an equivalence relation on that set.</li>
+</ul>
+<h3 id="partial-orderings">8.6 Partial Orderings</h3>
+<ul>
+<li>CC.8: State the definitions of the following terms: Partial ordering; partially ordered set (poset); comparable elements in a poset; totally ordered set; total ordering; well-ordered set; lexicorgaphic ordering; maximal, minimal, greatest, and least elements of a poset; upper bound, lower bound, least upper bound, and greatest lower bound of a subset of a poset; lattice.</li>
+<li>CC.9: Given a poset, determine whether two elements are comparable; find the maximal, minimal, greatest, and least elements; and find the upper bound, lower bound, least upper bound, and greatest lower bound of a subset of a poset.</li>
+<li>CC.10: Draw the Hasse diagram for a poset.</li>
+<li>M.11 (CORE): Determine whether a relation on a set is a partial ordering or total ordering, and whether the set is a lattice under the relation.</li>
+<li>M.12 (CORE): Use the topological sorting algorithm to find a compatible total ordering for a poset.</li>
+</ul>
+<h2 id="chapter-9-graphs">Chapter 9: Graphs</h2>
+<h3 id="graphs-and-graph-models">9.1: Graphs and Graph Models</h3>
+<ul>
+<li>CC.11: State the definitions of the following terms: Graph; nodes; edges; simple graph; multigraph; pseudograph; undirected and directed graph.</li>
+<li>M.13 (CORE): Use a graph to model a system of interconnected nodes.</li>
+</ul>
+<h3 id="graph-terminology-and-special-kinds-of-graphs">9.2: Graph Terminology and Special Kinds of Graphs</h3>
+<ul>
+<li>CC.12: State the definitions of the following terms: Adjacent nodes; incident; degree of a vertex in an undirected graph; initial and terminal vertices of a directed edge; in-degree and out-degree of a vertex in a digraph; complete graph on n vertices; cycle graph; wheel graph; n-cube graph; bipartite graph; complete bipartite graph; subgraph.</li>
+<li>CC.13: Given an undirected graph, determine if two nodes are adjacent; determine if an edge is incident with two nodes; and find the degree of a vertex.</li>
+<li>CC.14: Given a directed graph, determine if two notes are adjacent from each other; and find the in- and out-degree of a vertex.</li>
+<li>CC.15: Draw examples of the cycle, wheel, n-cube, and complete bipartite graphs.</li>
+<li>CC.16: State the Handshaking Theorem and Theorem 2.</li>
+<li>M.14: Explain how the Handshaking Theorem is proven and how it is used to prove Theorem 2.</li>
+<li>M.15 (CORE): Use the Handshaking Theorem and Theorem 2 to draw conclusions about edges and nodes in a graph.</li>
+</ul>
+<h3 id="representing-graphs-and-graph-isomorphism">9.3: Representing Graphs and Graph Isomorphism</h3>
+<ul>
+<li>CC.17: State the definitions of the following terms: Isomorphic graphs; isomorphism of graphs.</li>
+<li>CC.18: Given a graph represented as an adjacency list, Python dictionary, adjacency matrix, or incidence matrix, determine whether two nodes are connected and calculate the degree of a node.</li>
+<li>M.16 (CORE): Given a graph represented as an adjacency list, Python dictionary, adjacency matrix, or incidence matrix, write it in one of the other representations and use the representation to determine information about the graph.</li>
+<li>M.17: Determine whether two graphs are isomorphic; if they are, state the isomorphism.</li>
+</ul>
+<h3 id="connectivity">9.4: Connectivity</h3>
+<ul>
+<li>CC.19: State the definitions of the following terms: Path of length n (undirected and directed versions); circuit (undirected and directed versions); simple path/circuit; connected (undirected) graph; connected component of a graph; strongly connected digraph; weakly connected digraph</li>
+<li>CC.20: Given a graph (directed or undirected), find a path of a specified length, and find a circuit.</li>
+<li>M.18 (CORE): Determine if an undirected graph is connected, and find the connected components of a disconnected graph.</li>
+<li>M.19: Determine the number of paths of length <span class="math"><em>r</em></span> between two nodes in a graph by using the graph's adjacency matrix.</li>
+</ul>
+<h3 id="euler-and-hamilton-paths">9.5: Euler and Hamilton Paths</h3>
+<ul>
+<li>CC.21: State the definitions of the following terms: Euler circuit; Euler path; Hamilton path; Hamilton circuit.</li>
+<li>CC.22: State Dirac's Theorem and Ore's Theorem.</li>
+<li>CC.23: State whether a given path or circuit in a graph is Eulerian or Hamiltonian.</li>
+<li>M.20 (CORE): Determine whether a graph (directed or undirected) has an Euler path or an Euler circuit, or a Hamilton path or Hamilton circuit.</li>
+<li>M.21 (CORE): Use Dirac's Theorem and Ore's Theorem to draw conclusions about the existence of Hamilton circuits.</li>
+</ul>
+<h3 id="shortest-path-problems">9.6: Shortest-Path Problems</h3>
+<ul>
+<li>CC.24: Find the length (total weight) of a path in a weighted graph.</li>
+<li>M.22: Use Dijkstra's Algorithm to find the shortest path in a weighted graph.</li>
+</ul>
+<h3 id="planar-graphs">9.7: Planar Graphs</h3>
+<ul>
+<li>CC.25: State the definitions of the following terms: Planar graph.</li>
+<li>CC.26: State Euler's formula and use it to determine information about regions, nodes, or edges in a connected planar simple graph.</li>
+<li>M.23 (CORE): Use the three Corollaries to Euler's Formula to determine information about the planarity of a graph or about nodes or edges in a planar graph.</li>
+</ul>
+<h3 id="graph-coloring">9.8: Graph Coloring</h3>
+<ul>
+<li>CC.27: State the definitions of the following terms: Coloring of a simple graph; chromatic number of a graph.</li>
+<li>CC.28: Given a simple graph, find a coloring of the graph using a specified number of colors.</li>
+<li>CC.29: State the Four Color Theorem.</li>
+<li>M.24 (CORE): Determine the chromatic number of a graph.</li>
+<li>M.25: Apply graph coloring to problems in scheduling and other related area.</li>
+</ul>
+<h2 id="chapter-10-trees">Chapter 10: Trees</h2>
+<h3 id="introduction-to-trees">10.1: Introduction to Trees</h3>
+<ul>
+<li>CC.30: State the definitions of the following terms: tree, rooted tree; m-ary (and binary) tree; full m-ary tree.</li>
+<li>CC.31: Given a tree, do the following: Determine its root, if it has one; Given a node in the tree, determine its parent and all of its children, siblings, and descendants, and determine whether the node is a leaf or an internal vertex; and state whether the tree is m-ary or full m-ary for some integer m.</li>
+<li>CC.32: Given a binary tree and a node, find the left and right children of that node and the left and right subtrees at those children.</li>
+<li>M.26: Use trees to model various kinds of networks.</li>
+<li>M.27: Use the formulas in the &quot;Properties of Trees&quot; subsection to draw conclusions about the edges and nodes in a tree.</li>
+</ul>
+<h3 id="applications-of-trees">10.2: Applications of Trees</h3>
+<ul>
+<li>M.28 (CORE): Construct a binary search tree for an ordered set of objects and then use Algorithm 1 to find and add items into the binary search tree.</li>
+<li>M.29: Use Huffman coding to encode a list of symbols with associated frequencies.</li>
+</ul>
+<h3 id="tree-traversal">10.3: Tree Traversal</h3>
+<ul>
+<li>CC.33: Perform preorder, postorder, and inorder traversals of an ordered rooted tree.</li>
+<li>M.30: Represent and evalaute a mathematical expression in infix, prefix, and postfix notation.</li>
+</ul>
+<h3 id="spanning-trees">10.4: Spanning Trees</h3>
+<ul>
+<li>CC.34: State the definition of the term <em>spanning tree</em> and identify whether a subgraph of a given graph is or is not a spanning tree.</li>
+<li>M.31 (CORE): Find a spanning tree within a graph using depth-first and breadth-first search.</li>
+</ul>
+<h3 id="minimum-spanning-trees">10.5: Minimum Spanning Trees</h3>
+<ul>
+<li>CC.35: State the definition of the term <em>minimum spanning tree</em> and identify whether a subgraph of a weighted graph is or is not a minimum spanning tree.</li>
+<li>M.32 (CORE): Find a minimum spanning tree in a connected weighted graph using Prim's algorithm.</li>
+<li>M.33 (CORE): Find a minimum spanning tree in a connected weighted graph using Kruskal's algorithm.</li>
+</ul>
+<h1 id="mth-325-learning-objectives-by-type">MTH 325 Learning Objectives by type</h1>
+<h2 id="concept-check-cc-objectives">Concept Check (CC) objectives</h2>
+<ul>
+<li>CC.1: State the definitions of the following terms: binary relation from A to B; relation on a set A; reflexive relation; symmetric relation; antisymmetric relation; transitive relation; composite of two relations.</li>
+<li>CC.2: State the definitions of the following terms: Directed graph (digraph); initial and terminal nodes (vertices) of an edge in a digraph</li>
+<li>CC.3: Given a relation represented as a matrix or a digraph, determine whether two elements are related.</li>
+<li>CC.4: State the definitions of the following terms: Transitive closure; reflexive closure; diagonal relation on A; symmetric closure; path between two nodes in a digraph; length of a path; circuit or cycle in a digraph; connectivity relation.</li>
+<li>CC.5: Identify paths and circuits in a digraph.</li>
+<li>CC.6: State the definitions of the following terms: Equivalence relation; equivalence class; partition of a set.</li>
+<li>CC.7: Given an equivalence relation on a set A, determine if two elements of A belong to the same equivalence class.</li>
+<li>CC.8: State the definitions of the following terms: Partial ordering; partially ordered set (poset); comparable elements in a poset; totally ordered set; total ordering; well-ordered set; lexicorgaphic ordering; maximal, minimal, greatest, and least elements of a poset; upper bound, lower bound, least upper bound, and greatest lower bound of a subset of a poset; lattice.</li>
+<li>CC.9: Given a poset, determine whether two elements are comparable; find the maximal, minimal, greatest, and least elements; and find the upper bound, lower bound, least upper bound, and greatest lower bound of a subset of a poset.</li>
+<li>CC.10: Draw the Hasse diagram for a poset.</li>
+<li>CC.11: State the definitions of the following terms: Graph; nodes; edges; simple graph; multigraph; pseudograph; undirected and directed graph.</li>
+<li>CC.12: State the definitions of the following terms: Adjacent nodes; incident; degree of a vertex in an undirected graph; initial and terminal vertices of a directed edge; in-degree and out-degree of a vertex in a digraph; complete graph on n vertices; cycle graph; wheel graph; n-cube graph; bipartite graph; complete bipartite graph; subgraph.</li>
+<li>CC.13: Given an undirected graph, determine if two nodes are adjacent; determine if an edge is incident with two nodes; and find the degree of a vertex.</li>
+<li>CC.14: Given a directed graph, determine if two notes are adjacent from each other; and find the in- and out-degree of a vertex.</li>
+<li>CC.15: Draw examples of the cycle, wheel, n-cube, and complete bipartite graphs.</li>
+<li>CC.16: State the Handshaking Theorem and Theorem 2.</li>
+<li>CC.17: State the definitions of the following terms: Isomorphic graphs; isomorphism of graphs.</li>
+<li>CC.18: Given a graph represented as an adjacency list, Python dictionary, adjacency matrix, or incidence matrix, determine whether two nodes are connected and calculate the degree of a node.</li>
+<li>CC.19: State the definitions of the following terms: Path of length n (undirected and directed versions); circuit (undirected and directed versions); simple path/circuit; connected (undirected) graph; connected component of a graph; strongly connected digraph; weakly connected digraph</li>
+<li>CC.20: Given a graph (directed or undirected), find a path of a specified length, and find a circuit.</li>
+<li>CC.21: State the definitions of the following terms: Euler circuit; Euler path; Hamilton path; Hamilton circuit.</li>
+<li>CC.22: State Dirac's Theorem and Ore's Theorem.</li>
+<li>CC.23: State whether a given path or circuit in a graph is Eulerian or Hamiltonian.</li>
+<li>CC.24: Find the length (total weight) of a path in a weighted graph.</li>
+<li>CC.25: State the definitions of the following terms: Planar graph.</li>
+<li>CC.26: State Euler's formula and use it to determine information about regions, nodes, or edges in a connected planar simple graph.</li>
+<li>CC.27: State the definitions of the following terms: Coloring of a simple graph; chromatic number of a graph.</li>
+<li>CC.28: Given a simple graph, find a coloring of the graph using a specified number of colors.</li>
+<li>CC.29: State the Four Color Theorem.</li>
+<li>CC.30: State the definitions of the following terms: tree, rooted tree; m-ary (and binary) tree; full m-ary tree.</li>
+<li>CC.31: Given a tree, do the following: Determine its root, if it has one; Given a node in the tree, determine its parent and all of its children, siblings, and descendants, and determine whether the node is a leaf or an internal vertex; and state whether the tree is m-ary or full m-ary for some integer m.</li>
+<li>CC.32: Given a binary tree and a node, find the left and right children of that node and the left and right subtrees at those children.</li>
+<li>CC.33: Perform preorder, postorder, and inorder traversals of an ordered rooted tree.</li>
+<li>CC.34: State the definition of the term <em>spanning tree</em> and identify whether a subgraph of a given graph is or is not a spanning tree.</li>
+<li>CC.35: State the definition of the term <em>minimum spanning tree</em> and identify whether a subgraph of a weighted graph is or is not a minimum spanning tree.</li>
+</ul>
+<h2 id="module-m-objectives">Module (M) Objectives</h2>
+<ul>
+<li>M.1: Determine whether a given relation is reflexive, symmetric, antisymmetric, or transitive.</li>
+<li>M.2: Given a relation from A to B and a relation from B to C, determine the ordered pairs in the composite of the two relations.</li>
+<li>M.3: Given a relation represented as a set of pairs, a symbolic relationship, a matrix, or a directed graph, convert it to another representation.</li>
+<li>M.4: Find matrices representing the union, intersection, and composition of two relations.</li>
+<li>M.5: Determine the reflexive and symmetric closures of a relation on a set.</li>
+<li>M.6: Apply Theorem 1 to determine whether a pair of points belongs to R^n where R is a relation; conversely use Theorem 1 to interpret membership in R^n in terms of paths in digraphs.</li>
+<li>M.7: Determine the transitive closure of a relation using Algorithm 1 and using Warshall's Algorithm, and explain the practical significance of the transitive closure of a relation.</li>
+<li>M.8: Determine whether a relation on a set is an equivalence relation.</li>
+<li>M.9: Given an equivalence relation on a set A and a point x in A, determine the equivalence class of x.</li>
+<li>M.10: Given an equivalence relation on a set, determine a partition of the set using the equivalence relation. Conversely, given a partition of a set, use it to define an equivalence relation on that set.</li>
+<li>M.11: Determine whether a relation on a set is a partial ordering or total ordering, and whether the set is a lattice under the relation.</li>
+<li>M.12: Use the topological sorting algorithm to find a compatible total ordering for a poset.</li>
+<li>M.13: Use a graph to model a system of interconnected nodes.</li>
+<li>M.14: Explain how the Handshaking Theorem is proven and how it is used to prove Theorem 2.</li>
+<li>M.15: Use the Handshaking Theorem and Theorem 2 to draw conclusions about edges and nodes in a graph.</li>
+<li>M.16: Given a graph represented as an adjacency list, Python dictionary, adjacency matrix, or incidence matrix, write it in one of the other representations and use the representation to determine information about the graph.</li>
+<li>M.17: Determine whether two graphs are isomorphic; if they are, state the isomorphism.</li>
+<li>M.18: Determine if an undirected graph is connected, and find the connected components of a disconnected graph.</li>
+<li>M.19: Determine the number of paths of length <span class="math"><em>r</em></span> between two nodes in a graph by using the graph's adjacency matrix.</li>
+<li>M.20: Determine whether a graph (directed or undirected) has an Euler path or an Euler circuit, or a Hamilton path or Hamilton circuit.</li>
+<li>M.21: Use Dirac's Theorem and Ore's Theorem to draw conclusions about the existence of Hamilton circuits.</li>
+<li>M.23: Use the three Corollaries to Euler's Formula to determine information about the planarity of a graph or about nodes or edges in a planar graph.</li>
+<li>M.24: Determine the chromatic number of a graph.</li>
+<li>M.25: Apply graph coloring to problems in scheduling and other related area.</li>
+<li>M.26: Use trees to model various kinds of networks.</li>
+<li>M.27: Use the formulas in the &quot;Properties of Trees&quot; subsection to draw conclusions about the edges and nodes in a tree.</li>
+<li>M.28: Construct a binary search tree for an ordered set of objects and then use Algorithm 1 to find and add items into the binary search tree.</li>
+<li>M.29: Use Huffman coding to encode a list of symbols with associated frequencies.</li>
+<li>M.30: Represent and evalaute a mathematical expression in infix, prefix, and postfix notation.</li>
+<li>M.31: Find a spanning tree within a graph using depth-first and breadth-first search.</li>
+<li>M.32: Find a minimum spanning tree in a connected weighted graph using Prim's algorithm.</li>
+<li>M.33: Find a minimum spanning tree in a connected weighted graph using Kruskal's algorithm.</li>
+</ul>
+<h2 id="core-module-core-m-objectives">CORE Module (CORE-M) Objectives</h2>
+<p>This is a subset of the M Objectives. These will be assessed both in Learning Modules and in timed assessments. There are 20 of these.</p>
+<ul>
+<li>M.1: Determine whether a given relation is reflexive, symmetric, antisymmetric, or transitive.</li>
+<li>M.2: Given a relation from A to B and a relation from B to C, determine the ordered pairs in the composite of the two relations.</li>
+<li>M.3: Given a relation represented as a set of pairs, a symbolic relationship, a matrix, or a directed graph, convert it to another representation.</li>
+<li>M.7: Determine the transitive closure of a relation using Algorithm 1 and using Warshall's Algorithm, and explain the practical significance of the transitive closure of a relation.</li>
+<li>M.8: Determine whether a relation on a set is an equivalence relation.</li>
+<li>M.9: Given an equivalence relation on a set A and a point x in A, determine the equivalence class of x.</li>
+<li>M.11: Determine whether a relation on a set is a partial ordering or total ordering, and whether the set is a lattice under the relation.</li>
+<li>M.12: Use the topological sorting algorithm to find a compatible total ordering for a poset.</li>
+<li>M.13: Use a graph to model a system of interconnected nodes.</li>
+<li>M.15: Use the Handshaking Theorem and Theorem 2 to draw conclusions about edges and nodes in a graph.</li>
+<li>M.16: Given a graph represented as an adjacency list, Python dictionary, adjacency matrix, or incidence matrix, write it in one of the other representations and use the representation to determine information about the graph.</li>
+<li>M.18: Determine if an undirected graph is connected, and find the connected components of a disconnected graph.</li>
+<li>M.20: Determine whether a graph (directed or undirected) has an Euler path or an Euler circuit, or a Hamilton path or Hamilton circuit.</li>
+<li>M.21: Use Dirac's Theorem and Ore's Theorem to draw conclusions about the existence of Hamilton circuits.</li>
+<li>M.23: Use the three Corollaries to Euler's Formula to determine information about the planarity of a graph or about nodes or edges in a planar graph.</li>
+<li>M.24: Determine the chromatic number of a graph.</li>
+<li>M.28: Construct a binary search tree for an ordered set of objects and then use Algorithm 1 to find and add items into the binary search tree.</li>
+<li>M.31: Find a spanning tree within a graph using depth-first and breadth-first search.</li>
+<li>M.32: Find a minimum spanning tree in a connected weighted graph using Prim's algorithm.</li>
+<li>M.33: Find a minimum spanning tree in a connected weighted graph using Kruskal's algorithm.</li>
+</ul>

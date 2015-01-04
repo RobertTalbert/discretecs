@@ -1,0 +1,54 @@
+MTH 325 second day plans 
+======================
+
+## MTH 325
+
++ Welcome to new people; recap of what we did and what you should have
++ Road map for today: Demo of SageMath Cloud followed by practice looking at student work and classifying whether it's passing or not
++ Sage and SMC
+	* Sage = Free open source computer algebra system
+	* SMC = Cloud based platform for scientific computation, including iPython notebooks, Sage notebooks, LaTeX documents
+	* Get out laptops, tablets -- go to cloud.sagemath.com
+	* ASAP: Sign up for an account and set it up according to the specs in the Tech Competency learning module; download and install Sage 
+	* Set up a new Sage notebook 
++ Sage notebooks
+	* Point out toolbars
++ Sage as a calculator
+	* Do basic arithmetic -- hit shift-enter to execute calculations
+	* Each area is a CELL
+	* To enter in a new cell in a particular location -- click the gray bar
+	* Do 11/5, note that it does NOT return a decimal. Try 11/5 + 14/9
+	* Methods: Objects in Sage have methods or function associated to them. Example: 199.divisors(), 199.sqrt(), 199.sqrt().n(), 199.is_prime()
+	* Pick an integer, try tab completion
+	* Most methods can also be done as functions: is_prime(199) 
++ Programming with Sage
+	* Sage is built on Python and if you know Python then most programming constructions work in Sage. If you don't know Python, you'll be picking up some basic syntax throughout the course. 
+	* Variable assignment using = 
+	* Boolean values, == for equality comparison
+	* Lists
+		- Use brackets [ ] 
+		- Or use range 
+		- List methods 
+	* if statements 
+	* for loops
++ A quick program: Generate a list of prime numbers that are less than are equal to a given input. 
+
+```prime_list = [ ]
+for i in range(2,1000):
+    if is_prime(i):
+        prime_list.append(i)
+```
+
+Make it more interactive by setting a variable for the top number
+
++ Things you can do with this notebook
+	* Share with a public link
+	* Rename and move 
+	* Chat with collaborators
+	* Export 
+
+You'll learn much more during the Tech Competency module. 
+
++ Training session with clickers and categorizing student work
++ Ending: No class on Friday; two modules coming due soon and notice that you can earn extra tokens on these for early completion. Also guided practice for Monday. 
+
