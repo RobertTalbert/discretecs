@@ -1,0 +1,42 @@
+Guided Practice for MTH 325: Section 8.6
+========================================
+
+## Overview 
+
+In this final section in our study of relations, we introduce the concept of _partial ordering_, a simple idea with many ramifications in computer science. A partial ordering is simply an abstraction of several instances of "ordering" that you've known for years, such as "less than or equal to" or "subset of". They are special kinds of relations on a set that yield important related data structures such as the _partially ordered set_ (or "poset") and the _lattice_. After defining a partial ordering and a poset, and what it means for two elements in a poset to be _comparable_, we'll look at the related ideas of _total orderings_ and _well-orderings_; we'll see how to visualize partial orderings using a _Hasse diagram_; discuss _maximal_ and _minimal elements_ in a poset, and finally study a sorting algorithm called _topological sorting_ that is based on partially ordered sets. 
+
+## Learning Objectives in this section
+
+__Note:__ There is a disproportionate amount of definitions and terminology in this section. Flash cards are recommended for memorizing these. 
+
++ CC.8: State the definitions of the following terms: Partial ordering; partially ordered set (poset); comparable elements in a poset; totally ordered set; total ordering; well-ordered set; lexicorgaphic ordering; maximal, minimal, greatest, and least elements of a poset; upper bound, lower bound, least upper bound, and greatest lower bound of a subset of a poset; lattice.
++ CC.9: Given a poset, determine whether two elements are comparable; find the maximal, minimal, greatest, and least elements; and find the upper bound, lower bound, least upper bound, and greatest lower bound of a subset of a poset. 
++ CC.10: Draw the Hasse diagram for a poset. 
++ M.11 (CORE): Determine whether a relation on a set is a partial ordering or total ordering, and whether the set is a lattice under the relation. 
++ M.12 (CORE): Use the topological sorting algorithm to find a compatible total ordering for a poset. 
+
+## Resources for learning
+
+For basic preparation, please read __all of Section 8.6__ in the Rosen textbook. 
+
+Here are some other resources that can supplement your basic reading: 
+
++ [This video](https://www.youtube.com/watch?v=hQweMQ7usmU) (9:03) discusses both equivalence relations and partial orderings. The partial ordering material begins at 3:00. (The equivalence relation material makes a good review but isn't necessary for this lesson.)
++ [This video](https://www.youtube.com/watch?v=iTE4GT3tUE0) (14:16) is longer and goes into more depth, with more examples of partial orderings. It also discusses _total orderings_ (not discussed in the first video). 
++ [This short video](https://www.youtube.com/watch?v=aznep8vARBk) (2:05) is an example on how to create a Hasse diagram. 
++ [Here is another video](http://www.showme.com/sh/?h=dVJDmSG) (1:42) on how to create a Hasse diagram (although the presenter badly mispronounces "Hasse"). 
+
+## Activities 
+
+As always, work out the activities below in your notes for future reference and questions. Then go to the submission form at: 
+
+[http://bit.ly/1wznaKh](http://bit.ly/1wznaKh)
+
+and put your answers in the indicated areas. There is a link to a Google Form at which you can leave and upvote any questions you have on what you've read and worked with; your answers will help set the agenda for the class meeting. 
+
+1. At the submission form, you'll be given five relations on the set {0,1,2,3}. Check all the ones that are partial orderings. For any that are _not_ partial orderings, in your notes list the property or properties that they lack. 
+2. Are any of the partial orderings in the first question also _total_ orderings? If so, which ones? 
+3. In Example 14, you are asked to think about the partially ordered set ("poset") given by {2,4,5,10,12,20,25} with the relation of "divides". (This relation and the fact that it is a partial ordering is discussed extensively in the book and the videos.) Note that a Hasse diagram for this poset is given in Figure 5. In your own words, why are 12, 20, and 25 maximal elements? 
+4. In the previous question, the elements 12, 20, and 25 are maximal elements of the poset to which they belong. However, _none_ of these are "greatest elements" of the poset according to the definition of "greatest element". Why not? 
+5. In Example 18, a poset and its Hasse diagram are given. The example says that the element "h" is an upper bound of the set {a,b,c}. Explain in your own words why this is true. Also, of the four upper bounds of this set, is there a least upper bound? If so, what is it, and why? 
+

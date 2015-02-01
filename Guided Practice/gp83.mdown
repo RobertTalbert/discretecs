@@ -14,13 +14,13 @@ We've learned that relations are an important and useful tool for modeling all k
 
 ## Resources for learning
 
-This section requires some knowledge of _matrices_ and _Python dictionaries_. The following videos cover "just enough to be dangerous" on these topics. If you are fluent with these topics, the videos can be skipped. Otherwise watch. 
+This section requires some knowledge of _matrices_ and _Python dictionaries_. A Sage notebook has been prepared that goes over the background material on these topics. You can view it at: 
 
-+ Constructing the zero-one matrix for a relation
-+ The join and meet operations on zero-one matrices 
-+ The Boolean product on zero-one matrices 
-+ Python dictionaries
-+ Representing a relation as a Python dictionary
+[https://cloud.sagemath.com/projects/c3e3cd9e-12ad-4ee9-9c66-d7aed11a3f9d/files/Tutorial:%20Matrices%20and%20Dictionaries.sagews](https://cloud.sagemath.com/projects/c3e3cd9e-12ad-4ee9-9c66-d7aed11a3f9d/files/Tutorial:%20Matrices%20and%20Dictionaries.sagews)
+
+This will open a Sage notebook in your SMC account. If this doesn't work, a non-interactive PDF version is posted on Blackboard. 
+
+This could take a nontrivial amount of time, especially if you are unfamiliar with matrices and matrix multiplication. Please budget at least an hour (possibly split over several days) for this, and ask questions if you have any. 
 
 Once you've familiarized yourself with matrices and Python dictionaries, __read through Section 8.3 in Rosen__. 
 
@@ -30,6 +30,14 @@ There are no other curated videos for this section, but Google is your friend if
 
 The following activities are designed to help you "get your hands dirty" with the material from the section. You are not expected to get correct results on all of these. You _are_ expected to give a good-faith effort to each item, and you are expected to come to class with specific questions about what you've been working on so that we can discuss them as a group. 
 
+1. Consider the relation on the set A = {1, 2, 3, 4} given by the following set of pairs: {(1,1), (2,1), (3,2), (3,3)}. Write a Python dictionary that represents this relation. 
+2. Represent the relation from the first question as a zero-one matrix. To enter this, create a list in which each element is a list that represents a row. For example, the matrix in Example 1 on page 538 would be [[0,0], [1,0], [1,1]]. The matrix in Example 2 would be [[0,1,0,0,0], [1,0,1,1,0], [1,0,1,0,1]]. Rememeber to use square brackets. (We'll learn in class how to manipulate matrices in Sage using this syntax.) 
+3. Consider the relation on A given as the following directed graph: 
+
+![Directed graph](/Users/talbertr/Dropbox/@Projects/Teaching/MTH 325/discretecs/Guided Practice/tmp_IQDGoj.png)
+
+(Notice the small-ish loop on the vertex labelled "1".) Represent this relation as a set of ordered pairs. That is, write down the set consisting of all ordered pairs in the relation. 
+
 Work each of these items out in your notes. Put the final answers for each in the Google Form that is linked at the bottom of this page. 
 
-1. 
+[http://bit.ly/1BWxtfJ](http://bit.ly/1BWxtfJ)

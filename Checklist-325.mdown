@@ -1,0 +1,27 @@
+Checklist for MTH 325 Learning Modules 
+======================================
+
+## STEP 1: CHECK GRAMMAR AND WRITING 
+
+All spelling has been checked for correctness. 
+All incomplete sentences have been repaired. 
+All subject-verb disagreements have been repaired. 
+All incorrect uses of punctuation have been repaired. 
+All mathematical notation is used correctly. 
+All statements are _semantically correct_. 
+
+## STEP 2: CHECK FOR CLARITY AND CORRECTNESS
+
+The work has been thoroughly and objectively reviewed to make sure it is clear, correct, and sensible and therefore appropriate to the standard audience for MTH 325. 
+
+To check this, review the activities we have done in class to gauge Pass versus No Pass work; compare your work with examples from the book; and ask questions of the professor or the Writing Center. 
+
+## STEP 3: CHECK FILE FORMATTING AND SUBMISSION PROCESS
+
+All solutions are arranged in the same order in which they appeared in the Learning Module. 
+Submission is typewritten, all graphical images are computer-generated, and the entire thing is saved as a PDF. 
+The filename of the submission is an _exact_ match to the filename pattern given on the Learning Module form. 
+Your name and your section number (01 or 02) are in the file at the top of the work. 
+The work is attached to an email that is addressed to the right email address: mth325gvsu@gmail.com and _not_ to the instructor's email (talbertr@gvsu.edu).
+The PDF file has actually been attached to the email. 
+

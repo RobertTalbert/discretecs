@@ -1,0 +1,47 @@
+Guided Practice for MTH 325: Section 8.4
+========================================
+
+## Overview 
+
+We've learned so far about _relations_ and some of the properties that they have. In this section, we look at relations that may _fail_ to have certain properties and ask: __What is the smallest number of points/connections we need to add to the relation in order to make the relation have that property?__ For example, a relation may fail to be transitive (like a social network), but we want to determine how we might add more connections into the network in order to make it transitive. The resulting relation that contains the original one, but which now has the desired property, is called a _closure_ of the relation. In this section we study three kinds of closures: the _reflexive_ closure, _symmetric_ closure, and the _transitive_ closure of a relation. 
+
+Of particular interest to us are _computational techniques_ for taking a relation -- represented as a digraph, matrix, list of pairs, or dictionary -- and compute one of its closures. We will look in particular at two algorithms for computing the transitive closure of a relation: one that uses the zero-one matrix for the relation along with the Boolean product, and another called _Warshall's algorithm_ that also uses the matrix representation. 
+
+This is a two-day unit. On day 1, we will study the definitions of the terms involved in the section; methods for finding the reflexive and symmetric closures of a relation; and the relationship between transitive closure and the paths and circuits in a digraph for a relation. On day 2, we will focus on the two special algorithms for finding transitive closure. 
+
+## Learning Objectives in this section
+
++ CC.4: State the definitions of the following terms: Transitive closure; reflexive closure; diagonal relation on A; symmetric closure; path between two nodes in a digraph; length of a path; circuit or cycle in a digraph; connectivity relation. 
++ CC.5: Identify paths and circuits in a digraph. 
++ M.5: Determine the reflexive and symmetric closures of a relation on a set. 
++ M.6: Apply Theorem 1 to determine whether a pair of points belongs to $R^n$ where R is a relation; conversely use Theorem 1 to interpret membership in $R^n$ in terms of paths in digraphs. 
++ M.7 (CORE): Determine the transitive closure of a relation using Algorithm 1 and using Warshall's Algorithm, and explain the practical significance of the transitive closure of a relation. 
+
+## Resources for learning
+
+For basic preparation, please read __all of Section 8.4__ in the Rosen textbook. 
+
+Here are some other resources that can supplement your basic reading: 
+
++ [This is a nice set of PDF lecture notes](http://people.cs.pitt.edu/~adamlee/courses/cs0441/lectures/lecture27-closures.pdf) on closures, that follows your textbook pretty closely and includes a good discussion of the time complexity of the two transitive closure algorithms. 
+
+There are no other curated videos for this section, but Google is your friend if you want to look for more. 
+
+## Activities 
+
+The following activities are designed to help you "get your hands dirty" with the material from the section. You are not expected to get correct results on all of these. You _are_ expected to give a good-faith effort to each item, and you are expected to come to class with specific questions about what you've been working on so that we can discuss them as a group. 
+
+Work out all of the following in your notes, and then put your responses in the form located here: [http://bit.ly/1C2Ivjz](http://bit.ly/1C2Ivjz)
+
+There is also a link to the Google Document we use for asking and upvoting questions, and if you have specific mathematical questions about your work, please add them. 
+
+---
+
+All of the activities below use the relation $R$ on the set $\{1,2,3\}$ given by $R = \{(1,1), (1,2), (2,3), (3,1), (3,3)\}$. As a Python dictionary this is `R = {1:[1,2], 2:[3], 3:[1,3]}`. 
+
+1. Explain why $R$ is not reflexive, not symmetric, and not transitive. (One sentence for each property, giving an example that shows the property is not held.)
+2. In the discussion of reflexive closure in the book, it mentions the _diagonal relation_, $\Delta$. List the three ordered pairs that belong to $\Delta$ in this case. Then compute $R \cup \Delta$ as a list of ordered pairs, and explain why the result equals the reflexive closure. 
+3. In the discussion of symmetric closure in the book, it mentions the relation $R^{-1}$ which consists of all ordered pairs $(b,a)$ such that $(a,b) \in R$. For $R$ given above, write out the five ordered pairs that belong to $R^{-1}$. Then compute $R \cup R^{-1}$ as a list of ordered pairs, and explain why the result equals the symmetric closure.
+4. What additional pair (or pairs) needs to be added to $R$ in order for the resulting relation to be transitive? 
+5. Look at the pair(s) you came up with in the previous question -- that is, the one(s) that needed to be added in order to obtain transitivity. For each of those pairs, look at the numbers in the first and the second coordinate. In a directed graph for $R$, is there a path (not a single edge but a sequence of edges) that connects the two numbers? If so, how long is that path? 
+

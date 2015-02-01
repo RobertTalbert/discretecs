@@ -1,0 +1,42 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta http-equiv="Content-Style-Type" content="text/css" />
+  <meta name="generator" content="pandoc" />
+  <title></title>
+  <style type="text/css">code{white-space: pre;}</style>
+</head>
+<body>
+<h1 id="guided-practice-for-mth-325-section-8.3">Guided Practice for MTH 325: Section 8.3</h1>
+<h2 id="overview">Overview</h2>
+<p>We've learned that relations are an important and useful tool for modeling all kinds of &quot;connected networks&quot; in real life. To make them useful for computer science, we need different <strong>representations</strong> of relations, and that's the focus of section 8.3. We will learn how to represent relations as <em>zero-one matrices</em>, as <em>directed graphs</em> (&quot;digraphs&quot;), and as an extra not found in the textbook, we'll learn how the Python programming language -- and therefore the Sage mathematical software -- represents relations as a data structure known as a <em>dictionary</em>. We'll see how different representations of relations make it easier to discover information and properties of the relation.</p>
+<h2 id="learning-objectives-in-this-section">Learning Objectives in this section</h2>
+<ul>
+<li>CC.2: State the definitions of the following terms: Directed graph (digraph); initial and terminal nodes (vertices) of an edge in a digraph</li>
+<li>CC.3: Given a relation represented as a matrix or a digraph, determine whether two elements are related.</li>
+<li>M.3 (CORE): Given a relation represented as a set of pairs, a symbolic relationship, a matrix, or a directed graph, convert it to another representation.</li>
+<li>M.4: Find matrices representing the union, intersection, and composition of two relations.</li>
+</ul>
+<h2 id="resources-for-learning">Resources for learning</h2>
+<p>This section requires some knowledge of <em>matrices</em> and <em>Python dictionaries</em>. A Sage notebook has been prepared that goes over the background material on these topics. You can view it at:</p>
+<p><a href="https://cloud.sagemath.com/projects/c3e3cd9e-12ad-4ee9-9c66-d7aed11a3f9d/files/Tutorial:%20Matrices%20and%20Dictionaries.sagews">https://cloud.sagemath.com/projects/c3e3cd9e-12ad-4ee9-9c66-d7aed11a3f9d/files/Tutorial:%20Matrices%20and%20Dictionaries.sagews</a></p>
+<p>This will open a Sage notebook in your SMC account. If this doesn't work, a non-interactive PDF version is posted on Blackboard.</p>
+<p>This could take a nontrivial amount of time, especially if you are unfamiliar with matrices and matrix multiplication. Please budget at least an hour (possibly split over several days) for this, and ask questions if you have any.</p>
+<p>Once you've familiarized yourself with matrices and Python dictionaries, <strong>read through Section 8.3 in Rosen</strong>.</p>
+<p>There are no other curated videos for this section, but Google is your friend if you want to look for more.</p>
+<h2 id="activities">Activities</h2>
+<p>The following activities are designed to help you &quot;get your hands dirty&quot; with the material from the section. You are not expected to get correct results on all of these. You <em>are</em> expected to give a good-faith effort to each item, and you are expected to come to class with specific questions about what you've been working on so that we can discuss them as a group.</p>
+<ol style="list-style-type: decimal">
+<li>Consider the relation on the set A = {1, 2, 3, 4} given by the following set of pairs: {(1,1), (2,1), (3,2), (3,3)}. Write a Python dictionary that represents this relation.</li>
+<li>Represent the relation from the first question as a zero-one matrix. To enter this, create a list in which each element is a list that represents a row. For example, the matrix in Example 1 on page 538 would be [[0,0], [1,0], [1,1]]. The matrix in Example 2 would be [[0,1,0,0,0], [1,0,1,1,0], [1,0,1,0,1]]. Rememeber to use square brackets. (We'll learn in class how to manipulate matrices in Sage using this syntax.)</li>
+<li>Consider the relation on A given as the following directed graph:</li>
+</ol>
+<div class="figure">
+<img src="/Users/talbertr/Dropbox/@Projects/Teaching/MTH%20325/discretecs/Guided%20Practice/tmp_IQDGoj.png" alt="Directed graph" /><p class="caption">Directed graph</p>
+</div>
+<p>(Notice the small-ish loop on the vertex labelled &quot;1&quot;.) Represent this relation as a set of ordered pairs. That is, write down the set consisting of all ordered pairs in the relation.</p>
+<p>Work each of these items out in your notes. Put the final answers for each in the Google Form that is linked at the bottom of this page.</p>
+<p><a href="http://bit.ly/1BWxtfJ">http://bit.ly/1BWxtfJ</a></p>
+</body>
+</html>
