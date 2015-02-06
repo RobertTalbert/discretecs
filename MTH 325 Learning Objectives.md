@@ -52,8 +52,8 @@ _Note_: Objective M.1 from Section 8.1 will be assessed using different represen
 
 ### 8.6 Partial Orderings
 
-+ CC.8: State the definitions of the following terms: Partial ordering; partially ordered set (poset); comparable elements in a poset; totally ordered set; total ordering; well-ordered set; lexicorgaphic ordering; maximal, minimal, greatest, and least elements of a poset; upper bound, lower bound, least upper bound, and greatest lower bound of a subset of a poset; lattice.
-+ CC.9: Given a poset, determine whether two elements are comparable; find the maximal, minimal, greatest, and least elements; and find the upper bound, lower bound, least upper bound, and greatest lower bound of a subset of a poset. 
++ CC.8: State the definitions of the following terms: Partial ordering; partially ordered set (poset); comparable elements in a poset; totally ordered set; total ordering; well-ordered set; maximal and minimal elements of a poset.
++ CC.9: Given a poset, determine whether two elements are comparable; and find maximal and minimal elements of a poset. 
 + CC.10: Draw the Hasse diagram for a poset. 
 + M.11 (CORE): Determine whether a relation on a set is a partial ordering or total ordering, and whether the set is a lattice under the relation. 
 + M.12 (CORE): Use the topological sorting algorithm to find a compatible total ordering for a poset. 
