@@ -1,0 +1,47 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta http-equiv="Content-Style-Type" content="text/css" />
+  <meta name="generator" content="pandoc" />
+  <title></title>
+  <style type="text/css">code{white-space: pre;}</style>
+</head>
+<body>
+<h1 id="guided-practice-for-mth-325-section-9.3">Guided Practice for MTH 325: Section 9.3</h1>
+<h2 id="overview">Overview</h2>
+<p>Having introducted graphs, the language of graphs, and several examples of important graphs, we look at two ideas in this section. First we will look at different ways to <em>represent</em> graphs: as adjacency lists, adjacency matrices, incidence matrices, and as dictionaries. Second, with these different means of representing graphs we will look at <em>graph isomorphism</em> which is a way of saying whether two graphs are &quot;the same&quot; even if they are laid out differently.</p>
+<h2 id="learning-objectives-in-this-section">Learning Objectives in this section</h2>
+<ul>
+<li>CC.17: State the definitions of the following terms: Isomorphic graphs; isomorphism of graphs.</li>
+<li>CC.18: Given a graph represented as an adjacency list, Python dictionary, adjacency matrix, or incidence matrix, determine whether two nodes are connected and calculate the degree of a node.</li>
+<li>M.16 (CORE): Given a graph represented as an adjacency list, Python dictionary, adjacency matrix, or incidence matrix, write it in one of the other representations and use the representation to determine information about the graph.</li>
+<li>M.17: Determine whether two graphs are isomorphic; if they are, state the isomorphism.</li>
+</ul>
+<h2 id="resources-for-learning">Resources for learning</h2>
+<p>For basic preparation, please read <strong>all of Section 9.3</strong> in the Rosen textbook. Focus especially on definitions of terminology; working through examples (particularly the examples on representation of graphs); and Examples 8, 9, and 10 regrading isomorphism.</p>
+<h2 id="activities">Activities</h2>
+<p>As always, work out the activities below in your notes for future reference and questions. Then go to the submission form at:</p>
+<p><a href="http://bit.ly/1KyTtRn">http://bit.ly/1KyTtRn</a></p>
+<p>and put your answers in the indicated areas. There is a link to a Google Form at which you can leave and upvote any questions you have on what you've read and worked with; your answers will help set the agenda for the class meeting.</p>
+<ol style="list-style-type: decimal">
+<li><p>Open up a Sage worksheet and enter in the following:</p>
+<p>adjacency_dictionary = {'a':['b', 'c', 'e'], 'b':['a'], 'c':['a','d','e'], 'd':['c','e'], 'e':['a','c','d']} example1 = Graph(adjacency_dictionary) example1.show()</p></li>
+</ol>
+<p>Once the graph is plotted, compare it to the graph from Example 1 in Section 9.3. Are these two graphs &quot;the same&quot;? Also, how is the dictionary given above similar to the adjacency list that is presented in Example 1?</p>
+<p>Before moving on to exercise 2, do the following -- not to turn in, but just to familiarize yourself with using Sage for the operations in this section:</p>
+<pre><code>example1.adjacency_matrix()
+example1.incidence_matrix()</code></pre>
+<p>Notice that the incidence matrix is a little differently made than what's described in your book. For your private consideration, not to turn in: What do you think the negative signs mean?</p>
+<ol start="2" style="list-style-type: decimal">
+<li><p>Here is the adjacency matrix for a graph:</p>
+<p>[0 0 1 0 1][0 0 1 1 0] [1 1 0 1 0][0 1 1 0 1] [1 0 0 1 0]</p></li>
+</ol>
+<p>The nodes in the graph are a,b,c,d, and e and this is the ordering of the rows and columns. (The first row and first column are for a, the second ones are for b, and so on.) What is the degree of each node, and how did you tell?</p>
+<ol start="3" style="list-style-type: decimal">
+<li><p>Here is an adjacency matrix for another graph:</p>
+<p>[0 0 1 0 1][1 1 0 1 0] [0 0 1 1 0][1 0 0 1 0] [0 1 1 0 1]</p></li>
+</ol>
+<p>Is this second graph isomorphic to the one in exercise 2? Why or why not? (Remember you don't have to be right here, and we don't care yet about formality, so just give your best thought about it.)</p>
+</body>
+</html>

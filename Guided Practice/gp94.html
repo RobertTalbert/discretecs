@@ -1,0 +1,36 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta http-equiv="Content-Style-Type" content="text/css" />
+  <meta name="generator" content="pandoc" />
+  <title></title>
+  <style type="text/css">code{white-space: pre;}</style>
+</head>
+<body>
+<h1 id="guided-practice-for-mth-325-section-9.4">Guided Practice for MTH 325: Section 9.4</h1>
+<h2 id="overview">Overview</h2>
+<p>When is it possible in a graph to get from node &quot;A&quot; to node &quot;B&quot; along a path of edges? That question is at the heart of our next section on <em>connectivity</em> of a graph. Knowing whether a graph is <em>connected</em> or not has important implications for applications and algorithms we will see soon. We'll take a look at connectivity in undirected graphs and in directed graphs (where the notion of getting from one node to another is more complicated, due to the directed edges). We will wrap up the section by looking at how connectivity affects graph isomorphisms and a way of counting the number of paths of a given length between two nodes that uses the adjacency matrix for the graph.</p>
+<h2 id="learning-objectives-in-this-section">Learning Objectives in this section</h2>
+<ul>
+<li>CC.19: State the definitions of the following terms: Path of length n (undirected and directed versions); circuit (undirected and directed versions); simple path/circuit; connected (undirected) graph; connected component of a graph; strongly connected digraph; weakly connected digraph</li>
+<li>CC.20: Given a graph (directed or undirected), find a path of a specified length, and find a circuit.</li>
+<li>M.18 (CORE): Determine if an undirected graph is connected, and find the connected components of a disconnected graph.</li>
+<li>M.19: Determine the number of paths of length <span class="math"><em>r</em></span> between two nodes in a graph by using the graph's adjacency matrix.</li>
+</ul>
+<h2 id="resources-for-learning">Resources for learning</h2>
+<p>For basic preparation, please read <strong>all of Section 9.4</strong> in the Rosen textbook. Focus especially on definitions of terminology; working through examples (particularly the examples on representation of graphs); and Examples 1, 5, 6, 8, 9, 12, and 14.</p>
+<h2 id="activities">Activities</h2>
+<p>As always, work out the activities below in your notes for future reference and questions. Then go to the submission form at:</p>
+<p><a href="http://bit.ly/1Eag6Jt">http://bit.ly/1Eag6Jt</a></p>
+<p>and put your answers in the indicated areas. There is a link to a Google Form at which you can leave and upvote any questions you have on what you've read and worked with; your answers will help set the agenda for the class meeting.</p>
+<p>Questions 1--4 refer to the graph pictured here: <a href="http://www.screencast.com/t/MnCXwLmV">http://www.screencast.com/t/MnCXwLmV</a> This graph is (for reasons not fully clear to me) called the &quot;flower snark&quot;. You can generate it in Sage by letting <code>g = graphs.FlowerSnark()</code> and then doing <code>g.show()</code>. Note that it is a simple graph (= there are no node pairs connected by multiple edges, and no loops) and so paths and circuits in this graph can be notated by a sequence of nodes.</p>
+<ol style="list-style-type: decimal">
+<li>On the submission form are a few node sequences. Check the box next to the ones that are paths in the flower snark graph.</li>
+<li>On the submission form are a few more node sequences. Check the box next to the ones that are circuits in the flower snark graph.</li>
+<li>Give an example of a path in the flower snark graph that is <em>not</em> simple. State your answer as a sequence of nodes, just like in the first two questions.</li>
+<li>Use Sage to generate the adjacency matrix for the flower snark graph, and then it along with the <code>boolean_product</code> function we've seen in class to find the number of paths of length 5 between node 0 and node 14. (Use Example 14 as your guide.)<br /></li>
+<li>For this last question, use the directed graph pictured here: <a href="http://www.screencast.com/t/xhVi2LJwjusE">http://www.screencast.com/t/xhVi2LJwjusE</a> On the submission form it asks you whether this graph is weakly connected, strongly connected, or neither. Check the appropriate box (and be ready in class to discuss your reasoning).</li>
+</ol>
+</body>
+</html>
