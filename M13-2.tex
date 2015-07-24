@@ -1,0 +1,50 @@
+\documentclass[11pt]{article}
+
+\pagestyle{empty}                       %no page numbers
+\thispagestyle{empty}                   %removes first page number
+\setlength{\parindent}{0in}               %no paragraph indents
+
+\usepackage{fullpage}
+\usepackage[tmargin = 0.5in, bmargin = 1in, hmargin = 1in]{geometry}     %1-inch margins
+\geometry{letterpaper}                  
+\usepackage{graphicx}
+\usepackage{amssymb}
+
+% Default packages
+\usepackage{latexsym}
+\usepackage{amsfonts}
+\usepackage{amsmath}
+\usepackage{amsthm}
+\usepackage{palatino}
+\usepackage{hyperref}
+\usepackage{multicol}
+\usepackage{fancyhdr}
+\usepackage{pseudocode}
+
+\begin{document}
+	
+	\thispagestyle{empty}
+	\renewcommand{\headrulewidth}{1pt}
+	\thispagestyle{fancy}
+	\lhead{Prof. Talbert}
+	\chead{MTH 325}
+	\rhead{M.13 v2}
+	\lfoot{}
+	\cfoot{}
+	\rfoot{}	
+	
+	\vspace*{0in}
+
+\noindent 
+\textbf{M.13: Use a graph to model a system of interconnected nodes.}
+
+\bigskip
+
+Given a collection of sets, their \emph{intersection graph} is defined to be the graph whose nodes are the individual sets in the collection, and there is an edge between two nodes if the sets represented by those nodes have a nonempty intersection. Consider the collection of six sets below: 
+
+$$\{1,2,3\} \qquad \{2,3,4\} \qquad \{4\} \qquad \{4,5\} \qquad \emptyset \qquad \{6,7\}$$
+
+Draw the intersection graph for this collection of sets. To Pass, the graph must be completely correct -- including loops where appropriate, all edges included that should be included, and no edges included that should not be included. You do not need to explain your work but the graph must be completely correct. 
+ 
+
+\end{document}

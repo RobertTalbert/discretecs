@@ -1,0 +1,38 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta http-equiv="Content-Style-Type" content="text/css" />
+  <meta name="generator" content="pandoc" />
+  <title></title>
+  <style type="text/css">code{white-space: pre;}</style>
+</head>
+<body>
+<h1 id="guided-practice-for-mth-325-section-10.4">Guided Practice for MTH 325: Section 10.4</h1>
+<h2 id="overview">Overview</h2>
+<p>We return in this lesson to graphs to relate them back to trees. Given a graph, we'd like to find a <em>spanning tree</em> for the graph -- a tree that has all the same nodes as the original graph but none of the cycles. Spanning trees are a &quot;skeleton&quot; of the original graph and provide a means of determining whether the graph is connected. Constructing a spanning tree in a graph involves two forms of <em>search</em> algorithms in the graph: <em>depth-first</em> and <em>breadth-first</em>, both of which are valuable applications in their own right.</p>
+<h2 id="learning-objectives-in-this-section">Learning Objectives in this section</h2>
+<ul>
+<li>CC.34: State the definition of the term <em>spanning tree</em> and identify whether a subgraph of a given graph is or is not a spanning tree.</li>
+<li>M.31 (CORE): Find a spanning tree within a graph using depth-first and breadth-first search.</li>
+</ul>
+<h2 id="resources-for-learning">Resources for learning</h2>
+<ol style="list-style-type: decimal">
+<li><strong>Watch</strong> this 10-minute video that describes depth- and breadth-first search: <a href="https://www.youtube.com/watch?v=zLZhSSXAwxI">https://www.youtube.com/watch?v=zLZhSSXAwxI</a>.</li>
+<li><strong>Play</strong> with these two computer simulations: <a href="https://www.cs.usfca.edu/~galles/visualization/BFS.html">Breadth-first search</a>, <a href="https://www.cs.usfca.edu/~galles/visualization/DFS.html">Depth-first search</a>. On these, be sure to select &quot;undirected graph&quot;. You can slow down or speed up the animation using the slider at the <em>bottom</em> of the window, or step through the search process manually.</li>
+<li><strong>Focus</strong> in the textbook on pages 724 through 725 (and the top of page 726) where there is a discussion of <em>spanning trees</em>.</li>
+</ol>
+<p>If after watching the video and playing with the simulations, you are still unclear on breadth- and depth-first searches, try doing a YouTube query for more video content (there is much more available); or searching Google for relevant text material such as lecture notes and handouts.</p>
+<p>Finally: <strong>Skim</strong> the rest of Section 10.3 in the textbook for more descriptions of depth- and breadth-first search.</p>
+<h2 id="activities">Activities</h2>
+<p>Here is a nice connected graph: <a href="http://content.screencast.com/users/talbertr/folders/MTH%20325%20Images/media/7d5f0bbe-c78d-4249-bff2-254c1937bf43/gp10-4.png"><img class="embeddedObject" src="http://content.screencast.com/users/talbertr/folders/MTH%20325%20Images/media/7d5f0bbe-c78d-4249-bff2-254c1937bf43/gp10-4.png" width="366" height="384" border="0" /></a></p>
+<p>(<a href="http://www.screencast.com/t/uQvhInDmwwT">Direct link</a>)</p>
+<p>By Theorem 1 of this section, since the graph is connected, it must have a spanning tree.</p>
+<ol style="list-style-type: decimal">
+<li>Find a spanning tree for this graph that is obtained through a depth-first search starting at node 0. State your answer as a Python dictionary.</li>
+<li>Find a spanning tree for this graph that is obtained through a breadth-first search starting at node 0. State your answer as a Python dictionary.</li>
+<li>Unrelated to the graph above: Is it possible for a graph to have more than one possible spanning tree? If so, give an example of a graph and two spanning trees for it; keep the example as simple as you can. If not, explain why not.</li>
+</ol>
+<p>Submit your responses here: <a href="http://bit.ly/1CUGuK0">http://bit.ly/1CUGuK0</a></p>
+</body>
+</html>

@@ -212,6 +212,7 @@ MTH 325 Learning Objectives by type
 + M.19: Determine the number of paths of length $r$ between two nodes in a graph by using the graph's adjacency matrix. 
 + M.20: Determine whether a graph (directed or undirected) has an Euler path or an Euler circuit, or a Hamilton path or Hamilton circuit. 
 + M.21: Use Dirac's Theorem and Ore's Theorem to draw conclusions about the existence of Hamilton circuits. 
++ M.22: Use Dijkstra's Algorithm to find the shortest path in a weighted graph.
 + M.23: Use the three Corollaries to Euler's Formula to determine information about the planarity of a graph or about nodes or edges in a planar graph.
 + M.24: Determine the chromatic number of a graph. 
 + M.25: Apply graph coloring to problems in scheduling and other related area. 
