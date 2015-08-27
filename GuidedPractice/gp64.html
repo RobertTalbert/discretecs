@@ -1,0 +1,57 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta http-equiv="Content-Style-Type" content="text/css" />
+  <meta name="generator" content="pandoc" />
+  <title></title>
+  <style type="text/css">code{white-space: pre;}</style>
+  <script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
+</head>
+<body>
+<h1 id="mth-325-guided-practice-6.4-matrices-of-relations">MTH 325 Guided Practice 6.4: Matrices of Relations</h1>
+<h2 id="overview">Overview</h2>
+<p>We just finished up a quick tour of <em>matrices</em> and how to do arithmetic with matrices. The reason we did this is that now we can apply matrices to working with relations. In this lesson we'll learn about the <em>adjacency matrix</em> for a directed graph (and therefore for a relation, since relations and directed graphs are the same thing in different formats). We'll then learn how to represent the composition of two relations using matrix multiplication along with Boolean arithmetic, which will make composing relations computable.</p>
+<h2 id="learning-objectives">Learning objectives</h2>
+<p><strong>Basic objectives</strong>: Each student is responsible for gaining proficiency with each of these tasks <em>prior</em> to engaging in class discussions, through the use of the learning resources (below) and through the working of exercises (also below).</p>
+<ul>
+<li>Write the adjacency matrix for a directed graph (relation).</li>
+<li>Given an adjacency matrix for a relation, write the relation as a directed graph or list of pairs.</li>
+<li>Perform Boolean arithmetic on single bits.</li>
+</ul>
+<p><strong>Advanced objectives</strong>: The following objectives are the subject of class discussion and further work; they should be mastered by each student <em>during</em> and <em>following</em> class discussions.</p>
+<ul>
+<li>Given two relations, find the adjacency matrix for their composition using Boolean matrix multiplication.</li>
+</ul>
+<h2 id="learning-resources">Learning resources</h2>
+<p>To gain proficiency in the learning objectives, use the following resources. You may include other resources if you wish, in addition to or in replacement of the following.</p>
+<p><strong>Textbook</strong>: In <em>Applied Discrete Structures</em>, read Section 6.4. Make sure to read actively, working through examples and activities as you go.</p>
+<p><strong>Video</strong>: TBA.</p>
+<h2 id="exercises">Exercises</h2>
+<p>The following exercises are to be done <em>during</em> and <em>following</em> your reading and viewing of the resources. Work these out on paper and then enter the responses into the appropriate submission form (see Submission Instructions) by the deadline. You will receive a mark of <strong>Pass</strong> if each item response shows a good-faith effort to be right and is submitted prior to the deadline.</p>
+<p>Below are two directed graphs using the vertices <span class="math">\(0, 1, 2, 3, 4\)</span>. Let <span class="math">\(r\)</span> be the relation that corresponds to the first graph (on the left), and <span class="math">\(s\)</span> the relation that corresponds to the second graph (on the right).</p>
+<ol style="list-style-type: decimal">
+<li>Write out the adjacency matrix for <span class="math">\(r\)</span> using the Sage syntax discussed in the Guided Practice for Matrices.</li>
+<li>Repeat for <span class="math">\(s\)</span>.</li>
+<li>How might someone tell if a relation is reflexive, just by looking at its adjacency matrix?</li>
+<li>How might someone tell if a relation is symmetric, just by looking at its adjacency matrix?</li>
+<li>In your book in Example 6.4.2, you are given two binary matrices <span class="math">\(R\)</span> and <span class="math">\(S\)</span>, then you are given the result of computing <span class="math">\(RS\)</span> and <span class="math">\(SR\)</span>, which are done using Boolean arithmetic and regular matrix multiplication. However, sadly no details are given on the computation. In your notes, work those details out. Then, compute <span class="math">\(AB\)</span> and <span class="math">\(BA\)</span> using these matrices:</li>
+</ol>
+<p><span class="math">\[A = \left(\begin{array}{rrr}
+1 &amp; 0 &amp; 0 \\ 
+0 &amp; 1 &amp; 0 \\ 
+1 &amp; 1 &amp; 1 
+\end{array}\right)  \qquad 
+B = \left(\begin{array}{rrr}
+0 &amp; 1 &amp; 1 \\ 
+1 &amp; 1 &amp; 1 \\ 
+0 &amp; 0 &amp; 0 
+\end{array}\right)\]</span></p>
+<p>Remember to use Boolean arithmetic -- there should only be 0s and 1s in your answers. Give your answers on the submission form using Sage syntax.</p>
+<hr />
+<p>There is a final item at the response form that solicits any specific mathematical questions or comments you may have about the material in the reading or viewing. If you have any specific mathematical questions, leave them in the blank. Frequently occurring questions will be addressed during the discussion time in class. Other questions (good but not frequently occurring) will be replied to in person on through email. If you have no questions, just leave that item blank.</p>
+<hr />
+<h2 id="submission-instructions">Submission instructions</h2>
+<p>Submit your responses using the form at this link: <a href="http://bit.ly/1hcovqs">http://bit.ly/1hcovqs</a></p>
+</body>
+</html>

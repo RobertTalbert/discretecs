@@ -1,0 +1,80 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta http-equiv="Content-Style-Type" content="text/css" />
+  <meta name="generator" content="pandoc" />
+  <title></title>
+  <style type="text/css">code{white-space: pre;}</style>
+  <script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
+</head>
+<body>
+<h1 id="mth-325-guided-practice-matrices">MTH 325 Guided Practice: Matrices</h1>
+<h2 id="overview">Overview</h2>
+<p>We've learned about relations, how to represent them, and their properties --- and the fact that sometimes the properties of relations are easier to discern if we change the representation. The next lesson in that series has to do with a very important form of representation using what is called a <em>matrix</em>. Matrices (that's the plural form of &quot;matrix&quot;) are in themselves an extremely common and useful &quot;discrete structure&quot; and correspond to &quot;arrays&quot; that we sometimes use in computer programming. So this lesson is a side trip back to Chapter 5 of our textbook, where we will learn about matrices and specifically how to <em>add</em> and <em>multiply</em> matrices. We will need this information before we can talk about matrices for relations.</p>
+<h2 id="learning-objectives">Learning objectives</h2>
+<p><strong>Basic objectives</strong>: Each student is responsible for gaining proficiency with each of these tasks <em>prior</em> to engaging in class discussions, through the use of the learning resources (below) and through the working of exercises (also below).</p>
+<ul>
+<li>State the order of a matrix.</li>
+<li>State whether two matrices are equal.</li>
+<li>Add two matrices (that have the same order).</li>
+<li>Find the scalar multiple of a matrix.</li>
+<li>Multiply two <span class="math">\(2 \times 2\)</span> or <span class="math">\(3 \times 3\)</span> matrices.</li>
+<li>Write the identity matrix <span class="math">\(I_n\)</span>.</li>
+</ul>
+<p><strong>Advanced objectives</strong>: The following objectives are the subject of class discussion and further work; they should be mastered by each student <em>during</em> and <em>following</em> class discussions.</p>
+<ul>
+<li>Multiply any two matrices of compatible order.</li>
+<li>Compute a power of a matrix.</li>
+</ul>
+<h2 id="learning-resources">Learning resources</h2>
+<p>To gain proficiency in the learning objectives, use the following resources. You may include other resources if you wish, in addition to or in replacement of the following.</p>
+<p><strong>Textbook</strong>: In <em>Applied Discrete Structures</em>, read Sections 5.1, 5.2, and 5.3. Make sure to read actively, working through examples and activities as you go.</p>
+<p><strong>Video</strong>: Watch the following videos:</p>
+<ul>
+<li><a href="https://youtu.be/sYlOjyPyX3g">Multiplying Matrices -- Example 1</a> (9:37)</li>
+<li><a href="https://youtu.be/YtMYfvypgM4">Multiplying Matrices -- Example 2</a> (5:28)</li>
+</ul>
+<h2 id="exercises">Exercises</h2>
+<p>The following exercises are to be done <em>during</em> and <em>following</em> your reading and viewing of the resources. Work these out on paper and then enter the responses into the appropriate submission form (see Submission Instructions) by the deadline. You will receive a mark of <strong>Pass</strong> if each item response shows a good-faith effort to be right and is submitted prior to the deadline.</p>
+<p><strong>NOTE:</strong> Since you can't enter in mathematical notation in the Google form, we will use the syntax that Sage uses for matrices. To enter a matrix into Sage, enter it as a list (with square brackets as the delimiters) whose elements are also lists, one list for each row of the matrix, all wrapped inside the command <code>Matrix( )</code>. For example, the matrix <span class="math">\[\left(\begin{array}{rrrrr}
+-1 &amp; 1 &amp; 0 &amp; 0 &amp; 0 \\
+0 &amp; -1 &amp; -3 &amp; 8 &amp; -4 \\
+-1 &amp; 0 &amp; 1 &amp; 17 &amp; 1
+\end{array}\right)\]</span> would be entered as <code>Matrix([ [-1,1,0,0,0], [0,-1,-3,8,-4], [-1,0,1,17,1]])</code>.</p>
+<p>Consider the following matrices: <span class="math">\[A = \left(\begin{array}{rrr}
+1 &amp; 1 &amp; 1 \\
+-2 &amp; -4 &amp; -1 \\
+3 &amp; 0 &amp; 1
+\end{array}\right) \qquad 
+B = \left(\begin{array}{rr}
+-1 &amp; -3 \\
+1 &amp; 1 \\
+14 &amp; 2
+\end{array}\right) \qquad
+C = \left(\begin{array}{rr}
+0 &amp; -12 \\
+1 &amp; 1
+\end{array}\right) \qquad 
+D = \left(\begin{array}{rrr}
+0 &amp; -1 &amp; -6 \\
+1 &amp; 3 &amp; -3 \\
+0 &amp; 7 &amp; -1
+\end{array}\right)\]</span></p>
+<p>For each of the following, determine whether the operation that's presented can be computed. If it can be computed, do so, and enter the answer in the blank at the submission form using the Sage syntax described above. If not, then write &quot;can't be computed&quot; and be ready in class to explain why.</p>
+<ol style="list-style-type: decimal">
+<li><span class="math">\(AD\)</span></li>
+<li><span class="math">\(DA\)</span></li>
+<li><span class="math">\(AB\)</span></li>
+<li><span class="math">\(BA\)</span></li>
+<li><span class="math">\(BC\)</span></li>
+<li><span class="math">\(C^2\)</span></li>
+</ol>
+<p>Note that you can use Sage to check your work here. Just open a Sage notebook in SageMath Cloud, enter each matrix using the syntax above, and use <code>+</code> to add matrices and <code>*</code> to multiply them. Watch your email for more details.</p>
+<hr />
+<p>There is a final item at the response form that solicits any specific mathematical questions or comments you may have about the material in the reading or viewing. If you have any specific mathematical questions, leave them in the blank. Frequently occurring questions will be addressed during the discussion time in class. Other questions (good but not frequently occurring) will be replied to in person on through email. If you have no questions, just leave that item blank.</p>
+<hr />
+<h2 id="submission-instructions">Submission instructions</h2>
+<p>Submit your responses using the form at this link: <a href="http://bit.ly/1NH9b1T">http://bit.ly/1NH9b1T</a></p>
+</body>
+</html>
