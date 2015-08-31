@@ -1,0 +1,61 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta http-equiv="Content-Style-Type" content="text/css" />
+  <meta name="generator" content="pandoc" />
+  <title></title>
+  <style type="text/css">code{white-space: pre;}</style>
+  <script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
+</head>
+<body>
+<h1 id="mth-325-guided-practice-7.1-definition-of-a-function-and-notation">MTH 325 Guided Practice 7.1: Definition of a Function and Notation</h1>
+<h2 id="overview">Overview</h2>
+<p>We've just learned a lot about <em>relations</em>, which are an abstracted way of expressing relationships between objects in a set and objects in a possibly different set. In some cases these relations can be quite specific and follow focused rules: every object in the first set relates somehow to an object in the second set, and each object in the first set can relate to only one object in the second. A relation that follows those rules is called a <em>function</em>, and functions are at the heart of both mathematics and computer science as the gold standard of relations.</p>
+<p>In this lesson we will define the concept of the function and some related notation and terminology, specifically: the <em>domain</em> and <em>codomain</em> of a function, the <em>range</em> of a function, the <em>image</em> of an element, the &quot;arrow&quot; notation for a function, and the concept of a function of multiple variables.</p>
+<h2 id="learning-objectives">Learning objectives</h2>
+<p><strong>Basic objectives</strong>: Each student is responsible for gaining proficiency with each of these tasks <em>prior</em> to engaging in class discussions, through the use of the learning resources (below) and through the working of exercises (also below).</p>
+<ul>
+<li>Determine whether a relation is a function or not.</li>
+<li>Given a function, state its domain and codomain.</li>
+<li>Find the image of a point under a function.</li>
+</ul>
+<p><strong>Advanced objectives</strong>: The following objectives are the subject of class discussion and further work; they should be mastered by each student <em>during</em> and <em>following</em> class discussions.</p>
+<ul>
+<li>Give examples of relations that are not functions.</li>
+<li>Find the domain, codomain, range, and image using a function of two or more variables.</li>
+</ul>
+<h2 id="learning-resources">Learning resources</h2>
+<p>To gain proficiency in the learning objectives, use the following resources. You may include other resources if you wish, in addition to or in replacement of the following.</p>
+<p><strong>Textbook</strong>: In <em>Applied Discrete Structures</em>, read Section 7.1. Make sure to read actively, working through examples and activities as you go.</p>
+<p><strong>Video</strong>: Watch the following videos. These are from MTH 210 (Communicating in Mathematics) and take a somewhat different approach than your book on defining functions. In particular, they do not define functions as a type of relation. However, do study the connection between relations and functions as given in your book, because that connection is important.</p>
+<ul>
+<li><a href="https://youtu.be/PZFU3JC3Plo">Functions: The big concepts</a> (6:11)</li>
+<li><a href="https://youtu.be/3rpl_HGcUIs">Functions: Terminology</a> (15:43)</li>
+</ul>
+<p>Following these two, here are several more that give examples of functions and non-functions. Watch as many of these as you find helpful.</p>
+<ul>
+<li><a href="https://youtu.be/Aii47Dz7YF4">Function example: Names to initials</a> (7:56)</li>
+<li><a href="https://youtu.be/fSdFpxzjrlw">Function example: Counting primes</a> (8:28)</li>
+<li><a href="https://youtu.be/k7AXRLFZ320">Function example: Congruence functions</a> (7:16)</li>
+<li><a href="https://youtu.be/5Nz8C0BaqQ4">Function example: Derivatives</a> (6:55) &lt;-- Requires some calculus.</li>
+<li><a href="https://youtu.be/o3R5XBOAiTU">Function example: Averages</a> (5:06)</li>
+<li><a href="https://youtu.be/ufG5dCKszOs">Non-examples of functions</a> (6:40)</li>
+</ul>
+<h2 id="exercises">Exercises</h2>
+<p>The following exercises are to be done <em>during</em> and <em>following</em> your reading and viewing of the resources. Work these out on paper and then enter the responses into the appropriate submission form (see Submission Instructions) by the deadline. You will receive a mark of <strong>Pass</strong> if each item response shows a good-faith effort to be right and is submitted prior to the deadline.</p>
+<ol style="list-style-type: decimal">
+<li>Consider the relation from <span class="math">\(A = \{0, 1, 2, 3\}\)</span> to <span class="math">\(B = \{ a, b, c\}\)</span> given by the following set of ordered pairs: <span class="math">\(\{(0, a), (0, b), (1, b), (2, b), (3, c)\}\)</span>. Is this relation a function from <span class="math">\(A\)</span> to <span class="math">\(B\)</span>? Why or why not?</li>
+<li>What about the relation <span class="math">\(\{(1, b), (2, b), (3, c)\}\)</span> (using the same sets <span class="math">\(A\)</span> and <span class="math">\(B\)</span>)?</li>
+<li>Consider the function <span class="math">\(f: \mathbb{R} \rightarrow \mathbb{Z}\)</span> given by the formula <span class="math">\(f(x) = (\lfloor x \rfloor)^2\)</span>, where <span class="math">\(\lfloor x \rfloor\)</span> is the <em>floor function</em>. Please Google the definition for the floor function if you don't already know it; it's a fundamental operation in computer programming.
+<ol style="list-style-type: lower-alpha">
+<li>What is the domain of <span class="math">\(f\)</span>?</li>
+<li>What is the codomain of <span class="math">\(f\)</span>?</li>
+<li>Is the <em>range</em> of <span class="math">\(f\)</span> equal to the <em>codomain</em> of <span class="math">\(f\)</span>? Why or why not?</li>
+<li>Find the image of the number <span class="math">\(-3.14159\)</span> under <span class="math">\(f\)</span>.</li>
+</ol></li>
+</ol>
+<h2 id="submission-instructions">Submission instructions</h2>
+<p>Submit your responses using the form at this link: <a href="http://bit.ly/1NTcJxU">http://bit.ly/1NTcJxU</a></p>
+</body>
+</html>
