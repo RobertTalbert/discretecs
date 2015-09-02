@@ -1,0 +1,58 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta http-equiv="Content-Style-Type" content="text/css" />
+  <meta name="generator" content="pandoc" />
+  <title></title>
+  <style type="text/css">code{white-space: pre;}</style>
+  <script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
+</head>
+<body>
+<h1 id="mth-325-guided-practice-8.1-the-many-faces-of-recursion">MTH 325 Guided Practice 8.1: The Many Faces of Recursion</h1>
+<h2 id="overview">Overview</h2>
+<p>This lesson begins our third major topic in the course, on <em>recursion</em>. Recursion refers to the process of computing something in terms of smaller or prior versions of itself. It is a computational technique, and a way of defining certain kinds of structures, that is common and powerful in computer science -- but also mysterious and not always well understood. In this lesson we will encounter recursion by looking at mathematical and computer science objects that are defined using recursive definitions. By working with those definitions, we should begin to get a feel for how recursion works.</p>
+<h2 id="learning-objectives">Learning objectives</h2>
+<p><strong>Basic objectives</strong>: Each student is responsible for gaining proficiency with each of these tasks <em>prior</em> to engaging in class discussions, through the use of the learning resources (below) and through the working of exercises (also below).</p>
+<ul>
+<li>Given a recursively defined definition of an object, write out several instances of the object including the base case.</li>
+</ul>
+<p><strong>Advanced objectives</strong>: The following objectives are the subject of class discussion and further work; they should be mastered by each student <em>during</em> and <em>following</em> class discussions.</p>
+<ul>
+<li>Express a definition or computational process that is recursive using a recursive definition.</li>
+</ul>
+<h2 id="learning-resources">Learning resources</h2>
+<p>For this lesson, you'll be using an online module developed for the website <em>Khan Academy</em>. The module can be found here: <a href="https://www.khanacademy.org/computing/computer-science/algorithms/recursive-algorithms">https://www.khanacademy.org/computing/computer-science/algorithms/recursive-algorithms</a></p>
+<p>This module contains a combination of text to read and programming projects to complete. You are not required to do the programming projects (they're to be don in Javascript, so if you happen to know Javascript then you're welcome to try them). Instead, read the following sections in the module:</p>
+<ul>
+<li>Recursion</li>
+<li>The factorial function</li>
+<li>Recursive factorial</li>
+<li>Properties of recursive algorithms</li>
+<li>Using recursion to decide whether a word is a palindrome</li>
+<li>Computing powers of a number</li>
+</ul>
+<p>As always, you are also welcome to pull in any useful resources you can find to help you learn.</p>
+<h2 id="exercises">Exercises</h2>
+<p>The following exercises are to be done <em>during</em> and <em>following</em> your reading and viewing of the resources. Work these out on paper and then enter the responses into the appropriate submission form (see Submission Instructions) by the deadline. You will receive a mark of <strong>Pass</strong> if each item response shows a good-faith effort to be right and is submitted prior to the deadline.</p>
+<ol style="list-style-type: decimal">
+<li>The <em>Fibonacci sequence</em> is a famous number sequence invented to to model the population growth of rabbits. It is a sequence of integers defined recursively as follows:</li>
+</ol>
+<ul>
+<li>The first number in the sequence which we will denote <span class="math">\(F_0\)</span> is defined to be 1.</li>
+<li>The second number in the sequence <span class="math">\(F_1\)</span> is also defined to be 1.</li>
+<li>Every number in the sequence past the first two is defined to be the sum of the previous two numbers in the sequence. That is, for all <span class="math">\(n \geq 2\)</span>, we defined <span class="math">\(F_n = F_{n-1} + F_{n-2}\)</span>. For example, <span class="math">\(F_2 = F_1 + F_0 = 1 + 1 = 2\)</span>.</li>
+</ul>
+<p>Write out the first 13 elements in the Fibonacci sequence. The first three as discussed above are 1, 1, 2 and so you need to find the next 10.</p>
+<ol start="2" style="list-style-type: decimal">
+<li>Below is a recursive algorithm for the function <code>len</code> which takes in a list of objects and returns the list's length. (For example, <code>len([8,9,7])</code> returns <code>3</code>.)</li>
+</ol>
+<ul>
+<li>If <code>L</code> is an empty list, then <code>len(L)</code> is defined to be equal to 0.</li>
+<li>If <code>L</code> is nonempty, then <code>len(L)</code> is defined to be <code>1 + len(L')</code> where <code>L'</code> is <code>L</code> with its first element removed. (For example if <code>L = [4,5,6]</code> then <code>L' = [5,6]</code>.)</li>
+</ul>
+<p>Using this definition of <code>len</code>, explain how we would calculate the length of the list <code>L = [a, b, c, d]</code>. (It's obvious the length is 4, but explain how the algorithm would calculate this.) Especially, explain how you know that the recursive process finally stops.</p>
+<h2 id="submission-instructions">Submission instructions</h2>
+<p>Submit your responses using the form at this link: <a href="http://bit.ly/1LLMnM4">http://bit.ly/1LLMnM4</a></p>
+</body>
+</html>
