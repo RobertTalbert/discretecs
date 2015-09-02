@@ -1,0 +1,59 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta http-equiv="Content-Style-Type" content="text/css" />
+  <meta name="generator" content="pandoc" />
+  <title></title>
+  <style type="text/css">code{white-space: pre;}</style>
+  <script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
+</head>
+<body>
+<h1 id="mth-325-guided-practice-7.3a-compositions-of-functions">MTH 325 Guided Practice 7.3a: Compositions of Functions</h1>
+<h2 id="overview">Overview</h2>
+<p>We've learned about functions as well as what it means to be an <em>injective</em> or <em>surjective</em> function. We continue this thread by looking at <em>operations</em> on functions, starting with <em>composition</em> in the next lesson. We've met the idea of composition before when we talked about composing two <em>relations</em> together -- we look for &quot;common elements&quot; that relate elements in one set with elements in another. Composition of functions is similar in that it looks at &quot;chaining&quot; two functions together to accomplish multiple tasks. Of particular interest to us is how composition works; how composition affects injectivity and surjectivity; and what composition looks like in computer science.</p>
+<h2 id="learning-objectives">Learning objectives</h2>
+<p><strong>Basic objectives</strong>: Each student is responsible for gaining proficiency with each of these tasks <em>prior</em> to engaging in class discussions, through the use of the learning resources (below) and through the working of exercises (also below).</p>
+<ul>
+<li>Given two functions, determine whether their composition can be formed. If it can be, then find images of points under the composition. (Includes the use of correct composition notation.)</li>
+<li>Find the power of a function.</li>
+</ul>
+<p><strong>Advanced objectives</strong>: The following objectives are the subject of class discussion and further work; they should be mastered by each student <em>during</em> and <em>following</em> class discussions.</p>
+<ul>
+<li>Draw conclusions about injectivity and surjectivity of compositions based on knowledge of injectivity/surjectivity of the functions involved.</li>
+</ul>
+<h2 id="learning-resources">Learning resources</h2>
+<p>To gain proficiency in the learning objectives, use the following resources. You may include other resources if you wish, in addition to or in replacement of the following.</p>
+<p><strong>Textbook</strong>: In <em>ADS</em>, read Section 7.3, just the portion starting at &quot;Composition&quot; and continuing through the definition of &quot;Powers of Functions&quot;. Make sure to read actively, working through examples and activities as you go.</p>
+<p><strong>Video</strong>: Watch the following videos:</p>
+<ul>
+<li><a href="https://youtu.be/S4AEZElTPDo">Composition of functions</a> (8:00)</li>
+</ul>
+<h2 id="exercises">Exercises</h2>
+<p>The following exercises are to be done <em>during</em> and <em>following</em> your reading and viewing of the resources. Work these out on paper and then enter the responses into the appropriate submission form (see Submission Instructions) by the deadline. You will receive a mark of <strong>Pass</strong> if each item response shows a good-faith effort to be right and is submitted prior to the deadline.</p>
+<ol style="list-style-type: decimal">
+<li>Consider the functions <span class="math">\(f: \mathbb{R} \rightarrow \mathbb{R}\)</span> and <span class="math">\(g: \mathbb{R} \rightarrow \mathbb{R}\)</span> given by the formulas <span class="math">\(f(x) = \sqrt{x}\)</span> and <span class="math">\(g(x) = \lfloor x \rfloor\)</span>. Calculate <span class="math">\((f \circ g)(10)\)</span> and <span class="math">\((g \circ f)(10)\)</span>. Give your answer in the submission form and be sure to label which is which. Are they equal? Is composition of functions &quot;commutative&quot; (like multiplication and addition are commutative, i.e. the operation can be done in any order)?</li>
+<li>Function composition is especially useful in programming because we can create small, single-purpose functions (in the form of programs) and then chain them together via composition to create more complex code. Consider the following functions (borrowed from the language <a href="https://www.haskell.org/">Haskell</a>) that operate on lists of integers. Assume that lists are nonempty.</li>
+</ol>
+<ul>
+<li><code>max</code>: Takes a list and returns the largest element in the list.</li>
+<li><code>prod</code>: Takes a list and returns the product of the elements in the list.</li>
+<li><code>head</code>: Takes a list and returns the first element of the list.</li>
+<li><code>init</code>: Takes a list and returns all the elements of the list except the last one.</li>
+<li><code>len</code>: Takes a list and returns its length. Example: <code>len([4,5,6])</code> returns the number 3.</li>
+<li><code>reverse</code>: Takes a list and returns a new list that is the original list written in reverse order. <!-- >`last`: Takes a list and returns the last lement of the list. 
+>`tail`: Takes a list and returns a new list consisting of all elements except the head. For example, `tail([4,5,6])` returns the list `[5,6]`. 
+>`min`: Takes a list and returns the smallest element in the list.  --></li>
+</ul>
+<p>Let <code>gpList = [3, 6, 8, 1, 2]</code>. Calculate the compositions (<code>len</code> <span class="math">\(\circ\)</span> <code>reverse</code>)(<code>gpList</code>) and (<code>reverse</code> <span class="math">\(\circ\)</span> <code>init</code>)(<code>gpList</code>). Be sure to say which is which.</p>
+<ol start="3" style="list-style-type: decimal">
+<li>At the submission form, there are several compositions of the functions given in question 2. Not all of these compositions make sense, though, because some cannot be computed. Check all the compositions that <em>can</em> be computed. Since we can't use the <span class="math">\(\circ\)</span> symbol on the submission form, we will substitute the period (<code>.</code>) to denote composition. For example <code>max . prod</code> means <code>max</code> <span class="math">\(\circ\)</span> <code>prod</code>.</li>
+<li>There's no reason we have to stop at composing just two functions. We could compose as many as we like to make highly sophisticated code. Consider the function <code>sort</code> which takes a list and sorts its elements from smallest to largest. (For example <code>sort([3, 6, 8, 1, 2])</code> returns <code>[1,2,3,6,8]</code>.) Explain in English what the following multi-part composite function does:</li>
+</ol>
+<blockquote>
+<p><code>init</code> <span class="math">\(\circ\)</span> <code>reverse</code> <span class="math">\(\circ\)</span> <code>init</code> <span class="math">\(\circ\)</span> <code>sort</code></p>
+</blockquote>
+<h2 id="submission-instructions">Submission instructions</h2>
+<p>Submit your responses using the form at this link: <a href="http://bit.ly/1VuXZrl">http://bit.ly/1VuXZrl</a></p>
+</body>
+</html>
