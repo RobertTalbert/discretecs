@@ -1,0 +1,45 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta http-equiv="Content-Style-Type" content="text/css" />
+  <meta name="generator" content="pandoc" />
+  <title></title>
+  <style type="text/css">code{white-space: pre;}</style>
+  <script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
+</head>
+<body>
+<h1 id="mth-325-guided-practice-7.3b-inverse-functions">MTH 325 Guided Practice 7.3b: Inverse Functions</h1>
+<h2 id="overview">Overview</h2>
+<p>In the last lesson we looked at <em>compositions</em> of functions, where we take two (or more) functions that have &quot;compatible&quot; domains and codomains and chain them together into a larger function. This lesson looks at a related issue: Is it possible to take a function and chain it to another so that the resulting composition is the <em>identity</em> function, that is, the function that does nothing to the input? The second function in this case would &quot;cancel out&quot; the effects of the first one, making it an <em>inverse</em> for the first function. In this lesson we first look at what it means for two functions to be <em>equal</em> and then find some conditions under which the inverse of a function must exist, and we'll also think about what inverses of functions must look like.</p>
+<h2 id="learning-objectives">Learning objectives</h2>
+<p><strong>Basic objectives</strong>: Each student is responsible for gaining proficiency with each of these tasks <em>prior</em> to engaging in class discussions, through the use of the learning resources (below) and through the working of exercises (also below).</p>
+<ul>
+<li>Determine whether two functions are equal.</li>
+<li>State the definition of the <em>identity function</em>.</li>
+<li>Given two functions, determine if one is an inverse for the other.</li>
+</ul>
+<p><strong>Advanced objectives</strong>: The following objectives are the subject of class discussion and further work; they should be mastered by each student <em>during</em> and <em>following</em> class discussions.</p>
+<ul>
+<li>Determine whether a function has an inverse or not; if it does, find images of points under the inverse.</li>
+</ul>
+<h2 id="learning-resources">Learning resources</h2>
+<p>To gain proficiency in the learning objectives, use the following resources. You may include other resources if you wish, in addition to or in replacement of the following.</p>
+<p><strong>Textbook</strong>: In <em>ADS</em> section 7.3, read the definition of <em>equality of functions</em> (at the beginning) and then read from the subsection on &quot;Identity Function&quot; to the end. In particular, the <em>Mathematica Note</em> is a useful example (even though we do not know the language <em>Mathematica</em>).</p>
+<p><strong>Video</strong>: No videos this time.</p>
+<h2 id="exercises">Exercises</h2>
+<p>The following exercises are to be done <em>during</em> and <em>following</em> your reading and viewing of the resources. Work these out on paper and then enter the responses into the appropriate submission form (see Submission Instructions) by the deadline. You will receive a mark of <strong>Pass</strong> if each item response shows a good-faith effort to be right and is submitted prior to the deadline.</p>
+<ol style="list-style-type: decimal">
+<li>Consider the following two functions: <span class="math">\(f: \mathbb{Z} \rightarrow \mathbb{R}\)</span> given by <span class="math">\(f(x) = x^2\)</span>, and <span class="math">\(g: \mathbb{R} \rightarrow \mathbb{R}\)</span> given by <span class="math">\(g(x) = x^2\)</span>. Are these two functions equal? State your answer and explain your reasoning briefly.</li>
+<li>Consider the functions <span class="math">\(h: \mathbb{R} \rightarrow \mathbb{R}\)</span> given by <span class="math">\(h(x) = x^3 + 5\)</span> and <span class="math">\(k: \mathbb{R} \rightarrow \mathbb{R}\)</span> given by <span class="math">\(k(x) = \sqrt[3]{x-5}\)</span>. Find a formula for the compositions <span class="math">\(h \circ k\)</span> and <span class="math">\(k \circ h\)</span>. What does this mean about the functions <span class="math">\(h\)</span> and <span class="math">\(k\)</span>?</li>
+<li>Inverse functions are important in computer science because they &quot;undo&quot; operations that functions (i.e., programs) do. Below are three functions that operate on <em>strings</em> (that is, sequences of characters like <code>helloworld</code> or <code>ajs93ja++fZZ</code>). That is, they are fuctions from the set of all possible strings to itself. For each of these, determine if the function is injective, surjective, both, or neither; if the function has an inverse; and if so, what would that inverse function do. At the submission form there are three subquestions for each of these functions.</li>
+</ol>
+<ul>
+<li><code>firstthree</code> -- Takes a string and returns the first three characters in the string. Example: <code>firstthree('HelloWORLD872')</code> returns <code>Hel</code>.</li>
+<li><code>lowercase</code> -- Takes a string and converts it to all lowercase. Characters in the string that are not letters or which were already in lowercase are left alone. Example: <code>lowercase('HelloWORLD872')</code> returns <code>helloworld872</code>.</li>
+<li><code>switchcase</code> -- Takes a string and converts all lowercase characters to uppercase and vice versa. Characters in the string that are not letters are left alone. Example: <code>switchcase('HelloWORLD872')</code> returns <code>hELLOworld872</code>.</li>
+</ul>
+<h2 id="submission-instructions">Submission instructions</h2>
+<p>Submit your responses using the form at this link: <a href="http://bit.ly/1NXlzeh">http://bit.ly/1NXlzeh</a></p>
+</body>
+</html>
