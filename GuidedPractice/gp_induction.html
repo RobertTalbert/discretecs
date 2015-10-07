@@ -1,0 +1,53 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta http-equiv="Content-Style-Type" content="text/css" />
+  <meta name="generator" content="pandoc" />
+  <title></title>
+  <style type="text/css">code{white-space: pre;}</style>
+  <script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
+</head>
+<body>
+<h1 id="mth-325-guided-practice-induction-review">MTH 325 Guided Practice: Induction Review</h1>
+<h2 id="overview">Overview</h2>
+<p>We are about to transition into our next topic group on <em>graphs</em> having just finished the unit on <em>recursion</em>. In the middle of these two topics is the all-important mathematical technique of <em>proof by induction</em>. You first saw (or should have seen) proofs using mathematical induction in MTH 225, but (1) it's been a few months since MTH 225 and (2) this topic is so important moving forward that it's worth taking a day to review. This one-day unit is considered part of the Recursion learning bundle, because there are natural connections -- as you will see -- between recursive algorithms and inductive proofs.</p>
+<h2 id="learning-objectives">Learning objectives</h2>
+<p><strong>Basic objectives</strong>: Each student is responsible for gaining proficiency with each of these tasks <em>prior</em> to engaging in class discussions, through the use of the learning resources (below) and through the working of exercises (also below).</p>
+<ul>
+<li>Determine when proof by mathematical induction would be a good choice for a proof technique.</li>
+<li>Determine the base case for a proof by induction, and prove the base case.</li>
+<li>State the induction hypothesis in a proof by mathematical induction.</li>
+<li>State the proposition that needs to be proven in a proof by mathematical induction, following the induction hypothesis.</li>
+<li>Explain how one might finish an induction proof, having proven the base case and assumed the induction hypothesis.</li>
+</ul>
+<p><strong>Advanced objectives</strong>: The following objectives are the subject of class discussion and further work; they should be mastered by each student <em>during</em> and <em>following</em> class discussions.</p>
+<ul>
+<li>Write a complete and correct proof by mathematical induction for propositions arising from sums, recursive sequences, recurrence relations, or recursive algorithms.</li>
+</ul>
+<h2 id="learning-resources">Learning resources</h2>
+<p>Since this is a review, it's recommended that you skip the resources at first and try the exercises, to see how much you remember and how fluent you are. If you are able to complete the exercises with little to no trouble, you may skim or even skip the resources. However if one or more particular points are giving you difficulty, stop work on those and come back to read and watch video. Continue by reading and watching as much as you need in order to get back up to speed.</p>
+<ul>
+<li><a href="https://youtu.be/9LwAtbXSB3A">The Traveler and the Strange Staircase</a> (3:18)</li>
+<li><a href="https://www.youtube.com/watch?v=JTj6ID4-084">Mathematical induction, part 1</a> (5:22)</li>
+<li><a href="https://www.youtube.com/watch?v=1H0gg3fMYVA">Mathematical induction, part 2</a> (6:16)</li>
+<li><a href="https://www.youtube.com/watch?v=ayX6PxB3z40&amp;list=PL2419488168AE7001&amp;index=55">Mathematical induction: Example with integer division</a> (7:05)</li>
+<li><a href="https://www.youtube.com/watch?v=upzROTcbAnk&amp;list=PL2419488168AE7001&amp;index=56">Mathematical induction: Example with inequality</a> (4:45)</li>
+<li><a href="https://www.youtube.com/watch?v=GQ9fUZxmN8I&amp;list=PL2419488168AE7001&amp;index=57">Mathematical induction: Example with calculus</a> (8:27)</li>
+<li><a href="https://www.youtube.com/watch?v=9PMvJn-J608&amp;list=PL2419488168AE7001&amp;index=58">The Extended Principle of Mathematical Induction</a> (9:16)</li>
+<li><a href="https://www.youtube.com/watch?v=Z9sYIWHIvNc&amp;list=PL2419488168AE7001&amp;index=59">Extended Principle of Mathematical Induction: Example from computational geometry</a> (7:56)</li>
+</ul>
+<h2 id="exercises">Exercises</h2>
+<p>Consider the following predicate <span class="math">\(S(n)\)</span>, with the universal set being <span class="math">\(\mathbb{P}\)</span> (the set of all positive integers):</p>
+<p><span class="math">\[1 + 2 + 3 + \cdots + n = \frac{n(n+1)}{2}\]</span></p>
+<ol style="list-style-type: decimal">
+<li>Remember that <span class="math">\(S(n)\)</span> is a predicate, which means it does not have a truth value until you plug a number in for <span class="math">\(n\)</span>. Is <span class="math">\(S(1)\)</span> true? Explain how you know.</li>
+<li>By hand, and not to be turned in, determine whether <span class="math">\(S(2), S(3), \dots, S(10)\)</span> are true. What do you think is the truth set for <span class="math">\(S(n)\)</span>? Explain briefly.</li>
+<li>If we were to prove that <span class="math">\(1 + 2 + 3 + \cdots + n = \frac{n(n+1)}{2}\)</span> for all positive integers <span class="math">\(n\)</span>, we might use induction. The first step is to prove the base case. What exactly do we need to show, in order to prove the base case? Be specific.</li>
+<li>If we were to prove that <span class="math">\(1 + 2 + 3 + \cdots + n = \frac{n(n+1)}{2}\)</span> for all positive integers <span class="math">\(n\)</span> using induction, what would be the induction hypothesis? Give a <em>precise</em> statement of this induction hypothesis, including an important quantifier.</li>
+<li>If we were to prove that <span class="math">\(1 + 2 + 3 + \cdots + n = \frac{n(n+1)}{2}\)</span> for all positive integers <span class="math">\(n\)</span> using induction, once we've proven the base case and assumed the induction hypothesis, what do we now need to show? Give a <em>precise</em> statement.</li>
+</ol>
+<h2 id="submission-instructions">Submission instructions</h2>
+<p>Submit your responses using the form at this link: <a href="http://bit.ly/1VFyfXr">http://bit.ly/1VFyfXr</a></p>
+</body>
+</html>
