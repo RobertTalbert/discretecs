@@ -1,0 +1,58 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta http-equiv="Content-Style-Type" content="text/css" />
+  <meta name="generator" content="pandoc" />
+  <title></title>
+  <style type="text/css">code{white-space: pre;}</style>
+  <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
+</head>
+<body>
+<h1 id="mth-325-guided-practice-9.1-graphs----a-general-introduction">MTH 325 Guided Practice 9.1: Graphs -- A General Introduction</h1>
+<h2 id="overview">Overview</h2>
+<p>With this section, we introduce the second of three main tools of discrete structures: the <strong>graph</strong>. We have already met and extensively used the concept of a <em>directed graph</em> in our study of relations. A graph is just like a directed graph... except without the direction. In other words, a graph is a collection of vertices with edges that connect some of them, and the edges are just line segments with no direction specified. Graphs are at the heart of many important algorithms and are useful in modeling many situations involving networks and connections. In this section, we will introduce the concept of a <em>graph</em> (and the related ideas of <em>directed graphs</em> and <em>multigraphs</em>), <em>paths</em> and <em>circuits</em> in a graph, <em>isomorphic</em> graphs, and the <em>degree</em> of a vertex.</p>
+<h2 id="learning-objectives">Learning objectives</h2>
+<p><strong>Basic objectives</strong>: Each student is responsible for gaining proficiency with each of these tasks <em>prior</em> to engaging in class discussions, through the use of the learning resources (below) and through the working of exercises (also below). Note that important new terminology is given in italics.</p>
+<ul>
+<li>State the formal definition of a <em>directed graph</em>, <em>simple graph</em>, <em>multigraph</em>, <em>undirected graph</em>, and <em>complete</em> undirected graph.</li>
+<li>Given a graph (undirected), identify its vertices and edges as well as any paths that connect two vertices.</li>
+<li>Given a path in a graph, state the <em>initial vertex</em>, <em>terminal vertex</em>, its <em>edge list</em>, its <em>length</em>, and its <em>vertex list</em>. Also state whether the path is a <em>circuit</em> or not and whether it is <em>simple</em> or not.</li>
+<li>Given a vertex in an undirected graph, state its degree. If the graph is directed, state its in-degree and out-degree.</li>
+</ul>
+<p><strong>Advanced objectives</strong>: The following objectives are the subject of class discussion and further work; they should be mastered by each student <em>during</em> and <em>following</em> class discussions.</p>
+<ul>
+<li>Determine whether two graphs are isomorphic.</li>
+<li>Given a graph, answer questions 2--5 just before the subsection on &quot;Isomorphic Graphs&quot;.</li>
+</ul>
+<h2 id="learning-resources">Learning resources</h2>
+<p>To gain proficiency in the learning objectives, use the following resources. You may include other resources if you wish, in addition to or in replacement of the following.</p>
+<p><strong>Textbook</strong>: In <em>ADS</em>, read Section 9.1. Make sure to read actively, working through examples and activities as you go.</p>
+<p><em>Video</em>: This video is optional if you understood the book, but I thought it was very clear and potentially helpful:</p>
+<ul>
+<li><a href="http://www.youtube.com/watch?v=HmQR8Xy9DeM">Graph theory: An Introduction</a> (12:31)</li>
+</ul>
+<p>Some notes about this video: When the speaker defines the edge list of a graph, he does it in terms of two-element subsets of the vertex set, for example <span class="math inline">\({v_1, v_2}\)</span>; for us, we'll consider an edge to be an <em>ordered pair</em> of elements from the vertex set instead, for example <span class="math inline">\((v_1, v_2)\)</span>. Finally, this video introduces some ideas we are not formally taking up until later, specifically the concept of the adjacency matrix for an undirected graph, but it doesn't hurt to see it early.</p>
+<h2 id="exercises">Exercises</h2>
+<p>The following exercises are to be done <em>during</em> and <em>following</em> your reading and viewing of the resources. Work these out on paper and then enter the responses into the appropriate submission form (see Submission Instructions) by the deadline. You will receive a mark of <strong>Pass</strong> if each item response shows a good-faith effort to be right and is submitted prior to the deadline.</p>
+<p>All of the exercises refer to this (undirected) graph:</p>
+<p><img src="gp91img.png"></p>
+<ol style="list-style-type: decimal">
+<li>How many edges does this graph have?</li>
+<li>Is there a path of length 4 between vertex 1 and vertex 0? If so, state this path as a list of edges, each edge represented as an ordered pair. For example a path from 7 to 6 would be <code>[(7,4), (4,6)]</code> and this path has length = 2.</li>
+<li>Find a circuit of length starting and ending at that has length 4, and phrase it again as a list of edges (represented as pairs). Yes, such a circuit exists.</li>
+<li>Find the degree of each vertex in this graph and write the results as a list of numbers, with the first element of the list being the degree of vertex 0, the second the degree of vertex 1, and so on. In other words, make a list <code>[d0, d1, d2, d3, d4, d5, d6, d7]</code> in which d0 is the degree of vertex 0, d1 is the degree of vertex 1, etc. This is called the <em>degree sequence</em> of the graph.</li>
+<li>Add up the integers in the degree sequence and then compare it to the number of edges. Then run the code block below, which generates a random graph in Sage (using 10 vertices and a 50% chance of any two vertices being connected) and then prints off the sum of the degree sequence followed by the number of edges. You can change the number of vertices and the connection probability if you want. Do you notice a pattern? What is it?</li>
+</ol>
+<div class="sage">
+<script type="text/x-sage">random_graph = graphs.RandomGNP(10, 0.5)
+random_graph.show()
+print('Number of edges = %s') % random_graph.num_edges()
+print('Sum of degrees = %s') % sum(random_graph.degree_sequence())</script>
+</div>
+<p>In case the embedded Sage cell above doesn't appear or doesn't work, here is the block of code inside it that you can cut/paste into a Sage worksheet at SageMath Cloud:</p>
+<p><code>random_graph = graphs.RandomGNP(10, 0.5) random_graph.show() print('Number of edges = %s') % random_graph.num_edges() print('Sum of degrees = %s') % sum(random_graph.degree_sequence())</code></p>
+<h2 id="submission-instructions">Submission instructions</h2>
+<p>Submit your responses using the form at this link: <a href="http://bit.ly/1MrLRkh" class="uri">http://bit.ly/1MrLRkh</a></p>
+</body>
+</html>
