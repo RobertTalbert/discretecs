@@ -9,7 +9,7 @@ $$\{40,60,80,120,140,\cdots, 960, 980, 1020, 1040, \cdots\}$$
 
 (1b) No, $C$ is not equal to $A$ because $C$ contains negative integer powers of $10$ (like $0.1$ and $0.0001$) but $A$ does not. 
 
-(1c) No, because of $\{\emptyset\}$ were a subset of $B$, it would mean that $\emptyset$ is an _element_ of $B$, which it is not -- because $B$ consists of numbers and $\emptyset$ is not a number. 
+(1c) No, because if $\{\emptyset\}$ were a subset of $B$, it would mean that $\emptyset$ is an _element_ of $B$, which it is not -- because $B$ consists of numbers and $\emptyset$ is not a number. 
 
 (2a) $\sum_{i = 1}^4 3^i$
 
