@@ -1,0 +1,56 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta http-equiv="Content-Style-Type" content="text/css" />
+  <meta name="generator" content="pandoc" />
+  <title></title>
+  <style type="text/css">code{white-space: pre;}</style>
+</head>
+<body>
+<h1 id="mth-325-guided-practice-weighted-graphs-and-dijkstras-algorithm">MTH 325 Guided Practice: Weighted Graphs and Dijkstra's Algorithm</h1>
+<h2 id="overview">Overview</h2>
+<p>Our next topic in graph theory has many applications, some of which are being investigated in various application projects. That topic is <em>weighted graphs</em>, which are graphs whose edges have numerical values attached that might represent distances, costs, and so on. Weighted graphs are used to model networks in which traveling from one node to another might incur different “costs” depending on the nodes. An associated problem of great importance is: Given a weighted graph and a starting node, what is the path to each of the other vertices that has the least total cost? We’ll solve this problem using the very powerful <em>Dijkstra’s Algorithm</em>.</p>
+<p><strong>NOTE: This material is NOT located in your book.</strong> See the Resources section below for places to go to learn about this topic.</p>
+<h2 id="learning-objectives">Learning objectives</h2>
+<p><strong>Basic objectives</strong>: Each student is responsible for gaining proficiency with each of these tasks <em>prior</em> to engaging in class discussions, through the use of the learning resources (below) and through the working of exercises (also below). Note that important new terminology is given in italics.</p>
+<ul>
+<li>Generate a weighted graph using Sage.</li>
+<li>Find the weight of a path between two vertices in a weighted graph.</li>
+<li>Outline the overall strategy of Dijkstra's Algorithm and explain how we know that it eventually stops and why it returns the correct result.</li>
+</ul>
+<p><strong>Advanced objectives</strong>: The following objectives are the subject of class discussion and further work; they should be mastered by each student <em>during</em> and <em>following</em> class discussions.</p>
+<ul>
+<li>Use Dijkstra's Algorithm to find a path of lowest cost in a weighted graph.</li>
+<li>Find the shortest path between two vertices in a weighted graph using Sage commands.</li>
+</ul>
+<h2 id="learning-resources">Learning resources</h2>
+<p>NOTE: Since the information in this unit does not come from your book, it’s especially important to complete all the reading and all the video viewing and to ask questions (in person, by email, etc.) if you have any.</p>
+<p><strong>Reading:</strong></p>
+<ul>
+<li><a href="http://en.wikipedia.org/wiki/Graph_(mathematics)#Weighted_graph">Wikipedia blurb</a> about what a weighted graph is.</li>
+<li>The Wikipedia entries for the <a href="http://optlab-server.sce.carleton.ca/POAnimations2007/DijkstrasAlgo.html">algorithm</a> and <a href="http://en.wikipedia.org/wiki/Dijkstra&#39;s_algorithm#Description">description</a> of Dijkstra’s Algorithm. If you’re having trouble following the algorithm, you can go view one of the videos first.</li>
+<li><a href="http://optlab-server.sce.carleton.ca/POAnimations2007/DijkstrasAlgo.html">Animated web slide show of how Dijkstra’s Algorithm works</a>. When it says a node is “solved”, that means “visited”.</li>
+</ul>
+<p><strong>Video:</strong></p>
+<ul>
+<li><a href="https://www.youtube.com/watch?v=gdmfOwyQlcI">Dijkstra’s Algorithm</a> (5:01) You might want to watch this one twice to start to get a grasp on the process.</li>
+<li><a href="https://www.youtube.com/watch?v=8Ls1RqHCOPw">Graphs: Dijkstra’s Algorithm</a> (9:17) Another example using Dijkstra’s Algorithm, this time using a directed graph.</li>
+<li><a href="https://www.youtube.com/watch?v=UG7VmPWkJmA">Dijkstra’s Algorithm example</a> (4:00) Yet another example. No sound other than Mozart. “Removing” a vertex means marking it as visited.</li>
+<li><a href="http://www.youtube.com/watch?v=hv1IrJjbH-I">Creating a weighted graph in Sage from an adjacency matrix</a> (3:45)</li>
+<li><a href="http://www.youtube.com/watch?v=1C9fNr7GpqM">Creating a weighted graph in Sage from an edge list</a> (2:20)</li>
+</ul>
+<h2 id="exercises">Exercises</h2>
+<p>The following exercises are to be done <em>during</em> and <em>following</em> your reading and viewing of the resources. Work these out on paper and then enter the responses into the appropriate submission form (see Submission Instructions) by the deadline. You will receive a mark of <strong>Pass</strong> if each item response shows a good-faith effort to be right and is submitted prior to the deadline.</p>
+<p>Consider the following weighted graph:</p>
+<p><img src="weightedgraph.png"></p>
+<ol style="list-style-type: decimal">
+<li>Find three different simple paths (= paths in which no edge is crossed twice) from vertex 0 to vertex 3. List each one as an edge list and state the total weight of each path.</li>
+<li>There are at least three paths from 0 to 3 in this graph that are &quot;length 3&quot; which means they contain three edges. Do all of these paths have the same total weight?</li>
+<li>If we were to use Dijkstra's Algorithm to find the &quot;shortest&quot; path (that is, the path with the lowest total weight) from 0 to 3, we would first mark vertex 0 with a distance of 0 and then mark all other vertices as having a distance of infinity. What would we do next?</li>
+<li>Continuing the previous question, what would we do next (after completing the step you gave in question 3)?</li>
+</ol>
+<h2 id="submission-instructions">Submission instructions</h2>
+<p>Submit your responses using the form at this link: <a href="http://bit.ly/1M3mI38" class="uri">http://bit.ly/1M3mI38</a></p>
+</body>
+</html>
