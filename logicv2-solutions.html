@@ -1,0 +1,42 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta http-equiv="Content-Style-Type" content="text/css" />
+  <meta name="generator" content="pandoc" />
+  <title></title>
+  <style type="text/css">code{white-space: pre;}</style>
+  <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
+</head>
+<body>
+<h1 id="answers-logic-version-2">Answers: Logic version 2</h1>
+<h2 id="logic-level-1">Logic Level 1</h2>
+<p>(1a) It is below freezing and it's not snowing.</p>
+<p>(1b) If it's not below freezing, then it's not snowing.</p>
+<p>(2a) <a href="http://www.wolframalpha.com/input/?i=truth+table+%28p+or+%28not+q%29%29+implies+q">Truth table here.</a></p>
+<p>(2b) <a href="http://www.wolframalpha.com/input/?i=truth+table+%28p+or+q%29+implies+%28p+and+q%29">Truth table here.</a></p>
+<ol start="3" style="list-style-type: decimal">
+<li>Truth table for <span class="math inline">\((\neg p) \rightarrow q\)</span> <a href="http://www.wolframalpha.com/input/?i=truth+table+%28not+p%29+implies+q">here</a>. This is the same as the basic truth table for <span class="math inline">\(p \vee q\)</span>, so the two statements are equivalent.</li>
+</ol>
+<p>(4a) <span class="math inline">\(P(3)\)</span> is true. <span class="math inline">\(P(1)\)</span> is false.</p>
+<p>(4b) We can run through a few values first:</p>
+<ul>
+<li><span class="math inline">\(P(1)\)</span> is false because <span class="math inline">\(1^2\)</span> is not greater than or equal to <span class="math inline">\(2^1\)</span>.</li>
+<li><span class="math inline">\(P(2)\)</span> is true because <span class="math inline">\(2^2\)</span> is (greater than or) equal to <span class="math inline">\(2^2\)</span>.</li>
+<li><span class="math inline">\(P(3)\)</span> is true because <span class="math inline">\(3^2\)</span> is greater than or equal to <span class="math inline">\(2^3\)</span>.</li>
+<li><span class="math inline">\(P(4)\)</span> is true because <span class="math inline">\(4^2\)</span> is (greater than or) equal to <span class="math inline">\(2^4\)</span>.</li>
+<li><span class="math inline">\(P(5)\)</span> is false because <span class="math inline">\(5^2\)</span> is not greater than or equal to <span class="math inline">\(2^5\)</span>.</li>
+<li><span class="math inline">\(P(6)\)</span> is false because <span class="math inline">\(6^2\)</span> is not greater than or equal to <span class="math inline">\(2^6\)</span>.</li>
+</ul>
+<p>Somewhat informally, from here on out <span class="math inline">\(2^n\)</span> grows faster than <span class="math inline">\(n^2\)</span> because one is exponential and the other is polynomial, so we can expect <span class="math inline">\(P(n)\)</span> to continue to be false from here on. The truth set then is <span class="math inline">\(\{2,3,4\}\)</span>.</p>
+<p>(4c) This is a proposition because the variable <span class="math inline">\(x\)</span> has been quantified (<span class="math inline">\(\exists\)</span>). So it's now a statement that has a definite truth value regardless of the specific choice of <span class="math inline">\(x\)</span>. (In fact the statement is true, because there does exist <span class="math inline">\(x\)</span> such that <span class="math inline">\(P(x)\)</span> is false; see part (a).)</p>
+<h2 id="logic-level-2">Logic Level 2</h2>
+<p>(1a) Converse: If it is below freezing, then it is snowing outside. Contrapositive: If it is not below freezing, then it is not snowing outside.</p>
+<p>(1b) Converse: If <span class="math inline">\(n\)</span> is odd, then <span class="math inline">\(n\)</span> is a prime number. Contrapositive: If <span class="math inline">\(n\)</span> is even (or &quot;not odd&quot;) then <span class="math inline">\(n\)</span> is not a prime number.</p>
+<ol start="2" style="list-style-type: decimal">
+<li><a href="http://www.wolframalpha.com/input/?i=truth+table+%28%28p+or+q%29+and+%28p+implies+r%29+and+%28q+implies+r%29%29+implies+r">Truth table here</a>. Yes, this is a tautology.</li>
+</ol>
+<p>(3a) This is a true statement because there does indeed exist an <span class="math inline">\(x \in \mathbb{N}\)</span> such that <span class="math inline">\(x^2 &gt; x\)</span>, for example <span class="math inline">\(x = 2\)</span>.</p>
+<p>(3b) The negation symbolically is <span class="math inline">\((\forall x)(\neg P(x))\)</span>. This would say in English: <em>For all natural numbers x, <span class="math inline">\(x^2 \leq x\)</span></em>.</p>
+</body>
+</html>
