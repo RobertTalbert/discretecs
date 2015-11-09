@@ -1,4 +1,4 @@
-# MTH 225 Guided Practice Probability 1: 
+# MTH 225 Guided Practice Probability 1: Basic ideas of probability 
 
 ## Overview
 
