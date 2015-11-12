@@ -1,0 +1,41 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta http-equiv="Content-Style-Type" content="text/css" />
+  <meta name="generator" content="pandoc" />
+  <title></title>
+  <style type="text/css">code{white-space: pre;}</style>
+  <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
+</head>
+<body>
+<h1 id="mth-225-guided-practice-probability-3-random-variables">MTH 225 Guided Practice Probability 3: Random variables</h1>
+<h2 id="overview">Overview</h2>
+<p>We've learned about the rules for probability and how uncertain events can be quantified. In this lesson we'll take a look at a further means of quantifying uncertainty through the concept of a <em>random variable</em>. This is a function, whose domain is the sample space of an experiment and whose codomain is the set of real numbers -- so it's a function that assigns probabilities to events. Of particular interest to us is a random variable called the <em>binomial distribution</em> which is a way of assigning probabilities to experiments that have two possible outcomes. (Such an experiment, like flipping a coin or guessing on a true/false exam, is called a <em>Bernoulli trial</em>.)</p>
+<h2 id="learning-objectives">Learning objectives</h2>
+<p><strong>Basic objectives</strong>: Each student is responsible for gaining proficiency with each of these tasks <em>prior</em> to engaging in class discussions, through the use of the learning resources (below) and through the working of exercises (also below).</p>
+<ul>
+<li>Determine whether an experiment is or is not a Bernoulli trial.</li>
+<li>Given an experiment that is a Bernoulli trial, and given the probability <span class="math inline">\(p\)</span> of &quot;success&quot;, write out the binomial distribution <span class="math inline">\(b(k: n,p)\)</span> that gives the probability of <span class="math inline">\(k\)</span> successes in <span class="math inline">\(n\)</span> trials and then calculate the probability of attaining <span class="math inline">\(k\)</span> successes in <span class="math inline">\(n\)</span> trials.</li>
+</ul>
+<p><strong>Advanced objectives</strong>: The following objectives are the subject of class discussion and further work; they should be mastered by each student <em>during</em> and <em>following</em> class discussions.</p>
+<ul>
+<li>Apply the binomial distribution to determine probabilities in applied settings that use Bernoulli trials.</li>
+</ul>
+<h2 id="learning-resources">Learning resources</h2>
+<p>In Section 6.2 of the Rosen <em>Discrete Mathematics</em> text, read starting on page 406 at the subsection &quot;Bernoulli Trials and the Binomial Distribution&quot; and continue through page 413, stopping at the subsection &quot;The Probabilistic Method&quot;. Note that most of the second half of this reading are examples that describe applications of the math concepts from the first half and several of those examples are of interest to computer scientists.</p>
+<p>Important notational note: The notation <span class="math inline">\(C(n,k)\)</span> is the same thing as <span class="math inline">\(\binom{n}{k}\)</span>.</p>
+<p>You are again encouraged to use <a href="http://app.perusall.com">Perusall</a> to do your reading, since you can leave comments and questions in the text and help others out as well. Please see previous Guided Practice assignments and Blackboard announcements for instructions.</p>
+<h2 id="exercises">Exercises</h2>
+<p>The following exercises are to be done <em>during</em> and <em>following</em> your reading. Work these out on paper and then enter the responses into the appropriate submission form (see Submission Instructions) by the deadline. You will receive a mark of <strong>Pass</strong> if each item response shows a good-faith effort to be right and is submitted prior to the deadline.</p>
+<ol style="list-style-type: decimal">
+<li>At the submission form is an item that lists a few different kinds of experiments (i.e. random events). Check all of the ones that would be classified as Bernoulli trials.</li>
+<li>(Review) Compute the quantity <span class="math inline">\(C(10,6)\)</span> and leave your answer in the blank at the submission form.</li>
+<li>The reading defines the binomial distribution to be a function that assigns outcomes of a Bernoulli trial to the probability of that outcome happening. The function accepts three inputs: <span class="math inline">\(k\)</span> (the number of successes in the experiment), <span class="math inline">\(n\)</span> (the number of trials performed), and <span class="math inline">\(p\)</span> the probability of success and its output is <span class="math inline">\(C(n,k)p^k (1-p)^{n-k}\)</span>. (The book uses the variable <span class="math inline">\(q\)</span> to represent <span class="math inline">\(1-p\)</span>.) Use this formula to find the probability that when a fair coin is flipped 5 times, you will get tails 3 of those times.</li>
+<li>Pick one of the applications mentioned in the second half of the reading that caught your attention, and describe how probability is used in the application.</li>
+</ol>
+<h2 id="submission-instructions">Submission instructions</h2>
+<p>Submit your responses using the form at this link: <a href="http://bit.ly/1M8UKSj" class="uri">http://bit.ly/1M8UKSj</a></p>
+<p>Note that although you can provide specific mathematical questions as always on this form, you're encouraged to use Perusall to ask questions because you might get more immediate help from classmates this way.</p>
+</body>
+</html>
