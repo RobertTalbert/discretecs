@@ -23,6 +23,11 @@ Important notational note: The notation $C(n,k)$ is the same thing as $\binom{n}
 
 You are again encouraged to use [Perusall](http://app.perusall.com) to do your reading, since you can leave comments and questions in the text and help others out as well. Please see previous Guided Practice assignments and Blackboard announcements for instructions. 
 
+Useful video resource: 
+
++ [The Binomial Distribution](https://www.youtube.com/watch?v=xNLQuuvE9ug) (6:45)
+
+
 ## Exercises
 
 The following exercises are to be done _during_ and _following_ your reading. Work these out on paper and then enter the responses into the appropriate submission form (see Submission Instructions) by the deadline. You will receive a mark of __Pass__ if each item response shows a good-faith effort to be right and is submitted prior to the deadline. 
