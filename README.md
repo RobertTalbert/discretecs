@@ -1,6 +1,8 @@
 # discretecs
 
-This repository contains course materials for MTH 325, Discrete Structures for Computer Science 2, at Grand Valley State University. This course is currently (Winter 2016) being taught and so more stuff will be added as the semester progresses. 
+This repository contains course materials for MTH 325, Discrete Structures for Computer Science 2, at Grand Valley State University. The course is an overview of recursion and induction, relations, graphs, and trees. 
+
+This course is currently (Winter 2016) being taught and so more stuff will be added as the semester progresses. 
 
 Contained in this repository are: 
 
