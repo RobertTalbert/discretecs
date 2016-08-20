@@ -1,6 +1,6 @@
 # Discrete Structures for Computer Science 
 
-This repository contains course materials for MTH 225: Discrete Structures for Computer Science 1 and MTH 325: Discrete Structures for Computer Science 2, at Grand Valley State University. This is a two-semester course sequence required for all computer science majors. The rough breakdown of coures content is: 
+This repository contains course materials for MTH 225: Discrete Structures for Computer Science 1 and MTH 325: Discrete Structures for Computer Science 2, at Grand Valley State University. This is a two-semester course sequence required for all computer science majors. The rough breakdown of course content is: 
 
 + MTH 225: Sets, functions, counting, sequences, mathematical induction, logic, and proof techniques. 
 + MTH 325: Graphs, graph applications, relations, and trees. 
