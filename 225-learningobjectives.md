@@ -23,13 +23,11 @@
   + L.3: I can determine whether a quantified statement is true, false, or underdetermined, and state its negation. 
   + L.4: I can write the truth table for a logical statement.
   + L.5: I can determine if a statement is a tautology and whether two statements are logically equivalent. 
-  + L.6: I can determine if a deduction rule is logically valid.  
 + Group SF: Formulate and solve computational problems using sets and functions. 
   + S.1: I can represent a set in roster notation and set-builder notation; determine if an object is an element of a set; and determine set relationships (equality, subset). 
   + S.2: I can perform operations on sets (intersection, union, complement, Cartesian product) and determine the cardinality of a set. 
-  + *S.3: I can create and interpret Venn diagrams.* 
-  + S.4: I can determine whether or not a given relation is a function, determine the domain and codomain of a function, and find the image and preimage of a point using a function. 
-  + S.5: I can determine whether a function is injective, surjective, or bijective. 
+  + S.3: I can determine whether or not a given relation is a function, determine the domain and codomain of a function, and find the image and preimage of a point using a function. 
+  + S.4: I can determine whether a function is injective, surjective, or bijective. 
 + Group C: Formulate and solve complex counting problems using computational thinking and the tools of combinatorics. 
   + C.1: I can use the additive and multiplicative principles and the Principle of Inclusion and Exclusion to formulate and solve counting problems. 
   + C.2: I can calculate a binomial coefficient and correctly apply the binomial coefficient to formulate and solve counting problems. 
@@ -40,12 +38,17 @@
   + SR.2: I can use sigma notation to rewrite a sum and determine the sum of an expression given in sigma notation. 
   + SR.3: I can find closed-form and recursive expressions for arithmetic and geometric sequences and find their sums. 
   + SR.4: I can determine if a given sequence is $\Delta^k$-constant and find a polynomial fit if it is. 
-  + *SR.5: I can find a recurrence relation with initial conditions for a given sequence.*
-  + SR.6: I can use iteration and characteristic roots to solve a recurrence relation. 
+  + SR.5: I can use iteration and characteristic roots to solve a recurrence relation. 
 + Group P: Write clear, correct, and convincing arguments to explain the correctness of a solution using combinatorial proof and mathematical induction.
   + P.1: I can analyze and write a combinatorial proof of a combinatorial identity. 
   + P.2: Given a statement to be proven by (weak) induction, I can state and prove the base case, state the inductive hypothesis, and outline the proof. 
-+ Another group that pulls together objectives 6-8 above: Demonstrate skills appropriate for effective problem solvers in computer science: 
-  + Explain methods and solutions of computational problems in a clear way to a specified target audience.
-  + Demonstrate fluency in applying computer programming in the formulation and solutions of mathematical problems.
-  + Assess one's own work in mathematical problem solving and apply feedback to make improvements to one's own work
++ Group CS: Demonstrate problem solving, communication,and learning skills appropriate for computer science.  
+  + CS.1: I can explain the reasoning behind solutions to computational problems clearly to an appropriate audience. 
+  + CS.2: I can apply computer programming and computational thinking to frame and solve mathematical and computational problems. 
+  + CS.3: I can self-assess my work and apply feedback from others to make improvements in my work. 
+
+**Eliminated:**
+
++ L.6: I can determine if a deduction rule is logically valid
++ S.3: I can create and interpret Venn diagrams.
++ SR.5: I can find a recurrence relation with initial conditions for a given sequence.
