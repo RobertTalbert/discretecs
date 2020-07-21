@@ -4,12 +4,18 @@ Work that is assessed:
 
 + Checkpoints (biweekly, for Learning Target mastery) 
 + AEP (like in 201)
-+ Guided Practice (pre-module) 
-+ Learning Activities
-  + These are like homework -- mid-Bloom stuff
-  + Two parts, given in one assignment -- aligned with class activities 
-  + Students choose the parts they work out 
-  + Turned in weekly on Blackboard -- graded EMRN 
++ Daily Prep (pre-module)
+  + Twice a week -- before M and before W -- focuses on just the lesson for the day, includes review 
++ Activities 
+  + Given in three flavors -- synchronous and asynchronous
+  + Assigned on ClassKick 
+  + Whatever modality you choose, just get it done by 11:59pm T (for M class) or R (for W class) 
+  + Graded check/x on basis of completeness and effort 
++ Weekly Practice 
+  + Two parts, one assignment -- give some choice, pick N of M in each part 
+  + Write up on paper or type, submit on Bb
+  + Graded EMRN  
+  + Includes weekly check-in (for engagement credit) 
 + Final exam (big picture + additional checkpoint)
 
 ---
