@@ -79,3 +79,13 @@ Recurring activities -- these are also assessments:
   - CodeAcademy Python 
   - Startup  
   - Misc 
+
+## Course Tools 
+
+- Preclass: Google Forms, (Desmos), ClassKick; video on YouTube and Panopto  
+- Polling: Mentimeter (for now) 
+- Python via Google Colab for Python 
+- Google Jamboard or MS Whiteboard for whiteboarding needs 
+- CampusWire as connective tissue 
+- Loom or Google Forms for weekly checkins 
+- 
