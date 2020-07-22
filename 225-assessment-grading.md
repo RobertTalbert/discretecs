@@ -59,3 +59,33 @@ Minus for:
 
 - All requirements except one satisfied, and the one is no more than two grade levels lower
 - No Pass on the big picture portion of the final 
+
+
+## Second draft of grading system 
+
+Assessed work: 
+
++ Learning Targets assessed through Checkpoints: 23 in all -- 10 Core, 13 supplemental
++ "CS" learning targets assessed through special means -- 3 total
++ AEP --- at least 8 of these, probably more 
++ Learning activities --- Either Daily Prep or Class Activities, 1 point each (check/x) and about 24 of each total for a grand total of 48
++ Weekly Practice sets --- basically homework, graded EMRN (but the E is just feedback) 
+
+| Grade | Core Targets | Supplemental Targets | CS Targets | AEP | LA | WP | 
+|:--: |:--: |:--: |:--: |:--: |:--: |:--: |
+A | 10 Mastery | 6 Proficient, 5 Mastery | 3 | 3 E, 4 M+ | 44 | 9 M+ |
+B | 10 Mastery | 5 Proficient, 4 Mastery | 3 | 1 E, 4 M+ | 39 | 8 M+ | 
+C | 5 Mastery, 5 Proficient | 7 Proficient | 2 | 5 M+ | 34 | 7 M+ | 
+D | 5 Proficient | 5 Proficient | n/a | 2 M+ | 24 | 4 M+ | 
+
+
+F = Not all requirements for a D are satisfied
+
+Plus/minus rules: 
+
++ Earn a plus if: 
+  + Complete all the requirements for a base grade and any of the Targets or AEP requirements for the next level up AND earn Passing mark on the big-picture portion of the final exam. 
++ Earn a minus if: 
+  + Do not pass the big-picture portion of the final; OR 
+  + Complete all requirements for a base grade except for one, and that one is no more than two grade levels lower 
+
