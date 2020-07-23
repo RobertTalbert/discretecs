@@ -16,7 +16,7 @@ Micro-objectives: (Bold ones are day 1)
 
 - **Convert an integer from base 10 into bae 2, 8, and 16 and vice versa.** 
 - **Implement the division/remainder algorithm for converting from decimal to base $r$**. 
-- **Represent a signed integer using 2's complement and convert a signed integer from base 8, 10, or 16 into binary using 2's complement.**
+- Represent a signed integer using 2's complement and convert a signed integer from base 8, 10, or 16 into binary using 2's complement.
 - Add, subtract, and multiply two binary integers (without changing representation). 
 - Find the quotient and remainder when dividing one binary integer by another. 
 
@@ -26,7 +26,6 @@ Micro-objectives: (Bold ones are day 1)
 Day 1 in order: 
 
 - **Convert an integer from base 10 into bae 2, 8, and 16 and vice versa.** 
-- **Represent a signed integer using 2's complement and convert a signed integer from base 8, 10, or 16 into binary using 2's complement.**
 - **Implement the division/remainder algorithm for converting from decimal to base $r$**. 
 
 Day 2 in order: Same as above. 
@@ -34,16 +33,39 @@ Day 2 in order: Same as above.
 
 ## 3. Sketch of in-class activity 
 
+Day 1
+
 - Review and QA over pre-class 
 - Conceptual polling questions:
   - How to tell if binary integer is even 
   - When we multiply a number in base 8 by 8, what happens? 
-- Representing signed integers with 2's complement 
 - Basic practice with changing representations using the algorithm 
-- (Maybe) Preview: Add 1 + 1 in binary. Add 2 + 2 in binary (10 + 10 + 100). Add 2 + 3 (10 + 11 = 101)
+- Minilecture: bin/dec/oct/hex in Python (Or make a video) (Or set up a Jupyter notebook) 
+
+Day 2
+
+Include 2's complement here 
+
+- Review and QA over pre-class
+- Conceptual polling questions 
+  - Review from Day 1
+  - What is the sum of 111 and 011? 
+  - The difference? 
+  - The product? 
+  - The quotient and remainder? 
+  - Review of process
+  - 
+- Students work out examples in pairs on Jamboard -- then go over answers 
+
 
 Followup activities: 
+
+Day 1
 
 - Randomly generated decimals, convert all to binary using the algorithm and show work. (Can check on WA)
 - Randomly generated signed decimals, convert to base 2, 8, 16 using 2's complement 
 
+
+Day 2
+
+- Just more examples with each operation 
