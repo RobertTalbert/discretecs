@@ -48,8 +48,9 @@ Include 2's complement here
 
 - Review and QA over pre-class
 - Conceptual polling questions 
-  - Review from Day 1
-  - What is the sum of 111 and 011? 
+  - Review from Day 1 (What are the decimal values of 0111 and 0011)
+  - What is the sum of 0111 and 0011? 
+  - What is -3 written using 2's complement? 
   - The difference? 
   - The product? 
   - The quotient and remainder? 
