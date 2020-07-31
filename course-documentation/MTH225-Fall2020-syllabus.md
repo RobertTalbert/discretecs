@@ -160,7 +160,7 @@ A grade of "F" is given if not all the requirements for a "D" are met.
 **Plus/minus grades:** Your base grade may be modified with a plus or minus, according to these guidelines: 
 
 + A "plus" is added to the base grade if all requirements for a base grade are satisfied, *and* the LT (both Core and Supplemental) *or* AEP requirement for the next level up is also satisfied; *and* the big-picture portion of the final exam is passed. 
-+ A "minus" is added to the base grade above in either of the following cases: (1)  All requirements for a base grade are satisfied *except one*, and that one is no more than two levels below the others; **or** (2) You meet the minimum requirements for a base grade (i.e. none of the requirements for higher levels are met) and you do not pass the big-picture portion of the final exam. In the first case, if the deficient area is more than two levels below, the penalty will be either a minus or a full letter grade, at my discretion.
++ A "minus" is added to the base grade above in either of the following cases: (1)  All requirements for a base grade are satisfied *except one*, and that one is no more than two levels below the others; **or** (2) You meet the minimum requirements for a base grade but you do not pass the big-picture portion of the final exam. In the first case, if the deficient area is more than two levels below, the penalty will be either a minus or a full letter grade, at my discretion.
 
 ## Revisions and tokens 
 
@@ -176,7 +176,7 @@ Since your work in the course is not graded with points (or is graded either 0 o
 
 **Weekly Practice sets** receiving an R or N can be revised, with the following limitations: (1) work receiving an "R" costs one token to revise; (2) work receiving an "N" costs two tokens to revise; and (3) no more than one Weekly Practice set may be revised in a given week. 
 
-However, **Daily Prep** and **Followup Activities** may not be revised at all; these are graded on the basis of completeness and effort only and are intended to be done once. 
+However, **Daily Prep** and **Class Activities** may not be revised at all; these are graded on the basis of completeness and effort only and are intended to be done once. 
 
 
 
