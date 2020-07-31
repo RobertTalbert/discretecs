@@ -328,7 +328,7 @@ Although these plans can be scary and demoralizing, I want you to know that **GV
 
 + **Group A: Represent integers using different number bases, and perform integer arithmetic using different bases and modular arithmetic**. 
   + A.1: I can represent an integer in base 2, 8, 10, and 16. 
-  + A.2 **(Core)**: I can add and multiply two integers written in binary. 
+  + A.2 **(Core)**: I can add, subtract, multiply, and divide two integers written in binary. 
   + A.3: I can compute `a % b` given integers `a` and `b` and perform arithmetic mod `n`.  
 + **Group L: Formulate, manipulate, and determine the truth of logical expressions using symbolic logic.** 
   + L.1: I can use propositional variables and logical connectives to represent statements; and interpret symbolic logical statements in plain language. 
