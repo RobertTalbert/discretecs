@@ -88,7 +88,6 @@ The content of MTH 225 is divided into 12 **modules**, each of which is subdivid
 Although you have the option not to attend your F2F meeting, you are still encouraged to do so, since you will benefit from the immediate interaction with your classmates and the instructor. However, given the realities of this semester and the ongoing Covid-19 pandemic, you should rest assured that you are not *required* to attend class physically if you have any reason not to. 
 
 
-<!-- CURRENT BOUNDARY LINE OF UPDATES 2020-07-29 -->
 
 ## Learning activities in MTH 225 
 
@@ -96,19 +95,22 @@ Both to learn the material and to demonstrate how well you have learned it, you 
 
 The kinds of activities you will undertake are: 
 
-+ **Daily Preparation**: You will complete Daily Prep assignments before each of your F2F meetings. Each Daily Prep assignment involves reading, video-watching, or playing with an interactive tool and then answering questions and working exercises on basic learning obejctives. Each Daily Prep is graded with a "check" if it is submitted by the deadline (given on the course calendar), every exercise has a response, and each response indicates a good-faith effort to be right. Otherwise the work receives an "x". 
-+ **Followup Activities**: Following your face-to-face meeting, you'll complete a short set of activities roughly equivalent to an in-class group activity. Followup activities will complete the lesson for each part of a module. As with Daily Prep assignments, they are grade with a "check" if the activity is completed by the due date and each part of the activity is complete with a good-faith effort to be right. Otherwise it receives an "x".  
-+ **WeBWorK**: Twice a week, students will complete 8-item online homework sets that provide opportunities to practice basic ideas from each part of a module and to review. These are deployed using the *WeBWorK* online homework system at https://webwork-math.gvsu.edu/webwork2/. These will be due Wednesday and Sunday nights at 11:59pm ET. WeBWork allows for unlimited multiple attempts without penalty up to those deadlines. Each WeBWorK item is worth 1 point (some allow partial credit) ad is auto-graded by the computer on the basis of correctness of the answer. 
-+ **Learning Target Checkpoints**: On a roughly bi-weekly basis, you'll receive a take-home exam called a "Checkpoint" that consists of several problems, each one of which focuses on a single Learning Target from the list in Appendix ???. Each Checkpoint will contain one problem for every Learning Target that has been covered up to that point. For example, the first Checkpoint may contain problems for Learning Targets F.1 through L.2; the second Checkpoint will contain new versions of F.1 through L.2 along with first-time problems for D.1 through D.3; the third Checkpoint will contain new versions of F.1 through D.3 with first-time problems for D.4 through DC.1; and so on. You will only need to attempt problems for Learning Targets that you have not yet mastered. The cumulative structure allows you to attempt problems multiple times in different weeks. Students will be provided with a detailed rubric for what constitutes acceptable work on each Checkpoint problem. Work that meets the criteria for acceptable work will be given a "check"; work that does not meet the criteria will receive an "X". **Work receiving an "X" can be redone at any later Checkpoint**. See the Revision policy for details. You can also earn a "check" through means other than Checkpoints; see ??? for details. 
-+ **Application/Extension Problems (AEPs)**: AEPs are more extensive problems that require applying or extending the basic course knowledge from the Learning Targets. Most require technology, and all will require a formal writeup. There will be at least 8 AEP sets posted during the semester. They are graded using the EMRN rubric discussed in a later section and can be revised and resubmitted if needed. 
-+ **Final Exam**: The final exam in the course will consist of two parts. The first part consists of big-picture questions on the overall ideas of the course. Your performance on this part contributes to the plus/minus grade in the course. The other part of the final exam will be a last Checkpoint of the semester and will give you the chance to meet additional learning targets that have not yet been mastered. 
++ **Daily Preparation (DP)**: You will complete Daily Prep assignments before each of your F2F meetings. Each Daily Prep assignment involves reading, video-watching, or playing with an interactive tool and then answering questions and working exercises on basic learning obejctives. Each Daily Prep is graded with a "check" if it is submitted by the deadline (given on the course calendar), every exercise has a response, and each response indicates a good-faith effort to be right. Otherwise the work receives an "x". 
++ **Class Activities (CA)**: The first two class meetings of each module (typically, but not always, Monday and Wednesday) focus on a set of activities. Those activities will be available for those participating synchronously, and in a slightly modified form for those participating asynchronously. No matter which modality you choose to participate in, your work on the activities will be turned in and checked for completeness and effort. As with Daily Prep, Class Activities are graded with a "check" if submitted by the deadline (given on the course calendar), every exercise has a response, and each response indicates a good-faith effort to be right. Otherwise the work receives an "x". 
++ **Weekly Practice (WP):** In a typical week, you will be given a set of exercises that give further practice on the week's concepts. These are to be done individually, written up, and turned in on Blackboard. They are graded using the "EMRN" rubric described later in this syllabus. Weekly Practice sets also may contain items done for engagement credits (below). 
++ **Learning Target Checkpoints**: On a roughly bi-weekly basis, you'll receive a take-home exam called a "Checkpoint" that consists of several problems, each one of which focuses on a single Learning Target from the list in the Appendix. Each Checkpoint will contain one problem for every Learning Target that has been covered up to that point. For example, the first Checkpoint may contain problems for Learning Targets A.1 through A.3; the second Checkpoint may contain problems for L.1 through L.3 *along with new versions* of problems for A.1 through A.3; the third Checkpoint may contain problems for L.4 and L.5, *along with new versions* of problems for A.1-A.3 and L.1-L.3; and so on. **You will only need to attempt problems for Learning Targets that you have not yet mastered**. The cumulative structure allows you to attempt problems multiple times in different weeks. Students will be provided with a detailed rubric for what constitutes acceptable work on each Checkpoint problem. Work that meets the criteria for acceptable work will be given a "check"; work that does not meet the criteria will receive an "X". **Work receiving an "X" can be redone at any later Checkpoint**. See the Revision policy for details. You can also earn a "check" through means other than Checkpoints; see ??? for details. 
++ **Application/Extension Problems (AEPs)**: There will be at least 8 (but probably more than 8) problem sets given that are focused on challenging applications or extensions of the basic ideas from the course. Students pick and choose from these and work on them through the semester at their own pace. These are graded using the EMRN rubric described later and can be revised and resubmitted according to the revision policy described later in this syllabus. 
++ **Final Exam**: The final exam in the course will consist of two parts. The first part consists of big-picture questions on the overall ideas of the course and an opportunity to show that you have satisfied the three "CS" learning objectives (see Appendix). Your performance on this part contributes to the plus/minus grade in the course. The other part of the final exam will be a last Checkpoint of the semester and will give you the chance to meet additional learning targets that have not yet been mastered. 
 + **Miscellaneous engagement opportunities**: Various other activities in the class will give you the opportunity to get and stay engaged with the course. These include the Startup assignment in week 1, occasional discussion board activities, meeting certain incentive bonus deadlines, and other items. Designated items will carry 1 "engagement credit", and engagement credits will accumulate through the semester. In particular, every "check" on a Daily Prep and Followup activity is worth 1 engagement credit. 
+
+
+
 
 ## How work is graded in MTH 225
 
 ### Proficiency and Mastery on Learning Targets 
 
-There are 24 Learning Targets in the course, 10 of which are designated as **Core** targets due to their central nature in Discrete Structures, and the other 14 of which are designated as **Supplemental**. There are two levels of achievement on any of the  Learning Targets: **Proficiency** and **Mastery**. Students get numerous opportunities to demonstrate understanding of the Learning Targets; every time this happens, the student receives a "check" on that Learning Target. 
+There are 23 Learning Targets in the course, 10 of which are designated as **Core** targets due to their central nature in Discrete Structures, and the other 13 of which are designated as **Supplemental**. There are two levels of achievement on any of the  Learning Targets: **Proficiency** and **Mastery**. Students get numerous opportunities to demonstrate understanding of the Learning Targets; every time this happens, the student receives a "check" on that Learning Target. 
 
 + To be rated as "Proficient" on a Learning Target, earn **one check** on it. 
 + To be rated as "Mastered" on a Learning Target, earn **two checks** on it. 
@@ -118,13 +120,15 @@ You can earn a check on a Learning Target in four different ways:
 1. *(The simplest way)* **Do work on a Checkpoint** that meets the criteria for acceptable quality, as described above,. 
 2. **Schedule an oral assessment** (on videoconference) during which I will give a new version of a Checkpoint-like problem for that Learning Target, and you solve that problem "live" at an acceptable level. 
 3. **Create a video** of yourself working out the solution to a Checkpoint-like problem that I will make for you, then submit the video. If you choose this option, you'll also be required to have a follow-up video meeting with me to discuss the solution and answer additional related questions to make sure you really understand the ideas. 
-4. **Use work on an AEP set** and schedule a videoconference meeting with me to argue that your work on the AEP demonstrates mastery of the Learning Target, as well as answer follow-up questions. For example, you might do work on an AEP that you believe demonstrates proficiency with "computing derivatives correctly using multiple rules in combination" (Learning Target DC.3). If so, then you could schedule a meeting with me to explain why you think your work satisfied DC.3; I would listen and, if I agree, I might ask you to work out a second problem also related to DC.3 to make sure you really understand the idea. 
+4. **Use work on an AEP set** and schedule a videoconference meeting with me to argue that your work on the AEP demonstrates mastery of the Learning Target, as well as answer follow-up questions. For example, you might do work on an AEP that you believe demonstrates proficiency with "find closed-form and recursive expressions for arithmetic and geometric sequences and find their sums" (Learning Target SR.3). If so, then you could schedule a meeting with me to explain why you think your work satisfied SR.3; I would listen and, if I agree, I might ask you to work out a second problem also related to SR.3 to make sure you really understand the idea. 
 
 **Boundaries on these methods:** Please note the following restrictions on options 2-4 above: 
 
 - *No more than one check per week can be earned through options 2-4*. 
 - *Option 3 (make a video) must adhere to standards for video creation* (to be posted separately; basically the video must have clear sound and audio, and keep face, handwriting, and voice in the frame at all times). 
 - *Mastery (two checks) *must* include at least one Checkpoint problem*. That is, you can't earn Mastery on a learning target through options 2-4 alone.
+
+**CS learning targets**: In addition to the 23 content-oriented Learning Targets, there are three big-picture oriented learning targets designated "CS". These are satisfied not through checkpoints, but through a brief portfolio of your semester work that you will provide at the final exam. 
 
 ### The EMRN rubric
 
@@ -138,33 +142,31 @@ Whenever your work on an AEP is graded, you will be given extensive actionable f
 
 Your course grade is determined using the table below. In order to earn a particular letter grade, each requirement must be met in the column for that grade. Your *base grade* (the letter A,B,C, D, or F without plus or minus) is **the highest grade for which all the requirements are met**. 
 
-Note: In the table, numerical values indicate the minimum level needed to meet the requirement; amounts above this level also meet the requirement. Also, for AEP's, "M+" means "either M or E". 
+Note: In the table, numerical values indicate the minimum level needed to meet the requirement; amounts above this level also meet the requirement. Also, for AEP's, "M+" means "either M or E". Finally, "DP+CA" refers to the sum of your Daily Prep and Class Activities with a "check"; there will be 24 of each, for a maximum total of 48.
 
 
-
-| Category | D | C | B | A | 
-|:---: |:---: |:---: |:---: |:---: |
-| Core Learning Targets (10) | 5 Proficient | 5 Proficient, 5 Mastered | 10 Mastered | 10 Mastered | 
-| Supplemental Learning Targets (14) |  3 Proficient | 6 Proficient | 6 Proficient, 3 Mastered | 6 Proficient, 6 Mastered | 
-| AEPs (8+)  | 2 M+ | 5 M+ | 2 E, 4 M+ | 4 E, 3 M+ | 
-| WeBWorK (192+) | 90 | 140 | 160 | 180 | 
-| DP + LA (48) | 24 | 34 | 39 | 44 | 
-| Engagement credits (100+) | 35 | 70 | 80 | 90 |
-
+| Category | D  |  C | B | A | 
+|:---: | :---: | :---: | :---: | :---: | 
+| Core Learing Targets (10) | 5 Proficient | 5 Proficient, 5 Mastered | 10 Mastered | 10 Mastered | 
+| Supplemental Learning Targets (13) | 5 Proficient | 7 Proficient | 6 Proficient, 3 Mastery | 6 Proficient, 5 Mastery | 
+| AEP (8+) | 2 M+ | 5 M+ | 2 E, 4 M+ | 4 E, 2 M+ | 
+| WP (10+) | 4 M+ | 7 M+ | 8 M+ | 9 M+ | 
+| DP + CA (48) | 24 | 34 | 39 | 44 | 
+| EC (100+) | 30 | 60 | 70 | 80 | 
 
 
 A grade of "F" is given if not all the requirements for a "D" are met. 
 
 **Plus/minus grades:** Your base grade may be modified with a plus or minus, according to these guidelines: 
 
-+ A "plus" is added to the base grade if all requirements for a base grade are satisfied, *and* the LT (both the Mastered and Progressing) or AEP requirement for the next level up is also satisfied; *and* the big-picture portion of the final exam is passed. 
++ A "plus" is added to the base grade if all requirements for a base grade are satisfied, *and* the LT (both Core and Supplemental) *or* AEP requirement for the next level up is also satisfied; *and* the big-picture portion of the final exam is passed. 
 + A "minus" is added to the base grade above in either of the following cases: (1)  All requirements for a base grade are satisfied *except one*, and that one is no more than two levels below the others; **or** (2) You meet the minimum requirements for a base grade (i.e. none of the requirements for higher levels are met) and you do not pass the big-picture portion of the final exam. In the first case, if the deficient area is more than two levels below, the penalty will be either a minus or a full letter grade, at my discretion.
 
 ## Revisions and tokens 
 
 Since your work in the course is not graded with points (or is graded either 0 or 1), partial credit is not available except for occasional multi-part WeBWorK items. Instead, almost all work you do in the course can be revised and resubmitted to allow you to improve your work and raise your grade. 
 
-**Checkpoint items** can be revised by reattempting the item on a later Checkpoint or through one of the other means described earlier. For example if you attempt a Checkpoint problem for Learning Target D.1 and receive an "x", you can: redo the problem on a later Checkpoint (where it will be the same essential task but with different specifics); schedule an oral exam via video meeting to attempt a different version of the problem; create a video for a different version of the problem; or use work on an AEP to argue that you've met the standards for that target. Remember, though, only one check per week can be earned through non-Checkpoint methods, and Mastery level on a target requires that at least one Checkpoint problem earn a "check". 
+**Checkpoint items** can be revised by reattempting the item on a later Checkpoint or through one of the other means described earlier. For example if you attempt a Checkpoint problem for Learning Target A.1 and receive an "x", you can: redo the problem on a later Checkpoint (where it will be the same essential task but with different specifics); schedule an oral exam via video meeting to attempt a different version of the problem; create a video for a different version of the problem; or use work on an AEP to argue that you've met the standards for that target. Remember, though, only one check per week can be earned through non-Checkpoint methods, and Mastery level on a target requires that at least one Checkpoint problem earn a "check". 
 
 **AEPs** earning M, R, or N can be revised and resubmitted at any time. They will be regraded using the same standards as originally used. However, there are two important limitations on your revision and resubmission of AEP's: 
 
@@ -172,7 +174,7 @@ Since your work in the course is not graded with points (or is graded either 0 o
 
 >**Revision of N grades rule: Students have to spend a token (below) in order to revise any AEP that was graded at "N" (Not Assessable).** 
 
-**WeBWorK** items can be redone and resubmitted as many times as you want until the deadline, at no cost. 
+**Weekly Practice sets** receiving an R or N can be revised, with the following limitations: (1) work receiving an "R" costs one token to revise; (2) work receiving an "N" costs two tokens to revise; and (3) no more than one Weekly Practice set may be revised in a given week. 
 
 However, **Daily Prep** and **Followup Activities** may not be revised at all; these are graded on the basis of completeness and effort only and are intended to be done once. 
 
@@ -184,9 +186,11 @@ Tokens are a fake currency that are used to "purchase" exceptions to course poli
 
 + Attempt a second Learning Target in a given week through non-Checkpoint means  
 + Submit a third AEP (either revision or new submission) in a given week
-+ Revise an AEP graded "N"
++ Revise and resubmit an AEP graded "N"
++ Revise and resubmit a Weekly Practice graded "R" 
++ (*Two tokens*) Revise and resubmit a Weekly Practice graded "N"
 + Extend the deadline on a Checkpoint by 12 hours (request must be submitted prior to the original deadline)
-+ Extend the deadline on a WeBWorK set by 24 hours (request must be submitted prior to the original deadline)
++ Extend the deadline on a Weekly Practice set by 24 hours (request must be submitted prior to the original deadline)
 + Purchase 3 engagement credits 
 
 To spend a token, please use the *Token Spending form* found on Blackboard in the left sidebar. 
@@ -206,14 +210,13 @@ Some of the work you will do in the course involves collaboration; at other time
 + *Daily Prep and Followup Activities*: You may collaborate with others, but your writeup must be in your own words. You may not copy someone's work and submit it as your own, nor may you copy the ideas from someone and simply change the wording. 
 + *Checkpoints* and other work done on Learning Targets: No interations at all with another person or with unauthorized sources on the internet is allowed. Any evidence of using information from another person or source will be investigated as academic dishonesty. 
 + *AEPs*: Similarly, no interations at all with another person or with unauthorized sources on the internet is allowed.
-+ *WeBWorK*: You may discuss the general, broad ideas of  WeBWorK problems with others (including on Campuswire) but you may not use other people's work as your own. You may also not ask for specific details of a solution, either in person or on Campuswire. 
++ *Weekly practice*: You may discuss the general, broad ideas of Weekly Practice problems with others (including on Campuswire) but you may not use other people's work as your own. You may also not ask for specific details of a solution, either in person or on Campuswire. 
 
 All suspected instances of academic dishonesty will be thoroughly investigated, and whether a student has committed academic dishonesty is my determination to make based on the evidence. If I determine academic dishonesty has been committed, a report will be filed with the Dean of Students office, and the minimum penalty will be: 
 
 + Daily Prep and Followup: A grade of "x" 
 + Checkpoints and other Learning Target work: A grade of "x" and required expense of two tokens to reattempt; for severe cases, you may be barred from reattempting. 
-+ AEP's: A grade of "N", and you will not be allowed to revise or resubmit the AEP for the rest of the semester. 
-+ WeBWorK: A "0" on the entire WeBWorK set. 
++ AEP's and Weekly Practice: A grade of "N", and you will not be allowed to revise or resubmit the AEP for the rest of the semester. 
 
 Note these are *minimum* penalties; additional penalties may be given including reduction of course grades and potential suspension from the university. 
 
@@ -224,7 +227,7 @@ Note these are *minimum* penalties; additional penalties may be given including 
 Below are some additional important information about the course. Please note there is a separate section following this one, with course policies specific to the Covid-19 pandemic and how the class will be conducted. 
 
 
-**Attendance:** Each F2F meeting will be live-streamed so that you can participate either F2F or remotely. It is critical that you actually attend your group's F2F meeting days --- Monday/Wednesday for Red group and Tuesday/Thursday for Blue group --- either F2F or synchronously online. **You may not attend the F2F meeting for the group other than your own** due to social distancing requirements; however you are welcome to watch the live stream of the other group's meeting if you want. 
+**Attendance:** Each meeting is set up so that you have the option to attend F2F if it's your group's day to meet; or you can participate synchronously online; or you can participate asynchronously. **You will learn best if you participate F2F or synchronously. Please reserve asynchronous participation for cases where synchronous participation is impossible.** Also please note: **You may not attend the F2F meeting for the group other than your own** due to social distancing requirements; on your group's "off day" you are expected to participate online, again preferably synchronously. 
 
 You will be responsible for all announcements made in the F2F meetings and for all material covered in those meetings. Each meeting will begin on the hour; please be on time for your meetings. If circumstances beyond your control prevent you from attending F2F *or* participating remotely, please let me know so I can help you stay current. 
 
@@ -238,10 +241,10 @@ You will be responsible for all announcements made in the F2F meetings and for a
 **Deadlines and late work:** Deadlines for course work are clearly indicated on the Course Calendar; in cases of apparent conflict between dates, always assume that the Course Calendar is right. 
 
 + *For Daily Prep and Followup Activities*: No extensions to deadlines are available. Simply submit a good faith effort on all items by the deadline. 
-+ *For Checkpoints and WeBWorK sets*: Deadlines may be extended 12 and 24 hours, respectively, by spending a token. No other extensions are available. 
++ *For Checkpoints and Weekly Practice*: Deadlines may be extended 12 and 24 hours, respectively, by spending a token. No other extensions are available. 
 + *For AEPs*: There is only one deadline for AEP's, namely the last day of classes (11:59pm ET, Friday December 11). Otherwise you simply submit your work when it is ready to be graded (subject to the Two-Item-Per-Week Rule). This deadline will not be extended. 
 
-**Math Center:** The Math Center, located on the second floor of Mackinac Hall near the Mathematics Department office, provides a workspace for students to work on mathematics course assignments and on-demand help from trained student workers. The Math Center also offers online help. Information on hours of operation and online access will be given during week 1.
+**Math Center:** The Math Center, located on the second floor of Mackinac Hall near the Mathematics Department office, provides a workspace for students to work on mathematics course assignments and on-demand help from trained student workers. While most Math Center staff do not have specific background for MTH 225, they can help with prerequisite mathematics such as college algebra. The Math Center also offers online help. Information on hours of operation and online access will be given during week 1.
 
 **Special learning needs:** If you have special needs because of learning, physical or other disabilities, it is your responsibility to contact Disability Support Resources (DSR) at 616-331-2490 or http://www.gvsu.edu/dsr/ . DSR will help you arrange accommodations.  Then, speak with me in person about making those accommodations and ensure that they are consistent with your arrangements with DSR.
 
@@ -281,15 +284,18 @@ Please note, students who remove their masks during class, wear the mask incorre
 **Practice appropriate personal hygiene.** Wash your hands regularly or use hand sanitizer. If you must cough or sneeze, do so facing away from other people and use the inside of your elbow to cover your mouth, even if you have a mask on. You may wish to bring sanitizing wipes to wipe down your desk and seat before and after class. 
 
 
+If you expect any difficulties in abiding by these terms, you should plan on exercising your options to participate in the course online. 
+
+
 ### Contingency plans for the semester 
 
 We will begin the semester in "staggered hybrid" mode, but several things could happen during the semester that might alter this setup. Here are the initial plans for the most likely of those things. 
 
-**If the entire university goes fully online:** In this case, **all F2F meetings will be replaced by synchronous online meetings**, still split into Red (MW) and Blue (TR) groupings. We will also introduce **an option to participate in the course asynchronously**, so that those with issues with sychronous online participation can still participate in activities. No other changes will be made. 
+**If the entire university goes fully online:** In this case, **all F2F meetings will be replaced by synchronous online meetings**. No other changes will be made. 
 
-**If the professor cannot be on campus due to self-quarantine, but not because of illness:** (For example, if my kids or wife get sick or my daily self-assessment directs me to stay at home) In this case, we will follow the plan above for if the university goes fully online: **F2F meetings will be replace by synchronous online meetings, and an asynchronous option will be introduced**.  
+**If the professor cannot be on campus due to self-quarantine, but not because of illness:** (For example, if my kids or wife get sick or my daily self-assessment directs me to stay at home) In this case, we will follow the plan above for if the university goes fully online (above). 
 
-**If the professor cannot be on campus due to having a Covid-19 infection:** In this case, **the entire course will be moved to an asynchronous online format** until I am well enough to resume teaching. A proxy/substitute may be appointed to grade and give feedback on Daily Prep and Followup Activities; all other graded work will be suspended until I am well enough to grade. 
+**If the professor cannot be on campus due to having a Covid-19 infection:** In this case, **the entire course will be moved to an asynchronous online format** until I am well enough to resume teaching. A proxy/substitute may be appointed to grade and give feedback on Daily Prep and Class Activities; all other graded work will be suspended until I am well enough to grade. 
 
 In the latter two eventualities, you can expect a slowdown in the grading process and significant changes to the course calendar or syllabus. Please monitor your course announcements on a twice-daily basis to ensure you have correct information. 
 
@@ -302,52 +308,54 @@ Although these plans can be scary and demoralizing, I want you to know that **GV
 
 ## Appendix: Course modules 
 
-The numbers at the end of each module refer to sections in Active Discrete Structures. Please see the Course Calendar for the dates corresponding to these modules. 
-
-- **Module 1**: How do we find the speed of a moving object?  (1.1, 1.2)
-- **Module 2**: What is the derivative of a function?  (1.3, 1.4)
-- **Module 3**: What does a derivative tell us about a function?  (1.5, 1.6, 1.7, 1.8)
-- **Module 4**: How do we efficiently compute derivatives of basic functions?  (2.1, 2.2)
-- **Module 5**: How do we compute derivatives of products and quotients? (2.3, 2.4)
-- **Module 6:** How do we compute derivatives of composites and other functions? (2.5, 2.6)
-- **Module 7:** How are derivatives used to learn how things behave?  (3.1, 3.3)
-- **Module 8:** How are derivatives used to find the best way to do something?  (3.4)
-- **Module 9:** How are derivatives used to find how fast something is changing?  (2.7, 3.5)
-- **Module 10:** How do we find how far a moving object has traveled?  (4.1, 4.2)
-- **Module 11:** What is the definite integral of a function?  (4.3, 4.4)
-- **Module 12:** How are derivatives and integrals related?  (4.4)
-
-
-## Appendix: Learning Targets 
+| Module | Focus | Topics | Text | 
+| :----: | :----: | :----: | :----: |
+| 1 | Integer representation |  Representation base 2, 8, 10, 16; two's complement; binary arithmetic | Professor Talbert's notes | 
+| 2 | Modular arithmetic | The Division Algorithm, the `%` operator, modular arithmetic |  Professor Talbert's notes |
+| 3 | Symbolic logic 1 | Propositions, conditional statements, logical operations, truth tables | Levin 0.2 and 3.1 for part, plus Professor Talbert's notes
+| 4 | Symbolic logic 2 |  Logical equivalence, predicates, quantification | Levin 0.2 for part plus Professor Talbert's notes |
+| 5 | Sets | Set notation; subset and element relations; union, intersection, and complement; Venn diagrams; cardinality and power sets; Cartesian products | Levin 0.3 |
+| 6 | Functions | Functions and non-function; injective, surjective, and bijective functions; special functions for CS (floor, ceiling, etc.) | Levin 0.4 + Professor Talbert's notes for special functions | 
+| 7 | Basic advanced counting | Additive and multiplicative principles; binomial coefficients (intro to recurrence relations and recursion) | Levin 1.1, 1.2 | 
+| 8 | Combinations and permutations | Combinations and permutations, combinatorial proof | Levin 1.3, 1.4 |
+| 9 | Advanced advanced counting | Principle of Inclusion and Exclusion, stars and bars methods | Levin 1.5, 1.6 |
+| 10 | Sequences and recursion | Closed-formula and recursive definitions of sequences; arithmetic and geometric sequences | Levin 2.1, 2.2 | 
+| 11 | Solving recurrence relations | Polynomial fitting; solving recurrence relations | Levin 2.3, 2.4 | 
+| 12 | Mathematical induction | Idea of proof; weak mathematical induction | Levin 2.5 | 
 
 
-- Group F: Use functions and other pre-Discrete Structures mathematics proficiently.
-  - F.1: I can find the average rate of change of a function on an interval.
-- Group L: Calculate, use, and explain the concept of limits.
-  - L.1: **(CORE)** I can find the limit of a function at a point using numerical, graphical, and algebraic methods.
-  - L.2: I can identify limits in indeterminate form and apply L'Hopital's Rule to evaluate them. 
-- Group D: Explain and interpret the meaning of the derivative of a function.
-  - D.1 **(CORE)**: I can find the derivative of a function, both at a point and as a function, using the definition of the derivative. 
-  - D.2 **(CORE)**: I can use derivative notation correctly, state the units of a derivative, estimate the value of a derivative using difference quotients, and correctly interpret the meaning of a derivative in context. 
-  - D.3 **(CORE)**: Given information about $f$, $f'$, or $f''$, I can correctly give information about $f$, $f'$, or $f''$ and the increasing/decreasing behavior and concavity of $f$ (and vice versa).
-  - D.4: I can determine where a function is continuous or differentiable given a graph or formula of the function and explain my reasoning.
-  - D.5: I can find the equation of the tangent line to a function at a point and use the tangent line to estimate values of the function.  **May be assessed through AEP** 
-- Group DC: Use shortcuts to calculate derivatives efficiently.
-  - DC.1 **(CORE)**: I can compute derivatives correctly for power, polynomial, and exponential functions and the sine and cosine functions, and basic combinations of these (constant multiples, sums, differences). 
-  - DC.2 **(CORE)**: I can compute derivatives correctly for products, quotients, and composites of functions. **Not complete until 2.5** 
-  - DC.3: I can compute derivatives correctly using multiple rules in combination. 
-  - DC.4: I can compute the derivatives correctly for logarithmic, trigonometric, and inverse trigonometric functions. 
-- Group DA: Use derivatives to solve authentic real-life application problems.
-  - DA.1 **(CORE)**: I can find the critical values of a function, determine where the function is increasing and decreasing, and apply the First and Second Derivative Tests to classify the critical points as local extrema.
-  - DA.2: I can determine the intervals of concavity of a function and find all of its points of inflection.
-  - DA.3: I can use the Extreme Value Theorem to find the absolute maximum and minimum values of a continuous function on a closed interval.
-  - DA.4 **(CORE)**: I can set up and use derivatives to solve applied optimization problems.
-  - DA.5: I can compute the derivative of an implicitly-defined function and find the slope of the tangent line to an implicit curve. 
-  - DA.6: I can set up and use derivatives to solve related rates problems.
-- Group INT: Use definite integrals and the Fundamental Theorem of Discrete Structures to find areas and total change.
-  - INT.1: I can calculate the area between curves, net change, and displacement using geometric formulas and Riemann sums.
-  - INT.2: I can explain the meaning of each part of the definition of the definite integral in terms of a graph, and interpret the definite integral in terms of areas, net change, and displacement.
-  - INT.3: I can evaluate a definite integral using geometric formulas and the Properties of the Definite Integral. 
-  - INT.4 **(CORE)**: I can evaluate a definite integral using the Fundamental Theorem of Discrete Structures.
-  - INT.5 **(CORE)**: I can correctly antidifferentiate basic functions and identify antiderivatives. 
-  - INT.6 I can find the average value of a function and the net change in a function over an interval using a definite integral.
+### Learning Targets
+
++ **Group A: Represent integers using different number bases, and perform integer arithmetic using different bases and modular arithmetic**. 
+  + A.1: I can represent an integer in base 2, 8, 10, and 16. 
+  + A.2 **(Core)**: I can add and multiply two integers written in binary. 
+  + A.3: I can compute `a % b` given integers `a` and `b` and perform arithmetic mod `n`.  
++ **Group L: Formulate, manipulate, and determine the truth of logical expressions using symbolic logic.** 
+  + L.1: I can use propositional variables and logical connectives to represent statements; and interpret symbolic logical statements in plain language. 
+  + L.2 **(Core)**: I can write the negation, converse, and contrapositive of a conditional statement and use DeMorgan's Laws to simplify symbolic logical expressions. 
+  + L.3: I can determine whether a quantified statement is true, false, or underdetermined, and state its negation. 
+  + L.4 **(Core)**: I can write the truth table for a logical statement.
+  + L.5: I can determine if a statement is a tautology and whether two statements are logically equivalent. 
++ **Group SF: Formulate and solve computational problems using sets and functions**. 
+  + S.1 **(Core)**: I can represent a set in roster notation and set-builder notation; determine if an object is an element of a set; and determine set relationships (equality, subset). 
+  + S.2: I can perform operations on sets (intersection, union, complement, Cartesian product) and determine the cardinality of a set. 
+  + S.3 **(Core)**: I can determine whether or not a given relation is a function, determine the domain and codomain of a function, and find the image and preimage of a point using a function. 
+  + S.4: I can determine whether a function is injective, surjective, or bijective. 
++ **Group C: Formulate and solve complex counting problems using computational thinking and the tools of combinatorics**. 
+  + C.1 **(Core)**: I can use the additive and multiplicative principles and the Principle of Inclusion and Exclusion to formulate and solve counting problems. 
+  + C.2: I can calculate a binomial coefficient and correctly apply the binomial coefficient to formulate and solve counting problems. 
+  + C.3 **(Core)**: I can compute combinations and permutations and apply these to formulate and solve counting problems. 
+  + C.4: I can use the "Stars and Bars" technique to formulate and solve counting problems. 
++ **Group SR**: Evaluate numerical and other sequences using recursion, and solve simple recurrence relations. 
+  + SR.1 **(Core)**: I can generate several values in a sequence defined using a closed-form expression or using recursion. 
+  + SR.2: I can use sigma notation to rewrite a sum and determine the sum of an expression given in sigma notation. 
+  + SR.3 **(Core)**: I can find closed-form and recursive expressions for arithmetic and geometric sequences and find their sums. 
+  + SR.4: I can determine if a given sequence is $\Delta^k$-constant and find a polynomial fit if it is. 
+  + SR.5: I can use iteration and characteristic roots to solve a recurrence relation. 
++ **Group P: Write clear, correct, and convincing arguments to explain the correctness of a solution using combinatorial proof and mathematical inductio**n.
+  + P.1: I can analyze and write a combinatorial proof of a combinatorial identity. 
+  + P.2 **(Core)**: Given a statement to be proven by (weak) induction, I can state and prove the base case, state the inductive hypothesis, and outline the proof. 
++ *Group CS: Demonstrate problem solving, communication,and learning skills appropriate for computer science*.  (Assessed through portfolio on final exam)
+  + CS.1: I can explain the reasoning behind solutions to computational problems clearly to an appropriate audience. 
+  + CS.2: I can apply computer programming and computational thinking to frame and solve mathematical and computational problems. 
+  + CS.3: I can self-assess my work and apply feedback from others to make improvements in my work. 
