@@ -22,8 +22,9 @@
         \item<1-> Review of Daily Prep assignment and Q+A
         \item<2-> Polling activity: Properties of different number bases
         \item<3-> Activity: Converting integers to different bases
-        \item<4-> Activity: Representing signed integers with 2's complement
-        \item<5-> Next actions 
+        \item<4-> Minilecture: The division/remainder algorithm
+        \item<5-> Activity: Working with the algorithm
+        \item<6-> Next actions 
     \end{itemize}
 \end{frame}
 
@@ -38,7 +39,9 @@
 \end{frame}
 
 \begin{frame}
-    \frametitle{Practice}
+    \frametitle{Activity: Converting number bases}
+
+Google Jamboard: An online collaborative whiteboard. Can write on it, or write on paper, snap a photo and upload the photo. 
 
     \begin{Large}
         \begin{center}
@@ -48,19 +51,51 @@
 
 \end{frame}
 
-% \begin{frame}
-%     \frametitle{2's Complement}
+\begin{frame}
+    \frametitle{An algorithm for making this simpler}
 
-   
-%         \begin{itemize}
-%             \item So far we've only worked with \emph{positive} integers. What about negatives? 
-%             \item Basic answer: \alert{Add an extra bit that represents the sign: 0 = positive, 1 = negative}
-%         \end{itemize}
+    \begin{block}{Decimal to base $b$ conversion}
+        \begin{itemize}
+            \item Let $n$ be a (positive) decimal integer and $b$ is the base we're converting to
+            \item Let $m$ be the result, initially empty. 
+            \item Repeat the following until $n=0$: 
+            \begin{itemize}
+                \item Divide $n$ by $b$, let $d$ be the quotient and $r$ the remainder 
+                \item Write $r$ as the left-most digit of $m$ 
+                \item Let $d$ be the new value of $n$ 
+            \end{itemize}
+        \end{itemize}
+    \end{block}
 
-        
+\end{frame}
 
-% \end{frame}
 
+\begin{frame}
+    \frametitle{Example: Convert 3000 to octal (Base 8)}
+
+Start: $n=3000$, $b=8$, $m=$ (empty). 
+
+    \begin{enumerate}
+        \item $3000/8 = 375$ remainder $0$. So $d=375$, $r=0$. $m = 0$, new $n$ is $375$ \pause
+        \item $375/8 = 46$ remainder $7$. So $d=46$, $r=7$. $m = 70$, new $n$ is $46$ \pause
+        \item $46/8 = 5$ remainder $6$. So $d=5$, $r=6$. $m = 670$, new $n$ is $5$ \pause
+        \item $5/8 = 0$ remainder $5$. So $d=0$, $r=5$. $m = 5670$, new $n$ is $0$ \pause
+        \item STOP because $n$ is now $0$. Result: $3000_{10} = 5670_8$.
+    \end{enumerate}
+
+\end{frame}
+
+\begin{frame}
+    \frametitle{Activity: Working with the algorithm}
+
+    \begin{Large}
+        \begin{center}
+            Go to \url{https://bit.ly/3fWLpkz}
+        \end{center}   
+    \end{Large}
+
+
+\end{frame}
 
 \begin{frame}
     \frametitle{NEXT TIME...}
@@ -70,6 +105,8 @@
         \item Go ahead and start Daily Prep for Wednesday (Due Tuesday 11:59pm ET)
         \item Weekly Practice 1: 
     \end{itemize}
+
+Take 5 minutes to fill this form out: https://bit.ly/3a4fexD
 
 \end{frame}
 

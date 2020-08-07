@@ -26,7 +26,9 @@ We begin our study of mathematics for computer science all the way at the beginn
 
 **DURING AND AFTER** your class meeting, you will learn how to do the following: 
 
-+ Implement the division/remainder algorithm for converting from decimal to base $r$. 
+- Convert an integer from base 10 into base 2, 8, and 16.
+- Implement the division/remainder algorithm for converting from decimal to base $r$. 
+- Explain why the division/remainder algorithm works.
 
 ## Resources for Learning
 
@@ -44,7 +46,9 @@ Here are some additional video resources if you need more:
 + How to convert hexadecimal to decimal https://www.youtube.com/watch?v=pg-HEGBpCQk
 + How to convert decimal to hexadecmial https://www.youtube.com/watch?v=QJW6qnfhC70 
 
-**Web/Text:** Here is a website that gives a tutorial on number base conversion: https://www.tutorialspoint.com/computer_logical_organization/number_system_conversion.htm  
+**Web/Text:** 
+- Here is a website that gives an algorithm for number base conversion: https://www.tutorialspoint.com/computer_logical_organization/number_system_conversion.htm  
+- Here's another: https://bit.ly/30AVHSa 
 
 **Other resources:** 
 
@@ -65,13 +69,13 @@ Work these exercises out on paper first and keep the work for your notes. You’
 
 What you see on the front are three eight-digit integers written in binary. What are those numbers in decimal format? (Bonus question: What's the significance of those numbers?) 
 
-3. Take your birth date and write it in *ISO date notation*, which formats a date as *YYYY-MM-DD* where *YYYY* is the year, *MM* is the month, and *DD* is the day. (See https://www.w3.org/QA/Tips/iso-date) For example, in ISO format the date May 9, 2020 would be written as 2020-05-09. Once you've formatted your birthdate in ISO format, remove the dashes to get a single eight-digit integer. For example May 9, 2020 would be 20200509. Take your birthdate formatted in this way, assume that it's written in base 10, and then find its representation in binary, octal, and hexadecimal. You'll be asked to explain your steps, so don't just use a calculator but practice the conversion methods discussed in the video. 
+1. Convert the following to decimal: octal 4421, binary 10110110, hexadecimal E2A6. 
 
-4. What practical advantages would these different number systems have over the others in real life? For example, why would anybody want to use hexadecimal notation as opposed to decimal, binary, or octal? Answer this question for each of the four systems we've seen in this assignment. 
+2. What practical advantages would these different number systems have over the others in real life? For example, why would anybody want to use hexadecimal notation as opposed to decimal, binary, or octal? Answer this question for each of the four systems we've seen in this assignment. 
 
 ## Submission, grading, and getting help 
 
-**Submitting your work:** Do your work on paper or a separate computer file, but then submit your work for grading sing this Google Form: 
+**Submitting your work:** Do your work on paper or a separate computer file, but then submit your work for grading using this Google Form: 
 
 https://bit.ly/2P494UI
 
