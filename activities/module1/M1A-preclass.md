@@ -69,7 +69,7 @@ Work these exercises out on paper first and keep the work for your notes. You’
 
 What you see on the front are three eight-digit integers written in binary. What are those numbers in decimal format? (Bonus question: What's the significance of those numbers?) 
 
-1. Convert the following to decimal: octal 4421, binary 10110110, hexadecimal E2A6. 
+1. Convert the following to decimal: octal 4421, and hexadecimal E2A6. 
 
 2. What practical advantages would these different number systems have over the others in real life? For example, why would anybody want to use hexadecimal notation as opposed to decimal, binary, or octal? Answer this question for each of the four systems we've seen in this assignment. 
 
