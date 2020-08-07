@@ -65,7 +65,7 @@ Work these exercises out on paper first and keep the work for your notes. You’
 1. In your own words, what are the main differences between base 2, base 8, base 16, and base 10 representations of integers? 
 2. Prof. Talbert owns this shirt: 
 
-![shirt](shirt.jpeg)
+![shirt](shirt.jpg)
 
 What you see on the front are three eight-digit integers written in binary. What are those numbers in decimal format? (Bonus question: What's the significance of those numbers?) 
 
