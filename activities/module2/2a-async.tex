@@ -1,0 +1,66 @@
+\documentclass[11 pt]{article}
+
+\setlength{\oddsidemargin}{-.35in}
+%\setlength{\evensidemargin}{-.5in}
+\setlength{\textwidth}{7.0in}
+\setlength{\topmargin}{-0.95in}
+\setlength{\textheight}{10.0in}
+
+\usepackage{latexsym}
+\usepackage{amsfonts}
+\usepackage{amsmath}
+\usepackage{amsthm}
+
+\usepackage[T1]{fontenc}
+\usepackage{baskervald}
+\usepackage[bigdelims,vvarbb]{newtxmath} 
+
+\usepackage{hyperref} 
+\hypersetup{colorlinks=true, linkcolor=blue,  anchorcolor=blue,  
+citecolor=blue, filecolor=blue, menucolor=blue, pagecolor=blue,  
+urlcolor=blue,pdftitle={MTH 124 Algebra Expectations}}
+
+\pagestyle{empty}
+
+%\renewcommand{\baselinestretch}{1.5}
+
+\begin{document}
+
+\noindent MTH 201: Calculus \ \ \ Asynchronous lesson activities: Module 2A \hfill Talbert \\
+
+
+\noindent {\bfseries Directions:} For each item below, give a complete response that represents a good-faith effort to be right. You will receive a "check" if each item has such a response, and an "x" otherwise. An "x" will be given if \emph{any} item is left blank, shows insufficient effort, or has responses such as ``I don't know'' or ``I don't understand''. Except for the final item (which is done by filling out a Google Form), do all work on separate pages, and submit a scanned black/white PDF to Blackboard. 
+
+\noindent \hrulefill
+
+\begin{enumerate}
+
+    \item Using $a = 20201970$ and $b = 15$, find the values of $q$ and $r$ guaranteed by the Division Algorithm. Show your work/explain your steps. 
+
+    \item Calculate the following and explain your reasoning on each one. 
+    \begin{enumerate}
+        \item $245 \, \% \, 8$
+        \item $(-245) \, \% \, 8$
+        \item $8189123 \, \% \, 2$ (Hint: The explanation here is short.) 
+    \end{enumerate}
+	
+	\item Encrypt the word \texttt{DISCRETE} using the shift cipher and a key of $18$. Show your work/explain your steps. 
+	
+	\item The coded message \texttt{vdapztgh} was intercepted, and your sources tell you it was encrypted using a shift cipher with a key of 15. Decrypt to find the plaintext message. Show your work/explain your steps. 
+	
+	\item You've also intercepted the message \texttt{twcqmqakwwt}, and your sources tell you it was encrypted using a shift cipher, but they were unable to get the key. Decrypt to find the plaintext message. Show your work/explain your steps. 
+	
+	\item Read in the lecture notes (or watch the class recording) that explains how the shift cipher can be implemented mathematically using the modulus operator. The \emph{multiplicative} or ``decimation'' cipher works like the shift cipher, except instead of adding the key to the number representation of a character and reducing the result mod 26, we mutliply by the key and reduce. For example to encrypt the letter \texttt{e} with a key of 7, we convert \texttt{e} to its position in the alphabet (4), multiply by the key ($4 \times 7 = 28$) then reduce mod 26 ($28 \, \% \, 26 = 2$) which is the letter \texttt{c}. Encrypt the message \texttt{DISCRETE} using a multiplicative cipher and a key of 11. 
+	
+	\item The multiplicative cipher moves letters around in the alphabet, like a shift cipher. But, do all the letters in the plaintext move the same distance? Explain. 
+	
+	\item Try encrypting \texttt{DISCRETE} using a multiplicative cipher and a key of 13. What do you notice? If you were the recipient of this coded message and you had the key, would you be able to decrypt? Explain.  
+	
+	\item You've received the coded message \texttt{eapl}, and your sources tell you it was encrypted with a multiplicative cipher using a key of 9. How would you go about decrypting it? What mathematical issues do you run into? 
+	
+	\item Fill out the feedback form here: \url{https://bit.ly/2XPi1pw}. 
+	
+\end{enumerate}
+
+
+\end{document}

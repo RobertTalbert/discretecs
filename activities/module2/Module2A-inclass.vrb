@@ -1,12 +1,16 @@
-\frametitle{Modular arithmetic and the shift cipher}
+\frametitle{The multiplicative (decimation) cipher}
+
+    Just like the shift cipher except multiply by the key instead of add.
 
     \begin{enumerate}
         \item User: Input a word to encrypt and a key $K$ (positive integer)
         \item For each letter in the word:
         \begin{enumerate}
             \item Convert to number $n$ between 0 and 25
-            \item Compute $(n + K) \% 26$
+            \item Compute $(n \times K) \, \% \, 26$
             \item Convert back to letter
         \end{enumerate}
     \end{enumerate}
+
+Now look at a \textbf{Jupyter notebook with some Python code} that does this.
 

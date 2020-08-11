@@ -6,7 +6,7 @@
 
 %Information to be included in the title page:
 \title{MTH 201: Calculus}
-\subtitle{Module 2A: Modular arithmetic}
+\subtitle{Module 2A: Intro to modular arithmetic}
 \author{Prof. Talbert}
 \institute{GVSU}
 \date{\today}
@@ -19,11 +19,10 @@
 
 \begin{frame}{Agenda for today}
     \begin{itemize}
-        \item<1-> Review of Daily Prep assignment and Q+A
-        \item<2-> Polling activity: The \texttt{\%} operator and modular arithmetic
-        \item<3-> Application to cryptography
-        \item<4-> Minilecture: Raising powers using modular arithmetic 
-        \item<5-> Practice: The repeated squaring method 
+        \item Review + QA over Daily Prep (Division Algorithm, the \texttt{\%} operator)
+        \item Lecture + activity: Writing a program to implement the shift cipher 
+        \item Lecture + activity: The multiplicative (decimation) cipher 
+        \item Wrap up + feedback
     \end{itemize}
 \end{frame}
 
@@ -38,22 +37,55 @@
 
 \begin{frame}[fragile]
     \frametitle{Modular arithmetic and the shift cipher}
-
-
-
     
     \begin{enumerate}
         \item User: Input a word to encrypt and a key $K$ (positive integer)
         \item For each letter in the word: 
         \begin{enumerate}
             \item Convert to number $n$ between 0 and 25 
-            \item Compute $(n + K) \, \% \, 26$
+            \item Compute \underline{\hspace{2in}}
             \item Convert back to letter 
         \end{enumerate}
     \end{enumerate}
 
+Now look at a \textbf{Jupyter notebook with some Python code} that does this. 
+
+\begin{center}
+    \url{https://bit.ly/2XP25DO}
+\end{center}
+
 \end{frame}
 
+\begin{frame}[fragile]
+    \frametitle{The multiplicative (decimation) cipher}
+
+    Just like the shift cipher except multiply by the key instead of add. 
+    
+    \begin{enumerate}
+        \item User: Input a word to encrypt and a key $K$ (positive integer)
+        \item For each letter in the word: 
+        \begin{enumerate}
+            \item Convert to number $n$ between 0 and 25 
+            \item Compute $(n \times K) \, \% \, 26$
+            \item Convert back to letter 
+        \end{enumerate}
+    \end{enumerate}
+
+Now look at a \textbf{Jupyter notebook with some Python code} that does this. 
+
+\end{frame}
+
+\begin{frame}
+    \frametitle{Recapping the highlights}
+
+    \begin{itemize}
+        \item The Division Algorithm gives us a way of dividing any two integers and getting a quotient and a remainder 
+        \item That remainder is really important in CS and cryptography; \texttt{\%} is an operator that captures 
+        \item We can implement all kinds of ciphers in code using \texttt{\%}
+        \item However the math gets complicated, for example in finding ``fractions''
+    \end{itemize}
+
+\end{frame}
 
 
 \begin{frame}
@@ -63,11 +95,6 @@
     \textbf{All due dates are on the course calendar}
 \end{center}
 
-    \begin{itemize}
-        \item Start Module 2 next week
-        \item \textbf{Complete Daily Prep 2A} by Sunday 11:59pm ET 
-        \item \textbf{Complete Startup Assignment} by \textbf{tonight} 11:59pm ET 
-    \end{itemize}
 
 \end{frame}
 \end{document}
