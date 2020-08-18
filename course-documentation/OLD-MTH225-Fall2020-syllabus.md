@@ -359,3 +359,6 @@ Although these plans can be scary and demoralizing, I want you to know that **GV
   + CS.1: I can explain the reasoning behind solutions to computational problems clearly to an appropriate audience. 
   + CS.2: I can apply computer programming and computational thinking to frame and solve mathematical and computational problems. 
   + CS.3: I can self-assess my work and apply feedback from others to make improvements in my work. 
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbLTQwNjE3MTEwMl19
+-->
