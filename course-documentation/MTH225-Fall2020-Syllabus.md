@@ -96,7 +96,7 @@ We will also have a **Final Exam** consisting of two parts. The first part consi
 
 **Grading for Weekly Practice and AEPs:** These two items are graded on the correctness of the work and (especially) the quality of the reasoning presented, using one of four labels: **E** (Excellent/Exemplary), **M** (Meets Expectations), **R** (Needs Revision), or **N** (Not Enough Information/Not Assessable). The grade is assigned using this visual flowchart: 
 
-![enter image description here](https://www.google.com/url?sa=i&url=https://phil.ucalgary.ca/manageprofile/sites/phil.ucalgary.ca.manageprofile/files/unitis/courses/PHIL379/F2017/LEC1/PHIL379-F2017-LEC1-outline.pdf&psig=AOvVaw0gicFQupTzNlsYlO2IsooO&ust=1597850806306000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCOi6oKKIpesCFQAAAAAdAAAAABAD)
+![EMRN rubric](https://imgur.com/GbngaDt)
 
 **Learning Targets and Checkpoints:** The main concepts to be learned in the course are represented in 23 **Learning Targets**. Ten of these are designated as **Core** Learning Targets because they are most essential concepts of the course; the other 13 are designated as **Supplemental** Learning Targets. There are also three special Learning Targets labeled "CS" that deal with big-picture skills; these are dealt with on the final exam and are not included in the grading process below. 
 
@@ -340,5 +340,5 @@ Mastery of Learning Targets in groups A, L, SF, C, SR, and P are assessed using 
   + CS.2: I can apply computer programming and computational thinking to frame and solve mathematical and computational problems. 
   + CS.3: I can self-assess my work and apply feedback from others to make improvements in my work. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg3MjAxNDU0Nl19
+eyJoaXN0b3J5IjpbLTY5MzE1Mjc0OF19
 -->
