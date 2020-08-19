@@ -30,6 +30,10 @@ In this part, you will learn the basics of  **Jupyter notebooks**, a graphical b
     + The Jupyter Notebook environment part 1 https://www.youtube.com/watch?v=T4WXs6niloU&t=2s (6:48)
     + The Jupyter Notebook environment part 2 https://www.youtube.com/watch?v=tz4UwhQs0Z8 (4:22) 
     + The Jupyter Notebook environment part 3 https://www.youtube.com/watch?v=woEVRMADIck (7:38) 
-3. Work through this brief tutorial on the **Markdown** text formatting system: http://markdowntutorial.com/  Markdown is a simple system for formatting plain text (also featured in Reddit comments!). 
-4. Read through the "Overview of Colaboratory Features" and "Markdown Guide" notebooks 
-5. (Make a quick notebook with some code and text)
+3(Watch a Jupyter video) 
+2. Work through this brief tutorial on the **Markdown** text formatting system: http://markdowntutorial.com/  Markdown is a simple system for formatting plain text (also featured in Reddit comments!). 
+43. Read through the "Overview of Colaboratory Features" and "Markdown Guide" notebooksWatch this video on Google Colab: https://www.youtube.com/watch?v=inN8seMm7UI  (Running time 3:09) 
+54. (Make a quick notebook with some code and text)
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbMTA4NzA0NDcxN119
+-->
