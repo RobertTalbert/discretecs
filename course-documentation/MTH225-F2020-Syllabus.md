@@ -130,7 +130,7 @@ Your course grade is earned not through accumulating points but by **amassing a 
 
 Note: In the table, numerical values indicate the minimum level needed to meet the requirement; amounts above this level also meet the requirement. Also, for AEP's, "M+" means "either M or E". Finally, "DP+CA" refers to the sum of your Daily Prep and Class Activities with a "check"; there will be 24 of each, for a maximum total of 48.
 
-<!-- 
+
 | Category | D  |  C | B | A | 
 |:---: | :---: | :---: | :---: | :---: | 
 | Core Learing Targets (10) | 5 Proficient | 5 Proficient, 5 Mastered | 10 Mastered | 10 Mastered | 
@@ -138,7 +138,7 @@ Note: In the table, numerical values indicate the minimum level needed to meet t
 | AEP (8+) | 2 M+ | 5 M+ | 2 E, 4 M+ | 4 E, 2 M+ | 
 | WP (10+) | 3 M+ | 6 M+ | 7 M+ | 8 M+ | 
 | DP + CA (48) | 24 | 34 | 39 | 44 | 
-| EC (100+) | 25 | 50 | 60 | 70 |  -->
+| EC (100+) | 25 | 50 | 60 | 70 | 
 
 
 **Example**: A student who completes the course having earned Mastery on all 10 Core Learning Targets and 4 Supplemental Learning Targets; earned Proficiency on 5 more Supplemental Targets; earned "E" grades on 5 AEPs and an "M" grade on a sixth one; earned "M" grades on 8 Weekly Practice assignments; earned a total of 42 checks on Daily Prep and Class Activities; and has 65 Engagement Credits has earned a "B" in the course for the base grade. 
@@ -334,5 +334,5 @@ Mastery of Learning Targets in groups A, L, SF, C, SR, and P are assessed using 
   + CS.2: I can apply computer programming and computational thinking to frame and solve mathematical and computational problems. 
   + CS.3: I can self-assess my work and apply feedback from others to make improvements in my work. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODU1Mjc5Njk2XX0=
+eyJoaXN0b3J5IjpbNDE4OTI3NzM5XX0=
 -->
