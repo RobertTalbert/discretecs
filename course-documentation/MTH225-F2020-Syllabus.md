@@ -116,11 +116,11 @@ Please note the following restrictions on options 2-4 above:
 - *Option 3 (make a video) must adhere to standards for video creation* (to be posted separately; basically the video must have clear sound and audio, and keep face, handwriting, and voice in the frame at all times). 
 - *Mastery (two checks) *must* include at least one Checkpoint problem*. That is, you can't earn Mastery on a learning target through options 2-4 alone.
 
-So for example, to earn a Mastery rating on Learning Target S.4 (*I can determine whether a function is injective, surjective, or bijective*) you could:
+So for example, to earn a Mastery rating on Learning Target SF.4 (*I can determine whether a function is injective, surjective, or bijective*) you could:
 
-- Do satisfactory work on a Checkpoint problem for S.4, then do it again on a later Checkpoint problem (which would be a new version of the same problem you did earlier). Most students will earn mastery on most learning targets this way. 
-- Do satisfactory work on a Checkpoint problem for S.4, then do it again via an oral exam. Or do it this way but in reverse order (oral exam first then a Checkpoint).
-- Do satisfactory work on a Checkpoint problem for S.4, then show me some work you did on an AEP that, in your view, shows you have mastered determining whether a function is injective, surjective, or bijective. 
+- Do satisfactory work on a Checkpoint problem for SF.4, then do it again on a later Checkpoint problem (which would be a new version of the same problem you did earlier). Most students will earn mastery on most learning targets this way. 
+- Do satisfactory work on a Checkpoint problem for SF.4, then do it again via an oral exam. Or do it this way but in reverse order (oral exam first then a Checkpoint).
+- Do satisfactory work on a Checkpoint problem for SF.4, then show me some work you did on an AEP that, in your view, shows you have mastered determining whether a function is injective, surjective, or bijective. 
 
 Other combinations are possible. However, note that for Mastery (two checks) at least one check must come through a Checkpoint, so you wouldn't be able for example to do an oral exam and then show me AEP work. 
 
@@ -333,3 +333,6 @@ Mastery of Learning Targets in groups A, L, SF, C, SR, and P are assessed using 
   + CS.1: I can explain the reasoning behind solutions to computational problems clearly to an appropriate audience. 
   + CS.2: I can apply computer programming and computational thinking to frame and solve mathematical and computational problems. 
   + CS.3: I can self-assess my work and apply feedback from others to make improvements in my work. 
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbODU1Mjc5Njk2XX0=
+-->
