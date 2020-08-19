@@ -1,4 +1,4 @@
-# MTH 225: Discrete Structures for Computer Science 1
+﻿# MTH 225: Discrete Structures for Computer Science 1
 
 Fall 2020 Semester, Grand Valley State University
 
@@ -333,6 +333,3 @@ Mastery of Learning Targets in groups A, L, SF, C, SR, and P are assessed using 
   + CS.1: I can explain the reasoning behind solutions to computational problems clearly to an appropriate audience. 
   + CS.2: I can apply computer programming and computational thinking to frame and solve mathematical and computational problems. 
   + CS.3: I can self-assess my work and apply feedback from others to make improvements in my work. 
-<!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MTUxNTk2MzEsNDE4OTI3NzM5XX0=
--->
