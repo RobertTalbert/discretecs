@@ -311,10 +311,10 @@ Mastery of Learning Targets in groups A, L, SF, C, SR, and P are assessed using 
   + L.4 **(Core)**: I can write the truth table for a logical statement.
   + L.5: I can determine if a statement is a tautology and whether two statements are logically equivalent. 
 + **Group SF: Formulate and solve computational problems using sets and functions**. 
-  + S.1 **(Core)**: I can represent a set in roster notation and set-builder notation; determine if an object is an element of a set; and determine set relationships (equality, subset). 
-  + S.2: I can perform operations on sets (intersection, union, complement, Cartesian product) and determine the cardinality of a set. 
-  + S.3 **(Core)**: I can determine whether or not a given relation is a function, determine the domain and codomain of a function, and find the image and preimage of a point using a function. 
-  + S.4: I can determine whether a function is injective, surjective, or bijective. 
+  + SF.1 **(Core)**: I can represent a set in roster notation and set-builder notation; determine if an object is an element of a set; and determine set relationships (equality, subset). 
+  + SF.2: I can perform operations on sets (intersection, union, complement, Cartesian product) and determine the cardinality of a set. 
+  + SF.3 **(Core)**: I can determine whether or not a given relation is a function, determine the domain and codomain of a function, and find the image and preimage of a point using a function. 
+  + SF.4: I can determine whether a function is injective, surjective, or bijective. 
 + **Group C: Formulate and solve complex counting problems using computational thinking and the tools of combinatorics**. 
   + C.1 **(Core)**: I can use the additive and multiplicative principles and the Principle of Inclusion and Exclusion to formulate and solve counting problems. 
   + C.2: I can calculate a binomial coefficient and correctly apply the binomial coefficient to formulate and solve counting problems. 
@@ -334,5 +334,5 @@ Mastery of Learning Targets in groups A, L, SF, C, SR, and P are assessed using 
   + CS.2: I can apply computer programming and computational thinking to frame and solve mathematical and computational problems. 
   + CS.3: I can self-assess my work and apply feedback from others to make improvements in my work. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDE4OTI3NzM5XX0=
+eyJoaXN0b3J5IjpbLTE5MTUxNTk2MzEsNDE4OTI3NzM5XX0=
 -->
