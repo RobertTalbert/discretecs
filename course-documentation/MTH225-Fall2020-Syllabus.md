@@ -9,7 +9,7 @@
 3. **But the struggle is normal and healthy.** When you're exercising to get physically stronger, the most explosive growth happens at the moment that you are struggling the hardest and you might feel you can't go any further. The same is true for getting mentally stronger. Your earlier math courses might have been easy for you, and so for you, struggle feels like you're doing something wrong. **This is not the case. Struggle is actually a sign you're doing things right.** 
 4. **Every facet of this course is built to give you support when you are challenged, and every person in the course has your back.** Throughout the semester, you will be challenged but also given a lot of support to help you rise to the challenge. I will be readily available to help in several channels; your classmates will be available for help through structured and informal support groups; and the GVSU Math Department provides free help through the Math Center. There are people there to help every step of the way. 
 
-I am really looking forward to working with you in this course. It won't be easy, but if we work together and stay focused, you'll learn an amazing amount and have a great experience. 
+I am really looking forward to working with you in this course. It won't always  be easy, but if we work together and stay focused, you'll learn an amazing amount and have a great experience. 
 
 ## Course Information
 
@@ -393,5 +393,5 @@ Please see the Course Calendar for the dates corresponding to these modules.
 | 12 | Mathematical induction | Idea of proof; weak mathematical induction | Levin 2.5 | 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTA0NDU2MTQ0XX0=
+eyJoaXN0b3J5IjpbLTIwNjAzMjIwODEsNTA0NDU2MTQ0XX0=
 -->
