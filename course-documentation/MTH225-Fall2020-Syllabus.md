@@ -36,7 +36,7 @@ Note that **all students are expected to participate in all meetings**; if it is
 
 **Course website and discussion board:** All course announcements, assignments, and grades will be communicated using the course **Blackboard** site available at http://mybb.gvsu.edu All other course communications (including additional examples, guidance on assignments, etc.) will be available through **Campuswire**, our class discussion tool; to join, go to http://www.campuswire.com and use the code `0540`. 
 
-**Course materials:**
+**GitHub:** All finalized course materials will be posted to Blackboard; but materials, works in progress, and notes for this course, along wiare also curated at the GitHub repository [https://github.com/RobertTalbert/discretecs](https://github.com/RobertTalbert/discretecs). 
 
 **Course calendar:** A Google Calendar, will all due dates and other important time-sensitive information posted on it, is available on Blackboard  in the left sidebar. **Be sure to check the calendar once daily** for upcoming events. The calendar is kept up-to-date constantly and **in cases of apparent conflicts in times or dates, the calendar is considered to be correct always.** 
 
@@ -395,5 +395,5 @@ Please see the Course Calendar for the dates corresponding to these modules.
 | 12 | Mathematical induction | Idea of proof; weak mathematical induction | Levin 2.5 | 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc0OTM4Mjc3OCw1MDQ0NTYxNDRdfQ==
+eyJoaXN0b3J5IjpbNDMyNTEyMzU2LDUwNDQ1NjE0NF19
 -->
