@@ -209,9 +209,7 @@ In this table, please note:
 
 ## Academic integrity 
 
-The university’s academic integrity policy is described in the GVSU Student Code [which you can read online here](https://www.gvsu.edu/policies/policy.htm?policyId=EFAB64E1-C25B-E1A3-CA2B08B0B821C774&search=). __Every student has the responsibility of reading and understanding these policies, especially the consequences for engaging in academically dishonest activities.__
-
-<!-- Additionally, the Computer Science major has additional guidelines for academic integrity here: [http://www.cis.gvsu.edu/academic-honesty/](http://www.cis.gvsu.edu/academic-honesty/).  -->
+The university’s academic integrity policy is described in the GVSU Student Code [which you can read online here](https://www.gvsu.edu/policies/policy.htm?policyId=EFAB64E1-C25B-E1A3-CA2B08B0B821C774&search=). Additionally, the School of Computing and Information Systems has its own guidelines for academic integrity here: [http://www.cis.gvsu.edu/academic-honesty/](http://www.cis.gvsu.edu/academic-honesty/). __Every student has the responsibility of reading and understanding these policies, especially the consequences for engaging in academically dishonest activities.__
 
 Some of the work you will do in the course involves collaboration; at other times collaboration may be allowed but not required; while at others it may not be allowed. Here are the rules for collaboration on each kind of work you do: 
 
@@ -395,5 +393,5 @@ Please see the Course Calendar for the dates corresponding to these modules.
 | 12 | Mathematical induction | Idea of proof; weak mathematical induction | Levin 2.5 | 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDc5NDg5MzEzLDUwNDQ1NjE0NF19
+eyJoaXN0b3J5IjpbLTE5MDI1OTY4ODksNTA0NDU2MTQ0XX0=
 -->
