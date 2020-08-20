@@ -22,7 +22,7 @@ I am really looking forward to working with you in this course. It won't always 
 **Availability:** I typically only check email and other messages between 6am and 6pm on weekdays and once on Saturday mornings. If you send a message that needs a response during those times, you can expect to get a response within 6 hours. Otherwise you can expect one when I am back online. 
 
 
-**Face-to-face Meetings**: 12:00-12:50pm MWF in Mackinac Hall B-1-132. This course uses a *synchronous staggered hybrid* model in which the class is split into two groups (**Red** and **Blue**) and the groups alternate attending class face-to-face (F2F) and synchronously online on Mondays and Wednesdays, and the entire class meets together synchronously online on Fridays: 
+**Meetings**: 12:00-12:50pm MWF with face-to-face meetings on Mondays and Wednesdays in Mackinac Hall B-1-132. This course uses a *synchronous staggered hybrid* model in which the class is split into two groups (**Red** and **Blue**) and the groups alternate attending class face-to-face (F2F) and synchronously online on Mondays and Wednesdays, and the entire class meets together synchronously online on Fridays: 
 
 |Day| Who is F2F? | Who is online? | 
 |:--:|:--:|:--:| 
@@ -381,6 +381,6 @@ Please see the Course Calendar for the dates corresponding to these modules.
 | 12 | Mathematical induction | Idea of proof; weak mathematical induction | Levin 2.5 | 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc1ODc0NjQ3LC05MTUwOTg4NDEsLTE5MD
-I1OTY4ODksNTA0NDU2MTQ0XX0=
+eyJoaXN0b3J5IjpbMTg1NDU4MzkxLC03NTg3NDY0NywtOTE1MD
+k4ODQxLC0xOTAyNTk2ODg5LDUwNDQ1NjE0NF19
 -->
