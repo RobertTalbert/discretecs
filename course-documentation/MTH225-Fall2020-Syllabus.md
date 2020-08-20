@@ -304,18 +304,6 @@ We will begin the semester in "staggered hybrid" mode, but several things could 
 
 **Encouragement:** Although these plans can be scary and demoralizing, I want you to know that **GVSU is doing everything in its power to keep people safe from Covid-19**. If we observe reasonable precautions like the ones described above, **there is no reason to be afraid**. If we stay focused, remain flexible, and give our best work then we will learn just as well as in "normal" times, which I am hopeful will return soon. 
 
-## Course learning objectives 
-
-By the end of the course, you will be able to:
-
-- Use **functions** and other pre-Calculus mathematics proficiently.
-- Calculate, use, and explain the concept of **limits**.
-- Explain and interpret the meaning of the **derivative** of a function.
-- Use **shortcuts** to calculate derivatives efficiently.
-- Use derivatives to solve authentic real-life **application problems**.
-- Use **definite integrals and the Fundamental Theorem of Calculus** to find areas and total change.
-
-A full list of official departmental objectives for MTH 201 can be found [here](https://www.gvsu.edu/cms4/asset/9A420BCF-BA9E-0845-91754145EA82C51F/sor_descriptions_objectives__topics_for_faculty_updated_12-11-19.pdf). 
 
 ## Appendix: Learning Objectives and Module Schedule
 
@@ -393,6 +381,6 @@ Please see the Course Calendar for the dates corresponding to these modules.
 | 12 | Mathematical induction | Idea of proof; weak mathematical induction | Levin 2.5 | 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ5NTE4MjIyOSwtOTE1MDk4ODQxLC0xOT
+eyJoaXN0b3J5IjpbMTE0OTcyNzAzNywtOTE1MDk4ODQxLC0xOT
 AyNTk2ODg5LDUwNDQ1NjE0NF19
 -->
