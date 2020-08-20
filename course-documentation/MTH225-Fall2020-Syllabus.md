@@ -36,6 +36,8 @@ Note that **all students are expected to participate in all meetings**; if it is
 
 **Course website and discussion board:** All course announcements, assignments, and grades will be communicated using the course **Blackboard** site available at http://mybb.gvsu.edu All other course communications (including additional examples, guidance on assignments, etc.) will be available through **Campuswire**, our class discussion tool; to join, go to http://www.campuswire.com and use the code `0540`. 
 
+**Course materials:**
+
 **Course calendar:** A Google Calendar, will all due dates and other important time-sensitive information posted on it, is available on Blackboard  in the left sidebar. **Be sure to check the calendar once daily** for upcoming events. The calendar is kept up-to-date constantly and **in cases of apparent conflicts in times or dates, the calendar is considered to be correct always.** 
 
 **Definition of "Week":** Quite often we'll refer to a "week" as a unit of time in the course. For us, a "week" is *the period of time starting at 12:01am Eastern on Monday and ending at 11:59pm Eastern the following Sunday*. 
@@ -393,5 +395,5 @@ Please see the Course Calendar for the dates corresponding to these modules.
 | 12 | Mathematical induction | Idea of proof; weak mathematical induction | Levin 2.5 | 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ2MTgzMjIzMSw1MDQ0NTYxNDRdfQ==
+eyJoaXN0b3J5IjpbMTc0OTM4Mjc3OCw1MDQ0NTYxNDRdfQ==
 -->
