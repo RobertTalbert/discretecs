@@ -107,7 +107,7 @@ Our course uses a **mastery-based grading system** in which **most graded work d
 
 ### How Learning Targets are graded
 
-There are 22 Learning Targets in the course, which together form an outline of all the important concepts in the course. Ten (10) of these are designated as **Core** targets due to their central nature in Calculus, and the other 12 are designated as **Supplemental**. 
+There are 22 Learning Targets in the course, which together form an outline of all the important concepts in the course. Ten (10) of these are designated as **Core** targets due to their central nature in the course, and the other 12 are designated as **Supplemental**. 
 
 An important goal for you in the course is to **demonstrate proficiency, and eventually mastery, of all the Core targets and as many of the Supplemental targets as you can.** Accordingly, there are two levels of achievement on the  Learning Targets: **Proficiency** and **Mastery**. Each time you provide a piece of evidence that shows you know how to perform the task in a Learning Target, you will earn a "check" on that Learning Target. **Earning one check on a Learning Target gives puts you at "Proficiency" level on that Target. Earning *two* checks puts you at "Mastery" level.** 
 
@@ -393,5 +393,6 @@ Please see the Course Calendar for the dates corresponding to these modules.
 | 12 | Mathematical induction | Idea of proof; weak mathematical induction | Levin 2.5 | 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MDI1OTY4ODksNTA0NDU2MTQ0XX0=
+eyJoaXN0b3J5IjpbLTkxNTA5ODg0MSwtMTkwMjU5Njg4OSw1MD
+Q0NTYxNDRdfQ==
 -->
