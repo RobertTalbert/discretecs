@@ -320,7 +320,7 @@ Upon completion of MTH 225, you will be able to:
 - Explain the reasoning behind solutions to computational problems clearly to an appropriate audience.
 - Apply effective problem-solving skills in solving computational problems. 
 - Apply computer programming and computational thinking to frame and solve mathematical and computational problems. 
-- I can self-assess my work and apply feedback from others to make improvements in my work.
+- Self-assess one's work and apply feedback from others to make improvements in that work.
 
 
 ### Learning Targets 
@@ -381,6 +381,6 @@ Please see the Course Calendar for the dates corresponding to these modules.
 | 12 | Mathematical induction | Idea of proof; weak mathematical induction | Levin 2.5 | 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE0OTcyNzAzNywtOTE1MDk4ODQxLC0xOT
-AyNTk2ODg5LDUwNDQ1NjE0NF19
+eyJoaXN0b3J5IjpbNDE0MjQ4ODY1LC05MTUwOTg4NDEsLTE5MD
+I1OTY4ODksNTA0NDU2MTQ0XX0=
 -->
