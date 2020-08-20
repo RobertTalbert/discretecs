@@ -24,11 +24,11 @@ I am really looking forward to working with you in this course. It won't always 
 
 **Face-to-face Meetings**: 12:00-12:50pm MWF in Mackinac Hall B-1-132. This course uses a *synchronous staggered hybrid* model in which the class is split into two groups (**Red** and **Blue**) and the groups alternate attending class face-to-face (F2F) and synchronously online on Mondays and Wednesdays, and the entire class meets together synchronously online on Fridays: 
 
-|Day| Red group | Blue group | 
+|Day| Who is F2F? | Who is online? | 
 |:--:|:--:|:--:| 
-| Monday | Attends F2F  | Attends online | 
-| Wednesday| Attends online| Attends F2F| 
-| Friday|Attends online  |Attends online |
+| Monday | Red  | Blue | 
+| Wednesday| Blue | Red | 
+| Friday| Nobody  |Everybody |
 
 Note that **all students are expected to participate in all meetings**; if it is not your group's designated F2F day, you'll participate synchronously online. You are not to skip class when it's not your day to meet F2F, and please do not schedule work or other classes on the days you're not meeting F2F.  
 
@@ -393,5 +393,5 @@ Please see the Course Calendar for the dates corresponding to these modules.
 | 12 | Mathematical induction | Idea of proof; weak mathematical induction | Levin 2.5 | 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNjAzMjIwODEsNTA0NDU2MTQ0XX0=
+eyJoaXN0b3J5IjpbMTQ2MTgzMjIzMSw1MDQ0NTYxNDRdfQ==
 -->
