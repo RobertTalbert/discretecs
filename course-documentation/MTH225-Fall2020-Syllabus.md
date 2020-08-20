@@ -283,7 +283,7 @@ As you are well aware, we will be having class this semester while trying to nav
 
 Above all else, **take care of your own physical and mental health** during these difficult times. Make sure you are getting sufficient rest, staying connected to friends and family, and giving yourself time and space to do things you enjoy outside of college. [This website lists several good tips](https://www.mayoclinichealthsystem.org/hometown-health/speaking-of-health/self-care-tips-during-the-covid-19-pandemic) for maintaining good self-care in our situation. 
 
-Before coming to campus, [perform a self-evaluation each time](https://www.gvsu.edu/hro/selfassessment-login.htm) and if you feel even the slightest bit of sickness or Covid-19 symptoms, stay home and participate remotely. You should be on campus only if you feel *completely healthy*. Remember that **you can opt out of your group's F2F meeting at any time and participate online synchronously --- no questions asked, no permission needed, no penalty incurred**. Also note that *there are no graded assessments done in class* so you will never have to make up work that was turned in during class. 
+Before coming to campus, [perform a self-evaluation each time](https://www.gvsu.edu/hro/selfassessment-login.htm) and if you feel even the slightest bit of sickness or Covid-19 symptoms, stay home and participate remotely. You should be on campus only if you feel *completely healthy*. Remember that **you can opt out of your group's F2F meeting at any time and participate online synchronously or asynchronously --- no questions asked, no permission needed, no penalty incurred**. Also note that *there are no graded assessments done in class* so you will never have to make up work that was turned in during class. 
 
 ### Keeping our class meetings safe
 
@@ -393,6 +393,6 @@ Please see the Course Calendar for the dates corresponding to these modules.
 | 12 | Mathematical induction | Idea of proof; weak mathematical induction | Levin 2.5 | 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkxNTA5ODg0MSwtMTkwMjU5Njg4OSw1MD
-Q0NTYxNDRdfQ==
+eyJoaXN0b3J5IjpbMTQ5NTE4MjIyOSwtOTE1MDk4ODQxLC0xOT
+AyNTk2ODg5LDUwNDQ1NjE0NF19
 -->
