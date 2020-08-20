@@ -377,10 +377,10 @@ Please see the Course Calendar for the dates corresponding to these modules.
 | 8 | Combinations and permutations | Combinations and permutations, combinatorial proof | Levin 1.3, 1.4 |
 | 9 | Advanced advanced counting | Principle of Inclusion and Exclusion, stars and bars methods | Levin 1.5, 1.6 |
 | 10 | Sequences and recursion | Closed-formula and recursive definitions of sequences; arithmetic and geometric sequences | Levin 2.1, 2.2 | 
-| 11 | Solving recurrence relations | Polynomial fitting; solving recurrence relations | Levin 2.3, 2.4 | 
+| 11 | Solving recurrence relations | Checking for solutions; the characteristic root method | Levin 2.3, 2.4 | 
 | 12 | Mathematical induction | Idea of proof; weak mathematical induction | Levin 2.5 | 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDE0MjQ4ODY1LC05MTUwOTg4NDEsLTE5MD
+eyJoaXN0b3J5IjpbLTc1ODc0NjQ3LC05MTUwOTg4NDEsLTE5MD
 I1OTY4ODksNTA0NDU2MTQ0XX0=
 -->
