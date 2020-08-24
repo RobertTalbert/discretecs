@@ -106,7 +106,7 @@ You are free to search for and use other resources in addition to, or instead of
 
   
 
-Work these exercises out on paper first and keep the work for your notes. Youâ€™ll submit your answers using a response form, linked below. There are additional review exercises found only on the response form; also on the form, you'll be asked to explain your reasoning on some of the exercises below.
+Work these exercises out on paper first and keep the work for your notes. You'll submit your answers using a response form, linked below. There are additional review exercises found only on the response form; also on the form, you'll be asked to explain your reasoning on some of the exercises below.
 
   
 
@@ -144,5 +144,5 @@ At the bottom of the form is a slider to enable if you want a copy of your answe
 
 **Getting help on this assignment:**  *You may work with others on this assignment, but you may not copy each others' answers.* Evidence of copying will be treated as academic dishonesty. You may also ask questions on the #dailyprep channel on CampusWire, but you may not ask simply to be given the answers; giving and receiving answers on CampusWire will be treated as academic dishonesty.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MTU4NzY5ODJdfQ==
+eyJoaXN0b3J5IjpbOTU5ODYyNTUzXX0=
 -->
