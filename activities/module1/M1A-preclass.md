@@ -106,7 +106,7 @@ You are free to search for and use other resources in addition to, or instead of
 
   
 
-Work these exercises out on paper first and keep the work for your notes. Youâ€™ll submit your answers using a response form, linked below. There are additional review exercises found only on the response form; also on the form, you'll be asked to explain your reasoning on some of the exercises below.
+Work these exercises out on paper first and keep the work for your notes. You'll submit your answers using a response form, linked below. There are additional review exercises found only on the response form; also on the form, you'll be asked to explain your reasoning on some of the exercises below.
 
   
 
