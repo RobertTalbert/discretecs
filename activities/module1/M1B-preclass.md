@@ -2,9 +2,10 @@
 
 ## Daily Preparation, Module 1B: Binary arithmetic 
 
-**Due by:** 11:59p
+**Due by:** 11:59pm Eastern, Tuesday September 8
 
-**Estimated time requirement:** About 45 minutes for the whole assignment. *If you have worked on this assignment for 30 minutes and you're not at least halfway done, DON'T work any further* --- instead, *stop and ask for help* on the `#dailyprep` channel on CampusWire. 
+**Estimated time requirement:** About 45-60 minutes for the whole assignment. *If you have worked on this assignment for 30 minutes and you're not at least halfway done, DON'T work any further* --- instead, *stop and ask for help* on the `#dailyprep` channel on CampusWire. 
+
 =======
 
 
@@ -68,5 +69,5 @@ As with all Classkick activities, there's no "submit" button; the work saves aut
 
 **Getting help on this assignment:** *You may work with others on this assignment, but you may not copy each others' answers.* Evidence of copying will be treated as academic dishonesty. You may also ask questions on the #dailyprep channel on CampusWire, but you may not ask simply to be given the answers; giving and receiving answers on CampusWire will be treated as academic dishonesty.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzgwNTQ3NTE2XX0=
+eyJoaXN0b3J5IjpbLTM3MTkyODIwOF19
 -->
