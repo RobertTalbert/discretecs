@@ -54,12 +54,12 @@
 
 + SF.2: I can perform operations on sets (intersection, union, complement, Cartesian product) and determine the cardinality of a set.
 	+ Given: 2-4 pairs of sets 
-	+ To do: Write out the intersection, union, and Cartesian product of at least one of the pairs; write the complement of several sets in the pairs; 
-	+ Check if: 
+	+ To do: Write out the intersection, union, and Cartesian product of at least one of the pairs; write the complement of several sets in the pairs; state the cardinality of several sets in the pairs. 
+	+ Check if: All work/explanation is clear, and all answers are correct; no more than one mistake due to simple error. 
 
 + SF.3 **(Core)**: I can determine whether or not a given relation is a function, determine the domain and codomain of a function, and find the image and preimage of a point using a function.
-	+ Given: 
-	+ To do: 
+	+ Given: 3-4 relations on sets (some finite, some not) along with some points from each set
+	+ To do: Determine whether each relation is a function; if not, explain why; if so, state the domain and codomain and find the image and preimage of some of the points
 	+ Check if: 
 
 + SF.4: I can determine whether a function is injective, surjective, or bijective.
@@ -117,5 +117,5 @@
 	+ Check if: 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjk5MDM5OTk2XX0=
+eyJoaXN0b3J5IjpbMjg5MjIzMzI1XX0=
 -->
