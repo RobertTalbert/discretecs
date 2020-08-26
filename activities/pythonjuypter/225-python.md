@@ -53,7 +53,7 @@ Click "Send" and I'll get an email with a link to your notebook.
 
 Or, under "Get link", adjust the sharing settings so that anyone with the link can edit. Then click "Copy link" and email me the link. 
 
-![Another sharing method](SharinginColab.gif)
+![enter image description here](https://i.ibb.co/DW3qss1/Sharingin-Colab.gif)
 
 ([Here's a video version of the GIF above](https://drive.google.com/file/d/1Y7dqSVs-Xkr5zxbEC2VR1lGaodIai_P6/view).)
 
@@ -75,5 +75,5 @@ You can also ask questions of your classmates, especially on Campuswire, but you
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA4NzA0NDcxN119
+eyJoaXN0b3J5IjpbLTI5OTI2ODc0MiwxMDg3MDQ0NzE3XX0=
 -->
