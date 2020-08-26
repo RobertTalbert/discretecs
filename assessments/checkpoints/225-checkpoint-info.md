@@ -2,6 +2,21 @@
 
 ## Draft schedule of Checkpoints 
 
+| Checkpoint | Date | LT's introduced |
+|:------:| :-----: | :------:|
+| 1 | Sept 17 | F.1, L.1 |
+| 2 | Sept 24 | D.1, D.2 |
+| 3 | Oct 8 | D.3, D.4, D.5, DC.1 |
+| 4 | Oct 22 | DC.2, DC.3, DC.4, DA.1, DA.2 |
+| 5 | Nov 2 | DA.3, DA.4 |
+| 6 | Nov 16 | DA.5, DA.6, L.2, INT.1 |
+| 7 | Nov 23 | INT.2 |
+| 8 | Dec 3 | INT.3, INT.4 |
+| 9 | Dec 7 | INT.5, INT.6 |
+| 10 | Dec 10 | none |
+| 11 (Final exam) | Dec 14 | none |
+
+
 ## Checkpoint Tasks and Grading rubrics for each Learning Target
 
 + A.1: I can represent an integer in base 2, 8, 10, and 16.
@@ -118,5 +133,5 @@
 	+ Check if: All work/explanation is clear, and all answers are correct; no more than one mistake due to simple error. 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ0NzU5OTQyNV19
+eyJoaXN0b3J5IjpbMTM0NDM4NzU0N119
 -->
