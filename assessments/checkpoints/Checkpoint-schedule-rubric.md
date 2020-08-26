@@ -22,8 +22,8 @@
 
 + L.1: I can use propositional variables and logical connectives to represent statements; and interpret symbolic logical statements in plain language.
 	+ Given: 2-4 expressions involving propositional variables and connectives, along with English meanings for each variable
-	+ To do: Give a correct and cl
-	+ Check if: 
+	+ To do: Give a correct and clear English interpretation of each expression. 
+	+ Check if: All work/explanation is clear, and all answers are correct; no more than one mistake due to simple error. 
 
 
 + L.2 **(Core)**: I can write the negation, converse, and contrapositive of a conditional statement and use DeMorgan's Laws to simplify symbolic logical expressions.
@@ -117,5 +117,5 @@
 	+ Check if: 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU3MjI5ODE2XX0=
+eyJoaXN0b3J5IjpbLTEyNjQ0MzEzMjldfQ==
 -->
