@@ -39,15 +39,16 @@ In this part, you will learn the basics of  **Jupyter notebooks**, a graphical b
 2. If you are unfamiliar with the **Markdown** text formatting system, go to this website and work through the tutorial: http://markdowntutorial.com/  Markdown is a simple plaintext-based system for writing formatted text. It's fairly common (used on GitHub, Reddit, and elsewhere) so you might be familiar with it already; if that's the case, skip the tutorial. 
 3. Go to https://colab.research.google.com/ and click on the "Examples" tab. Read through the notebooks titled "Welcome to Colaboratory", "Overview of Colaboratory Features", and "Markdown Guide". You can skip any technical Python or CS language. 
 4. Now it's time to make a notebook! Go to https://colab.research.google.com/ and click "New Notebook": 
-![New notebook](colab1.jpeg)
-5. Change the title of the notebook to `Lastname.ipynb` where `Lastname` is your last name. For example Alex McAndrews would name their notebok `McAndrews.ipynb`. 
-6. In your notebook, make an exact duplicate of this notebook: https://i.imgur.com/LzbQzs6.jpg  Note that there is a mix of headers, italicized and bold text, LaTeX coding for math, and other style elements. All of these need to be present in your notebook. 
+![enter image description here](https://i.ibb.co/yBCy3gB/colab1.jpg)
+
+6. Change the title of the notebook to `Lastname.ipynb` where `Lastname` is your last name. For example Alex McAndrews would name their notebok `McAndrews.ipynb`. 
+7. In your notebook, make an exact duplicate of this notebook: https://i.imgur.com/LzbQzs6.jpg  Note that there is a mix of headers, italicized and bold text, LaTeX coding for math, and other style elements. All of these need to be present in your notebook. 
 
 **To submit your work:** Make sure you're signed in to your GVSU Google account. Then in Colab, click **Share** in the upper-right corner.
 
 Then you can do one of two things: Under "Share with people and groups", you can enter my email address (talbertr@gvsu.edu) in the blank and make sure "Editor" is selected. (The message is optional.)
 
-![Sharing notebook](colab2.jpeg)
+![enter image description here](https://i.ibb.co/Qr9zJ2s/colab2.jpg)
 
 Click "Send" and I'll get an email with a link to your notebook. 
 
@@ -75,5 +76,5 @@ You can also ask questions of your classmates, especially on Campuswire, but you
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI5OTI2ODc0MiwxMDg3MDQ0NzE3XX0=
+eyJoaXN0b3J5IjpbLTE1ODYyMTk4NiwxMDg3MDQ0NzE3XX0=
 -->
