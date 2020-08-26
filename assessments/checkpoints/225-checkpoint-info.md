@@ -108,7 +108,7 @@
 	+ Check if: All work/explanation is clear, and all answers are correct; no more than one mistake due to simple error. 
 
 + P.1: I can analyze and write a combinatorial proof of a combinatorial identity.
-	+ Given: A combinatorial proof of an identity (for example, 
+	+ Given: A combinatorial proof of an identity (for example, $n \choose k = n \choose n$
 	+ To do: 
 	+ Check if: 
 
@@ -117,5 +117,5 @@
 	+ Check if: 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg4Mjg2ODU3XX0=
+eyJoaXN0b3J5IjpbMTkxNDkwNTgzXX0=
 -->
