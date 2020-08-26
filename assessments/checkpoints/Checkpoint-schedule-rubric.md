@@ -15,14 +15,14 @@
 	+ Check if: All work/explanation is clear, and all answers are correct; no more than one mistake due to simple error. 
 
 + A.3: I can compute `a % b` given integers `a` and `b` and perform arithmetic mod $n$.
-	+ Given: (1) 
-	+ To do: 
-	+ Check if: 
+	+ Given: 3-4 pairs of integers $a$ and $b$
+	+ To do: Compute `a % b` and, given a third integer $n$, compute sums, products, and powers mod $n$. 
+	+ Check if: All work/explanation is clear, and all answers are correct; no more than one mistake due to simple error. 
 
 
 + L.1: I can use propositional variables and logical connectives to represent statements; and interpret symbolic logical statements in plain language.
-	+ Given: 
-	+ To do: 
+	+ Given: 2-4 expressions involving propositional variables and connectives, along with English meanings for each variable
+	+ To do: Give a correct and cl
 	+ Check if: 
 
 
@@ -117,5 +117,5 @@
 	+ Check if: 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTczMDk3ODQ3NF19
+eyJoaXN0b3J5IjpbLTU3MjI5ODE2XX0=
 -->
