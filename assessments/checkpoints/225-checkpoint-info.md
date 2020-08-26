@@ -49,12 +49,12 @@
 
 + SF.1 **(Core)**: I can represent a set in roster notation and set-builder notation; determine if an object is an element of a set; and determine set relationships (equality, subset).
 	+ Given: 2-4 sets in either roster or set-builder notation or in plain language; 2-3 sets and objects; and 2-3 pairs of sets
-	+ To do: Rewrite each set in either set-builder or roster notation; determine whether each object is
-	+ Check if: 
+	+ To do: Rewrite each set in either set-builder or roster notation; determine whether each object is an element of its set or not; determine whether the sets in a pair are equal or if one is a subset of the other. 
+	+ Check if: All work/explanation is clear, and all answers are correct; no more than one mistake due to simple error. 
 
 + SF.2: I can perform operations on sets (intersection, union, complement, Cartesian product) and determine the cardinality of a set.
-	+ Given: 
-	+ To do: 
+	+ Given: 2-4 pairs of sets 
+	+ To do: Write out the intersection, union, and Cartesian product of at least one of the pairs; write the complement of several sets in the pairs; 
 	+ Check if: 
 
 + SF.3 **(Core)**: I can determine whether or not a given relation is a function, determine the domain and codomain of a function, and find the image and preimage of a point using a function.
@@ -117,5 +117,5 @@
 	+ Check if: 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkwMTg1MzcxNF19
+eyJoaXN0b3J5IjpbNjk5MDM5OTk2XX0=
 -->
