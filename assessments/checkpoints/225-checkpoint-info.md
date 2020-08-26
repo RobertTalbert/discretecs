@@ -89,8 +89,8 @@
 
 + SR.1 **(Core)**: I can generate several values in a sequence defined using a closed-form expression or using recursion.
 	+ Given: 2-4 closed-form expressions or recursive definitions of sequences 
-	+ To do: Generate the first 
-	+ Check if: 
+	+ To do: Generate the first 3-8 elements of the sequence 
+	+ Check if: All work/explanation is clear, and all answers are correct; no more than one mistake due to simple error. 
 
 + SR.2: I can use sigma notation to rewrite a sum and determine the sum of an expression given in sigma notation.
 	+ Given: 
@@ -117,5 +117,5 @@
 	+ Check if: 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNjU5NTAwMThdfQ==
+eyJoaXN0b3J5IjpbMTQ4MDA5NDg0OV19
 -->
