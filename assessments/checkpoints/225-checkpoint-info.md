@@ -103,12 +103,12 @@
 	+ Check if: All work/explanation is clear, and all answers are correct; no more than one mistake due to simple error. 
 
 + SR.4: I can use iteration and characteristic roots to solve a recurrence relation.
-	+ Given: 1-2 
-	+ To do: 
-	+ Check if: 
+	+ Given: 1-2 second-order linear recurrence relations
+	+ To do: Use either iteration or characteristic roots to solve each relation
+	+ Check if: All work/explanation is clear, and all answers are correct; no more than one mistake due to simple error. 
 
 + P.1: I can analyze and write a combinatorial proof of a combinatorial identity.
-	+ Given: 
+	+ Given: A combinatorial proof of an identity (for example, 
 	+ To do: 
 	+ Check if: 
 
@@ -117,5 +117,5 @@
 	+ Check if: 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNTIxNzM1ODBdfQ==
+eyJoaXN0b3J5IjpbMTg4Mjg2ODU3XX0=
 -->
