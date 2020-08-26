@@ -33,18 +33,18 @@
 
 
 + L.3: I can determine whether a quantified statement is true, false, or underdetermined, and state its negation.
-	+ Given: 2-3 quantified statements in symbolic
-	+ To do: 
-	+ Check if: 
+	+ Given: 2-3 quantified statements in symbolic or plain language form
+	+ To do: State whether each quantified statement is true, false, or indeterminate, and state the negation. 
+	+ Check if: All work/explanation is clear, and all answers are correct; no more than one mistake due to simple error. 
 
 + L.4 **(Core)**: I can write the truth table for a logical statement.
-	+ Given: 
-	+ To do: 
-	+ Check if: 
+	+ Given: 2-3 logical statements with 2-3 variables in each
+	+ To do: Construct the truth table for each statement. 
+	+ Check if: All work/explanation is clear, and all answers are correct; no more than one mistake due to simple error. 
 
 + L.5: I can determine if a statement is a tautology and whether two statements are logically equivalent.
-	+ Given: 
-	+ To do: 
+	+ Given: 1-2 standalone statements, and 1-2 pairs of other statements
+	+ To do: Use a tr  
 	+ Check if: 
 
 + SF.1 **(Core)**: I can represent a set in roster notation and set-builder notation; determine if an object is an element of a set; and determine set relationships (equality, subset).
@@ -117,5 +117,5 @@
 	+ Check if: 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTAzNzc3OTExXX0=
+eyJoaXN0b3J5IjpbMjkwMDMxMzVdfQ==
 -->
