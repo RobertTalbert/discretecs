@@ -9,9 +9,9 @@
 | 3 | Sept 30 | L.2, L.3, L.4 |
 | 4 | Oct 14 | L.5, SF.1, SF.2 |
 | 5 | Oct 28 | SF.3, SF.4, C.1, C.2 |
-| 6 | Nov 9 | C.3 |
-| 7 | Nov 23 | INT.2 |
-| 8 | Dec 3 | INT.3, INT.4 |
+| 6 | Nov 9 | C.3, C.4 |
+| 7 | Nov 23 | SR.1, SR.2, SR.3, SR.4 |
+| 8 | Dec 1 | *None, just old LT's* |
 | 9 | Dec 7 | INT.5, INT.6 |
 | 10 | Dec 10 | none |
 | 11 (Final exam) | Dec 14 | none |
@@ -133,5 +133,5 @@
 	+ Check if: All work/explanation is clear, and all answers are correct; no more than one mistake due to simple error. 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAxNjY2NDk5N119
+eyJoaXN0b3J5IjpbLTM0NDUyNDI2M119
 -->
