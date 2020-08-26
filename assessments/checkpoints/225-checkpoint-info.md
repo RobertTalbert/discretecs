@@ -73,17 +73,17 @@
 	+ Check if: All work/explanation is clear, and all answers are correct; no more than one mistake due to simple error. 
 
 + C.2: I can calculate a binomial coefficient and correctly apply the binomial coefficient to formulate and solve counting problems.
-	+ Given: 2-3 "raw" binomial coefficients, and counting problems that use bi
-	+ To do: 
-	+ Check if: 
+	+ Given: 2-3 "raw" binomial coefficients, and counting problems that use binomial coefficients 
+	+ To do: Compute the binomial coefficients and solve the counting problems
+	+ Check if: All work/explanation is clear, and all answers are correct; no more than one mistake due to simple error. 
 
 + C.3 **(Core)**: I can compute combinations and permutations and apply these to formulate and solve counting problems.
-	+ Given: 
-	+ To do: 
-	+ Check if: 
+	+ Given: 3-4 raw combinations and permutations; and counting problems that use combinations and permutations
+	+ To do:  Compute the combinations and permutations, and solve the counting problems
+	+ Check if:  All work/explanation is clear, and all answers are correct; no more than one mistake due to simple error. 
 
 + C.4: I can use the "Stars and Bars" technique to formulate and solve counting problems.
-	+ Given: 
+	+ Given: 1-2 counting situations involving 
 	+ To do: 
 	+ Check if: 
 
@@ -117,5 +117,5 @@
 	+ Check if: 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQyMDM0MDg3OF19
+eyJoaXN0b3J5IjpbMTE5NTM3MDQxNl19
 -->
