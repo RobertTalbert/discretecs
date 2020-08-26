@@ -83,13 +83,13 @@
 	+ Check if:  All work/explanation is clear, and all answers are correct; no more than one mistake due to simple error. 
 
 + C.4: I can use the "Stars and Bars" technique to formulate and solve counting problems.
-	+ Given: 1-2 counting situations involving 
-	+ To do: 
-	+ Check if: 
+	+ Given: 1-2 counting situations involving distributing distinct items among a group
+	+ To do: Solve the counting problem
+	+ Check if: All work/explanation is clear, and all answers are correct; no more than one mistake due to simple error. 
 
 + SR.1 **(Core)**: I can generate several values in a sequence defined using a closed-form expression or using recursion.
-	+ Given: 
-	+ To do: 
+	+ Given: 2-4 closed-form expressions or recursive definitions of sequences 
+	+ To do: Generate the first 
 	+ Check if: 
 
 + SR.2: I can use sigma notation to rewrite a sum and determine the sum of an expression given in sigma notation.
@@ -117,5 +117,5 @@
 	+ Check if: 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE5NTM3MDQxNl19
+eyJoaXN0b3J5IjpbLTEzNjU5NTAwMThdfQ==
 -->
