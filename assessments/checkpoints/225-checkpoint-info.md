@@ -7,9 +7,9 @@
 | 1 | Sept 16 | A.1, A.2 |
 | 2 | Sept 23 | A.3, L.1 |
 | 3 | Sept 30 | L.2, L.3, L.4 |
-| 4 | Oct 14 | L.5,  |
-| 5 | Nov 2 | DA.3, DA.4 |
-| 6 | Nov 16 | DA.5, DA.6, L.2, INT.1 |
+| 4 | Oct 14 | L.5, SF.1, SF.2 |
+| 5 | Oct 28 | SF.3, SF.4, C.1, C.2 |
+| 6 | Nov 9 | C.3 |
 | 7 | Nov 23 | INT.2 |
 | 8 | Dec 3 | INT.3, INT.4 |
 | 9 | Dec 7 | INT.5, INT.6 |
@@ -133,5 +133,5 @@
 	+ Check if: All work/explanation is clear, and all answers are correct; no more than one mistake due to simple error. 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM1MTcyOTU2M119
+eyJoaXN0b3J5IjpbMTAxNjY2NDk5N119
 -->
