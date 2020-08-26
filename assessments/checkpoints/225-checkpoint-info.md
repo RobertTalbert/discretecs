@@ -4,8 +4,8 @@
 
 | Checkpoint | Date | LT's introduced |
 |:------:| :-----: | :------:|
-| 1 | Sept 17 | F.1, L.1 |
-| 2 | Sept 24 | D.1, D.2 |
+| 1 | Sept 16 | A.1, A.2 |
+| 2 | Sept 23 | A.3,  |
 | 3 | Oct 8 | D.3, D.4, D.5, DC.1 |
 | 4 | Oct 22 | DC.2, DC.3, DC.4, DA.1, DA.2 |
 | 5 | Nov 2 | DA.3, DA.4 |
@@ -133,5 +133,5 @@
 	+ Check if: All work/explanation is clear, and all answers are correct; no more than one mistake due to simple error. 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM0NDM4NzU0N119
+eyJoaXN0b3J5IjpbMTQ2ODYxNjkyN119
 -->
