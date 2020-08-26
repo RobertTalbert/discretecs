@@ -60,20 +60,20 @@
 + SF.3 **(Core)**: I can determine whether or not a given relation is a function, determine the domain and codomain of a function, and find the image and preimage of a point using a function.
 	+ Given: 3-4 relations on sets (some finite, some not) along with some points from each set
 	+ To do: Determine whether each relation is a function; if not, explain why; if so, state the domain and codomain and find the image and preimage of some of the points
-	+ Check if: 
+	+ Check if: All work/explanation is clear, and all answers are correct; no more than one mistake due to simple error. 
 
 + SF.4: I can determine whether a function is injective, surjective, or bijective.
-	+ Given: 
-	+ To do: 
-	+ Check if: 
+	+ Given: 3-4 functions between sets (some finite, some not)
+	+ To do: Determine whether each function is injective, surjective, bijective, or none of these. 
+	+ Check if: All work/explanation is clear, and all answers are correct; no more than one mistake due to simple error. 
 
 + C.1 **(Core)**: I can use the additive and multiplicative principles and the Principle of Inclusion and Exclusion to formulate and solve counting problems.
-	+ Given: 
-	+ To do: 
-	+ Check if: 
+	+ Given: A basic counting situation involving a combination of these principles
+	+ To do: Solve the counting problem. 
+	+ Check if: All work/explanation is clear, and all answers are correct; no more than one mistake due to simple error. 
 
 + C.2: I can calculate a binomial coefficient and correctly apply the binomial coefficient to formulate and solve counting problems.
-	+ Given: 
+	+ Given: 2-3 "raw" binomial coefficients, and counting problems that use bi
 	+ To do: 
 	+ Check if: 
 
@@ -117,5 +117,5 @@
 	+ Check if: 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjg5MjIzMzI1XX0=
+eyJoaXN0b3J5IjpbLTQyMDM0MDg3OF19
 -->
