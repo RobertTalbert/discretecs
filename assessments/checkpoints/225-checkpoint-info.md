@@ -108,14 +108,15 @@
 	+ Check if: All work/explanation is clear, and all answers are correct; no more than one mistake due to simple error. 
 
 + P.1: I can analyze and write a combinatorial proof of a combinatorial identity.
-	+ Given: A combinatorial proof of an identity (for example, $\binom{n}{k} = \binom{n}{n-k}$) 
-	+ To do: 
-	+ Check if: 
+	+ Given: A combinatorial proof of an identity (for example, $\binom{n}{k} = \binom{n}{n-k}$)
+	+ To do: Perform a critical analysis of the proof
+	+ Check if: All work/explanation is clear, and all answers are correct; no more than one mistake due to simple error. 
 
-+ P.2 **(Core)**: Given a statement to be proven by (weak) induction, I can state and prove the base case, state the inductive hypothesis, and outline the proof.	+ Given: 
-	+ To do: 
-	+ Check if: 
++ P.2 **(Core)**: Given a statement to be proven by (weak) induction, I can state and prove the base case, state the inductive hypothesis, and outline the proof.	
+	+ Given: 1-3 mathematical conjectures that are to be proven by induction
+	+ To do: State and prove the base case and inductive hypotheses for each potential proof, then outline how the rest of the proof would go. 
+	+ Check if: All work/explanation is clear, and all answers are correct; no more than one mistake due to simple error. 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ2NzUwNDUxOF19
+eyJoaXN0b3J5IjpbMTQ0NzU5OTQyNV19
 -->
