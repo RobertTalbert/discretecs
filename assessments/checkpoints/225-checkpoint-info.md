@@ -44,12 +44,12 @@
 
 + L.5: I can determine if a statement is a tautology and whether two statements are logically equivalent.
 	+ Given: 1-2 standalone statements, and 1-2 pairs of other statements
-	+ To do: Use a tr  
-	+ Check if: 
+	+ To do: Use a truth table to determine if each standalone statement is a tautology, and whether each pair of statements is logically equivalent  
+	+ Check if: All work/explanation is clear, and all answers are correct; no more than one mistake due to simple error. 
 
 + SF.1 **(Core)**: I can represent a set in roster notation and set-builder notation; determine if an object is an element of a set; and determine set relationships (equality, subset).
-	+ Given: 
-	+ To do: 
+	+ Given: 2-4 sets in either roster or set-builder notation or in plain language; 2-3 sets and objects; and 2-3 pairs of sets
+	+ To do: Rewrite each set in either set-builder or roster notation; determine whether each object is
 	+ Check if: 
 
 + SF.2: I can perform operations on sets (intersection, union, complement, Cartesian product) and determine the cardinality of a set.
@@ -117,5 +117,5 @@
 	+ Check if: 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjkwMDMxMzVdfQ==
+eyJoaXN0b3J5IjpbMTkwMTg1MzcxNF19
 -->
