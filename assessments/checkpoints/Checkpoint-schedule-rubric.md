@@ -7,15 +7,15 @@
 + A.1: I can represent an integer in base 2, 8, 10, and 16.
 	+ Given: 3-5 integers in one of these four bases
 	+ To do: Convert each integer to 1-2 of the other bases 
-	+ Check if: 
+	+ Check if: All work/explanation is clear, and all answers are correct. 
 
 + A.2 **(Core)**: I can add, subtract, multiply, and divide two integers written in binary.
-	+ Given: 
-	+ To do: 
-	+ Check if: 
+	+ Given: 3-4 pairs of binary integers, 8 bits or less
+	+ To do: Add, subtract, multiply, or divide each pair
+	+ Check if: All work/explanation is clear, and all answers are correct; no more than one mistake due to simple error. 
 
 + A.3: I can compute `a % b` given integers `a` and `b` and perform arithmetic mod $n$.
-	+ Given: 
+	+ Given: (1) 
 	+ To do: 
 	+ Check if: 
 
@@ -117,5 +117,5 @@
 	+ Check if: 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODY0ODk2NTczXX0=
+eyJoaXN0b3J5IjpbMTczMDk3ODQ3NF19
 -->
