@@ -12,9 +12,9 @@
 | 6 | Nov 9 | C.3, C.4 |
 | 7 | Nov 23 | SR.1, SR.2, SR.3, SR.4 |
 | 8 | Dec 1 | *None, just old LT's* |
-| 9 | Dec 7 | INT.5, INT.6 |
-| 10 | Dec 10 | none |
-| 11 (Final exam) | Dec 14 | none |
+| 9 | Dec 7 | P.1, P.2 |
+| 10 | Dec 10 | *None, just old LT's* |
+| 11 (Final exam) | Dec 14 | *None, just old LT's* |
 
 
 ## Checkpoint Tasks and Grading rubrics for each Learning Target
@@ -133,5 +133,5 @@
 	+ Check if: All work/explanation is clear, and all answers are correct; no more than one mistake due to simple error. 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM0NDUyNDI2M119
+eyJoaXN0b3J5IjpbMjA2OTkzOTQ2OV19
 -->
