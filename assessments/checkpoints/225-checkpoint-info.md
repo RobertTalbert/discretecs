@@ -93,17 +93,17 @@
 	+ Check if: All work/explanation is clear, and all answers are correct; no more than one mistake due to simple error. 
 
 + SR.2: I can use sigma notation to rewrite a sum and determine the sum of an expression given in sigma notation.
-	+ Given: 
-	+ To do: 
-	+ Check if: 
+	+ Given: 2-4 sums given in sigma notation or as sums 
+	+ To do: Rewrite the sums in sigma notation, and find the value of each of the sums
+	+ Check if: All work/explanation is clear, and all answers are correct; no more than one mistake due to simple error. 
 
 + SR.3 **(Core)**: I can find closed-form and recursive expressions for arithmetic and geometric sequences and find their sums.
-	+ Given: 
-	+ To do: 
-	+ Check if: 
+	+ Given: 2-3 sequences (of integers, strings, visual patterns, etc.) 
+	+ To do: Generate recursive expressions for the sequences and (for numerical sequences) closed-form expressions
+	+ Check if: All work/explanation is clear, and all answers are correct; no more than one mistake due to simple error. 
 
 + SR.4: I can use iteration and characteristic roots to solve a recurrence relation.
-	+ Given: 
+	+ Given: 1-2 
 	+ To do: 
 	+ Check if: 
 
@@ -117,5 +117,5 @@
 	+ Check if: 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ4MDA5NDg0OV19
+eyJoaXN0b3J5IjpbLTExNTIxNzM1ODBdfQ==
 -->
