@@ -1,0 +1,110 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>M1A-preclass</title>
+  <link rel="stylesheet" href="https://stackedit.io/style.css" />
+</head>
+
+<body class="stackedit">
+  <div class="stackedit__left">
+    <div class="stackedit__toc">
+      
+<ul>
+<li><a href="#mth-225-discrete-structures-for-computer-science-1">MTH 225: Discrete Structures for Computer Science 1</a>
+<ul>
+<li><a href="#daily-preparation-module-1a-representing-integers-in-different-number-bases">Daily Preparation, Module 1A: Representing integers in different number bases</a></li>
+<li><a href="#overview">Overview</a></li>
+<li><a href="#what-you-will-learn">What you will learn</a></li>
+<li><a href="#resources-for-learning">Resources for Learning</a></li>
+<li><a href="#exercises">Exercises</a></li>
+<li><a href="#submission-grading-and-getting-help">Submission, grading, and getting help</a></li>
+</ul>
+</li>
+</ul>
+
+    </div>
+  </div>
+  <div class="stackedit__right">
+    <div class="stackedit__html">
+      <h1 id="mth-225-discrete-structures-for-computer-science-1">MTH 225: Discrete Structures for Computer Science 1</h1>
+<h2 id="daily-preparation-module-1a-representing-integers-in-different-number-bases">Daily Preparation, Module 1A: Representing integers in different number bases</h2>
+<p><strong>Due by: 11:59pm Eastern, Thursday September 3</strong></p>
+<p><strong>Estimated time requirement:</strong> No more than 60 minutes for the whole assignment. <em>If you have worked on this assignment for 30 minutes and you’re not at least halfway done, DON’T work any further</em> — instead, <em>stop and ask for help</em> on the <code>#dailyprep</code> channel on CampusWire.</p>
+<h2 id="overview">Overview</h2>
+<p>We begin our study of mathematics for computer science all the way at the beginning of your math experience with <em>how to write numbers</em>. It turns out that the way we humans have written numbers since childhood is only one way to do it. To communicate numbers to a computer, we have to learn to speak their language using different <em>number bases</em>, particularly <em>base 2</em> or <em>binary</em>, <em>base 8</em> or <em>octal</em>, and <em>base 16</em> or <em>hexadecimal</em>. In this lesson, you’ll learn how to switch back and forth between representing integers (whole numbers) in these different ways, with particular focus on a computer-ready algorithm for changing numbers from base 10 (decimal) to any other base.</p>
+<h2 id="what-you-will-learn">What you will learn</h2>
+<p><strong>Learning Targets addressed in this module:</strong></p>
+<blockquote>
+<ul>
+<li>A.1: I can represent an integer in base 2, 8, 10, and 16.</li>
+</ul>
+</blockquote>
+<blockquote>
+<ul>
+<li>A.2 (Core): I can add and multiply two integers written in binary.</li>
+</ul>
+</blockquote>
+<p><strong>BEFORE</strong> your class meeting, use the Resources for Learning (below) to learn how to do the following:</p>
+<ul>
+<li>Explain the differences between decimal (base 10) representation and representations in base 2, 8, and 16.</li>
+<li>Convert an integer <em>from</em> base 2, 8, and 16 <em>into</em> base 10 (decimal).</li>
+</ul>
+<p><strong>DURING AND AFTER</strong> your class meeting, you will learn how to do the following:</p>
+<ul>
+<li>Convert an integer <em>from</em> base 10 <em>into</em> base 2, 8, and 16.</li>
+<li>Implement the division/remainder algorithm for converting from decimal to base <span class="katex--inline"><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>r</mi></mrow><annotation encoding="application/x-tex">r</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height: 0.43056em; vertical-align: 0em;"></span><span class="mord mathdefault" style="margin-right: 0.02778em;">r</span></span></span></span></span>.</li>
+<li>Explain why the division/remainder algorithm works.</li>
+</ul>
+<h2 id="resources-for-learning">Resources for Learning</h2>
+<p><strong>Video:</strong> Watch the following videos. The total running time is 10:47.</p>
+<ul>
+<li>Binary numbers and base systems as fast as possible <a href="https://www.youtube.com/watch?v=LpuPe81bc2w">https://www.youtube.com/watch?v=LpuPe81bc2w</a> (3:49)</li>
+<li>Converting from binary, octal, and hexadecimal to decimal (6:58) <strong>This video can be found in the folder for Module 1 on Blackboard.</strong> Go to Blackboard, then <em>MODULES</em>, then <em>Module 1</em> and you will see the video embedded on the page.</li>
+</ul>
+<p>Here are some additional video resources if you need/want more:</p>
+<ul>
+<li>How to convert binary to decimal <a href="https://www.youtube.com/watch?v=VLflTjd3lWA&amp;t=8s">https://www.youtube.com/watch?v=VLflTjd3lWA&amp;t=8s</a></li>
+<li>How to convert decimal to binary <a href="https://www.youtube.com/watch?v=rsxT4FfRBaM">https://www.youtube.com/watch?v=rsxT4FfRBaM</a></li>
+<li>How to convert octal to decimal <a href="https://www.youtube.com/watch?v=YCM2JReWS10">https://www.youtube.com/watch?v=YCM2JReWS10</a></li>
+<li>How to convert decimal to octal <a href="https://www.youtube.com/watch?v=ayul1fmZd0Y">https://www.youtube.com/watch?v=ayul1fmZd0Y</a></li>
+<li>How to convert hexadecimal to decimal <a href="https://www.youtube.com/watch?v=pg-HEGBpCQk">https://www.youtube.com/watch?v=pg-HEGBpCQk</a></li>
+<li>How to convert decimal to hexadecmial <a href="https://www.youtube.com/watch?v=QJW6qnfhC70">https://www.youtube.com/watch?v=QJW6qnfhC70</a></li>
+</ul>
+<p><strong>Web/Text:</strong></p>
+<ul>
+<li>Here is a website that gives an algorithm for number base conversion: <a href="https://www.tutorialspoint.com/computer_logical_organization/number_system_conversion.htm">https://www.tutorialspoint.com/computer_logical_organization/number_system_conversion.htm</a></li>
+<li>Here’s another: <a href="https://bit.ly/30AVHSa">https://bit.ly/30AVHSa</a></li>
+</ul>
+<p><strong>Other resources:</strong></p>
+<ul>
+<li>Online number base calculator (for checking work): <a href="https://www.rapidtables.com/convert/number/base-converter.html">https://www.rapidtables.com/convert/number/base-converter.html</a></li>
+</ul>
+<p>You are free to search for and use other resources in addition to, or instead of the above, as long as you can work the exercises below.</p>
+<h2 id="exercises">Exercises</h2>
+<p>Work these exercises out on paper first and keep the work for your notes. You’ll submit your answers using a response form, linked below. There are additional review exercises found only on the response form; also on the form, you’ll be asked to explain your reasoning on some of the exercises below.</p>
+<ol>
+<li>
+<p>In your own words, what are the main differences between base 2, base 8, base 16, and base 10 representations of integers?</p>
+</li>
+<li>
+<p>Convert the following to decimal: octal 4421, and hexadecimal E2A6.</p>
+</li>
+<li>
+<p>What practical advantages would these different number systems have over the others in real life? For example, why would anybody want to use hexadecimal notation as opposed to decimal, binary, or octal? Answer this question for each of the four systems we’ve seen in this assignment.</p>
+</li>
+</ol>
+<h2 id="submission-grading-and-getting-help">Submission, grading, and getting help</h2>
+<p><strong>Submitting your work:</strong> Do your work on paper or a separate computer file, but then submit your work for grading using this Google Form:</p>
+<p><a href="https://bit.ly/2P494UI">https://bit.ly/2P494UI</a></p>
+<p>At the bottom of the form is a slider to enable if you want a copy of your answers. You’ll also be sent a receipt of your submission via email; keep this in case there are issues with the grading.</p>
+<p><strong>How this is graded:</strong> Daily Prep assignments are graded on the basis of <em>completeness and effort</em>: If your submission has <strong>all parts completed</strong> (no blank entries, even if left blank accidentally) and <strong>a good-faith effort to provide a correct solution or explanation is given</strong> (no responses of “I don’t know” or “I didn’t understand”) and <strong>the work is submitted on time</strong>, it gets a “check”. Otherwise it gets an “x”. If you are stuck on an item, you’re expected to ask questions and give your best effort.</p>
+<p><strong>Getting help on this assignment:</strong>  <em>You may work with others on this assignment, but you may not copy each others’ answers.</em> Evidence of copying will be treated as academic dishonesty. You may also ask questions on the #dailyprep channel on CampusWire, but you may not ask simply to be given the answers; giving and receiving answers on CampusWire will be treated as academic dishonesty.</p>
+
+    </div>
+  </div>
+</body>
+
+</html>
