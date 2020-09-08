@@ -20,15 +20,25 @@ Module 3 micro-objectives
 
 (Module 4: Picks up with logical equivalence, DeMorgans Laws, predicates, quantifiers.) 
 
+---
+
 3A: Focus on statements, breaking down and interpreting statements, basic forms and when they are true, working with conditionals and biconditionals. 
 
 - Differentiate between a statement and a non-statement. 
 - Determine whether a statement is atomic or molecular; if molecular, identify the atomic statements that make it up. 
-- Use propositional variables and logical connectives to represent statements; and interpret symbolic logical statements in plain language
 - State the conditions under which a conjunction, disjunction, conditional, biconditional, and negation are true. 
 - Identify the hypothesis and conclusion of a conditional statement. 
+
+- Use propositional variables and logical connectives to represent statements; and interpret symbolic logical statements in plain language
 - Determine whether a conditional statement is true. 
 - State the converse and contrapositive of a conditional statement. 
+
+
+
+
+
+
+---
 
 3B: Mostly about truth tables. 
 
@@ -37,5 +47,5 @@ Module 3 micro-objectives
 - Write a truth table for a molecular statement containing 1, 2, or 3 variables. 
 - Define the term *tautology*
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MDY3NTE1NTNdfQ==
+eyJoaXN0b3J5IjpbLTMyMTgyOTMxN119
 -->
