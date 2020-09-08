@@ -39,7 +39,9 @@ Advanced:
 
 In class activities: 
 
-- Individual students work through exercises on English <-> logic, stating converse and contrapositive;
+- Individual students work through exercises on English <-> logic, stating converse and contrapositive on a Google Form (collects presence) 
+- Then put into groups and have students type out/write out their responses on a Jamboard, discuss in breakout groups 
+- Pull back together and debrief 
 
 
 
@@ -53,5 +55,5 @@ In class activities:
 - Write a truth table for a molecular statement containing 1, 2, or 3 variables. 
 - Define the term *tautology*
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODk5NTQ5NDcsMTg5NDU3MDcwXX0=
+eyJoaXN0b3J5IjpbNzAzNTcyOTQxLDE4OTQ1NzA3MF19
 -->
