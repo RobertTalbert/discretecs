@@ -15,7 +15,14 @@ Module 3 micro-objectives
 - State the converse and contrapositive of a conditional statement. 
 - Rewrite a biconditional statement as a conjunction of two conditionals. 
 - Write a truth table for a basic conjunction, disjunction, conditional, biconditional, and negation. 
+- Write a truth table for a molecular statement containing 1, 2, or 3 variables. 
 - Define the term *tautology*. 
+
+(Module 4: Picks up with logical equivalence, DeMorgans Laws, predicates, quantifiers.) 
+
+3A micro-objectives: 
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjcxNjUyNTAzXX0=
+eyJoaXN0b3J5IjpbNjQ2MDE3NDgyXX0=
 -->
