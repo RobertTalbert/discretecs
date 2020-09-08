@@ -6,7 +6,9 @@ Learning Targets for Module 3:
 
 Module 3 micro-objectives 
 
-- 
+- Differentiate between a statement and a non-statement. 
+- Determine whether a statement is atomic or molecular; if molecular, identify the atomic statements 
+- State the conditions under which a conjunction, disjunction, conditional, biconditional, and negation are true. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU4MjM3MDI5NF19
+eyJoaXN0b3J5IjpbMjQ3ODc3MjQyXX0=
 -->
