@@ -37,7 +37,9 @@ Advanced:
 - Determine whether a conditional statement is true. 
 - State the converse and contrapositive of a conditional statement. 
 
+In class activities: 
 
+- 
 
 
 
@@ -51,5 +53,5 @@ Advanced:
 - Write a truth table for a molecular statement containing 1, 2, or 3 variables. 
 - Define the term *tautology*
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUwNTQ1OTAyM119
+eyJoaXN0b3J5IjpbMTg5NDU3MDcwXX0=
 -->
