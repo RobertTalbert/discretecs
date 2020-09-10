@@ -54,7 +54,7 @@ In class activities:
 - Write a truth table for a basic conjunction, disjunction, conditional, biconditional, and negation. 
 - Define the term *tautology*
 
-
+Advanced
 
 - Write a truth table for a molecular statement containing 1, 2, or 3 variables. 
 - Determine using a truth table whether a statement is a tautology or not. 
@@ -62,6 +62,6 @@ In class activities:
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU3NjA5NzE3Myw3MDM1NzI5NDEsMTg5ND
-U3MDcwXX0=
+eyJoaXN0b3J5IjpbMTczNDM3NTA1OSwxNTc2MDk3MTczLDcwMz
+U3Mjk0MSwxODk0NTcwNzBdfQ==
 -->
