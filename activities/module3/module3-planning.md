@@ -64,7 +64,9 @@ Advanced
 def foo(x,y,z): 
 	if (x > 2) and (y < 5): 
 		print(z)
+	else:
+		print(x+y)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5ODY3NzExNDIsMTczNDM3NTA1OSwxNT
-c2MDk3MTczLDcwMzU3Mjk0MSwxODk0NTcwNzBdfQ==
+eyJoaXN0b3J5IjpbMTA4NTE4NjkxNSwxNzM0Mzc1MDU5LDE1Nz
+YwOTcxNzMsNzAzNTcyOTQxLDE4OTQ1NzA3MF19
 -->
