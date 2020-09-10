@@ -62,9 +62,9 @@ Advanced
 
 ```python
 def foo(x,y,z): 
-	if (x > 2): 
-		return "
+	if (x > 2) and (y < 5): 
+		print(z)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMzk0MTIwNjgsMTczNDM3NTA1OSwxNT
+eyJoaXN0b3J5IjpbLTE5ODY3NzExNDIsMTczNDM3NTA1OSwxNT
 c2MDk3MTczLDcwMzU3Mjk0MSwxODk0NTcwNzBdfQ==
 -->
