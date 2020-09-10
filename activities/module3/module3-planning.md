@@ -60,8 +60,11 @@ Advanced
 - Determine using a truth table whether a statement is a tautology or not. 
 
 
-
+```python
+def foo(x,y,z): 
+	if (x > 2): 
+		return "
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTczNDM3NTA1OSwxNTc2MDk3MTczLDcwMz
-U3Mjk0MSwxODk0NTcwNzBdfQ==
+eyJoaXN0b3J5IjpbLTEzMzk0MTIwNjgsMTczNDM3NTA1OSwxNT
+c2MDk3MTczLDcwMzU3Mjk0MSwxODk0NTcwNzBdfQ==
 -->
