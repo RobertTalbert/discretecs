@@ -62,11 +62,11 @@ Advanced
 
 ```python
 def foo(x,y,z): 
-	if (x > 2) and (y < 5): 
+	if ((x > 2) and (y < 5): 
 		print(z)
 	else:
 		print(x+y)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA4NTE4NjkxNSwxNzM0Mzc1MDU5LDE1Nz
-YwOTcxNzMsNzAzNTcyOTQxLDE4OTQ1NzA3MF19
+eyJoaXN0b3J5IjpbMTM5NzQ4NjUzLDE3MzQzNzUwNTksMTU3Nj
+A5NzE3Myw3MDM1NzI5NDEsMTg5NDU3MDcwXX0=
 -->
