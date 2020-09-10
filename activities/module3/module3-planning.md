@@ -52,14 +52,16 @@ In class activities:
 
 - Rewrite a biconditional statement as a conjunction of two conditionals. 
 - Write a truth table for a basic conjunction, disjunction, conditional, biconditional, and negation. 
-- Write a truth table for a molecular statement containing 1, 2, or 3 variables. 
 - Define the term *tautology*
 
 
-- Write a truth table for a basic conjunction, disjunction, conditional, biconditional, and negation. 
+
 - Write a truth table for a molecular statement containing 1, 2, or 3 variables. 
-- Define the term *tautology*. 
+- Determine using a truth table whether a statement is a tautology or not. 
+
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjc5NTc0MzAsNzAzNTcyOTQxLDE4OTQ1Nz
-A3MF19
+eyJoaXN0b3J5IjpbMTU3NjA5NzE3Myw3MDM1NzI5NDEsMTg5ND
+U3MDcwXX0=
 -->
