@@ -52,8 +52,21 @@ In class activities:
 
 - Rewrite a biconditional statement as a conjunction of two conditionals. 
 - Write a truth table for a basic conjunction, disjunction, conditional, biconditional, and negation. 
-- Write a truth table for a molecular statement containing 1, 2, or 3 variables. 
 - Define the term *tautology*
+
+Advanced
+
+- Write a truth table for a molecular statement containing 1, 2, or 3 variables. 
+- Determine using a truth table whether a statement is a tautology or not. 
+
+
+```python
+def foo(x,y,z): 
+	if ((x > 2) and (y < 5)) or (z > 0): 
+		print(z)
+	else:
+		print(x+y)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzAzNTcyOTQxLDE4OTQ1NzA3MF19
+eyJoaXN0b3J5IjpbMTI4MzQ5MjkxMiwxNzM0Mzc1MDU5LDE1Nz
+YwOTcxNzMsNzAzNTcyOTQxLDE4OTQ1NzA3MF19
 -->
