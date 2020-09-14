@@ -1,4 +1,4 @@
-# MTH 225: Discrete Structures for Computer Science 1 
+﻿# MTH 225: Discrete Structures for Computer Science 1 
 
 ## Daily Preparation, Module 1B: Binary arithmetic 
 
@@ -57,6 +57,9 @@ You are free to search for and use other resources in addition to, or instead of
 
 The exercises for this assignment are on Classkick this time. Go to this link to find and work them out: 
 
+https://app.classkick.com/#/login/RU4OCM
+
+Or go to app.classkick.com and use the code `RU4 OCM`. 
 
 As with all Classkick activities, there's no "submit" button; the work saves automatically as you go. So just complete your work by the deadline; if you need help, use the "raise hand" feature. 
 
@@ -68,6 +71,3 @@ As with all Classkick activities, there's no "submit" button; the work saves aut
 **How this is graded:** Daily Prep assignments are graded on the basis of *completeness and effort*: If your submission has **all parts completed** (no blank entries, even if left blank accidentally) and **a good-faith effort to provide a correct solution or explanation is given** (no responses of "I don't know" or "I didn't understand") and **the work is submitted on time**, it gets a "check". Otherwise it gets an "x". If you are stuck on an item, you're expected to ask questions and give your best effort.  
 
 **Getting help on this assignment:** *You may work with others on this assignment, but you may not copy each others' answers.* Evidence of copying will be treated as academic dishonesty. You may also ask questions on the #dailyprep channel on CampusWire, but you may not ask simply to be given the answers; giving and receiving answers on CampusWire will be treated as academic dishonesty.
-<!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM3MTkyODIwOF19
--->
