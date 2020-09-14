@@ -1,0 +1,150 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>225-aep-1</title>
+  <link rel="stylesheet" href="https://stackedit.io/style.css" />
+</head>
+
+<body class="stackedit">
+  <div class="stackedit__left">
+    <div class="stackedit__toc">
+      
+<ul>
+<li><a href="#aep-1-encrypting-messages-with-binary">AEP 1: Encrypting messages with binary</a>
+<ul>
+<li><a href="#overview">Overview</a></li>
+<li><a href="#technology-background">Technology Background</a></li>
+<li><a href="#aep-description-and-tasks">AEP Description and Tasks</a></li>
+<li><a href="#assignment-expectations-and-grading-criteria">Assignment Expectations and Grading Criteria</a></li>
+<li><a href="#submitting-your-work">Submitting your work</a></li>
+<li><a href="#getting-help">Getting Help</a></li>
+</ul>
+</li>
+</ul>
+
+    </div>
+  </div>
+  <div class="stackedit__right">
+    <div class="stackedit__html">
+      <h1 id="aep-1-encrypting-messages-with-binary">AEP 1: Encrypting messages with binary</h1>
+<h2 id="overview">Overview</h2>
+<p>In this AEP, you will learn about a way of <strong>encrypting</strong> a message — encoding it so that only the sender and the intended recipient can read it — that uses base 2 representations of integers and a special operation on binary integers known as <strong>XOR</strong>.</p>
+<p><strong>Learning Targets associated with this AEP:</strong></p>
+<ul>
+<li><strong>A.1:</strong> I can represent an integer in base 2, 8, 10, and 16.</li>
+</ul>
+<p>Remember, AEPs do not have fixed deadlines; simply work on this item until you are ready to submit it. But remember the <strong>Two Items Per Week Rule.</strong></p>
+<h2 id="technology-background">Technology Background</h2>
+<p>Some of the tasks in this AEP can be done by programming in Python. If you opt to do the programming tasks, you’ll need to have completed the <strong>Python/Jupyter Crash Course</strong> that was assigned during the first week of classes. If you do not opt to do those tasks, there’s no special tech background needed.</p>
+<h2 id="aep-description-and-tasks">AEP Description and Tasks</h2>
+<h3 id="what-this-aep-is-about">What this AEP is about</h3>
+<p>We keep secrets from each other all the time. Those secrets aren’t necessarily incriminating or bad; for example, our credit card numbers, social security numbers, and browsing histories are all information that we’d rather not have leaked into the public eye. To keep that information secret in a digital form, we use <strong>encryption</strong>. Encryption refers to any process that transforms information into a format that is readable only to the owner of that information and the people or machines who the owner decides should see it. When encrypted information is sent, the recipient turns it back into a readable format by <strong>decrypting</strong> it. Both encryption and decryption use a <strong>key</strong>, which is a piece of information (a number, a code phrase, etc.) that, like a physical key, is used to lock and unlock the information being sent.</p>
+<p>This AEP is about a method of encryption and decryption that at one time was very common in the early days of digital communications, and which (unfortunately, as you’ll see) is still used in some places today. It involves transforming human-readable messages into binary integers, then using a binary string as a key to encrypt it, via a special binary operation called <strong>XOR</strong>. In this AEP you’ll learn how to encrypt and decrypt using this <strong>XOR cipher</strong>, and play the role of an adversary by breaking an intercepted message encrypted using the XOR cipher.</p>
+<h3 id="setup-do-this-first">Setup (do this first)</h3>
+<p>Here’s a description of how the XOR cipher works.</p>
+<p>First, the cipher involves the <strong>XOR</strong> operation. This is an arithmetic operation (denoted <code>xor</code>) on single bits (0’s and 1’s) that works as follows:</p>
+<ul>
+<li><code>0 xor 0 = 0</code></li>
+<li><code>1 xor 0 = 1</code></li>
+<li><code>0 xor 1 = 1</code></li>
+<li><code>1 xor 1 = 0</code></li>
+</ul>
+<p>So this is like regular binary addition except for the last line — <strong>we don’t ever carry a 1</strong>. Ordinary addition would say <code>1 + 1 = 10</code> but here, <code>1 xor 1</code> is just <code>0</code>. So <em><code>xor</code>-ing two bits together always leads to just a single bit</em>.</p>
+<p>We can therefore <code>xor</code> <em>strings</em> of bits together, just by <code>xor</code>-ing the individual bits in corresponding positions. For example:</p>
+<ul>
+<li><code>10 xor 11 = 01</code> (<code>xor</code> the two bits in the left position and the two in the right position)</li>
+<li><code>1011 xor 1111 = 0100</code></li>
+<li><code>10110001 xor 01010101 = 11100100</code></li>
+</ul>
+<p>Now we can describe how the cipher works:</p>
+<ol>
+<li>Start with a message, in regular text, to send. This is called the <strong>plaintext</strong>. For this AEP, assume that messages only involve capital English letters — no lower-case letters, punctuation marks, numbers or other symbols.</li>
+<li>Convert each letter in the message into its <strong>ASCII decimal</strong> format. ASCII is a standard means of encoding characters into integers. You can find tables of ASCII values on the web, <a href="http://www.asciitable.com/">for example here</a>; in Python, the function <code>ord</code> returns the ASCII value of a character. For example, <code>ord('B')</code> returns <code>66</code>. The letter <code>A</code> has an ASCII value of 65; <code>B</code> is 66; and so on through <code>Z</code> which is 90. (The Python function <code>chr</code> reverses this: <code>chr(66) = 'B'</code>.)</li>
+<li>Then convert each of those decimal integers into 8-bit binary.</li>
+<li>Now choose a random 8-bit binary integer <span class="katex--inline"><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>k</mi></mrow><annotation encoding="application/x-tex">k</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height: 0.69444em; vertical-align: 0em;"></span><span class="mord mathdefault" style="margin-right: 0.03148em;">k</span></span></span></span></span> to use as your key. Share this with the person or machine you want to receive your message.</li>
+<li>For each 8-bit binary string <span class="katex--inline"><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>b</mi></mrow><annotation encoding="application/x-tex">b</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height: 0.69444em; vertical-align: 0em;"></span><span class="mord mathdefault">b</span></span></span></span></span> that represents a character in the message: Compute <code>b xor k</code>. This produces a new 8-bit binary string. Do this for each “letter” in the message. The result is the encrypted version of the message. Send it off to your recipient.</li>
+<li>When the recipient gets the message, they have the key you sent them (it’s the same key as the one you used to encrypt). The recipient breaks the message into 8-bit chunks and for each chunk <span class="katex--inline"><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>c</mi></mrow><annotation encoding="application/x-tex">c</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height: 0.43056em; vertical-align: 0em;"></span><span class="mord mathdefault">c</span></span></span></span></span>, they compute <code>c xor k</code> where <code>k</code> is the key.</li>
+<li>This process produces the same string of 8-bit binary integers that you started with. Convert them back to decimal, then from ASCII back to letters, and now the recipient can read the message.</li>
+</ol>
+<p><strong>Example:</strong> Alice is sending Bob the message <code>RUN</code> using this cipher.</p>
+<ul>
+<li>Converting the plaintext to ASCII gives: <code>82 85 78</code>.</li>
+<li>Converting those to binary gives: <code>01010010 01010101 01001110</code>.</li>
+<li>Alice and Bob agree to use the 8-bit key <code>11000011</code>. Alice <code>xor</code>s the key with each of the strings above:
+<ul>
+<li><code>01010010 xor 11000011 = 10010001</code></li>
+<li><code>01010101 xor 11000011 = 10010110</code></li>
+<li><code>01001110 xor 11000011 = 10001101</code></li>
+</ul>
+</li>
+<li>Alice sends Bob the message: <code>10010001 10010110 10001101</code>.</li>
+<li>Bob receives this and <code>xor</code>s the message with the key:
+<ul>
+<li><code>10010001 xor 11000011 = 01010010</code></li>
+<li><code>10010110 xor 11000011 = 01010101</code></li>
+<li><code>10001101 xor 11000011 = 01001110</code></li>
+</ul>
+</li>
+<li>This is the same string of binary that Alice had. Bob converts each 8-bit string to decimal – <code>82 85 78</code> – and then back into letters using an ASCII table or function, to get <code>RUN</code>.</li>
+</ul>
+<p>Note, some implementations of this cipher include an extra step: Before sending the encrypted message, convert the 8-bit strings in the ciphertext to ASCII and send those. However this sometimes leads to characters that can’t be visualized.</p>
+<h3 id="tasks-for-this-aep">Tasks for this AEP</h3>
+<ol>
+<li>Make up a short (8 characters or less) message in English and a key, and encrypt it using the XOR cipher. Show each step of your process.</li>
+<li>You’ve received the following message that was encrypted using the XOR cipher and a key of <code>10110111</code>: <code>11111011 11110110 11111100 11110010 11100101 11100100</code>. Decrypt the message.</li>
+<li>In the decryption step of the XOR cipher, Bob <code>xor</code>s the encrypted message with the same key as Alice, and the plaintext message magically appears. Explain why this decryption step will always work. That is: Explain why taking a plaintext message, <code>xor</code>-ing it with the key, then <code>xor</code>-ing <em>that</em> with the key will always return the original message. (Hint: What happens when you <code>xor</code> a bit string with itself?)</li>
+<li>For the fourth task, you have a choice of two options.</li>
+</ol>
+<p><strong>Option 1: For coders.</strong> Write two Python functions: One called <code>xor_encrypt</code> that implements the XOR cipher encryption step, and another called <code>xor_decrypt</code> that implements the XOR cipher decryption step. The <code>xor_encrypt</code> function should take in two strings of characters as input: the first string is the message to encrypt, and the second string is the key (an 8-bit binary integer, formatted as a string); and it should produce the binary string produced by the XOR cipher, formatted also as a string. The <code>xor_decrypt</code> function should also accept two strings as input: the binary form of an encrypted message, and the key, and the output should be a string of characters that gives the original message. Here’s an example of what this would look like:</p>
+<pre class=" language-python"><code class="prism  language-python">	xor_encrypt<span class="token punctuation">(</span><span class="token string">'RUN'</span><span class="token punctuation">,</span> <span class="token string">'11000011'</span><span class="token punctuation">)</span>
+	<span class="token operator">&gt;</span> <span class="token string">'10010001 10010110 10001101'</span>
+
+	xor_decrypt<span class="token punctuation">(</span><span class="token string">'10010001 10010110 10001101'</span><span class="token punctuation">,</span> <span class="token string">'11000011'</span><span class="token punctuation">)</span>
+	<span class="token operator">&gt;</span><span class="token string">'RUN'</span>
+</code></pre>
+<p>(The <code>&gt;</code> is there to show you where the output would go; it’s not part of the actual output itself.) Notice, especially that <strong>everything here is a string</strong> including the binary integers.</p>
+<p>If you choose this option, you will need to not only provide code for your work but also explain (either in comments within the code or as a separate part of your writeup) why your code works and how you went about coming up with it.</p>
+<p><strong>Option 2: For hackers.</strong> You get to play the role of an evil eavesdropper, listening in on someone’s messages, and breaking the code to find out what they’re saying. (If you identify as female, call yourself “Eve”. If you identify as male, call yourself “Everett”.) You are listening in on a conversation that is encrypted using the XOR cipher. Since you’re eavesdropping, you don’t have the key. You just have the message:</p>
+<pre><code>10011110 10000010 10000011 10011001 11101010 
+10001001 10000011 10011010 10000010 10001111 
+10011000 11101010 10000011 10011001 11101010 
+10001111 10001011 10011001 10010011 11101010 
+10011110 10000101 11101010 10001000 10011000 
+10001111 10001011 10000001
+</code></pre>
+<p>However, you suspect that the binary string <code>10001111</code> in the ciphertext was originally the letter <code>E</code> in the plaintext, since <code>E</code> is the most commonly occurring letter in the alphabet and this string <code>10001111</code> happens three times, which is more common than any of the other strings. Using this knowledge, find the key to the cipher, and decrypt the message; and then fully explain what you did.</p>
+<h2 id="assignment-expectations-and-grading-criteria">Assignment Expectations and Grading Criteria</h2>
+<p>AEPs are graded using the “EMRN” rubric found in the syllabus. <strong>A grade of E or M requires all of the following to be met:</strong></p>
+<ul>
+<li>All work needs to be shown <em>and</em> your thought processes clearly expressed in all of the tasks of the assignment. The results also need to be correct.</li>
+<li>All the information needed for an “outsider” to understand your work needs to be self-contained within the work. For example, you need to clearly state the message and the key in Task 1. <strong>The reader should not have to do any work to fill in gaps.</strong></li>
+<li>Task 3 needs to be a general explanation that explains why the decryption step ALWAYS works. Do not just give additional examples illustrating that decryption works.</li>
+<li>If you choose the programming option for Task 4:
+<ul>
+<li>Your Python functions <em>must</em> use the names <code>xor_encrypt</code> and <code>xor_decrypt</code>. Don’t pick different names.</li>
+<li>The two functions must operate precisely as shown above – accepting two string inputs and producing a string output.</li>
+<li><strong>Your work must be thoroughly debugged to remove syntax errors before submitting them. If one or both of your functions throws a syntax error when evaluated in Python, you will receive a grade of N</strong>.</li>
+<li><strong>You may not use outside libraries or object-oriented programming techniques.</strong> Both functions should be written without loading any additional Python libraries and without setting up classes and objects. If you are unsure about this, let me know.</li>
+<li>Your functions will be tested against some test cases that I have prepared separately. Your functions will be expected to produce correct output on most, if not all of the test inputs.</li>
+</ul>
+</li>
+<li>If you choose the “hacker” option for Task 4: You will need to state clearly what the key is and what the original message was, as well as fully and clearly explain your thought processes so that an “outsider” could replicate your steps on a new intercept. The explanation needs also to use the information provided — if you can break the code some other way, then you can provide that as separate information, but your main solution should use the fact that <code>E</code> encrypted to <code>10001111</code>.</li>
+</ul>
+<p>Please note, it is the case with all AEP’s that <strong>your grade is primarily based on your explanations and writing, and only secondarily on the precision and correctness of your computations.</strong> Correct computations with insufficient explanation will need to be revised and may receive an “N” grade.</p>
+<p>A grade of “E” is given if all of the above expectations are met, and the work is of superior quality in terms of the clarity of explanations and work, appearance of the writeup, and precision of the mathematics.</p>
+<h2 id="submitting-your-work">Submitting your work</h2>
+<p><strong>AEP submissions must be typewritten and saved as either a PDF or MS Word file. No part of your submission may involve handwriting; work that is submitted that contains handwriting will be graded N and returned without feedback.</strong> This includes electronic handwritten docments, for example using a stylus and a note-taking app. To type up your work, you can use MS Word or Google Docs (both of which have equation editors for mathematical notation) or any other computer-based math typesetting tool. Just make sure you save your work as a Word document or PDF (no <code>.odt</code>, <code>.rtf</code>, or other file extensions are allowed).</p>
+<p>When you have your work typed up, double-check it for neatness, correctness, and clarity. Then, go to Blackboard, then <strong>Assignments</strong>, then <strong>AEP</strong>, then <strong>AEP ???</strong>. Clicking on the text “AEP ???” will take you to a place on Blackboard where you can upload your work. All grading and revisions of labs are done entirely on Blackboard. <strong>Do not email your work to the professor</strong> – only Blackboard submissions are accepted.</p>
+<h2 id="getting-help">Getting Help</h2>
+<p>Please note that according to the syllabus, for AEP’s <strong>“no interactions at all with another person or with unauthorized sources on the internet is allowed.”</strong> Violations of this rule include <em>any</em> consultation with other students or former students, including Math Center tutors; using work from another student or former student; submitting the problem set to an online help site such as Chegg or Coursehero; or asking for help in an online forum. All such violations will be treated as academic dishonesty and will result in a grade of “N” and being banned from revising the work.</p>
+<p>You <strong>may</strong> ask me (Talbert) for help on this assignment in the form of <strong>specific mathematical or technical questions</strong>. If I cannot answer a question because it would give too much away, I’ll tell you so. <strong>However please note: I will not “look over your work” before you submit it to give you feedback on the overall submission</strong>; the expectations are clearly laid out above, so just follow those directions and submit your best work, and you’ll be allowed to revise it if needed.</p>
+<p><strong>You can ask technology related questions to anyone at any time</strong>. For example if you need help with Desmos, or with figuring out how to type up your work, there are no restrictions on that. I recommend the <code>#tech</code> channel on Campuswire so that you’ll reach a large audience.</p>
+
+    </div>
+  </div>
+</body>
+
+</html>
