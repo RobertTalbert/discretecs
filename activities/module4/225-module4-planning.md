@@ -56,8 +56,11 @@ In class:
 ## Throwaway code/LaTeX
 
 ```python
-
+def foo(a,b):
+	if 
 ```
+
+`
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDA4OTA3MDYwXX0=
+eyJoaXN0b3J5IjpbLTE4NjAxMDQxMCw0MDg5MDcwNjBdfQ==
 -->
