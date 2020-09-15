@@ -50,6 +50,14 @@ In class:
 In class:
 
 - The following predicate is always true, sometimes true, never true? State the negation 
+
+----
+
+## Throwaway code/LaTeX
+
+```python
+
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjYwMTEzODY0XX0=
+eyJoaXN0b3J5IjpbNDA4OTA3MDYwXX0=
 -->
