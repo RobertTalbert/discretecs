@@ -57,10 +57,13 @@ In class:
 
 ```python
 def foo(a,b):
-	if 
+	if (not a) or (not b) or (a) or (not a): 
+		print("There was an "
+	else:
+		return "The program executed successfully"
 ```
 
 `
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NjAxMDQxMCw0MDg5MDcwNjBdfQ==
+eyJoaXN0b3J5IjpbMTEyNTEwNTgzOCw0MDg5MDcwNjBdfQ==
 -->
