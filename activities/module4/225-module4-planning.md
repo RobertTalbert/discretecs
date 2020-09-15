@@ -58,12 +58,12 @@ In class:
 ```python
 def foo(a,b):
 	if (not a) or (not b) or (a) or (not a): 
-		print("There was an "
+		print("There was an error)"
 	else:
-		return "The program executed successfully"
+		print("The program executed successfully")
 ```
 
 `
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEyNTEwNTgzOCw0MDg5MDcwNjBdfQ==
+eyJoaXN0b3J5IjpbLTE5MTc0MTk4MTksNDA4OTA3MDYwXX0=
 -->
