@@ -35,7 +35,6 @@ B:
 In class: 
 - Construct truth tables to decide if statements are LE and build logic circuits to check 
 - Prove laws of symbolic logic with truth tables
-- The following predicate is always true, sometimes true, never true? State the negation 
 - PE: Implication as disjunction, negation of implication, truth of predicates 
 - 
 
@@ -47,6 +46,10 @@ In class:
 - Decide if a quantified statement is true, false, or underdetermined.
 - State the negation of a quantified statement with one quantifier. 
 - State the negation of a quantified statement with two quantifiers. 
+
+In class:
+
+- The following predicate is always true, sometimes true, never true? State the negation 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4OTczMjg3NV19
+eyJoaXN0b3J5IjpbNjYwMTEzODY0XX0=
 -->
