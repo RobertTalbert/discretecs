@@ -56,14 +56,15 @@ In class:
 ## Throwaway code/LaTeX
 
 ```python
-def foo(a,b):
-	if (not a) or (not b) or (a) or (not a): 
-		print("There was an error)"
+def  foo(a,b):
+	if ((not a) or (not b) or (a) or (not a)):
+		print("There was an error")
 	else:
 		print("The program executed successfully")
 ```
 
 `
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MTc0MTk4MTksNDA4OTA3MDYwXX0=
+eyJoaXN0b3J5IjpbLTE2Mjc0NTIzMjQsLTE5MTc0MTk4MTksND
+A4OTA3MDYwXX0=
 -->
