@@ -9,7 +9,10 @@ Learning Targets:
 
 Micro targets: 
 
-
+- Determine whether two statements are logically equivalent. 
+- State DeMorgan's laws and use them to simplify a proposition involving negations, conjunctions, and disjunctions. 
+- State an implication as a disjunction. 
+- State the negation of an implication. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ5MjczOTYzOF19
+eyJoaXN0b3J5IjpbLTI3NjI3MDM2OV19
 -->
