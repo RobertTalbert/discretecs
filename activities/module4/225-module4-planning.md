@@ -9,10 +9,17 @@ Learning Targets:
 
 Micro targets: 
 
+A: 
 - Determine whether two statements are logically equivalent. 
 - State DeMorgan's laws and use them to simplify a proposition involving negations, conjunctions, and disjunctions. 
 - State an implication as a disjunction. 
 - State the negation of an implication. 
+
+B:
+
+- Define the term "predicate" and explain how a predicate is different from a proposition. 
+- Identify the quantifiers $\exists$ and $\forall$. 
+- Decide if a quan
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI3NjI3MDM2OV19
+eyJoaXN0b3J5IjpbLTg4MzMyODUxNF19
 -->
