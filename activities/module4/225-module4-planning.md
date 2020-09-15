@@ -64,7 +64,15 @@ def  foo(a,b):
 ```
 
 if a or (a and b): 
+
+```python
+def  foo(a,b):
+	if a or (a and b):
+		print("You win!")
+	else:
+		print("You lose!")
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNjM5MTYzMjYsLTE5MTc0MTk4MTksND
-A4OTA3MDYwXX0=
+eyJoaXN0b3J5IjpbLTg4Mjg2Nzk0NSwtMTkxNzQxOTgxOSw0MD
+g5MDcwNjBdfQ==
 -->
