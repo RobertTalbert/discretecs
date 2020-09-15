@@ -33,7 +33,10 @@ B:
 - State the negation of an implication. 
 
 In class: 
-- Construct truth tables to decide if 
+- Construct truth tables to decide if statements are LE and build logic circuits to check 
+- Prove laws of symbolic logic with truth tables
+- 
+- 
 
 
 ## Part B
@@ -44,5 +47,5 @@ In class:
 - State the negation of a quantified statement with one quantifier. 
 - State the negation of a quantified statement with two quantifiers. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc1MDc0MDQxM119
+eyJoaXN0b3J5IjpbODc5MzY1OTldfQ==
 -->
