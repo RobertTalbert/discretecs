@@ -63,8 +63,8 @@ def  foo(a,b):
 		print("The program executed successfully")
 ```
 
-`
+if a or (a and b): 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2Mjc0NTIzMjQsLTE5MTc0MTk4MTksND
+eyJoaXN0b3J5IjpbLTEwNjM5MTYzMjYsLTE5MTc0MTk4MTksND
 A4OTA3MDYwXX0=
 -->
