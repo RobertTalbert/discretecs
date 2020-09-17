@@ -1,0 +1,84 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>225-4b-dp</title>
+  <link rel="stylesheet" href="https://stackedit.io/style.css" />
+</head>
+
+<body class="stackedit">
+  <div class="stackedit__left">
+    <div class="stackedit__toc">
+      
+<ul>
+<li><a href="#mth-225-discrete-structures-for-computer-science-1">MTH 225: Discrete Structures for Computer Science 1</a>
+<ul>
+<li><a href="#daily-preparation-module-4b-predicates-and-quantifiers">Daily Preparation, Module 4B: Predicates and quantifiers</a></li>
+<li><a href="#overview">Overview</a></li>
+<li><a href="#what-you-will-learn">What you will learn</a></li>
+<li><a href="#resources-for-learning">Resources for Learning</a></li>
+<li><a href="#exercises">Exercises</a></li>
+<li><a href="#submission-grading-and-getting-help">Submission, grading, and getting help</a></li>
+</ul>
+</li>
+</ul>
+
+    </div>
+  </div>
+  <div class="stackedit__right">
+    <div class="stackedit__html">
+      <h1 id="mth-225-discrete-structures-for-computer-science-1">MTH 225: Discrete Structures for Computer Science 1</h1>
+<h2 id="daily-preparation-module-4b-predicates-and-quantifiers">Daily Preparation, Module 4B: Predicates and quantifiers</h2>
+<p><strong>Due by:</strong> 11:59pm ET, Tuesday, September 29</p>
+<p><strong>Estimated time requirement:</strong> About 45-60 minutes for the whole assignment. <em>If you have worked on this assignment for 30 minutes and you’re not at least halfway done, DON’T work any further</em> — instead, <em>stop and ask for help</em> on the <code>#dailyprep</code> channel on CampusWire. Remember these are graded just on completeness and effort — try to be right and understand everything, but don’t get bogged down if you get stuck. Just give a good effort and move on, and ask a question.</p>
+<h2 id="overview">Overview</h2>
+<p>In Module 4B we introduce the idea of a <strong>predicate</strong>, which is a logical proposition that involves variables. A predicate is essentially a function that returns <code>TRUE</code> or <code>FALSE</code> depending on what the input is. For example the statement "<span class="katex--inline"><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>n</mi></mrow><annotation encoding="application/x-tex">n</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height: 0.43056em; vertical-align: 0em;"></span><span class="mord mathdefault">n</span></span></span></span></span> is even" is a predicate — it’s <code>TRUE</code> if <span class="katex--inline"><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>n</mi><mo>=</mo><mn>2</mn></mrow><annotation encoding="application/x-tex">n=2</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height: 0.43056em; vertical-align: 0em;"></span><span class="mord mathdefault">n</span><span class="mspace" style="margin-right: 0.277778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right: 0.277778em;"></span></span><span class="base"><span class="strut" style="height: 0.64444em; vertical-align: 0em;"></span><span class="mord">2</span></span></span></span></span> for example, but <code>FALSE</code> if <span class="katex--inline"><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>n</mi><mo>=</mo><mn>5</mn></mrow><annotation encoding="application/x-tex">n = 5</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height: 0.43056em; vertical-align: 0em;"></span><span class="mord mathdefault">n</span><span class="mspace" style="margin-right: 0.277778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right: 0.277778em;"></span></span><span class="base"><span class="strut" style="height: 0.64444em; vertical-align: 0em;"></span><span class="mord">5</span></span></span></span></span>. Some predicates return <code>TRUE</code> for only <em>some</em> values of input, while others <em>always</em> return <code>TRUE</code> or maybe <em>never</em> return <code>TRUE</code>. Taking a predicate and <strong>quantifying</strong> when it returns <code>TRUE</code>, turns the predicate into an ordinary proposition, and we’ll learn how to do this in Module 4B as well.</p>
+<h2 id="what-you-will-learn">What you will learn</h2>
+<p><strong>Learning Targets addressed in this module:</strong></p>
+<ul>
+<li><strong>L.2</strong> <strong>(Core)</strong>: I can write the negation, converse, and contrapositive of a conditional statement and use DeMorgan’s Laws to simplify symbolic logical expressions.</li>
+<li><strong>L.3</strong>: I can determine whether a quantified statement is true, false, or underdetermined, and state its negation.</li>
+</ul>
+<p><strong>BEFORE</strong> your class meeting, use the Resources for Learning (below) to learn how to do the following:</p>
+<ul>
+<li>Define the term “predicate” and explain how a predicate is different from a proposition.</li>
+<li>Explain what the symbols <span class="katex--inline"><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi mathvariant="normal">∃</mi></mrow><annotation encoding="application/x-tex">\exists</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height: 0.69444em; vertical-align: 0em;"></span><span class="mord">∃</span></span></span></span></span> and <span class="katex--inline"><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi mathvariant="normal">∀</mi></mrow><annotation encoding="application/x-tex">\forall</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height: 0.69444em; vertical-align: 0em;"></span><span class="mord">∀</span></span></span></span></span> mean.</li>
+<li>Decide if a quantified statement with a single quantifier is true, false, or underdetermined.</li>
+</ul>
+<p><strong>DURING AND AFTER</strong> your class meeting, you will learn how to do the following:</p>
+<ul>
+<li>Decide if a quantified statement with two quantifiers is true, false, or underdetermined.</li>
+<li>State the negation of a quantified statement with one quantifier.</li>
+<li>State the negation of a quantified statement with two quantifiers.</li>
+</ul>
+<h2 id="resources-for-learning">Resources for Learning</h2>
+<p><strong>Text:</strong> Read the following from <em>Discrete Mathematics: An Open Introduction</em>:</p>
+<ul>
+<li>
+<p><a href="http://discrete.openmathbooks.org/dmoi3/sec_intro-statements.html">Section 0.2</a> starting with the section “Predicates and Quantifiers” and continuing to the end.</p>
+</li>
+<li>
+<p><a href="http://discrete.openmathbooks.org/dmoi3/sec_propositional.html">Section 3.1</a>, just the section “Beyond Propositions”.</p>
+</li>
+</ul>
+<p><strong>Video:</strong> These were made by me for MTH 210 (Communicating in Mathematics) but they work for MTH 225 as well. Total running time is 12:32.</p>
+<ul>
+<li>Quantified statements (10:05) <a href="https://youtu.be/6qTzP03waOA">https://youtu.be/6qTzP03waOA</a></li>
+<li>Negating quantified statements (10:00) <a href="https://youtu.be/MC4yHkeahAQ">https://youtu.be/MC4yHkeahAQ</a></li>
+</ul>
+<p>You are free to search for and use other resources in addition to, or instead of the above, as long as you can work the exercises below.</p>
+<h2 id="exercises">Exercises</h2>
+<p>The exercises for this assignment are to be done on a Google Form this time: <a href="https://bit.ly/3hFDxUW">https://bit.ly/3hFDxUW</a></p>
+<p><strong>NOTE:</strong> On this Google Form, some of the items are auto-graded so you can instantly see whether you have a correct response or not. In order to make the form do this, point values have to be assigned to those items that are auto-graded. THE POINT VALUES DO NOT MEAN ANYTHING AND DO NOT FIGURE INTO YOUR GRADE. They are only there to let you know if you are right or wrong. Daily Prep is, as always, graded on completeness and effort only.</p>
+<h2 id="submission-grading-and-getting-help">Submission, grading, and getting help</h2>
+<p><strong>Submitting your work:</strong> Your work is to be done on Classkick using the link/code above. Classkick saves your work as you go, so there’s nothing to submit – just do the work and you’re good.</p>
+<p><strong>How this is graded:</strong> Daily Prep assignments are graded on the basis of <em>completeness and effort</em>: If your submission has <strong>all parts completed</strong> (no blank entries, even if left blank accidentally) and <strong>a good-faith effort to provide a correct solution or explanation is given</strong> (no responses of “I don’t know” or “I didn’t understand”) and <strong>the work is submitted on time</strong>, it gets a “check”. Otherwise it gets an “x”. If you are stuck on an item, you’re expected to ask questions and give your best effort.</p>
+<p><strong>Getting help on this assignment:</strong> <em>You may work with others on this assignment, but you may not copy each others’ answers.</em> Evidence of copying will be treated as academic dishonesty. You may also ask questions on the #dailyprep channel on CampusWire, but you may not ask simply to be given the answers; giving and receiving answers on CampusWire will be treated as academic dishonesty.</p>
+
+    </div>
+  </div>
+</body>
+
+</html>
