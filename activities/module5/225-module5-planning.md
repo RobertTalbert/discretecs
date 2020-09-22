@@ -14,6 +14,10 @@ Sets:
 - Venn diagrams 
 - Python: List comprehensions 
 
+
+Micro objectives
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc4NzkxNzA5Nl19
+eyJoaXN0b3J5IjpbLTcxNTMyMDgzOF19
 -->
