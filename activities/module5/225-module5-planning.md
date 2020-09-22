@@ -44,14 +44,22 @@ Basic:
 - State what it means for two sets to be equal. 
 - Given set $A$ and $B$, determine if $A$ is a subset of $B$ or vice versa, and whether $A = B$. 
  
+Advanced: 
 - Given a set in set-builder notation, determine if an object is an element of the set or not; or rewrite the set in roster notation. 
 - Given a set in roster notation where the elements share a common condition, express the set in set-builder notation. 
-
 - Construct a Python list comprehension to generate a given list. 
 
 
+Video content: 
+- Python list comprehensions
 
 
+### In class:
+
+
+
+
+### Pre class: 
 
 
 
@@ -64,5 +72,5 @@ Basic:
 - Draw accurate Venn diagrams visually representing a combination of two or three sets. 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NzM5NzcxMjhdfQ==
+eyJoaXN0b3J5IjpbNjM4MTQ1ODgwXX0=
 -->
