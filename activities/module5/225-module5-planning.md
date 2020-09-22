@@ -58,7 +58,7 @@ Video content:
 
 - Direct practice with converting sets back and forth between notations
 - Determining subset and equality relations
-- Writing Python list comprehensions  (Get into groups; one person creates a Colab notebook and shares it 
+- Writing Python list comprehensions  (Create one Colab notebook prior to class; given global editing permissions with different sections for each group; groups are responsible for writing list comprehensions) 
 
 
 ### Pre class: 
@@ -78,5 +78,5 @@ Video content:
 - Draw accurate Venn diagrams visually representing a combination of two or three sets. 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzY0MTU5MDY0LDEwMzE3MDQxMjZdfQ==
+eyJoaXN0b3J5IjpbMTMzODcyOTAzMCwxMDMxNzA0MTI2XX0=
 -->
