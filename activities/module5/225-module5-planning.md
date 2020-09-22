@@ -20,7 +20,8 @@ Learning Targets
 
 Micro objectives
 
-- 
+- Given a set in roster notation, determine if an object is an element of the set or not, and express this using the "element of" symbol. 
+- Given a set in roster notation where the elements
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI5MTE0Mzc2OV19
+eyJoaXN0b3J5IjpbLTEzOTAwOTY3NDVdfQ==
 -->
