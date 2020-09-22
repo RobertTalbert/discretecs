@@ -26,7 +26,12 @@ Micro objectives
 - Construct a Python list comprehension to generate a given list. 
 - Identify the "special sets" by their notation: the empty set, the natural numbers, the integers, the rational numbers, and the real numbers. 
 - Given a finite set $A$, list all the elements of $P(A)$ (the power set of $A$). 
-- Given set $A$ and $B$, determine if $A$ is a subset of $B$ or vice versa, and whether 
+- Given set $A$ and $B$, determine if $A$ is a subset of $B$ or vice versa, and whether $A = B$. 
+- State what it means for two sets to be equal. 
+- Given a set, state its cardinality. 
+- Given two sets, find their union, intersection, and set difference as well as the complement of each. 
+- Given two sets, find their Cartesian product. 
+- Draw accurate Venn diagrams visually representing a combination of 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY2MTc1MjM5Ml19
+eyJoaXN0b3J5IjpbMzA5MDg0NjQzXX0=
 -->
