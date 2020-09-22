@@ -35,15 +35,20 @@ Micro objectives
 
 ## Part A 
 
-Focus is on SF.1. (Notation for sets, relationships between sets, doing "Sets" in Pyt
+Focus is on SF.1. (Notation for sets, relationships between sets, doing "Sets" in Python)
 
+- Identify the "special sets" by their notation: the empty set, the natural numbers, the integers, the rational numbers, and the real numbers. 
 - Given a set in roster notation, determine if an object is an element of the set or not, and express this using the "element of" symbol. 
 - Given a set in roster notation where the elements share a common condition, express the set in set-builder notation. 
 - Given a set in set-builder notation, determine if an object is an element of the set or not; or rewrite the set in roster notation. 
 - Construct a Python list comprehension to generate a given list. 
-- Identify the "special sets" by their notation: the empty set, the natural numbers, the integers, the rational numbers, and the real numbers. 
 - Given set $A$ and $B$, determine if $A$ is a subset of $B$ or vice versa, and whether $A = B$. 
 - State what it means for two sets to be equal. 
+
+
+
+
+
 
 ## Part B
 
@@ -54,5 +59,5 @@ Focus is on SF.1. (Notation for sets, relationships between sets, doing "Sets" i
 - Draw accurate Venn diagrams visually representing a combination of two or three sets. 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI2NzQ1NTY3MF19
+eyJoaXN0b3J5IjpbLTEzNzI2Nzk1OThdfQ==
 -->
