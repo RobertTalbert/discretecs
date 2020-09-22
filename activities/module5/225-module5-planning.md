@@ -66,6 +66,7 @@ Video content:
 - ID'ing special sets 
 - Some practice with list comprehensions
 - Roster vs. set builder notation, determining element inclusion
+- Some practice with equality and subset relations
 
 
 ## Part B
@@ -77,5 +78,5 @@ Video content:
 - Draw accurate Venn diagrams visually representing a combination of two or three sets. 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjYzNjg0ODUwXX0=
+eyJoaXN0b3J5IjpbMTAzMTcwNDEyNl19
 -->
