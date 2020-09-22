@@ -21,7 +21,10 @@ Learning Targets
 Micro objectives
 
 - Given a set in roster notation, determine if an object is an element of the set or not, and express this using the "element of" symbol. 
-- Given a set in roster notation where the elements
+- Given a set in roster notation where the elements share a common condition, express the set in set-builder notation. 
+- Given a set in set-builder notation, determine if an object is an element of the set or not; or rewrite the set in roster notation. 
+- Construct a Python list comprehension to generate a given list. 
+- Identify the "special sets" yu
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzOTAwOTY3NDVdfQ==
+eyJoaXN0b3J5IjpbNzA2NjcyMTE0XX0=
 -->
