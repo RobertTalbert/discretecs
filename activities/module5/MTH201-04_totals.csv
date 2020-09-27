@@ -1,0 +1,35 @@
+NO OF FIELDS ,         ,           ,           ,        ,           ,         ,         ,         ,         ,        ,       
+SET NAME     ,         ,           ,           ,        ,           ,Module_1 ,Module_2 ,Module_3 ,Module_4 ,summary ,%score 
+PROB NUMBER  ,         ,           ,           ,        ,           ,         ,         ,         ,         ,        ,       
+CLOSE DATE   ,         ,           ,           ,        ,           ,         ,         ,         ,         ,        ,       
+CLOSE TIME   ,         ,           ,           ,        ,           ,         ,         ,         ,         ,        ,       
+PROB VALUE   ,         ,           ,           ,        ,           ,16       ,16       ,16       ,16       ,64      ,100    
+STUDENT ID   ,login ID ,LAST NAME  ,FIRST NAME ,SECTION ,RECITATION ,total    ,total    ,total    ,total    ,        ,       
+G02182709    ,andremax ,Andrews    ,Max        ,04      ,           ,16       ,15.5     ,0        ,0        ,31.5    ,49.22  
+G01852810    ,barrellb ,Barrells   ,Benjamin   ,04      ,           ,14.33    ,12.54    ,0        ,0        ,26.87   ,41.98  
+G01639000    ,champoul ,Champoux   ,Lucas      ,04      ,           ,15       ,16       ,0        ,0        ,31      ,48.44  
+G01639914    ,cussansk ,Cussans    ,Katie      ,04      ,           ,16       ,16       ,0        ,0        ,32      ,50     
+G02023464    ,dimp     ,Dim        ,Par        ,04      ,           ,16       ,14.58    ,0        ,0        ,30.58   ,47.78  
+G02151902    ,garretho ,Garrett    ,Thomas     ,04      ,           ,14.25    ,14.54    ,0        ,0        ,28.79   ,44.98  
+G01911236    ,kapturj  ,Kaptur     ,Jillian    ,04      ,           ,0        ,1        ,0        ,0        ,1       ,1.56   
+G02280638    ,loucksn  ,Loucks     ,Nathaniel  ,04      ,           ,16       ,16       ,0        ,0        ,32      ,50     
+G01944658    ,marshmad ,Marshall   ,Maddison   ,04      ,           ,16       ,16       ,0        ,0        ,32      ,50     
+G02160575    ,mccarthr ,McCarthy   ,Ryan       ,04      ,           ,16       ,14.21    ,1        ,0        ,31.21   ,48.77  
+G01724124    ,mcdonabi ,McDonald   ,Abigail    ,04      ,           ,16       ,15.5     ,0        ,0        ,31.5    ,49.22  
+G02042833    ,mcintama ,McIntosh   ,Amauri     ,04      ,           ,9.47     ,12.04    ,5.13     ,0        ,26.64   ,41.62  
+G02152223    ,moggz    ,Mogg       ,Zachary    ,04      ,           ,16       ,16       ,0        ,0        ,32      ,50     
+G02185738    ,nedohinh ,Nedohin    ,Halle      ,04      ,           ,16       ,15       ,0        ,0        ,31      ,48.44  
+G02180555    ,pilgerc  ,Pilger     ,Carter     ,04      ,           ,16       ,16       ,0        ,0        ,32      ,50     
+G01826720    ,pittenai ,Pittenger  ,Aidan      ,04      ,           ,12.67    ,15.21    ,0        ,0        ,27.88   ,43.56  
+G02066007    ,raymers  ,Raymer     ,Samuel     ,04      ,           ,16       ,16       ,0        ,0        ,32      ,50     
+G01829252    ,ryszawan ,Ryszawa    ,Nicholas   ,04      ,           ,16       ,16       ,0        ,0        ,32      ,50     
+G01920228    ,sancmarg ,Sanchez    ,Margarito  ,04      ,           ,0        ,16       ,0        ,0        ,16      ,25     
+G02197466    ,sanchsar ,Sanchez    ,Sarah      ,04      ,           ,9.73     ,16       ,0        ,0        ,25.73   ,40.2   
+G01535001    ,sheareca ,Shearer    ,Cameron    ,04      ,           ,16       ,16       ,0        ,0        ,32      ,50     
+G01057667    ,talbertr ,Talbert    ,Robert     ,04      ,           ,0        ,1        ,0        ,0        ,1       ,1.56   
+G01988469    ,thompsaj ,Thompson   ,Ashley     ,04      ,           ,16       ,16       ,0        ,0        ,32      ,50     
+G02283481    ,tuckeali ,Tucker     ,Aliese     ,04      ,           ,0        ,1        ,0        ,0        ,1       ,1.56   
+G02049581    ,umlorja  ,Umlor      ,Jacob      ,04      ,           ,16       ,16       ,8        ,0        ,40      ,62.5   
+G01923983    ,vandyeli ,VanDyke    ,Eli        ,04      ,           ,16       ,16       ,16       ,0        ,48      ,75     
+G02163470    ,vergonh  ,Vergon     ,Hannah     ,04      ,           ,16       ,16       ,0        ,0        ,32      ,50     
+G01788136    ,villarst ,Villarreal ,Steven     ,04      ,           ,16       ,15.25    ,0        ,0        ,31.25   ,48.83  
