@@ -1,0 +1,144 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>225-aep-4</title>
+  <link rel="stylesheet" href="https://stackedit.io/style.css" />
+</head>
+
+<body class="stackedit">
+  <div class="stackedit__left">
+    <div class="stackedit__toc">
+      
+<ul>
+<li><a href="#aep-4-working-with-sets-in-python">AEP 4: Working with sets in Python</a>
+<ul>
+<li><a href="#overview">Overview</a></li>
+<li><a href="#technology-background">Technology Background</a></li>
+<li><a href="#aep-description-and-tasks">AEP Description and Tasks</a></li>
+<li><a href="#assignment-expectations-and-grading-criteria">Assignment Expectations and Grading Criteria</a></li>
+<li><a href="#submitting-your-work">Submitting your work</a></li>
+<li><a href="#getting-help">Getting Help</a></li>
+</ul>
+</li>
+</ul>
+
+    </div>
+  </div>
+  <div class="stackedit__right">
+    <div class="stackedit__html">
+      <h1 id="aep-4-working-with-sets-in-python">AEP 4: Working with sets in Python</h1>
+<h2 id="overview">Overview</h2>
+<p>In this AEP, you will write Python functions that will compute the union, intersection, and symmetric difference of two sets.</p>
+<p><strong>Learning Targets associated with this AEP:</strong></p>
+<ul>
+<li>SF.2: I can perform operations on sets (intersection, union, complement, Cartesian product) and determine the cardinality of a set.</li>
+</ul>
+<p>Remember, AEPs do not have fixed deadlines; simply work on this item until you are ready to submit it. But remember the <strong>Two Items Per Week Rule.</strong></p>
+<h2 id="technology-background">Technology Background</h2>
+<p>This is a programming-focused AEP, so you will need all the skills you learned in the Python/Jupyter crash course.</p>
+<h2 id="aep-description-and-tasks">AEP Description and Tasks</h2>
+<h3 id="what-this-aep-is-about">What this AEP is about</h3>
+<p>Sets are not naturally-occurring data structures in Python, and so we need to have a means of representing them if we are to work with them. The most natural way to represent a set is as a list of elements. For example the mathematical set <span class="katex--inline"><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mo stretchy="false">{</mo><mn>1</mn><mo separator="true">,</mo><mn>2</mn><mo separator="true">,</mo><mn>3</mn><mo separator="true">,</mo><mn>4</mn><mo stretchy="false">}</mo></mrow><annotation encoding="application/x-tex">\{1,2,3,4\}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height: 1em; vertical-align: -0.25em;"></span><span class="mopen">{</span><span class="mord">1</span><span class="mpunct">,</span><span class="mspace" style="margin-right: 0.166667em;"></span><span class="mord">2</span><span class="mpunct">,</span><span class="mspace" style="margin-right: 0.166667em;"></span><span class="mord">3</span><span class="mpunct">,</span><span class="mspace" style="margin-right: 0.166667em;"></span><span class="mord">4</span><span class="mclose">}</span></span></span></span></span> might be represented in Python as the list <code>[1,2,3,4]</code>. However, there are two major differences between mathematical sets and Python lists:</p>
+<ol>
+<li><em>Python lists can have duplicate elements, while mathematical sets can’t.</em> For example the list <code>[10, 10, 20]</code> is a valid Python list, but <span class="katex--inline"><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mo stretchy="false">{</mo><mn>10</mn><mo separator="true">,</mo><mn>10</mn><mo separator="true">,</mo><mn>20</mn><mo stretchy="false">}</mo></mrow><annotation encoding="application/x-tex">\{10, 10, 20\}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height: 1em; vertical-align: -0.25em;"></span><span class="mopen">{</span><span class="mord">1</span><span class="mord">0</span><span class="mpunct">,</span><span class="mspace" style="margin-right: 0.166667em;"></span><span class="mord">1</span><span class="mord">0</span><span class="mpunct">,</span><span class="mspace" style="margin-right: 0.166667em;"></span><span class="mord">2</span><span class="mord">0</span><span class="mclose">}</span></span></span></span></span> is not a valid set. Or put differently, <span class="katex--inline"><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mo stretchy="false">{</mo><mn>10</mn><mo separator="true">,</mo><mn>10</mn><mo separator="true">,</mo><mn>20</mn><mo stretchy="false">}</mo></mrow><annotation encoding="application/x-tex">\{10,10,20\}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height: 1em; vertical-align: -0.25em;"></span><span class="mopen">{</span><span class="mord">1</span><span class="mord">0</span><span class="mpunct">,</span><span class="mspace" style="margin-right: 0.166667em;"></span><span class="mord">1</span><span class="mord">0</span><span class="mpunct">,</span><span class="mspace" style="margin-right: 0.166667em;"></span><span class="mord">2</span><span class="mord">0</span><span class="mclose">}</span></span></span></span></span> and <span class="katex--inline"><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mo stretchy="false">{</mo><mn>10</mn><mo separator="true">,</mo><mn>20</mn><mo stretchy="false">}</mo></mrow><annotation encoding="application/x-tex">\{10, 20\}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height: 1em; vertical-align: -0.25em;"></span><span class="mopen">{</span><span class="mord">1</span><span class="mord">0</span><span class="mpunct">,</span><span class="mspace" style="margin-right: 0.166667em;"></span><span class="mord">2</span><span class="mord">0</span><span class="mclose">}</span></span></span></span></span> are the same set, but <code>[10,10,20]</code> and <code>[10,20]</code> are not the same list in Python.</li>
+<li><em>Python lists are ordered, while mathematical sets aren’t</em>. For example, the two lists <code>[3,4,5]</code> and <code>[4,3,5]</code> are considered different, but the two sets <span class="katex--inline"><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mo stretchy="false">{</mo><mn>3</mn><mo separator="true">,</mo><mn>4</mn><mo separator="true">,</mo><mn>5</mn><mo stretchy="false">}</mo></mrow><annotation encoding="application/x-tex">\{3,4,5\}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height: 1em; vertical-align: -0.25em;"></span><span class="mopen">{</span><span class="mord">3</span><span class="mpunct">,</span><span class="mspace" style="margin-right: 0.166667em;"></span><span class="mord">4</span><span class="mpunct">,</span><span class="mspace" style="margin-right: 0.166667em;"></span><span class="mord">5</span><span class="mclose">}</span></span></span></span></span> and <span class="katex--inline"><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mo stretchy="false">{</mo><mn>4</mn><mo separator="true">,</mo><mn>3</mn><mo separator="true">,</mo><mn>5</mn><mo stretchy="false">}</mo></mrow><annotation encoding="application/x-tex">\{4,3,5\}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height: 1em; vertical-align: -0.25em;"></span><span class="mopen">{</span><span class="mord">4</span><span class="mpunct">,</span><span class="mspace" style="margin-right: 0.166667em;"></span><span class="mord">3</span><span class="mpunct">,</span><span class="mspace" style="margin-right: 0.166667em;"></span><span class="mord">5</span><span class="mclose">}</span></span></span></span></span> are equal.</li>
+</ol>
+<p>It is possible to invoke some additional Python structure to treat lists like sets, using the command <code>set</code>. By running a list through this function, the list is changed into a different data type (namely type <code>set</code>) that can then be manipulated like a set. You can read about this <a href="https://realpython.com/python-sets/">here</a>; but in this AEP, you’re going to write some code that will let us manipulate lists like sets, without changing lists to the <code>set</code> data type.</p>
+<h3 id="setup-do-this-first">Setup (do this first)</h3>
+<p>Before doing the tasks below, you’ll need to review what you learned in the Python/Jupyter crash course, especially about lists. You can go back into CodeAcademy and review the lessons; or there are millions of websites and videos that also review the basics of Python lists.</p>
+<p>Also, in this AEP you’re going to learn a new set operation called the <strong>symmetric difference</strong>. The symmetric difference of the sets <span class="katex--inline"><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>A</mi></mrow><annotation encoding="application/x-tex">A</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height: 0.68333em; vertical-align: 0em;"></span><span class="mord mathdefault">A</span></span></span></span></span> and <span class="katex--inline"><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>B</mi></mrow><annotation encoding="application/x-tex">B</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height: 0.68333em; vertical-align: 0em;"></span><span class="mord mathdefault" style="margin-right: 0.05017em;">B</span></span></span></span></span> is the set of all elements that are in <span class="katex--inline"><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>A</mi></mrow><annotation encoding="application/x-tex">A</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height: 0.68333em; vertical-align: 0em;"></span><span class="mord mathdefault">A</span></span></span></span></span> and in <span class="katex--inline"><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>B</mi></mrow><annotation encoding="application/x-tex">B</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height: 0.68333em; vertical-align: 0em;"></span><span class="mord mathdefault" style="margin-right: 0.05017em;">B</span></span></span></span></span>, but not in both. The Venn diagram looks like this:</p>
+<p><img src="https://cdn.programiz.com/sites/tutorial2program/files/set-symmetric-difference_1.png" alt="enter image description here"></p>
+<h3 id="tasks-for-this-aep">Tasks for this AEP</h3>
+<p>Write the following <em>four</em> Python functions:</p>
+<ul>
+<li>
+<p><code>to_set</code>: This function accepts a list and returns a modified version of that list that still is of the <code>list</code> data type, but which has no duplicate elements. Examples:</p>
+<pre><code>  to_set([1,2,3,1,3,4])
+  &gt; [1,2,3,4]
+
+  to_set(['John', 'Paul', 'John', 'George', 'Ringo']) # List could be any data type
+  &gt; ['John', 'Paul', 'George', 'Ringo']
+
+  to_set([3,4]) # If a list already is a valid set, there are no changes. 
+  &gt; [3,4] 
+  		
+  to_set([])  # The empty set is represented as the empty list. 
+  &gt; [] 
+</code></pre>
+</li>
+</ul>
+<p>Please note the “&gt;” character above merely represents a prompt, where the output happens. It is not part of the output itself.</p>
+<ul>
+<li>
+<p><code>union</code>: This function accepts two sets (represented as lists) and returns their set union. Example:</p>
+<pre><code>  union([1,3,4], [2,3,1])
+  &gt; [1,2,3,4]
+</code></pre>
+</li>
+</ul>
+<p>For this AEP, we will just ignore any difference in ordering. For example, if your code produced the set <code>[3,4,2,1]</code> in the above example, that would be OK.</p>
+<ul>
+<li>
+<p><code>intersect</code>: This function accepts two sets (represented as lists) and returns their set intersection. Example:</p>
+<pre><code>  intersect([1,3,4], [2,3,1])
+  &gt; [1,3]
+
+  intersect([10, 20], ['a', 'b'])
+  &gt; [] 
+</code></pre>
+</li>
+<li>
+<p><code>symmetric_diff</code>: This function takes two sets (again, represented as lists) and produces the symmetric difference. Example:</p>
+<pre><code>  symmetric_diff([1,2,3], [2,3,4]) 
+  &gt; [1,4]
+</code></pre>
+</li>
+</ul>
+<h2 id="assignment-expectations-and-grading-criteria">Assignment Expectations and Grading Criteria</h2>
+<p><strong>Assumptions you may make:</strong> Although the ordering matters in a Python list, for the purposes of this assignment, you may ignore the ordering. For example, <code>[1,2,3]</code> is considered unequal to <code>[2,3,1]</code> as lists, but you may consider them to be equal as sets.</p>
+<p><strong>Restrictions you need to follow:</strong></p>
+<ul>
+<li>You are not allowed to use any external libraries on this problem. All your code should be “from scratch”.</li>
+<li>You are not allowed to use the <code>set</code> function that converts lists to sets. All of your objects in this assignment should be lists and remain lists.</li>
+</ul>
+<p>This AEP is unusual (for now) because there are no other problems to solve, just code to write. But it’s still the case that <strong>your grade is primarily based on your explanations and writing, and only secondarily on the precision and correctness of your computations.</strong> What this means here is that <strong>along with your code, you need to include verbal explanations of what your code is doing and why it works, as if you were explaining it in words to a human being</strong>.</p>
+<p>In order to have both executable code and verbal explanations in the same place, <strong>your work must be submitted as a Jupyter notebook</strong> that combines your code with the verbal explanations of what your code does and why it works. Put your code in code cells, and your verbal explanations in text cells. How you organize it is up to you; you can put verbal explanations before each function, or you can have one large verbal explanation before or after all four of the functions. However, please <em>do not put all your verbal explanations in with the code as comments</em>; this is OK programming practice but it’s hard to read.</p>
+<p>Here’s an example of the kind of thing you should be creating: <a href="https://colab.research.google.com/drive/1EwzR9kRDQFpQCyImasA-wx6F9eTYN1WH?usp=sharing">https://colab.research.google.com/drive/1EwzR9kRDQFpQCyImasA-wx6F9eTYN1WH?usp=sharing</a>  Notice how the text is in a text cell, and how it explains what is happening in the code in (relatively) plain English. (Comments are turned on in this notebook, so if you have a question about something you see, leave a comment and I’ll address it.)</p>
+<p>This assignment will be graded by running your code using a text file full of test cases I have prepared, and seeing if your code produces the right results; and by evaluating the quality of your verbal explanations.</p>
+<ul>
+<li>A grade of <strong>E</strong> is given if 100% of the test cases produce the correct results and if the verbal explanations provided are clear, correct, and well-written.</li>
+<li>A grade of <strong>M</strong> is given if 80% of the test cases produce the correct results verbal explanations provided are correct and reasonably well-written.</li>
+<li>A grade of <strong>R</strong> is given if fewer than 80% of the test cases produce the correct results; or if the verbal explanations provided are unclear, incorrect, or poorly written (either because of grammar/clarity issues or because they don’t actually explain your code).</li>
+<li>A grade of <strong>N</strong> is given under any of the following conditions:
+<ul>
+<li>Your functions are named something other than the names stated in the problem. Because the grading is automated, they <strong>must</strong> be named <code>to_set</code>, <code>union</code>,  <code>intersect</code> (not “intersectION”), and <code>symmetric_diff</code>. <em>It’s your responsibility to double check that you have spelled the names of the functions correctly.</em></li>
+<li>There is a syntax error in your code; i.e. when the code is executed with control-enter in the Jupyter notebook, an error is produced. <em>It’s your responsibility to turn in work that is free of syntax errors</em>.</li>
+<li>The verbal explanations are missing, incomplete, irrelevant, or contain significant issues with clarity or correctness.</li>
+<li>There are significant omissions in the work, for example missing verbal explanations or one or more of the functions is not submitted.</li>
+<li>There are significant issues with the formatting or organization of your notebook.</li>
+</ul>
+</li>
+</ul>
+<h2 id="submitting-your-work">Submitting your work</h2>
+<p>For this AEP, as mentioned above, your work needs to be packaged in a Jupyter notebook. Work not given as Jupyter notebooks will not be graded.</p>
+<p>The <strong>preferred</strong> way to do this is as follows:</p>
+<ol>
+<li>Write up your Jupyter notebook in <a href="https://colab.research.google.com/">Colab</a>.</li>
+<li>Change the sharing settings on your notebook so that <strong>anyone with the link can edit</strong> and then copy the link. <a href="https://drive.google.com/file/d/1NiGdyw6strJBjIYX2-CDnO-iz8EW4l_E/view">Here is a short video on how to do this</a>.</li>
+<li>In the AEP assignment, paste the link as “Submission text”. There will be no file to upload this time; all I need is the link. I’ll then open the link and check your code against my test cases.</li>
+</ol>
+<p><strong>Note: This process is different than sharing the notebook with just me, as many of you did with the Python/Jupyter crash course.</strong> It turns out that sharing the notebook with just me, the email to me that contains the link ended up in my spam folder about 90% of the time. So, <strong>please do it this way or I will probably not see your submission.</strong></p>
+<p>If you cannot carry out these steps or have some other process you prefer, please let me know first.</p>
+<h2 id="getting-help">Getting Help</h2>
+<p>Please note that according to the syllabus, for AEP’s <strong>“no interactions at all with another person or with unauthorized sources on the internet is allowed.”</strong> Violations of this rule include <em>any</em> consultation with other students or former students, including Math Center tutors; using work from another student or former student; submitting the problem set to an online help site such as Chegg or Coursehero; or asking for help in an online forum. All such violations will be treated as academic dishonesty and will result in a grade of “N” and being banned from revising the work.</p>
+<p>You <strong>may</strong> ask me (Talbert) for help on this assignment in the form of <strong>specific mathematical or technical questions</strong>. If I cannot answer a question because it would give too much away, I’ll tell you so. <strong>However please note: I will not “look over your work” before you submit it to give you feedback on the overall submission</strong>; the expectations are clearly laid out above, so just follow those directions and submit your best work, and you’ll be allowed to revise it if needed.</p>
+<p><strong>You can ask technology related questions to anyone at any time</strong>. For example if you need help with Desmos, or with figuring out how to type up your work, there are no restrictions on that. I recommend the <code>#tech</code> channel on Campuswire so that you’ll reach a large audience.</p>
+
+    </div>
+  </div>
+</body>
+
+</html>
