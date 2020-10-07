@@ -25,9 +25,12 @@ Module 7B:
 
 - Define the binomial coefficient ${n} \choose {k}$ in terms of: 
 	- Counting $n$-bit strings of weight $k$
-	- Counting $k$-element subsets 
+	- Counting $k$-element subsets of a set with cardinality $n$
+	- Counting the number of lattice paths of length $n$ having $k$ steps to the right
+	- Finding the coefficient of $x^ky^{n-k}$ in $(x+y)^n$
+	- The number of ways to select $k$ objects from a collec
 - Explain how the binomial coefficien
 - t is used to count bit strings, subsets, lattice paths, 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk0ODg1MDU0MV19
+eyJoaXN0b3J5IjpbLTE1ODMzMjcyMDZdfQ==
 -->
