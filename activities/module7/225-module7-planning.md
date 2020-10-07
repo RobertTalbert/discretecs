@@ -28,9 +28,10 @@ Module 7B:
 	- Counting $k$-element subsets of a set with cardinality $n$
 	- Counting the number of lattice paths of length $n$ having $k$ steps to the right
 	- Finding the coefficient of $x^ky^{n-k}$ in $(x+y)^n$
-	- The number of ways to select $k$ objects from a collec
-- Explain how the binomial coefficien
-- t is used to count bit strings, subsets, lattice paths, 
+	- The number of ways to select $k$ objects from a collection of $n$ objects
+- Explain why all of the above counting situations are counted the same way. 
+- State the recurrence relation for ${n} \choose {k}$.
+- Write out Pascal's Triangle to $n$ levels. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1ODMzMjcyMDZdfQ==
+eyJoaXN0b3J5IjpbNjk2OTU1NzA0XX0=
 -->
