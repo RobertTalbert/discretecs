@@ -23,7 +23,11 @@ Module 7A:
 
 Module 7B: 
 
-- Stte
+- Define the binomial coefficient ${n} \choose {k}$ in terms of: 
+	- Counting $n$-bit strings of weight $k$
+	- Counting $k$-element subsets 
+- Explain how the binomial coefficien
+- t is used to count bit strings, subsets, lattice paths, 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEzMzg0MDkyMF19
+eyJoaXN0b3J5IjpbLTk0ODg1MDU0MV19
 -->
