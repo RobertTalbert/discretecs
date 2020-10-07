@@ -32,6 +32,18 @@ Module 7B:
 - Explain why all of the above counting situations are counted the same way. 
 - State the recurrence relation for ${n} \choose {k}$.
 - Write out Pascal's Triangle to $n$ levels. 
+
+
+## 7A
+
++ Use the Additive Principle to count the number of ways a pair of disjoint events can occur. 
++ Use the Multiplicative Principle to count the number of ways a linked pair of events can occur. 
++ State the Additive and Multiplicative Principles. 
++ Given an arrangement to count, determine whether the Additive Principle, the Multiplicative Principle, or neither applies. 
++ State the Additive and Multiplicative Principles in terms of set operations. 
++ Find the cardinality of a union of two sets. 
++ Find the cardinality of a union of three sets. 
++ Explain the Principle of Inclusion/Exclusion (PIE). 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjk2OTU1NzA0XX0=
+eyJoaXN0b3J5IjpbLTEzNzk1Mzk4NDddfQ==
 -->
