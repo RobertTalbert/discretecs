@@ -36,14 +36,16 @@ Module 7B:
 
 ## 7A
 
-+ Use the Additive Principle to count the number of ways a pair of disjoint events can occur. 
-+ Use the Multiplicative Principle to count the number of ways a linked pair of events can occur. 
 + State the Additive and Multiplicative Principles. 
 + Given an arrangement to count, determine whether the Additive Principle, the Multiplicative Principle, or neither applies. 
-+ State the Additive and Multiplicative Principles in terms of set operations. 
++ State the Additive and Multiplicative Principles in terms of set operations.
 + Find the cardinality of a union of two sets. 
+
+
++ Use the Additive Principle to count the number of ways a pair of disjoint events can occur. 
++ Use the Multiplicative Principle to count the number of ways a linked pair of events can occur. 
 + Find the cardinality of a union of three sets. 
 + Explain the Principle of Inclusion/Exclusion (PIE). 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNzk1Mzk4NDddfQ==
+eyJoaXN0b3J5IjpbLTY3ODc1NjQ2OV19
 -->
