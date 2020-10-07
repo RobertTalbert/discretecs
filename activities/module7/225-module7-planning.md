@@ -10,12 +10,20 @@ First unit on counting. Learning Targets:
 
 Micro-objectives: 
 
+Module 7A: 
+
 + Use the Additive Principle to count the number of ways a pair of disjoint events can occur. 
 + Use the Multiplicative Principle to count the number of ways a linked pair of events can occur. 
 + State the Additive and Multiplicative Principles. 
 + Given an arrangement to count, determine whether the Additive Principle, the Multiplicative Principle, or neither applies. 
 + State the Additive and Multiplicative Principles in terms of set operations. 
-+ Find t
++ Find the cardinality of a union of two sets. 
++ Find the cardinality of a union of three sets. 
++ Explain the Principle of Inclusion/Exclusion (PIE). 
+
+Module 7B: 
+
+- Stte
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcyNDg3MjcxNF19
+eyJoaXN0b3J5IjpbMjEzMzg0MDkyMF19
 -->
