@@ -186,13 +186,23 @@ Your grade for the semester is not based on points because most items in the cou
 
 To determine your course **base grade** (the letter A/B/C/D/F without plus/minus modifications), use the following table. To earn a grade, you must complete **all** the requirements in the column for that grade; your base grade is the **highest grade level for which all the requirements have been met or exceeded**. 
 
-| Category: | D | C | B | A | 
+<!--- | Category: | D | C | B | A | 
 |:---: |:---: |:---: |:---: |:---: |
 | Core LTs (10) | Proficient 5 | Master 5, Proficient 5 | Master 7, Proficient 3 | Master 10 |  
 | Supplemental LTs (12)  | Proficient 6 | Master 4, Proficient 4 | Master 4, Proficient 6 | Master 6, Proficient 4
 | AEPs (8)  | 2 M+ | 5 M+ | 2 E, 4 M+ | 4 E, 2 M+ | 
 | Weekly Practice (10) | 3 M | 5 M | 7 M | 9 M | 
 | DP + CA (48) | 24 | 34 | 39 | 44 | 
+| EC | 30 | 60 | 70 | 80 | ---> 
+
+**UPDATED 2020-10-09**
+
+| Category: | D | C | B | A | 
+|:---: |:---: |:---: |:---: |:---: |
+| Core LTs (10) | Proficient 5 | Master 5, Proficient 5 | Master 7, Proficient 3 | Master 10 |  
+| Supplemental LTs (12)  | Proficient 6 | Master 4, Proficient 4 | Master 4, Proficient 6 | Master 6, Proficient 4
+| AEPs (8)  | 2 M+ | 5 M+ | 2 E, 4 M+ | 4 E, 2 M+|
+| DP (24) | 10 | 16 | 18 | 20 | 
 | EC | 30 | 60 | 70 | 80 | 
 
 Again, ***all* of the requirements in a grade column must be met or exceeded in order to earn that grade**. Otherwise your grade is the *highest* grade for which *all* the requirements are met are exceeded. For example, if you only earn 65 engagement credits during the semester, you are not eligible for a grade of B or A in the course; your base grade would be a C at most. **A grade of F is given if not all the requirements for a D are met**. 
@@ -200,7 +210,7 @@ Again, ***all* of the requirements in a grade column must be met or exceeded in 
 In this table, please note: 
 
 + For AEPs, "M+" means "M or better" which means "M or E". Therefore, for example, if you earn 3 E grades and 3 M grades on AEPs, you've satisfied the requirements for a B because you have earned 2 E's and 4 grades that are "M or better". 
-+ The fifth row of the table is the *sum* of your Daily Prep and Class Activities. There are 24 of each of these planned for a total of 48. If you fall behind in Daily Prep, you can double down on Class Activities to make up for it, or vice versa. But you should plan on completing all or almost all of each of these, as they are only graded on the basis of completeness and effort. 
+<!--- + The fifth row of the table is the *sum* of your Daily Prep and Class Activities. There are 24 of each of these planned for a total of 48. If you fall behind in Daily Prep, you can double down on Class Activities to make up for it, or vice versa. But you should plan on completing all or almost all of each of these, as they are only graded on the basis of completeness and effort. --->
 
 ### Determining plus/minus modifiers
 
@@ -387,6 +397,7 @@ Please see the Course Calendar for the dates corresponding to these modules.
 | 12 | Mathematical induction | Idea of proof; weak mathematical induction | Levin 2.5 | 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg1NDU4MzkxLC03NTg3NDY0NywtOTE1MD
-k4ODQxLC0xOTAyNTk2ODg5LDUwNDQ1NjE0NF19
+eyJoaXN0b3J5IjpbLTEyODYyNjM0ODIsMTg1NDU4MzkxLC03NT
+g3NDY0NywtOTE1MDk4ODQxLC0xOTAyNTk2ODg5LDUwNDQ1NjE0
+NF19
 -->
