@@ -14,10 +14,14 @@
 	- What "weight k" means 
 	- Problem: How many n-bit strings of weight k? 
 	- Notation $B_k^n$ and the cardinality of that set is the number
-	- Example $B_2^4$ so the car 
-	- What is $|B_
+	- Example $B_2^4$ so the cardinality is 6$
+		- 1100, 0011, 1010, 0101, 1001, 0101
+	- What is $|B_3^5|$? 
+		- Enumeration not a good idea
+		- Use recursion! Defining a problem in terms of smaller versions of itself 
+		- Given a bit string xxxxx in this set
 - Why counting bit strings is the same thing as counting subsets 
 - The binomial coefficient 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyOTA3MDkxNjRdfQ==
+eyJoaXN0b3J5IjpbLTIwNjU5OTAxNTVdfQ==
 -->
