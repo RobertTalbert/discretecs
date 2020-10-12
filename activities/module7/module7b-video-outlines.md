@@ -40,7 +40,15 @@
 	- So the set of k-element subsets is the same cardinality as the set B_3^5. Therefore the number |B_3^5| counts them both! 
 	- This is a "combinatorial proof" 
 - The binomial coefficient 
-	- Wolfram|Alpha 
+	- Wolfram|Alpha -- expand (x+y)^n and look at the coefficient on the terms. 
+	- Do (x+y)^5 -- look at 3d term -- look familiar? 
+	- The binomial coefficient binom(n,k) counts ALL these things:
+		- k-element subsets
+		- weight k bit strings
+		- coefficient on terms
+		- In general the number of ways to select ....
+
+- Bonus: A 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMzk2OTg3NzhdfQ==
+eyJoaXN0b3J5IjpbLTU1Mjg0MzczOV19
 -->
