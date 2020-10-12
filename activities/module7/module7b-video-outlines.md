@@ -29,8 +29,12 @@
 			- So $|B_3^5| = 3 + 3 + 4 = 10$. 
 	- Recurrence relation in general.... 
 - Why counting bit strings is the same thing as counting subsets 
-	- Number of 3-element subsets of a 5-element set --- 5x4*3 / 3*2*1 
+	- Number of 3-element subsets of a 5-element set --- 5x4x3 / 3x2x1 = 10....... 
+	- Bijection between counting problems: 
+		- Map 3-element subsets onto 5-bit strings of weight 3:
+		- Original set is {a,b,c,d,e}. Let {x,y,z} be a 3-element subset. 
+		- Set up a bit string xxxxx. If a is in the subset, first bt ia  
 - The binomial coefficient 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMzQ3NjI2N119
+eyJoaXN0b3J5IjpbNzM1MzAzNjMzXX0=
 -->
