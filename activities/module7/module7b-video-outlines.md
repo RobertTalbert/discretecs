@@ -35,8 +35,12 @@
 		- Original set is {a,b,c,d,e}. Let {x,y,z} be a 3-element subset. 
 		- Set up a bit string xxxxx. If a is in the subset, first bit is 1, 0 otherwise.   If b is in the subset, second bit is 1, 0 otherwise, and so on. 
 		- Example: {c,d,e} would map to the string 00111. {a,c,d} maps to 10110. {d,c,a} maps to 10110 so notice same set, different arrangement maps to the same string, so this is a function. 
-		- Is is a surjection? Yes, given any 5-bit string of length 3 you can find the set that maps to it. 
+		- Is is a surjection? Yes, given any 5-bit string of length 3 you can find the set that maps to it. Example 01101 is hit by {b,c,e}. 
+		- Is it an injection? Yes, there are no collisions -- if two sets are really different, then one has an element the other does't have, which will result in a different 1 bit. 
+	- So the set of k-element subsets is the same cardinality as the set B_3^5. Therefore the number |B_3^5| counts them both! 
+	- This is a "combinatorial proof" 
 - The binomial coefficient 
+	- Wolfram|Alpha 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4OTgyNjE0MDBdfQ==
+eyJoaXN0b3J5IjpbLTEyMzk2OTg3NzhdfQ==
 -->
