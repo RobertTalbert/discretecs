@@ -24,9 +24,10 @@
 			- A string of the form 0xxxx with weight 3
 			- Two sets, disjoint
 			- So $|B_3^5| = |B_2^4| + |B_3^4|$
-			- Now look at $B_2^4$ -- can be split into sets 
+			- Now look at $B_2^4$ -- can be split into sets with strings of the form 1xxx of weight 1 or 0xxx of weight 2, so $|B_2^4|= |B_1^3| + |B_2^3|$   -- can count those directly, 3 and 3 respectively
+			- Likewise 
 - Why counting bit strings is the same thing as counting subsets 
 - The binomial coefficient 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYwMTc2MzMzOV19
+eyJoaXN0b3J5IjpbLTM5ODE4MjM4Nl19
 -->
