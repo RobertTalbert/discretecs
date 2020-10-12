@@ -25,9 +25,12 @@
 			- Two sets, disjoint
 			- So $|B_3^5| = |B_2^4| + |B_3^4|$
 			- Now look at $B_2^4$ -- can be split into sets with strings of the form 1xxx of weight 1 or 0xxx of weight 2, so $|B_2^4|= |B_1^3| + |B_2^3|$   -- can count those directly, 3 and 3 respectively
-			- Likewise 
+			- Can count $B_3^4$ directly -- must be 4
+			- So $|B_3^5| = 3 + 3 + 4 = 10$. 
+	- Recurrence relation in general.... 
 - Why counting bit strings is the same thing as counting subsets 
+	- Number of 3-element subsets of a 5-element set --- 5x4*3 / 3*2*1 
 - The binomial coefficient 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM5ODE4MjM4Nl19
+eyJoaXN0b3J5IjpbLTIwMzQ3NjI2N119
 -->
