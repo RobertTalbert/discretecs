@@ -48,7 +48,8 @@
 		- coefficient on terms
 		- In general the number of ways to select ....
 
-- Bonus: A 
+- Bonus: A recursive look at why binom(n,k) is the coefficient on the kth term 
+- 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU1Mjg0MzczOV19
+eyJoaXN0b3J5IjpbMTA0ODA3NDkwOF19
 -->
