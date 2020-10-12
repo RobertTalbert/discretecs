@@ -19,9 +19,14 @@
 	- What is $|B_3^5|$? 
 		- Enumeration not a good idea
 		- Use recursion! Defining a problem in terms of smaller versions of itself 
-		- Given a bit string xxxxx in this set
+		- Given a bit string xxxxx in this set: It's either 
+			- A string of the form 1xxxx with weight 2 or 
+			- A string of the form 0xxxx with weight 3
+			- Two sets, disjoint
+			- So $|B_3^5| = |B_2^4| + |B_3^4|$
+			- Now look at $B_2^4$ -- can be split into sets 
 - Why counting bit strings is the same thing as counting subsets 
 - The binomial coefficient 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNjU5OTAxNTVdfQ==
+eyJoaXN0b3J5IjpbLTYwMTc2MzMzOV19
 -->
