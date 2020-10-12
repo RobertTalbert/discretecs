@@ -12,9 +12,12 @@
 	- Example: 6 element subsets of a 10-element set -- compute, then use Python
 - Counting bit strings of weight $k$ using recursion 
 	- What "weight k" means 
-	- 
+	- Problem: How many n-bit strings of weight k? 
+	- Notation $B_k^n$ and the cardinality of that set is the number
+	- Example $B_2^4$ so the car 
+	- What is $|B_
 - Why counting bit strings is the same thing as counting subsets 
 - The binomial coefficient 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQyNTc3NTgxNV19
+eyJoaXN0b3J5IjpbLTEyOTA3MDkxNjRdfQ==
 -->
