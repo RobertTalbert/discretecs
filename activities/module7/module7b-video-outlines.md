@@ -33,8 +33,10 @@
 	- Bijection between counting problems: 
 		- Map 3-element subsets onto 5-bit strings of weight 3:
 		- Original set is {a,b,c,d,e}. Let {x,y,z} be a 3-element subset. 
-		- Set up a bit string xxxxx. If a is in the subset, first bt ia  
+		- Set up a bit string xxxxx. If a is in the subset, first bit is 1, 0 otherwise.   If b is in the subset, second bit is 1, 0 otherwise, and so on. 
+		- Example: {c,d,e} would map to the string 00111. {a,c,d} maps to 10110. {d,c,a} maps to 10110 so notice same set, different arrangement maps to the same string, so this is a function. 
+		- Is is a surjection? Yes, given any 5-bit string of length 3 you can find the set that maps to it. 
 - The binomial coefficient 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzM1MzAzNjMzXX0=
+eyJoaXN0b3J5IjpbLTE4OTgyNjE0MDBdfQ==
 -->
