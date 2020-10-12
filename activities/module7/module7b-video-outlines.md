@@ -4,11 +4,17 @@
 	- Example in general
 - How not to count the number of $k$-element subsets of a set 
 	- Using the multiplicative principle and 4 elements 
-	- 
+	- Overcounting 
 - The right way to count the number of $k$-element subsets of a set
+	- Start off the "wrong" way
+	- Count the number of ways to rearrange the $k$-element sets -- multiplicative principle
+	- Then divide off
+	- Example: 6 element subsets of a 10-element set -- compute, then use Python
 - Counting bit strings of weight $k$ using recursion 
+	- What "weight k" means 
+	- 
 - Why counting bit strings is the same thing as counting subsets 
 - The binomial coefficient 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5OTM4MDExNDZdfQ==
+eyJoaXN0b3J5IjpbLTQyNTc3NTgxNV19
 -->
