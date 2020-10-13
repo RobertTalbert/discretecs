@@ -2,6 +2,8 @@
 	- Example using 3 elements then list them 
 	- Example using 5 elements
 	- Example in general
+	- How this is like counting bit strings 
+
 - How not to count the number of $k$-element subsets of a set 
 	- Using the multiplicative principle and 4 elements 
 	- Overcounting 
@@ -51,5 +53,5 @@
 - Bonus: A recursive look at why binom(n,k) is the coefficient on the kth term 
 - 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA0ODA3NDkwOF19
+eyJoaXN0b3J5IjpbLTgzMjIyODI4LDEwNDgwNzQ5MDhdfQ==
 -->
