@@ -31,6 +31,7 @@
 			- So $|B_3^5| = 3 + 3 + 4 = 10$. 
 	- Recurrence relation in general.... 
 
+
 - Why counting bit strings is the same thing as counting subsets 
 	- Number of 3-element subsets of a 5-element set --- 5x4x3 / 3x2x1 = 10....... 
 	- Bijection between counting problems: 
@@ -54,6 +55,6 @@
 - Bonus: A recursive look at why binom(n,k) is the coefficient on the kth term 
 - 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ5ODE4Njk0NiwtODMyMjI4MjgsMTA0OD
-A3NDkwOF19
+eyJoaXN0b3J5IjpbODE0NTU2OTc2LC04MzIyMjgyOCwxMDQ4MD
+c0OTA4XX0=
 -->
