@@ -10,7 +10,9 @@ So how would we count the number of 3-element subsets of a 5-element set OTHER t
 
 Here's a well-intention but WRONG way to do this. 
 
-So we begin by creating a generic 3-element subset and leave three blanks where the elements should go. Si
+So we begin by creating a generic 3-element subset and leave three blanks where the elements should go. Since there are 5 elements in the main set, there are 5 ways to fill in the first blank, then 4 ways to fill in the second because repetitions aren't allowed in sets, then 3 ways to fill in the third one. Since that's a sequence of tasks, we multiply 5*4*3 to get 60 possible ways to form those sets. 
+
+This sounds good at first because it's a similar counting process to how we counted the number of subsets of a set, and the number of n-bit strings in the first video. But it's obviously 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODA5Mzk0OTcxXX0=
+eyJoaXN0b3J5IjpbLTE4ODA4MTI3MTBdfQ==
 -->
