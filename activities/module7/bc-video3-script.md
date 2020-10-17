@@ -22,11 +22,12 @@ Now we need to find out how to get these two other numbers.
 
 We can make up a similar recurrence relation for B,4,3 and B,4,2. Let's focus just on B43 for now. 
 
-B43 is the set of 4-bit strings with weight 3. Just as with B5,3, every such bit string is one of two things: A 1 followed by a 3-bit string with weight 2, or a 0 followed by a 3 bit string of weight 3. 
+B43 is the set of 4-bit strings with weight 3. Just as with B5,3, every such bit string is one of two things: A 1 followed by a 3-bit string with weight 2, or a 0 followed by a 3 bit string of weight 3. Now we know there are B32 of the first kind and B33 of the second kind and there's no bit string that belongs to both sets. So B43 is B33 plus B32. It's yet another recurrence relation. 
 
+At this point it
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE4OTYxNDg0NywzMzcxNDMzMDIsLTgxND
-Q1MTU3OF19
+eyJoaXN0b3J5IjpbNjEyOTI1NTE2LDExODk2MTQ4NDcsMzM3MT
+QzMzAyLC04MTQ0NTE1NzhdfQ==
 -->
