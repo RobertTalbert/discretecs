@@ -24,10 +24,11 @@ We can make up a similar recurrence relation for B,4,3 and B,4,2. Let's focus ju
 
 B43 is the set of 4-bit strings with weight 3. Just as with B5,3, every such bit string is one of two things: A 1 followed by a 3-bit string with weight 2, or a 0 followed by a 3 bit string of weight 3. Now we know there are B32 of the first kind and B33 of the second kind and there's no bit string that belongs to both sets. So B43 is B33 plus B32. It's yet another recurrence relation. 
 
-At this point it's helpful to stop and make a generalization about Bnk for ANY value of n and k. The same recurrence relation should hold. Let's say you have an n-bit string of weight k. That bit string has to start on the left with either 0 or 1. So it's one of two things: A 1 followed by a bit string of 1 fewer bits (length n-1) 
+At this point it's helpful to stop and make a generalization about Bnk for ANY value of n and k. The same recurrence relation should hold. Let's say you have an n-bit string of weight k. That bit string has to start on the left with either 0 or 1. So it's one of two things: A 1 followed by a bit string of 1 fewer bits (length n-1) that has a weight of k-1 since all the bits have to add up to k; or it's a 0 followed by an n-1 bit string of weight k since again all the bits have to add up to k. The number of the first kind is B,n-1,k-1 and the number of the second kind is B,n-1,k. So we get this recurrence relation here for any n,k by adding the two cardinalities together. 
 
+We're going to use this recurrence relation to finally compute B
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU1MTc3MjIzMSwxMTg5NjE0ODQ3LDMzNz
-E0MzMwMiwtODE0NDUxNTc4XX0=
+eyJoaXN0b3J5IjpbNzM0OTU4ODcyLDExODk2MTQ4NDcsMzM3MT
+QzMzAyLC04MTQ0NTE1NzhdfQ==
 -->
