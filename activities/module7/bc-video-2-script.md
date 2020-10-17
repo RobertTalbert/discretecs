@@ -26,8 +26,9 @@ So the count of 60 is off by a factor of 6 since every time a 3-element subset o
 
 Later in this series we're going to have a more efficient way of counting these k-element subsets, but just to illustrate the concept once again, let's count a collection of subsets that would be hard to do by listing all the objects--- the number of 4-element subsets of a 10-element set. There are 2^(10) or 1024 subsets of a 10-element set and I don't feel like listing all of those out! 
 
-So start with the wrong-way method, and set up a generic 4-element subset by listing 4 blanks. There are 10 ways to fill in the first blank, 9 for the second, 8 for the third, and 7 for the fourth, for a total of 5040 ways to fill in the blanks. Of course that's wrong because there are only 1024 total subsets possible. It's too big because when we count one 4-
+So start with the wrong-way method, and set up a generic 4-element subset by listing 4 blanks. There are 10 ways to fill in the first blank, 9 for the second, 8 for the third, and 7 for the fourth, for a total of 5040 ways to fill in the blanks. Of course that's wrong because there are only 1024 total subsets possible. It's too big because when we count one 4-element subset we are counting all possible rearrangements separately. So how many such rearrangements are there? 
+
+Given a 4-element subset, there are 4 choices for the first blank, 3 for the second, 2 for the third, and just 1 remaining for the last one. So that's 4*3
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MTgxODAzMjksLTE4MTYzNTczMTldfQ
-==
+eyJoaXN0b3J5IjpbMTg4Mzk1ODc1NiwtMTgxNjM1NzMxOV19
 -->
