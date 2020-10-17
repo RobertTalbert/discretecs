@@ -6,7 +6,8 @@ Now let's look at something that on the surface appears completely different -- 
 
 First, the exponents on the individual terms add up to the power we're raising this to. For example in the last line the exponents always add up to 3. Second, each term has a number multiplied to it that we call the "coefficient". For example the coefficient on the x^2y term in the last line is 3. The coefficient o the x^3 term is 1 although we don't write it explicitly. 
 
-Watch what happens as we take the powers higher. 
+Watch what happens as we take the powers higher. Let's look at (x+y)^5. when fully expanded it looks like this. Now, check out the coefficients on the terms. The coefficient on the x^5 and y^5 terms are 1. The coefficients on the x^4y and xy^4 terms are 5 and the coefficients on the 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcxMjQxNDYwOCwtODM1MzUzOTkwXX0=
+eyJoaXN0b3J5IjpbMTQ4NTY1MTYzMCwtNzEyNDE0NjA4LC04Mz
+UzNTM5OTBdfQ==
 -->
