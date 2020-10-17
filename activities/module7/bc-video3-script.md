@@ -2,7 +2,9 @@ Hello again. We're looking some more at processes for counting complex arrangeme
 
 In this video we're going to take on yet another counting problem, counting the number of bit strings that have a certain "weight". 
 
-Specifically we are going to look at the problem of counting the number of n-bit 
+Specifically we are going to look at the problem of counting the number of n-bit strings that have a weight of k, and we're introducing a new method for doing so, namely the extremely important idea of recursion and the related notion of a recurrence relation. 
+
+First of all by the weight of a bit string we just mean the number of 1's that are in it. Or you can think of weight as the sum of all the bits. For example here's an 8-bit string with weight 4. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI5NTU0MzI0N119
+eyJoaXN0b3J5IjpbLTc1Njg2MDQ5XX0=
 -->
