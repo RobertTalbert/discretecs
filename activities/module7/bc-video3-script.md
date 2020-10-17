@@ -20,10 +20,12 @@ So although we have't yet counted the number of 5-bit strings of weight 3, we've
 
 Now we need to find out how to get these two other numbers. 
 
+We can make up a similar recurrence relation for B,4,3 and B,4,2. 
 
+B43 is the set of 4-bit strings with weight 3 -- 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3ODg4NzIyNTAsLTgxNDQ1MTU3OF19
+eyJoaXN0b3J5IjpbMzM3MTQzMzAyLC04MTQ0NTE1NzhdfQ==
 -->
