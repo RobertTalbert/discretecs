@@ -16,7 +16,8 @@ Notice that the bit string will have weight k because the process above puts exa
 
 Here's an example of the inputs on the left and the outputs on the right of this process in the case where we are looking at 3-element subsets of a 5-element set. 
 
-In the second line, it shows that if we take the same set but writte i
+In the second line, it shows that if we take the same set but written in a different order, it produces the same output which is what it should do. That's not a collision but rather illustratingh that this mapping is a well defined function. 
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMjMzMjY2NTQsLTUzNzk3MTMwNV19
+eyJoaXN0b3J5IjpbLTExNjkxNjMyNzMsLTUzNzk3MTMwNV19
 -->
