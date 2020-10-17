@@ -20,13 +20,13 @@ So although we have't yet counted the number of 5-bit strings of weight 3, we've
 
 Now we need to find out how to get these two other numbers. 
 
-We can make up a similar recurrence relation for B,4,3 and B,4,2. 
+We can make up a similar recurrence relation for B,4,3 and B,4,2. Let's focus just on B43 for now. 
 
-B43 is the set of 4-bit strings with weight 3. Just as with B5,3, every such bit string is 
+B43 is the set of 4-bit strings with weight 3. Just as with B5,3, every such bit string is one of two things: A 1 followed by a 3-bit string with weight 2, or a 0 followed by a 3 bit string of weight 3. 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYxMDA2NzY0LDMzNzE0MzMwMiwtODE0ND
-UxNTc4XX0=
+eyJoaXN0b3J5IjpbMTE4OTYxNDg0NywzMzcxNDMzMDIsLTgxND
+Q1MTU3OF19
 -->
