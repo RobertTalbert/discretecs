@@ -6,7 +6,11 @@ We already did this in a special case earlier, when we were counting bit strings
 
 So let's do something similar now. We're going to build a bijection from the set of k-element subsets of an n-element set, to the set of n-bit strings with weight k. We never really came up with a formula for the size of the first set, just a method for counting it that involved doing an incorrect count and then dividing off by an error factor to correct it. But we do have a number for the second set, namely Bnk which we can get by repeated application of a recurrence relation. Once we have a bijection, we can conclude that Bnk also counts the first collection. 
 
-So here
+Here's the mapping. We start with a main set with n elements, labeled a1 through an. Take a k-element set which is some selection of k elements from this n element set. We will turn this into a bit string as follows: 
+
+Set up an n-bit string with n blanks in it. 
+Look at the main set and loop through its elements: 
+If ai is in the subset we have, then we put a 1 in 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1OTMxOTIzLC01Mzc5NzEzMDVdfQ==
+eyJoaXN0b3J5IjpbLTQwODU1MzY3MywtNTM3OTcxMzA1XX0=
 -->
