@@ -10,8 +10,8 @@ Watch what happens as we take the powers higher. Let's look at (x+y)^5. when ful
 
 Do you notice anything familiar? You should! These coefficients are exactly the number B50, B51, B52, and so on through B55 that we used to count k-element subsets and bit strings of weight k! Can this possibly be a coincidence, that the coefficient on the x^k term of (x+y)^n is Bnk? 
 
-Let's see if we can understand this in general. Start with (x+y)^n and let Cnk be the coefficient on the x^k term. Since the exponents on x and y have to add up to n, that means the term itself looks like You can think if this as counting the number of 
+Let's see if we can understand this in a special case we haven't seen yet, namely (x+y)^10. Let C10,3 be the coefficient on the x^3 term in this expansion. Since the exponents on x and y have to add up to 10, the term is actually x^3 y^7. You can think of this coefficient as the number of x^3y^7's we would have in t 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc4NDM2NDg4NiwtMjU4NjUyMjU2LC03MT
+eyJoaXN0b3J5IjpbMTgzMDQ1NDc0NiwtMjU4NjUyMjU2LC03MT
 I0MTQ2MDgsLTgzNTM1Mzk5MF19
 -->
