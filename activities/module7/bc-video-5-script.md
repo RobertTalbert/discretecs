@@ -16,10 +16,10 @@ Since the exponents on x and y have to add up to 10, the term is actually x^3 y^
 
 Furthermore the boundary conditions are the same --- Cnn = 1 because the coefficient on x^n in this expansion is always 1, similarly Cn0 is always 1. 
 
-You can 
+You can see I think that this relationship Cnk = Cn-1, k + Cn-1,k-1 holds in general -- So since the coefficients obey the exact same rules as Bnk, and they have the same boundary conditions, they are in fact the same numbers. 
 
-So since the coefficients obey the exact same rules as 
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg3MDk1MDY3OSwtMjU4NjUyMjU2LC03MT
-I0MTQ2MDgsLTgzNTM1Mzk5MF19
+eyJoaXN0b3J5IjpbNDk4MzIwMDgwLC0yNTg2NTIyNTYsLTcxMj
+QxNDYwOCwtODM1MzUzOTkwXX0=
 -->
