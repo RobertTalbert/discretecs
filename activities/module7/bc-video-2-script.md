@@ -2,7 +2,7 @@ Hi again. This is the second video in a series introducing some fundamental tool
 
 In this video, we're going to look at a similar but different problem: counting the number of subsets of an n-element set, that have exactly k elements. We're going to see that there's a wrong way to count this collection and a right way. And the right way is going to introduce an important new idea for us. 
 
-First of all here's what we mean by "k-element subsets of an n-element set". 
+First of all here's what we mean by "k-element subsets of an n-element set". For example we might want all the 3-element subsets of a 5-element set. We learned last time that there are 2^5 of 32 subsets of a set with 5 elements. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU5NDA3NDM4M119
+eyJoaXN0b3J5IjpbNjkyODcxMDYxXX0=
 -->
