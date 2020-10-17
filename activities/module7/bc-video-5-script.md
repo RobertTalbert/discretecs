@@ -14,14 +14,14 @@ Let's see if we can understand this in a special case we haven't seen yet, namel
 
 Since the exponents on x and y have to add up to 10, the term is actually x^3 y^7. You can think of this coefficient as the number of x^3y^7's we would have in the final answer. Now (x+y)^10 is just 10 copies of (x+y) multiplied together so one way to expand (x+y)^10 is to first expand (x+y)^9 and then multiply the result by x+y. When you do, you're multiplying this huge thing by x, then by y, then adding the results. Where would one of the x^3y^7 terms come from? Well, it would either come from an x^2y^7 term in (x+y)^9 that was multiplied by x; or it would come from an x^3y^6 term that was multiplied by y. And it can't come from both. So the number of ways to get an x^3y^7 term the first way is C9,2 and the number of ways to get it from the second way is C9,3. 
 
-Therefore C10,3 = C9,3 + C92. It's the same recurrence relation that we used to find n-bit strings of weight k. 
+Therefore C10,3 = C9,3 + C92. It's the same recurrence relation that we used to find n-bit strings of weight k. You can wrk out, althoguh we won't prove it here, that this relationship Cnk = Cn-1, k + Cn-1,k-1 holds in general
 
 Furthermore the boundary conditions are the same --- Cnn = 1 because the coefficient on x^n in this expansion is always 1, similarly Cn0 is always 1. 
 
-You can see I think that this relationship Cnk = Cn-1, k + Cn-1,k-1 holds in general -- So since the coefficients obey the exact same rules as Bnk, and they have the same boundary conditions, they are in fact the same numbers. 
+ -- So since the coefficients obey the exact same rules as Bnk, and they have the same boundary conditions, they are in fact the same numbers. 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYyOTM2NTYyMCw0OTgzMjAwODAsLTI1OD
-Y1MjI1NiwtNzEyNDE0NjA4LC04MzUzNTM5OTBdfQ==
+eyJoaXN0b3J5IjpbLTE5NDI2NjA1NjQsNDk4MzIwMDgwLC0yNT
+g2NTIyNTYsLTcxMjQxNDYwOCwtODM1MzUzOTkwXX0=
 -->
