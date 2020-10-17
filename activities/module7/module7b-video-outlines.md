@@ -14,6 +14,9 @@
 - Example in general
 - How this is like counting bit strings 
 
+
+## Counting the k-element subsets of a set
+
 - How not to count the number of $k$-element subsets of a set 
 	- Using the multiplicative principle and 4 elements 
 	- Overcounting 
@@ -22,6 +25,10 @@
 	- Count the number of ways to rearrange the $k$-element sets -- multiplicative principle
 	- Then divide off
 	- Example: 6 element subsets of a 10-element set -- compute, then use Python
+
+
+## Counting bit strings of weight k
+
 - Counting bit strings of weight $k$ using recursion 
 	- What "weight k" means 
 	- Problem: How many n-bit strings of weight k? 
@@ -41,6 +48,7 @@
 			- So $|B_3^5| = 3 + 3 + 4 = 10$. 
 	- Recurrence relation in general.... 
 
+## How sets and bit strings are the same
 
 - Why counting bit strings is the same thing as counting subsets 
 	- Number of 3-element subsets of a 5-element set --- 5x4x3 / 3x2x1 = 10....... 
@@ -53,10 +61,11 @@
 		- Is it an injection? Yes, there are no collisions -- if two sets are really different, then one has an element the other does't have, which will result in a different 1 bit. 
 	- So the set of k-element subsets is the same cardinality as the set B_3^5. Therefore the number |B_3^5| counts them both! 
 	- This is a "combinatorial proof" 
-- The binomial coefficient 
-	- Wolfram|Alpha -- expand (x+y)^n and look at the coefficient on the terms. 
-	- Do (x+y)^5 -- look at 3d term -- look familiar? 
-	- The binomial coefficient binom(n,k) counts ALL these things:
+
+## The binomial coefficient 
+- Wolfram|Alpha -- expand (x+y)^n and look at the coefficient on the terms. 
+- Do (x+y)^5 -- look at 3d term -- look familiar? 
+- The binomial coefficient binom(n,k) counts ALL these things:
 		- k-element subsets
 		- weight k bit strings
 		- coefficient on terms
@@ -65,6 +74,6 @@
 - Bonus: A recursive look at why binom(n,k) is the coefficient on the kth term 
 - 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTE3Mzg2MDg3LDgxNDU1Njk3NiwtODMyMj
-I4MjgsMTA0ODA3NDkwOF19
+eyJoaXN0b3J5IjpbLTkxNDgwOTAwOSw4MTQ1NTY5NzYsLTgzMj
+IyODI4LDEwNDgwNzQ5MDhdfQ==
 -->
