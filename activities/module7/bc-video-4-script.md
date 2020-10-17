@@ -4,8 +4,7 @@ So in this video, we're going to revisit an earlier idea that if I want to count
 
 We already did this in a special case earlier, when we were counting bit strings and subsets. We said that we can form a subset of a finite set by voting for it using a ballot, and then noticed that every ballot is really just a bit string in disguise. That mapping of ballots onto bitstrings was a bijection, so the number of subsets and the number of bit strings was the same. 
 
-
-
+So let's do something similar now. We're going to build a bijection from the set of k-element subsets of an n-element set, to the set of n-bit strings with weight k. We never really came up with a formula for the s
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjg2NjIwNjk3XX0=
+eyJoaXN0b3J5IjpbLTc3MTE5NDUwMV19
 -->
