@@ -32,7 +32,7 @@ Given a 4-element subset, there are 4 choices for the first blank, 3 for the sec
 
 So in this video we've learned that counting the number of k-element subsets of an n-element set is NOT just a straightforward application of the multiplicative rule because we end up overcounting our objects. Always be careful about whether a counting algorithm counts objects more than once! 
 
-But we also saw that we can determined by just how much we overcounted, and correct the wrong count by dividing off by that 
+But we also saw that we can determined by just how much we overcounted, and correct the wrong count by dividing off by that factor. Thanks for watching. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTY5MTc0MzE5LC0xODE2MzU3MzE5XX0=
+eyJoaXN0b3J5IjpbNzY2NTkwNywtMTgxNjM1NzMxOV19
 -->
