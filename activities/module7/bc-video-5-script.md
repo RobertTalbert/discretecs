@@ -28,9 +28,11 @@ So the binomial coefficient counts all the items we have already seen in terms o
 
 We also know from our earlier work that n choose k satisfies an important recursive property: namely that n choose k equals n-1 choose k plus n-1 choose k-1. Remember we got this by thinking about n-bit strings of weight k and where they come from. We also know some explicit values of n choose k, namely in the situation where k is n or 0, n choose k is 1. 
 
-What we don't have yet is an explicit closed-form formula for n choose k, but that's coming soon, and it'll require us to go back and think about how k-element subsets of an n-element set were formed. For now, what's important isnt' so much how to compute are these takeaways
+What we don't have yet is an explicit closed-form formula for n choose k, but that's coming soon, and it'll require us to go back and think about how k-element subsets of an n-element set were formed. For now, what's important isnt' so much how to compute n choose k, but rather these takeaways
+
+First, n choose k is the solution to three different counting problems. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY1NzcwNTAwMSwtMTk0MjY2MDU2NCw0OT
+eyJoaXN0b3J5IjpbLTc4NDE1Mjg2NywtMTk0MjY2MDU2NCw0OT
 gzMjAwODAsLTI1ODY1MjI1NiwtNzEyNDE0NjA4LC04MzUzNTM5
 OTBdfQ==
 -->
