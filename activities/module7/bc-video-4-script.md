@@ -22,6 +22,9 @@ In the second line, it shows that if we take the same set but written in a diffe
 
 So what this proves is that the collection of k-element subsets of an n-element set, and the collection of n-bit strings of weight k, are in a very deep sense THE SAME. They have the same number of elements, namely this number Bnk. And importantly they obey the same relationships with each other, especially the recurrence relation we built up in the last video. They are really just two different viewpoints or expressions of the same data structure and we can represent one with the other. 
 
+[talk through takeaways] 
+
+In the next and final video, we're going to look one more time at this number Bnk and see what it's all about. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc1MjA5MDI2LC01Mzc5NzEzMDVdfQ==
+eyJoaXN0b3J5IjpbMjA1ODczNjE3OCwtNTM3OTcxMzA1XX0=
 -->
