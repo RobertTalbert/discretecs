@@ -26,11 +26,13 @@ B43 is the set of 4-bit strings with weight 3. Just as with B5,3, every such bit
 
 At this point it's helpful to stop and make a generalization about Bnk for ANY value of n and k. The same recurrence relation should hold. Let's say you have an n-bit string of weight k. That bit string has to start on the left with either 0 or 1. So it's one of two things: A 1 followed by a bit string of 1 fewer bits (length n-1) that has a weight of k-1 since all the bits have to add up to k; or it's a 0 followed by an n-1 bit string of weight k since again all the bits have to add up to k. The number of the first kind is B,n-1,k-1 and the number of the second kind is B,n-1,k. So we get this recurrence relation here for any n,k by adding the two cardinalities together. 
 
-We're going to use this recurrence relation to finally compute B5,3 but there's two special cases to bring up. One is where the n and k are equal to each other. The set Bnn is the set of all n-bit strings that have weight n but there is only one such bit string, namely the bit string of all 1's. If you had any 0's in a string of length n, the weight would be less than n. 
+We're going to use this recurrence relation to finally compute B5,3 but there's two special cases to bring up. One is where the n and k are equal to each other. The set Bnn is the set of all n-bit strings that have weight n but there is only one such bit string, namely the bit string of all 1's. If you had any 0's in a string of length n, the weight would be less than n. Therefore the number Bnn is 1. 
 
-Similarly Bn,0 is the set of all n-bit strings of weight 0, and there's only one such string, namely the string of all 0's. 
+Similarly Bn,0 is the set of all n-bit strings of weight 0, and there's only one such string, namely the string of all 0's. Therefore the number Bn0 is also 1. 
+
+So armed with the recurrence relation and these two special cases, we can now compute B53. 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwOTQ0ODM1NTEsMTE4OTYxNDg0NywzMz
-cxNDMzMDIsLTgxNDQ1MTU3OF19
+eyJoaXN0b3J5IjpbMTk4MDU0MTIxMSwxMTg5NjE0ODQ3LDMzNz
+E0MzMwMiwtODE0NDUxNTc4XX0=
 -->
