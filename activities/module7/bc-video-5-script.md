@@ -8,8 +8,10 @@ First, the exponents on the individual terms add up to the power we're raising t
 
 Watch what happens as we take the powers higher. Let's look at (x+y)^5. when fully expanded it looks like this. Now, check out the coefficients on the terms. The coefficient on the x^5 and y^5 terms are 1 and although we don't usually write these, I've added them so you can see them. The coefficients on the x^4y and xy^4 terms are 5 and the coefficients on the x^2y^3 and 2^3y^2 terms are 10. 
 
-Do you notice anything familiar? You should! These coefficients are exactly the number B50, B51, B52, and so on through B55 that we used to count k-element subsets and bit strings of weight k! 
+Do you notice anything familiar? You should! These coefficients are exactly the number B50, B51, B52, and so on through B55 that we used to count k-element subsets and bit strings of weight k! Can this possibly be a coincidence, that the coefficient on the x^k term of (x+y)^n is Bnk? 
+
+Let's see if we can understand this in general. Start with (x+y)^n and let Cnk be the coefficient on the x^k term. Since the exponents on x and y have to add up to n, that means the term itself looks like You can think if this as counting the number of 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI1ODY1MjI1NiwtNzEyNDE0NjA4LC04Mz
-UzNTM5OTBdfQ==
+eyJoaXN0b3J5IjpbMTc4NDM2NDg4NiwtMjU4NjUyMjU2LC03MT
+I0MTQ2MDgsLTgzNTM1Mzk5MF19
 -->
