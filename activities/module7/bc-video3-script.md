@@ -12,6 +12,7 @@ Recursion is the process of solving a problem by reducing it to smaller or simpl
 
 Recursion is used in many, many real applications, for example sorting algorithms. One common algorithm, merge sort, sorts a list of numbers by defining how to sort a 0- or 1-element list, then defining "mergesort" of an 8-element list" is a combination of mergesort on two 4-element lists. Note here in the Python code that the function calls itself, on a smaller list. That's the essence of recursion. Then the mergesort on 4 element lists is done by calling mergesort on 2-element lists, which is then done by calling mergesort on 1 elements lists -- and then the starting conditions kick in, and the program tells how to piece together the smaller lists.  
 
+Let's see how recursion can be used to help us count the number of 5-bit strings of weight 3. First, here are a couple of examples. The key observation here is simple: Every 5-bit string of weight 3 --- in fact any 5-bit string of any weight --- has to start on the left with either a 0 or a 1. So a 5-bit string of weight 3 is one of two things: Its either a 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg1NzMyOTg4MiwtODE0NDUxNTc4XX0=
+eyJoaXN0b3J5IjpbODQ2MzQ1NjE5LC04MTQ0NTE1NzhdfQ==
 -->
