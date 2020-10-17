@@ -4,7 +4,7 @@ In this video, we're going to look at a similar but different problem: counting 
 
 First of all here's what we mean by "k-element subsets of an n-element set". For example we might want all the 3-element subsets of a 5-element set. We learned last time that there are 2^5 of 32 subsets of a set with 5 elements. To really see these subsets and start to detect patterns in how they are built, I encourage you right now to stop the video and just try writing all 32 subsets of the set {1,2,3,4,5}. Go ahead, try it! 
 
-If you've found all of them, you should be looking at this list: 
+If you've found all of them, you should be looking at this list. Of those 32 subsets, you can see that just 10 of them have 3 elements. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4Mjk5ODI4NTBdfQ==
+eyJoaXN0b3J5IjpbLTc5NTE0Mjg4OV19
 -->
