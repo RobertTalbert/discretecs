@@ -24,9 +24,11 @@ So this number Bnk is counting a LOT of different things. It counts the number o
 
 We are going to now call this number the binomial coefficient, since we just saw that it gives us the coefficient on a term when we raise the binomial x+y to a power. We use this notation here, like a fraction but without the fraction bar, with n on top of k enclosed in parentheses. When we can't type it in nice looking notation like this, for example in Python, we just write binom(n,k). 
 
-So the binomial coefficient counts all the items we have already seen in terms of subsets, bit strings, and coefficients. In general -- the binomial coefficient counts the number of ways to select k objects from a group of n objects. That's just another way of referrign to subsets. So sometimes we say that binomial coefficient of n and k is 
+So the binomial coefficient counts all the items we have already seen in terms of subsets, bit strings, and coefficients. In general -- the binomial coefficient counts the number of ways to select k objects from a group of n objects. That's just another way of referrign to subsets. So sometimes we say that binomial coefficient of n and k is "n choose k" 
+
+We also know from our earlier work that n choose k satisfies an important recursive property: 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAzOTI4Njg4OSwtMTk0MjY2MDU2NCw0OT
+eyJoaXN0b3J5IjpbMTU2NDY1MDQ1MCwtMTk0MjY2MDU2NCw0OT
 gzMjAwODAsLTI1ODY1MjI1NiwtNzEyNDE0NjA4LC04MzUzNTM5
 OTBdfQ==
 -->
