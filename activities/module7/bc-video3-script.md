@@ -36,9 +36,9 @@ So armed with the recurrence relation and these two special cases, we can now co
 
 Two observations to make at this point. 
 
-First, the computation on the previous slide works, but it seems inefficient still. In fact, 
+First, the computation on the previous slide works, but it seems inefficient still. In fact, unless we wrote some code to do this for us, it seems like recursion is not a great way to actually count things. Instead it's a really great way to identify deep relationships between the objec
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTk1MDM3MTUxLC01NTQ4NDQ2NDgsMTE4OT
-YxNDg0NywzMzcxNDMzMDIsLTgxNDQ1MTU3OF19
+eyJoaXN0b3J5IjpbLTI4Mjk1MTc0NiwtNTU0ODQ0NjQ4LDExOD
+k2MTQ4NDcsMzM3MTQzMzAyLC04MTQ0NTE1NzhdfQ==
 -->
