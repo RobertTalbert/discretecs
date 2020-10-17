@@ -34,9 +34,11 @@ First, n choose k is the solution to three different counting problems. It is is
 
 Second, n choose k obeys a fundamental recurrence relation with boundary conditions. So n choose k is fundamentally recursive in nature and that will lead us not only to some ways to compute this number, but also to some deep mathematical properties that govern how it works.  
 
-Finally what's more important than computing this number is how we got it in the first place, through a variety of counting arguments involving correcting an overcount
+Finally what's more important than computing this number is how we got it in the first place, through a variety of counting arguments involving correcting an overcounted quantity as we saw early on, in finding a recurrence relation, and in forming a bijection between a set we want to count and one we already counted. Don't lose sight of these conceptual ideas because they are fundamentally important problem-solving approaches that will help you in many situations outside just these few. 
+
+Thanks for watching. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjY1ODk1MDM2LC0xOTQyNjYwNTY0LDQ5OD
-MyMDA4MCwtMjU4NjUyMjU2LC03MTI0MTQ2MDgsLTgzNTM1Mzk5
-MF19
+eyJoaXN0b3J5IjpbLTE3MDM5ODMwOTksLTE5NDI2NjA1NjQsND
+k4MzIwMDgwLC0yNTg2NTIyNTYsLTcxMjQxNDYwOCwtODM1MzUz
+OTkwXX0=
 -->
