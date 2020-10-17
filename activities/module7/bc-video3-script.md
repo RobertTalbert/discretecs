@@ -32,7 +32,9 @@ Similarly Bn,0 is the set of all n-bit strings of weight 0, and there's only one
 
 So armed with the recurrence relation and these two special cases, we can now compute B53. [[..just talk ]]] 
 
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU1NDg0NDY0OCwxMTg5NjE0ODQ3LDMzNz
-E0MzMwMiwtODE0NDUxNTc4XX0=
+eyJoaXN0b3J5IjpbLTE4MDY1NTAyODQsLTU1NDg0NDY0OCwxMT
+g5NjE0ODQ3LDMzNzE0MzMwMiwtODE0NDUxNTc4XX0=
 -->
