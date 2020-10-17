@@ -22,10 +22,10 @@ Furthermore the boundary conditions are the same --- Cnn = 1 because the coeffic
 
 So this number Bnk is counting a LOT of different things. It counts the number of k-element subsets of an n element set; the number of n-bit strings with weight k; and it gives us the coefficient on the x^k term in the expansion of (x+y)^n. Because of its centrality and versatility, we're going to give it a special name and notatio. 
 
-We are going to now call this number the binomial coefficient, since we just saw that it gives us the coefficient on a term when we raise the binomial x+y to a power. We use this notation 
+We are going to now call this number the binomial coefficient, since we just saw that it gives us the coefficient on a term when we raise the binomial x+y to a power. We use this notation here, like a fraction but without the fraction bar, with n on top of k enclosed in parentheses. When we can't type it in nice looking notation like this, for example in Python, we just write binom(n,k). 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzU0MzM5NDA1LC0xOTQyNjYwNTY0LDQ5OD
-MyMDA4MCwtMjU4NjUyMjU2LC03MTI0MTQ2MDgsLTgzNTM1Mzk5
-MF19
+eyJoaXN0b3J5IjpbMTc0NDE1NDIzMiwtMTk0MjY2MDU2NCw0OT
+gzMjAwODAsLTI1ODY1MjI1NiwtNzEyNDE0NjA4LC04MzUzNTM5
+OTBdfQ==
 -->
