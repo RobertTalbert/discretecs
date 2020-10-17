@@ -18,9 +18,9 @@ First of all, the number of 3-element subsets can't possibly be 60, because ther
 
 And second, the reason that it's so large is that we've counted many subsets more than once. For example in this sequence-of-choices approach I could choose the number 1 for the first slot, the number 2 for the second, and the number 3 for the third slot to get the set {1,2,3}; or I could choose the number 2 for the first slot, 1 for the second, and 3 for the third and get the set {2,1,3}. Now obviously those are the same set because ordering of elements doesn't matter; but my counting process counts them as different outcomes. So when I count 60 subsets, that 60 includes a lot of duplicates that are only superficially the same. 
 
-In fact, there are 6 versions of that one subset {1,2,3} that are counted separately. Every possible rearrangement of {1,2,3} is counted separately. How many of those are there? 
+There are 6 versions of that one subset {1,2,3} that are counted separately. In fact, in the "wrong way" method, every possible rearrangement of a 3-element subset is counted separately. So let's solve a different counting problem: How many possible rearrangements of a 3-element set are there? 
 
-If we were to count the number of rearrangements of {1,2,3} that are possible, we could do it this way. Start with a blank 3-element set. There are 3 choices for the first blank (either the number 1, the number 2, or the number 3), 2 for the second, and 1 for the third. Since that's a sequence of choices 
+We could do it this way. Start with a blank 3-element set. There are 3 choices for the first blank, 2 for the second, and 1 for the third. Since that's a sequence of choices, we can multiply the possibilities and see that there are 6 possible rearrangements of elements of a 3-element set. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMzQ5OTY3NDldfQ==
+eyJoaXN0b3J5IjpbMTY5NDYyMTMxM119
 -->
