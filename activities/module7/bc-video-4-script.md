@@ -10,7 +10,13 @@ Here's the mapping. We start with a main set with n elements, labeled a1 through
 
 Set up an n-bit string with n blanks in it. 
 Look at the main set and loop through its elements: 
-If ai is in the subset we have, then we put a 1 in 
+If ai is in the subset we have, then we put a 1 for the bit in position i. Otherwise we put a 0. Then return the bit string. 
+
+Notice that the bit string will have weight k because the process above puts exactly k "1" bits in the string. 
+
+Here's an example of the inputs on the left and the outputs on the right of this process in the case where we are looking at 3-element subsets of a 5-element set. 
+
+In the second line, it shows that if we take the same set but writte i
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQwODU1MzY3MywtNTM3OTcxMzA1XX0=
+eyJoaXN0b3J5IjpbLTEzMjMzMjY2NTQsLTUzNzk3MTMwNV19
 -->
