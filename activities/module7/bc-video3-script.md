@@ -10,8 +10,8 @@ So let's think about the cardinality of B,5,3 which is the number of 5-bit strin
 
 Recursion is the process of solving a problem by reducing it to smaller or simpler copies of the same problem, that eventually terminate in a starting condition. 
 
-Recursion is used in many, many real applications, for example sorting algorithms. 
+Recursion is used in many, many real applications, for example sorting algorithms. One common algorithm, merge sort, sorts a list of numbers by defining how to sort a 0- or 1-element list, then defining "mergesort" of an 8-element list" is a combination of mergesort on two 4-element lists. Note here in the Python code that the function calls itself, on a smaller list. That's the essence of recursion. Then the merg 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODYzOTkwNTE2LC04MTQ0NTE1NzhdfQ==
+eyJoaXN0b3J5IjpbLTExODM0NTAxNTMsLTgxNDQ1MTU3OF19
 -->
