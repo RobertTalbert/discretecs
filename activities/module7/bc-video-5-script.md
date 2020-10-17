@@ -26,9 +26,9 @@ We are going to now call this number the binomial coefficient, since we just saw
 
 So the binomial coefficient counts all the items we have already seen in terms of subsets, bit strings, and coefficients. In general -- the binomial coefficient counts the number of ways to select k objects from a group of n objects. That's just another way of referrign to subsets. So sometimes we say that binomial coefficient of n and k is "n choose k" 
 
-We also know from our earlier work that n choose k satisfies an important recursive property: 
+We also know from our earlier work that n choose k satisfies an important recursive property: namely that n choose k equals n-1 choose k plus n-1 choose k-1. Remember we got this by thinking about n-bit strings of weight k and where they come from. We also know some explicit values of n choose k, namely in the situation where k is n or 0, n choose k is 1. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU2NDY1MDQ1MCwtMTk0MjY2MDU2NCw0OT
-gzMjAwODAsLTI1ODY1MjI1NiwtNzEyNDE0NjA4LC04MzUzNTM5
-OTBdfQ==
+eyJoaXN0b3J5IjpbLTE3NjQ5MDk0MDYsLTE5NDI2NjA1NjQsND
+k4MzIwMDgwLC0yNTg2NTIyNTYsLTcxMjQxNDYwOCwtODM1MzUz
+OTkwXX0=
 -->
