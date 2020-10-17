@@ -24,8 +24,9 @@ So this number Bnk is counting a LOT of different things. It counts the number o
 
 We are going to now call this number the binomial coefficient, since we just saw that it gives us the coefficient on a term when we raise the binomial x+y to a power. We use this notation here, like a fraction but without the fraction bar, with n on top of k enclosed in parentheses. When we can't type it in nice looking notation like this, for example in Python, we just write binom(n,k). 
 
+So the binomial coefficien
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc0NDE1NDIzMiwtMTk0MjY2MDU2NCw0OT
+eyJoaXN0b3J5IjpbMTAwOTgyNTQ4MSwtMTk0MjY2MDU2NCw0OT
 gzMjAwODAsLTI1ODY1MjI1NiwtNzEyNDE0NjA4LC04MzUzNTM5
 OTBdfQ==
 -->
