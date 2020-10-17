@@ -12,7 +12,9 @@ Do you notice anything familiar? You should! These coefficients are exactly the 
 
 Let's see if we can understand this in a special case we haven't seen yet, namely (x+y)^10. Let C10,3 be the coefficient on the x^3 term in this expansion, and in general let Cnk be the coefficient on the x^k term in the expansion of (x+y)^n. 
 
-Since the exponents on x and y have to add up to 10, the term is actually x^3 y^7. You can think of this coefficient as the number of x^3y^7's we would have in the final answer. Now (x+y)^10 is just 10 copies of (x+y) multiplied together so one way to expand (x+y)^10 is to first expand (x+y)^9 and then multiply the result by x+y. When you do, you're multiplying this huge thing by x, then by y, then adding the results. Where would one of the x^3y^7 terms come from? Well, it would either come from an x^2y^7 term in (x+y)^9 that was multiplied by x; or it would come from an x^3y^6 term that was multiplied by y. And it can't come from both. So the number of ways to get an x^3y^7 term the first way is C9,2 and the number of ways to get it from the second way is C9,3. Therefore C10,3 = C9,3 + C92. It's the same recurrence relation that we used to find n-bit strings of weight k. 
+Since the exponents on x and y have to add up to 10, the term is actually x^3 y^7. You can think of this coefficient as the number of x^3y^7's we would have in the final answer. Now (x+y)^10 is just 10 copies of (x+y) multiplied together so one way to expand (x+y)^10 is to first expand (x+y)^9 and then multiply the result by x+y. When you do, you're multiplying this huge thing by x, then by y, then adding the results. Where would one of the x^3y^7 terms come from? Well, it would either come from an x^2y^7 term in (x+y)^9 that was multiplied by x; or it would come from an x^3y^6 term that was multiplied by y. And it can't come from both. So the number of ways to get an x^3y^7 term the first way is C9,2 and the number of ways to get it from the second way is C9,3. 
+
+Therefore C10,3 = C9,3 + C92. It's the same recurrence relation that we used to find n-bit strings of weight k. 
 
 Furthermore the boundary conditions are the same --- Cnn = 1 because the coefficient on x^n in this expansion is always 1, similarly Cn0 is always 1. 
 
@@ -20,6 +22,6 @@ You can see I think that this relationship Cnk = Cn-1, k + Cn-1,k-1 holds in gen
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDk4MzIwMDgwLC0yNTg2NTIyNTYsLTcxMj
-QxNDYwOCwtODM1MzUzOTkwXX0=
+eyJoaXN0b3J5IjpbMTYyOTM2NTYyMCw0OTgzMjAwODAsLTI1OD
+Y1MjI1NiwtNzEyNDE0NjA4LC04MzUzNTM5OTBdfQ==
 -->
