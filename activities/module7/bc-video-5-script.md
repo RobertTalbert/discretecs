@@ -10,8 +10,10 @@ Watch what happens as we take the powers higher. Let's look at (x+y)^5. when ful
 
 Do you notice anything familiar? You should! These coefficients are exactly the number B50, B51, B52, and so on through B55 that we used to count k-element subsets and bit strings of weight k! Can this possibly be a coincidence, that the coefficient on the x^k term of (x+y)^n is Bnk? 
 
-Let's see if we can understand this in a special case we haven't seen yet, namely (x+y)^10. Let C10,3 be the coefficient on the x^3 term in this expansion. Since the exponents on x and y have to add up to 10, the term is actually x^3 y^7. You can think of this coefficient as the number of x^3y^7's we would have in the final answer. Now (x+y)^10 is just 10 copies of (x+y) multiplied together so one way to expand (x+y)^10 is to first expand (x+y)^9 and then multiply the result by x+y. When you do, you're multiplying this huge thing by x, then by y, then adding the results. Where would one of the x^3y^7 terms come from? Well, it would either come from an x^2y^7 term in (x+y)^9 that was multiplied by x; or it would come from an x^3y^6 term that was multiplied by y. 
+Let's see if we can understand this in a special case we haven't seen yet, namely (x+y)^10. Let C10,3 be the coefficient on the x^3 term in this expansion, and in general let Cnk be the coefficient on the x^k term in the expansion of (x+y)^n. 
+
+Since the exponents on x and y have to add up to 10, the term is actually x^3 y^7. You can think of this coefficient as the number of x^3y^7's we would have in the final answer. Now (x+y)^10 is just 10 copies of (x+y) multiplied together so one way to expand (x+y)^10 is to first expand (x+y)^9 and then multiply the result by x+y. When you do, you're multiplying this huge thing by x, then by y, then adding the results. Where would one of the x^3y^7 terms come from? Well, it would either come from an x^2y^7 term in (x+y)^9 that was multiplied by x; or it would come from an x^3y^6 term that was multiplied by y. And it can't come from both. So the number of ways to get an x^3y^7 term the first way is C9,2 and the number of ways to get it from the second way is C9,3. The
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQyNzQzNDc0NSwtMjU4NjUyMjU2LC03MT
-I0MTQ2MDgsLTgzNTM1Mzk5MF19
+eyJoaXN0b3J5IjpbMTg2MTEwNDQ3LC0yNTg2NTIyNTYsLTcxMj
+QxNDYwOCwtODM1MzUzOTkwXX0=
 -->
