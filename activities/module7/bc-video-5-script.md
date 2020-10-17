@@ -20,8 +20,10 @@ Furthermore the boundary conditions are the same --- Cnn = 1 because the coeffic
 
  -- So since the coefficients obey the exact same rules as Bnk, and they have the same boundary conditions, they are in fact the same numbers. 
 
+So this number Bnk is counting a LOT of different things. 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NDI2NjA1NjQsNDk4MzIwMDgwLC0yNT
-g2NTIyNTYsLTcxMjQxNDYwOCwtODM1MzUzOTkwXX0=
+eyJoaXN0b3J5IjpbNjEyNTQ2NDgyLC0xOTQyNjYwNTY0LDQ5OD
+MyMDA4MCwtMjU4NjUyMjU2LC03MTI0MTQ2MDgsLTgzNTM1Mzk5
+MF19
 -->
