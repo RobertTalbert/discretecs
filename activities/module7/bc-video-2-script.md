@@ -29,6 +29,10 @@ Later in this series we're going to have a more efficient way of counting these 
 So start with the wrong-way method, and set up a generic 4-element subset by listing 4 blanks. There are 10 ways to fill in the first blank, 9 for the second, 8 for the third, and 7 for the fourth, for a total of 5040 ways to fill in the blanks. Of course that's wrong because there are only 1024 total subsets possible. It's too big because when we count one 4-element subset we are counting all possible rearrangements separately. So how many such rearrangements are there? 
 
 Given a 4-element subset, there are 4 choices for the first blank, 3 for the second, 2 for the third, and just 1 remaining for the last one. So that's 4*3*2*1 = 24 possible rearrangements. That means my wrong-way count of 5040 was 24 times too large! So the real number of 4-element subsets is 5040/24 or 210 of them. 
+
+So in this video we've learned that counting the number of k-element subsets of an n-element set is NOT just a straightforward application of the multiplicative rule because we end up overcounting our objects. Always be careful about whether a counting algorithm counts objects more than once! 
+
+But we also saw that we can determined by just how much we overcounted, and correct the wrong count by dividing off by that 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgyNzk1NjkzOSwtMTgxNjM1NzMxOV19
+eyJoaXN0b3J5IjpbOTY5MTc0MzE5LC0xODE2MzU3MzE5XX0=
 -->
