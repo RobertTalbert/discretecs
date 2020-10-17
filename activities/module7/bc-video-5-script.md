@@ -30,9 +30,11 @@ We also know from our earlier work that n choose k satisfies an important recurs
 
 What we don't have yet is an explicit closed-form formula for n choose k, but that's coming soon, and it'll require us to go back and think about how k-element subsets of an n-element set were formed. For now, what's important isnt' so much how to compute n choose k, but rather these takeaways
 
-First, n choose k is the solution to three different counting problems. 
+First, n choose k is the solution to three different counting problems. It is is the number of ways to form k-element subsets of an n-element set; the number of ways to form n-bit strings with k “1” bits in them; and the coefficient on xkyn-k in (x+y)n.
+
+Second, n choose k obeys a fundamental recurrence relation and 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc4NDE1Mjg2NywtMTk0MjY2MDU2NCw0OT
+eyJoaXN0b3J5IjpbLTQyOTc5OTkyMywtMTk0MjY2MDU2NCw0OT
 gzMjAwODAsLTI1ODY1MjI1NiwtNzEyNDE0NjA4LC04MzUzNTM5
 OTBdfQ==
 -->
