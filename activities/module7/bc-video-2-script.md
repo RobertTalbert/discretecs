@@ -1,6 +1,8 @@
 Hi again. This is the second video in a series introducing some fundamental tools and concepts for counting complex arrangements. In the previous video, we learned how to count two different-looking collections of objects: The collection of all subsets of a finite set having n elements, and the collection of all n-bit strings. We learned that the number of such objects is 2^n for both collections and this was no coincidence, since there was a bijection between the two sets that identifies each element of one collection as an element of the other. 
 
-In this video, we're going to look at a similar but different problem: counting the number of subsets of an n-element set, that have exac
+In this video, we're going to look at a similar but different problem: counting the number of subsets of an n-element set, that have exactly k elements. We're going to see that there's a wrong way to count this collection and a right way. And the right way is going to introduce an important new idea for us. 
+
+First of all here's what we mean by "k-element subsets of an n-element set". 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNDk3OTI4ODVdfQ==
+eyJoaXN0b3J5IjpbLTU5NDA3NDM4M119
 -->
