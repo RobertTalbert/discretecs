@@ -1,8 +1,18 @@
-- Counting the number of subsets of a set
-	- Example using 3 elements then list them 
-	- Example using 5 elements
-	- Example in general
-	- How this is like counting bit strings 
+**Ordering:**
+
+1. "Counting subsets and bit strings"
+2. "Counting the k-element subsets of a set"
+3. "Counting bit strings of weight k"
+4. "How sets and bit strings are the same"
+5. "Introducing the binomial coefficient" 
+
+---
+
+## Counting the number of subsets of a set
+- Example using 3 elements then list them 
+- Example using 5 elements
+- Example in general
+- How this is like counting bit strings 
 
 - How not to count the number of $k$-element subsets of a set 
 	- Using the multiplicative principle and 4 elements 
@@ -55,6 +65,6 @@
 - Bonus: A recursive look at why binom(n,k) is the coefficient on the kth term 
 - 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODE0NTU2OTc2LC04MzIyMjgyOCwxMDQ4MD
-c0OTA4XX0=
+eyJoaXN0b3J5IjpbOTE3Mzg2MDg3LDgxNDU1Njk3NiwtODMyMj
+I4MjgsMTA0ODA3NDkwOF19
 -->
