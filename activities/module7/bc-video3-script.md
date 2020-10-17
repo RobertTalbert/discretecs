@@ -14,7 +14,9 @@ Recursion is used in many, many real applications, for example sorting algorithm
 
 Let's see how recursion can be used to help us count the number of 5-bit strings of weight 3. First, here are a couple of examples. The key observation here is simple: Every 5-bit string of weight 3 --- in fact any 5-bit string of any weight --- has to start on the left with either a 0 or a 1. So a 5-bit string of weight 3 is one of two things: Its either a 1 followed by a 4-bit string of weight 2 (since the total weight is 3, the rest of the bits have to add up to 2) or it's a 0 followed by a 4-bit string of weight 3. 
 
-Since no 5-bit string can have with both a 1 and a 0 in the leftmost bit, the number of 5-bit strings of weight 3 will be th
+Since no 5-bit string can have with both a 1 and a 0 in the leftmost bit, the number of 5-bit strings of weight 3 will be the SUM of two things: The number of 4 bit strings of weight 2, plus the number of 4 bit strings of weight 3. This is the additive principle of counting which we haven't seen in a while. We don't have to apply the principle of inclusion-exclusion here because these two sets have no elements in common. 
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDE0MzMxNzA2LC04MTQ0NTE1NzhdfQ==
+eyJoaXN0b3J5IjpbLTIwOTk4MTgxMTYsLTgxNDQ1MTU3OF19
 -->
