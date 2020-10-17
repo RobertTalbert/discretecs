@@ -12,7 +12,11 @@ Here's a well-intention but WRONG way to do this.
 
 So we begin by creating a generic 3-element subset and leave three blanks where the elements should go. Since there are 5 elements in the main set, there are 5 ways to fill in the first blank, then 4 ways to fill in the second because repetitions aren't allowed in sets, then 3 ways to fill in the third one. Since that's a sequence of tasks, we multiply 5*4*3 to get 60 possible ways to form those sets. 
 
-This sounds good at first because it's a similar counting process to how we counted the number of subsets of a set, and the number of n-bit strings in the first video. But it's obviously 
+This sounds good at first because it's a similar counting process to how we counted the number of subsets of a set, and the number of n-bit strings in the first video. But it's wrong -- on two counts. 
+
+First of all, the number of 3-element subsets can't possibly be 60, because there only 32 possible subsets of ANY size for this 5-element set. So this number 60 is impossibly large. 
+
+And second, the reason that it's so large is that we've counted many subsets more than once. For example in this sequence-of-choices approach I could choose 1 for the first slot,  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4ODA4MTI3MTBdfQ==
+eyJoaXN0b3J5IjpbNTc0MjQwMTIxXX0=
 -->
