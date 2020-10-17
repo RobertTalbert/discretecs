@@ -30,9 +30,9 @@ We're going to use this recurrence relation to finally compute B5,3 but there's 
 
 Similarly Bn,0 is the set of all n-bit strings of weight 0, and there's only one such string, namely the string of all 0's. Therefore the number Bn0 is also 1. 
 
-So armed with the recurrence relation and these two special cases, we can now compute B53. 
+So armed with the recurrence relation and these two special cases, we can now compute B53. [[..just talk ]]] 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk4MDU0MTIxMSwxMTg5NjE0ODQ3LDMzNz
+eyJoaXN0b3J5IjpbLTU1NDg0NDY0OCwxMTg5NjE0ODQ3LDMzNz
 E0MzMwMiwtODE0NDUxNTc4XX0=
 -->
