@@ -23,6 +23,8 @@ There are 6 versions of that one subset {1,2,3} that are counted separately. In 
 We could do it this way. Start with a blank 3-element set. There are 3 choices for the first blank, 2 for the second, and 1 for the third. Since that's a sequence of choices, we can multiply the possibilities and see that there are 6 possible rearrangements of elements of a 3-element set. 
 
 So the count of 60 is off by a factor of 6 since every time a 3-element subset of {1,2,3,4,5} is chosen, the "wrong way" method counts it six times. So we can actually redeem the "wrong way" method by taking its outcome of 60 and dividing by 6, and there's the 10 that we counted by listing those subsets. 
+
+Later in this series we're going to have a more efficient way of counting these k-element subsets, but just to illustrate the concept once again, let's count a collection of subsets that would be hard to do by listing all the objects--- the number of 4-element subsets of a
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MTYzNTczMTldfQ==
+eyJoaXN0b3J5IjpbMTIzNzIzNjk4NywtMTgxNjM1NzMxOV19
 -->
