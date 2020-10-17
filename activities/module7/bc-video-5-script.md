@@ -4,7 +4,9 @@ Let's go back to counting the k-element subsets of an n-element set. We know thi
 
 Now let's look at something that on the surface appears completely different -- taking the algebraic expression x+y and raising it to the nth power. Here's what we get when n is 0, 1, 2, and 3 once we expand with algebra and simplify. Some things to notice here: 
 
-First, the exponents on the individual terms add up to the power we're raising 
+First, the exponents on the individual terms add up to the power we're raising this to. For example in the last line the exponents always add up to 3. Second, each term has a number multiplied to it that we call the "coefficient". For example the coefficient on the x^2y term in the last line is 3. The coefficient o the x^3 term is 1 although we don't write it explicitly. 
+
+Watch what happens as we take the powers higher. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcwNjE2OTIyOCwtODM1MzUzOTkwXX0=
+eyJoaXN0b3J5IjpbLTcxMjQxNDYwOCwtODM1MzUzOTkwXX0=
 -->
