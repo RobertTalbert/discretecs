@@ -16,7 +16,11 @@ Let's see how recursion can be used to help us count the number of 5-bit strings
 
 Since no 5-bit string can have with both a 1 and a 0 in the leftmost bit, the number of 5-bit strings of weight 3 will be the SUM of two things: The number of 4 bit strings of weight 2, plus the number of 4 bit strings of weight 3. This is the additive principle of counting which we haven't seen in a while. We don't have to apply the principle of inclusion-exclusion here because these two sets have no elements in common. 
 
+So  count the number of 5-bit strings of weight 3 
+
+
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwOTk4MTgxMTYsLTgxNDQ1MTU3OF19
+eyJoaXN0b3J5IjpbLTY3NzU3Mjg3OSwtODE0NDUxNTc4XX0=
 -->
