@@ -20,9 +20,9 @@ And second, the reason that it's so large is that we've counted many subsets mor
 
 There are 6 versions of that one subset {1,2,3} that are counted separately. In fact, in the "wrong way" method, every possible rearrangement of a 3-element subset is counted separately. So let's solve a different counting problem: How many possible rearrangements of a 3-element set are there? 
 
-We could do it this way. Start with a blank 3-element set. There are 3 choices for the first blank, 2 for the second, and 1 for the third. Since that's a sequence of choices, we can multiply the possibilities and see that there are 6 possible rearrangements of elements of a 3-element set. So the count of 60 is off by a factor of 6 since every time a 3-element subset of {1,2,3,4,5} is chosen, the "wrong way" method counts it six times. 
+We could do it this way. Start with a blank 3-element set. There are 3 choices for the first blank, 2 for the second, and 1 for the third. Since that's a sequence of choices, we can multiply the possibilities and see that there are 6 possible rearrangements of elements of a 3-element set. 
 
-So we can actually redeem the "wrong way" method by taking its outcome of 60 and dividing by 6, and there's the 10 that we counted by listing those subsets. 
+So the count of 60 is off by a factor of 6 since every time a 3-element subset of {1,2,3,4,5} is chosen, the "wrong way" method counts it six times. So we can actually redeem the "wrong way" method by taking its outcome of 60 and dividing by 6, and there's the 10 that we counted by listing those subsets. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NDQ5NTA1MjddfQ==
+eyJoaXN0b3J5IjpbLTE4MTYzNTczMTldfQ==
 -->
