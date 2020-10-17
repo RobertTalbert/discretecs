@@ -36,9 +36,11 @@ So armed with the recurrence relation and these two special cases, we can now co
 
 Two observations to make at this point. 
 
-First, the computation on the previous slide works, but it seems inefficient still. In fact, unless we wrote some code to do this for us, it seems like recursion is not a great way to actually count things. Instead it's a really great way to identify deep relationships between the objec
+First, the computation on the previous slide works, but it seems inefficient still. In fact, unless we wrote some code to do this for us, it seems like recursion is not a great way to actually count things. Instead it's a really great way to identify deep relationships between the objects that we're counting. So don't take all this as a kind of algorithm-- think of it more as a way of understanding the mathematical relationships between the objects. 
+
+Second, doesn't this seem familiar? The number of 5-bit strings of weight k was 10. And earlier we saw that the number of 3-element subsets of a 5-element set was also 10. Is this a coincidence? 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI4Mjk1MTc0NiwtNTU0ODQ0NjQ4LDExOD
-k2MTQ4NDcsMzM3MTQzMzAyLC04MTQ0NTE1NzhdfQ==
+eyJoaXN0b3J5IjpbLTIxMTQwMzEyMzUsLTU1NDg0NDY0OCwxMT
+g5NjE0ODQ3LDMzNzE0MzMwMiwtODE0NDUxNTc4XX0=
 -->
