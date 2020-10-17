@@ -6,9 +6,10 @@ Specifically we are going to look at the problem of counting the number of n-bit
 
 First of all by the weight of a bit string we just mean the number of 1's that are in it. Or you can think of weight as the sum of all the bits. For example here's an 8-bit string with weight 4. Some notation here. B,n,k is the set of all n-bit strings with weight k -- for example here's B,4,2 which is the set of all 4-bit strings having weight 2 and you can see that the cardinality of this set is 6. 
 
-So let's think about the cardinality of B,5,3 which is the number of 5-bit strings that have a weight of 3. We could sit down and look at all 
+So let's think about the cardinality of B,5,3 which is the number of 5-bit strings that have a weight of 3. We could sit down and look at all 2^5 or 32 possible 5-bit strings and just highlight the ones that have weight 3, but that seems inefficient and it wouldn't scale up to longer bit strings. Instead, we're going to introduce a powerful concept used throughout computer science to solve problems --- recursion. 
 
+Recursion is the process of solving a problem by reducing it to smaller or simpler copies of the same problem, that eventually terminate in a starting condition. 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjQxODg4MzM0XX0=
+eyJoaXN0b3J5IjpbLTgxNDQ1MTU3OF19
 -->
