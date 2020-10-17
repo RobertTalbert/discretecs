@@ -6,7 +6,11 @@ First of all here's what we mean by "k-element subsets of an n-element set". For
 
 If you've found all of them, you should be looking at this list. Of those 32 subsets, you can see that just 10 of them have 3 elements. So the number of 3-element subsets of a 5-element set, is 10. The number of 4-element subsets of a 5-element set is 5. And so on. 
 
-So how would we count the number of 3-element subsets of a 
+So how would we count the number of 3-element subsets of a 5-element set OTHER than by enumerating them -- that is, by listing them and counting on our fingers? We need some kind of algorithm for doing this in case we need to count a collection so large that enumeration isn't practical (like, the number of 100-element subsets of a 1000-element set). 
+
+Here's a well-intention but WRONG way to do this. 
+
+So we begin by creating a generic 3-element subset and leave three blanks where the elements should go. Si
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA5Mjg2MjU4MF19
+eyJoaXN0b3J5IjpbODA5Mzk0OTcxXX0=
 -->
