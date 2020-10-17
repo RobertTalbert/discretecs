@@ -20,7 +20,7 @@ And second, the reason that it's so large is that we've counted many subsets mor
 
 In fact, there are 6 versions of that one subset {1,2,3} that are counted separately. Every possible rearrangement of {1,2,3} is counted separately. How many of those are there? 
 
-If we were to count the number of rearrangements 
+If we were to count the number of rearrangements of {1,2,3} that are possible, we could do it this way. Start with a blank 3-element set. There are 3 choices for the first blank (either the number 1, the number 2, or the number 3), 2 for the second, and 1 for the third. Since that's a sequence of choices 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMTk4MzczNTRdfQ==
+eyJoaXN0b3J5IjpbLTEzMzQ5OTY3NDldfQ==
 -->
