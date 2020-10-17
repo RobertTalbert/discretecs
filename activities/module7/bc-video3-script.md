@@ -10,6 +10,8 @@ So let's think about the cardinality of B,5,3 which is the number of 5-bit strin
 
 Recursion is the process of solving a problem by reducing it to smaller or simpler copies of the same problem, that eventually terminate in a starting condition. 
 
+Recursion is used in many, many real applications, for example sorting algorithms. 
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgxNDQ1MTU3OF19
+eyJoaXN0b3J5IjpbODYzOTkwNTE2LC04MTQ0NTE1NzhdfQ==
 -->
