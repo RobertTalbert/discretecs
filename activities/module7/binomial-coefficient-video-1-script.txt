@@ -1,0 +1,37 @@
+Hello there. This is the first of a short sequence of videos that will introduce some very important and fundamental ideas about counting complex arrangements. 
+
+In this video, we're going to give an argument for how to count two different collections of objects: First, we'll count the number of subsets that a finite set with n elements has, and second we'll count the number of ways to form a string of bits of length n. Importantly, we're going to see that there's a deep connection between these two counting problems and that actually they are the same counting problem, and by counting one collection we count the other automatically. 
+
+Let's first look at subsets. Just a reminder of two facts about subsets: First given any set A, the empty set or null set is a subset of A, because of the underlying logic of how  "being a subset" is defined; and secondly, A is automatically a subset of itself also by the logic of the definition. 
+
+With that in mind, let's see if we can figure out a pattern in the number of subsets that a set with n elements has, by first looking at some examples. 
+
+Let's start with the simplest possible set, the empty set. You might think that the empty set has no subsets, but in fact it has exactly one: The empty set itself, because of what we mentioned on the previous slide. The empty set has zero elements, but 1 subset. 
+
+What about a set with one element? Let's just call that generic element "a". Well, this one-element set has two subsets --- the empty set, and the entire set we started with. 
+
+What about a set with two elements, which we'll call a and b? This has 4 subsets -- the empty set, both one-element proper subsets, and the entire set itself. 
+
+And you can see that if n = 3, a set with three elements has 8 subsets, and if n = 4, a set with four elements will have 16 subsets. It feels like the number of subsets is growing exponentially and that is precisely the right term to use, because all of these numbers in the rightmost column are powers of 2, and every time we add an element to our main set, we double the number of subsets it has. 
+
+So a good conjecture, which is math-speak for an "educated guess", is that if A has n elements, then it has 2^n subsets. How can we prove that this will be true for every natural number n? We can't just continue to give examples because we'll never cover all possible examples. So we need to use some logic and argumentation. Here's one argument. 
+
+A way to think about creating a subset of A is to loop through all n of its elements and essentially vote for whether to include it or not. Make a little ballot with one entry for each of the elements of A, and put a check next to that element if you want to include it in the subset and an x otherwise. All the elements that have checks under them would then go into the subset. Now, every subset of A can be created with such a ballot, so if we can count the number of possible ballots that could be made out, we'll have counted the number of subsets of A. In other words, there are exactly the same number of subsets of A, as there are ballots used to create those subsets. 
+
+So how many ballots are there? Well, filling out a ballot is a sequence of tasks. There are two outcomes for each task -- either a check or an x -- and each task is independent of the othrs. Ad there are n of them. So the multiplicative principle of counting says the number of outcomes is 2 times 2 times 2... etc until we have n 2's multiplied together. That's 2^n and that's the number of subsets of A. 
+
+
+With that counting problem solved let's look at another, namely counting the number of strings of bits --- 0s or 1s --- of length n. Well, how do you form an n-bit string? You can think of it as creating n blanks, one for each bit, and then deciding for each blank to put either a 0 or a 1 in it. How many ways are there to do this? Well, we choose 0 or 1 for each bit; This is a sequence of n tasks, all independent and each with 2 choices. So the number of ways to complete this sequence is 2^n. 
+
+Now this ought to look and feel very familiar. 
+
+In fact the ballot that we used to count subsets could very easily be thought of as a string of n bits. You can take a ballot and turn it into an n-bit string just by creating n blanks and putting a 1 in a blank if there's a check in the corresponding place on the ballot, and putting a 0 in the bit string otherwise. This way of mapping ballots onto bit strings is actually a bijection. No two different ballots get mapped to the same bitstring; and given any bit string, I can reconstruct a ballot that gets mapped to it. Since the set of ballots is finite, and there's a bijection from it to the set of n-bit strings. the set of n-bit strings has the exact same number of elements as the set of ballots, namely 2^n.
+
+
+So what we've learned here is that 
+- Every n-element set has 2^n subsets
+- There are 2^n n-bit strings 
+- And in fact there's a bijection between the set of subsets of an n-element set and the set of all possible n-bit strings. 
+- So this illustrates and important counting rule: If I can count a finite set of objects and create a bijection between it and another collection of objects, then I've counted the second collection as well. 
+
+Thanks for watching. 
