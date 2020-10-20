@@ -10,7 +10,11 @@ A: Combinations and permutations
 
 B: Combinatorial proofs 
 
-- Explain the concept of mathematical proof in general and combinatorial proof in par
+- Explain the concept of mathematical proof in general and combinatorial proof in particular
+- Explain the steps of a given combinatorial proof
+- Given a mathematical situation, make observations about it, make a conjecture, and outline a combinatorial proof. 
+
+---
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDY2Njk1NTMzLDExNjMzMjc2OTJdfQ==
+eyJoaXN0b3J5IjpbMTc1MTc0NTAwLDExNjMzMjc2OTJdfQ==
 -->
