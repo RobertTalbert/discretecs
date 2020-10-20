@@ -3,10 +3,14 @@
 A: Combinations and permutations
 
 - Determine the number of permutations of a collection of $n$ objects
-- 
+- Determine the number of $k$-permutations of $n4 objects
+- State a closed formula for ${n}\choose{k}$
+- Solve counting problems that involve combinations and permutations
 
 
 B: Combinatorial proofs 
+
+- Explain the concept of mathematical proof in general and combinatorial proof in par
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg1ODgxMjIxNCwxMTYzMzI3NjkyXX0=
+eyJoaXN0b3J5IjpbNDY2Njk1NTMzLDExNjMzMjc2OTJdfQ==
 -->
