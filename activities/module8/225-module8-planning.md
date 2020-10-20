@@ -15,6 +15,13 @@ B: Combinatorial proofs
 - Given a mathematical situation, make observations about it, make a conjecture, and outline a combinatorial proof. 
 
 ---
+
+## 8A
+
+- Determine the number of permutations of a collection of $n$ objects
+- Determine the number of $k$-permutations of $n$ objects
+- State a closed formula for ${n}\choose{k}$
+- Solve counting problems that involve combinations and permutations
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc1MTc0NTAwLDExNjMzMjc2OTJdfQ==
+eyJoaXN0b3J5IjpbLTcwMjMyNTY0OCwxMTYzMzI3NjkyXX0=
 -->
