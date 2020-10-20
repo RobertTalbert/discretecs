@@ -21,7 +21,13 @@ B: Combinatorial proofs
 - Determine the number of permutations of a collection of $n$ objects
 - Determine the number of $k$-permutations of $n$ objects
 - State a closed formula for ${n}\choose{k}$
+
+---
+
 - Solve counting problems that involve combinations and permutations
+
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcwMjMyNTY0OCwxMTYzMzI3NjkyXX0=
+eyJoaXN0b3J5IjpbLTY1NDEzNDE0NywxMTYzMzI3NjkyXX0=
 -->
