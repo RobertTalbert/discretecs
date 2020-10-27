@@ -8,9 +8,16 @@ Following Levin, do stars/bars first then PIE.
 
 A: Stars and bars
 
-- Explain 
+- Explain the kinds of problems that are solved by the stars-and-bars technique. 
 - Given a problem that is solved using the stars-and-bars technique, draw the stars-and-bars chart for it. 
 - Given a stars-and-bars for a counting problem, state the distribution of items that goes along with it. 
+- Given a counting problem, identify whether stars-and-bars applies, and if so, solve the problem. 
+
+
+B: PIE
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIyNjIyNjI3NSwtMTM5NzgxMzMwM119
+eyJoaXN0b3J5IjpbLTEwODUyODIwOTUsLTEzOTc4MTMzMDNdfQ
+==
 -->
