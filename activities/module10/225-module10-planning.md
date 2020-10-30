@@ -7,12 +7,14 @@
 - Given a sequence, generate the first 5-10 terms of its sequence of partial sums. 
 - Find a closed formula for a sequence using known closed formulas for related sequences. 
 - Given a sequence of numbers or visual patterns, write a recursive definition that generates the sequence. 
-- Write a sum or product using $\sum$ and $\prod
+- Write a sum or product using $\sum$ and $\prod$ notation; and calculate sums and products given using these notations. 
 - Determine whether a given closed formula is a solution to a recurrence relation. (<-- Maybe module 10?) 
 
 ---
 
+- State the definition of an *arithmetic* sequence, and find the common difference of an arithmetic sequence. 
+- Determine whether a given sequence is arithmetic; if it is, find closed formulas and recursive definitions for it. 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEzNTY5OF19
+eyJoaXN0b3J5IjpbLTUxMjYzMzQxMV19
 -->
