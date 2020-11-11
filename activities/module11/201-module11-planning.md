@@ -19,10 +19,12 @@ B:
 Objectives: 
 
 - Explain what it means to "solve" a recurrence relation and what a "solution" to a recurrence relation is. 
-- Given a proposed solution for a recurrence relation. 
+- Given a proposed solution for a recurrence relation, prove or disprove that it actually solves the recurrence relation. 
+- Given a sequence of integers, determine a recurrence relation for it; guess a solution; then prove or disprove that your guess is correct. 
+- 
 
 
 ## Part B planning
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzk1ODA0MDBdfQ==
+eyJoaXN0b3J5IjpbLTEzNjM1MTYyNTJdfQ==
 -->
