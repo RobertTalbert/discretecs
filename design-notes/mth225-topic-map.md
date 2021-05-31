@@ -29,7 +29,7 @@
   - Truth of quantified statements; underdetermined statements
   - Negating quantified statements 
 
-## Sets
+## Sets and Functions
 
 - Set definition and notation
   - Definition of a set; finite vs infinite sets; the empty set
@@ -42,18 +42,17 @@
   - Union
   - Difference and complement
   - Cartesian product
+- Functions
+  - Definition of a function
+  - Function properties
+    - Injective
+    - Surjective
+    - Bijective
+  - Special functions for CS
+    - Floor
+    - Ceiling
+    - `DIV` and `MOD`
 
-## Functions
-
-- Definition of a function
-- Function properties
-  - Injective
-  - Surjective
-  - Bijective
-- Special functions for CS
-  - Floor
-  - Ceiling
-  - `DIV` and `MOD`
 
 ## Combinatorics
 
@@ -78,16 +77,12 @@
 - Solving recurrence relations
   - Checking a proposed solution
   - Solving recurrence relations with characteristic roots
-
-## Mathematical induction
-
-- The Principle of (Weak) Mathematical Induction
-  - What it says/what it's for
-  - Why and how it works
-- Framework for an induction proof
-  - Identifying the predicate
-  - Establishing the base case
-  - Stating the inductive hypothesis
-  - Proving the inductive step
-- Critical analysis of an induction proof
-- Writing induction proofs
+- Mathematical induction
+  - The Principle of Mathematical Induction
+  - Framework for an induction proof
+    - Identifying the predicate
+    - Establishing the base case
+    - Stating the inductive hypothesis
+    - Proving the inductive step 
+  - Critical analysis of an induction proof
+  - Writing induction proofs
