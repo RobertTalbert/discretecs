@@ -21,6 +21,49 @@
   - Determine whether two propositions are logically equivalent by using a truth table. 
   - Explain the differences between a predicate and a proposition. 
   - Determine the domain and truth set of a predicate. 
+  - Determine the truth value of existentially and universally quantified predicates, and determine if a predicate is underdetermined.  
+  - Determine the truth value of a double-quantified predicate.
+  - State the negation of a quantified predicate.   
 - Module 3: Sets and Functions
+  - Determine whether a set is finite or infinite. 
+  - Identify "famous" sets corresponding to their notation: The empty set, the natural numbers, the whole numbers, the integers, and the rational, real, and complex numbers. 
+  - Given a set in roster form, rephrase the set in set-builder notation; and vice versa. 
+  - Given a set in either roster or set-builder form and an object, determine whether the object is a member of the set.
+  - State the definition of "subset" and given two sets, determine if one is a subset of the other. 
+  - State the definition of "equality" of sets, and given two sets, determine if they are equal. 
+  - Given a finite set, write its power set. 
+  - Given a finite set, state its cardinality. 
+  - Given two sets, find their intersection, union, difference, symmetric difference, and Cartesian product. 
+  - Given a set and its universal set, find its complement. 
+  - State the definition of a function between two sets. 
+  - Given a mapping between two sets, determine whether or not it is a function. If it is, state the domain, range, and codomain. 
+  - State the definitions of injective, surjective, and bijective functions. 
+  - Given a function between two sets, determine whether it is injective, surjective, or bijective. 
+  - Compute outputs using the floor, ceiling, factorial, `DIV`, and `MOD` functions.  
 - Module 4: Combinatorics
+  - State the Additive Principle and use it to count the number of arrangements in an appropriate setting. 
+  - State the Multiplicative Principle and use it to count the number of arrangements in an appropriate setting.
+  - Define the binomial coefficient in terms of the solution to a counting problem. 
+  - State the recurrence relation that defines the binomial coefficient. 
+  - State the closed formula for the binomial coefficient $\binom{n}{k}$ 
+  - Compute values of the binomial coefficient using recursion, Pascal's Triangle, and the closed formula. 
+  - Count the number of permutations of a group of objects and the number of $k$-permutations from a set of $n$ objects. 
+  - Use the "stars and bars" method to count the number of ways to distribute objects among a group. 
+  - State the Principle of Inclusion and Exclusion and use it to count complex arrangements. 
+  - Given a counting problem, identify which method is most appropriate which are not appropriate. 
 - Module 5: Sequences, Recursion, and Induction
+  - Compute values in a sequence defined as a closed formula. 
+  - Compute values in a sequence defined as a recurrence relation. 
+  - Given a finite sum, rewrite it using sigma notation; given sigma notation, calculate the sum. 
+  - Given a sequence, identify it as arithmetic or geometric; then find closed-form and recursive expressions for the sequence. 
+  - Determine a recurrence relation for a given recursive sequence. 
+  - Given a proposed solution for a recurrence relation, prove or disprove that it solves the relation. 
+  - Use the characteristic roots method to solve a second-order linear homogeneous recurrence relation. 
+  - State the Principle of Mathematical Induction and explain in basic terms how and why it works. 
+  - Set up the framework for a mathematical proof using Mathematical Induction: 
+    - Identify the predicate 
+    - Establish the base case
+    - State the inductive hypothesis
+    - State what should be proven in the inductive step and outline how the proof would unfold
+  - Perform a critical analysis of a written proof by mathematical induction. 
+  - Construct a clear and correct mathematical proof using mathematical induction. 
