@@ -7,10 +7,13 @@
 - Includes programming assignments
 - Needs explicit ties back to the math concepts 
 
-## Brainstorming an outline
+## Very basic outline
 
+- Fundamentals
+	- Plaintext, ciphertext, key
+	- 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE3NTIyMTk2M119
+eyJoaXN0b3J5IjpbLTEzMzE2ODcwNTZdfQ==
 -->
