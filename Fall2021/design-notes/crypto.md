@@ -11,9 +11,16 @@
 
 - Fundamentals
 	- Plaintext, ciphertext, key
-	- 
+- Specific cryptosystems
+	- Substitution ciphers
+		- Caesar; shift
+		- Cryptograms (monoalphabetic) 
+		- Decimation; affine 
+			- Valid keys for decimation cip
+Caesar; shift
+	- Mon
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMzE2ODcwNTZdfQ==
+eyJoaXN0b3J5IjpbLTIwMDEzMTQyMjFdfQ==
 -->
