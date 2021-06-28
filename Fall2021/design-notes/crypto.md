@@ -15,11 +15,23 @@
 	- Substitution ciphers
 		- Caesar; shift
 		- Cryptograms (monoalphabetic) 
+			- Number of keys for a cryptogram (*factorial*) 
 		- Decimation; affine 
 			- Valid keys for decimation cipher (*concept of GCD and Euclidean algorithm*) 
 		- Vigenere (polyalphabetic) 
 	- Transposition ciphers
-		- Rail fa
+		- Rail fence, columnar transposition, etc. 
+	- One time pad 
+	- Computer ciphers
+		- XOR 
+		- S-DES 
+	- Public-key 
+		- Kid Crypto
+		- RSA 
+		- El Gamal
+- Other crypto concepts
+	- 
+- Digital signatures 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ5MDE3ODMzOV19
+eyJoaXN0b3J5IjpbNTUxNDM4MjcxXX0=
 -->
