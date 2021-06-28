@@ -4,8 +4,11 @@
 
 - Students engage with as much or as little as desired; this will stand in for weekly homework or whatever assessment I choose. 
 - Or do I want to require some initial portion of this for all students -- then they can go deeper? 
+	- **Liking this approach** -- require the "trunk" of this minicourse for all, then open it up for further exploration as an option for showing mastery of math concepts. Give c
 - Includes programming assignments
 - Needs explicit ties back to the math concepts 
+
+
 
 ## Very basic outline
 
@@ -30,8 +33,8 @@
 		- RSA 
 		- El Gamal
 - Other crypto concepts
-	- 
-- Digital signatures 
+	- Shared secret keys 
+	- Digital signatures 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTUxNDM4MjcxXX0=
+eyJoaXN0b3J5IjpbLTEzMjQ0NTY5ODZdfQ==
 -->
