@@ -16,11 +16,10 @@
 		- Caesar; shift
 		- Cryptograms (monoalphabetic) 
 		- Decimation; affine 
-			- Valid keys for decimation cip
-Caesar; shift
-	- Mon
-
-
+			- Valid keys for decimation cipher (*concept of GCD and Euclidean algorithm*) 
+		- Vigenere (polyalphabetic) 
+	- Transposition ciphers
+		- Rail fa
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMDEzMTQyMjFdfQ==
+eyJoaXN0b3J5IjpbMTQ5MDE3ODMzOV19
 -->
