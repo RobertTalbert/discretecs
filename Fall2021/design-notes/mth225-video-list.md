@@ -10,8 +10,8 @@ Module 1 (10)
 --------
 
 Representing an integer in base 10 and base 2
-Representation in base 8 and 16 
 Algorithm for changing representations
+Representation in base 8 and 16 
 Addition in different bases
 Subtraction in different bases
 Multiplication in different bases
