@@ -1,24 +1,24 @@
 Onboarding (4)
 ----------
 
-Introduction to MTH 225
-Overview of the syllabus and course policies
-Examples of how the grading system works
-How to succeed in MTH 225
+- 0.1 Introduction to MTH 225
+- 0.2 Overview of the syllabus and course policies
+- 0.3 Examples of how the grading system works
+- 0.4 How to succeed in MTH 225
 
 Module 1 (10)
 --------
 
-Representing an integer in base 10 and base 2
-Algorithm for changing representations
-Representation in base 8 and 16 
-Addition in different bases
-Subtraction in different bases
-Multiplication in different bases
-Division in different bases
-Using two's complement to represent negative integers 
-The division algorithm
-The MOD `%` operator
+- 1.1 Representing an integer in base 10 and base 2
+- 1.2 Representation in base 8 and 16 
+- 1.3 Algorithm for changing representations
+- 1.4 Addition in different bases
+- 1.5 Subtraction in different bases
+- 1.6 Multiplication in different bases
+- 1.7 Division in different bases
+- 1.8 Using two's complement to represent negative integers 
+- 1.9 The division algorithm
+- 1.10 The MOD `%` operator
 
 Module 2 (12)
 --------
