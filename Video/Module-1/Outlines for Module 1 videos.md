@@ -16,7 +16,7 @@
 - How do computers think about numbers? 
   - Computers aren't human, don't have fingers
   - As electronic devices, they "understand" only two things: On and Off. Represented by 1 and 0. 
-  - Every piece of information in a computer is a string of 1's and 0's -- because it's two states, we call those strings "binary". 
+  - Every piece of information in a computer is a string of 1's and 0's -- because it's two states, we call those strings "binary". Each 0 or 1 = "binary digit" or "bit". 
   - Numbers have to be represented this way as well. We have 10 things to count with, computers only have 2. So we use "base 2" representation. 
 - What is base 2 representation? 
   - Exactly the same thing as base 10, only use powers of 2 instead of powers of 10. 
