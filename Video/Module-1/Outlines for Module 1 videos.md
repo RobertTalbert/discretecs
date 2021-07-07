@@ -66,6 +66,24 @@
 
 ## 1.3 Algorithm for decimal conversion 
 
++ Converting from base 2, 8, 16 is easy; converting base 8, 16 to base 2 is easy. 
++ Converting from base 10 to anything else, not as easy. 
+  + Reminder of example... how are you supposed to know how which powers of 2 are used? 
++ Simpler way that uses an efficient algorithm
+  + Algorithm = sequence of steps that computes something
+  + Reasoning by analogy: 
+    + Take a decimal number. Divide by 10 and separate the quotient and remainder. 
+    + Replace the original number with the quotient and repeat. 
+    + Continue until the remainder is 0. 
+    + This produces the decimal digits in reverse order. 
+  + Replacing the 10 with any base produces the digits of the original number in that base
++ Example: Converting to binary
++ Example: Converting to hexadecimal 
++ Doing this natively in Python 
+  + `bin` -- Output is a string with a format 
+  + `oct`
+  + `hex`
+
 ## 1.4 Addition in binary 
 
 ## 1.5 Subtraction in binary
