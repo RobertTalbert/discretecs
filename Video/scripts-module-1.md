@@ -3,11 +3,11 @@
 
 ## 1.1 
 
-This course is about the basic foundations of computer science, and there's nothing more foundational in computing than numbers. In order to do anything mathematical in computer science, our first order of business is to understand how computers handle numbers. That's what this video is about. 
+This course is about the basic foundations of computer science, and there's nothing more foundational than numbers. In order to do anything mathematical in computer science, our first order of business is to understand how computers handle numbers. That's what this video is about. 
 
-By "number", for now we're only going to mean non-negative integers. An "integer" is simply a whole number, something that isn't a fraction or decimal. So for the time being when we say "number" we mean 0, 1, 2, 3, and so on. 
+By "number", for now we're only going to mean non-negative integers. An "integer" is simply a whole number, something that isn't a fraction or decimal. So for the time being when we say "number" we mean 0, 1, 2, 3, and so on and we will leave negative numbers and fractions or decimals out of the picture for now. 
 
-Let's think first about how we as human beings think about numbers. Look at the number 275. When you were a kid, you learned that this number has three digits -- the 2, the 7, and the 5 -- and those digits appear in different places. The 5 is in the ones place, the 7 is in the tens place, and the 2 is in the hundreds place. Let's think about those "places". Notice that every "place" in a number is a power of 10: 1 is 10^0, 10 is 10^1, 100 is 10^2. 
+Let's think first about how we as human beings think about numbers. Look at the number 275. When you were a kid, you learned that this number has three digits -- the 2, the 7, and the 5 -- and those digits appear in different places. The 5 is in the ones place, the 7 is in the tens place, and the 2 is in the hundreds place. Let's think about those "places". Each "place" in a number is a power of 10: 1 is 10^0, 10 is 10^1, 100 is 10^2. 
 
 The digits are there in those places to tell you how many copies of that power of 10 to use. So 275 uses 2 hundreds, 7 tens, and 5 ones. We could write this by pulling apart the different places and writing 
 
@@ -21,23 +21,25 @@ To take another example, look at 17025. This has digits not only in the ones, te
 
 or, 1 * 10^4 + 7 * 10^3 + 0 * 10^2 + 2 * 10^1 + 5 * 10^0. 
 
-What those very simple examples illustrate is the fact that **every nonnegative integer can be written as a sum of copies of powers of 10** using the digits 0 through 9. It's also true, although not necessarily obvious, that there is *only one way* to represent a number in this way. 
+What those very simple examples illustrate is the fact that **every nonnegative integer can be written as a sum of copies of powers of 10** and the number of copies ranges from 0 to 9 (which are the digits of the number). 
 
-Why powers of 10? It's simply because we're human beings and we have ten fingers, and long ago this is how we learned to count numbers larger than 10. 
 
-When you write a number in its usual form, it's called the base 10 or decimal representation of the number. The word decimal here just refers to the fact we are using powers of 10. It doesn't mean decimals like 3.14 --- remember we're still only considering whole numbers. 
 
-Humans like you and I store and process numbers in decimal form. All the arithmetic you learned when you were a kid, for example, uses base 10 representation. Computers, on the other hand, are not human and do not have 10 fingers. Our use of base 10 representation, despite what it may look like, makes no sense to a computer. In order to do any math with a computer --- and the only thing a computer actually does, is math --- we have to learn how to translate from our world of numbers to theirs. 
+This format for writing numbers is called the base 10 or decimal representation of the number. The word decimal doesn't mean fractions like 3.14. It uses the prefix "deci" which means 10. So the decimal representation of a number is our usual way of writing things where the digits refer to copies of powers of 10, in different places. 
+
+Why do we use powers of 10? It's simply because we're human beings and we have ten fingers, and long ago this is how we learned to count. If we'd evolved to have 8 fingers, or 16, then things would have turned out differently. 
+
+Humans like you and I store and process numbers in decimal form. All the arithmetic you learned when you were a kid, for example, uses base 10 representation. Computers, on the other hand, are not human and do not have 10 fingers. Our use of base 10 representation makes no sense to a computer, despite the fact that computers seem to have no trouble working with numbers. But in fact, below the surface, in order to do any math on a computer --- and the only thing a computer actually does, is math --- we have to learn how to translate from our world of numbers to theirs. 
 
 How do we do that? 
 
-You have to understand that computers are electronic devices and so they only understand two things: On, and off. Computers process electrical pulses that have only those two states. Those two states we usually represent with either a 1 (for "on") or a 0 (for "off"). So whereas we humans have literally ten digits on our hands and therefore ten digits used for numbers, computers only have two digits. Since there are only two, we refer to this as binary rather than decimal, and the term binary digit is usually shortened to just "bit". 
+You have to understand that computers are electronic devices, so they only understand two things: On, and off. Computers process electrical pulses that have only those two states. We usually represent those two states with either a 1 (for "on") or a 0 (for "off"). So whereas we humans have literally ten digits on our hands and therefore ten digits used for numbers, computers only have two digits. Since there are only two, we refer to this as binary rather than decimal, and the term binary digit is usually shortened to just "bit". 
 
 Everything you see a computer do, including the playback of this video, your word processor, the video game you like to play --- it's all just an extremely long string of bits telling the hardware what to do. Any information processed by a computer is in binary, including numbers. So how is this done when you only have two digits? 
 
-It's done using what's called "base 2" or binary representation. Representing a number in binary is exactly the same concept as representing it in decimal, except we use powers of 2 instead of powers of 10. Here are the powers of 2 from 0 through 10. Hard-core computer people might recognize 2^10 or 1024 because this is the number of bytes in a kilobyte. 
+Just like we can write every number as a sum of copies of powers of 10, it turns out we can write any number as a sum of copies of powers of 2. When we do this, we create what's called the base 2 or binary representation of that number. Because we're going to be using powers of 2, here they are from 2^0 which is 1 all the way up through 2^11 which is 2048. Hard-core computer people might recognize 2^10 or 1024 because this is the number of bytes in a kilobyte. I highly recommend you learn these powers of 2 so that they are as  familiar to you as powers of 10. 
 
-It turns out that just as every number can be written as a sum of copies of powers of 10, we can also write any number as a sum of copies of powers of 2. Look for example at 275 again. It's harder to see this at first, but 
+Look for example at 275 again. Although it's not necessarily easy to see, we can write this number as a sum of powers of 2 like this: 
 
 275 = 256 + 16 + 2 + 1. 
 
@@ -53,7 +55,7 @@ All those are powers of 2 and there were several that we skipped. In this repres
 1 2^1 
 1 2^0
 
-In base 10 representation we only list the digits in a string and don't write the powers of 10. We do the same in base 2 or binary representation --- just list the digits. That would mean that the decimal number 275 would, in binary, be 100010011. 
+The binary representation of the number 275 is the string of digits you see in the second row: 100010011. 
 
 Notice importantly that *unlike* decimal representation where we use the digits 0 through 9, in binary the only digits we ever use are 0 and 1. We'd never see a 2, or a 5 or a 7 show up because this would simply mean we'd use a higher power of 2. It's just like how you don't see "13" show up as one of the digits in a decimal representation. 
 
@@ -63,11 +65,11 @@ Here's another example of changing a decimal number to binary: 1902. That number
 
 So we have 2^10, 2^9, 2^8, then a 2^6, 2^5, 2^3, 2^2, and 2^1 and no other powers of 2. That means the binary representation is 11101101110. 
 
-You might be wondering how we go about splitting up a decimal number into a sum of powers of 2 in the first place. It's not necessarily obvious. In a later video we're going to present a speedy algorithm for doing this which will make it easy to convert representations from base 10 to base 2 like this. 
+It's not totally clear right now how we can easily split up a number into a sum of powers of 2 like this other than through guess and check. But don't worry -- In a later video we're going to present a speedy algorithm for doing this which will make it easy to convert representations from base 10 to base 2.
 
 Notice that converting the representation in the other direction, from binary to decimal, is on the other hand pretty easy. For example look at the binary integer 10101100. This is saying this number 2^2 + 2^3 + 2^5 + 2^7 and a calculator will tell you this is the decimal number 172. Just use the bits to tell you which powers of 2 to include, find those powers of 2, then sum them up. 
 
-So in this video you've learned about how humans and computers represent numbers, in base 10 or decimal and base 2 or binary respectively, and how to translate from one representation to another. That's a big step toward being able to understand how computers and computer programs really work! See you in the next video. 
+So in this video you've learned what our primary school concept of base 10 representation means, what a binary digit or bit is, what base 2 or binary representation means, a basic first idea of how to convert an integer from decimal to binary representation (although we're going to improve on this in a later video) and how to convert from binary to decimal. That's a big step toward being able to understand how computers and computer programs really work! Congratulations and see you in the next video. 
 
 ## 1.2
 
