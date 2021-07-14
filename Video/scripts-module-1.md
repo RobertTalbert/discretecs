@@ -75,9 +75,11 @@ So in this video you've learned what our primary school concept of base 10 repre
 
 In the previous video, you learned about decimal or base 10 representation of an integer which is how humans think about numbers, and binary or base 2 representation which is how computers think about them. It turns out that binary isn't the *only* way computers represent numbers, though. There are two other number bases that are commonly used, and in this video we're going to learn about those. 
 
-We saw in the last video that the usual base 10 or decimal representation is where you think of a number as a sum of copies of powers of 10. We use 10 because most humans have 10 fingers. But what if you encountered an alien species with 8 fingers? They would probably count the same way, but their system would involve representing a number using copies of powers of 8, and only the digits 0 through 7. That's actually not science fiction, but a common way for computers to represent integers --- using this "base 8" system, also known as *octal*. 
+We saw in the last video that the usual base 10 or decimal representation is where you think of a number as a sum of copies of powers of 10. We use 10 because most humans have 10 fingers. But what if you encountered an alien species with 8 fingers? They would probably count the same way, but their system would involve representing a number using copies of powers of 8, and only the digits 0 through 7. That's actually not science fiction, but a common way for computers to represent integers.
 
-In base 8, we just write an integer as a sum of copies of powers of 8. Here are the powers of 8 from 0 through 10, for reference. If some of of these look familiar, remember that 8 is a power of 2, and so all of these are also powers of 2 which we saw last time. More on that in a minute. 
+Just as it's possible to write any number as a sum of copies of powers of 2 or 10, we can write any number (remember this means nonnegative integer for now) as a sum of copies of powers of 8. When we do this, we are using the base 8 or octal representation of that number. 
+
+Here are the powers of 8 from 0 through 11, for reference. If some of of these look familiar, remember that 8 is a power of 2, and so all of these are also powers of 2 which we saw last time. 
 
 In the last video we practiced with converting an integer from decimal to binary and vice versa. Let's do the same thing now, with octal. Look at the integer 196. This is in decimal form --- it can't be in octal because the digit "9" does not exist in octal. We can write 192 as...
 
@@ -115,7 +117,7 @@ Hexadecimal is widely used because it crunches the size of an integer down into 
 
 10110001 would be grouped as (1011)(0001) which would convert to (11)(1) or B1. Hexadecimal in other words represents a binary integer in one-fourth of its original length, which saves on storage. 
 
-Finally here's a dad joke for you. Why did the computer programmer always get Christmas and Halloween mixed up? 
+Finally here's a dad joke for you. Why did the computer scientist always get Christmas and Halloween mixed up? 
 
 It's because Oct 31 = Dec 25. 
 
