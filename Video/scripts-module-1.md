@@ -232,4 +232,4 @@ Moving to the 4's place, we have 0 - 1 which is the same situation as previously
 
 Let's do a more complex example with two eight-bit integers: 11010101 - 10010111. Again, I encourage you to pause the video and work this out before seeing the solution and try to explain to yourself what you're doing. 
 
-In decimal this is 213 minus 151 so the answer should be 62. 
+In decimal this is 213 minus 151 so the answer should be 62. su
