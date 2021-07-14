@@ -124,3 +124,56 @@ It's because Oct 31 = Dec 25.
 [sigh]
 
 OK, so in this video we learned about octal or base 8 representation, hexadecimal or base 16 representation, and how to convert back and forth between base 2, 8, 10, and 16. Next up we're going to address a missing piece, which is an algorithm to quickly convert from decimal to any of these other bases. See you there. 
+
+## 1.3
+
+So far we've learned about representing integers in different number bases, specifically base 10 which is what we learn as kids, and bases 2, 8, and 16 which are commonly used in computer science. These different number bases are a lot like different units of measurement, like how milliliters, gallons, and cups are both measures of volume, but each one is more useful in some contexts than others. One thing we need to learn to do is convert between these different ways of representing numbers. We've seen how to convert a representation from base 2, 8, or 16 to base 10 (which is pretty simple) and from base 2 to either base 8 or 16 (which is also pretty simple). Going from base 10 to any other base, on the other hand, isn't hard but it sort of felt like guesswork earlier. In this video we're going to learn an algorithm for making conversion from base 10 systematic and fast. 
+
+First of all, what does that work "algorithm" mean? The basic definition is a finite process or a set of rules that we or a computer will follow to make a computation or solve a problem. For example, in school we learned algorithms for multiplying two numbers together. In computer science we have algorithms for efficient sorting of lists, finding the shortest path through a network, and more. Algorithms are at the core of computer science and you will be visiting them regularly throughout this course and throughout your careers. 
+
+We're going to describe an algorithm that will convert a number from base 10 to base 2, and to set this up, let's consider the following process on a specific number. Take the number 2417 in base 10. 
+
+Divide this number by 10 and record the quotient (how many times 10 goes into it) and the remainder (the amount left over). If you do the long division on this (another algorithm we learned in school), 10 goes into 2419 241 times with a remainder of 7. So the quotient is 241 and the remainder is 7. Note that the remainder must be less than 10, because if the remainder is 10 or bigger we could just divide again. Record both the quotient and the remainder. Now repeat this process using the quotient 241 as the new input. Divide 241 by 10: The quotient is 24 and the remainder is 1. Record both. Now repeat the process again using the previous step's quotient as the new input: Divide 24 by 10 and you have a new quotient of 2 and a remainder of 4. Repeat again: Divide 2 by 10 and this yields a quotient of 0 and a remainder of 2. If we were to repeat this process more, we would be getting a quotient and a remainder of 0, so once we get a quotient of 0 the algorithm terminates. 
+
+Now if you look at the list of remainders we kept, these are the base 10 digits of the original number 2417 in reverse order. Repeated division by 10 in other words produces a list of the digits. 
+
+The algorithm for converting base 10 to base 2 is exactly the same algorithm we just described except we are going to divide by 2 each time rather than 10. When we divide an integer by 2, we always get a remainder of either 0 (if the number is even) or 1 (if it's odd) and never anything else. So those remainders are going to be bits. 
+
+Let's start with a simple two-digit decimal integer, 37. This is the original input. The way the conversion algorithm works is that we will repeatedly divide the input by 2, record the quotient and remainder, and then repeat that process using the previous step's quotient as the new input, and then stop when the quotient is 0. 
+
+So first, 37 / 2 is 18 with a remainder of 1. Record 18 and 1 in memory. 
+Next: 18 / 2 is 9 with remainder 0. Record those two in memory. 
+Next: 9 / 2 is 4 with remainder 1. 
+Next: 4 / 2 is 2 with remainder 0. 
+Next: 2  / 2 is 1 with remainder 0. 
+Next: 1 / 2 gives a quotient of 0 with a remainder of 1, so record those in memory but then stop since the quotient is 0.  
+
+To end the algorithm and get the binary representation, construct a string from the remainders in the reverse order in which they appeared: 100101. 
+
+Let's check to make sure this is right. 100101 is 1 2^5, 1 2^2, and 1 2^0 which is 32 + 4 + 1 and that is indeed 37 in base 10. 
+
+Now you try it. In the very first video, we converted the base 10 integer 275 to binary without this algorithm and the answer was 100010011. Pause the video, and take a few minutes to work through the algorithm to convert the bases with the algorithm. 
+
+Here's the work for this process, and you can see that it does indeed produce the right binary. 
+
+For the moment, we are going to take it on faith that this algorithm really works for every input we could throw at it. But as computer scientists, we don't want to just take algorithms on faith --- we want to be convinced that algorithms always work for any input within the scope of the program. A million examples of successful processing will not be enough for this --- we will need to reason through algorithms and explain why, in ALL cases and not just the ones we choose or observe, the algorithm works. Reasoning through algorithms independently of random testing is a major learning goal for this course and we will do so for this algorithm a little later in the course. 
+
+But do notice that this algorithm, while tedious to do by hand, is quite fast because every iteration of the loop where we divide and record the quotient and remainder cuts the input size literally in half. So although it obviously takes more steps to convert a large decimal integer than it does a small one, a number with twice as many decimal digits does not necessarily take twice as many steps. Another important concept we will be thinking about in this course is just how exactly algorithms scale up when the input size increases and how that scaling up might be modeled with mathematical functions. 
+
+Another great thing about this algorithm is that it can be modified to convert a decimal integer into ANY base, not just binary, simply by changing the number we divide by. For example if we wanted to convert the number 1982 from decimal to octal, just run the same process but divide by 8. In this case, 
+
+1982 / 8 = 247 with remainder 6
+247 / 8 = 30 with remainder 7
+30 / 8 = 3 with remainder 6 
+3 / 8 = 0 with remainder 3, stop here and list back the remainders in reverse order to get 3676 which is 1982 in octal. 
+
+Here's an example in hexadecimal that shows how fast this can be --- look at 161067 in base 10. 
+161067 / 16 = 10066 with remainder 11
+10066 / 16 = 629 with remainder 2
+629 / 16 = 39 with remainder 5
+39 // 16 = 2 with remainder 7 
+2 // 16 = 0 with remainder 2
+
+So the base 16 representation of 161067 is 2752B (remember B is the hexadecimal for the number 11).
+
+In this video, you learned an algorithm for converting from base 10 to any other base you want. And we've introduced some important concepts about algorithms -- what they are, the importance of reasoning through them, and the concept of understanding mathematically how they scale up. 
