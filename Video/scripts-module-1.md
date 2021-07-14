@@ -176,4 +176,60 @@ Here's an example in hexadecimal that shows how fast this can be --- look at 161
 
 So the base 16 representation of 161067 is 2752B (remember B is the hexadecimal for the number 11).
 
-In this video, you learned an algorithm for converting from base 10 to any other base you want. And we've introduced some important concepts about algorithms -- what they are, the importance of reasoning through them, and the concept of understanding mathematically how they scale up. 
+In this video, you learned an algorithm for converting from base 10 to any other base you want. And we've introduced some important concepts about algorithms -- what they are, the importance of reasoning through them, and the concept of understanding mathematically how they scale up. In the next few videos we're going to focus on binary representation specifically and think about how computers do basic arithmetic with base 2. 
+
+
+# 1.4
+
+As we've learned, binary or base 2 representation is how computers store and process numerical information. In fact it's how computers store and process ANY kind of information, since computers don't know how to do anything else besides math. Everything you do on a computer is the result of some mathematical processes performed on numbers written in binary. 
+
+In the next few videos we're going to learn how this works on the most basic level --- specifically by learning how to do arithmetic, which means basic addition, subtraction, multiplication, and division using numbers that are written in binary. This video focuses on addition, and then there will be videos for the other three basic arithmetic operations. 
+
+To understand how to add two binary numbers together, let's first do some VERY basic review about how we learned to add two decimal numbers together back when we were kids. Look at the sum 147 + 782. 
+
+The algorithm we learned way back in the day goes like this. First write the numbers vertically like so. THen start adding in the ones position. Here, 7 + 2 is 9 so that goes in the ones place for the answer. Then move on to the tens place. This time, the sum of the digits, 4 + 8, is 12. It would be nonsensical to write a "12" in the answer for the tens place because 12 is bigger than 10. It overflows the space. So what we do is write down the 2 (which is in the ones place of this digit sum) and "carry the 1" over to the hundreds place, where we now have three things to add: the 1 and the 7, and the additional 1 from the carry. That adds up to 9, and this doesn't overflow the space so we write it down. Therefore the answer is 929. 
+
+Adding numbers in binary uses the same principle and in some ways it's easier, because you now only have two possible digits to work with --- 0 and 1 --- rather than ten. In base 10, all addition is really carried out only on the simple digits 0 through 9. We split up and "carry" digits that are outside that range. So let's review how to add single digits together in binary. 
+
+Well, 0 in binary still means 0, so 0 + 0 = 0. And 1 still means 1, so 1 + 0 = 1 and also 0 + 1 = 1. But when we add 1 and 1, it gets a little tricky. The answer is 2, but we have to keep everything in binary at all times, so: 1 + 1 = 10 which is 2 in binary. That means when we at 1 and 1, it's going to be like adding 4 and 8 in decimal -- it generates a number that overflows a single digit, and we'll need to carry a 1. 
+
+Now we're ready to think about how computers add larger numbers in binary. Let's look at 110 + 11. In decimal, this is 6 + 3 so the answer should be 9. But we want to do this entirely in binary without changing the representation to decimal, because computers wouldn't make that change. 
+
+Just like in base 10, line these up vertically like so. 
+
+  110
++ 011
+
+I added a 0 on the left side of the second number just for padding, to show you how the two numbers line up. It's not totally necessary. 
+
+Now just like in base 10, add one place at a time starting with the ones place. Here, 0 + 1 is just 1, so that goes in the ones place for the answer. Moving to the next place (which is the "2" place, not the "tens" place) we encounter 1 + 1. As we saw above, the answer is not "2" but 10. This overflows the space, so we will write down 0 and carry the 1. Again this is exactly the same thing as adding 8 + 4 in decimal, writing down the 2 and carrying the 1. 
+
+Now in the next place (the 4's place) we have 1 + 1 + 0. That's 10. There's no other places to carry to, so we can just write down 10. So in the end we have as the result 1001, and in decimal that is indeed 9 like it's supposed to be. 
+
+Let's look at another example: 11101 + 11001.  In decimal this is 29 + 25 so the answer is supposed to be 54. I encourage you to pause the video and try working this out for yourself before watching the solution, and remember it is totally fine to make mistakes! You won't really learn anything otherwise, and nobody is watching. 
+
+So we begin by lining these up vertically and adding place by place starting with the ones place. This is 1 + 1 which is 10. Write 0 and carry the 1. In the 2's place, we have 1 + 0 + 0 which is just a 1, so write that. there's no carry here, so just move to the 4's place. This is 1 + 0 which is just a 1, so write that with no carry. then in the 8's place, we have 1+1 again, so write 0 and carry the 1. Now in the 16's place, we have 1 + 1 + 1. This is technically 3, but in binary that's 11. We're at the far left end of the number so we can't really carry anything, so we end with just 11. We arrive at the answer 110110, and if you check it, this is indeed 54 in base 10. 
+
+So congratulations, you've now learned the basics behind doing addition in binary without translating to decimal first! Now we have to tackle subtraction, which will happen in the next video. 
+
+# 1.5
+
+In the last video we learned how to do addition in binary. Next up is subtraction. Since it was helpful to first think carefully about how addition worked in base 10 arithmetic, let's begin with a look at how subtraction works in base 10. 
+
+Here's an example: 326 - 152. The way we learned it when we were kids is first, just as with addition, write these on top of each other with the larger number at the top. Then go place by place and subtract only the numbers in each place. In this example the first step is 6 - 2 which is 4, and that goes in the ones place for the answer. But when we move on to the tens place, we have to think about what to do. We have 2 - 5, but this is a negative number, and it doesn't make sense to put -3 in the tens place. So what we do is sort of the opposite of "carrying" in addition --- we "borrow". We borrow a 1 from the next place up and make that 2 into a 12. Now the subtraction makes sense: 12 - 5 is 7, so we put that down in the tens place. The final place used to be 3 - 1 but now it's 2 - 1 since we borrowed so the final answer is 174. 
+
+What exactly is going on with "borrowing"? A lot of kids learning arithmetic struggle with that concept and it's no wonder. It feels like an arbitrary rule but there's actually a basis to it. In addition we sometimes have to "carry", when for example we added 4 + 8 in the tens place. What's really happening here is that we add two single digits and get something too big for a single digit, so we split it up --- the 12 becomes 10 + 2 and we add 1 to the next place value up. Borrowing is just this in reverse --- if the subtraction on a single digit results in something too small, we grab one copy of the next place value up and combine it with the current place. 
+
+This is important because subtraction in binary also involves borrowing, but again we only have two digits to work with, 0 and 1. Let's see how this works with the example 1101 - 110. In decimal this would be 13 minus 6, so the answer should be 7. 
+
+Lining these up with the big one on top, in the ones place we have 1 - 0. this is just 1, so put that down with no extra steps needed. In the 2's place we have something to think about. 0 - 1 doesn't compute. It's analogous to having 2 - 5 in the earlier base 10 example. So here we borrow from the next place up. But it's a little tricky. Borrowing reduces the 1 that's in the 8's place to a 0.   That "1" represents a copy of 2^3 or 8. But we're borrowing it into the 4's place, so that's two copies of 4, not one copy. So when we put it in the 4's place, it's not a 1 --- it's a 10. 
+
+To understand this, go back to the decimal example. When we had 2 - 5 and borrowed a 1 from the hundreds place, the 1 represents a copy of 100, not 10. So that 1 wasn't a 1, it's a 10. That's why the 2 becomes a 12 and not a 3. 
+
+So back to binary, we have 10 minus 1, which is really 2 - 1 so the answer is just 1. 
+
+Moving to the 4's place, we have 0 - 1 which is the same situation as previously. So borrow a 1 from the 8s place, turn that 0 into a 10, and subtract to get 1. There's nothing left, so the answer is 111. In decimal, that's "7" which is what we were supposed to get. 
+
+Let's do a more complex example with two eight-bit integers: 11010101 - 10010111. Again, I encourage you to pause the video and work this out before seeing the solution and try to explain to yourself what you're doing. 
+
+In decimal this is 213 minus 151 so the answer should be 62. 
