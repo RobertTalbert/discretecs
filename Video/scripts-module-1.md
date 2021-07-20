@@ -81,13 +81,13 @@ Just as it's possible to write any number as a sum of copies of powers of 2 or 1
 
 Here are the powers of 8 from 0 through 11, for reference. If some of of these look familiar, remember that 8 is a power of 2, and so all of these are also powers of 2 which we saw last time. 
 
-In the last video we practiced with converting an integer from decimal to binary and vice versa. Let's do the same thing now, with octal. Look at the integer 196. This is in decimal form --- it can't be in octal because the digit "9" does not exist in octal. We can write 192 as...
+In the last video we practiced with converting an integer from decimal to binary and vice versa. Let's do the same thing now, with octal. Look at the integer 196. This is in decimal form --- it can't be in octal because the digit "9" does not exist in octal. We can write 196 as...
 
-192 = 3 * 64 + 0 * 8 + 4 * 1 
+196 = 3 * 64 + 0 * 8 + 4 * 1 
 
-Remember we're using powers of 8 here, and because of that we can use digits 0 through 7, we're not restricted to just 0 or 1. As with base 10 and base 2, writing 192 in base 8 means stripping off the digits and writing them in a string: 
+Remember we're using powers of 8 here, and because of that we can use digits 0 through 7, we're not restricted to just 0 or 1. As with base 10 and base 2, writing 196 in base 8 means stripping off the digits and writing them in a string: 
 
-192 in base 10 = 304 in base 8
+196 in base 10 = 304 in base 8
 
 Notice we say "three zero four" not "three hundred and four" because the "3" here is *not* hundreds. 
 
