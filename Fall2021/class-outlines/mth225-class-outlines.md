@@ -3,6 +3,25 @@
 ## Week 1
 
 - M 8/30
+  - Welcome and introductions
+    - Seat yourselves in a pod 
+    - My name
+    - Agenda for the day 
+  - Icebreaker -- what are you good at doing and how did you get there 
+  - Things you need to know now
+    - What the course is about
+    - Where things are (Bb, Calendar, Syllabus)
+    - What you'll do and how it's graded
+    - What not to worry about
+  - What's next
+    - Complete Startup assignment by ----
+    - Daily Prep for Wednesday: What to do, what's expected, what's going to happen
+  - Open AMA 
+- 
+
+
+
+
   - Welcome 
   - Icebreaker -- what are you good at doing and how did you get there 
   - Puzzle (Towers of Hanoi)
