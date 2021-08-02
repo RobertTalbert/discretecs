@@ -1,3 +1,7 @@
+---
+tags: mth225, course-documentation
+---
+
 # Specifications for Satisfactory Work in MTH 225
 
 ## Overview
@@ -13,11 +17,14 @@ Daily Prep assignments have two parts: a **pre-class** exercise set based on vid
 | Pre-class | The work is **submitted before the deadline** and <br> **every non-optional item has a response representing a good-faith effort to be right**. | 
 | In-class | At least **75%** (3/4) of the items have a correct answer. | 
 
+
+:::warning
 Please note that on the pre-class portion, a **0** is given if *any* of the following occur: 
 
 - The work is submitted after the deadline; or
 - A required item has been left blank, even if accidentally; or 
 - A required item has been given a response that indicates low effort in attempting to be right, such as an obvious guess, a frivolous answer, or an "I don't know". 
+:::
 
 ## Standards for Weekly Challenges 
 
