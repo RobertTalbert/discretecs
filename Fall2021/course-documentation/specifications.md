@@ -23,10 +23,14 @@ Please note that on the pre-class portion, a **0** is given if *any* of the foll
 
 Weekly Challenges typically consist of three kinds of work: practice exercises on basic computations, application or extension problems, and writing prompts. **Practice Exercises** are optional and are not graded. However, answers will be provided, and any work submitted for a practice exercise (even if it's partial or just a question) will receive feedback you can use to help you learn. These are for your own growth. **Application/Extension Problems** are graded on the basis of the correctness of the result and, especially and primarily, on the correctness and clarity of the explanation. **Writing Prompt** responses are evaluated based on whether you gave given a good-faith effort to provide an honest and substantive response. 
 
+
+
+:::warning
 When grading a Weekly Challenge, the entire body of work you submit is considered and given a mark of either **Satisfactory** or **Unsatisfactory**. A Weekly Challenge is considered **Satisfactory** if all of these standards are met: 
 
 - Every Application/Extension Problem has a solution that **demonstrates strong understanding of the concepts involved**, is **complete and well-communicated**, and contains **at most only a few minor errors**, none of which demonstrate gaps in understanding or communication. 
 - Every writing prompt has a response that represents a **good-faith effort at honest communication** regarding the subject and is **well-communicated**. 
+:::
 
 Some items may contain additional expectations or requirements (for example, if a problem involves computer code), and **Satisfactory** will require meeting those expectations as well as the two baseline expectations above. 
 
@@ -35,16 +39,19 @@ Some items may contain additional expectations or requirements (for example, if 
 
 Becoming "fluent" on a Learning Target, in the language of the syllabus, requires **two successful demonstrations of skill** on that target that can be done in various ways, all detailed in the syllabus. A "demonstration of skill" typically means working out a problem or small group of problems that have something to do with the skills in the learning target. Those problems will vary throughout the semester but will always focus on the same set of skills. For example, no matter how you choose to demonstrate skill on Learning Target L.3, you will always be asked to do work involving determining whether a predicate is true, determining whether a quantified predicate is true, and stating the negation of a quantified predicate --- because that's what the Learning Target says (*"I can identify the truth value of a predicate, determine whether a quantified predicate is true or false,and state the negation of a quantified statement."*)
 
+
+:::warning
 **Regardless of the precise work you do, a demonstration of skill is considered "successful" if**: 
 
 - All parts of the work you are asked to do have an attempted response. That is, you may not skip or decline to respond to a part of a problem.
 - The response contains **no more than two simple errors** (see below for a definition) and **no non-simple errors**. That is, the work can contain no significant errors that cast doubt on your skill. 
 - The response cannot *just* consist of a correct answer, unless it specifically says so --- you must also clearly communicate the thought processes that led to the answer, through clearly-written mathematical work, verbal explanations, or both. 
+:::
 
 For MTH 225, a "simple" error is defined to be **an error in logic, computation, or communication that does not pertain to the learning target and does not oversimplify the problem**. 
 
 
-In a hypothetical Algebra II class using our grading system, students are demonstrating their skill at solving quadratic equations ($ax^2 + bx + c = 0$) using the quadratic formula ($x = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a}$). On a quiz, the class is asked to do this by finding the solutions to $3x^2 + 4x + 1 = 0$. (The correct solutions are $x = -1$ and $x=-1/3$.) Here are some errors that students might do, and whether they are considered "simple" or "non-simple". 
+In a hypothetical Algebra II class using our grading system, students are demonstrating their skill at solving quadratic equations ($ax^2 + bx + c = 0$) using the quadratic formula ($x = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a}$). On a quiz, the class is asked to do this by finding the solutions to $3x^2 + 4x + 1 = 0$. (The correct answers are $x = -1$ and $x=-1/3$.) Here are some errors that students might do, and whether they are considered "simple" or "non-simple". 
 
 | Error | Simple? | Why | 
 | :---: | :--------: | :---: | 
