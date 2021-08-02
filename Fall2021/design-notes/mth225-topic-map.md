@@ -4,11 +4,10 @@
 
 - Number bases
   - Representation in base 2, 8, 10, and 16
-  - Arithmetic in base 2, 8, 10, and 16
+  - Arithmetic in binary 
 - Modular arithmetic
   - The division algorithm
   - The `MOD` (`%`) operator
-  - Arithmetic modulo $n$
 
 ## Logic
 
@@ -51,6 +50,7 @@
   - Special functions for CS
     - Floor
     - Ceiling
+    - Factorial
     - `DIV` and `MOD`
 
 

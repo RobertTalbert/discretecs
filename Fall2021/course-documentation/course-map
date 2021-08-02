@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<title>Markmap</title>
+<style>
+* {
+  margin: 0;
+  padding: 0;
+}
+#mindmap {
+  display: block;
+  width: 100vw;
+  height: 100vh;
+}
+</style>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/markmap-toolbar@0.1.5/dist/style.min.css">
+</head>
+<body>
+<svg id="mindmap"></svg>
+<script src="https://cdn.jsdelivr.net/npm/d3@6.6.0"></script><script src="https://cdn.jsdelivr.net/npm/markmap-view@0.2.3"></script><script src="https://cdn.jsdelivr.net/npm/markmap-toolbar@0.1.5/dist/index.umd.min.js"></script><script>(r => {
+                setTimeout(r);
+              })(() => {
+  const {
+    markmap,
+    mm
+  } = window;
+  const toolbar = new markmap.Toolbar();
+  toolbar.attach(mm);
+  const el = toolbar.render();
+  el.setAttribute('style', 'position:absolute;bottom:20px;right:20px');
+  document.body.append(el);
+})</script><script>((getMarkmap, getOptions, data) => {
+        const {
+          Markmap
+        } = getMarkmap();
+        window.mm = Markmap.create('svg#mindmap', getOptions == null ? void 0 : getOptions(), data);
+      })(() => window.markmap,null,{"t":"heading","d":1,"p":{"lines":[0,1]},"v":"MTH 225","c":[{"t":"heading","d":2,"p":{"lines":[2,3]},"v":"Computer arithmetic","c":[{"t":"list_item","d":4,"p":{"lines":[4,5]},"v":"Number bases","c":[{"t":"list_item","d":6,"p":{"lines":[5,6]},"v":"Representation in base 2, 8, 10, and 16"},{"t":"list_item","d":6,"p":{"lines":[6,7]},"v":"Arithmetic in binary"}]},{"t":"list_item","d":4,"p":{"lines":[7,8]},"v":"Modular arithmetic","c":[{"t":"list_item","d":6,"p":{"lines":[8,9]},"v":"The division algorithm"},{"t":"list_item","d":6,"p":{"lines":[9,10]},"v":"The <code>MOD</code> (<code>%</code>) operator"}]}]},{"t":"heading","d":2,"p":{"lines":[11,12]},"v":"Logic","c":[{"t":"list_item","d":4,"p":{"lines":[13,14]},"v":"Propositions and logic operations","c":[{"t":"list_item","d":6,"p":{"lines":[14,15]},"v":"Propositions"},{"t":"list_item","d":6,"p":{"lines":[15,16]},"v":"AND, OR, and NOT"},{"t":"list_item","d":6,"p":{"lines":[16,17]},"v":"Conditional statements, converse, contrapositive"}]},{"t":"list_item","d":4,"p":{"lines":[17,18]},"v":"Truth tables","c":[{"t":"list_item","d":6,"p":{"lines":[18,19]},"v":"Truth tables for basic logic operations"},{"t":"list_item","d":6,"p":{"lines":[19,20]},"v":"Truth tables for compound propositions"},{"t":"list_item","d":6,"p":{"lines":[20,21]},"v":"Logical equivalence"}]},{"t":"list_item","d":4,"p":{"lines":[21,22]},"v":"Predicates","c":[{"t":"list_item","d":6,"p":{"lines":[22,23]},"v":"Predicates vs. propositions"},{"t":"list_item","d":6,"p":{"lines":[23,24]},"v":"Truth set of a predicate"}]},{"t":"list_item","d":4,"p":{"lines":[24,25]},"v":"Quantification","c":[{"t":"list_item","d":6,"p":{"lines":[25,26]},"v":"Existential and universal quantifiers"},{"t":"list_item","d":6,"p":{"lines":[26,27]},"v":"Double quantified statements"},{"t":"list_item","d":6,"p":{"lines":[27,28]},"v":"Truth of quantified statements; underdetermined statements"},{"t":"list_item","d":6,"p":{"lines":[28,29]},"v":"Negating quantified statements"}]}]},{"t":"heading","d":2,"p":{"lines":[30,31]},"v":"Sets and Functions","c":[{"t":"list_item","d":4,"p":{"lines":[32,33]},"v":"Set definition and notation","c":[{"t":"list_item","d":6,"p":{"lines":[33,34]},"v":"Definition of a set; finite vs infinite sets; the empty set"},{"t":"list_item","d":6,"p":{"lines":[34,35]},"v":"Roster and set-builder notation"},{"t":"list_item","d":6,"p":{"lines":[35,36]},"v":"Elements of sets"},{"t":"list_item","d":6,"p":{"lines":[36,37]},"v":"Subsets and set equality"},{"t":"list_item","d":6,"p":{"lines":[37,38]},"v":"Power set of a set"}]},{"t":"list_item","d":4,"p":{"lines":[38,39]},"v":"Set operations","c":[{"t":"list_item","d":6,"p":{"lines":[39,40]},"v":"Intersection"},{"t":"list_item","d":6,"p":{"lines":[40,41]},"v":"Union"},{"t":"list_item","d":6,"p":{"lines":[41,42]},"v":"Difference and complement"},{"t":"list_item","d":6,"p":{"lines":[42,43]},"v":"Cartesian product"}]},{"t":"list_item","d":4,"p":{"lines":[43,44]},"v":"Functions","c":[{"t":"list_item","d":6,"p":{"lines":[44,45]},"v":"Definition of a function"},{"t":"list_item","d":6,"p":{"lines":[45,46]},"v":"Function properties","c":[{"t":"list_item","d":8,"p":{"lines":[46,47]},"v":"Injective"},{"t":"list_item","d":8,"p":{"lines":[47,48]},"v":"Surjective"},{"t":"list_item","d":8,"p":{"lines":[48,49]},"v":"Bijective"}]},{"t":"list_item","d":6,"p":{"lines":[49,50]},"v":"Special functions for CS","c":[{"t":"list_item","d":8,"p":{"lines":[50,51]},"v":"Floor"},{"t":"list_item","d":8,"p":{"lines":[51,52]},"v":"Ceiling"},{"t":"list_item","d":8,"p":{"lines":[52,53]},"v":"<code>DIV</code> and <code>MOD</code>"}]}]}]},{"t":"heading","d":2,"p":{"lines":[55,56]},"v":"Combinatorics","c":[{"t":"list_item","d":4,"p":{"lines":[57,58]},"v":"Basic counting techniques","c":[{"t":"list_item","d":6,"p":{"lines":[58,59]},"v":"Additive principle"},{"t":"list_item","d":6,"p":{"lines":[59,60]},"v":"Multiplicative principle"}]},{"t":"list_item","d":4,"p":{"lines":[60,61]},"v":"The binomial coefficient","c":[{"t":"list_item","d":6,"p":{"lines":[61,62]},"v":"As the solution to a counting problem (introduction to recursion)"},{"t":"list_item","d":6,"p":{"lines":[62,63]},"v":"As the entries of Pascal's triangle"},{"t":"list_item","d":6,"p":{"lines":[63,64]},"v":"As a formula"}]},{"t":"list_item","d":4,"p":{"lines":[64,65]},"v":"Advanced techniques","c":[{"t":"list_item","d":6,"p":{"lines":[65,66]},"v":"Combinations and permutations"},{"t":"list_item","d":6,"p":{"lines":[66,67]},"v":"Stars and bars"},{"t":"list_item","d":6,"p":{"lines":[67,68]},"v":"Principle of inclusion and exclusion"},{"t":"list_item","d":6,"p":{"lines":[68,69]},"v":"Combinatorial proofs"}]}]},{"t":"heading","d":2,"p":{"lines":[70,71]},"v":"Sequences and recursion","c":[{"t":"list_item","d":4,"p":{"lines":[72,73]},"v":"Defining and computing sequences","c":[{"t":"list_item","d":6,"p":{"lines":[73,74]},"v":"With a closed formula"},{"t":"list_item","d":6,"p":{"lines":[74,75]},"v":"With a recursive definition"}]},{"t":"list_item","d":4,"p":{"lines":[75,76]},"v":"Solving recurrence relations","c":[{"t":"list_item","d":6,"p":{"lines":[76,77]},"v":"Checking a proposed solution"},{"t":"list_item","d":6,"p":{"lines":[77,78]},"v":"Solving recurrence relations with characteristic roots"}]},{"t":"list_item","d":4,"p":{"lines":[78,79]},"v":"Mathematical induction","c":[{"t":"list_item","d":6,"p":{"lines":[79,80]},"v":"The Principle of Mathematical Induction"},{"t":"list_item","d":6,"p":{"lines":[80,81]},"v":"Framework for an induction proof","c":[{"t":"list_item","d":8,"p":{"lines":[81,82]},"v":"Identifying the predicate"},{"t":"list_item","d":8,"p":{"lines":[82,83]},"v":"Establishing the base case"},{"t":"list_item","d":8,"p":{"lines":[83,84]},"v":"Stating the inductive hypothesis"},{"t":"list_item","d":8,"p":{"lines":[84,85]},"v":"Proving the inductive step"}]},{"t":"list_item","d":6,"p":{"lines":[85,86]},"v":"Critical analysis of an induction proof"},{"t":"list_item","d":6,"p":{"lines":[86,87]},"v":"Writing induction proofs"}]}]}]})</script>
+</body>
+</html>
