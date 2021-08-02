@@ -310,3 +310,69 @@ So here is the work on this. Check your own work against this and see how you di
 In this video, you refreshed your memory about long division and learned how to apply the algorithm for long division to integers represented in binary. You now have all the tools you need to perform all the basic arithmetic that math is based on, using only binary integers. That's a major accomplishment and you should take a moment to feel good about that. 
 
 In the next video, we're going to leave the binary world for a moment and dig a little more into long division by looking at the division algorithm and the very important modulus operator, used in many different computer science applications. See you there. 
+
+
+# 1.8 
+
+In the last few videos, we've been focusing on integers in binary. For this video, though, we're switching focus back to decimal to try to understand more about division. Let's start with a simple question. At the time I am making this video, it's 10 o'clock in the morning. What time will it be 100 hours from now? Pause the video and see if you can answer that question. If you can't figure it out, that's OK, just give it a try and see what kind of tricks or methods you come up with. 
+
+Here's one way to think about this question. 24 hours from now, it will be 10:00 am again, and so every time 24 hours passes the time on the clock is the same. How many 24-hour increments happen in the space of 100 hours? One day is 24 hours; two is 48; three is 72; and four would be 96. If I went forward one more day this would be over 100 hours, so stop. 100 hours is four full days plus 4 extra hours. It's really only the 4 extra hours that matters here. In 96 hours it will still be 10:00am; in 100 hours it'll be four hours after that, or 2pm. 
+
+What does this have to do with division you ask? Well, when we divide one integer into another, we're not performing a mysterious algorithm --- we're actually doing something very simple that kids do all the time. Look for example at the problem 22 divided by 3. What this is asking is really: **How many groups of 3 can I make out of 22 things, and how many of those things would be left out of a group?** In this case, you can take 22 items and group them into 7 clusters of 3, and there would be 1 left over. So we sa that 3 "goes into" 22 7 times with a "Remainder" of 1. The quotient 7 is the number of groups; the 1 is the number of items that don't go into a gruop. 
+
+So when we asked what time it would be 100 hours from now, we thought about it by asking, how many groups of 24 hours can we make out of 100, and how many hours would be left over? The answer was that we can make 4 groups, and 4 hours are left over. In other words we solved the problem by simply dividing 100 by 24 and focusing on the remainder. 
+
+Notice that division, in this way of thinking about it, is really not a separate operation at all, but just a combination of multiplication and addition. When we divide one number by another, we ask ourselves how many times, literally "times", we need to cluster and then add on the leftovers. And notice that the leftover has to be smaller by the thing we are dividing by --- if it were larger, then we could just form another group. 
+
+The exact way of expressing this idea that division is just multiplication and addition put together, is in a mathematical fact known as the Division Algorithm. It states: 
+
+Given any two integers a and b with a nonzero, there exist unique integers q and r such that b = aq + r, and r satisfies the inequality 0 is less than or equal to r which is less than a. 
+
+We can see this in the examples we did above. This way of thinking about division is extremely powerful especially in computer science, since it means that division doesn't require new operations --- just multiplication and addition which computers are very good at doing. 
+
+There's some mathematical language in the Division Algorithm that needs unpacking. First of all notice that like an algorithm there is input --- two integers which we call a and b and we stipulate that a doesn't equal 0. Then there is output -- two integers we call q and r. Here "q" stands for quotient and "r" means remainder. The Division Algorithm states three facts about q and r. First it says they exist; regardless of the integers, as long as we aren't dividing by 0 there will always be a quotient and a remainder. This is like the requirement of any algorithm that as long as the input is valid, the algorithm should produce a valid result. Then it says that the quotient and remainder are unique --- meaning that there's only one pair that will result from the division process. It wouldn't be a very good algorithm if one set of inputs produced one set of outputs one time and another a different time. Then finally, it places a size restriction on the remainder --- it could be as small as 0 but must be less than the thing we divide by. 
+
+Let's actually think about why the Division Algorithm works. Let's say that b is bigger than a, so we have a bunch of things that we want to package into groups of size "a". Let q be the number of groups and r the number of items left unpackaged. Start a process with q = 1. This packages up a of the items, but there could be a lot left over. In fact there are b - a of the items left over. So increment q to 2, which leaves b - 2a left over and notice that b - 2a is less than b - a because you are subtracting a larger amount from b. Every time you make a new package you increase q by 1, and you are removing "a" of the items, which decreases r. Since the sequence of "r" values is strictly decreasing and consists only of nonnegative numbers, at some point, you are going to reach a point where you cannot package up any more of the items. In other words we know that regardless of what we start with, as long as a is not 0, this algorithm will always terminate. When it does, notice you have r = b - aq, which in other words is b = aq + r and r satisfies the inequality 0 <= r < a because if r were bigger than a, we would just make another package. The q is our quotient and r is the remainder. 
+
+We'll skip explaining why these two numbers are "unique" but you're encouraged to think about what would happen if you had two different values of q and two different values of r that produced the same packaging that the algorithm does. 
+
+So what the Division Algorithm says basically is that integer division is more or less just repeated subtraction. We start with a number we are dividing and a number we are dividing by, and start subtracting off the second number over and over until we can't do it anymore without entering negative territory. And that's why long division works! When we do long division, all we are doing is subtraction in chunks --- first seeing how many times we can subtract off from the largest place, then subtracting that off and seeing how many times we can subtract off from the next largest place, and so on until no more subtraction can be done. 
+
+So the Division Algorithm is a mathematically precise way to express how we do long division, without actually doing any long division. There's an important application here as well to an operation that is critical for modern computer applications as well. That operation is called the **modulus*** operation. You probably didn't learn this in school, but it's both simple and very useful. We often use the percent symbol `%` to denote it. Here's how it works: 
+
+Given two positive integers `a` and `b`, `b % a` which we read "a mod b" is the remainder that is left when you divide b by a. 
+
+For example: 37 % 10 is 7, because 37 divided by 10 is 3 with remainder 7. 
+And 100 % 24 is 4, because as we saw earlier 24 goes into 100 4 times with a remainder of 4. 
+Similarly 22 % 3 is 1 because 3 goes into 22 7 times with remainder 1. 
+
+The modulus operator has thousands of uses, including date and time calculations like we started this video with, and for example is a central tool in cryptographic methods that secure your data. 
+
+So in this video you learned that division can be thought of as repeated subtraction, and this notion culminates in the Division Algorithm, and you also learned about the modulus operator and how it works. There's just one video left in this module, and that brings us back to binary to think about how negative numbers are represented. 
+
+
+# 1.9
+
+In this video we're returning to binary, to cover a loose end that we haven't discussed. That's the question of how to represent negative numbers. All the integers we've worked with so far have been zero or positive. Can you even represent a negative number in binary? If so, how? 
+
+Let's think how we might approach that problem, with an example. We know that the decimal integer 9 is represented 1001 in binary. How might we represent -9? One approach would be to change the way we do binary representation in the first place by adding a bit onto the end of every number that holds information about its sign. For example we could take 1001 and make it 01001 if we mean positive 9 and 11001 if we mean negative 9. That would certainly distinguish 9 from -9. But it would mess up the way we do arithmetic, because if we added these two together we should get 0, but instead we get this, which is definitely NOT zero. So we'd have to completely redo all the algorithms for arithmetic, which seems like a lot of work. 
+
+But it's not a terrible idea to add a bit to a number to indicate its sign. We just need to do it in a way that makes it workable with all the arithmetic we've seen. It turns out there are multiple ways to do this in computer science, but the most common one is called "two's complement". 
+
+To begin, we first have to predefine the number of bits used to represent any integer. This is built into the hardware choices of computers, for example when you hear of a "64-bit" or "32-bit" operating system, it means that the system is designed to handle chunks of data of that size --- 64 bits at a time or 32 bits at a time. In an 8-bit system, information would be handled 8 bits at a time, so in that case the number 9 would not be 1001 but 0000 1001. The largest number an 8 bit system could handle is 1111 1111 which is 255 in decimal. 
+
+Once we know the number of bits used to represent an integer, here's how to represent a negative number using two's complement. 
+
+Start with the positive version of that number. For example we saw 9 is 0000 1001. Then first invert or flip all the bits, from 0 to 1 and 1 to 0. Then add 1 to this. The result is the two's complement binary representation of the number. 
+
+For example we saw +9 is 0000 1001. To represent -9, first flip the bits to 1111 0110. Then add 1 to get 1111 0111. That's -9. 
+
+Notice that when we add these two, we do not actually get 0 like you might expect. Instead we get 2^9. But since we are in an 8-bit system, this truncates to 0. Thanks to the 8-bit system therefore we end up with 0, as we should. This makes two's complement consistent with the rules of addition we already have. 
+
+You do the next example first, using the 8-bit integer 199. In binary this is 1100 0110. Follow the steps to write -199 in two's complement form. Pause the video and work that out, and again don't worry about mistakes. 
+
+So to get -199, first flip the bits on 199 to get 0011 1001. Then add 1: 0011 1010. That's -198. You can check if you want by adding these two binaries together, and you'll see that you again get 2^9, which in an 8-bit system is 0, which is what you are supposed to get. 
+
+Why is this method is called "two's complement"? Well, the "two" comes from the fact that we are in base 2. THe "complement" comes from the bit flipping. As we'll explore in a later module on logic, flipping bits like this is akin to changing from off to on or vice versa, or more accurately it's like changing from "true" to "false" or vice versa. The opposite of a truth value is called its "complement" in mathematics and that's the first step in the process. And as the examples we saw hint at, when we add a number x to its opposite -x, we'll always get 2^n if we are in an n-bit system, so the x and -x are "complementary" in that sense. 
+
+In this video you learned how to represent negative inegers using two's complement, which is a way of writing negative numbers that works with the binary arithmetic we've seen throughout this module. That's the end of this module on integer representation, so congratulations! Next we'll explore the world of logic and see how computers use logic to operate. 
