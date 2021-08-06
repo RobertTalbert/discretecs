@@ -10,6 +10,28 @@ So if we restrict human language only to those statements that can be validated 
 
 Statements that can be validated as true or false, are known as propositions. Although sometimes we'll just call them "Statements". A proposition in other words is a complete thought --- often a complete sentence or mathematical expression --- that has a definite and knowable truth value. Some examples include: 
 
+Lansing is the capital of Michigan. -- This is a complete sentence, and it has a definite and knowable truth value. In fact we know this statement is TRUE. 
+
+Chicago is the capital of Illinois -- Also a complete thought with a definite truth value. It's FALSE, and because we know it's false, it's a proposition. 
+
+5 + 7 = 12 -- Not an English sentence but a complete mathematical thought that has a definite truth value of TRUE. 
+
+7 - 2 = 10 -- Again, a complete thought with a definite truth value, this time FALSE. 
+
 Some non-examples (things that are NOT propositions) include: 
 
-- 
+Michigan is a beautiful state. -- This is a complete sentence, but it's an opinion or a judgment call and cannot be objectively evaluated as true or false. I think it's true, but you might not. 
+
+Let's go to Chicago. -- A complete sentence, but this is an imperative not a statement that is true or false. You can agree that you'd like to go to Chicago, but this is different from saying this statement is true. True/false values don't really make sense here. 
+
+Where is the bread? -- Also a complete sentence, but it's a question and questions don't have truth values. 
+
+x + 5 = 12. This is trickier. This is a complete mathematical thought, but we cannot tell if it's true or false because there is not enough information. This statement --- that the left side of x+5 is equal to 12 --- is true for some values of x but false for others. Without knowing which x we are talking about, it's impossible to tell whether this is true or false. So it's not a proposition; eventually we will say that this statement is underdetermined, and we'll call such things predicates. 
+
+Now you try it. Here are some statements, some of which are propositions and some of which are not. Pause the video and identify which ones are which. 
+
+...
+
+So these are the propositions here because they all have definite, knowable truth values. The others are not. This one is an interjection, this one is a question and neither of these have truth values. This one is not even a complete sentence. And this one, like the x+5=12 above, is underdetermined --- it's true for some values of the variable and false for others, so its truth value depends, which makes it not a proposition. 
+
+In this video, you learned about what logic is and why it's important for computer science, what a proposition is, and how to tell the difference between propositions and non-propositions. In the next video, we'll look at some basic ways to build complex logical propositions out of simple ones using connectives. 

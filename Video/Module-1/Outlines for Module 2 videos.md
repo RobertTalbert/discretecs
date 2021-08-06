@@ -26,7 +26,7 @@
 - AND (conjunction): A ^ B is true whenever A and B are both true, false otherwise. 
 - OR (disjunction): A v B is true if either A or B or both are true, false otherwise ("inclusive or") 
 - NOT (negation): ~A is true if A is false, ~A is false when A is true
-- Examples 
+- Examples (including code) 
 
 ## 2.3 Conditional statements 
 
