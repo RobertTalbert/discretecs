@@ -57,3 +57,32 @@ Sometimes we need a part of a program to activate if ALL of the conditions in a 
 Sometimes we need a part of a program to activate if a single proposition is NOT true. THis is a connective called a negation, and we use this symbol to denote it. Negations are different than disjunctions or conjunctions because they only work on one statement --- if you have the statement P, then ~P is its negation. The negation ~P is true when P is false and false when P is true --- it's the logical opposite of the original statement. 
 
 In this video you learned that we form complex logical statements out of atomic statements with connectives. We saw three basic connectives, "or" (disjunction), "and' (conjunction), and "not" (negation). And we learned about the concept of a truth table which allows us to see the truth values of a molecular statement as determined by the truth values of the atomic statements and by the connectives that join them. In the next video we'll look another connective, the conditional or "if-then" statement. See you there. 
+
+# 2.3
+
+In our last video, we saw how to form complex "molecular" propositions by taking small "atomic" propositions and joining them with "connectives". We looked at the connectives AND, OR, and NOT. In this video we'll look at another connective that is a little more complicated but very important. 
+
+Everywhere we turn, we run into situations that connect conditions in a cause-and-effect way. Legal systems are built on these kinds of situations. "If you drive faster than 55 mph, you will get a speeding ticket." Or, "If you steal money, you will go to jail." It's not just in the law that you see these. In your course syllabus you might see statements like "If you miss a deadline, you must ask for an extension." And we make promises all the time, for example I might tell my kids "If you clean your room, then we'll get ice cream." 
+
+All these statements have things in common. They are made up of two conditions, and if the first condition is met, then we expect the second condition to also be met. If the first condition is met but the second one isn't, then we'd consider the entire statement to be faulty, like a broken promise or an unenforced law. The connection between the conditions isn't through a single word like the and and or constructions from the last video, but through "if-then" although we do not always write the word "then". 
+
+This if-then construction is another connective, in other words, that joins two propositions into a larger one. We call these if-then statements _conditional_ statements because if a condition is met, then an action is supposed to be performed. Conditional statements are everywhere in life and in computer science, so we're going to take a very close look at these. 
+
+First, in a conditional statement, the condition to be met -- usually preceded by "if" -- is called the _hypothesis_, and the statement that follows -- often preceded by "then" -- is called the conclusion. Here you can see the hypotheses and conclusions for each of the examples we mentioned earlier. 
+
+A conditional statement is a proposition, meaning that it's a complete thought that has a definite and knowable truth value. So how do we know when a conditional statement is true? This takes some thought, so let's use a simple English example, the promise to my kids of "If you clean your room, then we'll get ice cream." It's helpful to think about when this statement is NOT true. A false conditional statement is like a broken promise. My promise to my kid is false in the situation where they do clean their room, but we do NOT get ice cream. Because in a conditional statement, any time the condition is satisfied, the action must follow. If that ever DOESN'T happen, then the conditional statement is false. 
+
+Obviously my promise to the kids is good in the situation where they do clean their rooms and then we do go get ice cream. But what happens if they don't clean their rooms? Well, my promise says nothing about what we will do if they _don't_ clean their rooms. If they don't clean their rooms and we don't get ice cream, I haven't broken my promise. But if they don't clean their rooms and we do go get ice cream anyway, I still haven't broken my promise. Again my promise only said what will happen if they DO clean their rooms. If they don't, my promise as stated lets me do whatever I want. 
+
+All conditional statemnts obey the same rules of truth --- cleaning rooms and getting ice cream are just details. In ANY conditional statement, say "If P, then Q", the truth table would look like this: 
+
+First of all if both the hypothesis and conclusion are true, then the conditional statement is true. If the kids clean their room and we then get ice cream, I've kept my promise. If you speed and then you get a ticket, the law has been enforced properly. And if the hypothesis is true and the conclusion is false then the conditional statement is false. If the kids clean their rooms but I back out of getting them ice cream, I have not kept my promise. If you speed but do not get a ticket, the law has not been enforced properly. 
+
+If the hypothesis is false, then if the conclusion is true OR if the conclusion is false, the conditional statement is still true. If my kids don't clean their rooms, I'm not breaking my promise if I get them ice cream anyway, and I'm also not breaking the promise if I don't. 
+
+So this is what the completed truth table for a conditional statement looks like. Conditional statements in other words are always true except in this one situation where the condition is met but the action doesn't follow. 
+
+In this video we learned a new connective, the if-then construction which makes a conditional statement. YOu learned that the condition is called the hypothesis and the action that follows is the conclusion. You also learned the truth table for a conditional statement and that conditional statements are always true except when the conclusion does not follow from the hypothesis. In the next video we're going to look some more at conditional statements particularly at variations on the basic if-then construction. 
+
+## 2.4
+
