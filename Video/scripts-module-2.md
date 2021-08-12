@@ -86,3 +86,26 @@ In this video we learned a new connective, the if-then construction which makes 
 
 ## 2.4
 
+In the previous video we introduced conditional statements, often in the form "If A, then B" where A and B are propositions. This makes a new proposition, which is true in all cases except when the condition, or hypothesis, is met but the conclusion does not follow. Conditional statements are so common that it's worthwhile to look at some variations on this idea, which we'll do now. 
+
+There are three statements that commonly get formed from a conditional statement. Let's start with a basic conditional statement, "If P, then Q". 
+
+First, we have the _converse_ of this statement which is "If Q, then P". The converse of a conditional statement in other words is the statement you get when you switch the hypothesis and conclusion. For example if the original statement is "If it's raining, then it's cloudy" then the converse is "If it's cloudy, then it's raining". 
+
+Next we have the _contrapositive_ of the statement which states "If not Q, then not P." The contrapositive is like the converse except we not only switch the hypothesis and conclusion but also negate each of them. If the original statement is "If it's raining, then it's cloudy" then the converse is "If it's not cloudy, then it's not raining". 
+
+Finally we have a lesser-known variation called the _inverse_ of the statement which goes "If not P then not Q". The inverse is like the contrapositive except we do not switch the hypothesis and conclusion, just negate each one. If the original statement is "If it's raining, then it's cloudy" then the converse is "If it's not raining, then it's not cloudy". 
+
+Practice this for a minute using the example from the last video: "If you clean your room, then we'll get ice cream." Pause the video and write out the converse, contrapositive, and inverse of this statement. 
+
+And here are the results! 
+
+So, why bother with these? Mostly it's because the precise structure of these conditional statements is important, and the truth value can change if we change the structure. Look at the example of "If it's raining, then it's cloudy". This seems like a true conditional statement based on our experiences. What about the truth values of the others? 
+
+The converse says "If it's cloudy, then it's raining". This is definitely NOT always the case, because it can be cloudy without it raining. Ask anybody who lives in England. So the converse of a statement is not the same thing as the original statement -- they can have opposite truth values. So you have to be careful to situate the hypothesis and conclusion propertly and not pretend they are interchangeable. 
+
+The contrapositive says "If it's not cloudy, then it's not raining". Now this seems true as well. Does this mean that a statement and its contrapositive say the same thing in different ways? We can't tell based on one example, but we'll be looking at that question in another video soon. 
+
+The inverse says "If it's not raining then it's not cloudy" This seems false, in fact it sounds almost like the converse. So first of all the inverse, like the converse, does not have the same truth value as the original --- so again, beware of the structure. But also, actually if you look at it, the inverse is what you get when you form the contrapositive of the converse. So in one way of thinking about it, we don't need to talk about the inverse, just converse and contrapositive. And it makes it all the more important that we think carefully about this contrapositive idea and whether taking a statement and forming its contrapositive is just rephrasing the original conditional statement in a superficially different way. 
+
+In this video, you learned about three logical constructions related to a conditional statement: the converse, the contrapositive, and the inverse. ANd you learned that the converse and inverse can sometimes have different truth values than the original, while the contrapositive seems like it might be just a rephrasing of the original. We need something more solid about that last point, so in the next video we're going to come back to the idea of a truth table to help us know when two statements might be logically equivalent. 
