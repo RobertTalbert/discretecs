@@ -64,10 +64,22 @@
 - If, then
 - Contrapositive 
 - Converse 
+- The concept of logical equivalence -- the converse is not logically equivalent to P -> Q but the contrapositive is 
 
 ## 2.6 Truth tables for more complex propositions
 
+- General method for making truth tables 
+  - Identify the atomic statements 
+  - Convert the molecular statements into atomic with connectives 
+  - Create rows for truth combinations: two variables = 4 rows, three variables = 8 rows, four variables = 16 rows etc. 
+  - Work from the smallest combinations to the largest ones -- use a column for each one 
+  - One column should hold the main proposition
+- Example with two variables
+- Example with three variables 
+
 ## 2.7 Logical equivalence 
+
+(Two examples of using a truth table to determine logical equivalence of complex statements, one with two variables and another with three)
 
 ## 2.8 Predicates 
 
