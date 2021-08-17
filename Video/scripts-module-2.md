@@ -74,7 +74,7 @@ A conditional statement is a proposition, meaning that it's a complete thought t
 
 Obviously my promise to the kids is good in the situation where they do clean their rooms and then we do go get ice cream. But what happens if they don't clean their rooms? Well, my promise says nothing about what we will do if they _don't_ clean their rooms. If they don't clean their rooms and we don't get ice cream, I haven't broken my promise. But if they don't clean their rooms and we do go get ice cream anyway, I still haven't broken my promise. Again my promise only said what will happen if they DO clean their rooms. If they don't, my promise as stated lets me do whatever I want. 
 
-All conditional statemnts obey the same rules of truth --- cleaning rooms and getting ice cream are just details. In ANY conditional statement, say "If P, then Q", the truth table would look like this: 
+All conditional statemnts obey the same rules of truth --- cleaning rooms and getting ice cream are just details. In ANY conditional statement, say "If P, then Q", -- and by the way, the symbol for this is an arrow that points from the hypothesis to the conclusion -- the truth table would look like this: 
 
 First of all if both the hypothesis and conclusion are true, then the conditional statement is true. If the kids clean their room and we then get ice cream, I've kept my promise. If you speed and then you get a ticket, the law has been enforced properly. And if the hypothesis is true and the conclusion is false then the conditional statement is false. If the kids clean their rooms but I back out of getting them ice cream, I have not kept my promise. If you speed but do not get a ticket, the law has not been enforced properly. 
 
@@ -92,9 +92,9 @@ There are three statements that commonly get formed from a conditional statement
 
 First, we have the _converse_ of this statement which is "If Q, then P". The converse of a conditional statement in other words is the statement you get when you switch the hypothesis and conclusion. For example if the original statement is "If it's raining, then it's cloudy" then the converse is "If it's cloudy, then it's raining". 
 
-Next we have the _contrapositive_ of the statement which states "If not Q, then not P." The contrapositive is like the converse except we not only switch the hypothesis and conclusion but also negate each of them. If the original statement is "If it's raining, then it's cloudy" then the converse is "If it's not cloudy, then it's not raining". 
+Next we have the _contrapositive_ of the statement which states "If not Q, then not P." The contrapositive is like the converse except we not only switch the hypothesis and conclusion but also negate each of them. If the original statement is "If it's raining, then it's cloudy" then the contrapositive is "If it's not cloudy, then it's not raining". 
 
-Finally we have a lesser-known variation called the _inverse_ of the statement which goes "If not P then not Q". The inverse is like the contrapositive except we do not switch the hypothesis and conclusion, just negate each one. If the original statement is "If it's raining, then it's cloudy" then the converse is "If it's not raining, then it's not cloudy". 
+Finally we have a lesser-known variation called the _inverse_ of the statement which goes "If not P then not Q". The inverse is like the contrapositive except we do not switch the hypothesis and conclusion, just negate each one. If the original statement is "If it's raining, then it's cloudy" then the inverse is "If it's not raining, then it's not cloudy". 
 
 Practice this for a minute using the example from the last video: "If you clean your room, then we'll get ice cream." Pause the video and write out the converse, contrapositive, and inverse of this statement. 
 
