@@ -109,3 +109,50 @@ The contrapositive says "If it's not cloudy, then it's not raining". Now this se
 The inverse says "If it's not raining then it's not cloudy" This seems false, in fact it sounds almost like the converse. So first of all the inverse, like the converse, does not have the same truth value as the original --- so again, beware of the structure. But also, actually if you look at it, the inverse is what you get when you form the contrapositive of the converse. So in one way of thinking about it, we don't need to talk about the inverse, just converse and contrapositive. And it makes it all the more important that we think carefully about this contrapositive idea and whether taking a statement and forming its contrapositive is just rephrasing the original conditional statement in a superficially different way. 
 
 In this video, you learned about three logical constructions related to a conditional statement: the converse, the contrapositive, and the inverse. ANd you learned that the converse and inverse can sometimes have different truth values than the original, while the contrapositive seems like it might be just a rephrasing of the original. We need something more solid about that last point, so in the next video we're going to come back to the idea of a truth table to help us know when two statements might be logically equivalent. 
+
+# 2.5
+
+So far in this module, we've been looking at logical propositions, and focusing on how we can combine simple atomic propositions using connectives to form more complex propositions. This video is the first of two in which we're going to return to the question of how to know when a complex or "molecular" proposition is true or false, and we'll use the results to answer another question from the last video about how to know if two superficially different propositions are logically the same. 
+
+Just to remind you, in logic we deal with statements that have definite and knowable truth values. Complex statements which we've called "molecular" are built up out of simple or "atomic" statements joined by logical connectives like and, or, or if-then. Remember that one of the basic rules of logic is that the truth value of a complex statement is determined only by the truth values of the simple statements that make it up and the types of connectives used -- and nothing else. 
+
+The precise rules for how to find the truth values of these complex statements are spelled out in what we called the truth tables for the connectives. A truth table for a molecular statement is a table that lists all the combinations of the truth values of the atomic statements involved, and then for each of those combinations there is listed the truth value of the molecular statement. 
+
+Here's a basic example that we saw earlier, for the conjunction or "AND" connective. This connective joins two statements, P and Q. Each of those two statements has two truth values, true or false. This gives rise to four possible combinations of truth values, which we'll list in separate rows. The conjunction produces a TRUE statement when both the inputs are true, and FALSE otherwise. This is just a summary of how the word "AND" works in our usual language. So this truth table tells you the conditions under which the conjunction is true, as determined by the truth values of the two statements involved. 
+
+What's powerful about truth tables is that the content of the atomic statements doesn't really matter --- any two statements joined by "and" will have the same truth table. This allows us to perform one of the basic conceptual leaps of computer science -- ABSTRACTION. This means that we can ignore the details of this construction and focus only on its general structure. 
+
+We also saw truth tables for disjunction or "or", as well as a truth table for conditional statements or "if-then". In each of those situations, the connective still operates on two input statements, and the final statement's truth value is determined by the truth values of the inputs. 
+
+We also saw a truth table for negation, or "not". This one was different than the others because it only works on ONE statement. But the truth value of the result is still dependent on the truth value of the input. 
+
+Computers handle many logical operations like these four using what's called a logic gate. This is often a piece of hardware that's the building block for an entire circuit that processes logical values using bits, 0 for false and 1 for true, in the form of electrical signals. For us, logic gates are a handy way to visualize what's happening in a truth table. 
+
+Here's a diagram that represents a logic gate for "and". The connective is the shape that looks like a circuit, and it has two inputs A and B. Each of these is a Boolean value, either true or false, or 1 or 0, and the output is Z. This truth table here is a binary version of the truth table you saw earlier. Down below it is the logic gate diagram for "or". And here's one for NOT. 
+
+In fact you can search and find a host of logic gate diagrams for all sorts of connectives many of which we haven't seen here. You might notice there isn't one for "if-then". Why is that? You'll have to stay tuned to the next video for that. 
+
+One very important use of truth tables is to give us a rigorous answer to the question of whether two propositions are "logically the same" even though they may look different. This came up in the last video when we noticed that a conditional statement and its converse can sometimes have opposite truth values, while the statement and its contrapositive appear to be "the same". 
+
+We say that two propositions are "logically equivalent" if they have the same final truth value in each possible combination of truth values of the simple, atomic statements that make them up. This means essentially that the two statements are "logically the same" even though they may be phrased differently. We can use truth tables to know when two statements are logically equivalent and when they aren't. Let's look at if P, then Q. Here is its truth table. Now, let's set up a truth table for its converse, If q then p. 
+
+To set up the truth table, we list the atomic statements in columns like this. I'll keep the ordering the same here with the column for P to the left of the one for Q. Now create a row for each combination of the truth values of the atomic statements. Since there are two of those, there are four truth combinations and I'll keep them in the same order as the first truth table. Then I'll make one column for the final proposition. 
+
+Now, in each row, let's use the connective to determine the truth value of the final result. The statement we're working with here is If Q then P. Very importantly here, remember that a conditional statement is true in all cases except when the hypothesis is true but the conclusion is false. It doesn't matter what the hypothesis or conclusion *are*. In this case the hypothesis is Q and the conclusion is P. So go one row at a time and determine the truth value. In the first row, P and Q are both true. So the hypothesis, Q, is true and the conclusion Q is also true. That makes the entire conditional statement true. In the second row. P is true and Q is false. This means the hypothesis of the conditional statement is false, and the conclusion is true. Remember that in such a case, the entire conditional statement is true. 
+
+Let's stop for a moment. The hard part of this process is that we have to think about how the proposition is put together in each row, and not just copy from an existing truth table. You might have wanted to put FALSE in this second row because in the truth table for if P then Q, this was FALSE. But this isn't if P then Q, it's if Q then P. So here we have to remember that Q is not the conclusion, it's the hypothesis. 
+
+Now you take a moment to fill in the last two rows of the truth table. Pause the video and then come back for a debriefing. 
+
+So in the third row, we have P false and Q true. In the conditional statement, this means that the hypothesis is true and the conclusion is false. That's the one situation where the conditional statement is FALSE so that's what we put here. Then finally in the last row, we have both statements false, in particular the hypothesis is false which remember makes the entire statement true. 
+
+Now pull back and look at both truth tables. We see here that the original conditional statement and its converse are NOT the same truth value in all the same situations. In particular here when P is true and Q is false, if P then Q is false but if Q then P is true. So that means the conditional statement and its converse are NOT logically equivalent. 
+
+What about the contrapositive? We caught a glimpse in the last video that maybe a conditional statement and its contrapositive might be logically equivalent. Are they? What does the truth table for the contrapositive look like? Stick around to the next video to find out. 
+
+# 2.6 
+
+- Contrapositive
+- General principle of building multi-step truth tables
+- Example
+- Example
