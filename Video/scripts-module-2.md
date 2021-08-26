@@ -134,7 +134,9 @@ In fact you can search and find a host of logic gate diagrams for all sorts of c
 
 One very important use of truth tables is to give us a rigorous answer to the question of whether two propositions are "logically the same" even though they may look different. This came up in the last video when we noticed that a conditional statement and its converse can sometimes have opposite truth values, while the statement and its contrapositive appear to be "the same". 
 
-We say that two propositions are "logically equivalent" if they have the same final truth value in each possible combination of truth values of the simple, atomic statements that make them up. This means essentially that the two statements are "logically the same" even though they may be phrased differently. We can use truth tables to know when two statements are logically equivalent and when they aren't. Let's look at if P, then Q. Here is its truth table. Now, let's set up a truth table for its converse, If q then p. 
+We say that two propositions are "logically equivalent" if they have the same final truth value in each possible combination of truth values of the simple, atomic statements that make them up. This means essentially that the two statements are "logically the same" even though they may be phrased differently. 
+
+We can use truth tables to know when two statements are logically equivalent and when they aren't. Let's look at if P, then Q. Here is its truth table. Now, let's set up a truth table for its converse, If q then p. 
 
 To set up the truth table, we list the atomic statements in columns like this. I'll keep the ordering the same here with the column for P to the left of the one for Q. Now create a row for each combination of the truth values of the atomic statements. Since there are two of those, there are four truth combinations and I'll keep them in the same order as the first truth table. Then I'll make one column for the final proposition. 
 
