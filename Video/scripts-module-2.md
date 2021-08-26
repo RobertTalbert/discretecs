@@ -112,7 +112,7 @@ In this video, you learned about three logical constructions related to a condit
 
 # 2.5
 
-So far in this module, we've been looking at logical propositions, and focusing on how we can combine simple atomic propositions using connectives to form more complex propositions. This video is the first of two in which we're going to return to the question of how to know when a complex or "molecular" proposition is true or false, and we'll use the results to answer another question from the last video about how to know if two superficially different propositions are logically the same. 
+So far in this module, we've been looking at logical propositions, and focusing on how we can combine simple atomic propositions using connectives to form more complex propositions. In this video we're going to return to the question of how to know when a complex or "molecular" proposition is true or false, and we'll use the results to answer another question from the last video about how to know if two superficially different propositions are logically the same. 
 
 Just to remind you, in logic we deal with statements that have definite and knowable truth values. Complex statements which we've called "molecular" are built up out of simple or "atomic" statements joined by logical connectives like and, or, or if-then. Remember that one of the basic rules of logic is that the truth value of a complex statement is determined only by the truth values of the simple statements that make it up and the types of connectives used -- and nothing else. 
 
@@ -156,3 +156,9 @@ What about the contrapositive? We caught a glimpse in the last video that maybe 
 - General principle of building multi-step truth tables
 - Example
 - Example
+
+# 2.7
+
+- More generally -- if two statements have the same overall values in their truth tables in all the same logical combinations, they are logically equivalent
+- Example of how to see this from completed truth tables
+- Example of determining this -- use DeMorgan's laws
