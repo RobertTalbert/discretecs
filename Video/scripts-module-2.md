@@ -154,6 +154,31 @@ What about the contrapositive? We caught a glimpse in the last video that maybe 
 
 # 2.6 
 
+In the last video we learned about truth tables and how they can be used to determine if two statements are logically equivalent. In this video we're going to extend that idea to think about how to construct a truth table for a proposition that has a more complicated structure than just a basic connective. 
+
+We ended that video wondering about If P, then Q and its contrapositive which is If not Q  then not P. Let's build a truth table for that contrapositive and see if it's really logically equivalent to the original. Making this truth table is going to be harder this time because more is happening in the contrapositive than just switching the hypothesis and conclusion. There are two intermediate steps: First we negate the hypothesis and then we negate the conclusion and then we switch them. In order to keep careful track of what's happening, in the truth table for the contrapositive I'm going to create columns for the atomic statements P and Q, and a column for the final proposition if not Q then not P, but I am also going to create two other columns, one for each of the intermediate steps, negating P and negating Q. 
+
+Just as in the last video, I'll make one row for each of the combinations of truth values of the inputs. I'll put these in the same order as we did then. Next, rather than look directly at the final proposition, I'll do the intermediate steps first. In the column for not P, I'm just looking at the truth value for P and putting down its opposite. And then I'll do the same in the column for not Q. 
+
+And now I'm looking at the contrapositive. This has "not Q" as the hypothesis and "not P" as the conclusion. Remembering that a conditional statement is true in all cases except where the hypothesis (which this time is "not Q") is true but the conclusion (which is "not P" this time) is false, I can see that the final proposition is false in this row, where again not Q is true but not P is false. In all other rows, either the hypothesis is false (as in rows 1 and 3) or both hypothesis and conclusion are true (in row 4) so those result in TRUE. 
+
+Now looking back at the truth table for If P then Q, I can see that the outputs are the same in each possible combination of truth values. That means every conditional statement is logically equivalent to its contrapositive. 
+
+So, making a truth table for a complex proposition is a little like doing an arithmetic calculation with a lot of parentheses and operations. In this calculation here for example, we'd use natural order of operations to do the computations in parentheses first, then exponents, then multiplication, and finally the addition. We build up the computation from the lowest level gradually to the highest level. Similarly when making a truth table for a proposition with a lot of parts, we work from the lowest level and gradually assemble the entire proposition, using separate columns in the truth table to keep track of the intermediate steps. 
+
+Let's look at another example: (not P) or Q. Let's set up the rows and columns of the truth table. First there's two columns for the input variables P and Q. Now building from the lowest level up, I'll need a column for "not P", then a column for the final statement (not P) or Q. Pause the video here and see if you can fill in the rest of the truth table. 
+
+We put in four rows for the combinations of truth values of two variables, like so. We fill in the truth table from the lowest level first. That's "not P", which is just the opposite of whatever truth value P has. Now to get that last column, we remember that a disjunction is true when one or both of the parts is true. That means we should put false here, in row 2, and true everywhere else. So here's the final result. 
+
+If that looks familiar, then you're paying attention, because this is the same truth table as if P, then Q. That means that If P then Q is logically equivalent to (Not P) or Q. And that's why when we looked at logic gates earlier, we didn't see one for a conditional statement --- it's because we didn't need one. We can just chain together the logic gate for NOT with the logic gate for OR. 
+
+Now let's look at one more example. You might have wondered in the last example whether the parentheses around "not P" were necessary. Well, if you leave them off, you get this, which might be interpreted as not (P or Q), that is the negation of the entire statement "P or Q". Is that statement logically equivalent to (not P) or Q? Pause the video and make a truth table for not (P or Q) and find out. 
+
+To set up the truth table, as always we'll include two columns for the input variables. This time there's still an intermediate step, but it's to form P or Q first. Then the final step is to negate the statement P or Q. As before, there are two inputs so that's four combinations of truth values, and we'll put those in as we've been doing. Now let's work from the bottom up. First look at P or Q. This will have a FALSE here, in row 4, and TRUE elsewhere. Now in the final column, we are negating all that, so we simply flip the truth values to get False, False, False, True. That's a complete and correct truth table. And you'll notice it's definitely not the same as the truth table for (not P) or Q, so those two statements are not logically equivalent. Which tells us that parentheses do matter here. 
+
+In this video and in the last one, you learned how to make a truth table for a logical proposition with two atomic inputs, even when there are intermediate steps involved, and how to use those truth tables to determine logical equivalence of propositions. The next video is one more look at truth tables, and we'll raise the level of complexity to look at propositions with multiple intermediate steps as well as those with three and even four input variables. 
+
+
 - Contrapositive
 - General principle of building multi-step truth tables
 - Example
