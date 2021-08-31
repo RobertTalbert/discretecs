@@ -200,7 +200,9 @@ So now that the hypothesis of the main proposition is present, let's work on the
 
 Let's now fill in each of those columns one at a time. The column for not Q is easy since it's just the opposite of whatever truth value appears in Q. Similarly, not P is the opposite of P. 
 
-Now, for "P or not Q", we have a disjunction. A disjunction is true whenever one or both of the statements involved is true, and false otherwise. The two statements involved are P, and "not Q" so look at those. 
+Now, for "P or not Q", we have a disjunction. A disjunction is true whenever one or both of the statements involved is true, and false otherwise. The two statements involved are P, and "not Q" so look at those. Given the information in those two columns, which we already built, we should have TRUE in rows 1, 2, and 4 and FALSE in row 3. 
+
+Now let's do the column for "(not P) and Q". This is a conjunction, which we know is true whenever both statements involved are true and false otherwise. The statements involved are "not P", and "Q" so look at those columns. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYzMzUwMDYzMF19
+eyJoaXN0b3J5IjpbMTQzNTY1NjM3OV19
 -->
