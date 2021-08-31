@@ -202,7 +202,9 @@ Let's now fill in each of those columns one at a time. The column for not Q is e
 
 Now, for "P or not Q", we have a disjunction. A disjunction is true whenever one or both of the statements involved is true, and false otherwise. The two statements involved are P, and "not Q" so look at those. Given the information in those two columns, which we already built, we should have TRUE in rows 1, 2, and 4 and FALSE in row 3. 
 
-Now let's do the column for "(not P) and Q". This is a conjunction, which we know is true whenever both statements involved are true and false otherwise. The statements involved are "not P", and "Q" so look at those columns. 
+Now let's do the column for "(not P) and Q". This is a conjunction, which we know is true whenever both statements involved are true and false otherwise. The statements involved are "not P", and "Q" so look at those columns. They are both true in row 3, otherwise at least one of them is false. So we have TRUE in row 3 and FALSE elsewhere. 
+
+Finally we're ready to fill in the column for the main proposition. This is a conditional statement, and remember, these are true in every situation except where the hypothesis is true and the conclusion is false. The hypothesis in this case is "P or not Q". The conclusion is "(not P) and Q". In row 1, the hypothesis is true and the conclu
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQzNTY1NjM3OV19
+eyJoaXN0b3J5IjpbMTMzNzc1NjYxN119
 -->
