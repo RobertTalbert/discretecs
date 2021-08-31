@@ -92,10 +92,16 @@
 - So predicates are like tiny little computer programs where you put in data of a certain type, and the output is a Boolean value TRUE or FALSE. More formally, a predicate is a *function* from a set into the set containing the two values TRUE or FALSE. Will talk more about functions later. 
 - Other examples
 	- "The length of S is 10"
+	- The variable is S. The domain is all strings. 
+	- Like this Python program: 
+```python
+def string_is_ten(S):
+	return len(S) == 10
+```
 
 ## 2.9 Quantification 
 
 ## 2.10 Double quantification and negation 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEyOTcxNDQyNV19
+eyJoaXN0b3J5IjpbMTc5MzIxMTddfQ==
 -->
