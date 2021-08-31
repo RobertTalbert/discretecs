@@ -216,7 +216,9 @@ Adding R into the mix here *doubles* the number of rows we need. There is one co
 
 Now that we have the eight rows needed, we can start putting the proposition together just like usual. Pause the video and try to set up the columns we'll need, and if you're feeling adventurous, go ahead and try to complete the table you get! 
 
-It looks like we'll need a column for not Q, a column for (P and not Q), and then a column for the main proposition. Let's build it up one piece at a time. Not Q is just the opposite of Q. "P and (not Q)" is a conjunction, true whenever both statements involved are true so that 
+It looks like we'll need a column for not Q, a column for (P and not Q), and then a column for the main proposition. Let's build it up one piece at a time. Not Q is just the opposite of Q. "P and (not Q)" is a conjunction, true whenever both statements involved are true so that we should have TRUE in rows 2 and 6 and FALSE elsewhere. In the final column, it's a conditional statement which we know is FALSE when the hypothesis is true but the conclusion is false, and this happens in line 6 only. Everywhere else either the hypothesis is false or both statements are true, so there's TRUE there. 
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NTAxNjg1NF19
+eyJoaXN0b3J5IjpbLTQ2Mjc4MDQ0MF19
 -->
