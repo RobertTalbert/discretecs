@@ -99,11 +99,13 @@ def string_is_ten(S):
 	return len(S) == 10
 ```
 - Another example 
-	- "Prof. A 
+	- "Prof. A has a beard" 
+	- Variable is "A", domain -- depends, needs to be specified. "Profs in the GVSU math department". 
+	- A = Talbert gives TRUE. A = 
 
 ## 2.9 Quantification 
 
 ## 2.10 Double quantification and negation 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc2NzI3NTE5NF19
+eyJoaXN0b3J5IjpbLTk2NTUxMjk2MV19
 -->
