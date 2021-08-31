@@ -83,6 +83,13 @@
 
 ## 2.8 Predicates 
 
+- Example: "x is an even number"
+	- Not a proposition because the truth value can't be determined without x. It's true for some x and false for others. 
+	- An example of a **predicate**
+
 ## 2.9 Quantification 
 
 ## 2.10 Double quantification and negation 
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbOTY4ODM5MDQzXX0=
+-->
