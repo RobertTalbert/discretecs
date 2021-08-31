@@ -186,6 +186,9 @@ In this video and in the last one, you learned how to make a truth table for a l
 
 # 2.7
 
-- More generally -- if two statements have the same overall values in their truth tables in all the same logical combinations, they are logically equivalent
-- Example of how to see this from completed truth tables
-- Example of determining this -- use DeMorgan's laws
+We've been looking at truth tables as a way to tell when a complex, molecular statement is true based on the truth values of the inputs. In the last video we saw how to make a truth table for a proposition that has intermediate steps. In this video, we'll wrap up our initial discussion of truth tables to look at two-variable statements that have multiple intermediate steps, and statements that have three variables. 
+
+Let's begin by looking at the proposition "If (P or not Q), then (
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbLTQ0OTU0MzkxN119
+-->
