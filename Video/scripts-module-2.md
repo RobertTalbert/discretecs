@@ -192,7 +192,7 @@ Let's begin by looking at the proposition "If (P or not Q), then ((not P) or Q)"
 
 We'll begin as we normally do, by setting up one column for each of the input variables. Then let's go ahead and make a row for every combination of the truth values of those inputs. Since there are two inputs, there will be four combinations and I'm going to put those here in the same order as we have been doing. 
 
-Now we need to
+Now, just like when we looked at the contrapositive in the last video, we need to build up the main proposition from the bottom up, like we would do an arithmetic computation with a lot of nested calculations. We'll make one column for each "level" of the statement. Looking from left to right in the main proposition, I can see that we'll need a column for "not Q". I'll also need a column for "not P" and I could do 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE3MjQ0NjY5NF19
+eyJoaXN0b3J5IjpbOTA0NTg0MzU1XX0=
 -->
