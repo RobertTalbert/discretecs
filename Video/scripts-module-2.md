@@ -188,7 +188,11 @@ In this video and in the last one, you learned how to make a truth table for a l
 
 We've been looking at truth tables as a way to tell when a complex, molecular statement is true based on the truth values of the inputs. In the last video we saw how to make a truth table for a proposition that has intermediate steps. In this video, we'll wrap up our initial discussion of truth tables to look at two-variable statements that have multiple intermediate steps, and statements that have three variables. 
 
-Let's begin by looking at the proposition "If (P or not Q), then (
+Let's begin by looking at the proposition "If (P or not Q), then ((not P) or Q)". This proposition has a bit more complexity than some of the others here and it's not obvious at all when this statement should be true. So let's make a truth table for it. 
+
+We'll begin as we normally do, by setting up one column for each of the input variables. Then let's go ahead and make a row for every combination of the truth values of those inputs. Since there are two inputs, there will be four combinations and I'm going to put those here in the same order as we have been doing. 
+
+Now we need to
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ0OTU0MzkxN119
+eyJoaXN0b3J5IjpbMTE3MjQ0NjY5NF19
 -->
