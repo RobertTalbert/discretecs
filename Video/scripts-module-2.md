@@ -212,7 +212,9 @@ But now let's look at something different the statement "If P, then (Q or R)". W
 
 We are still going to need a column for each of the atomic variables here, so one thing that's different is that there are three of those this time. Now, what we need is one row for each of the combinations of truth values of these statements. How many rows should there be? Let's think about it. If we only looked at P and Q and ignored R for the time being, there would be four -- namely these four. 
 
-Adding R into the mix here *doubles* the number of rows we need. There is one copy of these four rows needed for the case when R is true, and another four rows needed when R is false. That's a total of eight rows. That will be the case whenever we have three atomic variables, again because we need four rows for two variables and then two copie
+Adding R into the mix here *doubles* the number of rows we need. There is one copy of these four rows needed for the case when R is true, and another four rows needed when R is false. That's a total of eight rows. That will be the case whenever we have three atomic variables, again because we need four rows for two variables and then two copies of those four rows, one for each truth value of the new variable. In fact there's a general principle here: Adding a new variable doubles the number of rows needed in the truth table. If we had a statement with four variables, we'd need 16 rows --- one copy of these eight rows for when the new variable is true, a second copy for when the new variable is false. 
+
+Now that we have the eight rows needed, we can start put
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMzMzNjg4NDddfQ==
+eyJoaXN0b3J5IjpbLTE4Nzg2OTQzOTRdfQ==
 -->
