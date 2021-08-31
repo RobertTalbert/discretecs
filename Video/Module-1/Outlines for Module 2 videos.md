@@ -101,11 +101,16 @@ def string_is_ten(S):
 - Another example 
 	- "Prof. A has a beard" 
 	- Variable is "A", domain -- depends, needs to be specified. "Profs in the GVSU math department". 
-	- A = Talbert gives TRUE. A = 
+	- Sometimes true, sometimes false. 
+- Another
+	- $xy > 0$, where x,y are any real numbers. 
+	- This one has two variables. Unless we know values for both x and y, there's not enough info to know true/false -- we say it's underdetermined. 
+	- Domain is the set of real numbers. 
+	- x = -2, y = 
 
 ## 2.9 Quantification 
 
 ## 2.10 Double quantification and negation 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk2NTUxMjk2MV19
+eyJoaXN0b3J5IjpbNzM0MTE1MzFdfQ==
 -->
