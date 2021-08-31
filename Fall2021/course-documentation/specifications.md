@@ -1,70 +1,179 @@
----
-tags: mth225, course-documentation
----
+# About the MTH 225 Grading Setup
 
-# Specifications for Satisfactory Work in MTH 225
+This document is intended to give details, explanations, and examples of the grading system used in MTH 225 to supplement the course syllabus. Please make sure to read or re-read the syllabus for the basics, otherwise not much here will make sense. 
 
-## Overview
+## The basic idea behind grading in MTH 225
 
-As the syllabus details, your work in MTH 225 is graded on a two-level scale: Either 1 or **Satisfactory** if the work meets our class' standards for quality, or 0 or **Unsatisfactory** if it does not meet those standards. **This document gives the details of those standards for every piece of work in the course.** Next to the syllabus and the calendar, this is therefore the most important document for the course. You need to make sure you read it carefully and refer back to it regularly as you work. **Use this document as a "pre-flight" checklist** to self-evaluate your work before you hand it in; this will improve your work dramatically and save you lots of time having to revise Unsatisfactory work. 
+The grading system in MTH 225 is based on two facts about learning and grades: 
 
-## Standards for Daily Prep assignments
+1. **Learning takes place over time through feedback loops.** Whether you're learning the guitar, how to bake bread, how to program in JavaScript, or anything else, the story is the same: You learn by doing and making mistakes, then getting good feedback from others, then thinking about that feedback and trying again. If you do this right, then *eventually* you will learn. 
+2. **Grades in a course ought to accurately reflect what you have learned in the course, by the end of the course.** Otherwise what's the point of having grades at all? 
 
-Daily Prep assignments have two parts: a **pre-class** exercise set based on videos and reading, and an **in-class** group quiz over the same material. 
+The grading setup in MTH 225 is entirely based on these two principles. Everything you do in the course[^1] is intended to **get you into a feedback loop where you try something, get feedback, then try again**; and **your grade in the course is based on what you *eventually* learn** through this process, not through one-and-done tests that only look at a single point in time. 
 
-| Part | Earn **1** if: | 
-|:---: | :-----------: | 
-| Pre-class | The work is **submitted before the deadline** and <br> **every non-optional item has a response representing a good-faith effort to be right**. | 
-| In-class | At least **75%** (3/4) of the items have a correct answer. | 
+I started using grading systems like this seven years ago after teaching a Calculus class where I had one student who was extremely bright but, consistently required two weeks longer than the rest of the class to "get" the material. They ended up failing the class because of it, and I swore never to let that happen again. ([Read more about my origin story here](https://gradingforgrowth.substack.com/p/entering-the-feedback-loop-roberts).)
 
+## Why aren't we using points and percentages? Isn't that simpler? 
 
-:::warning
-Please note that on the pre-class portion, a **0** is given if *any* of the following occur: 
+Traditional points-based approaches might be simpler, but they *oversimplify* and lose a huge amount of fairness and accuracy in the process. Here's a story to explain. 
 
-- The work is submitted after the deadline; or
-- A required item has been left blank, even if accidentally; or 
-- A required item has been given a response that indicates low effort in attempting to be right, such as an obvious guess, a frivolous answer, or an "I don't know". 
+Alice and Bob are two students in a math class. The grade in the class is entirely determined by the average of five 100-point tests. Each test is *cumulative*, so Test 2 contains material from Test 1 plus new stuff, Test 3 contains material from Tests 1 and 2 plus new stuff, and so on. Alice and Bob's test performances over the semester are: 
+
+|  | Test 1 | Test 2 | Test 3 | Test 4 | Test 5 | 
+| :--: | :--: | :--: | :--: | :--: | :--: | 
+| Alice | 0 | 0 | 100 | 100 | 100 | 
+| Bob | 60 | 60 | 60 | 60 | 60 | 
+
+So Alice struggled initially but eventually not only figured things out but showed strong mastery of the material. Bob, on the other hand, started mediocre and stayed there --- he actually never shows what we'd call "mastery" of the material. 
+
+What grade do you think is fair for each student? It looks like Alice should earn an "A" in the class because she eventually mastered the material, and Bob should have a "D" because he earned 60% on each test. **But under a points/percentages system they both earn the same grade: 60%, or D.** 
+
+So points and percentages based on averages might be *simpler*, but they mask over a fundamental unfairness built into the system that you just can't escape. They do a terrible job at surfacing differences between a person who struggles initially but eventually learns and a person who never grows. 
+
+## How it works in MTH 225 instead
+
+In MTH 225, your grade is based on how much you *eventually* learn, and you have the entire semester to demonstrate what you have learned. When you turn in an assignment other than a Daily Prep --- that is, a Weekly Challenge or some attempt at demonstrating skill on a Learning Target --- here's what happens. 
+
+* Your work is evaluated by me, using standards for acceptable work that are laid out in detail in the [Specifications for Satisfactory Work in MTH 225](/Cy6P0rGZQzuOM3NwZ3ZuMw) document. Based on my professional judgment as a content expert in mathematics, I'll either determine that your work meets the standards, or that it doesn't. (This information will show up in the Blackboard gradebook in various ways explained in the syllabus.)
+* If it does meet the standard, you're done, congratulations. Otherwise you will get detailed feedback on what you did well and what needs further work. 
+* Then, using the guidelines in the "Feedback and Revision" section on page 5 of the syllabus, you can reflect on the feedback and then submit a revision of the work. 
+* Then this process starts all over again. 
+
+So your grade in other words is based on the outcome of a loop. If you'll pardon the terrible pseudocode: 
+
+```
+while (standard_is_met = FALSE): 
+    student.read(feedback)
+    attempt = revision_of_previous_attempt
+    student.submit(attempt)
+    instructor.grade(attempt)
+    if attempt.meets_standards: 
+        standard_is_met = TRUE
+```
+
+This is the "feedback loop" we keep mentioning. Please note, there are other restrictions that can break this loop, for example Weekly Challenges can only be reattempted twice. The syllabus details all those exceptions. 
+
+:::success
+:warning: **There is no penalty for doing work that doesn't meet the standards.** You don't "lose points" because what are points? The only thing that happens, is that you will want to reflect on my feedback and try again. Otherwise **work that does not meet standards has no impact on your grade**. (Seriously!)[^3]
 :::
 
-## Standards for Weekly Challenges 
+## Cool! But wait, there's no partial credit??!
 
-Weekly Challenges typically consist of three kinds of work: practice exercises on basic computations, application or extension problems, and writing prompts. **Practice Exercises** are optional and are not graded. However, answers will be provided, and any work submitted for a practice exercise (even if it's partial or just a question) will receive feedback you can use to help you learn. These are for your own growth. **Application/Extension Problems** are graded on the basis of the correctness of the result and, especially and primarily, on the correctness and clarity of the explanation. **Writing Prompt** responses are evaluated based on whether you gave given a good-faith effort to provide an honest and substantive response. 
+Correct, because there's no "credit" to begin with. It's binary: Your work either meets the standard or it doesn't. 
+
+This might be terrifying to those who got through school by gaming the system, leveraging partial credit to use competence in one topic to paper over incompetence in another. But at the university level, this is not only unethical but also dangerous. Would you like your heart surgeon or the engineer who built the plane you're riding on to have gotten their degrees this way?
+
+**Here in MTH 225, we insist on real competence, consistently and across the board. You can't make up for a lack of growth in one key area by growing twice as much in another**. 
+
+Again, possibly terrifying. But, never fear, *this is what the revision/reattempt process is for*. Work is never one-and-done; if you don't meet the standard, you'll be told explicitly what to work on and given plenty of chances to try again. The motto is **high standards, with high support**. 
+
+## How to track your progress
+
+Since we don't really use points, there's no statistics you can use to do any tracking or speculation about your grade. It's actually much simpler than that. On page 5 of the syllabus, you'll find this table that shows exactly what's required for different letter grades: 
+
+![](https://i.imgur.com/8Z2AY5S.jpg)
+
+Each letter grade is based on **counting accomplishments**, kind of like a video game. Earning more accomplishments will "level you up". The raw data for your accomplishments is on Blackboard, updated at all times. All you have to do, is keep track of how far away you are from the grade level you want. 
+
+To make this even simpler, I've created a **Grade Tracking Checklist** which [can be found here](https://docs.google.com/document/d/1P5DjDKs2Z5J9SXi4SOf6ibOiUYO0jKjYwi2pYgJI_3M/edit?usp=sharing) or on Blackboard in the *Course Documents* area. 
+
+![](https://i.imgur.com/R2A80gR.jpg)
+
+This is the exact same table as on page 5 of the syllabus, but in checklist form. Starting at the bottom and moving up, check off accomplishments as you accomplish them. Once you check all the boxes in a row for a grade, you've earned the grade. That's it. 
+
+Two things to know at this point: 
+
+1. **Your grade in the course never goes down.** This is a nice by-product of the fact that your grade is based on counting accomplishments. Once you have done everything you need to do for a "C", for example, you can't "undo" any of those things, so you have a "C" locked in, no matter what else happens. You can only go up from wherever you are.[^2]
+2. **You won't be able to "know what grade you have in the course" until later.** You don't "have a grade" in the course until you complete all the accomplishments for that grade. So, if you are wanting to know "what grade do I have in the class" in week 4, there's not enough information to answer that question. Once you earn 25 total points on Daily Prep, earn *Satisfactory* on four Weekly Challenges, and earn fluency on six Learning Targets, you have a D. Then you work your way up from there. Until then, you don't "have a grade" yet. 
 
 
+## Examples of how this works
 
-:::warning
-When grading a Weekly Challenge, the entire body of work you submit is considered and given a mark of either **Satisfactory** or **Unsatisfactory**. A Weekly Challenge is considered **Satisfactory** if all of these standards are met: 
+Here are some examples of how this all works. In each of these, we only look at the basic letter grades without plus/minus modifications. 
 
-- Every Application/Extension Problem has a solution that **demonstrates strong understanding of the concepts involved**, is **complete and well-communicated**, and contains **at most only a few minor errors**, none of which demonstrate gaps in understanding or communication. 
-- Every writing prompt has a response that represents a **good-faith effort at honest communication** regarding the subject and is **well-communicated**. 
+### Alice 
+
+Alice completes the course having accomplished the following at the end of the semester: 
+
+- Earned 46 points from Daily Prep
+- Earned *Satisfactory* on nine (9) Weekly Challenges
+- Earned fluency (which requires two successful demonstrations of skill) on all eight CORE Learning Targets
+- Earned fluency on eight (8) non-CORE Learning Targets
+
+This is what her checklist would look like: 
+
+![](https://i.imgur.com/lDfchYI.png)
+
+Alice has checked off all the requirements for a "B", and some but not all of the requirements for an "A". Therefore her grade in the course is a "B" (although this would be a situation where I might consider a B+ due to the partial completion of "A" level requirements). 
+
+### Bob
+
+Bob's end-of-semester accomplishments look like this:
+
+- Earned 39 points from Daily Prep
+- Earned *Satisfactory* on ten (10) Weekly Challenges
+- Earned fluency (which requires two successful demonstrations of skill) on all eight CORE Learning Targets
+- Earned fluency on six (6) non-CORE Learning Targets
+
+This is what his checklist would look like: 
+![](https://i.imgur.com/7FbQFgT.png)
+
+He's done well with Weekly Challenges, so yay Bob. But he has not finished *all* the requirements for a B in either Daily Prep or in the non-CORE targets area. He's only satisfied the requirements for a "C". So since the *highest* grade for which he's completed *all* the requirements is a C, that's his grade. (Although again, I'd be up for considering a C+ or even a B- on the strength of his Weekly Challenge accomplishments.)
+
+## Chuck
+
+Chuck's end-of-semester accomplishments look like this:
+
+- Earned 45 points from Daily Prep
+- Earned *Satisfactory* on ten (10) Weekly Challenges
+- Earned fluency (which requires two successful demonstrations of skill) on all eight CORE Learning Targets
+- Earned fluency on only three (3) non-CORE Learning Targets
+
+His checklist: 
+![](https://i.imgur.com/lgpBi4z.png)
+You might think that Chuck has an "A" in the bag. But there's a problem: He has only gotten fluent on three Learning Targets outside the core. This means he didn't complete all the requirements for a C, and so his basic grade in the course is a "D". 
+
+:::info
+***Seriously? Chuck did all this great stuff in the class and got a D just because he was fluent on only three non-Core targets instead of six?*** 
+
+It's jarring, I get it. Three responses to this: 
+
+1. **We are insisting on consistent excellence across the board on all types of work.** There is no "averaging" here. Great work in one area does not paper over poor work elsewhere.
+2. **Failing to be fluent on more than three non-Core targets is significant.** This lack of growth in "just this one area" is not a small problem, it's a big deal. The Learning Targets cover the signature skills of the course. There are dozens of opportunities to demonstrate skill on them through the semester. Failing to do so on 75% of the non-Core targets is a serious issue and casts doubt on everything else. 
+3. As with Alice and Bob, this a situation where I'd probably **talk with Chuck about his work with a view toward a C-**. Remember ultimately the grade in this class is the result of a back-and-forth between you and me about your work. The grade system is here to serve us, not the other way around. 
 :::
 
-Some items may contain additional expectations or requirements (for example, if a problem involves computer code), and **Satisfactory** will require meeting those expectations as well as the two baseline expectations above. 
+### Deanna
+
+Deanna is a different situation. She is checking her progress in Week 9 of the semester (that's the week of Fall Break) and wants to know what grade she currently has in the course, and what she needs to do to improve it by the end of the term. 
+
+**Facts**: By the end of week 9, we will have had eighteen (18) Daily Preps (for a total of 36 points possible), seven (7) Weekly Challenges, and Learning Target quizzes covering fourteen (14) of the Learning Targets. Those targets are CA.1 through C.4; that includes six (6) CORE targets and eight (8) non-Core ones[^4]. 
+
+Suppose Deanna's checklist looks like this at the end of week 9: 
+![](https://i.imgur.com/qfecH7B.png)
+
+Here's what I would say to Deanna: 
+
+* You've met all the requirements for a "D" in the class, so there is zero chance that you will earn an "F". So that's good. 
+* You haven't yet earned enough for a "C". For that, you'll need to complete four more points of Daily Prep, *Satisfactory* on two more Weekly Challenges, and fluency on three more CORE Learning Targets. 
+* Earning a C will take effort but it shouldn't be difficult at this point. Each Daily Prep is easy and there are seven more left at two points each. You can revise the one Weekly Challenge you haven't earned *Satisfactory* on, and earn *Satisfactory* on one of the remaining four, so that's not terribly hard either. And you'll just need to really practice on the one CORE target you haven't mastered yet, as well as the two CORE targets that are remaining (RI.4 and RI.6). 
+* If you want a B, you'll need to do more: Earn nine more Daily Prep points, *Satisfactory* on three Weekly Challenges instead of two, and not only finish off the CORE targets but get fluent on one more non-Core one. 
+* If you want an A, it requires more than you need for a B: 14 Daily Prep points, which means completing every single Daily Prep from here on out; four Weekly Challenges, and the three remaining CORE targets and three non-CORE ones. That won't be effortless and there's not a huge margin for missing assignments, but it's doable from where you are. 
+
+So Deanna does not "have a grade" in week 9. What she has, is *progress toward* a grade and a clear sense of what's possible and the difficulty levels of each potential outcome. She can then make an informed choice about how she'll engage with the class from there on out. Maybe she's OK with a "C", and chooses only to do enough to get that grade. Although I hope she'd push herself, there's nothing wrong with choosing a C, and I will support whatever she chooses. She certainly is under no obligation to make herself miserable getting an A. 
+
+## In Conclusion
+
+This grading system is designed not only to accurately measure your actual learning in the course, as evidenced by the results of your work and engagement with feedback --- it's also designed to get you focused on **learning, not grades**. The hope is that soon, once we get into the course and get used to the process, you'll stop thinking about grades altogether.
+
+**Credits:** I borrowed [the story of Alice and Bob](https://hackmd.io/k0E4cS3zTwCtFj-Gg5LSnw#Why-aren%E2%80%99t-we-using-points-and-percentages-Isn%E2%80%99t-that-simpler) from David Clark. 
 
 
-## Standards for Learning Target work 
 
-Becoming "fluent" on a Learning Target, in the language of the syllabus, requires **two successful demonstrations of skill** on that target that can be done in various ways, all detailed in the syllabus. A "demonstration of skill" typically means working out a problem or small group of problems that have something to do with the skills in the learning target. Those problems will vary throughout the semester but will always focus on the same set of skills. For example, no matter how you choose to demonstrate skill on Learning Target L.3, you will always be asked to do work involving determining whether a predicate is true, determining whether a quantified predicate is true, and stating the negation of a quantified predicate --- because that's what the Learning Target says (*"I can identify the truth value of a predicate, determine whether a quantified predicate is true or false,and state the negation of a quantified statement."*)
+[^1]: With the possible exception of Daily Prep. Daily Preps don't have revision opportunities because (1) they are dead-simple to complete and are only based on completeness and effort, and (2) they're intended to prepare you for a single point in time, the class meeting. So it doesn't make sense to revise them; however you can buy "Pass" marks on them with tokens if you really need to.
 
+[^2]: The exception is that you could end up with a "minus" on the basic letter grade depending on how the final exam turns out. 
 
-:::warning
-**Regardless of the precise work you do, a demonstration of skill is considered "successful" if**: 
+[^3]: The exception is if you turn in a Weekly Challenge that earns an "Incomplete" mark as described in the syllabus. Even then, the only "penalty" is that you have to spend a token to revise the work; there's still no impact on your grade. 
 
-- All parts of the work you are asked to do have an attempted response. That is, you may not skip or decline to respond to a part of a problem.
-- The response contains **no more than two simple errors** (see below for a definition) and **no non-simple errors**. That is, the work can contain no significant errors that cast doubt on your skill. 
-- The response cannot *just* consist of a correct answer, unless it specifically says so --- you must also clearly communicate the thought processes that led to the answer, through clearly-written mathematical work, verbal explanations, or both. 
-:::
-
-For MTH 225, a "simple" error is defined to be **an error in logic, computation, or communication that does not pertain to the learning target and does not oversimplify the problem**. 
-
-
-In a hypothetical Algebra II class using our grading system, students are demonstrating their skill at solving quadratic equations ($ax^2 + bx + c = 0$) using the quadratic formula ($x = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a}$). On a quiz, the class is asked to do this by finding the solutions to $3x^2 + 4x + 1 = 0$. (The correct answers are $x = -1$ and $x=-1/3$.) Here are some errors that students might do, and whether they are considered "simple" or "non-simple". 
-
-| Error | Simple? | Why | 
-| :---: | :--------: | :---: | 
-| Alice copies the problem down incorrectly as $3x^2 - 4x + 1 = 0$ (changing $+4x$ to $-4x$), then correctly solves this incorrect problem to get $x=1$ and $x=1/3$. | SIMPLE | The copy error doesn't pertain to the learning target (being able to show skill with the quadratic formula) and doesn't make the problem any harder or easier. | 
-| Bob copies the problem down incorrectly as $3x + 4x + 1 = 0$ (dropping the square on $3x^2$), simplifies this to $7x + 1 = 0$, then solves without the quadratic formula to get $x=-1/7$. | NOT SIMPLE | The copy error oversimplifies the problem, and it no longer demonstrates skill on the learning target. | 
-| Chuck copies the problem down correctly but mistakenly uses $b^2 + 4ac$ in the quadratic formula instead of $b^2-4ac$. | NOT SIMPLE | That's a fundamental error directly related to the learning target. | 
-| Diane copies the problem down correctly and starts the solution correctly, but at one point she mistakenly switches a plus/minus sign, which leads to an incorrect answer. | SIMPLE | A basic sign error made in the process of a correctly-set up solution does not pertain to this learning target and does not make the problem trivially easy. | 
-
-Note that **an error that is considered "simple" in one situation may be "non-simple" in another**. For example, Learning Targets SF.5 and C.2 both involve the factorial function. Making an error in computing this function, for example computing $10! = 1000$, would be *non-simple* for SF.5 since the entire target is about computing these functions correctly; but might be simple in C.2 since the emphasis there is in using the factorial as part of a larger problem-solving process. 
+[^4]: Assuming no changes in the syllabus or calendar. 
