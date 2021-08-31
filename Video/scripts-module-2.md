@@ -192,7 +192,11 @@ Let's begin by looking at the proposition "If (P or not Q), then ((not P) or Q)"
 
 We'll begin as we normally do, by setting up one column for each of the input variables. Then let's go ahead and make a row for every combination of the truth values of those inputs. Since there are two inputs, there will be four combinations and I'm going to put those here in the same order as we have been doing. 
 
-Now, just like when we looked at the contrapositive in the last video, we need to build up the main proposition from the bottom up, like we would do an arithmetic computation with a lot of nested calculations. We'll make one column for each "level" of the statement. Looking from left to right in the main proposition, I can see that we'll need a column for "not Q". I'll also need a column for "not P" and I could do 
+Now, just like when we looked at the contrapositive in the last video, we need to build up the main proposition from the bottom up, like we would do an arithmetic computation with a lot of nested calculations. We'll make one column for each "level" of the statement. Looking from left to right in the main proposition, I can see that we'll need a column for "not Q". I'll also need a column for "not P" and I could make that column now, but instead I'm going to continue building up this first part, the hypothesis of the main proposition by creating a column for "P or not Q". 
+
+Again the order in which we set up these columns strictly speaking doesn't matter, but it can make a difference in how well your brain can keep track of the process, and I find it easier to finish up each part of the main proposition in turn. 
+
+So now that the hypothesis of the main proposition is present, let's work on the conclusion. We need a column for not P, and we need a co
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTA0NTg0MzU1XX0=
+eyJoaXN0b3J5IjpbLTE3OTMzNTA0NTFdfQ==
 -->
