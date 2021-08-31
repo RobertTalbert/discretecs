@@ -98,19 +98,21 @@
 def string_is_ten(S):
 	return len(S) == 10
 ```
+- We sometimes use program- or function-style notation for predicates, for example $P(x) =$ "x is an even number" 
 - Another example 
-	- "Prof. A has a beard" 
+	- P(A) = "Prof. A has a beard" 
 	- Variable is "A", domain -- depends, needs to be specified. "Profs in the GVSU math department". 
 	- Sometimes true, sometimes false. 
 - Another
-	- $xy > 0$, where x,y are any real numbers. 
+	- P(x,y) $xy > 0$, where x,y are any real numbers. 
 	- This one has two variables. Unless we know values for both x and y, there's not enough info to know true/false -- we say it's underdetermined. 
 	- Domain is the set of real numbers. 
-	- x = -2, y = 
+	- x = -2, y = -5 --> TRUE. 
+- Predicates can be true for EVERY value, for example the pred
 
 ## 2.9 Quantification 
 
 ## 2.10 Double quantification and negation 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzM0MTE1MzFdfQ==
+eyJoaXN0b3J5IjpbMjEzNjM2MjE1Nl19
 -->
