@@ -98,10 +98,12 @@
 def string_is_ten(S):
 	return len(S) == 10
 ```
+- Another example 
+	- "Prof. A 
 
 ## 2.9 Quantification 
 
 ## 2.10 Double quantification and negation 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc5MzIxMTddfQ==
+eyJoaXN0b3J5IjpbMTc2NzI3NTE5NF19
 -->
