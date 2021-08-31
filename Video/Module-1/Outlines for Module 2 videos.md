@@ -87,11 +87,12 @@
 	- Not a proposition because the truth value can't be determined without x. It's true for some x and false for others. 
 	- An example of a **predicate**
 	- Predicates have **variables** that come from a particular **domain**. For example "x is an even number" has a variable (x) and it only makes sense if x is an integer. 
-	- And the predicate takes on a truth value when a particular value of the variable is 
+	- And the predicate takes on a truth value when a particular value of the variable is given. 
+	- For example, if x = 2, the predicate is now the proposition "2 is an even number" which is true. If x = 5, the predicate is now the proposition "5 is an even number" which is false. 
 
 ## 2.9 Quantification 
 
 ## 2.10 Double quantification and negation 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY1NjIwNTU4NV19
+eyJoaXN0b3J5IjpbLTE1MDg2NTgwNzldfQ==
 -->
