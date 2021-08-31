@@ -204,7 +204,11 @@ Now, for "P or not Q", we have a disjunction. A disjunction is true whenever one
 
 Now let's do the column for "(not P) and Q". This is a conjunction, which we know is true whenever both statements involved are true and false otherwise. The statements involved are "not P", and "Q" so look at those columns. They are both true in row 3, otherwise at least one of them is false. So we have TRUE in row 3 and FALSE elsewhere. 
 
-Finally we're ready to fill in the column for the main proposition. This is a conditional statement, and remember, these are true in every situation except where the hypothesis is true and the conclusion is false. The hypothesis in this case is "P or not Q". The conclusion is "(not P) and Q". In row 1, the hypothesis is true and the conclu
+Finally we're ready to fill in the column for the main proposition. This is a conditional statement, and remember, these are true in every situation except where the hypothesis is true and the conclusion is false. The hypothesis in this case is "P or not Q". The conclusion is "(not P) and Q". In row 1, the hypothesis is true and the conclusion is false, so put FALSE in the last column. The same is true for row 2. In rows 3 and 4, either the hypothesis is false or both hypothesis and conclusion are true, and in both cases we have a TRUE conditional statement. 
+
+So there's a complete and correct truth table for this proposition. It's not in principle any different than the others, it just required more care in building up the table. 
+
+But now let's look at something different the statement "If P, then (Q or R) 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMzNzc1NjYxN119
+eyJoaXN0b3J5IjpbLTE0NjM5MjQzNTVdfQ==
 -->
