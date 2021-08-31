@@ -218,7 +218,9 @@ Now that we have the eight rows needed, we can start putting the proposition tog
 
 It looks like we'll need a column for not Q, a column for (P and not Q), and then a column for the main proposition. Let's build it up one piece at a time. Not Q is just the opposite of Q. "P and (not Q)" is a conjunction, true whenever both statements involved are true so that we should have TRUE in rows 2 and 6 and FALSE elsewhere. In the final column, it's a conditional statement which we know is FALSE when the hypothesis is true but the conclusion is false, and this happens in line 6 only. Everywhere else either the hypothesis is false or both statements are true, so there's TRUE there. 
 
+So again in principle making a truth table for statements with three or even more variables isn't any different than simple truth tables, other than the size. We still focus on building up the proposition in a modular way and using the table to keep track. 
 
+In the next video, we'll look at something different, the concept of a predicate. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ2Mjc4MDQ0MF19
+eyJoaXN0b3J5IjpbLTUzMjk5OTY3OV19
 -->
