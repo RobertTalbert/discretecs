@@ -196,7 +196,11 @@ Now, just like when we looked at the contrapositive in the last video, we need t
 
 Again the order in which we set up these columns strictly speaking doesn't matter, but it can make a difference in how well your brain can keep track of the process, and I find it easier to finish up each part of the main proposition in turn. 
 
-So now that the hypothesis of the main proposition is present, let's work on the conclusion. We need a column for not P, and we need a co
+So now that the hypothesis of the main proposition is present, let's work on the conclusion. We need a column for not P, and we need a column for "(not P) and Q". And then finally we need a column for the main proposition. 
+
+Let's now fill in each of those columns one at a time. The column for not Q is easy since it's just the opposite of whatever truth value appears in Q. Similarly, not P is the opposite of P. 
+
+Now, for "P or not Q", we have a disjunction. A disjunction is true whenever one or both of the statements involved is true, and false otherwise. The two statements involved are P, and "not Q" so look at those. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3OTMzNTA0NTFdfQ==
+eyJoaXN0b3J5IjpbLTYzMzUwMDYzMF19
 -->
