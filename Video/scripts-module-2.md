@@ -188,7 +188,7 @@ In this video and in the last one, you learned how to make a truth table for a l
 
 We've been looking at truth tables as a way to tell when a complex, molecular statement is true based on the truth values of the inputs. In the last video we saw how to make a truth table for a proposition that has intermediate steps. In this video, we'll wrap up our initial discussion of truth tables to look at two-variable statements that have multiple intermediate steps, and statements that have three variables. 
 
-Let's begin by looking at the proposition "If (P or not Q), then ((not P) or Q)". This proposition has a bit more complexity than some of the others here and it's not obvious at all when this statement should be true. So let's make a truth table for it. 
+Let's begin by looking at the proposition "If (P or not Q), then ((not P) and Q)". This proposition has a bit more complexity than some of the others here and it's not obvious at all when this statement should be true. So let's make a truth table for it. 
 
 We'll begin as we normally do, by setting up one column for each of the input variables. Then let's go ahead and make a row for every combination of the truth values of those inputs. Since there are two inputs, there will be four combinations and I'm going to put those here in the same order as we have been doing. 
 
@@ -204,7 +204,7 @@ Now, for "P or not Q", we have a disjunction. A disjunction is true whenever one
 
 Now let's do the column for "(not P) and Q". This is a conjunction, which we know is true whenever both statements involved are true and false otherwise. The statements involved are "not P", and "Q" so look at those columns. They are both true in row 3, otherwise at least one of them is false. So we have TRUE in row 3 and FALSE elsewhere. 
 
-Finally we're ready to fill in the column for the main proposition. This is a conditional statement, and remember, these are true in every situation except where the hypothesis is true and the conclusion is false. The hypothesis in this case is "P or not Q". The conclusion is "(not P) and Q". In row 1, the hypothesis is true and the conclusion is false, so put FALSE in the last column. The same is true for row 2. In rows 3 and 4, either the hypothesis is false or both hypothesis and conclusion are true, and in both cases we have a TRUE conditional statement. 
+Finally we're ready to fill in the column for the main proposition. This is a conditional statement, and remember, these are true in every situation except where the hypothesis is true and the conclusion is false. The hypothesis in this case is "P or not Q". The conclusion is "(not P) and Q". In row 1, the hypothesis is true and the conclusion is false, so put FALSE in the last column. The same is true for rows 2 and 4. In row 3, the hypothesis is false  and in that case we have a TRUE conditional statement. 
 
 So there's a complete and correct truth table for this proposition. It's not in principle any different than the others, it just required more care in building up the table. 
 
