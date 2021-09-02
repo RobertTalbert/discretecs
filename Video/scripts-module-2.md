@@ -228,8 +228,10 @@ In all of the earlier videos in this module, we've been looking at propositions 
 
 Here's that example: x + 5 = 12 . This is a statement, namely it's an assertion that the expression on the left side of the equals sign is actually equal to the expression on the right. So it's a complete thought; but it doesn't have a definite truth value as is because of that variable "x". Whether this statement x+5 = 12 is true or not depends on the value of that variable. If x = 10 for instance, then the statement x + 5 = 12 is false. But if x = 7, the statement is true. 
 
-We're going to call a complete statement whose truth value depends on the value of one or more particular variables a **predicate**. Predicates are different from propositions. While both predicates and propositions have truth values, the truth value of a proposition can be known just from the proposition itself without any outside input, while the truth value of a predicate depends on outside input. Propositions have only one truth value, w
+We're going to call a complete statement whose truth value depends on the value of one or more particular variables a **predicate**. Predicates are different from propositions. While both predicates and propositions have truth values, the truth value of a proposition can be known just from the proposition itself without any outside input, while the truth value of a predicate depends on outside input. Propositions have only one truth value, while in general the truth value of a predicate will be True for some inputs and False for others -- it depends. 
+
+For notation, while we often use letters like P, Q, or R to represent proposition, we affix a variable in parentheses to the letter for a predicate. For example, could write this to mean 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwOTAyMjIyMiwtMTQ1OTEyMzAwNywtNT
-MyOTk5Njc5XX0=
+eyJoaXN0b3J5IjpbLTEwODU0MjU1NDgsLTE0NTkxMjMwMDcsLT
+UzMjk5OTY3OV19
 -->
