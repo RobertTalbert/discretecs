@@ -230,11 +230,14 @@ Here's that example: x + 5 = 12 . This is a kind of statement, namely it's an as
 
 We're going to call a complete statement whose truth value depends on the value of one or more particular variables a **predicate**. Predicates are different from propositions. While both predicates and propositions have truth values, the truth value of a proposition can be known just from the proposition itself without any outside input, while the truth value of a predicate depends on outside input. Propositions have only one truth value, while in general the truth value of a predicate will be True for some inputs and False for others -- it depends. 
 
-For notation, while we often use letters like P, Q, or R to represent proposition, we affix a variable in parentheses to the letter for a predicate. For example, could write this to mean "the predicate P with variable x, is the statement that x+5 = 12". We pronounce that first part "P of x". The allowable inputs for a variable in a predicate is called the *domain* of the predicate. For example for P(x) here, x could be all real numbers. But here's another predicate: Q(x) is the statement x % 3 = 0 , and for this predicate not all real numbers might make sense; instead the domain is the set of integers because that's the only thing we can apply the modulus operator to. 
+For notation, while we often use letters like P, Q, or R to represent proposition, we affix a variable in parentheses to the letter for a predicate. For example, could write this to mean "the predicate P with variable x, is the statement that x+5 = 12". We pronounce that first part "P of x". The allowable inputs for a variable in a predicate is called the *domain* of the predicate. For example for P(x) here, the domain could be all real numbers. But here's another predicate: Q(x) is the statement x % 3 = 0 , and for this predicate not all real numbers might make sense; instead the domain is the set of integers because that's the only thing we can apply the modulus operator to. 
 
 Some predicates might have even smaller domains, for example this predicate B(x) = "Prof X has a beard". Apparently "x" represents not a number but a faculty member now, and since there are a lot of faculty members out there, we might just explicitly state the domain for example by saying the domain is the set of all mathematics professors at your university. 
 
-More formally we would say that a predicate is a function, whose domain is a given set and whose codomain is the set {TRUE, FALSE}. This is using some language we have not defined yet, but we'll be doing that in the next module. So file that away for now. 
+More formally we would say that a predicate is a function, whose domain is a given set and whose codomain is the set {TRUE, FALSE}. This is using some language we have not defined yet, but we'll be doing that in the next module. It just means that a pred
+
+
+So file that away for now. 
 
 Predicates are extremely important and useful in computer science, not least because they themselves are like tiny computer programs with an input of a certain type, and which output either TRUE or FALSE. Here for example is a Python version of our first predicate. You plug in a real number for x, then go through a process to return either TRUE or FALSE. 
 
@@ -262,6 +265,6 @@ You've learned a lot in this video: The differences between a predicate and prop
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkwNjU5NDEyNSwtMTk0MDkzMjc0LC0yMD
+eyJoaXN0b3J5IjpbLTQwMDg2MjcxNCwtMTk0MDkzMjc0LC0yMD
 E5NDg4MTE5LC0xNDU5MTIzMDA3LC01MzI5OTk2NzldfQ==
 -->
