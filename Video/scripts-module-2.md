@@ -254,10 +254,10 @@ We can even have predicates with more than one variable, like this: P(x,y) = "xy
 
 Now you give it a try, from a bit of a different angle. Here's a predicate: P(n) = (3n+1) % 4 = 0. Pause the video now and find as many values of n as you can that make this predicate true. Come back when you're ready. 
 
-I've actually written 
+I've actually written a Python function here to help me find these. The predicate is here in this first block --- it just implements the process of returning TRUE if 3n+1 mod 4 is 0 and FALSE otherwise. 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIxNTA5MTczMCwtMTQ1OTEyMzAwNywtNT
-MyOTk5Njc5XX0=
+eyJoaXN0b3J5IjpbLTE5NTc0ODIwMDQsLTE0NTkxMjMwMDcsLT
+UzMjk5OTY3OV19
 -->
