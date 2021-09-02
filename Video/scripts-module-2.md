@@ -250,10 +250,14 @@ And another example: P(s) = "the length of s is negative" where the domain is al
 
 Generally speaking we can have predicates that are *sometimes but not always* true, predicates that are *always* true, and predicates that are *never* true. When we talk about *how often* a predicate is true, this is referred to as **quantifying** the predicate. Our next video is going to be all about that idea. 
 
-We can even have predicates with more than one variable, like this: P(x,y) = "xy > 0". This requires knowledge of *two* variables to be able to determine truth. P(2,3) for example is TRUE because 2*3 is 6 which is bigger than 0. But P(-4, 5) is FALSE beca
+We can even have predicates with more than one variable, like this: P(x,y) = "xy > 0". This requires knowledge of *two* variables to be able to determine truth. P(2,3) for example is TRUE because 2*3 is 6 which is bigger than 0. But P(-4, 5) is FALSE because -4*5 is -20 which is not bigger than 0. 
+
+Now you give it a try, from a bit of a different angle. Here's a predicate: P(n) = (3n+1) % 4 = 0. Pause the video now and find as many values of n as you can that make this predicate true. Come back when you're ready. 
+
+I've actually written 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MjcxNjYyODMsLTE0NTkxMjMwMDcsLT
-UzMjk5OTY3OV19
+eyJoaXN0b3J5IjpbMTIxNTA5MTczMCwtMTQ1OTEyMzAwNywtNT
+MyOTk5Njc5XX0=
 -->
