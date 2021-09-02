@@ -221,6 +221,10 @@ It looks like we'll need a column for not Q, a column for (P and not Q), and the
 So again in principle making a truth table for statements with three or even more variables isn't any different than simple truth tables, other than the size. We still focus on building up the proposition in a modular way and using the table to keep track. 
 
 In the next video, we'll look at something different, the concept of a predicate. 
+
+## 2.8 
+
+In all of the earlier videos in this module, we've been looking at propositions -- complete statements that have a definite and knowable truth value. In this video we're going to re-introduce an idea that showed up in one of the v
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUzMjk5OTY3OV19
+eyJoaXN0b3J5IjpbLTYwNjgyNDQ4MSwtNTMyOTk5Njc5XX0=
 -->
