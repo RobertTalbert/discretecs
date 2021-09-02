@@ -256,8 +256,10 @@ Now you give it a try, from a bit of a different angle. Here's a predicate: P(n)
 
 I've actually written a Python function here to help me find these. The predicate is here in this first block --- it just implements the process of returning TRUE if 3n+1 mod 4 is 0 and FALSE otherwise. Down below, I'm going to run a quick loop to go through the integers 1 through 30 to see which values make the statement true, and maybe I'll see a pattern. It looks like 1, 5, 9, 13, 17, 21... I believe I'm seeing a pattern here that whenever n is itself congruent to 1 mod 4, this predicate will be true. I'll test that out with some integers outside the range I showed you --- for example a negative integer, like -3. That's congruent to 1 mod 4, and sure enough my predicate is true. Or 400001 is 1 mod 4, and that also gives true. So while I can't literally list all of these values, I can put them together in one place and indicate the pattern like so. 
 
+This collection, consisting of all the variable values that make the predicate true, is called the **truth set** of the predicate. For example for P(x) = x+5 = 12, the truth set is just the single number 7. For P(x) = x**2 >= 0, the truth set is the entire domain, the set of integers. For . 
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY0NDY3MDg4NywtMTQ1OTEyMzAwNywtNT
-MyOTk5Njc5XX0=
+eyJoaXN0b3J5IjpbLTE1MjQwMjQ1NzMsLTE0NTkxMjMwMDcsLT
+UzMjk5OTY3OV19
 -->
