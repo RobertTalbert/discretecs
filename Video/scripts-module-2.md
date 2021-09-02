@@ -232,8 +232,10 @@ We're going to call a complete statement whose truth value depends on the value 
 
 For notation, while we often use letters like P, Q, or R to represent proposition, we affix a variable in parentheses to the letter for a predicate. For example, could write this to mean "the predicate P with variable x, is the statement that x+5 = 12". We pronounce that first part "P of x". The allowable inputs for a variable in a predicate is called the *domain* of the predicate. For example for P(x) here, x could be all real numbers. But here's another predicate: Q(x) = x % 3 = 0 , and for this predicate not all real numbers might make sense; instead the domain is the set of integers because that's the only thing we can apply the modulus operator to. 
 
-Some predicates might have even smaller domains, for example this predicate B(x) = "Prof X has a beard". Apparently "x" represents not a number but a faculty member now, and since there are a lot of faculty members out there, we might just explicitly state the domain like  
+Some predicates might have even smaller domains, for example this predicate B(x) = "Prof X has a beard". Apparently "x" represents not a number but a faculty member now, and since there are a lot of faculty members out there, we might just explicitly state the domain for example by saying the domain is the set of all mathematics professors at your university. 
+
+Predicates are extremely important and useful in computer science, not least because they themselves are like tiny computer programs with an input of a certain type, and which output either TRUE or FALSE. Here for example is a Python version of our first predicate. You plug in a real number for x, then go through a process to return
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTczOTMyMzA2NSwtMTQ1OTEyMzAwNywtNT
-MyOTk5Njc5XX0=
+eyJoaXN0b3J5IjpbMzM5NDQ4MjIzLC0xNDU5MTIzMDA3LC01Mz
+I5OTk2NzldfQ==
 -->
