@@ -258,10 +258,10 @@ I've actually written a Python function here to help me find these. The predicat
 
 This collection, consisting of all the variable values that make the predicate true, is called the **truth set** of the predicate. For example for P(x) = x+5 = 12, the truth set is just the single number 7. For P(x) = x**2 >= 0, the truth set is the entire domain, the set of integers. For S(x) = the length of x is 7, the truth set is the collection of all strings that have length 7. 
 
-You've learned a lot in this video: The differences between a predicate and proposition, the domain of a predicate, and the truth set of a predicate. In the next video, we'll come back to the idea of quantifying a predicate that we mentioned earlier --- that's taking a predicate and turning it into a proposition by 
+You've learned a lot in this video: The differences between a predicate and proposition, the domain of a predicate, and the truth set of a predicate. In the next video, we'll come back to the idea of quantifying a predicate that we mentioned earlier --- that's taking a predicate and turning it into a proposition by making an assertion about how often the predicate is true. 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTc4ODk4MDc4LC0xNDU5MTIzMDA3LC01Mz
-I5OTk2NzldfQ==
+eyJoaXN0b3J5IjpbLTIwMTk0ODgxMTksLTE0NTkxMjMwMDcsLT
+UzMjk5OTY3OV19
 -->
