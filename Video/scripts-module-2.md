@@ -224,7 +224,9 @@ In the next video, we'll look at something different, the concept of a predicate
 
 ## 2.8 
 
-In all of the earlier videos in this module, we've been looking at propositions -- complete statements that have a definite and knowable truth value. We've seen lots of examples of propositions and learned how to work with them
+In all of the earlier videos in this module, we've been looking at propositions -- complete statements that have a definite and knowable truth value. We've seen lots of examples of propositions and learned how to work with them. In this video we're going to re-introduce an earlier example of something that *wasn't* a proposition. 
+
+Here's that example: x + 5 = 12 . This is a statement, namely it's an assertion that the expression on the left side of the equals sign is actually equal to the expression on the right. So it's a complete thought; but it doesn't have a definite truth value as is because of that variable "x". The 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjMzOTY1OTAxLC01MzI5OTk2NzldfQ==
+eyJoaXN0b3J5IjpbNjAzNTU3NDQyLC01MzI5OTk2NzldfQ==
 -->
