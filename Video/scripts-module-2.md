@@ -246,12 +246,14 @@ where x is a string, and the domain is the set of all possible strings. Again it
 
 Another example: P(x) = x**2 >= 0 where x is the set of all integers. P(x) will be TRUE whenever x**2 >= 0 and FALSE otherwise. So P(2) is true, for instance because 2**2 >= 0. P(10) is also true, P(0) is true, P(-2) is true... in fact P(x) is *always* true for any input because squaring an integer always returns a result that is nonnegative. 
 
-And another example: P(s) = "the length of s is negative" where the domain is all possible strings. Well, this predicate is never true, because there's no such thing as a string with a negativ
+And another example: P(s) = "the length of s is negative" where the domain is all possible strings. Well, this predicate is never true, because there's no such thing as a string with a negative length. 
 
-Generally speaking we can have predicates that are *sometimes but not always* true, predicates that are *always* true, and predicates that are *never* true. 
+Generally speaking we can have predicates that are *sometimes but not always* true, predicates that are *always* true, and predicates that are *never* true. When we talk about *how often* a predicate is true, this is referred to as **quantifying** the predicate. Our next video is going to be all about that idea. 
+
+We can even have predicates with more than one variable, like this: P(x,y) = "xy > 0". This requires knowledge of *two* variables to be able to determine truth. P(2,3) for example is TRUE because 2*3 is 6 which is bigger than 0. But P(-4, 5) is FALSE beca
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3OTEyNTUwMTIsLTE0NTkxMjMwMDcsLT
+eyJoaXN0b3J5IjpbLTE1MjcxNjYyODMsLTE0NTkxMjMwMDcsLT
 UzMjk5OTY3OV19
 -->
