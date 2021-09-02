@@ -244,7 +244,7 @@ S(x) = the length of x is 7
 
 where x is a string, and the domain is the set of all possible strings. Again it's helpful to think of this like a little computer program, like this, where you plug in a string and get out either TRUE or FALSE. The predicate itself does not have a truth value until something is plugged in. For example S("Mathematics") is FALSE because the length of that string is 11. But S("Algebra") is TRUE because the length of Algebra is 7. 
 
-Another example: P(x) = x**2 >= 0 where x is the set of all integers. P(x) will be TRUE whenever x**2 >= 0 and FALSE otherwise. So P(2) is true, for instance because 2**2 is 4 and that's bigger t>= 0. P(10) is also true, P(0) is true, P(-2) is true... in fact P(x) is *always* true for any input because squaring an integer always returns a result that is nonnegative. 
+Another example: P(x) = x**2 >= 0 where x is the set of all integers. P(x) will be TRUE whenever x**2 >= 0 and FALSE otherwise. So P(2) is true, for instance because 2**2 is 4 and that's bigger than 0. P(10) is also true because 10**2 is 100 and that's bigger than 0... in fact P(x) is *always* true for any input because squaring an integer always returns a result that is nonnegative. 
 
 And another example: P(s) = "the length of s is negative" where the domain is all possible strings. Well, this predicate is never true, because there's no such thing as a string with a negative length. 
 
@@ -262,7 +262,7 @@ You've learned a lot in this video: The differences between a predicate and prop
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMDA2OTQ5OTAsMTQxMzIzNDUwNCwtMT
-k0MDkzMjc0LC0yMDE5NDg4MTE5LC0xNDU5MTIzMDA3LC01MzI5
-OTk2NzldfQ==
+eyJoaXN0b3J5IjpbLTQ1MjYxMzIyNCwxNDEzMjM0NTA0LC0xOT
+QwOTMyNzQsLTIwMTk0ODgxMTksLTE0NTkxMjMwMDcsLTUzMjk5
+OTY3OV19
 -->
