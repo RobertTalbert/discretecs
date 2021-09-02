@@ -256,10 +256,12 @@ Now you give it a try, from a bit of a different angle. Here's a predicate: P(n)
 
 I've actually written a Python function here to help me find these. The predicate is here in this first block --- it just implements the process of returning TRUE if 3n+1 mod 4 is 0 and FALSE otherwise. Down below, I'm going to run a quick loop to go through the integers 1 through 30 to see which values make the statement true, and maybe I'll see a pattern. It looks like 1, 5, 9, 13, 17, 21... I believe I'm seeing a pattern here that whenever n is itself congruent to 1 mod 4, this predicate will be true. I'll test that out with some integers outside the range I showed you --- for example a negative integer, like -3. That's congruent to 1 mod 4, and sure enough my predicate is true. Or 400001 is 1 mod 4, and that also gives true. So while I can't literally list all of these values, I can put them together in one place and indicate the pattern like so. 
 
-This collection, consisting of all the variable values that make the predicate true, is called the **truth set** of the predicate. For example for P(x) = x+5 = 12, the truth set is just the single number 7. For P(x) = x**2 >= 0, the truth set is the entire domain, the set of integers. For . 
+This collection, consisting of all the variable values that make the predicate true, is called the **truth set** of the predicate. For example for P(x) = x+5 = 12, the truth set is just the single number 7. For P(x) = x**2 >= 0, the truth set is the entire domain, the set of integers. For S(x) = the length of x is 7, the truth set is the collection of all strings that have length 7. 
+
+You've learned a lot in this video: The differences between a predicate and proposition, the domain of a predicate, and the truth set of a predicate. In the next video, we'll come back to the idea of quantifying a predicate that we mentioned earlier --- that's taking a predicate and turning it into a proposition by 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MjQwMjQ1NzMsLTE0NTkxMjMwMDcsLT
-UzMjk5OTY3OV19
+eyJoaXN0b3J5IjpbOTc4ODk4MDc4LC0xNDU5MTIzMDA3LC01Mz
+I5OTk2NzldfQ==
 -->
