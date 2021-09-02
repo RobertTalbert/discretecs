@@ -226,7 +226,9 @@ In the next video, we'll look at something different, the concept of a predicate
 
 In all of the earlier videos in this module, we've been looking at propositions -- complete statements that have a definite and knowable truth value. We've seen lots of examples of propositions and learned how to work with them. In this video we're going to re-introduce an earlier example of something that *wasn't* a proposition. 
 
-Here's that example: x + 5 = 12 . This is a statement, namely it's an assertion that the expression on the left side of the equals sign is actually equal to the expression on the right. So it's a complete thought; but it doesn't have a definite truth value as is because of that variable "x". The 
+Here's that example: x + 5 = 12 . This is a statement, namely it's an assertion that the expression on the left side of the equals sign is actually equal to the expression on the right. So it's a complete thought; but it doesn't have a definite truth value as is because of that variable "x". Whether this statement x+5 = 12 is true or not depends on the value of that variable. If x = 10 for instance, then the statement x + 5 = 12 is false. But if x = 7, the statement is true. 
+
+We're going to call a complete statement whose truth value depends on the value of one or more particular variables 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjAzNTU3NDQyLC01MzI5OTk2NzldfQ==
+eyJoaXN0b3J5IjpbLTE0NTkxMjMwMDcsLTUzMjk5OTY3OV19
 -->
