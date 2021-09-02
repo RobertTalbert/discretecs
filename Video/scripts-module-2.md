@@ -224,7 +224,7 @@ In the next video, we'll look at something different, the concept of a predicate
 
 ## 2.8 
 
-In all of the earlier videos in this module, we've been looking at propositions -- complete statements that have a definite and knowable truth value. In this video we're going to re-introduce an idea that showed up in one of the v
+In all of the earlier videos in this module, we've been looking at propositions -- complete statements that have a definite and knowable truth value. We've seen lots of examples of propositions and learned how to work with them
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYwNjgyNDQ4MSwtNTMyOTk5Njc5XX0=
+eyJoaXN0b3J5IjpbNjMzOTY1OTAxLC01MzI5OTk2NzldfQ==
 -->
