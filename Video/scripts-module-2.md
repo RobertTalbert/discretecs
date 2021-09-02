@@ -240,8 +240,10 @@ Predicates are extremely important and useful in computer science, not least bec
 
 Let's look at some more examples of predicates. 
 
+S(x) = the length of x is 10
 
+where x is a string, and the domain is the set of all possible strings. Again it's helpful to think of this like a little computer program, like this, where you plug in a string and get out either TRUE or FALSE. The predicate itself does not have a truth value until something is plugged in. For example S("Mathematics") returns FALSE because the length of that string is 11. But S(" 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU1MDA1ODgwMCwtMTQ1OTEyMzAwNywtNT
-MyOTk5Njc5XX0=
+eyJoaXN0b3J5IjpbNzE3ODEzOTAxLC0xNDU5MTIzMDA3LC01Mz
+I5OTk2NzldfQ==
 -->
