@@ -226,7 +226,7 @@ In the next video, we'll look at something different, the concept of a predicate
 
 In all of the earlier videos in this module, we've been looking at propositions -- complete statements that have a definite and knowable truth value. We've seen lots of examples of propositions and learned how to work with them. In this video we're going to re-introduce an earlier example of something that *wasn't* a proposition. 
 
-Here's that example: x + 5 = 12 . This is a statement, namely it's an assertion that the expression on the left side of the equals sign is actually equal to the expression on the right. So it's a complete thought; but it doesn't have a definite truth value as is because of that variable "x". Whether this statement x+5 = 12 is true or not depends on the value of that variable. If x = 10 for instance, then the statement x + 5 = 12 is false. But if x = 7, the statement is true. 
+Here's that example: x + 5 = 12 . This is a kind of statement, namely it's an assertion that the expression on the left side of the equals sign is actually equal to the expression on the right. So it's a complete thought; but it doesn't have a definite truth value as is because of that variable "x". Whether this statement x+5 = 12 is true or not depends on the value of that variable. If x = 10 for instance, then the statement x + 5 = 12 is false. But if x = 7, the statement is true. 
 
 We're going to call a complete statement whose truth value depends on the value of one or more particular variables a **predicate**. Predicates are different from propositions. While both predicates and propositions have truth values, the truth value of a proposition can be known just from the proposition itself without any outside input, while the truth value of a predicate depends on outside input. Propositions have only one truth value, while in general the truth value of a predicate will be True for some inputs and False for others -- it depends. 
 
@@ -262,6 +262,6 @@ You've learned a lot in this video: The differences between a predicate and prop
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMTk0ODgxMTksLTE0NTkxMjMwMDcsLT
-UzMjk5OTY3OV19
+eyJoaXN0b3J5IjpbLTE5NDA5MzI3NCwtMjAxOTQ4ODExOSwtMT
+Q1OTEyMzAwNywtNTMyOTk5Njc5XX0=
 -->
