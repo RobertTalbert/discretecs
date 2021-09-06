@@ -268,11 +268,13 @@ So here's the proposition we first saw in the last video: P(x) is the statement 
 
 Here's another secondary statement we could make from the original predicate: "P(x) is true for at least one value of x". Another way to say this is that P(x) is *sometimes* true. Now that statement is definitely TRUE because there *is* at least one value of x that makes P(x) true, and we even know what it is -- x = 7. 
 
+So again, predicates by themselves don't have enough information to know whether they are true or false. We sometimes say that they are underdetermined because the variable prevents us from knowing the truth value. But when we make a secondary statement about *how often* the predicate is true --- for example "this predicate is always true" or "this predicate is sometimes true" --
+
 ## 2.10
 
 ## 2.11 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU2NzM5MTI0NiwtNDUyNjEzMjI0LDE0MT
+eyJoaXN0b3J5IjpbLTg5NDU0NTA2NSwtNDUyNjEzMjI0LDE0MT
 MyMzQ1MDQsLTE5NDA5MzI3NCwtMjAxOTQ4ODExOSwtMTQ1OTEy
 MzAwNywtNTMyOTk5Njc5XX0=
 -->
