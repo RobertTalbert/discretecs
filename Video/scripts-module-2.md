@@ -310,11 +310,13 @@ You've learned in this video that the negation of a universally quantified state
 
 ## 2.11
 
+You've done a lot of work so far with predicates. You've learned what they are and how they related to propositions, how to quantify them, how to negate them, and more! Great job so far. Our last video on this topic is going to expand things out a bit and look at predicates that have two variables instead of one. 
 
+We looked at one of these in an earlier video. P(x,y) is the statement x*y is bigger than 0, 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NzY0OTEyMTUsLTQ1MjYxMzIyNCwxND
-EzMjM0NTA0LC0xOTQwOTMyNzQsLTIwMTk0ODgxMTksLTE0NTkx
-MjMwMDcsLTUzMjk5OTY3OV19
+eyJoaXN0b3J5IjpbMjAwNDU0NTMyOSwtNDUyNjEzMjI0LDE0MT
+MyMzQ1MDQsLTE5NDA5MzI3NCwtMjAxOTQ4ODExOSwtMTQ1OTEy
+MzAwNywtNTMyOTk5Njc5XX0=
 -->
