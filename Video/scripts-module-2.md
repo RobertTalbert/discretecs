@@ -314,11 +314,13 @@ You've done a lot of work so far with predicates. You've learned what they are a
 
 We looked at one of these in an earlier video. P(x,y) is the statement x*y is bigger than 0. To determine the truth value of this, we need the values of not just one but two inputs. For example P(2,3) is true and P(2,-4) is false. We saw in the last two videos that quantifying the variable turns a predicate into a proposition with a definite truth value. Does that work for two-variable predicates? 
 
-Let's suppose we took P(x,y) and quantified the variable x by saying "for all x, P(x,y) is true". Unlike earlier, this is still an underdetermined statement because we've quantified the x variable but the y variable is still unknown. Quantifying the x
+Let's suppose we took P(x,y) and quantified the variable x by saying "for all x, P(x,y) is true". Unlike earlier, this is still an underdetermined statement because we've quantified the x variable but the y variable is still unknown. Quantifying the x variable turns a two-variable predicate with variables x,y into a one-variable predicate with variable y. It's still a predicate and unless we do something with the y variable too, we still can't determine its truth value. The general principle here is that for two variable predicates, *both* variables must be quantified before we can say anything definite about truth values. 
+
+Let's 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MzMwNTg4NjMsLTQ1MjYxMzIyNCwxND
+eyJoaXN0b3J5IjpbLTEzMDcxMjUyMjUsLTQ1MjYxMzIyNCwxND
 EzMjM0NTA0LC0xOTQwOTMyNzQsLTIwMTk0ODgxMTksLTE0NTkx
 MjMwMDcsLTUzMjk5OTY3OV19
 -->
