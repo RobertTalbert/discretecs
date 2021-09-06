@@ -322,11 +322,15 @@ But we could also have existentially quantified y, to get this: for all x, there
 
 What would happen if we had existentially quantified the x earlier instead of universally quantifying it? Well, we'd still need to quantify the y variable to end up with a fully determined proposition and there are two ways to do that. You could have: "There exists an x such that for every y, P(x,y) is true" and you could have "There exists an x such and there exists a y such that P(x,y) is true". Now pause the video and see if you can determine which, if either, of those statements is now true.
 
-"There exists an x such that for every y, P(x,y) is true" is in fact a true statement. The statement is claiming that at least one x exists such that x*y >= 0 no matter what y you choose, and that's true --- can you guess what x it is? It's x = 0. If you choose that x, then xy >= 0 for every sing
+"There exists an x such that for every y, P(x,y) is true" is in fact a true statement. The statement is claiming that at least one x exists such that x*y >= 0 no matter what y you choose, and that's true --- can you guess what x it is? It's x = 0. If you choose that x, then xy >= 0 for every single y value. 
+
+"There exists an x such and there exists a y such that P(x,y) is true" is also a true statement because I can certainly find an example of x and y where xy >= 0, for example x = 1 and y = 2. 
+
+So given a two-variable predicate P(x,y) there are at least four possible ways to quantify it: one for each combination of quantification of x and y. Each has its own truth value that it 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTczMDg4MDEyOCwtNDUyNjEzMjI0LDE0MT
+eyJoaXN0b3J5IjpbLTg0MjU4MzI1OCwtNDUyNjEzMjI0LDE0MT
 MyMzQ1MDQsLTE5NDA5MzI3NCwtMjAxOTQ4ODExOSwtMTQ1OTEy
 MzAwNywtNTMyOTk5Njc5XX0=
 -->
