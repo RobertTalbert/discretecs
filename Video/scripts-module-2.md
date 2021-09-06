@@ -336,9 +336,9 @@ However the statement that there exists a y such that for all x, xy < 1... is a 
 
 In other words, the order in which we place the quantifiers can sometimes matter! It takes careful mathematical reasoning to see when these statements are true and when they are false. But that's what this whole course is about, so it's good work. 
 
-That be
+That brings us to the end of this module on logic. You're learning a lot, so congratulations! Our next module is about two more fundamental mathematical concepts that underlie computer science: The concept of the *set*, which is the model for all data structures in computer science, and the concept of the *function* which is the model for all programs. Pretty big ideas, in other words. See you there. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMTg5MDU4OSw1NDIzMDQ0MTgsLTQ1Mj
+eyJoaXN0b3J5IjpbLTMyODAzNjgxNiw1NDIzMDQ0MTgsLTQ1Mj
 YxMzIyNCwxNDEzMjM0NTA0LC0xOTQwOTMyNzQsLTIwMTk0ODgx
 MTksLTE0NTkxMjMwMDcsLTUzMjk5OTY3OV19
 -->
