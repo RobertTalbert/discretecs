@@ -320,11 +320,13 @@ Let's keep the universal quantifier here on x. There are two ways to quantify th
 
 But we could also have existentially quantified y, to get this: for all x, there exists a y such that P(x,y) is true. Or in plain language, for every real number x, there is some other real number y such that x*y is positive. That statement also has a definite truth value, namely TRUE. Let's see why. Where you are sitting right now, pick any real number you like. Now no matter what number you picked, one of three things must be true about it: It's either negative, positive or zero. I will now tell you the "y" value that will make xy bigger than or equal to zero. If your "x" was positive, let y = +1. If your x was negative, let y = -1. If your x was zero, let y = 0 as well. In each possibility, x*y is bigger than or equal to 0. So no matter what x you chose, there is a y that makes P(x,y) true. 
 
-What would happen if we had existentially quantified the x earlier instead of universally quantifying it? Well, we'd still need to quantify the y variable to end up with a fully determined proposition and there are two ways to do that. You could have: "There exists an x such that for every y, P(x,y) is true" and you could have "There exists an x such and there exists a 
+What would happen if we had existentially quantified the x earlier instead of universally quantifying it? Well, we'd still need to quantify the y variable to end up with a fully determined proposition and there are two ways to do that. You could have: "There exists an x such that for every y, P(x,y) is true" and you could have "There exists an x such and there exists a y such that P(x,y) is true". Now pause the video and see if you can determine which, if either, of those statements is now true.
+
+"There exists an x such that for every y, P(x,y) is true" is in fact a true statement. The statement is claiming that at least one x exists such that x*y >= 0 no matter what y you choose, and that's true --- can you guess what x it is? It's x = 0. If you choose that x, then xy >= 0 for every sing
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMxMjE3MzUzNSwtNDUyNjEzMjI0LDE0MT
+eyJoaXN0b3J5IjpbMTczMDg4MDEyOCwtNDUyNjEzMjI0LDE0MT
 MyMzQ1MDQsLTE5NDA5MzI3NCwtMjAxOTQ4ODExOSwtMTQ1OTEy
 MzAwNywtNTMyOTk5Njc5XX0=
 -->
