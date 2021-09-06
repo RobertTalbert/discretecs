@@ -270,13 +270,13 @@ Here's another secondary statement we could make from the original predicate: "P
 
 So again, predicates by themselves don't have enough information to know whether they are true or false. We sometimes say that they are underdetermined because the variable prevents us from knowing the truth value. But when we make a secondary statement about *how often* the predicate is true --- for example "this predicate is always true" or "this predicate is sometimes true" --- these statements are propositions with truth values. We call this process **quantifying** the predicate. 
 
-To approach computer science from a mathematical point of view we often have to make claims about patterns we see or algorithms we create and then give an explanation. Those claims often come in the form of quantified predicates. For example, in 
+To approach computer science from a mathematical point of view we often have to make claims about patterns we see or algorithms we create and then give an explanation. Those claims often come in the form of quantified predicates. For example, in an earlier video we saw an algorithm that converts a base 10 integer to base 2. We did *not*, however, discuss whether this algorithm always works. Doing so, involves working with a quantified predicate. The predicate would say, "This algorithm applied to the integer n produces the correct binary representation". And what we'd want to know, and explain, is whether P(n) is always true. 
 
 ## 2.10
 
 ## 2.11 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjI1NTM4Mzk0LC00NTI2MTMyMjQsMTQxMz
-IzNDUwNCwtMTk0MDkzMjc0LC0yMDE5NDg4MTE5LC0xNDU5MTIz
-MDA3LC01MzI5OTk2NzldfQ==
+eyJoaXN0b3J5IjpbLTEyOTc1MjQ0NzEsLTQ1MjYxMzIyNCwxND
+EzMjM0NTA0LC0xOTQwOTMyNzQsLTIwMTk0ODgxMTksLTE0NTkx
+MjMwMDcsLTUzMjk5OTY3OV19
 -->
