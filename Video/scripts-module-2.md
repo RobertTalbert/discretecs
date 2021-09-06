@@ -312,17 +312,17 @@ You've learned in this video that the negation of a universally quantified state
 
 You've done a lot of work so far with predicates. You've learned what they are and how they related to propositions, how to quantify them, how to negate them, and more! Great job so far. Our last video on this topic is going to expand things out a bit and look at predicates that have two variables instead of one. 
 
-We looked at one of these in an earlier video. P(x,y) is the statement x*y is bigger than 0. To determine the truth value of this, we need the values of not just one but two inputs. For example P(2,3) is true and P(2,-4) is false. We saw in the last two videos that quantifying the variable turns a predicate into a proposition with a definite truth value. Does that work for two-variable predicates? 
+Let's let P(x,y) is the statement x*y is bigger than or equal to 0. To determine the truth value of this, we need the values of not just one but two inputs. For example P(2,3) is true and P(2,-4) is false. We saw in the last two videos that quantifying the variable turns a predicate into a proposition with a definite truth value. Does that work for two-variable predicates? 
 
 Let's suppose we took P(x,y) and quantified the variable x by saying "for all x, P(x,y) is true". Unlike earlier, this is still an underdetermined statement because we've quantified the x variable but the y variable is still unknown. Quantifying the x variable turns a two-variable predicate with variables x,y into a one-variable predicate with variable y. It's still a predicate and unless we do something with the y variable too, we still can't determine its truth value. The general principle here is that for two variable predicates, *both* variables must be quantified before we can say anything definite about truth values. 
 
 Let's keep the universal quantifier here on x. There are two ways to quantify the missing variable y --- universal or existential. If we universally quantify y, we would have this in notation --- for all x and for all y, P(x,y) is true. In plain language this would say that x*y is positive for every possible pair of inputs x and y. Now this statement has a definite truth value, namely FALSE because I can find a counterexample easily, for instance x = 2 and y = -4. So it's not the case that P(x,y) is true "for all" values of x and y. 
 
-But we could also have existentially quantified y, to get this: for all x, there exists a y such that P(x,y) is true. Or in plain language, for every real number x, there is some other real number y such that x*y is positive. That statement also has a definite truth value, namely TRUE. Let's see why. Pick
+But we could also have existentially quantified y, to get this: for all x, there exists a y such that P(x,y) is true. Or in plain language, for every real number x, there is some other real number y such that x*y is positive. That statement also has a definite truth value, namely TRUE. Let's see why. Where you are sitting right now, pick any real number you like. Now no matter what number you picked, one of three things mu
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTczMjI5MzQ5MiwtNDUyNjEzMjI0LDE0MT
-MyMzQ1MDQsLTE5NDA5MzI3NCwtMjAxOTQ4ODExOSwtMTQ1OTEy
-MzAwNywtNTMyOTk5Njc5XX0=
+eyJoaXN0b3J5IjpbOTM3ODMyODE3LC00NTI2MTMyMjQsMTQxMz
+IzNDUwNCwtMTk0MDkzMjc0LC0yMDE5NDg4MTE5LC0xNDU5MTIz
+MDA3LC01MzI5OTk2NzldfQ==
 -->
