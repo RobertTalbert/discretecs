@@ -332,11 +332,11 @@ I say "at least" four truth values because in fact sometimes the ordering of the
 
 The statement for all x there exists a y such that xy < 1 is true, and here's an explanation. Choose any integer x you like. If you chose an x that was zero or negative, set y = 1 and then xy < 1. If you chose an x that was positive, set y = 1/(x+1). Then xy is x/(x+1) and because the denominator is bigger than the numerator, the fraction is less than 1. That explanation, notice, does not depend on specific examples --- it works "for all" x. 
 
-However the statement that there exists a y such that for all x, xy < 1... is a FALSE statement. I will explain why no such y exists. Suppose that we did have a y such that xy < 1 no matter what the x is. That y is either positive or 
+However the statement that there exists a y such that for all x, xy < 1... is a FALSE statement. I will explain why no such y exists. Suppose that we did have a y such that xy < 1 no matter what the x is. That y is either positive or negative. We can't choose y = 0 because 0 is not in the domain. If y is positive, then set x 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY0NDY1MTc2OSw1NDIzMDQ0MTgsLTQ1Mj
+eyJoaXN0b3J5IjpbLTgxOTMzMDc1Myw1NDIzMDQ0MTgsLTQ1Mj
 YxMzIyNCwxNDEzMjM0NTA0LC0xOTQwOTMyNzQsLTIwMTk0ODgx
 MTksLTE0NTkxMjMwMDcsLTUzMjk5OTY3OV19
 -->
