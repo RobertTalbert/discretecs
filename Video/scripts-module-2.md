@@ -294,13 +294,13 @@ Take a look at the universally quantified predicates that were false. How did we
 
 Likewise, look at the existentially quantified predicates that are false, like the one you did a moment ago, S(x) is the absolute value of x is negative. That was false because we know from basic math than the absolute value of x is never negative --- that is, the absolute value of x is always zero or positive. This sounds like a universal statement, doesn't it? In fact, what we see from this example is that the negation of "there exists an x such that P(x)" is "for all x, not P(x)". So negating an existentially quantified statement gives a universally quantified statement. 
 
-This is worth a quick practice 
+This is worth a quick practice exercise for you. Look at the predicate C(x) where the domain is the set of all countries on Earth, and C(x) says "the first letter of 
 
 ## 2.10
 
 ## 2.11 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQwNzAzMTgwMiwtNDUyNjEzMjI0LDE0MT
+eyJoaXN0b3J5IjpbLTY2NzkwNDMwMSwtNDUyNjEzMjI0LDE0MT
 MyMzQ1MDQsLTE5NDA5MzI3NCwtMjAxOTQ4ODExOSwtMTQ1OTEy
 MzAwNywtNTMyOTk5Njc5XX0=
 -->
