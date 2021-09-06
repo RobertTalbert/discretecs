@@ -296,10 +296,7 @@ So in this video, you learned that taking a predicate and quantifying the variab
 
 The last video introduced the idea of quantification, which is what happens when we take a predicate, whose truth value can't be determined because of a variable, and then making a claim about whether that predicate is *always* true or *sometimes* true. Since quantified predicates are propositions, we can negate them. And in this video we're going to see how this is done. 
 
-
-Remember the negation of a proposition P, which we write using this symbol and say "not P", is the proposition with opposite truth values from P. 
-
-Take a look at the universally quantified predicates that were false. How did we know they were false? For example, why was "for all strings x, the length of x is positive" false? It was because we found a single example of a string that showed us that *not all* strings have a positive length. That's called a *counterexample* --- an example that proves a universally quantified statement is false. Universally quantified statements can be shown to be false by producing just one counterexample. We can phrase this fact using negations. If you take the universally quantified statement "for all x, P(x)" and negate it, it means that P(x) is not universally true, or not *always* true. And that means that there exists an x that makes negation of P(x) true. We can put that in notation by saying: The negation of "for all x, P(x)" is "there exists an x such that 'not P(x)'". So the negation of a universally quantified predicate is an existentially quantified predicate. 
+Take a look at the universally quantified predicates from the last video that were false. How did we know they were false? For example, why was "for all strings x, the length of x is positive" false? It was because we found a single example of a string that showed us that *not all* strings have a positive length. That's called a *counterexample* --- an example that proves a universally quantified statement is false. Universally quantified statements can be shown to be false by producing just one counterexample. We can phrase this fact using negations. If you take the universally quantified statement "for all x, P(x)" and negate it, it means that P(x) is not universally true, or not *always* true. And that means that there exists an x that makes negation of P(x) true. We can put that in notation by saying: The negation of "for all x, P(x)" is "there exists an x such that 'not P(x)'". So the negation of a universally quantified predicate is an existentially quantified predicate. 
 
 Likewise, look at the existentially quantified predicates that are false, like the one you did a moment ago, S(x) is the absolute value of x is negative. That was false because we know from basic math than the absolute value of x is never negative --- that is, the absolute value of x is always zero or positive. This sounds like a universal statement, doesn't it? In fact, what we see from this example is that the negation of "there exists an x such that P(x)" is "for all x, not P(x)". So negating an existentially quantified statement gives a universally quantified statement. 
 
@@ -309,15 +306,15 @@ The universally quantified statement would say that Every country begins with th
 
 The negation of "for all x C(x)" would be "There exists x such that not C(x)" which in plainer language would be "There exists a country whose name doesn't begin with a B". And that's certainly true, in fact this statement is just saying that it's possible to find a counterexample to the original universal statement. The negation of "there exists an x such that C(x)" is the universal statement "for all x, not C(x)" or in other words, For every on Earth, the name of the country does not begin with a B. That is a false statement, and we know it because that's a universal statement but there's a counterexample -- Belize, or Belarus. This makes sense because the negation of a proposition should have the opposite truth value. The universal statement was false so its negation should be true, and the existential statement was true so its negation should be false. 
 
-So... this was a long video and you've done a great job making it through. What you've learned is that  And you learned how to negate both a universally and existentially quantified predicate. 
+You've learned in this video that the negation of a universally quantified statement is an existentially quantified statement using the negation of the original predicate. And likewise, the negation of an existentially quantified statement is an universally quantified statement using the negation of the original predicate. There's just one more topic to touch on here, and that's how quantification works when you have more than one variable. So stick around. 
 
-There's just one more topic to touch on here, and that's how quantification works when you have more than one variable. So stick around. 
+## 2.11
 
-## 2.10
+
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU5NTE2ODA3MSwtNDUyNjEzMjI0LDE0MT
-MyMzQ1MDQsLTE5NDA5MzI3NCwtMjAxOTQ4ODExOSwtMTQ1OTEy
-MzAwNywtNTMyOTk5Njc5XX0=
+eyJoaXN0b3J5IjpbLTE1NzY0OTEyMTUsLTQ1MjYxMzIyNCwxND
+EzMjM0NTA0LC0xOTQwOTMyNzQsLTIwMTk0ODgxMTksLTE0NTkx
+MjMwMDcsLTUzMjk5OTY3OV19
 -->
