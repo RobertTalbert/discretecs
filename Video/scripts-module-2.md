@@ -300,13 +300,15 @@ The universally quantified statement would say that Every country begins with th
 
 The negation of "for all x C(x)" would be "There exists x such that not C(x)" which in plainer language would be "There exists a country whose name doesn't begin with a B". And that's certainly true, in fact this statement is just saying that it's possible to find a counterexample to the original universal statement. The negation of "there exists an x such that C(x)" is the universal statement "for all x, not C(x)" or in other words, For every on Earth, the name of the country does not begin with a B. That is a false statement, and we know it because that's a universal statement but there's a counterexample -- Belize, or Belarus. This makes sense because the negation of a proposition should have the opposite truth value. The universal statement was false so its negation should be true, and the existential statement was true so its negation should be false. 
 
-So... this was a long video and you've done a great job making it through. What you've learned is that taking a predicate and quantifying the variable turns it into a proposition with a truth value. And there are two ways to do this, universal or existential each of which has its own notation. 
+So... this was a long video and you've done a great job making it through. What you've learned is that taking a predicate and quantifying the variable turns it into a proposition with a truth value. And there are two ways to do this, universal or existential each of which has its own notation. You also learned that a counterexample can be used to prove that a universally quantified statement is false. And you learned how to negate both a universally and existentially quantified predicate. 
+
+There's just one more topic to touch on here, and that's how quantification works when you have more than one variable. So stick around. 
 
 ## 2.10
 
-## 2.11 
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MDA0MTMxOTAsLTQ1MjYxMzIyNCwxND
-EzMjM0NTA0LC0xOTQwOTMyNzQsLTIwMTk0ODgxMTksLTE0NTkx
-MjMwMDcsLTUzMjk5OTY3OV19
+eyJoaXN0b3J5IjpbMTA4ODI3MTAwNSwtNDUyNjEzMjI0LDE0MT
+MyMzQ1MDQsLTE5NDA5MzI3NCwtMjAxOTQ4ODExOSwtMTQ1OTEy
+MzAwNywtNTMyOTk5Njc5XX0=
 -->
