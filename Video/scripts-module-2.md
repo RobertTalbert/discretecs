@@ -332,10 +332,18 @@ I say "at least" four truth values because in fact sometimes the ordering of the
 
 The statement for all x there exists a y such that xy < 1 is true, and here's an explanation. Choose any integer x you like. If you chose an x that was zero or negative, set y = 1 and then xy < 1. If you chose an x that was positive, set y = 1/(x+1). Then xy is x/(x+1) and because the denominator is bigger than the numerator, the fraction is less than 1. That explanation, notice, does not depend on specific examples --- it works "for all" x. 
 
-However the statement that there exists a y such that for all x, xy < 1... is a FALSE statement. I will explain why no such y exists. Suppose that we did have a y such that xy < 1 no matter what the x is. This y can't be 0 because 0 isn't in the domain. Let's assume y > 0 for now. Two things must be true about y: Either y >= 1 or 0 < y < 1. If y >= 1, then it's not the case that xy < 1 for all x, because there's a counterexample: x = y. If x = y then xy = y^2 which is bigger than or equal to 1 because y itself is bigger than or equal to 1. On the other hand if 0 < y < 1, it's still not truth that xy < 1 for all x, be
+However the statement that there exists a y such that for all x, xy < 1... is a FALSE statement. I will explain why no such y exists. Suppose that we did have a y such that xy < 1 no matter what the x is. This y can't be 0 because 0 isn't in the domain. Given that fact, it's not the case that xy < 1 "for all" values of x, because there's a counterexample: x = 1/y. Thi
+
+
+
+Let's assume y > 0 for now. 
+
+
+
+Two things must be true about y: Either y >= 1 or 0 < y < 1. If y >= 1, then it's not the case that xy < 1 for all x, because there's a counterexample: x = y. If x = y then xy = y^2 which is bigger than or equal to 1 because y itself is bigger than or equal to 1. On the other hand if 0 < y < 1, it's still not truth that xy < 1 for all x, because again there's a counterexample: x = 1/y. If x = 1/y, then xy = 1 and that's not less than 1. 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTA3NzczMzA0LDU0MjMwNDQxOCwtNDUyNj
-EzMjI0LDE0MTMyMzQ1MDQsLTE5NDA5MzI3NCwtMjAxOTQ4ODEx
-OSwtMTQ1OTEyMzAwNywtNTMyOTk5Njc5XX0=
+eyJoaXN0b3J5IjpbMTA3ODUzMzk3Niw1NDIzMDQ0MTgsLTQ1Mj
+YxMzIyNCwxNDEzMjM0NTA0LC0xOTQwOTMyNzQsLTIwMTk0ODgx
+MTksLTE0NTkxMjMwMDcsLTUzMjk5OTY3OV19
 -->
