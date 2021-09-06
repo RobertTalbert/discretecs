@@ -330,11 +330,13 @@ So given a two-variable predicate P(x,y) there are at least four possible ways t
 
 I say "at least" four truth values because in fact sometimes the ordering of the variables matters too. For example look at the predicate Q(x,y) is the statement that x*y < 1 where the x values are integers and the y values are nonzero real numbers. Look at the statements for all x there exists a y such that Q(x,y) and there exists a y such that for all x Q(x,y). You might think these statements are equivalent since all we did was change the ordering of the quantifiers. But look at each one. 
 
-The statement for all x there exists a y such that xy < 1 is true, and here's an explanation. Choose any integer x you like. If you c
+The statement for all x there exists a y such that xy < 1 is true, and here's an explanation. Choose any integer x you like. If you chose an x that was zero or negative, set y = 1 and then xy < 1. If you chose an x that was positive, set y = 1/(x+1). Then xy is x/(x+1) and because the denominator is bigger than the numerator, the fraction is less than 1. That explanation, notice, does not depend on specific examples --- it works "for all" x. 
+
+However the statement 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUyMzkzOTYwMCw1NDIzMDQ0MTgsLTQ1Mj
-YxMzIyNCwxNDEzMjM0NTA0LC0xOTQwOTMyNzQsLTIwMTk0ODgx
-MTksLTE0NTkxMjMwMDcsLTUzMjk5OTY3OV19
+eyJoaXN0b3J5IjpbLTE4NzU1Mjk0NjEsNTQyMzA0NDE4LC00NT
+I2MTMyMjQsMTQxMzIzNDUwNCwtMTk0MDkzMjc0LC0yMDE5NDg4
+MTE5LC0xNDU5MTIzMDA3LC01MzI5OTk2NzldfQ==
 -->
