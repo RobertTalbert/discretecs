@@ -316,11 +316,13 @@ We looked at one of these in an earlier video. P(x,y) is the statement x*y is bi
 
 Let's suppose we took P(x,y) and quantified the variable x by saying "for all x, P(x,y) is true". Unlike earlier, this is still an underdetermined statement because we've quantified the x variable but the y variable is still unknown. Quantifying the x variable turns a two-variable predicate with variables x,y into a one-variable predicate with variable y. It's still a predicate and unless we do something with the y variable too, we still can't determine its truth value. The general principle here is that for two variable predicates, *both* variables must be quantified before we can say anything definite about truth values. 
 
-Let's keep the universal quantifier here on x. There are two ways to quantify the missing variable y --- universal or existential. If we universally quantify y, we would have this in notation --- for all x and for all y, P(x,y) is true. In plain language this would say that x*y is positive for every possible pair of inputs x and y. Now this statement has a definite truth value, namely FALSE because I can find a counterexample easily, for instance x = 2 
+Let's keep the universal quantifier here on x. There are two ways to quantify the missing variable y --- universal or existential. If we universally quantify y, we would have this in notation --- for all x and for all y, P(x,y) is true. In plain language this would say that x*y is positive for every possible pair of inputs x and y. Now this statement has a definite truth value, namely FALSE because I can find a counterexample easily, for instance x = 2 and y = -4. So it's not the case that P(x,y) is true "for all" values of x and y. 
+
+But we could also have existentially quantified y, to get this: for all x, there exists a y such that P(x,y) is true. Or in plain language, for every real number x, there is some other real number y such that x*y is positive. That statement also has a definite truth value, namely TRUE. Let's see why. Pick
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk5NjE5ODg2MSwtNDUyNjEzMjI0LDE0MT
+eyJoaXN0b3J5IjpbLTczMjI5MzQ5MiwtNDUyNjEzMjI0LDE0MT
 MyMzQ1MDQsLTE5NDA5MzI3NCwtMjAxOTQ4ODExOSwtMTQ1OTEy
 MzAwNywtNTMyOTk5Njc5XX0=
 -->
