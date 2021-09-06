@@ -288,7 +288,12 @@ Now you try it with the earlier predicates R(x) and S(x). Are the existentially 
 
 There exists x such that R(x), is TRUE this time because it is true that there exists at least one string that has a positive length. For example, the word "logic" has a positive length. But, the statement there exists x such that S(x), is false because there does not exist even one real number whose absolute value is negative. 
 
-Here's a table summarizing what we've found in these examples. This brings up an important concept: Since quantified predicates are propositions, we can negate them. Remember the negation of a proposition P, which we write using this symbol and say "not P", is the proposition with opposite truth values from P. 
+Here's a table summarizing what we've found in these examples. 
+
+So in this video, you learned that taking a predicate and quantifying the variable turns it into a proposition with a truth value. And there are two ways to do this, universal or existential each of which has its own notation. You also learned that a counterexample can be used to prove that a universally quantified statement is false. The next video 
+
+
+This brings up an important concept: Since quantified predicates are propositions, we can negate them. Remember the negation of a proposition P, which we write using this symbol and say "not P", is the proposition with opposite truth values from P. 
 
 Take a look at the universally quantified predicates that were false. How did we know they were false? For example, why was "for all strings x, the length of x is positive" false? It was because we found a single example of a string that showed us that *not all* strings have a positive length. That's called a *counterexample* --- an example that proves a universally quantified statement is false. Universally quantified statements can be shown to be false by producing just one counterexample. We can phrase this fact using negations. If you take the universally quantified statement "for all x, P(x)" and negate it, it means that P(x) is not universally true, or not *always* true. And that means that there exists an x that makes negation of P(x) true. We can put that in notation by saying: The negation of "for all x, P(x)" is "there exists an x such that 'not P(x)'". So the negation of a universally quantified predicate is an existentially quantified predicate. 
 
@@ -300,7 +305,7 @@ The universally quantified statement would say that Every country begins with th
 
 The negation of "for all x C(x)" would be "There exists x such that not C(x)" which in plainer language would be "There exists a country whose name doesn't begin with a B". And that's certainly true, in fact this statement is just saying that it's possible to find a counterexample to the original universal statement. The negation of "there exists an x such that C(x)" is the universal statement "for all x, not C(x)" or in other words, For every on Earth, the name of the country does not begin with a B. That is a false statement, and we know it because that's a universal statement but there's a counterexample -- Belize, or Belarus. This makes sense because the negation of a proposition should have the opposite truth value. The universal statement was false so its negation should be true, and the existential statement was true so its negation should be false. 
 
-So... this was a long video and you've done a great job making it through. What you've learned is that taking a predicate and quantifying the variable turns it into a proposition with a truth value. And there are two ways to do this, universal or existential each of which has its own notation. You also learned that a counterexample can be used to prove that a universally quantified statement is false. And you learned how to negate both a universally and existentially quantified predicate. 
+So... this was a long video and you've done a great job making it through. What you've learned is that  And you learned how to negate both a universally and existentially quantified predicate. 
 
 There's just one more topic to touch on here, and that's how quantification works when you have more than one variable. So stick around. 
 
@@ -308,7 +313,7 @@ There's just one more topic to touch on here, and that's how quantification work
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA4ODI3MTAwNSwtNDUyNjEzMjI0LDE0MT
-MyMzQ1MDQsLTE5NDA5MzI3NCwtMjAxOTQ4ODExOSwtMTQ1OTEy
-MzAwNywtNTMyOTk5Njc5XX0=
+eyJoaXN0b3J5IjpbLTkwODczNTE5LC00NTI2MTMyMjQsMTQxMz
+IzNDUwNCwtMTk0MDkzMjc0LC0yMDE5NDg4MTE5LC0xNDU5MTIz
+MDA3LC01MzI5OTk2NzldfQ==
 -->
