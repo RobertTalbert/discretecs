@@ -272,13 +272,17 @@ So again, predicates by themselves don't have enough information to know whether
 
 To approach computer science from a mathematical point of view we often have to make claims about patterns we see or algorithms we create and then give an explanation. Those claims often come in the form of quantified predicates. For example, in an earlier video we saw an algorithm that converts a base 10 integer to base 2. We did *not*, however, discuss whether this algorithm always works. Doing so, involves working with a quantified predicate. The predicate would say, "This algorithm applied to the integer n produces the correct binary representation". And what we'd want to know, and explain, is whether P(n) is always true. So this notion of quantifying a predicate is really at the heart of computer science in important ways. 
 
-As we saw a moment ago, there's two ways to quantify a predicate. One, like in our example with the algorithm, is to claim that the predicate is always true. When we take a predicate P(x) and make the claim that P(x) is always true, this is called *universal* quantification. We have a special symbol for this that looks like an upside down A, which you can remember because this means "for all" x, P(x) is true. For example, if P(x) is the predicate x+5=12, then "for all x P(x)" is the statement that x+5 = 12 for all real numbers x. 
+As we saw a moment ago, there's two ways to quantify a predicate. One, like in our example with the algorithm, is to claim that the predicate is always true. When we take a predicate P(x) and make the claim that P(x) is always true, this is called *universal* quantification. We have a special symbol for this that looks like an upside down A, which you can remember because this means "for all" x, P(x) is true. For example, if P(x) is the predicate x+5=12, then "for all x P(x)" is the statement that x+5 = 12 for all real numbers x, and that is a FALSE statement. 
+
+Here are some more examples. Let Q(x) be the predicate x**2 >= 0. "For all x Q(x)" is the claim that x**2 >=0 for every real number x. And that's actually TRUE this time because we know from basic math that squaring a number always produces a result that's bigger than or equal to 0. 
+
+Here's two more. R(x) is the predicate "The length of  
 
 ## 2.10
 
 ## 2.11 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg3NTEyODY0OSwtNDUyNjEzMjI0LDE0MT
+eyJoaXN0b3J5IjpbMTgzMjQ0OTc3MSwtNDUyNjEzMjI0LDE0MT
 MyMzQ1MDQsLTE5NDA5MzI3NCwtMjAxOTQ4ODExOSwtMTQ1OTEy
 MzAwNywtNTMyOTk5Njc5XX0=
 -->
