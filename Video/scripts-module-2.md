@@ -316,11 +316,11 @@ We looked at one of these in an earlier video. P(x,y) is the statement x*y is bi
 
 Let's suppose we took P(x,y) and quantified the variable x by saying "for all x, P(x,y) is true". Unlike earlier, this is still an underdetermined statement because we've quantified the x variable but the y variable is still unknown. Quantifying the x variable turns a two-variable predicate with variables x,y into a one-variable predicate with variable y. It's still a predicate and unless we do something with the y variable too, we still can't determine its truth value. The general principle here is that for two variable predicates, *both* variables must be quantified before we can say anything definite about truth values. 
 
-Let's 
+Let's keep the universal quantifier here on x. There are two ways to quantify the missing variable y --- universal or existential. If we universally quantify y, we would have this in notation --- for all x and for all y, P(x,y) is true. In plain language this would say that x*y is positive for every possible pair of inputs x and y. Now this statement has a definite truth value, namely FALSE because I can find a counterexample easily, for instance x = 2 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMDcxMjUyMjUsLTQ1MjYxMzIyNCwxND
-EzMjM0NTA0LC0xOTQwOTMyNzQsLTIwMTk0ODgxMTksLTE0NTkx
-MjMwMDcsLTUzMjk5OTY3OV19
+eyJoaXN0b3J5IjpbLTk5NjE5ODg2MSwtNDUyNjEzMjI0LDE0MT
+MyMzQ1MDQsLTE5NDA5MzI3NCwtMjAxOTQ4ODExOSwtMTQ1OTEy
+MzAwNywtNTMyOTk5Njc5XX0=
 -->
