@@ -278,13 +278,13 @@ Here are some more examples. Let Q(x) be the predicate x**2 >= 0. "For all x Q(x
 
 Here's two more. R(x) is the predicate "The length of x is positive" where x is a string, and S(x) is the predicate the absolute value of x is negative where x is a real number. Pause the video and find the truth value of for all x R(x), and for all x S(x). 
 
-So in these examples, both universally quantified statements are FALSE. It's not the case for all x, 
+So in these examples, both universally quantified statements are FALSE. It's not the case for every string x, the length of x is positive because there is such a thing as a string of length 0, namely the empty string. So for all x R(x) is false because we found what's called a *counterexample* --- a single example that shows us that R(x) is sometimes false, therefore not always true. Likewise for all x S(x) is false, because there's a counterexample there as well: In fact there are many, for example x = 1. The absolute value of 1 is 
 
 ## 2.10
 
 ## 2.11 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc1MDE4MTk5NiwtNDUyNjEzMjI0LDE0MT
+eyJoaXN0b3J5IjpbLTQ2Njk5MTgxMSwtNDUyNjEzMjI0LDE0MT
 MyMzQ1MDQsLTE5NDA5MzI3NCwtMjAxOTQ4ODExOSwtMTQ1OTEy
 MzAwNywtNTMyOTk5Njc5XX0=
 -->
