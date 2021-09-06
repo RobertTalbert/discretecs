@@ -298,13 +298,13 @@ Here's one more exercise to put it all together. Look at the predicate C(x) wher
 
 The universally quantified statement would say that Every country begins with the letter B. The existentially quantified statement would say that At least one country begins with the letter B. There are other possible ways to say either of these. But when you put it this way, it's clear that "For all x C(x)" is false, again because there are lots of counterexamples possible, for example France. And "There exists x such that C(x)" is true, because there do exist countries beginning with a B, like Belize or Belarus. 
 
-The negation of "for all x C(x)" would be "There exists x such that not C(x)" which in plainer language would be "There exists a country whose name doesn't begin with a B". And that's certainly true, in fac
+The negation of "for all x C(x)" would be "There exists x such that not C(x)" which in plainer language would be "There exists a country whose name doesn't begin with a B". And that's certainly true, in fact this statement is just saying that it's possible to find a counterexample to the original universal statement. The negation of "there exists an x such that C(x)" is the universal statement "for all x, not C(x)" or in other words, For every on Earth, the name of the country does not begin with a B. That is a false statement, and we know it because that's a universal statement but there's a counterexample -- Belize, or Bela
 
 ## 2.10
 
 ## 2.11 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjI5MzgyMTU2LC00NTI2MTMyMjQsMTQxMz
-IzNDUwNCwtMTk0MDkzMjc0LC0yMDE5NDg4MTE5LC0xNDU5MTIz
-MDA3LC01MzI5OTk2NzldfQ==
+eyJoaXN0b3J5IjpbNjAzNjg0NCwtNDUyNjEzMjI0LDE0MTMyMz
+Q1MDQsLTE5NDA5MzI3NCwtMjAxOTQ4ODExOSwtMTQ1OTEyMzAw
+NywtNTMyOTk5Njc5XX0=
 -->
