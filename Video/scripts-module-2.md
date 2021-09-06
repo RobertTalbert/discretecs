@@ -312,11 +312,11 @@ You've learned in this video that the negation of a universally quantified state
 
 You've done a lot of work so far with predicates. You've learned what they are and how they related to propositions, how to quantify them, how to negate them, and more! Great job so far. Our last video on this topic is going to expand things out a bit and look at predicates that have two variables instead of one. 
 
-We looked at one of these in an earlier video. P(x,y) is the statement x*y is bigger than 0, 
+We looked at one of these in an earlier video. P(x,y) is the statement x*y is bigger than 0. To determine the truth value of this, we need the values of not just one but two inputs. For example P(2,3) is true and P(2,-4) is false. We saw in the last two videos that quantifying the variable turns a prop
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAwNDU0NTMyOSwtNDUyNjEzMjI0LDE0MT
-MyMzQ1MDQsLTE5NDA5MzI3NCwtMjAxOTQ4ODExOSwtMTQ1OTEy
-MzAwNywtNTMyOTk5Njc5XX0=
+eyJoaXN0b3J5IjpbLTEzMjY5MDcxMDUsLTQ1MjYxMzIyNCwxND
+EzMjM0NTA0LC0xOTQwOTMyNzQsLTIwMTk0ODgxMTksLTE0NTkx
+MjMwMDcsLTUzMjk5OTY3OV19
 -->
