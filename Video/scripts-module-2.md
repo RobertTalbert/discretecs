@@ -312,11 +312,13 @@ You've learned in this video that the negation of a universally quantified state
 
 You've done a lot of work so far with predicates. You've learned what they are and how they related to propositions, how to quantify them, how to negate them, and more! Great job so far. Our last video on this topic is going to expand things out a bit and look at predicates that have two variables instead of one. 
 
-We looked at one of these in an earlier video. P(x,y) is the statement x*y is bigger than 0. To determine the truth value of this, we need the values of not just one but two inputs. For example P(2,3) is true and P(2,-4) is false. We saw in the last two videos that quantifying the variable turns a prop
+We looked at one of these in an earlier video. P(x,y) is the statement x*y is bigger than 0. To determine the truth value of this, we need the values of not just one but two inputs. For example P(2,3) is true and P(2,-4) is false. We saw in the last two videos that quantifying the variable turns a predicate into a proposition with a definite truth value. Does that work for two-variable predicates? 
+
+Let's suppose we took P(x,y) and quantified the variable x by saying "for all x, P(x,y) is true". Unlike earlier, this is still an underdetermined statement because we've quantified the x variable but the y variable is still unknown. Quantifying the x
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMjY5MDcxMDUsLTQ1MjYxMzIyNCwxND
+eyJoaXN0b3J5IjpbLTE4MzMwNTg4NjMsLTQ1MjYxMzIyNCwxND
 EzMjM0NTA0LC0xOTQwOTMyNzQsLTIwMTk0ODgxMTksLTE0NTkx
 MjMwMDcsLTUzMjk5OTY3OV19
 -->
