@@ -276,13 +276,15 @@ As we saw a moment ago, there's two ways to quantify a predicate. One, like in o
 
 Here are some more examples. Let Q(x) be the predicate x**2 >= 0. "For all x Q(x)" is the claim that x**2 >=0 for every real number x. And that's actually TRUE this time because we know from basic math that squaring a number always produces a result that's bigger than or equal to 0. 
 
-Here's two more. R(x) is the predicate "The length of  
+Here's two more. R(x) is the predicate "The length of x is positive" where x is a string, and S(x) is the predicate the absolute value of x is negative where x is a real number. Pause the video and find the truth value of for all x R(x), and for all x S(x). 
+
+So in these examples, both universally quantified statements are FALSE. It's not the case for all x, 
 
 ## 2.10
 
 ## 2.11 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgzMjQ0OTc3MSwtNDUyNjEzMjI0LDE0MT
+eyJoaXN0b3J5IjpbMTc1MDE4MTk5NiwtNDUyNjEzMjI0LDE0MT
 MyMzQ1MDQsLTE5NDA5MzI3NCwtMjAxOTQ4ODExOSwtMTQ1OTEy
 MzAwNywtNTMyOTk5Njc5XX0=
 -->
