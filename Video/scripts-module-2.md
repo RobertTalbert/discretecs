@@ -262,13 +262,15 @@ You've learned a lot in this video: The differences between a predicate and prop
 
 ## 2.9
 
-In the last video, we learned about predicates, which are like propositions but whose truth value depends on the value of an input variable. We mentioned briefly that there's a way of turning a predicate into a proposition with a definite, fixed truth value by think
+In the last video, we learned about predicates, which are like propositions but whose truth value depends on the value of an input variable. We mentioned briefly that there's a way of turning a predicate into a proposition with a definite, fixed truth value by making a secondary statement about how often the predicate is true. Let's dig into that concept some more. 
+
+So here's the proposition we first saw in the last video: P(x) is the statement x+5 = 12 where the domain is the set of all real numbers. This again is a predicate not a proposition. This statement is neither true nor false as it is, because it has an undetermined variable in it. But let's form a new statement that's related to it: The statment 
 
 ## 2.10
 
 ## 2.11 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI3NTg5NTc1NSwtNDUyNjEzMjI0LDE0MT
+eyJoaXN0b3J5IjpbLTUyOTg2NDEyMywtNDUyNjEzMjI0LDE0MT
 MyMzQ1MDQsLTE5NDA5MzI3NCwtMjAxOTQ4ODExOSwtMTQ1OTEy
 MzAwNywtNTMyOTk5Njc5XX0=
 -->
