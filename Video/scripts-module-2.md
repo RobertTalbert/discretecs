@@ -292,13 +292,15 @@ Here's a table summarizing what we've found in these examples. This brings up an
 
 Take a look at the universally quantified predicates that were false. How did we know they were false? For example, why was "for all strings x, the length of x is positive" false? It was because we found a single example of a string that showed us that *not all* strings have a positive length. That's called a *counterexample* --- an example that proves a universally quantified statement is false. Universally quantified statements can be shown to be false by producing just one counterexample. We can phrase this fact using negations. If you take the universally quantified statement "for all x, P(x)" and negate it, it means that P(x) is not universally true, or not *always* true. And that means that there exists an x that makes negation of P(x) true. We can put that in notation by saying: The negation of "for all x, P(x)" is "there exists an x such that 'not P(x)'". So the negation of a universally quantified predicate is an existentially quantified predicate. 
 
-Likewise, look at the existentially quantified predicates that are false, like the one you did a moment ago, S(x) is the absolute value of x is negative. That was false because we know from basic math than the absolute value of x is never negative --- that is, t
+Likewise, look at the existentially quantified predicates that are false, like the one you did a moment ago, S(x) is the absolute value of x is negative. That was false because we know from basic math than the absolute value of x is never negative --- that is, the absolute value of x is always zero or positive. This sounds like a universal statement, doesn't it? In fact, what we see from this example is that the negation of "there exists an x such that P(x)" is "for all x, not P(x)". So negating an existentially quantified statement gives a universally quantified statement. 
+
+This is worth a quick practice 
 
 ## 2.10
 
 ## 2.11 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI3Mzk4Mzg0LC00NTI2MTMyMjQsMTQxMz
-IzNDUwNCwtMTk0MDkzMjc0LC0yMDE5NDg4MTE5LC0xNDU5MTIz
-MDA3LC01MzI5OTk2NzldfQ==
+eyJoaXN0b3J5IjpbMTQwNzAzMTgwMiwtNDUyNjEzMjI0LDE0MT
+MyMzQ1MDQsLTE5NDA5MzI3NCwtMjAxOTQ4ODExOSwtMTQ1OTEy
+MzAwNywtNTMyOTk5Njc5XX0=
 -->
