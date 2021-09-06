@@ -264,13 +264,15 @@ You've learned a lot in this video: The differences between a predicate and prop
 
 In the last video, we learned about predicates, which are like propositions but whose truth value depends on the value of an input variable. We mentioned briefly that there's a way of turning a predicate into a proposition with a definite, fixed truth value by making a secondary statement about how often the predicate is true. Let's dig into that concept some more. 
 
-So here's the proposition we first saw in the last video: P(x) is the statement x+5 = 12 where the domain is the set of all real numbers. This again is a predicate not a proposition. This statement is neither true nor false as it is, because it has an undetermined variable in it. But let's form a new statement that's related to it: The statement "P(x) is true for all values of x". Now this statement is definitely FALSE because we know for a fact that P(x) is not *always* true. That is, we know that x+5 is not *always* equal to 12. In fact P(x) is only true for one and only one value of x, namely x = 7. So the statement "P(x) is true for all values of x" is definitely, knowably false --- the value of
+So here's the proposition we first saw in the last video: P(x) is the statement x+5 = 12 where the domain is the set of all real numbers. This again is a predicate not a proposition. This statement is neither true nor false as it is, because it has an undetermined variable in it. But let's form a new statement that's related to it: The statement "P(x) is true for all values of x". Now this statement is definitely FALSE because we know for a fact that P(x) is not *always* true. That is, we know that x+5 is not *always* equal to 12. In fact P(x) is only true for one and only one value of x, namely x = 7. So the statement "P(x) is true for all values of x" is definitely, knowably false. That makes it a proposition, not a predicate. 
+
+Here's another secondary statement we could make from the original predicate: "P(x) is true for at least one value of x". Another way to say this is that P(x) is *sometimes* true. Now that statement is definitely TRUE because there *is* 
 
 ## 2.10
 
 ## 2.11 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3ODczODY1OTQsLTQ1MjYxMzIyNCwxND
-EzMjM0NTA0LC0xOTQwOTMyNzQsLTIwMTk0ODgxMTksLTE0NTkx
-MjMwMDcsLTUzMjk5OTY3OV19
+eyJoaXN0b3J5IjpbMTU5NzcxMTA2LC00NTI2MTMyMjQsMTQxMz
+IzNDUwNCwtMTk0MDkzMjc0LC0yMDE5NDg4MTE5LC0xNDU5MTIz
+MDA3LC01MzI5OTk2NzldfQ==
 -->
