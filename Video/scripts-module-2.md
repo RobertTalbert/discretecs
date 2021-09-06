@@ -298,13 +298,15 @@ Here's one more exercise to put it all together. Look at the predicate C(x) wher
 
 The universally quantified statement would say that Every country begins with the letter B. The existentially quantified statement would say that At least one country begins with the letter B. There are other possible ways to say either of these. But when you put it this way, it's clear that "For all x C(x)" is false, again because there are lots of counterexamples possible, for example France. And "There exists x such that C(x)" is true, because there do exist countries beginning with a B, like Belize or Belarus. 
 
-The negation of "for all x C(x)" would be "There exists x such that not C(x)" which in plainer language would be "There exists a country whose name doesn't begin with a B". And that's certainly true, in fact this statement is just saying that it's possible to find a counterexample to the original universal statement. The negation of "there exists an x such that C(x)" is the universal statement "for all x, not C(x)" or in other words, For every on Earth, the name of the country does not begin with a B. That is a false statement, and we know it because that's a universal statement but there's a counterexample -- Belize, or Bela
+The negation of "for all x C(x)" would be "There exists x such that not C(x)" which in plainer language would be "There exists a country whose name doesn't begin with a B". And that's certainly true, in fact this statement is just saying that it's possible to find a counterexample to the original universal statement. The negation of "there exists an x such that C(x)" is the universal statement "for all x, not C(x)" or in other words, For every on Earth, the name of the country does not begin with a B. That is a false statement, and we know it because that's a universal statement but there's a counterexample -- Belize, or Belarus. This makes sense because the negation of a proposition should have the opposite truth value. The universal statement was false so its negation should be true, and the existential statement was true so its negation should be false. 
+
+So... this was a long video and you've done a great job making it through. What you've learned is that taking a predicate and quantifying the variable turns it into a proposition with a truth value. And there are two ways to do this, universal or existential each of which has its own notation. 
 
 ## 2.10
 
 ## 2.11 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjAzNjg0NCwtNDUyNjEzMjI0LDE0MTMyMz
-Q1MDQsLTE5NDA5MzI3NCwtMjAxOTQ4ODExOSwtMTQ1OTEyMzAw
-NywtNTMyOTk5Njc5XX0=
+eyJoaXN0b3J5IjpbLTE2MDA0MTMxOTAsLTQ1MjYxMzIyNCwxND
+EzMjM0NTA0LC0xOTQwOTMyNzQsLTIwMTk0ODgxMTksLTE0NTkx
+MjMwMDcsLTUzMjk5OTY3OV19
 -->
