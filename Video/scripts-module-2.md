@@ -286,17 +286,15 @@ We saw that there exists x such that x+5 = 12, is a TRUE statement. (Remember th
 
 Now you try it with the earlier predicates R(x) and S(x). Are the existentially quantified versions of those predicates true, or are they false? 
 
-There exists x such that R(x), is TRUE this time because it is true that there exists at least one string that has a positive length. 
+There exists x such that R(x), is TRUE this time because it is true that there exists at least one string that has a positive length. For example, the word "logic" has a positive length. But, the statement there exists x such that S(x), is false because there does not exist even one real number whose absolute value is negative. 
 
-
-
-This brings up an important concept about quantified predicates, namely that since they are propositions, we can negate them. Remember the negation of a proposition, where we use this symbol to represent negation, is just the proposition with the opposite truth value and we usually use the word "not" to indicate it. We can also negate predicates. 
+Here's a table summarizing what we've found in these examples. This brings up an important concept: Since qua
 
 ## 2.10
 
 ## 2.11 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY3OTY0NDQ0NywtNDUyNjEzMjI0LDE0MT
+eyJoaXN0b3J5IjpbLTYwNTcwMTE0NSwtNDUyNjEzMjI0LDE0MT
 MyMzQ1MDQsLTE5NDA5MzI3NCwtMjAxOTQ4ODExOSwtMTQ1OTEy
 MzAwNywtNTMyOTk5Njc5XX0=
 -->
