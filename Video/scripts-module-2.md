@@ -290,10 +290,14 @@ There exists x such that R(x), is TRUE this time because it is true that there e
 
 Here's a table summarizing what we've found in these examples. 
 
-So in this video, you learned that taking a predicate and quantifying the variable turns it into a proposition with a truth value. And there are two ways to do this, universal or existential each of which has its own notation. You also learned that a counterexample can be used to prove that a universally quantified statement is false. The next video 
+So in this video, you learned that taking a predicate and quantifying the variable turns it into a proposition with a truth value. And there are two ways to do this, universal or existential each of which has its own notation. You also learned that a counterexample can be used to prove that a universally quantified statement is false. The next video is going to look a little more at this idea of proving quantified statements are false by asking how do we negate a quantified statement. 
+
+## 2.10 
+
+The last video introduced the idea of quantification, which is what happens when we take a predicate, whose truth value can't be determined because of a variable, and then making a claim about whether that predicate is *always* true or *sometimes* true. Since quantified predicates are propositions, we can negate them. And in this video we're going to see how this is done. 
 
 
-This brings up an important concept: Since quantified predicates are propositions, we can negate them. Remember the negation of a proposition P, which we write using this symbol and say "not P", is the proposition with opposite truth values from P. 
+Remember the negation of a proposition P, which we write using this symbol and say "not P", is the proposition with opposite truth values from P. 
 
 Take a look at the universally quantified predicates that were false. How did we know they were false? For example, why was "for all strings x, the length of x is positive" false? It was because we found a single example of a string that showed us that *not all* strings have a positive length. That's called a *counterexample* --- an example that proves a universally quantified statement is false. Universally quantified statements can be shown to be false by producing just one counterexample. We can phrase this fact using negations. If you take the universally quantified statement "for all x, P(x)" and negate it, it means that P(x) is not universally true, or not *always* true. And that means that there exists an x that makes negation of P(x) true. We can put that in notation by saying: The negation of "for all x, P(x)" is "there exists an x such that 'not P(x)'". So the negation of a universally quantified predicate is an existentially quantified predicate. 
 
@@ -313,7 +317,7 @@ There's just one more topic to touch on here, and that's how quantification work
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkwODczNTE5LC00NTI2MTMyMjQsMTQxMz
-IzNDUwNCwtMTk0MDkzMjc0LC0yMDE5NDg4MTE5LC0xNDU5MTIz
-MDA3LC01MzI5OTk2NzldfQ==
+eyJoaXN0b3J5IjpbMTU5NTE2ODA3MSwtNDUyNjEzMjI0LDE0MT
+MyMzQ1MDQsLTE5NDA5MzI3NCwtMjAxOTQ4ODExOSwtMTQ1OTEy
+MzAwNywtNTMyOTk5Njc5XX0=
 -->
