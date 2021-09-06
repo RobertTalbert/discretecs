@@ -296,13 +296,15 @@ Likewise, look at the existentially quantified predicates that are false, like t
 
 Here's one more exercise to put it all together. Look at the predicate C(x) where the domain is the set of all countries on Earth, and C(x) says "the first letter of x is B". Pause the video while you do the following: First, write out in English or whatever language you prefer what the statements "for all x C(x)" and "there exists an x such that C(x)" would say in plain language. Then, determine whether those statements are true, or false. Then, write out their negations in plain language and determine whether those are true or false. Come on back here when you are ready. 
 
-The universally quantified statement would say that Every country begins with the letter B. The existentially quantified statement would say that At least one country begins with the letter B. There are other possible ways to say either of these. But when you put it this way, it's clear that "For all x C(x)" is false, again because there are lots of counterexamples possible, for 
+The universally quantified statement would say that Every country begins with the letter B. The existentially quantified statement would say that At least one country begins with the letter B. There are other possible ways to say either of these. But when you put it this way, it's clear that "For all x C(x)" is false, again because there are lots of counterexamples possible, for example France. And "There exists x such that C(x)" is true, because there do exist countries beginning with a B, like Belize or Belarus. 
+
+The negation of "for all x C(x)" would be "There exists x such that not C(x)" which in plainer language would be "There exists a country whose name doesn't begin with a B". And that's certainly true, in fac
 
 ## 2.10
 
 ## 2.11 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMTE3MDE2ODgsLTQ1MjYxMzIyNCwxND
-EzMjM0NTA0LC0xOTQwOTMyNzQsLTIwMTk0ODgxMTksLTE0NTkx
-MjMwMDcsLTUzMjk5OTY3OV19
+eyJoaXN0b3J5IjpbNjI5MzgyMTU2LC00NTI2MTMyMjQsMTQxMz
+IzNDUwNCwtMTk0MDkzMjc0LC0yMDE5NDg4MTE5LC0xNDU5MTIz
+MDA3LC01MzI5OTk2NzldfQ==
 -->
