@@ -288,13 +288,15 @@ Now you try it with the earlier predicates R(x) and S(x). Are the existentially 
 
 There exists x such that R(x), is TRUE this time because it is true that there exists at least one string that has a positive length. For example, the word "logic" has a positive length. But, the statement there exists x such that S(x), is false because there does not exist even one real number whose absolute value is negative. 
 
-Here's a table summarizing what we've found in these examples. This brings up an important concept: Since qua
+Here's a table summarizing what we've found in these examples. This brings up an important concept: Since quantified predicates are propositions, we can negate them. Remember the negation of a proposition P, which we write using this symbol and say "not P", is the proposition with opposite truth values from P. 
+
+Take a look at the universally quantified predicates that were false. How did we know they were false? For example, why was "for all strings x, the length of x is pos
 
 ## 2.10
 
 ## 2.11 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYwNTcwMTE0NSwtNDUyNjEzMjI0LDE0MT
-MyMzQ1MDQsLTE5NDA5MzI3NCwtMjAxOTQ4ODExOSwtMTQ1OTEy
-MzAwNywtNTMyOTk5Njc5XX0=
+eyJoaXN0b3J5IjpbNTM5Mzk5ODY3LC00NTI2MTMyMjQsMTQxMz
+IzNDUwNCwtMTk0MDkzMjc0LC0yMDE5NDg4MTE5LC0xNDU5MTIz
+MDA3LC01MzI5OTk2NzldfQ==
 -->
