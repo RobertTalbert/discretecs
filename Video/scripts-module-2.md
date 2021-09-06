@@ -278,13 +278,15 @@ Here are some more examples. Let Q(x) be the predicate x**2 >= 0. "For all x Q(x
 
 Here's two more. R(x) is the predicate "The length of x is positive" where x is a string, and S(x) is the predicate the absolute value of x is negative where x is a real number. Pause the video and find the truth value of for all x R(x), and for all x S(x). 
 
-So in these examples, both universally quantified statements are FALSE. It's not the case for every string x, the length of x is positive because there is such a thing as a string of length 0, namely the empty string. So for all x R(x) is false because we found what's called a *counterexample* --- a single example that shows us that R(x) is sometimes false, therefore not always true. Likewise for all x S(x) is false, because there's a counterexample there as well: In fact there are many, for example x = 1. The absolute value of 1 is 
+So in these examples, both universally quantified statements are FALSE. It's not the case for every string x, the length of x is positive because there is such a thing as a string of length 0, namely the empty string. So for all x R(x) is false because we found what's called a *counterexample* --- a single example that shows us that R(x) is sometimes false, therefore not always true. Likewise for all x S(x) is false, because there's a counterexample there as well: In fact there are many, for example x = 1. The absolute value of 1 is 1, which is not negative, so S(x) is not always true. 
+
+This brings up an important concept about quantified predicates, namely that since they are propositions, we can negate them. Remember the negation of a proposition, where we use this symbol to represent negation, is just the proposition with the opposite truth value and we usually use the word "not" to indicate it. 
 
 ## 2.10
 
 ## 2.11 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ2Njk5MTgxMSwtNDUyNjEzMjI0LDE0MT
-MyMzQ1MDQsLTE5NDA5MzI3NCwtMjAxOTQ4ODExOSwtMTQ1OTEy
-MzAwNywtNTMyOTk5Njc5XX0=
+eyJoaXN0b3J5IjpbMjAwMTExNjE3LC00NTI2MTMyMjQsMTQxMz
+IzNDUwNCwtMTk0MDkzMjc0LC0yMDE5NDg4MTE5LC0xNDU5MTIz
+MDA3LC01MzI5OTk2NzldfQ==
 -->
