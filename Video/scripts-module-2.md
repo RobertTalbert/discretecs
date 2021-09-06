@@ -260,9 +260,15 @@ This collection, consisting of all the variable values that make the predicate t
 
 You've learned a lot in this video: The differences between a predicate and proposition, the domain of a predicate, and the truth set of a predicate. In the next video, we'll come back to the idea of quantifying a predicate that we mentioned earlier --- that's taking a predicate and turning it into a proposition by making an assertion about how often the predicate is true. 
 
+## 2.9
 
+In the last video, we learned about predicates, which are like propositions but whose truth value depends on the value of an input variable. We mentioned briefly that there's a way of turning a predicate into a proposition with a definite, fixed truth value by think
+
+## 2.10
+
+## 2.11 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ1MjYxMzIyNCwxNDEzMjM0NTA0LC0xOT
-QwOTMyNzQsLTIwMTk0ODgxMTksLTE0NTkxMjMwMDcsLTUzMjk5
-OTY3OV19
+eyJoaXN0b3J5IjpbMTI3NTg5NTc1NSwtNDUyNjEzMjI0LDE0MT
+MyMzQ1MDQsLTE5NDA5MzI3NCwtMjAxOTQ4ODExOSwtMTQ1OTEy
+MzAwNywtNTMyOTk5Njc5XX0=
 -->
