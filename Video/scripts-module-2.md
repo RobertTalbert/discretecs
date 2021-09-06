@@ -280,7 +280,9 @@ Here's two more. R(x) is the predicate "The length of x is positive" where x is 
 
 So in these examples, both universally quantified statements are FALSE. It's not the case for every string x, the length of x is positive because there is such a thing as a string of length 0, namely the empty string. So for all x R(x) is false because we found what's called a *counterexample* --- a single example that shows us that R(x) is sometimes false, therefore not always true. Likewise for all x S(x) is false, because there's a counterexample there as well: In fact there are many, for example x = 1. The absolute value of 1 is 1, which is not negative, so S(x) is not always true. 
 
-The other form of quantification we have is when we take a predicate and claim that it is *sometimes*, but not necessarily always true. For example if P(x) is x+5=12, then while this predicate is not always true, it is true for at least one value of x
+The other form of quantification we have is when we take a predicate and claim that it is *sometimes*, but not necessarily always true. For example if P(x) is x+5=12, then while this predicate is not always true, it is true for at least one value of x. A fancier way of saying this is that *there exists an x* that makes P(x) true. So this form of quantification, where we make a claim about the existence of at least one input value that makes the predicate true, is called *existential quantification*. We use a special symbol for this too, a backwards "E". So this notation means, "there exists at least one x such that P(x) is true". 
+
+We saw that there exists x such that x+5 = 12, is a TRUE statement. (Remember the universally q
 
 
 
@@ -290,7 +292,7 @@ This brings up an important concept about quantified predicates, namely that sin
 
 ## 2.11 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY3MTU5MTI1OCwtNDUyNjEzMjI0LDE0MT
-MyMzQ1MDQsLTE5NDA5MzI3NCwtMjAxOTQ4ODExOSwtMTQ1OTEy
-MzAwNywtNTMyOTk5Njc5XX0=
+eyJoaXN0b3J5IjpbLTYxNDU1NTcsLTQ1MjYxMzIyNCwxNDEzMj
+M0NTA0LC0xOTQwOTMyNzQsLTIwMTk0ODgxMTksLTE0NTkxMjMw
+MDcsLTUzMjk5OTY3OV19
 -->
