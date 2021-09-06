@@ -328,11 +328,11 @@ What would happen if we had existentially quantified the x earlier instead of un
 
 So given a two-variable predicate P(x,y) there are at least four possible ways to quantify it: one for each combination of quantification of x and y. Each has its own truth value that it's our job, as mathematicians, to explain why the truth value is true or why it's false. 
 
-I say "at least" four truth values because in fact sometimes the ordering of the variables matters too. For example look at the predicate Q(x,y) is x % y = 1 where the domain is all positive integers. The double-quantified statement "for all x, there exists a y such that x % y = 1" 
+I say "at least" four truth values because in fact sometimes the ordering of the variables matters too. For example look at the predicate Q(x,y) is the statement that x*y < 1 where the x values are integers and the y values are positive real numbers. Look at the statements for all x there exists a y such that Q(x,y) and there exists a y such that for all x Q(x,y). You might thing 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTQyMzA0NDE4LC00NTI2MTMyMjQsMTQxMz
-IzNDUwNCwtMTk0MDkzMjc0LC0yMDE5NDg4MTE5LC0xNDU5MTIz
-MDA3LC01MzI5OTk2NzldfQ==
+eyJoaXN0b3J5IjpbLTEyMjU5MjU0Myw1NDIzMDQ0MTgsLTQ1Mj
+YxMzIyNCwxNDEzMjM0NTA0LC0xOTQwOTMyNzQsLTIwMTk0ODgx
+MTksLTE0NTkxMjMwMDcsLTUzMjk5OTY3OV19
 -->
