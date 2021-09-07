@@ -4,6 +4,9 @@ tags: mth225, crypto
 
 # Very Short Introduction to Cryptography 
 
+
+
+
 ## What is cryptography?
 
 **Cryptography** is the study of secure communications in the presence of an adversary. It involves taking information (an email for example, or your credit card number, or your Banner password) and sending it to a person or to a computer in such a way that only the people you intend to read it, can actually read it. Someone who has access to the message that you send should *not* be able to discern any information from the message unless you allow them to. 
@@ -45,3 +48,6 @@ which is the original plaintext.
 Eve, on the other hand, intercepts the message `PHHW DW VWDUEXFNV QRZ` but it looks like random text. On the surface, this string of letters contains no information --- and that's the goal. 
 
 However, this cryptographic system of shifting the characters of a message forward by a certain amount has a lot of security problems, and Eve won't have to work terribly hard to crack the code and find the message. If you assume that Eve knows that the ciphertext was obtained by shifting, but that Eve does not know the amount by which it was shifted, can you think of some ways Eve could still get information out of this message? If so, you've engaged in **cryptanalysis**, the science of breaking cryptographic systems. 
+
+
+[![hackmd-github-sync-badge](https://hackmd.io/HIom2Po5RNiscLfUYC6qCw/badge)](https://hackmd.io/HIom2Po5RNiscLfUYC6qCw)
