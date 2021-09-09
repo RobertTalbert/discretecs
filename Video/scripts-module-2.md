@@ -314,7 +314,7 @@ You've learned in this video that the negation of a universally quantified state
 
 ## 2.11
 
-You've done a lot of work so far with predicates. You've learned what they are and how they related to propositions, how to quantify them, how to negate them, and more! Great job so far. Our last video on this topic is going to expand things out a bit and look at predicates that have two variables instead of one. 
+You've done a lot of work so far with predicates. You've learned what they are and how they related to propositions, how to quantify them, how to negate them, and more! Great job so far. But there's one question left to think about -- what happens when your predicate has more than just one variable?
 
 Let's let P(x,y) is the statement x*y is bigger than or equal to 0. To determine the truth value of this, we need the values of not just one but two inputs. For example P(2,3) is true and P(2,-4) is false. We saw in the last two videos that quantifying the variable turns a predicate into a proposition with a definite truth value. Does that work for two-variable predicates? 
 
