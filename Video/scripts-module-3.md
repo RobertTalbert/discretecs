@@ -59,6 +59,51 @@ So now you know what a set is, what an element of a set is, how to use curly bra
     - Example: {x in Z : x mod 5 = 3}
     - Example: {x in R : x**2 = 1}
     - Example: {x in {0,1,2} : x < 0} -- empty! 
-- Practice: Give a set in roster notation; which set-builder notation is correct
-- Practice: Give a set in set-builder notation; which roster notation is correct
+- Practice: Give a set in roster notation; which set-builder notation is correct ( {x in {A,B,C,...,M} : x is a vowel})
+- Practice: Give a set in set-builder notation; which roster notation is correct  [1, 7, 13, 19, 25, 31, 37, 43, 49, 55, 61, 67, 73, 79, 85, 91, 97] {x in N : x mod 2 = 1 and x mod 3 = 1}, {}
 - A word about syntax: Putting the predicate first doesn't make sense, example why
+
+In the last video we learned a lot of basic ideas about sets. In this video we're going to look at two different important ways to write sets. 
+
+All the sets we saw in the last video were given like lists. We simply listed the elements of the set, and if there was a pattern we saw that helped us express that list then we used dots to represent it. For example, here's the set of all letters in the English alphabet. And here it is again where we assume that the pattern here in the dots is understood. And here's a finite set consisting of the elements -1 and 1. Finally here's an infinite set, the set of all even integers. 
+
+When we express a set by simply listing its elements inside curly braces, this is called writing the set in **roster notation**. The word "roster" in everyday langauge means a list too, usually of people for example the starting eleven of a football team or the members of a college class. And that's the meaning we adopt here for sets. 
+
+Roster notation is simple but it sometimes can hide information about *why* objects are the elements of a set. For example look at this infinite set. There are dots at the end, but what exactly is the pattern here? We'd like this pattern to be more easily understood by someone reading it. In fact the pattern is that every element of this set is an integer that is equal to 3 mod 5. It might be clearer just to *say* that. In other words, this is the set of integers that are equal to 3 mod 5. Being explicit about the *membership requirements* here makes it a lot easier to understand this set.
+
+Here's an alternative way to express this set that makes the membership requirements clear. Here's how to read this: The curly braces mean "The set of". Before the colon, we have a variable and we are stating the domain of that variable. So this means "the set of all x in the integers". Then the colon means "such that". Then after the colon there is a predicate: x mod 5 is 3. So in all, this notation reads: The set of all integers x, such that x mod 5 is 3. And that's an economical way of writing the set we started with, that makes it clear what exactly is in this set, whereas it was a little hard to see when we just listed the roster. 
+
+This kind of notation is called **set builder notation**. In set builder notation instead of listing the roster of elements, we *build* the set by starting with stating a range of variable values, for example all x in the integers, and then using a predicate to filter out all but the elements we want to keep. We first list the variable and its domain, then after the colon we list the predicate that filters out elements. 
+
+Here's another example of set-builder notation: The set of all real numbers x such that x**2 = 1. What's this set in roster notation? Well, we start with the entire set of real numbers, which is a huge set. But then we use this predicate to filter out most of them. We are only going to keep the real numbers that make this predicate true. That's just x = 1 and x = -1. So this set in roster notation is the set consisting of 1 and -1. 
+
+And here's another example: The set of all x values from the set {0,1,2,...,10} whose square root is bigger than 2. What's this in roster notation? Start with all the elements of the set {0,1,2,..., 10}. That's 11 numbers. Now apply the predicate to filter out. The numbers that meet the membership requirements, that make the predicate true, are the numbers 3 through 10. So that's our set in roster notation. 
+
+In other words, when we write a set in set-builder notation we are expressing it as the truth set of a predicate, namely the predicate that comes after the colon. What comes before the colon is the initial set before we apply the filter. Then the predicate does the filtering. 
+
+Now you try it. Here's a set in set-builder notation and some possible roster notation versions of the set. Pause the video and determine which of these sets is the same as the one above. 
+
+This one is the correct answer. The initial, pre-filtered set we use is the set of letters A through M. Notice that's not the entire alphabet. Then we filter out everything except the letters that make the predicate, "x is a vowel", true. That leaves us with A, E, and I. 
+
+Try it going the other direction. Here's a set in roster notation. Choose any of the following that would be correct set-builder notation for the same set. 
+
+So there are two correct answers on this one and here they are. Both of these produce the same list of numbers and both are equally correct, although this one is shorter. The other two are not correct and I'll explain why. This one is not correct because the set we start with, prior to the filtering, is wrong --- this is the set of ALL integers. If we started with that set and filtered out all but the ones that are 1 mod 6 we'd pick up not only all the numbers in the roster set but also negative numbers. So that starting set really matters! It has to be stated, and stated correctly. This other one is incorrect because it has the predicate listed first and the set second. This syntax doesn't make sense. If you read it aloud, it says "The set of x mod 6 equal 1 such that x is in the natural numbers." This doesn't make sense in English and also not in math. Correct set builder notation does not list the filtering predicate first --- it can't, because we have to have a set of numbers to filter first. So be mindful of the syntax you use to write in set builder notation. 
+
+Here's a variation on set-builder notation that can be handy for programming purposes. Sometimes we can write a set in terms not of filters but in terms of computations we perform on elements in a set. For example: this set is also considered to be in set-builder notation but it's different. We're not starting with an initial set and filtering things out, but instead we're stating a computation we're going to perform and then giving the set of elements we'll be using to perform it. In this case we want the set of all squares of elements from the natural numbers. This is basically a FOR loop. It means loop through all the elements in this set after the colon, and perform this process on them. 
+
+Here's a summary of the differences between those two versions of set-builder notation. One kind is a filtering process, so we list the initial set and then the filtering conditions stated as a predicate. The second kind is a looping process, so we list the computation we perform and then the initial set we're looping over. Both are considered set-builder notation because we are literally building a set using some kind of a rule. One rule involves filtering and the other involves looping. 
+
+
+So in this video you learned about roster notation and set builder notation and the differences between the two, and got some practice switching the expression of a set from one notation to another. Good job! In the next video we'll get a little more practice with this from the standpoint of deciding whether an object belongs to a given set or not. 
+
+## 3.3 
+
+- Reminder of notation for element of/not an element of
+- Example: Roster notation 
+    - Set is all natural numbers 10 mod 11 
+    - Three examples of what's in the set
+    - Three examples of what isn't 
+- Example: Set builder notation {x in N : x**2 = 100}
+- Another example: { x**3 : x in {0,1,2,3}}
+- Weird example in roster notation: Mixed elements {1, {1,2}, 3/4} Which elements are in the set and which are not? 
+
