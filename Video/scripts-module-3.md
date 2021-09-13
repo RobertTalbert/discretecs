@@ -136,3 +136,32 @@ What about a set that is just a random collection of objects? Like for example t
 In this video we dug deeper into the idea of what an "element" of a set looks like and how to determine if an object is an element of a set or not. It can be trickier than it appears at first, but in roster notation we take the list of elements literally to determine membership, and in set-builder notation we use the rules for building the set to guide us. 
 
 In the next video, we're going to use these concepts to discuss the concept of a subset, and to determine whether two sets are equal. 
+
+## 3.4
+
+- Subset: Every element in A is also an element of B
+  - Example: {1,2,3} subset {1,2,3,4}, so is {2,4}, so is {1,2,3,4}
+  - Example: N subset Z
+  - Example: Vowels subset all letters
+  - Non example: {1,5} not a subset of {1,2,3,4} 
+  - Practice -- pick the subsets
+  - Subsets using quantifiers (for all x in A, x in B --- negation is exists x in A x not in B)
+  - The empty set is a subset of every set "If x in A, then x in B" 
+- Equality: Two sets contain exactly the same elements 
+  - Example: {1,2,3} and {3,2,1}
+  - Nonexample: 
+  - A subset B and B subset A
+
+Now that 
+
+
+## 3.5 
+
+- Power set: Set consisting of all subsets
+  - Example: P({1,2}) 
+  - Example: P({a,b,c})
+  - Example: P(empty)
+- Cardinality: "Size" of a set 
+  - If finite: Number of elements 
+  - Examples
+  - If infinite: It's complicated 2Z, Z
