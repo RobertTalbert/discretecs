@@ -192,3 +192,31 @@ In this video you learned what it means for a set to be a subset of another set,
   - If finite: Number of elements 
   - Examples
   - If infinite: It's complicated 2Z, Z
+
+This video is going to touch on two quick concepts related to sets that will pave the way for some of the other work we will do with them in future videos. Here's the first concept. 
+
+In the last video we talked at length about subsets of a set. For example we saw that {1,2,3} is a subset of {1,2,3,4} and so is {2,4}, so is {1,2,3,4} itself, and so is even the empty set. It might make you wonder, what are all the subsets of {1,2,3,4} and how many are there? It's sometimes useful to think about all the possible subsets of a given set, so let's do that with this example. 
+
+Well, the empty set is a subset of all sets. There are four one-element subsets of {1,2,3,4} and here those are. The number of 2-element subsets takes a little more work to enumerate but you would have {1,2}, {1,3} and {1,4}, then {2,3} and {2,4} --- notice {2,1} is the same as {1,2} and {2,2} is the same as just {2}, and since those are already listed we leave them out. We'd also have {3,4}, and that's all the two-element subsets -- six in all.  Then for the three-element subsets we have {1,2,3}, {1,3,4}, ad {2,3,4}. Then finally we have {1,2,3,4} itself. That's all of them and that's 16 in all. 
+
+We mentioned earlier too that sets can contain elements that are also sets, just like boxes can contain other boxes. If we take all 16 of those sets and put them into a set like so, we have formed the set of all subsets of {1,2,3,4}. This is a construction known as the **power set** of {1,2,3,4}. The power set of a set A, is a set whose elements are all the subsets of A. 
+
+For example, the power set of {a,b} is the set, whose elements are the subsets of {a,b}. There are four of those: the empty set, the one-element sets {a} and {b}, and the set {a,b}. YOu try it with the three-element set {x,y,z}. What is the power set of this set? 
+
+You should find there are eight subsets for this set. The empty set is one, then these three one-element sets, then these three two-element sets, then finally the full set itself. The power set is the set containing all of those. 
+
+We can form the power set of any set at all, although we may not be able to list all the elements. For example the power set of the natural numbers contains all possible subsets of the natural numbers, and that's an infinite set. What about the power set of the empty set? Well, there is only one subset of the empty set, and that's the empty set itself. So the power set of the empty set, is the set, containing the empty set. 
+
+We seem to be talking a lot about *size* here, in terms of how many elements a set has. The term **cardinality** refers to how many elements are in a set.  We put absolute value signs around the set to indicate its cardinality The cardinality of {x,y,z} for example is 3. The cardinality of the power set of {x,y,z} is 8. The cardinality of the empty set is 0 because there are no elements at all in the empty set. If the set is finite, its cardinality is just the number of elements it has. If the set is infinite, it gets complicated. For now we will just say that an infinite set has infinite cardinality. But again -- it's complicated. 
+
+TO see why it's complicated, look at the set of natural numbers and the set of even natural numbers. IT seems like the set of natural numbers should be twice as big as the set of even natural numbers. But as you can see, we can put the even natural numbers in one-to-one correspondence with the full set of natural numbers, so if you look at it that way, these two sets have the same number of elements. So with infinite sets, we need to be more careful about talking about cardinality. For now, we'll oversimplify things and just say that infinite sets have infinite cardinality. 
+
+So in this video you learn about the power set of a set, which is the set whose elements are all the possible subsets of the given set -- and about the cardinality of a set, which roughly refers to the number of elements it has, although things get weird when the set is infinite. Next up, we'll be learning about forming new sets from old ones by using set operations. 
+
+## 3.6 
+
+- Intersection
+- Union
+- Difference
+- Complement
+- Symmetric difference 
