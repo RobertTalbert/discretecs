@@ -152,7 +152,34 @@ In the next video, we're going to use these concepts to discuss the concept of a
   - Nonexample: 
   - A subset B and B subset A
 
-Now that 
+Now that we've learned about sets and taken a good look at set membership, we can introduce two ways of comparing sets in terms of the elements that they have in common. 
+
+Let's suppose we have a set consisting of the names of all the students enrolled in a discrete math class. The professor for that class might need to send a message out, not to the entire class but just to the first-year students to remind them to go see their advisors. The group of interest is a portion, but not all of the names in the class. Every person in that group is in the class; but we only want to send the message to them, not to everyone. In that case what we are using is called a **subset** of the set of all names of students in the class. This group of first-year students isn't the only subset of the class; we could send messages to all the graduating seniors; or all the students whose first names begin with a "G"; or all the students who were sitting together at a table on Monday. 
+
+Generally speaking, if A and B are sets, then A is a **subset of B** if every element of A is also an element of B. We use this notation, which looks a little like "less than or equal to" except it's rounded, to indicate A is a subset of B. So for example {1,2,3} is a subset of {1,2,3,4}. And so is {2,4}. And even the set {1,2,3,4} itself is a subset of {1,2,3,4} because every element of the set on the left is an element of the set on the right. This means that *every set is a subset of itself*. 
+
+Another example would be the natural numbers, which are a subset of the integers because every natural number is an integer; and the integers are a subset of the real numbers because every integer can be located on the number line. That chain of subset relations means that the natural numbers are a subset of the real numbers too. The real numbers can have finite subsets as well, for example the set {pi, square root of 2} is a 2-element subset of the real numbers. 
+
+On the other hand, the set {1,5} is NOT a subset of {1,2,3,4} because *not every* element in {1,5} is an element of {1, 2, 3, 4}. We can see that 5, although it's an element of {1,5} is not an element of {1,2,3,4}. 
+
+Now you try it. Here's a set {M,A,T,H,E,I,C,S} (the different letters used in the word "mathematics"). Which of the following sets are subsets of this? Take a moment and identify them then come back. 
+
+(Choices are {A}, {A,M}, {A,G}, {M,A,T,H,E,I,C,S} 
+
+Here are your correct answers. The first two setes {A}, and {A,M} are subsets because every element in each one is also an element in the set we started with. {A,G} is not, because the letter G is not found in the original set. And the last one is the same as the original set, and we've alread explained that every set is a subset of itself. 
+
+You might have noticed that we can think about subsets using quantifiers, which we learned in Module 2. The definition of subset says that A is a subset of B if every element of A is also an element of B. IN quantifier language that would say that for all x in A, x is in B. This helps us think about what it means for a set NOT to be a subset of somethign else. The negation of for all x in A, x in B is the statement there exists an x in A such that x is not in B. That's why {A,G} was not a subset of {M,A,T,H,E,I,C,S} --- because there exists an element in {A,G} (namely G) that is not in {M,A,T,H,E,I,C,S} . 
+
+Here's another question for you: Is the empty set a subset of {M,A,T,H,E,I,C,S}? Pause the video and think about this, and come back when you've decided yes or no. 
+
+This one takes some careful reasoning. We can think of subsets in terms of conditional statements. The statement "for all x in A, x is in B" can be rephrased as the conditional statement "if x is in A then x is in B." So look at the proposition "the empty set is a subset of {M,A,T,H,E,I,C,S}". As a conditional statement this would say "if x is in the empty set, then x is in {M,A,T,H,E,I,C,S}". Well, the empty set is empty, so the hypothesis of that statement "x is in the empty set" is always false. And when the hypothesis of a conditional statement is false, the conditional statement itself is true. So believe it or not, "if x is in the empty set, then x is in {M,A,T,H,E,I,C,S}" is true, and therefore the empty set is a subset of this set. In fact by this reasoning, the empty is a subset of **every** set. 
+
+In addition to subset relations, we can talk about whether two sets are "equal". Two sets are equal if they contain exactly the same elements, like {1,2,3} and {3,2,1}. These are equal sets because they have the same elements --- the ordering doesn't make them different. But it can be hard to tell sometimes if two sets have the same elements. For example, is the set {1,-1} equal to the set {x in R : x**2 = 1}? One is a finite set and the other is in set-builder notation --- it's hard to tell if the two sets have the same elements just by looking. So we will say that the set A and the set B are equal if A is a subset of B *and* B is a subset of A. 
+
+For example, A = {1,-1} is equal to the set B = {x in R : x**2 = 1}. Here's an explanation. First, A is a subset of B because if x is in A, then x is either 1 or -1. And in each case, x^2  = 1, therefore x passes the filter given by the predicate in the second set, and x is in B. That makes A a subset of B. Likewise if y is in B, then y^2 is 1, and a little algebra shows that y^2 - 1 = 0, so (y+1)(y-1) = 0, which means either y = 1 or y = -1. Therefore the y that was in B, is also in A. That makes B a subset of A. Since they are subsets of each other, they're equal. 
+
+In this video you learned what it means for a set to be a subset of another set, and what it means for two sets to be equal. Those are basic tools for comparing sets. See you in the next video. 
+
 
 
 ## 3.5 
