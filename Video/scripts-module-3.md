@@ -223,6 +223,35 @@ So in this video you learn about the power set of a set, which is the set whose 
 - Complement
 - Symmetric difference 
 
+In both math and computer science, whenever we learn about a structure, it's useful to then learn how to build new structures out of it. We're going to do that now by looking at five operations we can perform on sets that will create new, related sets that can be used for various purposes. 
+
+As a running example throughout this video, suppose you're in a discrete math class. Let's let U be the set of all students in the class. Also let C be the set of all computer science majors in your class, and F is the set of all first-year students in the class. So C and F are both subsets of U but we don't necessarily know how C and F relate to each other. 
+
+The instructor of the class wants to let all the first-year computer science majors know about the Computer Science club. So she needs to generate a list of all students in the class who are both computer science students and first year students --- all students who are both in the set C and in the set F. This is called the *intersection* of those two sets. In general, the intersection of any two sets A and B is a new set whose elements are those that are elements of A and elements of B. We use an upside-down U symbol like this to represent the intersection of A and B --- it should remind you of the upside down V we use for "and" when studying logic. We'd express the intersection of A and B like this in set-builder notation. In our class, C intersect F would contain these students since they are in both sets at the same time. 
+
+Later on, the instructor gets a message from the university asking her to remind students about signing up for classes. She decides she needs to especially contact any student that is either a first-year student or a computer science major, since first-year students may need to be reminded about signing up for classes and computer science majors have a complicated set of courses to finish. So this time, she needs students who are either first year or computer science majors, or both. This is called the *union* of those two sets. In general the union of any two sets A and B is a new set whose elements are those that are either elements of A or elements of B or both. We use a U shaped symbol to denote the union, and here's what it would look like in set-builder notation. For our class, C union F would contain all these students since they are in either C or F, or in some cases both. 
+
+Not all the students in the discrete math class are computer science majors, and the instructor would like to send the first-year students who are not majoring in computer science some information about the computer science major to see if they are interested. Now the instructor needs the students who are first-year students but who are not computer science majors. The set of results is called the *difference* of the two sets. In general, if A and B are sets, then the difference of A and B is written either with a minus sign A-B, or with a backward slash A \ B and it's pronounced "A minus B" either way. This is the set whose elements are those that *are* elements of A *and not* elements of B. In our class, we're looking for students who are first-year students but not computer science majors, so that's F minus C. Notice that unlike with intersection and union, the ordering matters here. F \ C in our case is this set. But C \ F is different -- this would be the set of students who are computer science majors and not first year students. 
+
+The instructor of the discrete math class decides it would be good to send that information about being a computer science major to *all* students who are not currently majoring in computer science, not just the first year students. So she needs a list of all students who are *not* majoring in computer science regardless of what year they are in. This is called the *complement* of a set. In general, if A is a set, then its complement is a new set whose elements are those that are *not* in A. We use a bar over the name of the set to denote its complement. In our class, the instructor needs the complement of C, the set of all students not majoring in computer science. That's this set. Notice that in order to find the complement, we needed to know what the entire set of students in the class was. We called that set U, and the set of all elements we are considering in any given situation is sometimes called the *universe*. So notice that the complement of A is just the difference U minus A; and the difference A minus B is the intersection of A and the complement of B -- the set of all elements that are in A and not in B. 
+
+Back to our discrete math class, it turns out that the computer science department has its own message to send out about class registration to all first-year computer science majors. So the instructor of the class didn't need to send the information to those students. She needed to send it to students who are either comptuer science majors, or first-year students, *but not both*. The set of student in that situation is called the *symmetric difference* of two sets. In general, if A and B are two sets then the symmetric difference of the two, which we notate with a triangle symbol, is the union of A and B minus the intersection of A and B --- the set whose elements are either in A or B, but not in both. In our class, the instructor would need the symmetric difference of C and F, which would be this set. 
+
+Now you try it. Let A be the set {1,2,3,4,5}, B the set {3,4,5,6,7}, and C the set {1,2,8}. Assume that the universe in this case is the set {1,2,..., 10}. Pause the video and write out the following sets in roster notation: A intersect B, B intersect C, A union C, A minus B, A symmetric difference B, and finally A intersect the complement of B union C. 
+
+So A intersect B is the set of elements in both A and B, and that's the set {3,4,5}. 
+B intersect C is the set of elements in both B and C but there are no elements in both, so that set is empty. Whenever two sets have an empty intersection, we say those sets are disjoint. 
+A union C is the set of elements in either A or C or both, so that's {1,2,3,4,5,8}. A set union is a little like merging the two sets and removing duplicates. 
+A minus B is the set of elements that are in A but not in B. Well, A consists of 1, 2, 3, 4, 5 and 3,4,5 are in B, so we throw our 3, 4, 5 and are left with {1,2}. A minus B is like a filtering process where we start with A and filter out the things that are in B. 
+
+A symmetric difference B is A union B, which is {1,2,3,4,5,6,7}, minus A intersect B which is 3,4,5. Filtering out those three elements leaves us with {1,2,6,7}. 
+
+Now for the last one, we build the set piece by piece using order of operations. B union C is the set {1,2,3,4,5,6,7,8}. The complement of this is everything in the universe set that isn't in B union C, so that's {9,10}. Then A intersect with this set is empty, since those two sets have no elements in common. 
+
+In this video we introduced five set operations: intersection, union, difference, complement, and symmetric difference and saw how these can be used to combine sets in different ways for different purposes. In the next video we'll discuss a sixth operation called the cartesian product of two sets that produces a very different kind of result. 
+
+
+
 ## 3.7 
 
 - Ordered pairs in algebra 
@@ -234,3 +263,23 @@ So in this video you learn about the power set of a set, which is the set whose 
   - Example: {1,2,3} x {a,b}
   - You try it 
 - Order matters because they are ORDERED pairs 
+
+In the last video we saw a number of operations we can perform on sets to produce new sets that fit different kinds of real situations. In this video we're going to introduce another set operation that's similar to these, but it's different and needs a little more explanation.
+
+Let's go back to our fictitious discrete math class. Suppose the class has met a total of 10 times and instructor wants to look at attedance at class meetings. So she creates a spreadsheet with the names of students in one column and the number of days they have attended in the other. This pairs off each student with a number. We can think of these pairs as an ordered pair, like this. Remember that U was the set of all students in the class. And the numbers here could range between 0 and 10 since the class has met 10 times. Let's let A be the set 0, 1, 2, and so on through 10. The set of all possible pairs that the instructor could create, with students in the first slot of each pair and integers 0 through 10 in the second slot, created is called the Cartesian product of U and A. 
+
+In general given any two sets A and B, the Cartesian product of A and B is the set of all ordered pairs that have the first item in the pair coming from A and the second item coming from B. We use a cross, like you might see in primary school to denote multiplication of two numbers, as the notation. 
+
+For example, look at the set {1,2,3} product with the set {a,b}. This is the set of all ordered pairs whose first "coordinate" is in the set 1,2,3 and whose second coordinate is in the set a,b. There are six such pairs and here they are: There are two pairs for each of the three elements of the set {1,2,3} -- (1,a) and (1,b), then (2,a) and (2,b), and finally (3,a) and (3,b). 
+
+In our classroom example, the product of U and {1,2,...,10} is the set of all possible pairings of students and attendance. So there are 11 possible pairs for each student, making this a pretty large set. The pairs that are in the instructors spreadsheet would be a subset of the entire product but not equal to it. 
+
+Now you try it. Write out the set A times B, where A is {x,y} and B is the set {1,2,3,4}. 
+
+You should find there are eight pairs in this product, and here they are --- four pairs for each element of A. Or another way to think about it, you have two pairs for each element of B. 
+
+Notice that unlike in multiplication of real numbers, the order of A and B in A times B matters. In this exmaple you just worked, B times A would be this set -- it's still eight pairs and the ordering of the coordinates is reversed. But these are *ordered* pairs --- (x,1) is not considered to be the same thing as (1,x) so these two sets have the same *number* of elements, but the elements themselves are not the same. 
+
+You've actualy worked with Cartesian products before because you've worked with ordered pairs before. Back in your early algebra classes, you learned how to plot points in a two-dimensional xy-plane and then graph functions using this process. Each point is a pair of numbers, like (1,3) or (sqrt(2), 1.5). So the xy-plane which consists of **all** those points, is the set R times R where R is the set of all real numbers. This is the set consisting of all possible pairs with real numbers in each coordinate. 
+
+So you've learned what the Cartesian product is, and how to find the Cartesian product of simple sets. In our next video, we'll be shifting gears to focus on the idea of a *function* which, as we just mentioned, is a way of mapping elements of one set onto the elements of another. 
