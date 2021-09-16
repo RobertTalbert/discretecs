@@ -1,0 +1,319 @@
+1
+00:00:00,000 --> 00:00:07,066
+Hasta ahora hemos aprendido a representar números enteros en diferentes bases numéricas, específicamente la base 10, que es lo que aprendemos de niños, y
+
+2
+00:00:07,066 --> 00:00:14,599
+bases 2, 8 y 16 que se utilizan comúnmente en informática. Estas diferentes bases numéricas se parecen mucho a diferentes unidades de
+
+3
+00:00:14,600 --> 00:00:22,966
+medición. Mililitros, galones y tazas son medidas de volumen, pero cada una es más útil en algunos contextos que en otros, y nosotros
+
+4
+00:00:22,966 --> 00:00:30,166
+a menudo hay que convertir de una medida de volumen a otra. Del mismo modo, es importante poder convertir entre diferentes bases numéricas
+
+5
+00:00:30,166 --> 00:00:40,532
+representaciones. Hemos visto cómo convertir una representación de base 2, 8 o 16 a base 10 (que es bastante simple) y de base 2 a
+
+6
+00:00:40,533 --> 00:00:47,399
+ya sea base 8 o 16 (que también es bastante simple). Pasar de la base 10 a cualquier otra base, por otro lado, no es difícil, pero cuando lo hicimos,
+
+7
+00:00:47,400 --> 00:00:56,500
+puede que le haya parecido una conjetura. En este video vamos a hacer más el proceso de conversión de decimal a otras bases
+
+8
+00:00:56,500 --> 00:01:00,500
+infalible a través de un algoritmo simple y riguroso.
+
+9
+00:01:00,500 --> 00:01:09,633
+En primer lugar, un "algoritmo" es un proceso finito o un conjunto de reglas que nosotros o una computadora seguiremos para hacer un cálculo o resolver un problema. Un
+
+10
+00:01:09,633 --> 00:01:17,466
+El algoritmo, si es correcto, tendrá un punto de inicio definido y finalizará después de un número finito de pasos con un resultado correcto.
+
+11
+00:01:17,466 --> 00:01:24,132
+Por ejemplo, en la escuela aprendimos algoritmos para multiplicar dos números. En informática tenemos algoritmos para todos
+
+12
+00:01:24,133 --> 00:01:32,599
+tipos de cosas como ordenar listas, encontrar el camino más corto a través de una red y más. Los algoritmos son el núcleo de la informática
+
+13
+00:01:32,600 --> 00:01:38,900
+y los visitará con regularidad a lo largo de este curso y a lo largo de sus carreras.
+
+14
+00:01:38,900 --> 00:01:46,300
+Vamos a describir un algoritmo ahora que convertirá un número de base 10 a base 2, y para preparar el escenario, consideremos lo siguiente
+
+15
+00:01:46,300 --> 00:01:51,900
+proceso que no es realmente útil por sí mismo pero que ilustra la idea principal.
+
+16
+00:01:51,900 --> 00:02:00,066
+Tome el número 2417 en base 10. Comenzando con esta entrada, veamos algunos pasos.
+
+17
+00:02:00,066 --> 00:02:11,099
+Primero, divida 2417 entre 10 y registre el cociente (cuántas veces 10 entra en él) y el resto (la cantidad que queda). Si haces el
+
+18
+00:02:11,100 --> 00:02:23,466
+división larga en esto (otro algoritmo que aprendimos en la escuela), 10 entra en 2417 241 veces con un resto de 7. Entonces el cociente es 241
+
+19
+00:02:23,466 --> 00:02:31,999
+y el resto es 7. Tenga en cuenta que el resto debe ser menor que 10, porque estamos dividiendo por 10, y si el resto fuera 10 o más
+
+20
+00:02:32,000 --> 00:02:37,700
+podríamos simplemente dividirnos de nuevo. Registre tanto el cociente como el resto.
+
+21
+00:02:37,700 --> 00:02:49,100
+Ahora repita este proceso pero use el cociente del paso anterior, 241, como la nueva entrada. Dividir 241 entre 10: el cociente es 24 y el
+
+22
+00:02:49,100 --> 00:03:00,733
+el resto es 1. Registre ambos. Ahora repita el proceso nuevamente usando el cociente del paso anterior como la nueva entrada: Divida 24 entre 10 y
+
+23
+00:03:00,733 --> 00:03:13,299
+tienes un nuevo cociente de 2 y un resto de 4. Repite de nuevo: divide 2 entre 10 y esto da un cociente de 0 y un resto de 2. Si
+
+24
+00:03:13,300 --> 00:03:18,766
+si repitiéramos este proceso más, obtendríamos un cociente y un resto de 0,
+
+25
+00:03:18,766 --> 00:03:23,299
+así que una vez que obtenemos un cociente de 0, el algoritmo termina.
+
+26
+00:03:23,300 --> 00:03:34,833
+Ahora, si observa la lista de residuos que mantuvimos, estos son los dígitos de base 10 del número original 2417 en orden inverso. Repetido
+
+27
+00:03:34,833 --> 00:03:40,266
+la división por 10 en otras palabras produce una lista de dígitos.
+
+28
+00:03:40,266 --> 00:03:49,132
+Quiero que note dos cosas en este punto. Primero, los algoritmos en informática y en la vida real a menudo funcionan por repetición ---
+
+29
+00:03:49,133 --> 00:03:58,233
+tiene solo unas pocas líneas, o incluso una línea de código que realiza una operación simple y el algoritmo simplemente repite, o itera, sobre estas
+
+30
+00:03:58,233 --> 00:04:05,833
+instrucciones hasta que se cumpla algún tipo de condición y luego se detiene. Recuerde ese concepto mientras exploramos algoritmos en el futuro.
+
+31
+00:04:05,833 --> 00:04:12,933
+En segundo lugar, seamos honestos, este algoritmo por sí solo es totalmente inútil porque no es necesario seguir todos estos pasos para ver los dígitos de un
+
+32
+00:04:12,933 --> 00:04:21,633
+número decimal, solo lo miramos. El poder del algoritmo realmente proviene del hecho de que podemos modificarlo para hacer otras cosas.
+
+33
+00:04:21,633 --> 00:04:31,499
+De hecho, este mismo algoritmo se puede modificar ligeramente para darnos los dígitos BINARIOS de este mismo número. Todo lo que tenemos que hacer es cambiar el
+
+34
+00:04:31,500 --> 00:04:41,366
+instrucción de dividir por 10, a dividir por 2. Cuando dividimos un número entero entre 2, siempre obtenemos un resto de 0 (si el número es par)
+
+35
+00:04:41,366 --> 00:04:51,166
+o 1 (si es extraño) y nunca más. Entonces esos restos serán bits y esos bits son los dígitos de la forma binaria de
+
+36
+00:04:51,166 --> 00:04:56,799
+el número entero con el que comenzamos. Veamos cómo funciona esto con un simple dos dígitos.
+
+37
+00:04:56,800 --> 00:05:06,600
+entero decimal, 37. Nuevamente, la forma en que funciona el algoritmo de conversión es que dividiremos repetidamente la entrada por 2, registraremos la
+
+38
+00:05:06,600 --> 00:05:15,833
+cociente y resto, y luego repita ese proceso utilizando el cociente del paso anterior como la nueva entrada, y luego deténgase cuando el
+
+39
+00:05:15,833 --> 00:05:22,299
+el cociente es 0. Entonces, primero, 37/2 es 18 con un resto de 1.
+
+40
+00:05:22,300 --> 00:05:33,100
+Grabe 18 y 1 en la memoria. Siguiente: 18/2 es 9 con el resto 0. Registre esos dos en la memoria.
+
+41
+00:05:33,100 --> 00:05:46,500
+Siguiente: 9/2 es 4 con resto 1. Siguiente: 4/2 es 2 con resto 0. Siguiente: 2/2 es 1 con resto 0.
+
+42
+00:05:46,500 --> 00:05:58,300
+Siguiente: 1/2 da un cociente de 0 con un resto de 1, así que regístrelos en la memoria pero luego deténgase ya que el cociente es 0.
+
+43
+00:05:58,300 --> 00:06:06,433
+Para finalizar el algoritmo y obtener la representación binaria, construya una cadena a partir de los restos en el orden inverso al que
+
+44
+00:06:06,433 --> 00:06:19,233
+apareció: 100101. Revisemos para asegurarnos de que sea correcto. 100101 es
+
+45
+00:06:19,233 --> 00:06:33,399
+1 2 ^ 5, 1 2 ^ 2 y 1 2 ^ 0 que es 32 + 4 + 1 y eso es 37 en base 10.
+
+46
+00:06:33,400 --> 00:06:41,666
+Ahora inténtalo. En el primer video, convertimos el entero 275 en base 10 a binario sin este algoritmo y la respuesta fue
+
+47
+00:06:41,666 --> 00:06:56,832
+100010011. Pausa el video y tómate unos minutos para trabajar en el algoritmo para convertir las bases con el algoritmo.
+
+48
+00:06:56,833 --> 00:07:03,533
+Aquí está el trabajo para este proceso, y puede ver que de hecho produce el binario correcto.
+
+49
+00:07:03,533 --> 00:07:11,099
+Y ese es un algoritmo para convertir un número de decimal a binario. Pero --- no estaría equivocado si tuviera MUCHAS preguntas sobre esto
+
+50
+00:07:11,100 --> 00:07:19,466
+algoritmo. Por ejemplo, ¿POR QUÉ este algoritmo produce la forma binaria correcta del entero? ¿Estamos seguros de que siempre lo hace?
+
+51
+00:07:19,466 --> 00:07:26,532
+producir el binario correcto, o simplemente tuvimos suerte con estos dos ejemplos? ¿Estamos seguros de que el algoritmo siempre termina o es
+
+52
+00:07:26,533 --> 00:07:32,333
+¿Es posible que podamos comenzar con un número entero que arroje el algoritmo a un bucle infinito?
+
+53
+00:07:32,333 --> 00:07:39,866
+Estas son preguntas que, como científicos informáticos, tenemos que hacer y responder sobre cada algoritmo que encontramos. No es suficiente solo para
+
+54
+00:07:39,866 --> 00:07:49,566
+Ser capaz de escribir código y calcular respuestas: los niños o las IA pueden hacerlo. Lo que tenemos que poder hacer es razonar sobre algoritmos como este
+
+55
+00:07:49,566 --> 00:08:00,299
+y explicar por qué funcionan, en TODOS los casos y no solo en los que elegimos u observamos. Un millón de ejemplos no harán esto por nosotros. Nosotros
+
+56
+00:08:00,300 --> 00:08:08,133
+Necesitamos usar las matemáticas y el razonamiento matemático para adentrarnos en la maquinaria profunda de los procesos informáticos para ayudarnos a comprender
+
+57
+00:08:08,133 --> 00:08:16,866
+cosas que la simple escritura de código no puede explicar. Ser capaz de usar las matemáticas para ir más allá del código y razonar sobre lo computacional.
+
+58
+00:08:16,866 --> 00:08:25,099
+procesos, es un objetivo de aprendizaje de alto nivel importante para este curso y lo revisaremos repetidamente a lo largo de todo lo que hacemos.
+
+59
+00:08:25,100 --> 00:08:32,666
+Por ahora, vamos a confiar en que este algoritmo de conversión de base realmente funciona. Pero tendremos que volver a este algoritmo.
+
+60
+00:08:32,666 --> 00:08:40,532
+más tarde, una vez que tengamos más herramientas para pensar en algoritmos y pensar por qué funcionan.
+
+61
+00:08:40,533 --> 00:08:48,099
+Tenga en cuenta que este algoritmo, aunque es un poco tedioso de hacer a mano, es bastante rápido porque cada iteración del ciclo donde dividimos y registramos
+
+62
+00:08:48,100 --> 00:08:56,833
+el cociente y el resto reducen literalmente a la mitad el nuevo tamaño de entrada. Esto significa que se ampliará bien, aunque obviamente se necesitan más
+
+63
+00:08:56,833 --> 00:09:04,233
+pasos para convertir un entero grande que uno pequeño, un número con el doble de dígitos decimales no necesariamente requiere el doble
+
+64
+00:09:04,233 --> 00:09:12,766
+tantos pasos. Otro concepto importante en el que pensaremos en este curso es exactamente cómo se escalan los algoritmos cuando el tamaño de entrada
+
+65
+00:09:12,766 --> 00:09:19,066
+aumenta y cómo esa ampliación podría modelarse con funciones matemáticas.
+
+66
+00:09:19,066 --> 00:09:26,766
+Otra gran cosa acerca de este algoritmo es que se puede modificar para convertir un entero decimal en CUALQUIER base, no solo binario, simplemente por
+
+67
+00:09:26,766 --> 00:09:36,199
+cambiando el número por el que dividimos. Por ejemplo, si quisiéramos convertir el número 1982 de decimal a octal, simplemente ejecute el mismo
+
+68
+00:09:36,200 --> 00:09:39,500
+procesar pero dividir por 8. En este caso,
+
+69
+00:09:39,500 --> 00:09:51,966
+1982/8 = 247 con resto 6 247/8 = 30 con resto 7 30/8 = 3 con resto 6
+
+70
+00:09:51,966 --> 00:10:09,799
+3/8 = 0 con resto 3, deténgase aquí y enumere los restos en orden inverso para obtener 3676, que es 1982 en octal.
+
+71
+00:10:09,800 --> 00:10:19,200
+Aquí hay un ejemplo en hexadecimal que muestra lo rápido que puede ser: mire 161067 en base 10.
+
+72
+00:10:19,200 --> 00:10:33,966
+161067/16 = 10066 con resto 11 10066/16 = 629 con resto 2629/16 = 39 con resto 5
+
+73
+00:10:33,966 --> 00:10:41,166
+39 // 16 = 2 con resto 7 2 // 16 = 0 con resto 2
+
+74
+00:10:41,166 --> 00:10:55,432
+Entonces, la representación en base 16 de 161067 es 2752B (recuerde que B es el hexadecimal del número 11). Nuevamente no hemos intentado
+
+75
+00:10:55,433 --> 00:11:03,299
+explicar POR QUÉ esto funciona de otra manera que no sea por analogía cuando dividimos por 10. Para demostrar que el algoritmo funciona para cualquier base se necesitarán algunos
+
+76
+00:11:03,300 --> 00:11:07,300
+herramientas matemáticas que encontraremos en videos posteriores.
+
+77
+00:11:07,300 --> 00:11:15,700
+En este video, aprendió un algoritmo para convertir de base 10 a cualquier otra base que desee. Y hemos introducido algunos importantes
+
+78
+00:11:15,700 --> 00:11:21,433
+conceptos sobre algoritmos: qué son, la importancia de razonar a través de ellos y el concepto de comprender matemáticamente cómo
+
+79
+00:11:21,433 --> 00:11:29,166
+escalan. En los próximos videos nos centraremos en la representación binaria específicamente y pensaremos en cómo funcionan las computadoras
+
+80
+00:11:29,166 --> 00:11:31,999
+aritmética básica con base 2.

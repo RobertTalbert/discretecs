@@ -1,0 +1,220 @@
+﻿1
+00:00:00,000 --> 00:00:08,500
+In the last video we learned how to do addition in binary. Next up is subtraction. Since it was helpful to first think carefully about how addition 
+
+2
+00:00:08,500 --> 00:00:14,100
+worked in base 10 arithmetic, let's begin with a look at how subtraction works in base 10. 
+ 
+
+3
+00:00:14,100 --> 00:00:24,200
+Here's an example: 326 - 152. The way we learned it when we were kids is first, just as with addition, write these on top of each other 
+
+4
+00:00:24,200 --> 00:00:33,766
+with the larger number at the top. Then go place by place and subtract only the numbers in each place. In this example the first step 
+
+5
+00:00:33,766 --> 00:00:44,732
+is 6 - 2 which is 4, and that goes in the ones place for the answer. But when we move on to the tens place, we have to think about what to 
+
+6
+00:00:44,733 --> 00:00:52,133
+do. We have 2 - 5, but this is a negative number, and it doesn't make sense to put -3 in the tens place. So what we do is sort of the 
+
+7
+00:00:52,133 --> 00:01:01,266
+opposite of "carrying" in addition --- we "borrow". We borrow a 1 from the next place up and make that 2 into a 12. 
+
+8
+00:01:01,266 --> 00:01:06,966
+Now the subtraction makes sense: 12 - 5 is 7, so we put that down in the tens place. 
+
+9
+00:01:06,966 --> 00:01:17,366
+The final place used to be 3 - 1 but now it's 2 - 1 since we borrowed so the final answer is 174. 
+ 
+
+10
+00:01:17,366 --> 00:01:24,966
+What exactly is going on with "borrowing"? A lot of kids struggle with that concept and it's no wonder. It feels like an arbitrary rule but there's 
+
+11
+00:01:24,966 --> 00:01:34,299
+actually a basis to it. In addition we sometimes have to "carry", when for example we added 4 + 8 in the tens place and we end up with a 
+
+12
+00:01:34,300 --> 00:01:43,166
+number that's too large. We add two single digits and get something too big for a single digit, so we split it up --- the 12 becomes 10 + 2 
+
+13
+00:01:43,166 --> 00:01:51,766
+and we add 1 to the next place value up. Borrowing is just this in reverse --- if the subtraction on a single digit results in 
+
+14
+00:01:51,766 --> 00:01:59,232
+something too small, we grab one copy of the next place value up and combine it with the current place. 
+
+15
+00:01:59,233 --> 00:02:07,599
+We say that we're borrowing a 1, but actually it's a 10 because it's one copy of the next higher place value. 
+
+16
+00:02:07,600 --> 00:02:13,633
+That 1 is ten times the size of the digits in the current place. 
+ 
+
+17
+00:02:13,633 --> 00:02:22,633
+Subtraction in binary follows the same rules as subtraction in decimal, but the concept of place value is based on 2s rather than 10s. 
+
+18
+00:02:22,633 --> 00:02:34,366
+Let's see how this works with the example 1101 - 110. In decimal this would be 13 minus 6, so the answer should be 7. 
+ 
+
+19
+00:02:34,366 --> 00:02:43,499
+Lining these up with the larger one on top, in the ones place we have 1 - 0. this is just 1, so put that down with no extra steps needed. 
+
+20
+00:02:43,500 --> 00:02:53,766
+In the 2's place we have something to think about. 0 - 1 is analogous to having 2 - 5 in the earlier base 10 example. It doesn't make sense 
+
+21
+00:02:53,766 --> 00:03:01,932
+to put a negative number in this place in the result (and anyway we haven't defined what it means for a bit to be negative at all yet). So, to 
+
+22
+00:03:01,933 --> 00:03:07,066
+follow the same rules, here we are going to borrow from the next place up. 
+ 
+
+23
+00:03:07,066 --> 00:03:17,666
+But it's a little tricky. Borrowing reduces the 1 that's in the 8's place to a 0. And although it says "1", it's from the next place up --- so it's 
+
+24
+00:03:17,666 --> 00:03:27,699
+actually a 2, because the next place up is twice the size of the current place. In base 10 it was ten times the size, but we are in base 2. 
+
+25
+00:03:27,700 --> 00:03:39,366
+So again borrowing a 1 from here is going to put a 2, not a 10, here. Since a 2 goes here and we're in binary, we will write "10" but that's 
+
+26
+00:03:39,366 --> 00:03:50,366
+not ten, that's just the binary for 2. So in our example, we have 10 minus 1, which is really 2 - 1 so the answer is just 1. 
+ 
+
+27
+00:03:50,366 --> 00:04:01,599
+Moving to the 4's place, we have 0 - 1 which is the same situation as previously. So borrow a 1 from the 8s place, turn that 0 into a 10, and 
+
+28
+00:04:01,600 --> 00:04:11,800
+subtract to get 1. There's nothing left, so the answer is 111. In decimal, that's "7" which is what we were supposed to get. 
+ 
+
+29
+00:04:11,800 --> 00:04:22,066
+That's tricky, so let's recap. Just as in regular base 10 subtraction, binary subtraction goes one place at a time. If the single bit subtraction 
+
+30
+00:04:22,066 --> 00:04:35,932
+can be carried out normally --- if it's 0 - 0, 1-0, or 1-1 -- then do so. Otherwise, if we have a 0 - 1, we borrow from the next place value up. 
+
+31
+00:04:35,933 --> 00:04:46,099
+Borrowing a 1 from the next place value up is actually borrowing a 2, or a 10 -- just as in decimal, borrowing a 1 from the next place 
+
+32
+00:04:46,100 --> 00:04:53,433
+value up is actually borrowing a 10. Now we can subtract. Continue this process until we reach the end of the digits. 
+ 
+
+33
+00:04:53,433 --> 00:05:04,799
+Let's do a more complex example: 100101 minus 11111. In decimal this is 37 - 31 
+
+34
+00:05:04,800 --> 00:05:09,900
+so the answer is supposed to be 6. Let's go through the process. 
+ 
+
+35
+00:05:09,900 --> 00:05:20,766
+Starting with the 1's digit, it's just 1-1 which is 0, and no borrowing is necessary. Moving to the 2's place, we have 0 - 1. Like we said, we need 
+
+36
+00:05:20,766 --> 00:05:30,499
+to borrow a 1 from the next place up. So this 1 that's in the 4's place becomes a 0, and it's a 2 or 10 here in this place. 
+
+37
+00:05:30,500 --> 00:05:42,766
+Now 10 minus 1 is 1 and we're done with the 2's place, so move to the 4's place. Because we borrowed, the 4s place now has 0 - 1 so 
+
+38
+00:05:42,766 --> 00:05:52,166
+here we are again. What we should do is borrow a 1 from the next place up, but there's nothing there! It says 0. So we have to keep 
+
+39
+00:05:52,166 --> 00:06:00,199
+looking in this top number and move up the place values until we can find some place from which we can borrow. The 16's place is also a 
+
+40
+00:06:00,200 --> 00:06:12,133
+0. We don't encounter a 1 until the 32's place. So there's a chain reaction here: Borrow a 1 from the 32's place to have a 10 in the 16's 
+
+41
+00:06:12,133 --> 00:06:25,366
+place. But we also have to borrow a 1 from the 16s place to give a 10 to the 8's place. This reduces the 10 to just a 1 in the 16s place and 
+
+42
+00:06:25,366 --> 00:06:37,599
+adds 10 in the 8's place. But then borrow from THAT to give a 10 to the 4s place like we originally needed, so the 8s place is now a 1 
+
+43
+00:06:37,600 --> 00:06:48,266
+and the 4s place is now a 10. Subtraction can proceed as usual in the 4s place, since 10 minus 1 is 1. Now move to the 8s place -- we 
+
+44
+00:06:48,266 --> 00:06:53,532
+have 1 minus 1 which is 0 without borrowing. The 16s place is the same. 
+
+45
+00:06:53,533 --> 00:06:58,533
+And the 32s place is now entirely zero, so there's nothing to do there. 
+ 
+
+46
+00:06:58,533 --> 00:07:06,466
+We end with the number 110. That's a 6 in decimal, and remember that's what the answer was supposed to be. 
+ 
+
+47
+00:07:06,466 --> 00:07:13,932
+This example was quite tricky because we had to borrow from multiple places before subtraction could take place. This happens in 
+
+48
+00:07:13,933 --> 00:07:25,166
+decimal subtraction too, and it's just as tricky -- like when we have 3104 minus 731. In this problem. the ones digit is no problem, but in 
+
+49
+00:07:25,166 --> 00:07:30,166
+the tens digit we need to borrow a 1 from the hundreds place, but then we have to borrow another 1 from the 
+
+50
+00:07:30,166 --> 00:07:33,999
+thousands place to be able to give to the hundreds place.
+ 
+
+51
+00:07:34,000 --> 00:07:43,900
+So in this video you have extended your skill set to include subtracting binary numbers and not just adding them. 
+
+52
+00:07:43,900 --> 00:07:49,600
+That was tricky! So well done. Next up is multiplication. 
+

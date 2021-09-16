@@ -1,0 +1,175 @@
+1
+00:00:00,000 --> 00:00:07,900
+Los seres humanos se comunican entre sí mediante el lenguaje. Las computadoras también usan lenguajes, pero en realidad no parecen (al menos no todavía)
+
+2
+00:00:07,900 --> 00:00:14,966
+lenguajes humanos. En este próximo módulo de videos, veremos la cuestión de cómo tomamos nuestro lenguaje humano y lo convertimos
+
+3
+00:00:14,966 --> 00:00:22,466
+en algo que podamos usar para comunicarnos con las máquinas. Este no va a ser un curso completo sobre diseño de idiomas como tú.
+
+4
+00:00:22,466 --> 00:00:30,032
+podría estudiar más tarde. Al igual que en el primer módulo, vamos a echar un vistazo a los fundamentos: a los conceptos básicos de nuestro lenguaje para
+
+5
+00:00:30,033 --> 00:00:35,566
+vea lo que funciona en CADA lenguaje de programación de computadoras que pueda elegir estudiar o usar.
+
+6
+00:00:35,566 --> 00:00:43,566
+Entonces, ¿qué aspectos del lenguaje SON utilizables por las computadoras? Bueno, tenga en cuenta que las computadoras (por mucho que sospechemos lo contrario)
+
+7
+00:00:43,566 --> 00:00:52,932
+en realidad no "piensa" y no puede procesar el lenguaje, realmente no puede procesar nada más que bits. Pero esta conexión con los bits nos da una
+
+8
+00:00:52,933 --> 00:01:03,799
+manera de unir el lenguaje humano con las operaciones de la computadora: podemos usar los bits para representar los dos estados opuestos de VERDADERO y FALSO. Si
+
+9
+00:01:03,800 --> 00:01:14,700
+Las computadoras procesan bits, pueden procesar valores de verdad, a veces llamados valores booleanos en lenguajes de computadora. Un 1 representa VERDADERO,
+
+10
+00:01:14,700 --> 00:01:17,066
+y un 0 representa FALSO.
+
+11
+00:01:17,066 --> 00:01:27,499
+Entonces, si restringimos el lenguaje humano solo a aquellas declaraciones que pueden ser validadas como verdaderas o falsas, así es como podemos "hablar con" las computadoras.
+
+12
+00:01:27,500 --> 00:01:37,900
+El estudio del razonamiento utilizando reglas estrictas de validación de la verdad, se denomina lógica. Entonces, en la base de cómo trabajamos con las computadoras, está
+
+13
+00:01:37,900 --> 00:01:42,600
+no sólo matemáticas como vimos antes, sino también lógica.
+
+14
+00:01:42,600 --> 00:01:50,266
+Las declaraciones que pueden validarse como verdaderas o falsas se conocen como proposiciones. Aunque a veces simplemente las llamaremos "Declaraciones".
+
+15
+00:01:50,266 --> 00:01:57,166
+En otras palabras, una proposición es un pensamiento completo --- a menudo una oración completa o expresión matemática ---
+
+16
+00:01:57,166 --> 00:02:03,366
+que tiene un valor de verdad definido y cognoscible. Algunos ejemplos incluyen:
+
+17
+00:02:03,366 --> 00:02:11,466
+Lansing es la capital de Michigan. - Esta es una oración completa, y tiene un valor de verdad definido y cognoscible. De hecho sabemos esto
+
+18
+00:02:11,466 --> 00:02:13,099
+declaración es VERDADERA.
+
+19
+00:02:13,100 --> 00:02:19,566
+Chicago es la capital de Illinois: también un pensamiento completo con un valor de verdad definido.
+
+20
+00:02:19,566 --> 00:02:24,732
+Es FALSO, y porque sabemos que es falso, es una proposición.
+
+21
+00:02:24,733 --> 00:02:34,499
+5 + 7 = 12: no es una oración en inglés, sino un pensamiento matemático completo que tiene un valor de verdad definido de VERDADERO.
+
+22
+00:02:34,500 --> 00:02:42,200
+7 - 2 = 10 - De nuevo, un pensamiento completo con un valor de verdad definido, esta vez FALSO.
+
+23
+00:02:42,200 --> 00:02:47,733
+Algunos no ejemplos (cosas que NO son proposiciones) incluyen:
+
+24
+00:02:47,733 --> 00:02:55,966
+Michigan es un estado hermoso. - Esta es una oración completa, pero es una opinión o un juicio y no puede ser objetivamente
+
+25
+00:02:55,966 --> 00:03:02,732
+evaluado como verdadero o falso. Creo que es cierto, pero es posible que no.
+
+26
+00:03:02,733 --> 00:03:11,499
+Vámonos a Chicago. - Una oración completa, pero esto es un imperativo, no una declaración que sea verdadera o falsa. Puedes aceptar que te gustaría
+
+27
+00:03:11,500 --> 00:03:19,766
+ir a Chicago, pero esto es diferente a decir que esta afirmación es cierta. Los valores verdaderos / falsos realmente no tienen sentido aquí.
+
+28
+00:03:19,766 --> 00:03:26,699
+¿Dónde está el pan? - También una oración completa, pero es una pregunta y las preguntas no tienen valores de verdad.
+
+29
+00:03:26,700 --> 00:03:37,600
+x + 5 = 12. Esto es más complicado. Este es un pensamiento matemático completo, pero no podemos decir si es verdadero o falso porque no hay suficiente
+
+30
+00:03:37,600 --> 00:03:50,666
+información. Esta afirmación --- que el lado izquierdo de x + 5 es igual a 12 --- es verdadera para algunos valores de x pero falsa para otros. Sin saber cual
+
+31
+00:03:50,666 --> 00:03:59,799
+x estamos hablando, es imposible saber si esto es verdadero o falso. Entonces no es una propuesta; eventualmente diremos que esto
+
+32
+00:03:59,800 --> 00:04:05,233
+declaración está subdeterminada, y llamaremos predicados a esas cosas.
+
+33
+00:04:05,233 --> 00:04:10,299
+Ahora inténtalo. Aquí hay algunas declaraciones, algunas de las cuales son proposiciones y otras no.
+
+34
+00:04:10,300 --> 00:04:17,400
+Pausa el video e identifica cuáles son cuáles. ...
+
+35
+00:04:17,400 --> 00:04:27,333
+Así que estas son las proposiciones aquí porque todas tienen valores de verdad definidos y cognoscibles. Los otros no lo son. Esta primera es una opinión,
+
+36
+00:04:27,333 --> 00:04:34,333
+no una afirmación que pueda ser objetivamente verdadera o falsa. Ésta es una pregunta, y dado que las preguntas no afirman que algo sea cierto o
+
+37
+00:04:34,333 --> 00:04:45,733
+falso, no tienen valor de verdad. Esta declaración aquí, x mod 2 es igual a 0, está subdeterminada --- es cierta para algunos valores de la variable y
+
+38
+00:04:45,733 --> 00:04:49,266
+falso para otros, por lo que su valor de verdad depende, lo que no lo convierte en una proposición. Sin embargo, la última afirmación es una proposición, es cierto que si
+
+39
+00:04:49,266 --> 00:05:06,399
+x es par, x mod 2 es 0. Lo que hace la diferencia aquí es que la variable x está "cuantificada" --- estamos poniendo un alcance alrededor
+
+40
+00:05:06,400 --> 00:05:15,433
+la segunda parte de la declaración y afirmando que x mod 2 es 0 para TODOS los enteros pares. Porque hemos cuantificado la variable y no
+
+41
+00:05:15,433 --> 00:05:23,799
+Si lo dejamos solo, podemos evaluar la veracidad de esta afirmación. hablaremos más sobre cuantificación en un video posterior.
+
+42
+00:05:23,800 --> 00:05:31,300
+En este video, aprendiste qué es la lógica y por qué es importante para la informática, qué propuesta
+
+43
+00:05:31,300 --> 00:05:37,033
+es, y cómo diferenciar entre proposiciones y no proposiciones. En el siguiente video, veremos algunas formas básicas de construir
+
+44
+00:05:37,033 --> 00:05:42,133
+proposiciones lógicas complejas a partir de simples que utilizan conectivos.

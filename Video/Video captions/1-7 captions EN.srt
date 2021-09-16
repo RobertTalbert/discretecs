@@ -1,0 +1,291 @@
+﻿1
+00:00:00,000 --> 00:00:06,933
+We've been looking at representing integers in base 2 or binary form, which is what computers use for numbers, and doing addition, 
+
+2
+00:00:06,933 --> 00:00:14,299
+subtraction, and multiplication in binary, which is what computers do with those numbers. We now come to the fourth of the basic arithmetic 
+
+3
+00:00:14,300 --> 00:00:21,033
+operations, division. In this video we're going to see how to do division of two integers in binary. 
+ 
+
+4
+00:00:21,033 --> 00:00:29,233
+Division is much more complex than the other three arithmetic operations. Just as with earlier operations it's helpful to look at an example 
+
+5
+00:00:29,233 --> 00:00:38,333
+from the base 10 world, and to think about the algorithm we use. This algorithm is something in school we learned as *long division*. As with 
+
+6
+00:00:38,333 --> 00:00:44,933
+all algorithms, let's think about the inputs needed, what the instructions are, and how to know when to stop and also what the outputs 
+
+7
+00:00:44,933 --> 00:00:52,066
+are. Look at the example where we divide 90125 by 12. 
+ 
+
+8
+00:00:52,066 --> 00:01:00,099
+The inputs are the two integers, and the order here matters. The way the long division algorithm proceeds is we first try to divide the 
+
+9
+00:01:00,100 --> 00:01:10,900
+divisor, that's the 12, into the left most digit of the dividend, that's the 90125. We write down how many times this goes, in this case how 
+
+10
+00:01:10,900 --> 00:01:22,433
+many times 12 goes into 9. Well, 9 is smaller than 12 so 12 doesn't go into it at all. We write 0 in the quotient (which will eventually be part 
+
+11
+00:01:22,433 --> 00:01:33,999
+of the answer) to indicate this. To move to the next step, we multiply 0 to 12 and write this below. Then we subtract -- 9 - 0 is 9. Then we 
+
+12
+00:01:34,000 --> 00:01:38,433
+bring down the next digit which gives us 90. 
+ 
+
+13
+00:01:38,433 --> 00:01:47,966
+Now repeat the instructions. How many times does 12 go into 90? In this case it does go, in fact 7 times. So put 7 here, and multiply 7 times 
+
+14
+00:01:47,966 --> 00:02:00,766
+12. That gives 84 which goes here, and subtract to get 6. Bring the next digit down and repeat. 12 goes into 61 5 times. Multiply to get 
+
+15
+00:02:00,766 --> 00:02:14,732
+60, write it down, and subtract. Bring the next digit down to get 12. 12 goes into this once. So put 1 here... multiply... subtract... bring down 
+
+16
+00:02:14,733 --> 00:02:22,966
+the next digit. 12 does not go into 5, so 0 goes here... multiply... subtract. 
+ 
+
+17
+00:02:22,966 --> 00:02:30,866
+There are no more digits to bring down and 12 cannot go into the previous result, so the algorithm terminates. This shows you another 
+
+18
+00:02:30,866 --> 00:02:39,266
+thing that makes division different, namely that it results in not one but two numbers --- a quotient and a remainder. In this case, the 
+
+19
+00:02:39,266 --> 00:02:51,866
+answer is a quotient of 7510 and a remainder of 5. So 12 goes into 90125, 7510 times with 5 left over. 
+ 
+
+20
+00:02:51,866 --> 00:02:59,466
+You may have a lot of questions about this process. Why does it work? Does it always work in the sense of producing correct results? 
+
+21
+00:02:59,466 --> 00:03:07,232
+Does it always terminate, or could we feed it input that would cause it to go on forever? We'll be addressing these questions in time. But for 
+
+22
+00:03:07,233 --> 00:03:15,266
+now, here's what's important about long division for the purpose of connecting it to binary integers. First, it works by taking the 
+
+23
+00:03:15,266 --> 00:03:22,932
+smaller of the two integers and checking to see how many times it goes into successive digit chunks of the larger one. Then it involves a 
+
+24
+00:03:22,933 --> 00:03:30,199
+multiplication and a subtraction step. Then we notice that the algorithm stops when we run out of digits and the small number can no longer 
+
+25
+00:03:30,200 --> 00:03:34,300
+go into anything. This produces a quotient and a remainder. 
+ 
+
+26
+00:03:34,300 --> 00:03:42,900
+Let's see how this works in binary, by attempting to replicate the long division algorithm for the problem of 11001 divided by 
+
+27
+00:03:42,900 --> 00:03:53,933
+11. In decimal, this is 25 divided by 3, so the answer is supposed to be 8 with a remainder of 1. So set up the problem the same way we do 
+
+28
+00:03:53,933 --> 00:04:03,499
+with decimals and proceed the same way. Look at the left most digit of the dividend (that's the  big number in this case). 11 does not divide 1 
+
+29
+00:04:03,500 --> 00:04:16,966
+so put a 0, multiply, and then subtract and bring down the next digit. 11 goes into 11 once, so put 1 here, multiply, subtract, and then bring 
+
+30
+00:04:16,966 --> 00:04:27,666
+down the next digit. 11 doesn't go into 0, so put 0, multiply, subtract, then bring down the next digit. Again 11 doesn't go into 0, so put 0, 
+
+31
+00:04:27,666 --> 00:04:39,499
+multiply, subtract, then bring down the next digit. 11 doesn't go into 1, so put 0, multilply, subtract. There are no more digits and 11 
+
+32
+00:04:39,500 --> 00:04:50,566
+doesn't go into the digit we have here, so we're done. As hoped, the quotient is 1000 which is 8 in base 10, and the remainder is 1 which is 1 in 
+
+33
+00:04:50,566 --> 00:04:52,166
+base 10. 
+ 
+
+34
+00:04:52,166 --> 00:05:07,699
+Let's try that with a more complicated example, 1001100110 divided by 1100. In decimal this is 614 divided by 12, so the answer should be 51 
+
+35
+00:05:07,700 --> 00:05:10,933
+with a remainder of 2. Let's see if it works. 
+ 
+
+36
+00:05:10,933 --> 00:05:24,199
+Setting things up as usual, we check with the digits moving left to right. 1100 is pretty big, so it doesn't go into 1, or 10, or 100, or 1001. So 
+
+37
+00:05:24,200 --> 00:05:34,266
+we'll put 0 above each of the four leftmost digits. We could multliply by 0 and subtract but this wouldn't resut in anything. So instead we'll 
+
+38
+00:05:34,266 --> 00:05:46,066
+just keep putting 0's until our quotient goes in. Here at this point, it does. How many times does 1100 go into 10011? At first this seems 
+
+39
+00:05:46,066 --> 00:05:54,999
+hard but it's actually very easy, because the only digits you have to work with are 0 or 1. So the question isn't "How many times does it go 
+
+40
+00:05:55,000 --> 00:06:04,800
+in?" But rather, "Does it go in or not?" If it does, we put a 1. If not, we put a 0 like in the previous steps and move on. We don't have to 
+
+41
+00:06:04,800 --> 00:06:12,566
+think about "how many times" the quotient goes in because if it went in more than once, we would have detected this in an earlier digit. 
+ 
+
+42
+00:06:12,566 --> 00:06:24,799
+So here, 1100 goes in once. Put a 1, multiply which is just copying the number down. Now subtract. This is the only really non-easy 
+
+43
+00:06:24,800 --> 00:06:36,500
+computation involved. It helps to see this done separately. I'm subtracting 1100 from 10011. The first two digits involve no borrowing. 
+
+44
+00:06:36,500 --> 00:06:48,033
+The 4's digit requires that I borrow 1 from the 8s place, but the 8s place is a 0 so I have to move up to the 16s. There's a 1 there, so 
+
+45
+00:06:48,033 --> 00:06:58,599
+borrow it to make this 0 in the 8s place into a 10. But then borrow 1 from *that* to give to the 4s. The 4s place is now a 10 and the 8s place 
+
+46
+00:06:58,600 --> 00:07:13,666
+is a 1. Now all the subtraction can take place and we end up with 0111. Notice this is smaller than 1100 --- the 0111 is a 7 in decimal and 
+
+47
+00:07:13,666 --> 00:07:19,066
+1100 is 12 --- so this is like in decimal division, we know we've not made a mistake because the result here is smaller than the divisor. 
+ 
+
+48
+00:07:19,066 --> 00:07:29,699
+Now bring down the next digit, again just like in decimal long division. That gives 1110 here. 1100 goes into this, which we know because 
+
+49
+00:07:29,700 --> 00:07:45,733
+1110 is larger than 1100. We know *that* by looking because 1110 is 1100 with an additional 2 added on there in the second bit. So 1100 
+
+50
+00:07:45,733 --> 00:07:56,333
+goes into this --- therefore put a 1 here, multiply, and subtract. The subtraction's easier this time because there's no borrowing. We are 
+
+51
+00:07:56,333 --> 00:08:09,899
+left with 10. Bring down the next digit to get 100. This is smaller than 1100 so 1100 does not go into it. So we put a 0 up top. I'll multiply 
+
+52
+00:08:09,900 --> 00:08:22,933
+by 0 this time so as not to lose track of where I am. Subtracting just gives 100. Bring down the next digit to get 1001. This is still smaller than 
+
+53
+00:08:22,933 --> 00:08:37,499
+1100 so it goes in 0 times. Multiply, and subtract to get 10011. It so happens that we did this earlier, and we saw that 1100 goes into 
+
+54
+00:08:37,500 --> 00:08:48,100
+this, so we put a 1, multiply, and the subtraction is the same so we know the result is 111. Bring down the next digit and we get 1110. We saw 
+
+55
+00:08:48,100 --> 00:08:57,033
+this earlier too, and we know that 1100 goes in, so put a 1, multiply, and subtract to get 10. 
+ 
+
+56
+00:08:57,033 --> 00:09:05,299
+The long division stops here because there are no more digits to bring down and the result is smaller than the quotient. So looking at the 
+
+57
+00:09:05,300 --> 00:09:11,833
+work we have a quotient of 110011 and a remainder of 10. 
+
+58
+00:09:11,833 --> 00:09:19,199
+The quotient is 51 in decimal, and the remainder is 2, which is what we were supposed to get. 
+ 
+
+59
+00:09:19,200 --> 00:09:34,533
+I think this needs one more example, and it's time for you to try. Use long division in binary to divide 1100001001 by 10110. Pause the video 
+
+60
+00:09:34,533 --> 00:09:41,499
+and work this out. You can check your work *and* get some practice on earlier concepts by converting these to decimal and seeing what 
+
+61
+00:09:41,500 --> 00:09:45,866
+the quotient and remainder are. 
+ 
+
+62
+00:09:45,866 --> 00:09:55,199
+So here is the work on this. Check your own work against this and see how you did. Remember you are just now learning this 
+
+63
+00:09:55,200 --> 00:10:01,266
+process, so there's a strong chance you might have made a mistake here, especially in one of the subtraction steps, and THAT IS OK. The 
+
+64
+00:10:01,266 --> 00:10:08,066
+main thing here is to debug your work, find your mistakes and fix them and then you are good to go. 
+ 
+
+65
+00:10:08,066 --> 00:10:14,266
+In this video, you refreshed your memory about long division and learned how to apply the algorithm for long division to integers 
+
+66
+00:10:14,266 --> 00:10:22,199
+represented in binary. You now have all the tools you need to perform all the basic arithmetic that math is based on, using only 
+
+67
+00:10:22,200 --> 00:10:28,066
+binary integers. That's a major accomplishment and you should take a moment to feel good about that. 
+ 
+
+68
+00:10:28,066 --> 00:10:35,699
+In the next video, we're going to leave the binary world for a moment and dig a little more into long division by looking at the division 
+
+69
+00:10:35,700 --> 00:10:43,866
+algorithm and the very important modulus operator, used in many different computer science applications. See you there. 
+

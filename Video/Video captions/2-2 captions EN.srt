@@ -1,0 +1,201 @@
+﻿1
+00:00:00,000 --> 00:00:06,900
+In the last video, we introduced the idea of logic as a way for human beings to  communicate with computers. And we defined 
+
+2
+00:00:06,900 --> 00:00:14,133
+a proposition as a complete thought that has a definite and knowable truth value. In this video, we're going to look at how we can build 
+
+3
+00:00:14,133 --> 00:00:19,933
+complex logical statements out of simple ones using logical connectives. 
+ 
+
+4
+00:00:19,933 --> 00:00:27,333
+Look at this basic recipe for peanut butter cookies. It's a list of instructions on how to combine the ingredients and it ends with, "Bake 
+
+5
+00:00:27,333 --> 00:00:37,599
+in a preheated 375 degrees F oven for about 10 minutes or until cookies begin to brown." In some ways this recipe is like an algorithm. It 
+
+6
+00:00:37,600 --> 00:00:46,033
+has input, instructions, and a definite ending point. What triggers the ending of the process in this case? It's not one but two possible 
+
+7
+00:00:46,033 --> 00:00:53,866
+conditions: either the cookies have baked for 10 minutes or they are turning brown. If I were a robot checking the doneness of those 
+
+8
+00:00:53,866 --> 00:01:02,766
+cookies, I'd have to monitor them and the clock and evaluate the truth values of two logical propositions: "Ten minutes have passed", and  
+
+9
+00:01:02,766 --> 00:01:07,366
+"The cookies are turning brown". If either one of those propositions becomes true --- 
+
+10
+00:01:07,366 --> 00:01:12,232
+or if both of them are true --- then I stop the cooking process. 
+ 
+
+11
+00:01:12,233 --> 00:01:20,999
+What that last condition in the recipe does, then, is CONNECT two logical propositions with the word "or", making a larger proposition. The 
+
+12
+00:01:21,000 --> 00:01:29,666
+word "or" here is an example of a connective -- an English word that connects two smaller propositions to make that larger one. We 
+
+13
+00:01:29,666 --> 00:01:37,132
+sometimes say that a proposition that cannot be broken down into a bunch of smaller ones is an "atomic" proposition, and a proposition that 
+
+14
+00:01:37,133 --> 00:01:44,699
+isn't atomic --- if it's made up of atomic statements joined by connectives --- is called "molecular". 
+ 
+
+15
+00:01:44,700 --> 00:01:49,466
+There are three basic forms of connectives that do this for us. 
+ 
+
+16
+00:01:49,466 --> 00:01:59,199
+Maybe we need some part of a computer program to activate if, like in this recipe, any one condition from a list of conditions is true. 
+
+17
+00:01:59,200 --> 00:02:06,433
+Again as in the recipe we usually use the English word "or" to connect the conditions. A statement created by joining two atomic 
+
+18
+00:02:06,433 --> 00:02:15,933
+propositions together with "or" is called a "disjunction". And a disjunction is true, whenever either one or both of the propositions 
+
+19
+00:02:15,933 --> 00:02:27,999
+it joins is true. For example: "Either I passed algebra, or I passed C++" is a disjunction. If you passed algebra but didn't pass C++, the 
+
+20
+00:02:28,000 --> 00:02:36,400
+disjunction is true because the first proposition is true. You were telling the truth in other words when you claimed that you either passed one 
+
+21
+00:02:36,400 --> 00:02:46,633
+class or you passed the other. Same for if you didn't pass algebra but did pass C++. If you passed both, the disjunction is true because if 
+
+22
+00:02:46,633 --> 00:02:55,599
+you passed both, then you definitely passed one. That makes our use of "or" into what we call an "inclusive or", so the "or" statement is 
+
+23
+00:02:55,600 --> 00:03:05,433
+true if either one OR BOTH of the atomic propositions involved is true. The only way a disjunction can be false is if both statements 
+
+24
+00:03:05,433 --> 00:03:14,966
+involved are false. For example if you did not pass either algebra or C++, this statement that you passed one or the other of them is false. 
+ 
+
+25
+00:03:14,966 --> 00:03:22,932
+One of the nice things about logic is that the content of the statements involved doesn't really matter, only the form. The truth value of a 
+
+26
+00:03:22,933 --> 00:03:30,499
+molecular statement in other words is always determined only by the truth values of the atomic statements that make it up and the 
+
+27
+00:03:30,500 --> 00:03:37,066
+connectives being used, and nothing else. For example, any time you form a disjunction from two statements, 
+
+28
+00:03:37,066 --> 00:03:46,966
+the disjunction will be true if one or both of the statements involved is true.
+ 
+
+29
+00:03:46,966 --> 00:03:55,299
+This lets us summarize the conditions where a complex statement will be true and where it will be false in a table, like this. Here, the v-looking 
+
+30
+00:03:55,300 --> 00:04:02,033
+symbol is a mathematical symbol used to represent the english word "or". Different symbols represent "or" in different computer 
+
+31
+00:04:02,033 --> 00:04:11,333
+languages, for example the double vertical bars || represent "or" in Java and in C++. In Python you just type the word "or". Since this 
+
+32
+00:04:11,333 --> 00:04:20,599
+disjunction involves two independent Boolean values each of which is either true or false, it leads to four combinations of true/false values. 
+
+33
+00:04:20,600 --> 00:04:29,700
+In each case the truth value of the disjunction is listed in the final column. As we saw, when either one or both of the basic propositions is 
+
+34
+00:04:29,700 --> 00:04:34,500
+true, the disjunction is true. When both are false, the disjunction is false. 
+
+35
+00:04:34,500 --> 00:04:41,800
+This table is called a TRUTH TABLE and we will be seeing much more of these in a minute and in other videos. 
+ 
+
+36
+00:04:41,800 --> 00:04:49,400
+Sometimes we need a part of a program to activate if ALL of the conditions in a list are true. For example, to take discrete math you 
+
+37
+00:04:49,400 --> 00:04:56,900
+might need a passing grade in both algebra AND C++, not just one or the other. We use the word "and" and a symbol that looks like an 
+
+38
+00:04:56,900 --> 00:05:05,900
+upside down v to represent this connective, which we call a *conjunction*. In a conjunction of two propositions both propositions must be 
+
+39
+00:05:05,900 --> 00:05:13,900
+true in order for the conjunction to be true. That's summed up in the truth table for conjunctions which you see here. The 
+
+40
+00:05:13,900 --> 00:05:22,300
+conjunction is false otherwise --- that is, whenever one or both of the atomic statements that make up the conjunction is false. 
+ 
+
+41
+00:05:22,300 --> 00:05:31,000
+Sometimes we need a part of a program to activate if a single proposition is NOT true. THis is a connective called a negation, and we use 
+
+42
+00:05:31,000 --> 00:05:38,933
+this symbol to denote it. Negations are different than disjunctions or conjunctions because they only work on one statement --- if you have the 
+
+43
+00:05:38,933 --> 00:05:49,899
+statement P, then ~P is its negation. The negation ~P is true when P is false and false when P is true --- 
+
+44
+00:05:49,900 --> 00:05:54,666
+it's the logical opposite of the original statement. 
+ 
+
+45
+00:05:54,666 --> 00:06:00,899
+In this video you learned that we form complex logical statements out of atomic statements with connectives. We saw three basic 
+
+46
+00:06:00,900 --> 00:06:09,066
+connectives, "or" (disjunction), "and' (conjunction), and "not" (negation). And we learned about the concept of a truth table 
+
+47
+00:06:09,066 --> 00:06:16,099
+which allows us to see the truth values of a molecular statement as determined by the truth values of the atomic statements and by the 
+
+48
+00:06:16,100 --> 00:06:24,100
+connectives that join them. In the next video we'll look another connective, the conditional or "if-then" statement. See you there. 
+

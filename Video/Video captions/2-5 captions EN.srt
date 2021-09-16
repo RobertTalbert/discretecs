@@ -1,0 +1,267 @@
+﻿1
+00:00:00,000 --> 00:00:07,433
+So far in this module, we've been looking at logical propositions, and focusing on how we can combine simple atomic propositions using 
+
+2
+00:00:07,433 --> 00:00:15,199
+connectives to form more complex propositions. In this video we're going to return to the question of how to know when a complex 
+
+3
+00:00:15,200 --> 00:00:23,433
+or "molecular" proposition is true or false, and we'll use the results to answer another question from the last video about how to know if two 
+
+4
+00:00:23,433 --> 00:00:27,833
+superficially different propositions are logically the same. 
+ 
+
+5
+00:00:27,833 --> 00:00:34,499
+Just to remind you, in logic we deal with statements that have definite and knowable truth values. Complex statements which we've 
+
+6
+00:00:34,500 --> 00:00:43,600
+called "molecular" are built up out of simple or "atomic" statements joined by logical connectives like and, or, or if-then. Remember 
+
+7
+00:00:43,600 --> 00:00:51,233
+that one of the basic rules of logic is that the truth value of a complex statement is determined only by the truth values of the 
+
+8
+00:00:51,233 --> 00:00:56,999
+simple statements that make it up and the types of connectives used -- and nothing else. 
+ 
+
+9
+00:00:57,000 --> 00:01:03,566
+The precise rules for how to find the truth values of these complex statements are spelled out in what we called the truth tables for the 
+
+10
+00:01:03,566 --> 00:01:10,132
+connectives. A truth table for a molecular statement is a table that lists all the combinations of the truth values of the atomic 
+
+11
+00:01:10,133 --> 00:01:17,366
+statements involved, and then for each of those combinations there is listed the truth value of the molecular statement. 
+ 
+
+12
+00:01:17,366 --> 00:01:25,899
+Here's a basic example that we saw earlier, for the conjunction or "AND" connective. This connective joins two statements, P and Q. 
+
+13
+00:01:25,900 --> 00:01:34,533
+Each of those two statements has two truth values, true or false. This gives rise to four possible combinations of truth values, which 
+
+14
+00:01:34,533 --> 00:01:43,666
+we'll list in separate rows. The conjunction produces a TRUE statement when both the inputs are true, and FALSE otherwise. This is 
+
+15
+00:01:43,666 --> 00:01:52,366
+just a summary of how the word "AND" works in our usual language. So this truth table tells you the conditions under which the conjunction 
+
+16
+00:01:52,366 --> 00:01:57,432
+is true, as determined by the truth values of the two statements involved. 
+ 
+
+17
+00:01:57,433 --> 00:02:04,833
+What's powerful about truth tables is that the content of the atomic statements doesn't really matter --- any two statements joined by "and" 
+
+18
+00:02:04,833 --> 00:02:13,666
+will have the same truth table. This allows us to perform one of the basic conceptual leaps of computer science -- ABSTRACTION. This 
+
+19
+00:02:13,666 --> 00:02:20,299
+means that we can ignore the details of this construction and focus only on its general structure. 
+ 
+
+20
+00:02:20,300 --> 00:02:28,166
+We also saw truth tables for disjunction or "or", as well as a truth table for conditional statements or "if-then". In each of those 
+
+21
+00:02:28,166 --> 00:02:31,666
+situations, the connective still operates on two input statements, 
+
+22
+00:02:31,666 --> 00:02:37,332
+and the final statement's truth value is determined by the truth values of the inputs. 
+ 
+
+23
+00:02:37,333 --> 00:02:45,366
+We also saw a truth table for negation, or "not". This one was different than the others because it only works on ONE statement. 
+
+24
+00:02:45,366 --> 00:02:51,032
+But the truth value of the result is still dependent on the truth value of the input. 
+ 
+
+25
+00:02:51,033 --> 00:02:58,566
+Computers handle many logical operations like these four using what's called a logic gate. This is often a piece of hardware that's the building 
+
+26
+00:02:58,566 --> 00:03:06,532
+block for an entire circuit that processes logical values using bits, 0 for false and 1 for true, in the form of electrical signals. 
+
+27
+00:03:06,533 --> 00:03:12,266
+For us, logic gates are a handy way to visualize what's happening in a truth table. 
+ 
+
+28
+00:03:12,266 --> 00:03:19,966
+Here's a diagram that represents a logic gate for "and". The connective is the shape that looks like a circuit, and it has two inputs A and 
+
+29
+00:03:19,966 --> 00:03:31,099
+B. Each of these is a Boolean value, either true or false, or 1 or 0, and the output is Z. This truth table here is a binary version of the truth 
+
+30
+00:03:31,100 --> 00:03:38,366
+table you saw earlier. Down below it is the logic gate diagram for "or". And here's one for NOT. 
+ 
+
+31
+00:03:38,366 --> 00:03:45,732
+In fact you can search and find a host of logic gate diagrams for all sorts of connectives many of which we haven't seen here. You might 
+
+32
+00:03:45,733 --> 00:03:53,333
+notice there isn't one for "if-then". Why is that? You'll have to stay tuned to the next video for that. 
+ 
+
+33
+00:03:53,333 --> 00:04:01,599
+One very important use of truth tables is to give us a rigorous answer to the question of whether two propositions are "logically the 
+
+34
+00:04:01,600 --> 00:04:08,733
+same" even though they may look different. This came up in the last video when we noticed that a conditional statement and its converse 
+
+35
+00:04:08,733 --> 00:04:16,333
+can sometimes have opposite truth values, while the statement and its contrapositive appear to be "the same". 
+ 
+
+36
+00:04:16,333 --> 00:04:25,099
+We say that two propositions are "logically equivalent" if they have the same final truth value in each possible combination of truth 
+
+37
+00:04:25,100 --> 00:04:32,200
+values of the simple, atomic statements that make them up. This means essentially that the two statements are "logically the same" 
+
+38
+00:04:32,200 --> 00:04:35,166
+even though they may be phrased differently. 
+ 
+
+39
+00:04:35,166 --> 00:04:44,499
+We can use truth tables to know when two statements are logically equivalent and when they aren't. Let's look at if P, then Q. Here is its 
+
+40
+00:04:44,500 --> 00:04:51,900
+truth table. Now, let's set up a truth table for its converse, If q then p. 
+ 
+
+41
+00:04:51,900 --> 00:04:59,600
+To set up the truth table, we list the atomic statements in columns like this. I'll keep the ordering the same here with the column for P to 
+
+42
+00:04:59,600 --> 00:05:08,966
+the left of the one for Q. Now create a row for each combination of the truth values of the atomic statements. Since there are two of 
+
+43
+00:05:08,966 --> 00:05:14,732
+those, there are four truth combinations and I'll keep them in the same order as the first truth table. 
+
+44
+00:05:14,733 --> 00:05:19,966
+Then I'll make one column for the final proposition. 
+ 
+
+45
+00:05:19,966 --> 00:05:28,932
+Now, in each row, let's use the connective to determine the truth value of the final result. The statement we're working with here is If Q then 
+
+46
+00:05:28,933 --> 00:05:39,433
+P. Very importantly here, remember that a conditional statement is true in all cases except when the hypothesis is true but the conclusion 
+
+47
+00:05:39,433 --> 00:05:50,566
+is false. It doesn't matter what the hypothesis or conclusion *are*. In this case the hypothesis is Q and the conclusion is P. So go one row at 
+
+48
+00:05:50,566 --> 00:06:00,466
+a time and determine the truth value. In the first row, P and Q are both true. So the hypothesis, Q, is true and the conclusion Q is also true. 
+
+49
+00:06:00,466 --> 00:06:10,632
+That makes the entire conditional statement true. In the second row. P is true and Q is false. This means the hypothesis of the conditional 
+
+50
+00:06:10,633 --> 00:06:21,466
+statement is false, and the conclusion is true. Remember that in such a case, the entire conditional statement is true. 
+ 
+
+51
+00:06:21,466 --> 00:06:29,332
+Let's stop for a moment. The hard part of this process is that we have to think about how the proposition is put together in each row, and not 
+
+52
+00:06:29,333 --> 00:06:37,333
+just copy from an existing truth table. You might have wanted to put FALSE in this second row because in the truth table for if P then Q, this 
+
+53
+00:06:37,333 --> 00:06:49,699
+was FALSE. But this isn't if P then Q, it's if Q then P. So here we have to remember that Q is not the conclusion, it's the hypothesis. 
+ 
+
+54
+00:06:49,700 --> 00:06:58,033
+Now you take a moment to fill in the last two rows of the truth table. Pause the video and then come back for a debriefing. 
+ 
+
+55
+00:06:58,033 --> 00:07:09,333
+So in the third row, we have P false and Q true. In the conditional statement, this means that the hypothesis is true and the conclusion is 
+
+56
+00:07:09,333 --> 00:07:20,499
+false. That's the one situation where the conditional statement is FALSE so that's what we put here. Then finally in the last row, we 
+
+57
+00:07:20,500 --> 00:07:28,833
+have both statements false, in particular the hypothesis is false which remember makes the entire statement true. 
+ 
+
+58
+00:07:28,833 --> 00:07:35,899
+Now pull back and look at both truth tables. We see here that the original conditional statement and its converse are NOT the same truth value 
+
+59
+00:07:35,900 --> 00:07:49,200
+in all the same situations. In particular here when P is true and Q is false, if P then Q is false but if Q then P is true. So that means the 
+
+60
+00:07:49,200 --> 00:07:53,100
+conditional statement and its converse are NOT logically equivalent. 
+ 
+
+61
+00:07:53,100 --> 00:07:59,966
+What about the contrapositive? We caught a glimpse in the last video that maybe a conditional statement and its contrapositive 
+
+62
+00:07:59,966 --> 00:08:07,699
+might be logically equivalent. Are they? What does the truth table for the contrapositive look like? Stick around to the next video to find out. 
+

@@ -1,0 +1,244 @@
+﻿1
+00:00:00,000 --> 00:00:07,033
+In all of the earlier videos in this module, we've been looking at propositions -- complete statements that have a definite and knowable 
+
+2
+00:00:07,033 --> 00:00:13,533
+truth value. We've seen lots of examples of propositions and learned how to work with them. In this video we're going to re-introduce 
+
+3
+00:00:13,533 --> 00:00:18,366
+an earlier example of something that wasn't a proposition.
+ 
+
+4
+00:00:18,366 --> 00:00:27,799
+Here's that example: x + 5 = 12 . This is a kind of statement, namely it's an assertion that the expression on the left side of the equals sign is 
+
+5
+00:00:27,800 --> 00:00:39,600
+actually equal to the expression on the right. So it's a complete thought; but it doesn't have a definite truth value as is because of that 
+
+6
+00:00:39,600 --> 00:00:49,833
+variable "x". Whether this statement x+5 = 12 is true or not depends on the value of that variable. If x = 10 for instance, then the 
+
+7
+00:00:49,833 --> 00:00:57,433
+statement x + 5 = 12 is false. But if x = 7, the statement is true.
+ 
+
+8
+00:00:57,433 --> 00:01:06,666
+We're going to call a complete statement whose truth value depends on the value of one or more particular variables a predicate. 
+
+9
+00:01:06,666 --> 00:01:14,532
+Predicates are different from propositions. While both predicates and propositions have truth values, the truth value of a proposition 
+
+10
+00:01:14,533 --> 00:01:24,399
+can be known just from the proposition itself without any outside input, while the truth value of a predicate depends on outside input. 
+
+11
+00:01:24,400 --> 00:01:30,133
+Propositions have only one truth value, while in general the truth value of a predicate will be 
+
+12
+00:01:30,133 --> 00:01:34,499
+True for some inputs and False for others -- it depends.
+ 
+
+13
+00:01:34,500 --> 00:01:46,266
+For notation, while we often use letters like P, Q, or R to represent proposition, we affix a variable in parentheses to the letter for a 
+
+14
+00:01:46,266 --> 00:01:57,699
+predicate. For example, could write this to mean "the predicate P with variable x, is the statement that x+5 = 12". We pronounce that 
+
+15
+00:01:57,700 --> 00:02:09,000
+first part "P of x". The allowable inputs for a variable in a predicate is called the domain of the predicate. For example for P(x) here, the 
+
+16
+00:02:09,000 --> 00:02:19,800
+domain could be all real numbers. But here's another predicate: Q(x) is the statement x % 3 = 0 , and for this predicate not all real numbers 
+
+17
+00:02:19,800 --> 00:02:29,466
+might make sense; instead the domain is the set of integers because that's the only thing we can apply the modulus operator to.
+ 
+
+18
+00:02:29,466 --> 00:02:38,266
+Some predicates might have even smaller domains, for example this predicate B(x) = "Prof X has a beard". Apparently "x" represents 
+
+19
+00:02:38,266 --> 00:02:44,966
+not a number but a faculty member now, and since there are a lot of faculty members out there, we might just explicitly state the domain 
+
+20
+00:02:44,966 --> 00:02:51,599
+for example by saying the domain is the set of all mathematics professors at your university.
+ 
+
+21
+00:02:51,600 --> 00:03:01,500
+More formally we would say that a predicate is a function, whose domain is a given set and whose codomain is the set {TRUE, FALSE}. 
+
+22
+00:03:01,500 --> 00:03:08,600
+This is using some language we have not defined yet, but we'll be doing that in the next module. It just means that a predicate is like a 
+
+23
+00:03:08,600 --> 00:03:17,600
+machine that accepts inputs from a given collection, performs some kind of process, and produces outputs of either TRUE or FALSE.
+ 
+
+24
+00:03:17,600 --> 00:03:24,700
+Predicates are extremely important and useful in computer science, not least because they themselves are like tiny computer programs 
+
+25
+00:03:24,700 --> 00:03:32,166
+with an input of a certain type, and which output either TRUE or FALSE. Here for example is a Python version of our first 
+
+26
+00:03:32,166 --> 00:03:39,466
+predicate. You plug in a real number for x, then go through a process to return either TRUE or FALSE.
+ 
+
+27
+00:03:39,466 --> 00:03:42,499
+Let's look at some more examples of predicates.
+ 
+
+28
+00:03:42,500 --> 00:03:47,333
+S(x) = the length of x is 7
+ 
+
+29
+00:03:47,333 --> 00:03:56,466
+where x is a string, and the domain is the set of all possible strings. Again it's helpful to think of this like a little computer program, like this, 
+
+30
+00:03:56,466 --> 00:04:05,432
+where you plug in a string and get out either TRUE or FALSE. The predicate itself does not have a truth value until something is plugged 
+
+31
+00:04:05,433 --> 00:04:11,566
+in. For example S("Mathematics") is FALSE because the length of that string is 11. 
+
+32
+00:04:11,566 --> 00:04:17,732
+But S("Algebra") is TRUE because the length of Algebra is 7.
+ 
+
+33
+00:04:17,733 --> 00:04:35,866
+Another example: P(x) = x**2 >= 0 where x is the set of all integers. P(x) will be TRUE whenever x**2 >= 0 and FALSE otherwise. So P(2) is true, 
+
+34
+00:04:35,866 --> 00:04:45,732
+for instance because 2**2 is 4 and that's bigger than 0. P(10) is also true because 10**2 is 100 and that's bigger than 0... in fact P(x) is always 
+
+35
+00:04:45,733 --> 00:04:52,866
+true for any input because squaring an integer always returns a result that is nonnegative.
+ 
+
+36
+00:04:52,866 --> 00:05:03,899
+And another example: P(s) = "the length of s is negative" where the domain is all possible strings. Well, this predicate is never true, 
+
+37
+00:05:03,900 --> 00:05:08,400
+because there's no such thing as a string with a negative length.
+ 
+
+38
+00:05:08,400 --> 00:05:15,933
+Generally speaking we can have predicates that are sometimes but not always true, predicates that are always true, and predicates 
+
+39
+00:05:15,933 --> 00:05:23,666
+that are never true. When we talk about how often a predicate is true, this is referred to as quantifying the predicate. 
+
+40
+00:05:23,666 --> 00:05:27,799
+Our next video is going to be all about that idea.
+ 
+
+41
+00:05:27,800 --> 00:05:40,633
+We can even have predicates with more than one variable, like this: P(x,y) = "xy > 0". This requires knowledge of two variables to be able 
+
+42
+00:05:40,633 --> 00:05:49,666
+to determine truth. P(2,3) for example is TRUE because 2*3 is 6 which is bigger than 0. 
+
+43
+00:05:49,666 --> 00:05:58,499
+But P(-4, 5) is FALSE because -4*5 is -20 which is not bigger than 0.
+
+44
+00:05:58,500 --> 00:06:08,533
+Now you give it a try, from a bit of a different angle. Here's a predicate: P(n) = (3n+1) % 4 = 0. Pause the video now and find as many 
+
+45
+00:06:08,533 --> 00:06:16,733
+values of n as you can that make this predicate true. Come back when you're ready.
+ 
+
+46
+00:06:16,733 --> 00:06:25,233
+I've actually written a Python function here to help me find these. The predicate is here in this first block --- it just implements the process of 
+
+47
+00:06:25,233 --> 00:06:35,733
+returning TRUE if 3n+1 mod 4 is 0 and FALSE otherwise. Down below, I'm going to run a quick loop to go through the integers 1 through 30 to 
+
+48
+00:06:35,733 --> 00:06:49,633
+see which values make the statement true, and maybe I'll see a pattern. It looks like 1, 5, 9, 13, 17, 21... I believe I'm seeing a pattern here that 
+
+49
+00:06:49,633 --> 00:06:59,833
+whenever n is itself congruent to 1 mod 4, this predicate will be true. I'll test that out with some integers outside the range I showed you --- for 
+
+50
+00:06:59,833 --> 00:07:12,166
+example a negative integer, like -3. That's congruent to 1 mod 4, and sure enough my predicate is true. Or 400001 is 1 mod 4, and 
+
+51
+00:07:12,166 --> 00:07:25,632
+that also gives true. So while I can't literally list all of these values, I can put them together in one place and indicate the pattern like so.
+ 
+
+52
+00:07:25,633 --> 00:07:33,633
+This collection, consisting of all the variable values that make the predicate true, is called the truth set of the predicate. For example 
+
+53
+00:07:33,633 --> 00:07:50,399
+for P(x) = x+5 = 12, the truth set is just the single number 7. For P(x) = x**2 >= 0, the truth set is the entire domain, the set of integers. 
+
+54
+00:07:50,400 --> 00:07:59,866
+For S(x) = the length of x is 7, the truth set is the collection of all strings that have length 7.
+ 
+
+55
+00:07:59,866 --> 00:08:06,266
+You've learned a lot in this video: The differences between a predicate and proposition, the domain of a predicate, and the 
+
+56
+00:08:06,266 --> 00:08:13,532
+truth set of a predicate. In the next video, we'll come back to the idea of quantifying a predicate that we mentioned earlier --- that's 
+
+57
+00:08:13,533 --> 00:08:22,066
+taking a predicate and turning it into a proposition by making an assertion about how often the predicate is true
+

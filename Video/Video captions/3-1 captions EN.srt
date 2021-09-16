@@ -1,0 +1,178 @@
+﻿1
+00:00:00,000 --> 00:00:07,000
+Welcome to Module 3 of this course. We've learned a lot so far about the mathematics that computer science is built on. We've learned 
+
+2
+00:00:07,000 --> 00:00:13,766
+how to represent integers in different number bases that make it possible for computers to do math with them. We've also learned about the 
+
+3
+00:00:13,766 --> 00:00:21,799
+logic that both humans and computers use to process information. In this new module we're going to study another fundamental building 
+
+4
+00:00:21,800 --> 00:00:26,433
+block of computer science, the notion of the SET. 
+ 
+
+5
+00:00:26,433 --> 00:00:32,966
+We've actually already encountered this idea more than once in the previous videos. For example, when we introduced predicates, we 
+
+6
+00:00:32,966 --> 00:00:41,266
+talked about their "truth set". This was the collection of all input values that makes a predicate true. For example the truth set of the 
+
+7
+00:00:41,266 --> 00:00:54,632
+predicate P(x) which is the statement that x mod 5 is 3, consists of the numbers 3, 8, 13, 18, and so on as well as -2, -7, -12, and so on. 
+
+8
+00:00:54,633 --> 00:01:00,433
+We need a handy and precise way to talk about this collection. And that's what a set gives us. 
+ 
+
+9
+00:01:00,433 --> 00:01:08,399
+A set is simply an unordered collection of objects. That's it. There are no restrictions on what can go into a set, and there's no 
+
+10
+00:01:08,400 --> 00:01:17,000
+restriction on the order in which we put things in a set. The only restriction really there is on a set is that we cannot duplicate objects. Once 
+
+11
+00:01:17,000 --> 00:01:21,466
+an object is in a set, we don't put it in twice. 
+ 
+
+12
+00:01:21,466 --> 00:01:28,532
+We're using this picture of boxes for this module's videos because boxes are a useful way to think about sets. Sets are just 
+
+13
+00:01:28,533 --> 00:01:35,966
+containers. Anything can go in them. Even other boxes can go inside them --- or they can be empty! The ordering of what's inside those 
+
+14
+00:01:35,966 --> 00:01:43,632
+boxes doesn't really matter. Sets are an extremely simple concept that's wide open for specialized use, and that makes them the 
+
+15
+00:01:43,633 --> 00:01:51,533
+perfect mathematical concept to drive a lot of more complicated computer science concepts of packages and containers. 
+ 
+
+16
+00:01:51,533 --> 00:01:59,333
+The objects in a set are often called *elements* of the set. And for notation, sometimes we often use capital letter variables to represent a 
+
+17
+00:01:59,333 --> 00:02:08,333
+set, and we usually use curly braces like these to enclose the elements of a set. For example this set T is the truth set of the predicate P(x) 
+
+18
+00:02:08,333 --> 00:02:18,933
+we mentioned earlier whose elements are the integers that are 3 mod 5. And here's a set S with just three elements, the letters a, b, and c. 
+
+19
+00:02:18,933 --> 00:02:25,766
+And here's a set R that contains four elements that are a mix of numbers, letters, and even other sets. Just like a box you might get when 
+
+20
+00:02:25,766 --> 00:02:31,299
+you buy something might contain other boxes, sets can contain other sets. 
+ 
+
+21
+00:02:31,300 --> 00:02:38,633
+Sets are foundational in computer science because every data structure you will ever use in computer science is based on sets. Python 
+
+22
+00:02:38,633 --> 00:02:47,433
+lists and dictionaries for example are not sets (because for example in a Python list, you can have elements duplicated and the order 
+
+23
+00:02:47,433 --> 00:02:55,266
+matters) but they behave like sets and use a lot of the same language to describe them. Any time we use one of these data structures, for 
+
+24
+00:02:55,266 --> 00:03:00,732
+example when we execute a FOR loop, we are working basically with sets. 
+ 
+
+25
+00:03:00,733 --> 00:03:08,933
+Sets in mathematics, unlike data structures in computer science, can be both finite or infinite. For example here is a finite set whose 
+
+26
+00:03:08,933 --> 00:03:17,333
+elements are the letters of the English alphabet. And here is an infinite set whose elements are the positive integers. The three 
+
+27
+00:03:17,333 --> 00:03:25,366
+dots indicate a pattern that continues. This set, consisting of all even integers, is infinite in both directions. 
+ 
+
+28
+00:03:25,366 --> 00:03:32,232
+As we said, the objects in a set are called "elements" and if we want to say that a particular object is an element of a set we use 
+
+29
+00:03:32,233 --> 00:03:40,199
+this notation here, which looks like an e. This for example says that the number 8 is an element of this set. And this notation here, with 
+
+30
+00:03:40,200 --> 00:03:49,166
+a slash mark through the "element of" symbol, is saying that the number 11 is not an element of this set. 
+ 
+
+31
+00:03:49,166 --> 00:03:56,599
+We can even have a set with no elements in it at all. This is called the empty set, sometimes called the "null set", and it's denoted by this 
+
+32
+00:03:56,600 --> 00:04:04,500
+symbol here which looks like a 0 with a line through it. If the idea of an empty set seems weird, just go back to the box metaphor --- it's 
+
+33
+00:04:04,500 --> 00:04:09,900
+not at all weird to think about a box with nothing in it. And that's what the empty set is. 
+ 
+
+34
+00:04:09,900 --> 00:04:16,433
+Some sets are so commonly used in math and computer science that they have their own notation. The set of integers, including 0 and 
+
+35
+00:04:16,433 --> 00:04:28,833
+negative integers, often uses this stylized letter Z to denote it. The Z is the first letter in the German word "Zahlen" which means "to count". 
+
+36
+00:04:28,833 --> 00:04:36,999
+Another important set is the set of all integers bigger than or equal to 0. This is called the set of *natural numbers* and it uses this stylized 
+
+37
+00:04:37,000 --> 00:04:48,033
+"N" to represent it. Finally the set of all real numbers, any number at all that can be located on the number line including integers, fractions, 
+
+38
+00:04:48,033 --> 00:04:54,699
+and numbers like pi and square root of 2 that can't be expressed as fractions, is denoted with an R. You can't list those one by one like 
+
+39
+00:04:54,700 --> 00:04:56,900
+integers. 
+ 
+
+40
+00:04:56,900 --> 00:05:05,000
+So now you know what a set is, what an element of a set is, how to use curly braces to enclose the elements of a set, what a finite and 
+
+41
+00:05:05,000 --> 00:05:13,500
+infinite set is, what the empty set is, and notation for the special sets of integers, natural numbers, and real numbers. In the next video 
+
+42
+00:05:13,500 --> 00:05:17,666
+we'll look at two different ways to write sets. See you there. 
+

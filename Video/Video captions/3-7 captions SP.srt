@@ -1,0 +1,123 @@
+1
+00:00:00,000 --> 00:00:07,533
+En el último video vimos una serie de operaciones que podemos realizar en conjuntos para producir conjuntos nuevos que se adapten a diferentes tipos de realizaciones.
+
+2
+00:00:07,533 --> 00:00:16,266
+situaciones. En este video vamos a presentar otra operación de conjunto que es similar a estas, pero es diferente y necesita un poco más de explicación.
+
+3
+00:00:16,266 --> 00:00:24,199
+Volvamos a nuestra clase ficticia de matemáticas discretas. Suponga que la clase se ha reunido un total de 10 veces y el instructor quiere ver la asistencia
+
+4
+00:00:24,200 --> 00:00:30,766
+en las reuniones de clase. Entonces crea una hoja de cálculo con los nombres de los estudiantes en una columna y la cantidad de días que tienen
+
+5
+00:00:30,766 --> 00:00:39,799
+atendido en el otro. Esto empareja a cada estudiante con un número. Podemos pensar en estos pares como un par ordenado, así. Recordar
+
+6
+00:00:39,800 --> 00:00:49,000
+que U era el conjunto de todos los estudiantes de la clase. Y los números aquí podrían oscilar entre 0 y 10 ya que la clase se ha reunido 10 veces. Vamos
+
+7
+00:00:49,000 --> 00:00:59,333
+Sea A el conjunto 0, 1, 2, etc., hasta el 10. El conjunto de todos los pares posibles que el instructor podría crear, con los estudiantes en el primer espacio de
+
+8
+00:00:59,333 --> 00:01:08,333
+cada par y los números enteros del 0 al 10 en la segunda ranura, creado se llama el producto cartesiano de U y A.
+
+9
+00:01:08,333 --> 00:01:18,833
+En general, dados dos conjuntos A y B cualesquiera, el producto cartesiano de A y B es el conjunto de todos los pares ordenados que tienen el primer elemento del par
+
+10
+00:01:18,833 --> 00:01:27,399
+procedente de A y el segundo elemento procedente de B. Usamos una cruz, como puede ver en la escuela primaria para denotar la multiplicación de dos
+
+11
+00:01:27,400 --> 00:01:30,333
+números, como la notación.
+
+12
+00:01:30,333 --> 00:01:41,966
+Por ejemplo, observe el producto del conjunto {1,2,3} con el conjunto {a, b}. Este es el conjunto de todos los pares ordenados cuya primera "coordenada" está en el conjunto 1,2,3
+
+13
+00:01:41,966 --> 00:01:51,599
+y cuya segunda coordenada está en el conjunto a, b. Hay seis pares de este tipo y aquí están: Hay dos pares para cada uno de los tres
+
+14
+00:01:51,600 --> 00:02:01,200
+elementos del conjunto {1,2,3} - (1, a) y (1, b), luego (2, a) y (2, b), y finalmente (3, a) y (3, b) ).
+
+15
+00:02:01,200 --> 00:02:11,333
+En nuestro ejemplo de aula, el producto de U y {0,1,2, ..., 10} es el conjunto de todas las posibles parejas de estudiantes y asistencia. Entonces hay 11
+
+16
+00:02:11,333 --> 00:02:19,633
+posibles pares para cada estudiante, lo que hace que este sea un conjunto bastante grande. Los pares que están en la hoja de cálculo del instructor serían un subconjunto de
+
+17
+00:02:19,633 --> 00:02:25,066
+todo el producto pero no igual.
+
+18
+00:02:25,066 --> 00:02:36,332
+Ahora inténtalo. Escriba el conjunto A multiplicado por B, donde A es {x, y} y B es el conjunto {1,2,3,4}.
+
+19
+00:02:36,333 --> 00:02:43,899
+Debería encontrar que hay ocho pares en este producto, y aquí están: cuatro pares para cada elemento de A. O otra forma de pensar
+
+20
+00:02:43,900 --> 00:02:48,866
+al respecto, tienes dos pares para cada elemento de B.
+
+21
+00:02:48,866 --> 00:02:56,899
+Notice that unlike in multiplication of real numbers, the order of A and B in A times B matters. In this example you just worked, B
+
+22
+00:02:56,900 --> 00:03:06,600
+times A would be this set -- it's still eight pairs and the ordering of the coordinates is reversed. But these are *ordered* pairs --- (x,1) is not
+
+23
+00:03:06,600 --> 00:03:15,366
+considered to be the same thing as (1,x) so these two sets have the same cardinality, but the elements themselves are not
+
+24
+00:03:15,366 --> 00:03:17,132
+the same.
+
+25
+00:03:17,133 --> 00:03:23,666
+You've actualy worked with Cartesian products before because you've worked with ordered pairs before. Back in your early algebra
+
+26
+00:03:23,666 --> 00:03:32,499
+classes, you learned how to plot points in a two-dimensional xy-plane and then graph functions using this process. Each point is a pair of
+
+27
+00:03:32,500 --> 00:03:44,833
+numbers, like (4,3) or (-2,-3). So the xy-plane which consists of **all** those points, is the set R times R where R is the set of all real
+
+28
+00:03:44,833 --> 00:03:51,866
+numbers. This is the set consisting of all possible pairs with real numbers in each coordinate.
+
+29
+00:03:51,866 --> 00:03:58,966
+So you've learned what the Cartesian product is, and how to find the Cartesian product of simple sets. In our next video, we'll be shifting
+
+30
+00:03:58,966 --> 00:04:05,999
+gears to focus on the idea of a *function* which, as we just mentioned, is a way of mapping elements of one set onto the
+
+31
+00:04:06,000 --> 00:04:07,800
+elements of another.

@@ -1,0 +1,163 @@
+1
+00:00:00,000 --> 00:00:06,633
+El último video introdujo la idea de cuantificación, que es lo que sucede cuando tomamos un predicado, cuyo valor de verdad no puede ser
+
+2
+00:00:06,633 --> 00:00:14,366
+determinado debido a una variable, y luego hacer una afirmación sobre si ese predicado es * siempre * verdadero o * a veces * verdadero. Ya que
+
+3
+00:00:14,366 --> 00:00:21,232
+los predicados cuantificados son proposiciones, podemos negarlos. Y en este video veremos cómo se hace esto.
+
+4
+00:00:21,233 --> 00:00:33,399
+Eche un vistazo a los predicados cuantificados universalmente del último video que eran falsos. ¿Cómo supimos que eran falsos? Para
+
+5
+00:00:33,400 --> 00:00:38,066
+ejemplo, ¿por qué fue "para todas las cadenas x, la longitud de x es positiva" falso? Fue porque encontramos un solo ejemplo de una cadena que nos mostró
+
+6
+00:00:38,066 --> 00:00:44,866
+que * no todas * las cadenas tienen una longitud positiva. Eso se llama * contraejemplo * --- un ejemplo que demuestra una cuantificación universal
+
+7
+00:00:44,866 --> 00:00:52,532
+declaración es falsa. Se puede demostrar que las declaraciones cuantificadas universalmente son falsas produciendo solo un contraejemplo.
+
+8
+00:00:52,533 --> 00:01:02,866
+Podemos expresar este hecho usando negaciones. Si toma la afirmación cuantificada universalmente "para todo x, P (x)" y la niega, es una afirmación que P (x) es
+
+9
+00:01:02,866 --> 00:01:12,666
+no universalmente cierto, o no * siempre * verdadero. ¿Qué significa cuando una afirmación no siempre es cierta? * No * significa que la declaración es
+
+10
+00:01:12,666 --> 00:01:23,832
+siempre falso. Por ejemplo, la afirmación "Todos los coches son rojos" no es cierta. Pero esto no significa que * ningún * coche sea rojo --- que no exista ningún coche rojo.
+
+11
+00:01:23,833 --> 00:01:31,766
+Simplemente significa que no todos los autos son rojos, o que hay autos que existen y no son rojos.
+
+12
+00:01:31,766 --> 00:01:39,532
+Entonces, cuando se niega un enunciado cuantificado universalmente, algo de la forma "para todo x, P (x) es verdadero", estamos diciendo que P (x) es
+
+13
+00:01:39,533 --> 00:01:50,699
+* a veces * falso. O dicho de otra manera, existe una x que hace que la negación de P (x) sea verdadera. Podemos poner eso en notación diciendo:
+
+14
+00:01:50,700 --> 00:02:02,700
+la negación de "para todo x, P (x)" es "existe una x tal que 'no P (x)'". De modo que la negación de un predicado cuantificado universalmente es el
+
+15
+00:02:02,700 --> 00:02:08,533
+cuantificación existencial de la negación del predicado.
+
+16
+00:02:08,533 --> 00:02:16,899
+Del mismo modo, observe los predicados cuantificados existencialmente que son falsos, como el que hizo en el último video, S (x) es el valor absoluto de x es
+
+17
+00:02:16,900 --> 00:02:26,733
+negativo. Si cuantificamos existencialmente ese predicado para obtener "existe una x tal que el valor absoluto de x es negativo", eso es falso
+
+18
+00:02:26,733 --> 00:02:35,233
+declaración porque sabemos por matemáticas básicas que el valor absoluto de x nunca es negativo --- es decir, el valor absoluto de x es siempre cero
+
+19
+00:02:35,233 --> 00:02:43,333
+o positivo. Esto suena como una declaración universal, ¿no es así? De hecho, lo que vemos en este ejemplo es que la negación de "allí
+
+20
+00:02:43,333 --> 00:02:55,533
+existe una x tal que P (x) "es" para todo x, no P (x) ". Así que negar una declaración cuantificada existencialmente da una cuantificación universal
+
+21
+00:02:55,533 --> 00:02:58,466
+declaración.
+
+22
+00:02:58,466 --> 00:03:07,766
+Aquí hay un ejemplo más para ponerlo todo junto. Mire el predicado C (x) donde el dominio es el conjunto de todos los países de la Tierra, y C (x) dice
+
+23
+00:03:07,766 --> 00:03:19,066
+"la primera letra de x es B". Pausa el video mientras haces lo siguiente: Primero, escribe en inglés o en el idioma que prefieras.
+
+24
+00:03:19,066 --> 00:03:29,666
+declaraciones "para todo x C (x)" y "existe una x tal que C (x)" diría en lenguaje sencillo. Luego, determine si esas declaraciones son
+
+25
+00:03:29,666 --> 00:03:39,232
+true, or false. Then, write out their negations in plain language and determine whether those are true or false. Come on back here when you
+
+26
+00:03:39,233 --> 00:03:42,466
+are ready.
+
+27
+00:03:42,466 --> 00:03:50,499
+The universally quantified statement would say that Every country begins with the letter B. The existentially quantified statement would say that
+
+28
+00:03:50,500 --> 00:03:58,766
+At least one country begins with the letter B. There are other possible ways to say either of these. But when you put it this way, it's clear
+
+29
+00:03:58,766 --> 00:04:08,499
+that "For all x C(x)" is false, again because there are lots of counterexamples possible, for example France. And "There exists x such that
+
+30
+00:04:08,500 --> 00:04:16,066
+C(x)" is true, because there do exist countries beginning with a B, like Belize or Belarus.
+
+31
+00:04:16,066 --> 00:04:26,399
+The negation of "for all x C(x)" would be "There exists x such that not C(x)" which in plainer language would be "There exists a country
+
+32
+00:04:26,400 --> 00:04:33,533
+cuyo nombre no comienza con una B ". Y eso es cierto, de hecho, esta afirmación solo dice que es posible encontrar un
+
+33
+00:04:33,533 --> 00:04:43,099
+contraejemplo de la declaración universal original. La negación de "existe una x tal que C (x)" es el enunciado universal "para
+
+34
+00:04:43,100 --> 00:04:53,733
+todos x, no C (x) "o, en otras palabras, para todos en la Tierra, el nombre del país no comienza con B. Esa es una declaración falsa, y
+
+35
+00:04:53,733 --> 00:05:01,266
+Lo sé porque es una declaración universal, pero hay un contraejemplo: Belice o Bielorrusia. Esto tiene sentido porque el
+
+36
+00:05:01,266 --> 00:05:09,799
+la negación de una proposición debe tener el valor de verdad opuesto. El enunciado universal era falso, por lo que su negación debería ser verdadera, y
+
+37
+00:05:09,800 --> 00:05:15,366
+el enunciado existencial era verdadero, por lo que su negación debería ser falsa.
+
+38
+00:05:15,366 --> 00:05:22,566
+En este video has aprendido que la negación de un enunciado cuantificado universalmente es un enunciado cuantificado existencialmente usando el
+
+39
+00:05:22,566 --> 00:05:31,532
+negación del predicado original. Y del mismo modo, la negación de un enunciado cuantificado existencialmente es un enunciado cuantificado universalmente.
+
+40
+00:05:31,533 --> 00:05:39,566
+utilizando la negación del predicado original. Solo hay un tema más que tocar aquí, y así es como funciona la cuantificación cuando
+
+41
+00:05:39,566 --> 00:05:43,066
+tener más de una variable. Así que quédate.

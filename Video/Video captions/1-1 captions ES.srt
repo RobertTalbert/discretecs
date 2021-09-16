@@ -1,0 +1,259 @@
+1
+00:00:00,133 --> 00:00:05,799
+Este curso trata sobre los fundamentos básicos de la informática y no hay nada más fundamental que los números.
+
+2
+00:00:05,800 --> 00:00:12,666
+Para hacer cualquier cosa matemática en informática, nuestra primera tarea es comprender cómo las computadoras manejan los números.
+
+3
+00:00:12,666 --> 00:00:15,099
+De eso se trata este video.
+
+4
+00:00:15,100 --> 00:00:23,800
+Por "número", por ahora solo nos referiremos a enteros no negativos. Un "entero" es simplemente un número entero, algo que no es una fracción o
+
+5
+00:00:23,800 --> 00:00:32,600
+decimal. Entonces, por el momento, cuando decimos "número", nos referimos a 0, 1, 2, 3, etc., y dejaremos números negativos y fracciones o
+
+6
+00:00:32,600 --> 00:00:35,033
+decimales fuera de la imagen por ahora.
+
+7
+00:00:35,033 --> 00:00:43,966
+Pensemos primero en cómo pensamos los seres humanos sobre los números. Mira el número 275. Cuando eras niño, aprendiste que este
+
+8
+00:00:43,966 --> 00:00:49,832
+El número tiene tres dígitos, el 2, el 7 y el 5, y esos dígitos aparecen en diferentes lugares.
+
+9
+00:00:49,833 --> 00:00:59,499
+El 5 está en el lugar de las unidades, el 7 está en el lugar de las decenas y el 2 está en el lugar de las centenas. Pensemos en esos "lugares". Cada "lugar" en un
+
+10
+00:00:59,500 --> 00:01:07,466
+número es una potencia de 10: 1 es 10 ^ 0, 10 es 10 ^ 1, 100 es 10 ^ 2.
+
+11
+00:01:07,466 --> 00:01:19,966
+Los dígitos están en esos lugares para decirle cuántas copias de ese poder de 10 debe usar. Entonces, 275 usa 2 centenas, 7 decenas y 5 unidades.
+
+12
+00:01:19,966 --> 00:01:23,632
+Podríamos escribir esto separando los diferentes lugares y escribiendo
+
+13
+00:01:23,633 --> 00:01:36,299
+275 = 200 + 70 + 5 que es 2 * 10 ^ 2 + 7 * 10 ^ 1 + 5 * 10 ^ 0. Así que nosotros
+
+14
+00:01:36,300 --> 00:01:48,033
+puede escribir 275 como una suma de copias de potencias de 10, y los dígitos que usamos nos dicen cuántas copias de cada potencia de 10 debemos incluir.
+
+15
+00:01:48,033 --> 00:01:57,499
+Para tomar otro ejemplo, mire 17025. Esto tiene dígitos no solo en los lugares de las unidades, decenas y centenas, sino también en los miles y
+
+16
+00:01:57,500 --> 00:02:02,766
+diez mil lugares. Esto se puede escribir también como una suma de copias de potencias de 10:
+
+17
+00:02:02,766 --> 00:02:13,132
+17025 = 1 * 10000 + 7 * 1000 + 0 * 100 + 2 * 10 + 5 * 1
+
+18
+00:02:13,133 --> 00:02:22,433
+o, 1 * 10 ^ 4 + 7 * 10 ^ 3 + 0 * 10 ^ 2 + 2 * 10 ^ 1 + 5 * 10 ^ 0.
+
+19
+00:02:22,433 --> 00:02:32,166
+Lo que ilustran esos ejemplos tan simples es el hecho de que ** cada número entero no negativo se puede escribir como una suma de copias de potencias de 10 **
+
+20
+00:02:32,166 --> 00:02:37,466
+y el número de copias varía de 0 a 9 (que son los dígitos del número).
+
+21
+00:02:37,466 --> 00:02:43,899
+Este formato para escribir números se denomina base 10 o representación decimal del número.
+
+22
+00:02:43,900 --> 00:02:54,766
+La palabra decimal no significa fracciones como 3,14. Utiliza el prefijo "deci" que significa 10. Entonces, la representación decimal de un número es
+
+23
+00:02:54,766 --> 00:03:01,532
+nuestra forma habitual de escribir cosas donde los dígitos se refieren a copias de potencias de 10, en diferentes lugares.
+
+24
+00:03:01,533 --> 00:03:07,833
+¿Por qué usamos potencias de 10? Es simplemente porque somos seres humanos y tenemos diez dedos, y hace mucho tiempo así es como aprendimos a
+
+25
+00:03:07,833 --> 00:03:16,166
+contar. Si hubiéramos evolucionado para tener 8 dedos, o 16, entonces las cosas hubieran resultado diferentes.
+
+26
+00:03:16,166 --> 00:03:22,332
+Los seres humanos como tú y yo almacenamos y procesamos números en forma decimal. Toda la aritmética que aprendiste cuando eras niño, por ejemplo,
+
+27
+00:03:22,333 --> 00:03:30,733
+utiliza la representación de base 10. Las computadoras, por otro lado, no son humanas y no tienen 10 dedos. Nuestro uso de la representación de base 10
+
+28
+00:03:30,733 --> 00:03:37,799
+no tiene sentido para una computadora, a pesar de que las computadoras parecen no tener problemas para trabajar con números. Pero de hecho, debajo del
+
+29
+00:03:37,800 --> 00:03:46,433
+superficie, para hacer cualquier matemática en una computadora --- y lo único que una computadora realmente hace, es matemática --- tenemos que aprender a traducir
+
+30
+00:03:46,433 --> 00:03:51,866
+de nuestro mundo de números al de ellos. ¿Como hacemos eso?
+
+31
+00:03:51,866 --> 00:04:02,132
+Tienes que entender que las computadoras son dispositivos electrónicos, por lo que solo entienden dos cosas: encendido y apagado. Proceso de computadoras
+
+32
+00:04:02,133 --> 00:04:12,733
+pulsos eléctricos que tienen solo esos dos estados. Por lo general, representamos esos dos estados con un 1 (para "encendido") o un 0 (para "apagado"). Entonces
+
+33
+00:04:12,733 --> 00:04:21,099
+mientras que los humanos tenemos literalmente diez dígitos en nuestras manos y, por lo tanto, diez dígitos utilizados para números, las computadoras solo tienen dos dígitos.
+
+34
+00:04:21,100 --> 00:04:31,433
+Dado que solo hay dos, nos referimos a esto como binario en lugar de decimal, y el término dígito binario generalmente se abrevia a solo "bit".
+
+35
+00:04:31,433 --> 00:04:38,933
+Todo lo que ves que hace una computadora, incluida la reproducción de este video, tu procesador de texto, el videojuego que te gusta jugar, todo es solo un
+
+36
+00:04:38,933 --> 00:04:47,933
+cadena de bits extremadamente larga que le indica al hardware qué hacer. Cualquier información procesada por una computadora está en binario, incluyendo
+
+37
+00:04:47,933 --> 00:04:53,399
+números. Entonces, ¿cómo se hace esto cuando solo tienes dos dígitos?
+
+38
+00:04:53,400 --> 00:05:01,300
+Así como podemos escribir cada número como una suma de copias de potencias de 10, resulta que podemos escribir cualquier número como una suma de copias de potencias.
+
+39
+00:05:01,300 --> 00:05:10,833
+de 2. Cuando hacemos esto, creamos lo que se llama la base 2 o representación binaria de ese número. Porque vamos a usar
+
+40
+00:05:10,833 --> 00:05:21,266
+potencias de 2, aquí están desde 2 ^ 0, que es 1 hasta 2 ^ 11, que es 2048. Los informáticos expertos pueden reconocer
+
+41
+00:05:21,266 --> 00:05:30,332
+2 ^ 10 o 1024 porque este es el número de bytes en un kilobyte. Te recomiendo que aprendas estos poderes de 2 para que sean tan
+
+42
+00:05:30,333 --> 00:05:37,499
+familiar para usted como potencias de 10. Mire, por ejemplo, 275 de nuevo. Aunque no es
+
+43
+00:05:37,500 --> 00:05:43,566
+necesariamente fácil de ver, podemos escribir este número como una suma de potencias de 2 así:
+
+44
+00:05:43,566 --> 00:05:51,932
+275 = 256 + 16 + 2 + 1. Todos esos son poderes de 2 y había
+
+45
+00:05:51,933 --> 00:05:55,966
+varios que nos saltamos. En esta representación usamos
+
+46
+00:05:55,966 --> 00:06:00,632
+1 2 ^ 8 0 2 ^ 7 0 2 ^ 6
+
+47
+00:06:00,633 --> 00:06:06,866
+0 2 ^ 5 1 2 ^ 4 0 2 ^ 3
+
+48
+00:06:06,866 --> 00:06:12,166
+0 2 ^ 2 1 2 ^ 1 1 2 ^ 0
+
+49
+00:06:12,166 --> 00:06:23,832
+La representación binaria del número 275 es la cadena de dígitos que ve en la segunda fila: 100010011.
+
+50
+00:06:23,833 --> 00:06:32,833
+Tenga en cuenta que * a diferencia de * la representación decimal donde usamos los dígitos del 0 al 9, en binario los únicos dígitos que usamos
+
+51
+00:06:32,833 --> 00:06:45,133
+son 0 y 1. Nunca veríamos aparecer un 2, un 5 o un 7 porque esto simplemente significaría que usaríamos una potencia superior
+
+52
+00:06:45,133 --> 00:06:49,866
+de 2. Es como no ver "13" aparecer como uno de los dígitos en una representación decimal.
+
+53
+00:06:49,866 --> 00:06:59,232
+Aquí hay otro ejemplo de cómo cambiar un número decimal a binario: 1902. Ese número se puede escribir como esta suma de potencias de 2:
+
+54
+00:06:59,233 --> 00:07:14,966
+1902 = 1024 + 512 + 256 + 64 + 32 + 8 + 4 + 2 Entonces tenemos 2 ^ 10, 2 ^ 9, 2 ^ 8, luego a 2 ^ 6, 2 ^ 5,
+
+55
+00:07:14,966 --> 00:07:29,032
+2 ^ 3, 2 ^ 2 y 2 ^ 1 y ninguna otra potencia de 2. Eso significa que la representación binaria es 11101101110.
+
+56
+00:07:29,033 --> 00:07:38,033
+No está del todo claro en este momento cómo podemos dividir fácilmente un número en una suma de potencias de 2 de esta manera, aparte de adivinar y verificar. Pero
+
+57
+00:07:38,033 --> 00:07:45,066
+no se preocupe: en un video posterior, presentaremos un algoritmo rápido para hacer esto que facilitará la conversión de representaciones
+
+58
+00:07:45,066 --> 00:07:50,799
+de base 10 a base 2. Observe que convertir la representación en el
+
+59
+00:07:50,800 --> 00:08:03,933
+otra dirección, de binario a decimal, es por otro lado bastante fácil. Por ejemplo, mire el entero binario 10101100. Esto está diciendo esto
+
+60
+00:08:03,933 --> 00:08:16,266
+número 2 ^ 2 + 2 ^ 3 + 2 ^ 5 + 2 ^ 7 y una calculadora te dirá que este es el número decimal 172. Solo usa los bits para decirte qué potencias de 2
+
+61
+00:08:16,266 --> 00:08:20,632
+incluir, encontrar las potencias de 2 y luego resumirlas.
+
+62
+00:08:20,633 --> 00:08:28,066
+Entonces, en este video, has aprendido lo que significa nuestro concepto de la escuela primaria de representación en base 10, lo que un dígito binario o bit
+
+63
+00:08:28,066 --> 00:08:38,032
+es, lo que significa representación en base 2 o binaria, una primera idea básica de cómo convertir un número entero de representación decimal a binaria (aunque
+
+64
+00:08:38,033 --> 00:08:45,299
+vamos a mejorar esto en un video posterior) y cómo convertir de binario a decimal. Ese es un gran paso para poder
+
+65
+00:08:45,300 --> 00:08:52,800
+comprender cómo funcionan realmente las computadoras y los programas de computadora! Felicitaciones y nos vemos en el próximo video.

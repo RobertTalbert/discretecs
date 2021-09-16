@@ -1,0 +1,228 @@
+﻿1
+00:00:00,000 --> 00:00:07,400
+In the previous video, you learned about decimal or base 10 representation of an integer which is how humans think about numbers, and 
+
+2
+00:00:07,400 --> 00:00:15,866
+binary or base 2 representation which is how computers think about them. It turns out that binary isn't the *only* way computers represent 
+
+3
+00:00:15,866 --> 00:00:23,299
+numbers, though. There are two other number bases that are commonly used, and in this video we're going to learn about those. 
+ 
+
+4
+00:00:23,300 --> 00:00:32,700
+We saw in the last video that the usual base 10 or decimal representation is where you think of a number as a sum of copies of powers of 10. 
+
+5
+00:00:32,700 --> 00:00:40,900
+We use 10 because most humans have 10 fingers. But what if you encountered an alien species with 8 fingers? They would probably 
+
+6
+00:00:40,900 --> 00:00:50,600
+count the same way, but their system would involve representing a number using copies of powers of 8, and only the digits 0 through 7. 
+
+7
+00:00:50,600 --> 00:00:55,566
+That's actually not science fiction, but a common way for computers to represent integers.
+ 
+
+8
+00:00:55,566 --> 00:01:04,232
+Just as it's possible to write any number as a sum of copies of powers of 2 or 10, we can write any number (remember this means 
+
+9
+00:01:04,233 --> 00:01:11,533
+nonnegative integer for now) as a sum of copies of powers of 8. When we do this, 
+
+10
+00:01:11,533 --> 00:01:16,733
+we are using the base 8 or octal representation of that number. 
+ 
+
+11
+00:01:16,733 --> 00:01:25,433
+Here are the powers of 8 from 0 through 11, for reference. If some of of these look familiar, remember that 8 is a power of 2, and so all of 
+
+12
+00:01:25,433 --> 00:01:29,799
+these are also powers of 2 which we saw last time. 
+ 
+
+13
+00:01:29,800 --> 00:01:38,766
+In the last video we practiced with converting an integer from decimal to binary and vice versa. Let's do the same thing now, with octal. 
+
+14
+00:01:38,766 --> 00:01:50,366
+Look at the integer 196. This is in decimal form --- it can't be in octal because the digit "9" does not exist in octal. We can write 196 as...
+ 
+
+15
+00:01:50,366 --> 00:01:57,032
+196 = 3 * 64 + 0 * 8 + 4 * 1 
+ 
+
+16
+00:01:57,033 --> 00:02:06,033
+Remember we're using powers of 8 here, and because of that we can use digits 0 through 7, we're not restricted to just 0 or 1. 
+
+17
+00:02:06,033 --> 00:02:16,399
+As with base 10 and base 2, writing 196 in base 8 means stripping off the digits and writing them in a string: 
+ 
+
+18
+00:02:16,400 --> 00:02:22,066
+196 in base 10 = 304 in base 8
+ 
+
+19
+00:02:22,066 --> 00:02:34,099
+Notice we say "three zero four" not "three hundred and four" because the "3" here is *not* hundreds. 
+ 
+
+20
+00:02:34,100 --> 00:02:44,500
+Likewise, let's say we have 1402 that's represented in base 8. What is this number in base 10? Just like with binary, converting from 
+
+21
+00:02:44,500 --> 00:02:49,100
+octal to decimal is easy --- just count up the powers of 8. 
+ 
+
+22
+00:02:49,100 --> 00:03:03,900
+1402 = 1 * 8^3 + 4 * 8*2 + 0 * 8^1 + 2 * 8^0 = 770. 
+ 
+
+23
+00:03:03,900 --> 00:03:12,766
+Converting from binary to octal is easy too, in fact octal is often used to shorten binary strings. 
+
+24
+00:03:12,766 --> 00:03:22,999
+Given the binary string, group the bits into threes and convert each group of three to a number between 0 and 7, and that's your octal 
+
+25
+00:03:23,000 --> 00:03:31,366
+representation. For example, take the binary integer 10110001.
+ 
+
+26
+00:03:31,366 --> 00:03:44,432
+Group into threes: (010)(110)(001) Adding the zero on the left to pad it, so it's a group of 3. 
+ 
+
+27
+00:03:44,433 --> 00:03:56,266
+Then convert each group to decimal which is easy because the numbers are small: 010 is 2, 110 is 6, 001 is 1. 
+
+28
+00:03:56,266 --> 00:04:03,966
+The resulting octal integer is 261. (As a decimal, that's 177.)
+ 
+
+29
+00:04:03,966 --> 00:04:12,632
+Continuing this trend of using number bases that are powers of 2, another common base used in computer science is base 16, known as 
+
+30
+00:04:12,633 --> 00:04:20,699
+hexadecimal. If you've been around computers you have probably seen hexadecimal numbers. They're sometimes used for example to 
+
+31
+00:04:20,700 --> 00:04:26,866
+represent colors in web design --- for example this website lets you dial up a color using hexdecimal code. 
+
+32
+00:04:26,866 --> 00:04:31,666
+They are also used in URL shortening services. 
+ 
+
+33
+00:04:31,666 --> 00:04:42,899
+Hexadecimal or base 16 is the same idea as base 2, 8, or 10 --- except instead of writing an integer as a sum of copies of powers of 2, 8, or 
+
+34
+00:04:42,900 --> 00:04:50,033
+10, we write it as a sum of copies of powers of 16. This introduces something curious. 
+
+35
+00:04:50,033 --> 00:04:57,533
+In base 2, we used digits either 0 or 1 to represent the place values. And in octal we used 0 through 7. 
+
+36
+00:04:57,533 --> 00:05:06,766
+In base 16, we'd use 0 through 15. But this would get confusing to use two decimal digits to represent a single place value, 
+
+37
+00:05:06,766 --> 00:05:21,699
+so we use the ordinary 0 through 9 to represent 0 through 9, and for 10, 11, 12, 13, 14, and 15 we use the letters a, b, c, d, e, and f. 
+ 
+
+38
+00:05:21,700 --> 00:05:26,600
+For example, the hexadecimal number "1A8" is 
+ 
+
+39
+00:05:26,600 --> 00:05:41,700
+1A8 = 1 * 16^2 + (10) * 16^1 + 8 * 16^0 which is 424 in base 10. 
+ 
+
+40
+00:05:41,700 --> 00:05:48,300
+Converting the other way, look at the decimal number 250. Written as a sum of powers of 16, this is
+ 
+
+41
+00:05:48,300 --> 00:06:09,066
+250 = 15 * 16^1 + 10 * 16^0. The "digit" 15 is represented be the letter F and 10 by A. So 250 in base 10 is "FA" in base 16. 
+ 
+
+42
+00:06:09,066 --> 00:06:16,899
+Hexadecimal is widely used because it crunches the size of an integer down into a smaller string of digits. Notice the three-digit 
+
+43
+00:06:16,900 --> 00:06:28,133
+decimal integer 250 is only two digits long in base 16. In binary the result is more dramatic. To convert from binary to hexadecimal, similarly 
+
+44
+00:06:28,133 --> 00:06:39,766
+to how we converted binary to base 8, group the bits into fours and convert each group into 0-9 or A-F. For example
+ 
+
+45
+00:06:39,766 --> 00:07:00,866
+10110001 would be grouped as (1011)(0001) which would convert to (11)(1) or B1. Hexadecimal in other words represents a 
+
+46
+00:07:00,866 --> 00:07:07,366
+binary integer in one-fourth of its original length, which saves on storage. 
+ 
+
+47
+00:07:07,366 --> 00:07:16,466
+Finally here's a dad joke for you. Why did the computer scientist always get Christmas and Halloween mixed up? 
+ 
+
+48
+00:07:16,466 --> 00:07:21,766
+It's because Oct 31 = Dec 25. 
+ 
+
+49
+00:07:21,766 --> 00:07:27,232
+[sigh] OK, so in this video we learned about octal or 
+
+50
+00:07:27,233 --> 00:07:36,766
+base 8 representation, hexadecimal or base 16 representation, and how to convert back and forth between base 2, 8, 10, and 16. Next up 
+
+51
+00:07:36,766 --> 00:07:43,732
+we're going to address a missing piece, which is an algorithm to quickly convert from decimal to any of these other bases. See you there. 
+

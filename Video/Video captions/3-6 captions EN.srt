@@ -1,0 +1,254 @@
+﻿1
+00:00:00,000 --> 00:00:07,866
+In both math and computer science, whenever we learn about a structure, it's useful to then learn how to build new structures out of it. 
+
+2
+00:00:07,866 --> 00:00:15,932
+We're going to do that now by looking at five operations we can perform on sets that will create new, related sets that can be used for 
+
+3
+00:00:15,933 --> 00:00:18,133
+various purposes. 
+ 
+
+4
+00:00:18,133 --> 00:00:26,933
+As a running example throughout this video, suppose you're in a discrete math class. Let's let U be the set of all students in the class. Also 
+
+5
+00:00:26,933 --> 00:00:36,199
+let C be the set of all computer science majors in your class, and F is the set of all first-year students in the class. So C and F are both 
+
+6
+00:00:36,200 --> 00:00:41,966
+subsets of U but we don't necessarily know how C and F relate to each other. 
+ 
+
+7
+00:00:41,966 --> 00:00:49,366
+The instructor of the class wants to let all the first-year computer science majors know about the Computer Science club. So she needs to 
+
+8
+00:00:49,366 --> 00:00:58,932
+generate a list of all students in the class who are both computer science students and first year students --- all students who are both in 
+
+9
+00:00:58,933 --> 00:01:09,599
+the set C and in the set F. This is called the *intersection* of those two sets. In general, the intersection of any two sets A and B is a new 
+
+10
+00:01:09,600 --> 00:01:18,833
+set whose elements are those that are elements of A and elements of B. We use an upside-down U symbol like this to represent the 
+
+11
+00:01:18,833 --> 00:01:28,466
+intersection of A and B --- it should remind you of the upside down V we use for "and" when studying logic. We'd express the intersection of 
+
+12
+00:01:28,466 --> 00:01:37,799
+A and B like this in set-builder notation. In our class, C intersect F would contain these three students since they are in both sets at the 
+
+13
+00:01:37,800 --> 00:01:40,600
+same time. 
+ 
+
+14
+00:01:40,600 --> 00:01:48,666
+Later on, the instructor gets a message from the university asking her to remind students about signing up for classes. She decides she 
+
+15
+00:01:48,666 --> 00:01:57,199
+needs to especially contact any student that is either a first-year student or a computer science major, since first-year students may 
+
+16
+00:01:57,200 --> 00:02:04,566
+need to be reminded about signing up for classes and computer science majors have a complicated set of courses to finish. So this 
+
+17
+00:02:04,566 --> 00:02:12,532
+time, she needs students who are either first year or computer science majors, or both. This is called the *union* of those two sets. In 
+
+18
+00:02:12,533 --> 00:02:25,399
+general the union of any two sets A and B is a new set whose elements are those that are either elements of A or elements of B or both. 
+
+19
+00:02:25,400 --> 00:02:34,666
+We use a U shaped symbol to denote the union, and here's what it would look like in set-builder notation. For our class, C union F would 
+
+20
+00:02:34,666 --> 00:02:42,099
+contain these eight students since they are in either C or F, or in some cases both. 
+ 
+
+21
+00:02:42,100 --> 00:02:48,200
+Not all the students in the discrete math class are computer science majors, and the instructor would like to send the first-year 
+
+22
+00:02:48,200 --> 00:02:56,100
+students who are not majoring in computer science some information about the computer science major to see if they are interested. Now 
+
+23
+00:02:56,100 --> 00:03:04,100
+the instructor needs the students who are first-year students but who are not computer science majors. The set of results is called the 
+
+24
+00:03:04,100 --> 00:03:13,866
+*difference* of the two sets. In general, if A and B are sets, then the difference of A and B is written either with a minus sign A-B, or with a 
+
+25
+00:03:13,866 --> 00:03:22,266
+backward slash A \ B and it's pronounced "A minus B" either way. This is the set whose elements are those that *are* elements of A 
+
+26
+00:03:22,266 --> 00:03:31,599
+*and not* elements of B. In our class, we're looking for students who are first-year students but not computer science majors, so that's F 
+
+27
+00:03:31,600 --> 00:03:42,633
+minus C which in this case has three students in it. Notice that unlike with intersection and union, the ordering matters here. C \ F is 
+
+28
+00:03:42,633 --> 00:03:51,233
+different -- this would be the set of students who are computer science majors and not first year students. 
+ 
+
+29
+00:03:51,233 --> 00:03:57,133
+The instructor of the discrete math class decides it would be good to send that information about being a computer science 
+
+30
+00:03:57,133 --> 00:04:04,433
+major to *all* students who are not currently majoring in computer science, not just the first year students. So she needs a list of all 
+
+31
+00:04:04,433 --> 00:04:11,566
+students who are *not* majoring in computer science regardless of what year they are in. This is called the *complement* of a set. In 
+
+32
+00:04:11,566 --> 00:04:22,499
+general, if A is a set, then its complement is a new set whose elements are those that are *not* in A. We use a bar over the name of the 
+
+33
+00:04:22,500 --> 00:04:29,533
+set to denote its complement. In our class, the instructor needs the complement of C, the set of all students not majoring in computer 
+
+34
+00:04:29,533 --> 00:04:37,566
+science. That's this set of seven students. Notice that in order to find the complement, we needed to know what the entire set of students 
+
+35
+00:04:37,566 --> 00:04:46,699
+in the class was. We called that set U, and the set of all elements we are considering in any given situation is sometimes called the 
+
+36
+00:04:46,700 --> 00:04:56,466
+*universe*. So notice that the complement of A is just the difference U minus A; and the difference A minus B is the intersection of A and 
+
+37
+00:04:56,466 --> 00:05:05,066
+the complement of B -- the set of all elements that are in A and not in B. 
+ 
+
+38
+00:05:05,066 --> 00:05:11,966
+Back to our discrete math class, it turns out that the computer science department has its own message to send out about class registration to 
+
+39
+00:05:11,966 --> 00:05:19,799
+all first-year computer science majors. So the instructor of the class didn't need to send the information to those students. She needed to 
+
+40
+00:05:19,800 --> 00:05:27,900
+send it to students who are either computer science majors, or first-year students, *but not both*. The set of student in that situation is 
+
+41
+00:05:27,900 --> 00:05:36,700
+called the *symmetric difference* of two sets. In general, if A and B are two sets then the symmetric difference of the two, which we 
+
+42
+00:05:36,700 --> 00:05:47,800
+notate with a triangle symbol, is the union of A and B minus the intersection of A and B --- the set whose elements are either in A or B, but not 
+
+43
+00:05:47,800 --> 00:05:56,200
+in both. In our class, the instructor would need the symmetric difference of C and F, which would be this set. 
+ 
+
+44
+00:05:56,200 --> 00:06:09,366
+Now you try it. Let A be the set {1,2,3,4,5}, B the set {3,4,5,6,7}, and C the set {1,2,8}. Assume that the universe in this case is the 
+
+45
+00:06:09,366 --> 00:06:22,032
+set {1,2,..., 10}. Pause the video and write out the following sets in roster notation: A intersect B, B intersect C, A union C, A minus B, A 
+
+46
+00:06:22,033 --> 00:06:30,566
+symmetric difference B, and finally A intersect the complement of B union C. 
+ 
+
+47
+00:06:30,566 --> 00:06:46,632
+So A intersect B is the set of elements in both A and B, and that's the set {3,4,5}. 
+B intersect C is the set of elements in both B 
+
+48
+00:06:46,633 --> 00:06:55,566
+and C but there are no elements in both, so that set is empty. Whenever two sets have an empty intersection, we say those sets are 
+
+49
+00:06:55,566 --> 00:07:09,832
+disjoint. 
+A union C is the set of elements in either A or C or both, so that's {1,2,3,4,5,8}. A set union is a 
+
+50
+00:07:09,833 --> 00:07:18,566
+little like merging the two sets and removing duplicates. 
+A minus B is the set of elements that are in A 
+
+51
+00:07:18,566 --> 00:07:34,266
+but not in B. Well, A consists of 1, 2, 3, 4, 5 and 3,4,5 are in B, so we throw our 3, 4, 5 and are left with {1,2}. A minus B is like a filtering 
+
+52
+00:07:34,266 --> 00:07:43,032
+process where we start with A and filter out the things that are in B. 
+ 
+
+53
+00:07:43,033 --> 00:07:57,099
+A symmetric difference B is A union B, which is {1,2,3,4,5,6,7}, minus A intersect B which is 3,4,5. 
+
+54
+00:07:57,100 --> 00:08:03,166
+Filtering out those three elements leaves us with {1,2,6,7}. 
+ 
+
+55
+00:08:03,166 --> 00:08:16,666
+Now for the last one, we build the set piece by piece using order of operations. B union C is the set {1,2,3,4,5,6,7,8}. The complement of 
+
+56
+00:08:16,666 --> 00:08:28,299
+this is everything in the universe set that isn't in B union C, so that's {9,10}. Then A intersect with this set is empty, since those two sets 
+
+57
+00:08:28,300 --> 00:08:31,733
+have no elements in common. 
+ 
+
+58
+00:08:31,733 --> 00:08:41,299
+In this video we introduced five set operations: intersection, union, difference, complement, and symmetric difference and saw how these 
+
+59
+00:08:41,300 --> 00:08:49,033
+can be used to combine sets in different ways for different purposes. In the next video we'll discuss a sixth operation called the cartesian 
+
+60
+00:08:49,033 --> 00:08:53,166
+product of two sets that produces a very different kind of result. 
+

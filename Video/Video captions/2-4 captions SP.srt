@@ -1,0 +1,143 @@
+1
+00:00:00,000 --> 00:00:09,400
+En el video anterior presentamos declaraciones condicionales, a menudo en la forma "Si A, entonces B", donde A y B son proposiciones. Esto hace un
+
+2
+00:00:09,400 --> 00:00:17,400
+nueva proposición, que es verdadera en todos los casos excepto cuando se cumple la condición o hipótesis, pero no se sigue la conclusión.
+
+3
+00:00:17,400 --> 00:00:24,766
+Las declaraciones condicionales son tan comunes que vale la pena ver algunas variaciones de esta idea, que haremos ahora.
+
+4
+00:00:24,766 --> 00:00:29,532
+Hay tres declaraciones que comúnmente se forman a partir de una declaración condicional.
+
+5
+00:00:29,533 --> 00:00:34,366
+Comencemos con una declaración condicional básica, "Si P, entonces Q".
+
+6
+00:00:34,366 --> 00:00:43,732
+Primero, tenemos el _converso_ de esta declaración que es "Si Q, entonces P". El inverso de un enunciado condicional en otras palabras es el
+
+7
+00:00:43,733 --> 00:00:51,499
+declaración que obtiene cuando cambia la hipótesis y la conclusión. Por ejemplo, si la declaración original es "Si está lloviendo, entonces
+
+8
+00:00:51,500 --> 00:00:56,066
+nublado ", entonces lo contrario es" Si está nublado, entonces está lloviendo ".
+
+9
+00:00:56,066 --> 00:01:05,766
+Luego tenemos el _contrapositivo_ del enunciado que dice "Si no es Q, entonces no P." El contrapositivo es como el inverso excepto
+
+10
+00:01:05,766 --> 00:01:14,232
+no solo cambiamos la hipótesis y la conclusión, sino que también negamos cada una de ellas. Si la declaración original es "Si está lloviendo, entonces
+
+11
+00:01:14,233 --> 00:01:21,199
+nublado "entonces el contrapositivo es" Si no está nublado, entonces no está lloviendo ".
+
+12
+00:01:21,200 --> 00:01:30,066
+Finalmente, tenemos una variación menos conocida llamada _inversa_ del enunciado que dice "Si no es P, entonces no Q". La inversa es como la
+
+13
+00:01:30,066 --> 00:01:38,599
+contrapositivo excepto que no cambiamos la hipótesis y la conclusión, solo negamos cada una. Si la declaración original es "Si está lloviendo,
+
+14
+00:01:38,600 --> 00:01:44,500
+entonces está nublado ", entonces la inversa es" Si no está lloviendo, entonces no está nublado ".
+
+15
+00:01:44,500 --> 00:01:52,066
+Practica esto por un minuto usando el ejemplo del último video: "Si limpias tu habitación, compraremos helado". Pausa el video y
+
+16
+00:01:52,066 --> 00:01:59,032
+Escriba lo inverso, contrapositivo e inverso de esta afirmación.
+
+17
+00:01:59,033 --> 00:02:01,499
+¡Y aquí están los resultados!
+
+18
+00:02:01,500 --> 00:02:09,433
+Entonces, ¿por qué molestarse con estos? Principalmente se debe a que la estructura precisa de estas declaraciones condicionales es importante y el valor de verdad
+
+19
+00:02:09,433 --> 00:02:17,399
+puede cambiar si cambiamos la estructura. Mire el ejemplo de "Si está lloviendo, entonces está nublado". Esto parece una verdadera declaración condicional.
+
+20
+00:02:17,400 --> 00:02:21,900
+basado en nuestras experiencias. ¿Qué pasa con los valores de verdad de los demás?
+
+21
+00:02:21,900 --> 00:02:29,800
+Lo contrario dice "Si está nublado, entonces está lloviendo". Definitivamente NO siempre es así, porque puede estar nublado sin que llueva. Preguntar
+
+22
+00:02:29,800 --> 00:02:37,666
+cualquiera que viva en Inglaterra. Entonces, el inverso de un enunciado no es lo mismo que el enunciado original; pueden tener opuestos
+
+23
+00:02:37,666 --> 00:02:46,899
+valores de verdad. Por tanto, hay que tener cuidado de situar correctamente la hipótesis y la conclusión y no pretender que son intercambiables.
+
+24
+00:02:46,900 --> 00:02:54,633
+El contrapositivo dice "Si no está nublado, entonces no está lloviendo". Ahora bien, esto también parece cierto. ¿Significa esto que una declaración y su
+
+25
+00:02:54,633 --> 00:02:58,866
+contrapositivo decir lo mismo de diferentes maneras?
+
+26
+00:02:58,866 --> 00:03:05,132
+No podemos decirlo basándonos en un ejemplo, pero pronto veremos esa pregunta en otro video.
+
+27
+00:03:05,133 --> 00:03:13,333
+La inversa dice "Si no está lloviendo, no está nublado". Esto parece falso, de hecho suena casi a la inversa. Así que en primer lugar el
+
+28
+00:03:13,333 --> 00:03:22,999
+el inverso, como el inverso, no tiene el mismo valor de verdad que el original, así que, de nuevo, tenga cuidado con la estructura. Pero también, en realidad si tu
+
+29
+00:03:23,000 --> 00:03:32,266
+míralo, lo inverso es lo que obtienes cuando formas el contrapositivo del inverso. Así que, de una forma de pensar en ello, no es necesario
+
+30
+00:03:32,266 --> 00:03:39,266
+hablar de lo inverso, solo conversar y contrapositivo. Y hace que sea aún más importante que pensemos detenidamente en esto
+
+31
+00:03:39,266 --> 00:03:42,732
+idea contrapositiva y si tomar una declaración y
+
+32
+00:03:42,733 --> 00:03:51,433
+formar su contrapositivo es simplemente reformular el enunciado condicional original de una manera superficialmente diferente.
+
+33
+00:03:51,433 --> 00:03:57,233
+En este video, aprendiste sobre tres construcciones lógicas relacionadas con un enunciado condicional: el inverso, el contrapositivo,
+
+34
+00:03:57,233 --> 00:04:03,999
+y la inversa. Y aprendiste que el inverso y el inverso a veces pueden tener valores de verdad diferentes al original, mientras que el
+
+35
+00:04:04,000 --> 00:04:11,866
+contrapositivo parece que podría ser solo una reformulación del original. Necesitamos algo más sólido sobre ese último punto, así que en el próximo
+
+36
+00:04:11,866 --> 00:04:21,566
+En el vídeo volveremos a la idea de una tabla de verdad para ayudarnos a saber cuándo dos afirmaciones pueden ser lógicamente equivalentes.

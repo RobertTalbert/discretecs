@@ -1,0 +1,191 @@
+1
+00:00:00,000 --> 00:00:06,833
+Ahora que hemos aprendido sobre conjuntos y hemos analizado bien la pertenencia a conjuntos, podemos presentar dos formas de comparar conjuntos en términos de
+
+2
+00:00:06,833 --> 00:00:09,233
+elementos que tienen en común.
+
+3
+00:00:09,233 --> 00:00:17,299
+Supongamos que tenemos un conjunto que consta de los nombres de todos los estudiantes inscritos en una clase de matemáticas discreta. El profesor de esa clase podría
+
+4
+00:00:17,300 --> 00:00:24,733
+Necesito enviar un mensaje, no a toda la clase, sino solo a los estudiantes de primer año para recordarles que vayan a ver a sus asesores. los
+
+5
+00:00:24,733 --> 00:00:33,233
+El grupo de interés es una parte, pero no todos los nombres de la clase. Todas las personas de ese grupo están en la clase; pero solo queremos enviar el
+
+6
+00:00:33,233 --> 00:00:42,799
+mensaje para ellos, no para todos. En ese caso, lo que estamos usando se llama ** subconjunto ** del conjunto de todos los nombres de los estudiantes de la clase. Esta
+
+7
+00:00:42,800 --> 00:00:50,266
+el grupo de estudiantes de primer año no es el único subconjunto de la clase; podríamos enviar mensajes a todos los estudiantes de último año que se gradúan; o todos los estudiantes cuyos
+
+8
+00:00:50,266 --> 00:00:56,499
+los nombres comienzan con una "G"; o todos los estudiantes que estaban sentados juntos en una mesa el lunes.
+
+9
+00:00:56,500 --> 00:01:08,933
+En términos generales, si A y B son conjuntos, entonces A es un ** subconjunto de B ** si cada elemento de A es también un elemento de B. Usamos esta notación, que
+
+10
+00:01:08,933 --> 00:01:23,199
+se parece un poco a "menor o igual que" excepto que está redondeado, para indicar que A es un subconjunto de B. Entonces, por ejemplo, {1,2,3} es un subconjunto de {1,2,3,4}. Y
+
+11
+00:01:23,200 --> 00:01:34,866
+también lo es {2,4}. E incluso el conjunto {1,2,3,4} en sí mismo es un subconjunto de {1,2,3,4} porque cada elemento del conjunto de la izquierda es un elemento del conjunto de
+
+12
+00:01:34,866 --> 00:01:41,199
+la derecha. Esto significa que * cada conjunto es un subconjunto de sí mismo *.
+
+13
+00:01:41,200 --> 00:01:48,366
+Otro ejemplo serían los números naturales, que son un subconjunto de los enteros porque cada número natural es un entero;
+
+14
+00:01:48,366 --> 00:01:57,066
+y los enteros son un subconjunto de los números reales porque cada entero se puede ubicar en la recta numérica. Esa cadena de subconjunto
+
+15
+00:01:57,066 --> 00:02:05,032
+relaciones significa que los números naturales también son un subconjunto de los números reales. Los números reales también pueden tener subconjuntos finitos, por
+
+16
+00:02:05,033 --> 00:02:10,799
+ejemplo, el conjunto {pi, raíz cuadrada de 2} es un subconjunto de 2 elementos de los números reales.
+
+17
+00:02:10,800 --> 00:02:21,066
+Por otro lado, el conjunto {1,5} NO es un subconjunto de {1,2,3,4} porque * no todos * los elementos en {1,5} son elementos de {1, 2, 3, 4 }.
+
+18
+00:02:21,066 --> 00:02:28,399
+Podemos ver que 5, aunque es un elemento de {1,5}, no es un elemento de {1,2,3,4}.
+
+19
+00:02:28,400 --> 00:02:39,100
+Ahora inténtalo. Aquí hay un conjunto {M, A, T, H, E, I, C, S} (las diferentes letras utilizadas en la palabra "matemáticas"). ¿Cuáles de los siguientes conjuntos son
+
+20
+00:02:39,100 --> 00:02:45,800
+subsets of this? Take a moment and identify them then come back.
+
+21
+00:02:45,800 --> 00:02:54,133
+Here are your correct answers. The first two sets {A}, and {A,M} are subsets because every element in each one is also an element in the
+
+22
+00:02:54,133 --> 00:03:04,633
+set we started with. {A,G} is not, because the letter G is not found in the original set. And the last one is the same as the original set, and
+
+23
+00:03:04,633 --> 00:03:09,533
+we've alread explained that every set is a subset of itself.
+
+24
+00:03:09,533 --> 00:03:17,399
+You might have noticed that we can think about subsets using quantifiers, which we learned in Module 2. The definition of subset says that A
+
+25
+00:03:17,400 --> 00:03:30,333
+is a subset of B if every element of A is also an element of B. IN quantifier language that would say that for all x in A, x is in B. This helps us
+
+26
+00:03:30,333 --> 00:03:40,433
+think about what it means for a set NOT to be a subset of somethign else. The negation of for all x in A, x in B is the statement there exists an
+
+27
+00:03:40,433 --> 00:03:53,499
+x in A such that x is not in B. That's why {A,G} was not a subset of {M,A,T,H,E,I,C,S} --- because there exists an element in {A,G}
+
+28
+00:03:53,500 --> 00:04:00,000
+(namely G) that is not in {M,A,T,H,E,I,C,S}.
+
+29
+00:04:00,000 --> 00:04:09,633
+Here's another question for you: Is the empty set a subset of {M,A,T,H,E,I,C,S}? Pause the video and think about this, and come back
+
+30
+00:04:09,633 --> 00:04:14,066
+when you've decided yes or no.
+
+31
+00:04:14,066 --> 00:04:23,199
+This one takes some careful reasoning. We can think of subsets in terms of conditional statements. The statement "for all x in A, x is in
+
+32
+00:04:23,200 --> 00:04:35,066
+B" can be rephrased as the conditional statement "if x is in A then x is in B." So look at the proposition "the empty set is a subset of
+
+33
+00:04:35,066 --> 00:04:45,766
+{M,A,T,H,E,I,C,S}". As a conditional statement this would say "if x is in the empty set, then x is in {M,A,T,H,E,I,C,S}". Well, the empty set is
+
+34
+00:04:45,766 --> 00:04:55,866
+empty, so the hypothesis of that statement "x is in the empty set" is always false. And when the hypothesis of a conditional statement is false,
+
+35
+00:04:55,866 --> 00:05:07,899
+the conditional statement itself is true. So believe it or not, "if x is in the empty set, then x is in {M,A,T,H,E,I,C,S}" is true, and therefore
+
+36
+00:05:07,900 --> 00:05:17,366
+the empty set is a subset of this set. In fact by this reasoning, the empty is a subset of **every** set.
+
+37
+00:05:17,366 --> 00:05:24,932
+In addition to subset relations, we can talk about whether two sets are "equal". Two sets are equal if they contain exactly the same
+
+38
+00:05:24,933 --> 00:05:33,166
+elements, like {1,2,3} and {3,2,1}. These are equal sets because they have the same elements --- the ordering doesn't make them
+
+39
+00:05:33,166 --> 00:05:42,232
+different. But it can be hard to tell sometimes if two sets have the same elements. For example, is the set {1,-1} equal to the set
+
+40
+00:05:42,233 --> 00:05:53,799
+{x in R : x**2 = 1}? One is a finite set and the other is in set-builder notation --- it's hard to tell if the two sets have the same elements just by
+
+41
+00:05:53,800 --> 00:06:09,033
+looking. So we will say that the set A and the set B are equal if A is a subset of B *and* B is a subset of A.
+
+42
+00:06:09,033 --> 00:06:27,066
+For example, A = {1,-1} is equal to the set B = {x in R : x**2 = 1}. Here's an explanation. First, A is a subset of B because if x is in A, then x is
+
+43
+00:06:27,066 --> 00:06:41,032
+either 1 or -1. And in each case, x^2 = 1, therefore x passes the filter given by the predicate in the second set, and x is in B. That
+
+44
+00:06:41,033 --> 00:06:56,299
+makes A a subset of B. Likewise if y is in B, then y^2 is 1, and a little algebra shows that y^2 - 1 = 0, so (y+1)(y-1) = 0, which means
+
+45
+00:06:56,300 --> 00:07:09,366
+either y = 1 or y = -1. Therefore the y that was in B, is also in A. That makes B a subset of A. Since they are subsets of each other, they're
+
+46
+00:07:09,366 --> 00:07:12,332
+equal.
+
+47
+00:07:12,333 --> 00:07:19,199
+In this video you learned what it means for a set to be a subset of another set, and what it means for two sets to be equal. Those are
+
+48
+00:07:19,200 --> 00:07:23,100
+basic tools for comparing sets. See you in the next video.

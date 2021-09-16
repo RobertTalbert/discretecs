@@ -1,0 +1,227 @@
+1
+00:00:00,000 --> 00:00:07,033
+En todos los videos anteriores de este módulo, hemos estado analizando proposiciones: declaraciones completas que tienen un conocimiento definido y
+
+2
+00:00:07,033 --> 00:00:13,533
+valor de verdad. Hemos visto muchos ejemplos de propuestas y hemos aprendido a trabajar con ellas. En este video vamos a volver a presentar
+
+3
+00:00:13,533 --> 00:00:18,366
+un ejemplo anterior de algo que no era una proposición.
+
+4
+00:00:18,366 --> 00:00:27,799
+Aquí está ese ejemplo: x + 5 = 12. Este es un tipo de declaración, es decir, es una afirmación de que la expresión en el lado izquierdo del signo igual es
+
+5
+00:00:27,800 --> 00:00:39,600
+en realidad igual a la expresión de la derecha. Entonces es un pensamiento completo; pero no tiene un valor de verdad definido como es debido a eso
+
+6
+00:00:39,600 --> 00:00:49,833
+variable "x". Si esta afirmación x + 5 = 12 es verdadera o no depende del valor de esa variable. Si x = 10 por ejemplo, entonces el
+
+7
+00:00:49,833 --> 00:00:57,433
+la declaración x + 5 = 12 es falsa. Pero si x = 7, la afirmación es verdadera.
+
+8
+00:00:57,433 --> 00:01:06,666
+Vamos a llamar predicado a un enunciado completo cuyo valor de verdad depende del valor de una o más variables particulares.
+
+9
+00:01:06,666 --> 00:01:14,532
+Los predicados son diferentes de las proposiciones. Si bien tanto los predicados como las proposiciones tienen valores de verdad, el valor de verdad de una proposición
+
+10
+00:01:14,533 --> 00:01:24,399
+se puede conocer solo a partir de la proposición misma sin ningún input externo, mientras que el valor de verdad de un predicado depende de input externo.
+
+11
+00:01:24,400 --> 00:01:30,133
+Las proposiciones tienen un solo valor de verdad, mientras que en general el valor de verdad de un predicado será
+
+12
+00:01:30,133 --> 00:01:34,499
+Verdadero para algunas entradas y falso para otras, depende.
+
+13
+00:01:34,500 --> 00:01:46,266
+Para la notación, aunque a menudo usamos letras como P, Q o R para representar una proposición, colocamos una variable entre paréntesis a la letra para un
+
+14
+00:01:46,266 --> 00:01:57,699
+predicado. Por ejemplo, podría escribir esto para que signifique "el predicado P con variable x, es el enunciado de que x + 5 = 12". Pronunciamos eso
+
+15
+00:01:57,700 --> 00:02:09,000
+primera parte "P de x". Las entradas permitidas para una variable en un predicado se denominan dominio del predicado. Por ejemplo, para P (x) aquí, el
+
+16
+00:02:09,000 --> 00:02:19,800
+El dominio puede ser todos los números reales. Pero aquí hay otro predicado: Q (x) es el enunciado x% 3 = 0, y para este predicado no todos los números reales
+
+17
+00:02:19,800 --> 00:02:29,466
+podría tener sentido; en cambio, el dominio es el conjunto de números enteros porque eso es lo único a lo que podemos aplicar el operador de módulo.
+
+18
+00:02:29,466 --> 00:02:38,266
+Algunos predicados pueden tener dominios incluso más pequeños, por ejemplo, este predicado B (x) = "El profesor X tiene barba". Aparentemente, "x" representa
+
+19
+00:02:38,266 --> 00:02:44,966
+no es un número, sino un miembro de la facultad ahora, y dado que hay muchos miembros de la facultad, podríamos indicar explícitamente el dominio
+
+20
+00:02:44,966 --> 00:02:51,599
+por ejemplo, diciendo que el dominio es el conjunto de todos los profesores de matemáticas de su universidad.
+
+21
+00:02:51,600 --> 00:03:01,500
+Más formalmente, diríamos que un predicado es una función, cuyo dominio es un conjunto dado y cuyo codominio es el conjunto {VERDADERO, FALSO}.
+
+22
+00:03:01,500 --> 00:03:08,600
+Esto está usando un lenguaje que aún no hemos definido, pero lo haremos en el próximo módulo. Simplemente significa que un predicado es como un
+
+23
+00:03:08,600 --> 00:03:17,600
+máquina que acepta entradas de una colección determinada, realiza algún tipo de proceso y produce salidas VERDADERAS o FALSAS.
+
+24
+00:03:17,600 --> 00:03:24,700
+Los predicados son extremadamente importantes y útiles en la informática, sobre todo porque ellos mismos son como pequeños programas informáticos.
+
+25
+00:03:24,700 --> 00:03:32,166
+con una entrada de cierto tipo, y cuya salida sea VERDADERO o FALSO. Aquí, por ejemplo, hay una versión de Python de nuestro primer
+
+26
+00:03:32,166 --> 00:03:39,466
+predicado. Ingresa un número real para x, luego pasa por un proceso para devolver VERDADERO o FALSO.
+
+27
+00:03:39,466 --> 00:03:42,499
+Veamos algunos ejemplos más de predicados.
+
+28
+00:03:42,500 --> 00:03:47,333
+S (x) = la longitud de x es 7
+
+29
+00:03:47,333 --> 00:03:56,466
+donde x es una cadena y el dominio es el conjunto de todas las cadenas posibles. Nuevamente, es útil pensar en esto como un pequeño programa de computadora, como este,
+
+30
+00:03:56,466 --> 00:04:05,432
+donde conecta una cadena y sale VERDADERO o FALSO. El predicado en sí no tiene un valor de verdad hasta que algo se conecta
+
+31
+00:04:05,433 --> 00:04:11,566
+pulg. Por ejemplo, S ("Matemáticas") es FALSO porque la longitud de esa cadena es 11.
+
+32
+00:04:11,566 --> 00:04:17,732
+Pero S ("Álgebra") es VERDADERO porque la longitud de Álgebra es 7.
+
+33
+00:04:17,733 --> 00:04:35,866
+Otro ejemplo: P (x) = x ** 2> = 0 donde x es el conjunto de todos los números enteros. P (x) será VERDADERO siempre que x ** 2> = 0 y FALSO en caso contrario. Entonces P (2) es cierto,
+
+34
+00:04:35,866 --> 00:04:45,732
+por ejemplo, porque 2 ** 2 es 4 y eso es más grande que 0. P (10) también es cierto porque 10 ** 2 es 100 y eso es más grande que 0 ... de hecho, P (x) es siempre
+
+35
+00:04:45,733 --> 00:04:52,866
+Verdadero para cualquier entrada porque elevar al cuadrado un entero siempre devuelve un resultado que no es negativo.
+
+36
+00:04:52,866 --> 00:05:03,899
+Y otro ejemplo: P (s) = "la longitud de s es negativa" donde el dominio son todas las cadenas posibles. Bueno, este predicado nunca es cierto,
+
+37
+00:05:03,900 --> 00:05:08,400
+porque no existe una cuerda con una longitud negativa.
+
+38
+00:05:08,400 --> 00:05:15,933
+En términos generales, podemos tener predicados que a veces son verdaderos, pero no siempre, predicados que siempre son verdaderos y predicados
+
+39
+00:05:15,933 --> 00:05:23,666
+que nunca son verdad. Cuando hablamos de la frecuencia con la que un predicado es verdadero, esto se conoce como cuantificación del predicado.
+
+40
+00:05:23,666 --> 00:05:27,799
+Nuestro próximo video será todo sobre esa idea.
+
+41
+00:05:27,800 --> 00:05:40,633
+Incluso podemos tener predicados con más de una variable, así: P (x, y) = "xy> 0". Esto requiere el conocimiento de dos variables para poder
+
+42
+00:05:40,633 --> 00:05:49,666
+para determinar la verdad. P (2,3), por ejemplo, es VERDADERO porque 2 * 3 es 6, que es mayor que 0.
+
+43
+00:05:49,666 --> 00:05:58,499
+Pero P (-4, 5) es FALSO porque -4 * 5 es -20 que no es mayor que 0.
+
+44
+00:05:58,500 --> 00:06:08,533
+Ahora pruébalo, desde un ángulo un poco diferente. Aquí hay un predicado: P (n) = (3n + 1)% 4 = 0. Pausa el video ahora y encuentra tantos
+
+45
+00:06:08,533 --> 00:06:16,733
+valores de n como sea posible que hacen que este predicado sea verdadero. Vuelve cuando estés listo.
+
+46
+00:06:16,733 --> 00:06:25,233
+De hecho, escribí una función de Python aquí para ayudarme a encontrarlos. El predicado está aquí en este primer bloque --- simplemente implementa el proceso de
+
+47
+00:06:25,233 --> 00:06:35,733
+devolviendo TRUE si 3n + 1 mod 4 es 0 y FALSE en caso contrario. Abajo, voy a ejecutar un ciclo rápido para pasar por los números enteros del 1 al 30 para
+
+48
+00:06:35,733 --> 00:06:49,633
+vea qué valores hacen que la declaración sea verdadera, y tal vez vea un patrón. Parece 1, 5, 9, 13, 17, 21 ... Creo que veo un patrón aquí que
+
+49
+00:06:49,633 --> 00:06:59,833
+siempre que n sea en sí mismo congruente con 1 mod 4, este predicado será verdadero. Lo probaré con algunos números enteros fuera del rango que te mostré --- por
+
+50
+00:06:59,833 --> 00:07:12,166
+ejemplo un entero negativo, como -3. Eso es congruente con 1 mod 4 y, efectivamente, mi predicado es verdadero. O 400001 es 1 mod 4, y
+
+51
+00:07:12,166 --> 00:07:25,632
+eso también da verdad. Entonces, si bien no puedo enumerar literalmente todos estos valores, puedo ponerlos juntos en un lugar e indicar el patrón de esa manera.
+
+52
+00:07:25,633 --> 00:07:33,633
+Esta colección, que consta de todos los valores de las variables que hacen que el predicado sea verdadero, se denomina conjunto de verdad del predicado. Por ejemplo
+
+53
+00:07:33,633 --> 00:07:50,399
+para P (x) = x + 5 = 12, el conjunto de verdad es solo el número 7. Para P (x) = x ** 2> = 0, el conjunto de verdad es el dominio completo, el conjunto de números enteros.
+
+54
+00:07:50,400 --> 00:07:59,866
+Para S (x) = la longitud de x es 7, el conjunto de verdad es la colección de todas las cadenas que tienen una longitud de 7.
+
+55
+00:07:59,866 --> 00:08:06,266
+Ha aprendido mucho en este video: Las diferencias entre un predicado y una proposición, el dominio de un predicado y el
+
+56
+00:08:06,266 --> 00:08:13,532
+conjunto de verdad de un predicado. En el siguiente video, volveremos a la idea de cuantificar un predicado que mencionamos anteriormente, eso es
+
+57
+00:08:13,533 --> 00:08:22,066
+tomar un predicado y convertirlo en una proposición haciendo una afirmación sobre la frecuencia con la que el predicado es verdadero

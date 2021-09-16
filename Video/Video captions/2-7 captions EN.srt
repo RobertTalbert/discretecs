@@ -1,0 +1,225 @@
+﻿1
+00:00:00,000 --> 00:00:08,500
+We've been looking at truth tables as a way to tell when a complex, molecular statement is true based on the truth values of the inputs. In 
+
+2
+00:00:08,500 --> 00:00:16,366
+the last video we saw how to make a truth table for a proposition that has intermediate steps. In this video, we'll wrap up our initial discussion of 
+
+3
+00:00:16,366 --> 00:00:24,632
+truth tables to look at two-variable statements that have multiple intermediate steps, and statements that have three variables. 
+ 
+
+4
+00:00:24,633 --> 00:00:34,399
+Let's begin by looking at the proposition "If (P or not Q), then ((not P) and Q)". This proposition has a bit more complexity than 
+
+5
+00:00:34,400 --> 00:00:41,133
+some of the others here and it's not obvious at all when this statement should be true. So let's make a truth table for it. 
+ 
+
+6
+00:00:41,133 --> 00:00:47,966
+We'll begin as we normally do, by setting up one column for each of the input variables. Then let's go ahead and make a row for every 
+
+7
+00:00:47,966 --> 00:00:53,766
+combination of the truth values of those inputs. Since there are two inputs, there will be four combinations 
+
+8
+00:00:53,766 --> 00:00:58,532
+and I'm going to put those here in the same order as we have been doing. 
+ 
+
+9
+00:00:58,533 --> 00:01:05,266
+Now, just like when we looked at the contrapositive in the last video, we need to build up the main proposition from the bottom 
+
+10
+00:01:05,266 --> 00:01:13,466
+up, like we would do an arithmetic computation with a lot of nested calculations. We'll make one column for each "level" of the statement. 
+
+11
+00:01:13,466 --> 00:01:23,666
+Looking from left to right in the main proposition, I can see that we'll need a column for "not Q". I'll also need a column for "not P" 
+
+12
+00:01:23,666 --> 00:01:30,699
+and I could make that column now, but instead I'm going to continue building up this first part, the hypothesis of the main proposition by 
+
+13
+00:01:30,700 --> 00:01:34,400
+creating a column for "P or not Q". 
+ 
+
+14
+00:01:34,400 --> 00:01:41,133
+Again the order in which we set up these columns strictly speaking doesn't matter, but it can make a difference in how well your brain 
+
+15
+00:01:41,133 --> 00:01:48,199
+can keep track of the process, and I find it easier to finish up each part of the main proposition in turn. 
+ 
+
+16
+00:01:48,200 --> 00:01:55,566
+So now that the hypothesis of the main proposition is present, let's work on the conclusion. We need a column for not P, and 
+
+17
+00:01:55,566 --> 00:02:03,566
+we need a column for "(not P) and Q". And then finally we need a column for the main proposition. 
+ 
+
+18
+00:02:03,566 --> 00:02:11,066
+Let's now fill in each of those columns one at a time. The column for not Q is easy since it's just the opposite of whatever truth value 
+
+19
+00:02:11,066 --> 00:02:17,199
+appears in Q. Similarly, not P is the opposite of P. 
+ 
+
+20
+00:02:17,200 --> 00:02:26,566
+Now, for "P or not Q", we have a disjunction. A disjunction is true whenever one or both of the statements involved is true, and false 
+
+21
+00:02:26,566 --> 00:02:36,366
+otherwise. The two statements involved are P, and "not Q" so look at those. Given the information in those two columns, which we 
+
+22
+00:02:36,366 --> 00:02:43,866
+already built, we should have TRUE in rows 1, 2, and 4 and FALSE in row 3. 
+ 
+
+23
+00:02:43,866 --> 00:02:51,966
+Now let's do the column for "(not P) and Q". This is a conjunction, which we know is true whenever both statements involved are true 
+
+24
+00:02:51,966 --> 00:03:02,566
+and false otherwise. The statements involved are "not P", and "Q" so look at those columns. They are both true in row 3, otherwise at least 
+
+25
+00:03:02,566 --> 00:03:08,499
+one of them is false. So we have TRUE in row 3 and FALSE elsewhere. 
+ 
+
+26
+00:03:08,500 --> 00:03:15,433
+Finally we're ready to fill in the column for the main proposition. This is a conditional statement, and remember, these are true in 
+
+27
+00:03:15,433 --> 00:03:25,899
+every situation except where the hypothesis is true and the conclusion is false. The hypothesis in this case is "P or not Q". The conclusion is 
+
+28
+00:03:25,900 --> 00:03:37,933
+"(not P) and Q". In row 1, the hypothesis is true and the conclusion is false, so put FALSE in the last column. The same is true for rows 2 
+
+29
+00:03:37,933 --> 00:03:46,399
+and 4. In row 3, the hypothesis is false  and in that case we have a TRUE conditional statement. 
+ 
+
+30
+00:03:46,400 --> 00:03:53,100
+So there's a complete and correct truth table for this proposition. It's not in principle any different than the others, it just required more 
+
+31
+00:03:53,100 --> 00:03:55,766
+care in building up the table. 
+ 
+
+32
+00:03:55,766 --> 00:04:04,266
+But now let's look at something different the statement "If (P and not Q), then R". What's different about this is that there are *three*  
+
+33
+00:04:04,266 --> 00:04:10,966
+atomic statements involved here, not just two. How does that change the truth table? Let's dive in and see. 
+ 
+
+34
+00:04:10,966 --> 00:04:17,032
+We are still going to need a column for each of the atomic variables here, so one thing that's different is that there are three of those this 
+
+35
+00:04:17,033 --> 00:04:26,499
+time. Now, what we need is one row for each of the combinations of truth values of these statements. How many rows should there be? 
+
+36
+00:04:26,500 --> 00:04:35,200
+Let's think about it. If we only looked at P and Q and ignored R for the time being, there would be four -- namely these four. 
+ 
+
+37
+00:04:35,200 --> 00:04:43,000
+Adding R into the mix here *doubles* the number of rows we need. There is one copy of these four rows needed for the case when R is 
+
+38
+00:04:43,000 --> 00:04:51,600
+true, and another four rows needed when R is false. That's a total of eight rows. That will be the case whenever we have three atomic 
+
+39
+00:04:51,600 --> 00:05:00,066
+variables, again because we need four rows for two variables and then two copies of those four rows, one for each truth value of the new 
+
+40
+00:05:00,066 --> 00:05:08,032
+variable. In fact there's a general principle here: Adding a new variable doubles the number of rows needed in the truth table. If we had a 
+
+41
+00:05:08,033 --> 00:05:16,166
+statement with four variables, we'd need 16 rows --- one copy of these eight rows for when the new variable is true, a second copy for 
+
+42
+00:05:16,166 --> 00:05:19,032
+when the new variable is false. 
+ 
+
+43
+00:05:19,033 --> 00:05:25,966
+Now that we have the eight rows needed, we can start putting the proposition together just like usual. Pause the video and try to set up the 
+
+44
+00:05:25,966 --> 00:05:32,766
+columns we'll need, and if you're feeling adventurous, go ahead and try to complete the table you get! 
+ 
+
+45
+00:05:32,766 --> 00:05:41,866
+It looks like we'll need a column for not Q, a column for (P and not Q), and then a column for the main proposition. Let's build it up one 
+
+46
+00:05:41,866 --> 00:05:52,499
+piece at a time. Not Q is just the opposite of Q. "P and (not Q)" is a conjunction, true whenever both statements involved are true so that we 
+
+47
+00:05:52,500 --> 00:06:02,166
+should have TRUE in rows 2 and 6 and FALSE elsewhere. In the final column, it's a conditional statement which we know is FALSE when the 
+
+48
+00:06:02,166 --> 00:06:12,366
+hypothesis is true but the conclusion is false, and this happens in line 6 only. Everywhere else either the hypothesis is false or both 
+
+49
+00:06:12,366 --> 00:06:16,432
+statements are true, so there's TRUE there. 
+ 
+
+50
+00:06:16,433 --> 00:06:23,299
+So again in principle making a truth table for statements with three or even more variables isn't any different than simple truth tables, other 
+
+51
+00:06:23,300 --> 00:06:30,566
+than the size. We still focus on building up the proposition in a modular way and using the table to keep track. 
+ 
+
+52
+00:06:30,566 --> 00:06:36,699
+In the next video, we'll look at something different, the concept of a predicate.
+

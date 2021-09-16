@@ -1,0 +1,290 @@
+﻿1
+00:00:00,133 --> 00:00:05,799
+This course is about the basic foundations of computer science, and there's nothing more foundational than numbers. 
+
+2
+00:00:05,800 --> 00:00:12,666
+In order to do anything mathematical in computer science, our first order of business is to understand how computers handle numbers. 
+
+3
+00:00:12,666 --> 00:00:15,099
+That's what this video is about. 
+ 
+
+4
+00:00:15,100 --> 00:00:23,800
+By "number", for now we're only going to mean non-negative integers. An "integer" is simply a whole number, something that isn't a fraction or 
+
+5
+00:00:23,800 --> 00:00:32,600
+decimal. So for the time being when we say "number" we mean 0, 1, 2, 3, and so on and we will leave negative numbers and fractions or 
+
+6
+00:00:32,600 --> 00:00:35,033
+decimals out of the picture for now. 
+ 
+
+7
+00:00:35,033 --> 00:00:43,966
+Let's think first about how we as human beings think about numbers. Look at the number 275. When you were a kid, you learned that this 
+
+8
+00:00:43,966 --> 00:00:49,832
+number has three digits -- the 2, the 7, and the 5 -- and those digits appear in different places. 
+
+9
+00:00:49,833 --> 00:00:59,499
+The 5 is in the ones place, the 7 is in the tens place, and the 2 is in the hundreds place. Let's think about those "places". Each "place" in a 
+
+10
+00:00:59,500 --> 00:01:07,466
+number is a power of 10: 1 is 10^0, 10 is 10^1, 100 is 10^2. 
+ 
+
+11
+00:01:07,466 --> 00:01:19,966
+The digits are there in those places to tell you how many copies of that power of 10 to use. So 275 uses 2 hundreds, 7 tens, and 5 ones. 
+
+12
+00:01:19,966 --> 00:01:23,632
+We could write this by pulling apart the different places and writing 
+ 
+
+13
+00:01:23,633 --> 00:01:36,299
+275 = 200 + 70 + 5 which is 2 * 10^2 + 7 * 10^1 + 5 * 10^0. So we 
+
+14
+00:01:36,300 --> 00:01:48,033
+can write 275 as a sum of copies of powers of 10, and the digits we use tell us how many copies of each power of 10 to include. 
+ 
+
+15
+00:01:48,033 --> 00:01:57,499
+To take another example, look at 17025. This has digits not only in the ones, tens, and hundreds places but also the thousands and 
+
+16
+00:01:57,500 --> 00:02:02,766
+ten-thousands places. This can be written also as a sum of copies of powers of 10: 
+ 
+
+17
+00:02:02,766 --> 00:02:13,132
+17025 = 1 * 10000 + 7 * 1000 + 0 * 100 + 2 * 10 + 5 * 1 
+ 
+
+18
+00:02:13,133 --> 00:02:22,433
+or, 1 * 10^4 + 7 * 10^3 + 0 * 10^2 + 2 * 10^1 + 5 * 10^0. 
+ 
+
+19
+00:02:22,433 --> 00:02:32,166
+What those very simple examples illustrate is the fact that **every nonnegative integer can be written as a sum of copies of powers of 10** 
+
+20
+00:02:32,166 --> 00:02:37,466
+and the number of copies ranges from 0 to 9 (which are the digits of the number). 
+ 
+ 
+ 
+
+21
+00:02:37,466 --> 00:02:43,899
+This format for writing numbers is called the base 10 or decimal representation of the number. 
+
+22
+00:02:43,900 --> 00:02:54,766
+The word decimal doesn't mean fractions like 3.14. It uses the prefix "deci" which means 10. So the decimal representation of a number is 
+
+23
+00:02:54,766 --> 00:03:01,532
+our usual way of writing things where the digits refer to copies of powers of 10, in different places. 
+ 
+
+24
+00:03:01,533 --> 00:03:07,833
+Why do we use powers of 10? It's simply because we're human beings and we have ten fingers, and long ago this is how we learned to 
+
+25
+00:03:07,833 --> 00:03:16,166
+count. If we'd evolved to have 8 fingers, or 16, then things would have turned out differently. 
+ 
+
+26
+00:03:16,166 --> 00:03:22,332
+Humans like you and I store and process numbers in decimal form. All the arithmetic you learned when you were a kid, for example, 
+
+27
+00:03:22,333 --> 00:03:30,733
+uses base 10 representation. Computers, on the other hand, are not human and do not have 10 fingers. Our use of base 10 representation 
+
+28
+00:03:30,733 --> 00:03:37,799
+makes no sense to a computer, despite the fact that computers seem to have no trouble working with numbers. But in fact, below the 
+
+29
+00:03:37,800 --> 00:03:46,433
+surface, in order to do any math on a computer --- and the only thing a computer actually does, is math --- we have to learn how to translate 
+
+30
+00:03:46,433 --> 00:03:51,866
+from our world of numbers to theirs. How do we do that? 
+ 
+
+31
+00:03:51,866 --> 00:04:02,132
+You have to understand that computers are electronic devices, so they only understand two things: On, and off. Computers process 
+
+32
+00:04:02,133 --> 00:04:12,733
+electrical pulses that have only those two states. We usually represent those two states with either a 1 (for "on") or a 0 (for "off"). So 
+
+33
+00:04:12,733 --> 00:04:21,099
+whereas we humans have literally ten digits on our hands and therefore ten digits used for numbers, computers only have two digits. 
+
+34
+00:04:21,100 --> 00:04:31,433
+Since there are only two, we refer to this as binary rather than decimal, and the term binary digit is usually shortened to just "bit". 
+ 
+
+35
+00:04:31,433 --> 00:04:38,933
+Everything you see a computer do, including the playback of this video, your word processor, the video game you like to play --- it's all just an 
+
+36
+00:04:38,933 --> 00:04:47,933
+extremely long string of bits telling the hardware what to do. Any information processed by a computer is in binary, including 
+
+37
+00:04:47,933 --> 00:04:53,399
+numbers. So how is this done when you only have two digits? 
+ 
+
+38
+00:04:53,400 --> 00:05:01,300
+Just like we can write every number as a sum of copies of powers of 10, it turns out we can write any number as a sum of copies of powers 
+
+39
+00:05:01,300 --> 00:05:10,833
+of 2. When we do this, we create what's called the base 2 or binary representation of that number. Because we're going to be using 
+
+40
+00:05:10,833 --> 00:05:21,266
+powers of 2, here they are from 2^0 which is 1 all the way up through 2^11 which is 2048. Hard-core computer people might recognize 
+
+41
+00:05:21,266 --> 00:05:30,332
+2^10 or 1024 because this is the number of bytes in a kilobyte. I highly recommend you learn these powers of 2 so that they are as  
+
+42
+00:05:30,333 --> 00:05:37,499
+familiar to you as powers of 10. Look for example at 275 again. Although it's not 
+
+43
+00:05:37,500 --> 00:05:43,566
+necessarily easy to see, we can write this number as a sum of powers of 2 like this: 
+ 
+
+44
+00:05:43,566 --> 00:05:51,932
+275 = 256 + 16 + 2 + 1. All those are powers of 2 and there were 
+
+45
+00:05:51,933 --> 00:05:55,966
+several that we skipped. In this representation we used 
+ 
+
+46
+00:05:55,966 --> 00:06:00,632
+1 2^8 
+0 2^7 
+0 2^6 
+
+47
+00:06:00,633 --> 00:06:06,866
+0 2^5
+1 2^4 
+0 2^3 
+
+48
+00:06:06,866 --> 00:06:12,166
+0 2^2
+1 2^1 
+1 2^0
+ 
+
+49
+00:06:12,166 --> 00:06:23,832
+The binary representation of the number 275 is the string of digits you see in the second row: 100010011. 
+ 
+
+50
+00:06:23,833 --> 00:06:32,833
+Notice importantly that *unlike* decimal representation where we use the digits 0 through 9, in binary the only digits we ever use 
+
+51
+00:06:32,833 --> 00:06:45,133
+are 0 and 1. We'd never see a 2, or a 5 or a 7 show up because this would simply mean we'd use a higher power 
+
+52
+00:06:45,133 --> 00:06:49,866
+of 2. It's just like how you don't see "13" show up as one of the digits in a decimal representation. 
+ 
+
+53
+00:06:49,866 --> 00:06:59,232
+Here's another example of changing a decimal number to binary: 1902. That number can be written as this sum of powers of 2: 
+ 
+
+54
+00:06:59,233 --> 00:07:14,966
+1902 = 1024 + 512 + 256 + 64 + 32 + 8 + 4 + 2 So we have 2^10, 2^9, 2^8, then a 2^6, 2^5, 
+
+55
+00:07:14,966 --> 00:07:29,032
+2^3, 2^2, and 2^1 and no other powers of 2. That means the binary representation is 11101101110. 
+ 
+
+56
+00:07:29,033 --> 00:07:38,033
+It's not totally clear right now how we can easily split up a number into a sum of powers of 2 like this other than through guess and check. But 
+
+57
+00:07:38,033 --> 00:07:45,066
+don't worry -- In a later video we're going to present a speedy algorithm for doing this which will make it easy to convert representations 
+
+58
+00:07:45,066 --> 00:07:50,799
+from base 10 to base 2. Notice that converting the representation in the 
+
+59
+00:07:50,800 --> 00:08:03,933
+other direction, from binary to decimal, is on the other hand pretty easy. For example look at the binary integer 10101100. This is saying this 
+
+60
+00:08:03,933 --> 00:08:16,266
+number 2^2 + 2^3 + 2^5 + 2^7 and a calculator will tell you this is the decimal number 172. Just use the bits to tell you which powers of 2 to 
+
+61
+00:08:16,266 --> 00:08:20,632
+include, find those powers of 2, then sum them up. 
+ 
+
+62
+00:08:20,633 --> 00:08:28,066
+So in this video you've learned what our primary school concept of base 10 representation means, what a binary digit or bit 
+
+63
+00:08:28,066 --> 00:08:38,032
+is, what base 2 or binary representation means, a basic first idea of how to convert an integer from decimal to binary representation (although 
+
+64
+00:08:38,033 --> 00:08:45,299
+we're going to improve on this in a later video) and how to convert from binary to decimal. That's a big step toward being able to 
+
+65
+00:08:45,300 --> 00:08:52,800
+understand how computers and computer programs really work! Congratulations and see you in the next video. 
+

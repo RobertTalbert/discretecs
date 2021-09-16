@@ -1,0 +1,171 @@
+1
+00:00:00,000 --> 00:00:08,100
+En nuestro último video, vimos cómo formar proposiciones "moleculares" complejas tomando pequeñas proposiciones "atómicas" y uniéndolas con
+
+2
+00:00:08,100 --> 00:00:13,066
+"conectivos". Observamos los conectivos Y, O y NO.
+
+3
+00:00:13,066 --> 00:00:20,232
+En este video veremos otro conectivo que es un poco más complicado pero muy importante.
+
+4
+00:00:20,233 --> 00:00:26,399
+Dondequiera que miremos, nos encontramos con situaciones que conectan las condiciones de una manera de causa y efecto. Los sistemas legales se basan en este tipo de
+
+5
+00:00:26,400 --> 00:00:36,466
+situaciones. "Si conduce a más de 55 mph, recibirá una multa por exceso de velocidad". O, "Si robas dinero, irás a la cárcel". No es solo en la ley
+
+6
+00:00:36,466 --> 00:00:44,199
+que ves estos. En el plan de estudios de su curso, es posible que vea declaraciones como "Si no cumple con una fecha límite, debe solicitar una extensión". Y
+
+7
+00:00:44,200 --> 00:00:52,766
+hacemos promesas todo el tiempo, por ejemplo, podría decirles a mis hijos "Si limpian su habitación, compraremos helado".
+
+8
+00:00:52,766 --> 00:00:59,666
+Todas estas declaraciones tienen cosas en común. Se componen de dos condiciones, y si se cumple la primera condición, entonces esperamos la
+
+9
+00:00:59,666 --> 00:01:08,832
+segunda condición que también debe cumplirse. Si se cumple la primera condición pero no la segunda, entonces consideraríamos que toda la declaración es defectuosa,
+
+10
+00:01:08,833 --> 00:01:17,499
+como una promesa incumplida o una ley no cumplida. La conexión entre las condiciones no es a través de una sola palabra como y yo
+
+11
+00:01:17,500 --> 00:01:24,000
+construcciones del último video, pero a través de "si-entonces" aunque no siempre escribimos la palabra "entonces".
+
+12
+00:01:24,000 --> 00:01:32,100
+Esta construcción si-entonces es otra conectiva, en otras palabras, que une dos proposiciones en una más grande. A estas declaraciones si-entonces las llamamos
+
+13
+00:01:32,100 --> 00:01:39,833
+declaraciones _conditional_ porque si se cumple una condición, se supone que se debe realizar una acción. Las declaraciones condicionales son
+
+14
+00:01:39,833 --> 00:01:46,533
+en todas partes en la vida y en las ciencias de la computación, por lo que vamos a examinarlos muy de cerca.
+
+15
+00:01:46,533 --> 00:01:54,466
+Primero, en un enunciado condicional, la condición que debe cumplirse, generalmente precedida por "si", se denomina _hipótesis_, y el enunciado de que
+
+16
+00:01:54,466 --> 00:01:59,032
+sigue - a menudo precedido por "entonces" - se llama la conclusión.
+
+17
+00:01:59,033 --> 00:02:05,133
+Aquí puedes ver las hipótesis y conclusiones de cada uno de los ejemplos que mencionamos anteriormente.
+
+18
+00:02:05,133 --> 00:02:11,699
+Una declaración condicional es una proposición, lo que significa que es un pensamiento completo que tiene un valor de verdad definido y cognoscible. Entonces, ¿cómo
+
+19
+00:02:11,700 --> 00:02:19,333
+sabemos cuando un enunciado condicional es verdadero? Esto requiere un poco de reflexión, así que usemos un ejemplo simple en inglés, la promesa a mis hijos de "Si
+
+20
+00:02:19,333 --> 00:02:27,933
+limpias tu habitación, luego compraremos helado ". Es útil pensar en cuándo esta afirmación NO es verdadera. Una afirmación condicional falsa es como una
+
+21
+00:02:27,933 --> 00:02:37,933
+promesa rota. Mi promesa a mi hijo es falsa en la situación en la que limpian su habitación, pero NO obtenemos helado. Porque en un
+
+22
+00:02:37,933 --> 00:02:45,366
+declaración condicional, siempre que se cumpla la condición, la acción debe seguir. Si eso nunca sucede, entonces el condicional
+
+23
+00:02:45,366 --> 00:02:48,099
+declaración es falsa.
+
+24
+00:02:48,100 --> 00:02:56,066
+Obviamente, mi promesa a los niños es buena en la situación en la que limpian sus habitaciones y luego vamos a comprar un helado. Pero que
+
+25
+00:02:56,066 --> 00:03:03,599
+¿Qué pasa si no limpian sus habitaciones? Bueno, mi promesa no dice nada sobre lo que haremos si no limpian sus habitaciones. Si no lo hacen
+
+26
+00:03:03,600 --> 00:03:10,666
+limpian sus habitaciones y no tenemos helado, no he roto mi promesa. Pero si no limpian sus habitaciones y nosotros vamos por un helado
+
+27
+00:03:10,666 --> 00:03:19,299
+de todos modos, todavía no he roto mi promesa. Una vez más, mi promesa solo decía lo que sucederá si limpian sus habitaciones. Si no lo hacen
+
+28
+00:03:19,300 --> 00:03:24,366
+mi promesa, tal como se ha dicho, me permite hacer lo que quiera.
+
+29
+00:03:24,366 --> 00:03:31,466
+Todas las declaraciones condicionales obedecen las mismas reglas de la verdad: limpiar habitaciones y comprar helado son solo detalles. En CUALQUIER condicional
+
+30
+00:03:31,466 --> 00:03:40,232
+declaración, diga "Si P, entonces Q", - y por cierto, el símbolo para esto es una flecha que apunta desde la hipótesis a la conclusión -
+
+31
+00:03:40,233 --> 00:03:43,266
+la tabla de verdad se vería así:
+
+32
+00:03:43,266 --> 00:03:51,432
+En primer lugar, si tanto la hipótesis como la conclusión son verdaderas, entonces el enunciado condicional es verdadero. Si los niños limpian su habitación y luego nos ponemos hielo
+
+33
+00:03:51,433 --> 00:03:59,099
+crema, he cumplido mi promesa. Si acelera y luego recibe una multa, la ley se ha aplicado correctamente. Y si la hipótesis es cierta
+
+34
+00:03:59,100 --> 00:04:06,666
+y la conclusión es falsa, entonces la declaración condicional es falsa. Si los niños limpian sus habitaciones pero no quiero comprarles helado, tengo
+
+35
+00:04:06,666 --> 00:04:13,466
+no cumplí mi promesa. Si acelera pero no recibe una multa, la ley no se ha aplicado correctamente.
+
+36
+00:04:13,466 --> 00:04:22,299
+Si la hipótesis es falsa, entonces si la conclusión es verdadera O si la conclusión es falsa, el enunciado condicional sigue siendo verdadero. Si mis hijos
+
+37
+00:04:22,300 --> 00:04:30,833
+no limpien sus habitaciones, no romperé mi promesa si les consigo helado de todos modos, y tampoco romperé la promesa si no lo hago.
+
+38
+00:04:30,833 --> 00:04:38,366
+Así es como se ve la tabla de verdad completa para una declaración condicional. Las declaraciones condicionales en otras palabras son siempre verdaderas
+
+39
+00:04:38,366 --> 00:04:45,166
+excepto en esta situación en la que se cumple la condición pero la acción no sigue.
+
+40
+00:04:45,166 --> 00:04:52,532
+En este video aprendimos una nueva conexión, la construcción si-entonces que hace una declaración condicional. Usted aprendió que la condición es
+
+41
+00:04:52,533 --> 00:05:00,099
+llamada hipótesis y la acción que sigue es la conclusión. También aprendiste la tabla de verdad para una declaración condicional y que
+
+42
+00:05:00,100 --> 00:05:08,100
+Los enunciados condicionales son siempre verdaderos excepto cuando la conclusión no se sigue de la hipótesis. En el siguiente video vamos a
+
+43
+00:05:08,100 --> 00:05:14,466
+mire un poco más en las declaraciones condicionales, particularmente en las variaciones de la construcción básica si-entonces.

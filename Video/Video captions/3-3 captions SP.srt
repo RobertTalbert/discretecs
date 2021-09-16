@@ -1,0 +1,183 @@
+1
+00:00:00,000 --> 00:00:08,566
+Hasta ahora, en este módulo, hemos aprendido sobre conjuntos y las diferentes formas de anotar y construir conjuntos. Volveremos en este video a la idea de
+
+2
+00:00:08,566 --> 00:00:15,599
+elementos y lo que significa que un objeto sea un elemento de un conjunto. Esto será muy importante a medida que empecemos a considerar más avanzados
+
+3
+00:00:15,600 --> 00:00:23,800
+operaciones para realizar en conjuntos, por lo que, aunque la pertenencia al conjunto es una idea simple, es importante que la dominemos por completo, independientemente de la
+
+4
+00:00:23,800 --> 00:00:33,266
+notación dada. La pregunta básica que vamos a abordar en este video es * ¿cómo se puede saber si un objeto es un elemento de un conjunto dado? *
+
+5
+00:00:33,266 --> 00:00:43,099
+Si el conjunto es finito y se da en notación de lista, es fácil: todos los elementos se enumeran explícitamente, por lo que solo mira para ver si el objeto dado está activado
+
+6
+00:00:43,100 --> 00:00:51,400
+la lista o no. Por ejemplo, en el conjunto {A, B, C, D, E, F}, C es un elemento del conjunto y G no lo es.
+
+7
+00:00:51,400 --> 00:00:59,700
+Si el conjunto es * infinito * y se da en notación de lista, entonces no se enumeran todos los elementos del conjunto, ni pueden serlo. Entonces, si te dan un
+
+8
+00:00:59,700 --> 00:01:08,433
+objeto y está tratando de determinar si está en el conjunto, si está en la lista, entonces sabe que la respuesta es sí. Pero si no aparece en la lista, debe
+
+9
+00:01:08,433 --> 00:01:20,733
+identificar el patrón. Por ejemplo, mire el conjunto S = {10, 21, ...} Este es un conjunto infinito y se supone que los puntos al final indican un
+
+10
+00:01:20,733 --> 00:01:29,133
+patrón continuo, pero ¿qué es? Podemos ver claramente que 21 es un elemento del conjunto porque en realidad está en la lista. Pero que
+
+11
+00:01:29,133 --> 00:01:30,999
+¿Se supone que deben incluirse otros números?
+
+12
+00:01:31,000 --> 00:01:41,733
+¿Está el número 65 en este conjunto? Si cree que el patrón es que cada número en este conjunto es 11 más que el anterior, entonces sí, 65 está en
+
+13
+00:01:41,733 --> 00:01:49,599
+el conjunto. Pero aquí hay otro patrón que genera 10 y 21, pero 65 no está en el conjunto.
+
+14
+00:01:49,600 --> 00:01:58,333
+De hecho, si escribe los primeros números de una secuencia, puede ir a la Enciclopedia en línea de secuencias de enteros y encontrar una
+
+15
+00:01:58,333 --> 00:02:07,799
+una gran cantidad de conjuntos de números que contienen esa lista. Entonces, hay muchas, muchas listas infinitas de números que se ajustan a un patrón. Algunos incluyen 65
+
+16
+00:02:07,800 --> 00:02:15,633
+y otros no. Determinar si un objeto está en un conjunto infinito dado en notación de lista se reduce a si tú y yo
+
+17
+00:02:15,633 --> 00:02:22,266
+tener cierto consenso sobre el patrón indicado en el conjunto. ¡Esto puede ser engañoso!
+
+18
+00:02:22,266 --> 00:02:29,999
+Esa es una muy buena razón por la que la notación del generador de conjuntos suele ser preferible en estas situaciones. Establecer la notación del constructor no se va
+
+19
+00:02:30,000 --> 00:02:38,400
+el patrón hasta una suposición, comienza con el patrón y construye el conjunto a su alrededor. Así, por ejemplo, en este conjunto, el conjunto de todos los
+
+20
+00:02:38,400 --> 00:02:50,433
+números que son 10 mod 11, podemos ver fácilmente que 65 pertenece a este conjunto porque solo usamos el predicado, n mod 11 es igual a 10, y lo aplicamos
+
+21
+00:02:50,433 --> 00:03:06,399
+al objeto en cuestión. 65 mod 11 es igual a 10, por lo que 65 está en este conjunto. 33 mod 11 por otro lado es 0, no 10, por lo que no pertenece a
+
+22
+00:03:06,400 --> 00:03:07,800
+este conjunto.
+
+23
+00:03:07,800 --> 00:03:17,233
+También es fácil ver que -1 no pertenece a este conjunto porque aunque -1 mod 11 es 10, -1 no pertenece al conjunto inicial que somos
+
+24
+00:03:17,233 --> 00:03:24,133
+filtración. Entonces, si no está en el conjunto inicial, no pertenecerá a ninguna versión filtrada de ese conjunto.
+
+25
+00:03:24,133 --> 00:03:33,899
+La idea básica aquí es que en la versión de "filtrado" de la notación del generador de conjuntos, un objeto pertenecerá a ese conjunto si está en el conjunto prefiltrado inicial y si
+
+26
+00:03:33,900 --> 00:03:39,200
+el objeto también hace que el predicado sea verdadero, es decir, si cumple los requisitos de pertenencia.
+
+27
+00:03:39,200 --> 00:03:44,500
+Si falla alguno de esos dos, el objeto no está en el conjunto.
+
+28
+00:03:44,500 --> 00:03:51,933
+Recuerde que hay otra forma de notación del generador de conjuntos en la que no comenzamos con un conjunto y filtramos las cosas, sino que comenzamos con un cálculo y
+
+29
+00:03:51,933 --> 00:04:05,266
+mapearlo sobre un conjunto. Por ejemplo, {x ** 3: x en {0,1,2,3}} es el conjunto que obtenemos tomando los elementos en {0,1,2,3} y mapeando el cubo
+
+30
+00:04:05,266 --> 00:04:16,766
+operación sobre ese conjunto. Este es un conjunto finito, por lo que es bastante fácil generar la notación de la lista y ver que los elementos son 0, 1, 8 y
+
+31
+00:04:16,766 --> 00:04:30,599
+27. Si este fuera un conjunto infinito, como {x ^ 3: x en N}, entonces es un poco más difícil. ¿Está el número 100 en este conjunto, por ejemplo? Bueno, entonces tendremos que
+
+32
+00:04:30,600 --> 00:04:38,966
+Pregunte: ¿Existe un número natural cuyo cubo sea 100? ¿Existe un número natural x que pueda conectar a la operación que estoy mapeando?
+
+33
+00:04:38,966 --> 00:04:51,299
+eso me da 100? Entonces implica trabajar al revés. En este caso, si bien x ^ 3 = 100 en realidad tiene una solución, la solución no es una
+
+34
+00:04:51,300 --> 00:04:57,433
+número natural y, por tanto, la respuesta es que 100 no pertenece al conjunto.
+
+35
+00:04:57,433 --> 00:05:03,499
+¿Qué pasa con un conjunto que es solo una colección aleatoria de objetos? Como por ejemplo este set. [0, 1/2, {1,2,3}, "hola", emoji] ¿Cuáles son los
+
+36
+00:05:03,500 --> 00:05:13,966
+elementos de este conjunto? Se da en notación de lista para que podamos enumerarlos: los números 0 y 1/2, el conjunto {1,2,3}, la cadena "hola" y
+
+37
+00:05:13,966 --> 00:05:24,666
+un emoji. Eso es * cinco * elementos. Es fácil ver que 0 y 1/2 son elementos de este conjunto y, por ejemplo, 5 no lo es. Pero también se pone un poco
+
+38
+00:05:24,666 --> 00:05:37,766
+extraño. Por ejemplo, 2 NO es un elemento de este conjunto. Aunque vemos el número 2 "en" el conjunto, no es uno de los elementos. Por otra parte
+
+39
+00:05:37,766 --> 00:05:47,699
+el conjunto {1,2,3} es un elemento de este conjunto. Podemos tener conjuntos cuyos elementos son otros conjuntos --- volviendo a la metáfora de la caja, podemos tener cajas
+
+40
+00:05:47,700 --> 00:05:57,600
+cuyo contenido son otras cajas. La cadena "hola" también es un elemento de este conjunto, pero la subcadena "él" no lo es porque esa subcadena es
+
+41
+00:05:57,600 --> 00:06:07,900
+no en la lista de elementos. La conclusión aquí es que el hecho de que veamos un objeto dentro de un conjunto en algún lugar no significa que ese objeto
+
+42
+00:06:07,900 --> 00:06:16,566
+es en realidad un elemento del conjunto. La notación de la lista de este conjunto de aspecto aleatorio le dice exactamente qué es un elemento y qué no lo es.
+
+43
+00:06:16,566 --> 00:06:25,466
+En este video, profundizamos en la idea de cómo se ve un "elemento" de un conjunto y cómo determinar si un objeto es un elemento de un conjunto.
+
+44
+00:06:25,466 --> 00:06:32,932
+o no. Puede ser más complicado de lo que parece al principio, pero en la notación de lista tomamos la lista de elementos literalmente para determinar la membresía.
+
+45
+00:06:32,933 --> 00:06:38,666
+y en la notación del constructor de conjuntos usamos las reglas para construir el conjunto para guiarnos.
+
+46
+00:06:38,666 --> 00:06:46,966
+En el siguiente video, usaremos estos conceptos para discutir el concepto de un subconjunto y para determinar si dos conjuntos son iguales.

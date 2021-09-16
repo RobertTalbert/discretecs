@@ -1,0 +1,183 @@
+﻿1
+00:00:00,000 --> 00:00:08,100
+In our last video, we saw how to form complex "molecular" propositions by taking small "atomic" propositions and joining them with 
+
+2
+00:00:08,100 --> 00:00:13,066
+"connectives". We looked at the connectives AND, OR, and NOT. 
+
+3
+00:00:13,066 --> 00:00:20,232
+In this video we'll look at another connective that is a little more complicated but very important. 
+ 
+
+4
+00:00:20,233 --> 00:00:26,399
+Everywhere we turn, we run into situations that connect conditions in a cause-and-effect way. Legal systems are built on these kinds of 
+
+5
+00:00:26,400 --> 00:00:36,466
+situations. "If you drive faster than 55 mph, you will get a speeding ticket." Or, "If you steal money, you will go to jail." It's not just in the law 
+
+6
+00:00:36,466 --> 00:00:44,199
+that you see these. In your course syllabus you might see statements like "If you miss a deadline, you must ask for an extension." And 
+
+7
+00:00:44,200 --> 00:00:52,766
+we make promises all the time, for example I might tell my kids "If you clean your room, then we'll get ice cream." 
+ 
+
+8
+00:00:52,766 --> 00:00:59,666
+All these statements have things in common. They are made up of two conditions, and if the first condition is met, then we expect the 
+
+9
+00:00:59,666 --> 00:01:08,832
+second condition to also be met. If the first condition is met but the second one isn't, then we'd consider the entire statement to be faulty, 
+
+10
+00:01:08,833 --> 00:01:17,499
+like a broken promise or an unenforced law. The connection between the conditions isn't through a single word like the and and or 
+
+11
+00:01:17,500 --> 00:01:24,000
+constructions from the last video, but through "if-then" although we do not always write the word "then". 
+ 
+
+12
+00:01:24,000 --> 00:01:32,100
+This if-then construction is another connective, in other words, that joins two propositions into a larger one. We call these if-then statements 
+
+13
+00:01:32,100 --> 00:01:39,833
+_conditional_ statements because if a condition is met, then an action is supposed to be performed. Conditional statements are 
+
+14
+00:01:39,833 --> 00:01:46,533
+everywhere in life and in computer science, so we're going to take a very close look at these. 
+ 
+
+15
+00:01:46,533 --> 00:01:54,466
+First, in a conditional statement, the condition to be met -- usually preceded by "if" -- is called the _hypothesis_, and the statement that 
+
+16
+00:01:54,466 --> 00:01:59,032
+follows -- often preceded by "then" -- is called the conclusion. 
+
+17
+00:01:59,033 --> 00:02:05,133
+Here you can see the hypotheses and conclusions for each of the examples we mentioned earlier. 
+ 
+
+18
+00:02:05,133 --> 00:02:11,699
+A conditional statement is a proposition, meaning that it's a complete thought that has a definite and knowable truth value. So how do 
+
+19
+00:02:11,700 --> 00:02:19,333
+we know when a conditional statement is true? This takes some thought, so let's use a simple English example, the promise to my kids of "If 
+
+20
+00:02:19,333 --> 00:02:27,933
+you clean your room, then we'll get ice cream." It's helpful to think about when this statement is NOT true. A false conditional statement is like a 
+
+21
+00:02:27,933 --> 00:02:37,933
+broken promise. My promise to my kid is false in the situation where they do clean their room, but we do NOT get ice cream. Because in a 
+
+22
+00:02:37,933 --> 00:02:45,366
+conditional statement, any time the condition is satisfied, the action must follow. If that ever DOESN'T happen, then the conditional 
+
+23
+00:02:45,366 --> 00:02:48,099
+statement is false. 
+ 
+
+24
+00:02:48,100 --> 00:02:56,066
+Obviously my promise to the kids is good in the situation where they do clean their rooms and then we do go get ice cream. But what 
+
+25
+00:02:56,066 --> 00:03:03,599
+happens if they don't clean their rooms? Well, my promise says nothing about what we will do if they _don't_ clean their rooms. If they don't 
+
+26
+00:03:03,600 --> 00:03:10,666
+clean their rooms and we don't get ice cream, I haven't broken my promise. But if they don't clean their rooms and we do go get ice cream 
+
+27
+00:03:10,666 --> 00:03:19,299
+anyway, I still haven't broken my promise. Again my promise only said what will happen if they DO clean their rooms. If they don't, 
+
+28
+00:03:19,300 --> 00:03:24,366
+my promise as stated lets me do whatever I want. 
+ 
+
+29
+00:03:24,366 --> 00:03:31,466
+All conditional statemnts obey the same rules of truth --- cleaning rooms and getting ice cream are just details. In ANY conditional 
+
+30
+00:03:31,466 --> 00:03:40,232
+statement, say "If P, then Q", -- and by the way, the symbol for this is an arrow that points from the hypothesis to the conclusion -- 
+
+31
+00:03:40,233 --> 00:03:43,266
+the truth table would look like this: 
+ 
+
+32
+00:03:43,266 --> 00:03:51,432
+First of all if both the hypothesis and conclusion are true, then the conditional statement is true. If the kids clean their room and we then get ice 
+
+33
+00:03:51,433 --> 00:03:59,099
+cream, I've kept my promise. If you speed and then you get a ticket, the law has been enforced properly. And if the hypothesis is true 
+
+34
+00:03:59,100 --> 00:04:06,666
+and the conclusion is false then the conditional statement is false. If the kids clean their rooms but I back out of getting them ice cream, I have 
+
+35
+00:04:06,666 --> 00:04:13,466
+not kept my promise. If you speed but do not get a ticket, the law has not been enforced properly. 
+ 
+
+36
+00:04:13,466 --> 00:04:22,299
+If the hypothesis is false, then if the conclusion is true OR if the conclusion is false, the conditional statement is still true. If my kids 
+
+37
+00:04:22,300 --> 00:04:30,833
+don't clean their rooms, I'm not breaking my promise if I get them ice cream anyway, and I'm also not breaking the promise if I don't. 
+ 
+
+38
+00:04:30,833 --> 00:04:38,366
+So this is what the completed truth table for a conditional statement looks like. Conditional statements in other words are always true 
+
+39
+00:04:38,366 --> 00:04:45,166
+except in this one situation where the condition is met but the action doesn't follow. 
+ 
+
+40
+00:04:45,166 --> 00:04:52,532
+In this video we learned a new connective, the if-then construction which makes a conditional statement. YOu learned that the condition is 
+
+41
+00:04:52,533 --> 00:05:00,099
+called the hypothesis and the action that follows is the conclusion. You also learned the truth table for a conditional statement and that 
+
+42
+00:05:00,100 --> 00:05:08,100
+conditional statements are always true except when the conclusion does not follow from the hypothesis. In the next video we're going to 
+
+43
+00:05:08,100 --> 00:05:14,466
+look some more at conditional statements particularly at variations on the basic if-then construction. 
+

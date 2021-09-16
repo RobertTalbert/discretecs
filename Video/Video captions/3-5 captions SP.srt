@@ -1,0 +1,139 @@
+1
+00:00:00,066 --> 00:00:07,566
+Este video abordará dos conceptos rápidos relacionados con los conjuntos que allanarán el camino para algunos de los otros trabajos que haremos con ellos.
+
+2
+00:00:07,566 --> 00:00:10,799
+en videos futuros. Este es el primer concepto.
+
+3
+00:00:10,800 --> 00:00:22,066
+En el último video hablamos extensamente sobre subconjuntos de un conjunto. Por ejemplo, vimos que {1,2,3} es un subconjunto de {1,2,3,4} y también lo es {2,4},
+
+4
+00:00:22,066 --> 00:00:32,932
+también lo es {1,2,3,4} en sí mismo, y también lo es el conjunto vacío. Puede que te preguntes, ¿cuáles son todos los subconjuntos de {1,2,3,4} y cuántos hay?
+
+5
+00:00:32,933 --> 00:00:39,666
+A veces es útil pensar en todos los posibles subconjuntos de un conjunto dado, así que hagámoslo con este ejemplo.
+
+6
+00:00:39,666 --> 00:00:50,199
+Bueno, el conjunto vacío es un subconjunto de todos los conjuntos. Hay cuatro subconjuntos de un elemento de {1,2,3,4} y aquí están. El número de 2 elementos
+
+7
+00:00:50,200 --> 00:01:01,533
+enumerar los subconjuntos requiere un poco más de trabajo, pero tendría {1,2}, {1,3} y {1,4}, luego {2,3} y {2,4} --- observe {2,1 } es lo mismo que
+
+8
+00:01:01,533 --> 00:01:12,733
+{1,2} y {2,2} es lo mismo que {2}, y como ya están en la lista, los dejamos fuera. También tendríamos {3,4}, y eso es todo
+
+9
+00:01:12,733 --> 00:01:24,466
+subconjuntos de dos elementos: seis en total. Luego, para los subconjuntos de tres elementos, tenemos {1,2,3}, {1,2,4}, {1,3,4}, ad {2,3,4}. Entonces finalmente tenemos
+
+10
+00:01:24,466 --> 00:01:31,832
+{1,2,3,4} sí mismo. Son todos ellos y son 16 en total.
+
+11
+00:01:31,833 --> 00:01:41,799
+También mencionamos anteriormente que los conjuntos pueden contener elementos que también son conjuntos, al igual que los cuadros pueden contener otros cuadros. Si tomamos los 16 de esos
+
+12
+00:01:41,800 --> 00:01:53,666
+conjuntos y ponerlos en un conjunto así, hemos formado el conjunto de todos los subconjuntos de {1,2,3,4}. Esta es una construcción conocida como el ** conjunto de potencia ** de
+
+13
+00:01:53,666 --> 00:02:06,366
+{1,2,3,4}. El conjunto de potencias de un conjunto A, es un conjunto cuyos elementos son todos los subconjuntos de A. Y usamos un guión o P en negrita alrededor del conjunto para
+
+14
+00:02:06,366 --> 00:02:07,866
+denotarlo.
+
+15
+00:02:07,866 --> 00:02:19,099
+Por ejemplo, el conjunto de potencias de {a, b} es el conjunto, cuyos elementos son los subconjuntos de {a, b}. Hay cuatro de ellos: el conjunto vacío, el
+
+16
+00:02:19,100 --> 00:02:33,033
+conjuntos de un elemento {a} y {b}, y el conjunto {a, b}. Pruébelo con el conjunto de tres elementos {x, y, z}. ¿Cuál es el conjunto de potencia de este conjunto?
+
+17
+00:02:33,033 --> 00:02:42,599
+Debería encontrar que hay ocho subconjuntos para este conjunto. El conjunto vacío es uno, luego estos tres conjuntos de un elemento, luego estos tres conjuntos de dos elementos
+
+18
+00:02:42,600 --> 00:02:48,666
+conjuntos, luego finalmente el conjunto completo en sí. El conjunto de potencia es el conjunto que contiene todos esos.
+
+19
+00:02:48,666 --> 00:02:55,866
+Podemos formar el conjunto de potencias de cualquier conjunto, aunque es posible que no podamos enumerar todos los elementos. Por ejemplo, el conjunto de potencia del
+
+20
+00:02:55,866 --> 00:03:04,099
+natural numbers contains all possible subsets of the natural numbers, and that's an infinite set. What about the power set of the empty
+
+21
+00:03:04,100 --> 00:03:09,733
+set? Well, there is only one subset of the empty set, and that's the empty set itself.
+
+22
+00:03:09,733 --> 00:03:17,533
+So the power set of the empty set, is the set, containing the empty set.
+
+23
+00:03:17,533 --> 00:03:25,866
+We seem to be talking a lot about *size* here, in terms of how many elements a set has. The term **cardinality** refers to how many
+
+24
+00:03:25,866 --> 00:03:36,732
+elements are in a set. We put absolute value signs around the set to indicate its cardinality The cardinality of {x,y,z} for example is 3. The
+
+25
+00:03:36,733 --> 00:03:49,566
+cardinality of the power set of {x,y,z} is 8. The cardinality of the empty set is 0 because there are no elements at all in the empty set.
+
+26
+00:03:49,566 --> 00:03:59,132
+If the set is finite, its cardinality is just the number of elements it has. If the set is infinite, it gets complicated. For now we will just say
+
+27
+00:03:59,133 --> 00:04:04,399
+that an infinite set has infinite cardinality. But again -- it's complicated.
+
+28
+00:04:04,400 --> 00:04:13,233
+TO see why it's complicated, look at the set of natural numbers and the set of even natural numbers. IT seems like the set of natural
+
+29
+00:04:13,233 --> 00:04:21,199
+numbers should be twice as big as the set of even natural numbers. But as you can see, we can put the even natural numbers in
+
+30
+00:04:21,200 --> 00:04:29,766
+one-to-one correspondence with the full set of natural numbers, so if you look at it that way, these two sets have the same number of
+
+31
+00:04:29,766 --> 00:04:39,232
+elements. So with infinite sets, we need to be more careful about talking about cardinality. For now, we'll oversimplify things and just say that
+
+32
+00:04:39,233 --> 00:04:43,133
+infinite sets have infinite cardinality.
+
+33
+00:04:43,133 --> 00:04:52,266
+So in this video you learn about the power set of a set, which is the set whose elements are all the possible subsets of the given set -- and
+
+34
+00:04:52,266 --> 00:04:58,232
+about the cardinality of a set, which roughly refers to the number of elements it has, although things get weird when the set is
+
+35
+00:04:58,233 --> 00:05:04,533
+infinite. Next up, we'll be learning about forming new sets from old ones by using set operations.

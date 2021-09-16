@@ -1,0 +1,133 @@
+﻿1
+00:00:00,000 --> 00:00:07,533
+In the last video we saw a number of operations we can perform on sets to produce new sets that fit different kinds of real 
+
+2
+00:00:07,533 --> 00:00:16,266
+situations. In this video we're going to introduce another set operation that's similar to these, but it's different and needs a little more explanation.
+ 
+
+3
+00:00:16,266 --> 00:00:24,199
+Let's go back to our fictitious discrete math class. Suppose the class has met a total of 10 times and instructor wants to look at attedance 
+
+4
+00:00:24,200 --> 00:00:30,766
+at class meetings. So she creates a spreadsheet with the names of students in one column and the number of days they have 
+
+5
+00:00:30,766 --> 00:00:39,799
+attended in the other. This pairs off each student with a number. We can think of these pairs as an ordered pair, like this. Remember 
+
+6
+00:00:39,800 --> 00:00:49,000
+that U was the set of all students in the class. And the numbers here could range between 0 and 10 since the class has met 10 times. Let's 
+
+7
+00:00:49,000 --> 00:00:59,333
+let A be the set 0, 1, 2, and so on through 10. The set of all possible pairs that the instructor could create, with students in the first slot of 
+
+8
+00:00:59,333 --> 00:01:08,333
+each pair and integers 0 through 10 in the second slot, created is called the Cartesian product of U and A. 
+ 
+
+9
+00:01:08,333 --> 00:01:18,833
+In general given any two sets A and B, the Cartesian product of A and B is the set of all ordered pairs that have the first item in the pair 
+
+10
+00:01:18,833 --> 00:01:27,399
+coming from A and the second item coming from B. We use a cross, like you might see in primary school to denote multiplication of two 
+
+11
+00:01:27,400 --> 00:01:30,333
+numbers, as the notation. 
+ 
+
+12
+00:01:30,333 --> 00:01:41,966
+For example, look at the set {1,2,3} product with the set {a,b}. This is the set of all ordered pairs whose first "coordinate" is in the set 1,2,3 
+
+13
+00:01:41,966 --> 00:01:51,599
+and whose second coordinate is in the set a,b. There are six such pairs and here they are: There are two pairs for each of the three 
+
+14
+00:01:51,600 --> 00:02:01,200
+elements of the set {1,2,3} -- (1,a) and (1,b), then (2,a) and (2,b), and finally (3,a) and (3,b). 
+ 
+
+15
+00:02:01,200 --> 00:02:11,333
+In our classroom example, the product of U and {0,1,2,...,10} is the set of all possible pairings of students and attendance. So there are 11 
+
+16
+00:02:11,333 --> 00:02:19,633
+possible pairs for each student, making this a pretty large set. The pairs that are in the instructors spreadsheet would be a subset of 
+
+17
+00:02:19,633 --> 00:02:25,066
+the entire product but not equal to it. 
+ 
+
+18
+00:02:25,066 --> 00:02:36,332
+Now you try it. Write out the set A times B, where A is {x,y} and B is the set {1,2,3,4}. 
+ 
+
+19
+00:02:36,333 --> 00:02:43,899
+You should find there are eight pairs in this product, and here they are --- four pairs for each element of A. Or another way to think 
+
+20
+00:02:43,900 --> 00:02:48,866
+about it, you have two pairs for each element of B. 
+ 
+
+21
+00:02:48,866 --> 00:02:56,899
+Notice that unlike in multiplication of real numbers, the order of A and B in A times B matters. In this example you just worked, B 
+
+22
+00:02:56,900 --> 00:03:06,600
+times A would be this set -- it's still eight pairs and the ordering of the coordinates is reversed. But these are *ordered* pairs --- (x,1) is not 
+
+23
+00:03:06,600 --> 00:03:15,366
+considered to be the same thing as (1,x) so these two sets have the same cardinality, but the elements themselves are not 
+
+24
+00:03:15,366 --> 00:03:17,132
+the same. 
+ 
+
+25
+00:03:17,133 --> 00:03:23,666
+You've actualy worked with Cartesian products before because you've worked with ordered pairs before. Back in your early algebra 
+
+26
+00:03:23,666 --> 00:03:32,499
+classes, you learned how to plot points in a two-dimensional xy-plane and then graph functions using this process. Each point is a pair of 
+
+27
+00:03:32,500 --> 00:03:44,833
+numbers, like (4,3) or (-2,-3). So the xy-plane which consists of **all** those points, is the set R times R where R is the set of all real 
+
+28
+00:03:44,833 --> 00:03:51,866
+numbers. This is the set consisting of all possible pairs with real numbers in each coordinate. 
+ 
+
+29
+00:03:51,866 --> 00:03:58,966
+So you've learned what the Cartesian product is, and how to find the Cartesian product of simple sets. In our next video, we'll be shifting 
+
+30
+00:03:58,966 --> 00:04:05,999
+gears to focus on the idea of a *function* which, as we just mentioned, is a way of mapping elements of one set onto the 
+
+31
+00:04:06,000 --> 00:04:07,800
+elements of another. 
+

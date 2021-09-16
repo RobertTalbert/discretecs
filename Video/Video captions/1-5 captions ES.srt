@@ -1,0 +1,207 @@
+1
+00:00:00,000 --> 00:00:08,500
+En el último video aprendimos cómo sumar en binario. El siguiente paso es la resta. Dado que fue útil pensar primero detenidamente acerca de cómo la suma
+
+2
+00:00:08,500 --> 00:00:14,100
+trabajado en aritmética de base 10, comencemos con un vistazo a cómo funciona la resta en base 10.
+
+3
+00:00:14,100 --> 00:00:24,200
+Aquí hay un ejemplo: 326 - 152. La forma en que lo aprendimos cuando éramos niños es primero, al igual que con la suma, escribir estos uno encima del otro
+
+4
+00:00:24,200 --> 00:00:33,766
+con el número más grande en la parte superior. Luego, vaya lugar por lugar y reste solo los números en cada lugar. En este ejemplo, el primer paso
+
+5
+00:00:33,766 --> 00:00:44,732
+es 6 - 2 que es 4, y va en el lugar de las unidades para la respuesta. Pero cuando pasamos al lugar de las decenas, tenemos que pensar en qué
+
+6
+00:00:44,733 --> 00:00:52,133
+hacer. Tenemos 2 - 5, pero este es un número negativo y no tiene sentido poner -3 en el lugar de las decenas. Entonces, lo que hacemos es una especie de
+
+7
+00:00:52,133 --> 00:01:01,266
+opuesto de "llevar" además --- tomamos "prestado". Tomamos prestado un 1 del siguiente lugar y convertimos ese 2 en un 12.
+
+8
+00:01:01,266 --> 00:01:06,966
+Ahora la resta tiene sentido: 12 - 5 es 7, así que lo ponemos en el lugar de las decenas.
+
+9
+00:01:06,966 --> 00:01:17,366
+El lugar final solía ser 3 - 1, pero ahora es 2 - 1 desde que pedimos prestado, por lo que la respuesta final es 174.
+
+10
+00:01:17,366 --> 00:01:24,966
+¿Qué está pasando exactamente con "pedir prestado"? Muchos niños luchan con ese concepto y no es de extrañar. Se siente como una regla arbitraria pero hay
+
+11
+00:01:24,966 --> 00:01:34,299
+en realidad una base para ello. Además, a veces tenemos que "llevar", cuando por ejemplo sumamos 4 + 8 en el lugar de las decenas y terminamos con un
+
+12
+00:01:34,300 --> 00:01:43,166
+número que es demasiado grande. Agregamos dos dígitos y obtenemos algo demasiado grande para un solo dígito, por lo que lo dividimos: el 12 se convierte en 10 + 2
+
+13
+00:01:43,166 --> 00:01:51,766
+y sumamos 1 al siguiente valor posicional. Pedir prestado es solo esto al revés --- si la resta de un solo dígito da como resultado
+
+14
+00:01:51,766 --> 00:01:59,232
+algo demasiado pequeño, tomamos una copia del siguiente valor posicional y lo combinamos con el lugar actual.
+
+15
+00:01:59,233 --> 00:02:07,599
+Decimos que estamos tomando prestado un 1, pero en realidad es un 10 porque es una copia del siguiente valor posicional más alto.
+
+16
+00:02:07,600 --> 00:02:13,633
+Ese 1 es diez veces el tamaño de los dígitos en el lugar actual.
+
+17
+00:02:13,633 --> 00:02:22,633
+La resta en binario sigue las mismas reglas que la resta en decimal, pero el concepto de valor posicional se basa en 2 en lugar de 10.
+
+18
+00:02:22,633 --> 00:02:34,366
+Veamos cómo funciona esto con el ejemplo 1101 - 110. En decimal, sería 13 menos 6, por lo que la respuesta debería ser 7.
+
+19
+00:02:34,366 --> 00:02:43,499
+Alineando estos con el más grande en la parte superior, en el lugar de las unidades tenemos 1 - 0. esto es solo 1, así que anótelo sin necesidad de pasos adicionales.
+
+20
+00:02:43,500 --> 00:02:53,766
+En el lugar del 2, tenemos algo en qué pensar. 0 - 1 es análogo a tener 2 - 5 en el ejemplo anterior de base 10. No tiene sentido
+
+21
+00:02:53,766 --> 00:03:01,932
+poner un número negativo en este lugar en el resultado (y de todos modos no hemos definido todavía qué significa que un bit sea negativo). Entonces, para
+
+22
+00:03:01,933 --> 00:03:07,066
+siga las mismas reglas, aquí vamos a tomar prestado del siguiente lugar.
+
+23
+00:03:07,066 --> 00:03:17,666
+Pero es un poco complicado. Pedir prestado reduce el 1 que está en el lugar del 8 a un 0. Y aunque dice "1", es del siguiente lugar, así que es
+
+24
+00:03:17,666 --> 00:03:27,699
+en realidad, un 2, porque el siguiente lugar tiene el doble del tamaño del lugar actual. En base 10 era diez veces mayor, pero estamos en base 2.
+
+25
+00:03:27,700 --> 00:03:39,366
+Entonces, nuevamente, tomar prestado un 1 de aquí va a poner un 2, no un 10, aquí. Como un 2 va aquí y estamos en binario, escribiremos "10", pero eso es
+
+26
+00:03:39,366 --> 00:03:50,366
+not ten, that's just the binary for 2. So in our example, we have 10 minus 1, which is really 2 - 1 so the answer is just 1.
+
+27
+00:03:50,366 --> 00:04:01,599
+Moving to the 4's place, we have 0 - 1 which is the same situation as previously. So borrow a 1 from the 8s place, turn that 0 into a 10, and
+
+28
+00:04:01,600 --> 00:04:11,800
+subtract to get 1. There's nothing left, so the answer is 111. In decimal, that's "7" which is what we were supposed to get.
+
+29
+00:04:11,800 --> 00:04:22,066
+That's tricky, so let's recap. Just as in regular base 10 subtraction, binary subtraction goes one place at a time. If the single bit subtraction
+
+30
+00:04:22,066 --> 00:04:35,932
+can be carried out normally --- if it's 0 - 0, 1-0, or 1-1 -- then do so. Otherwise, if we have a 0 - 1, we borrow from the next place value up.
+
+31
+00:04:35,933 --> 00:04:46,099
+Borrowing a 1 from the next place value up is actually borrowing a 2, or a 10 -- just as in decimal, borrowing a 1 from the next place
+
+32
+00:04:46,100 --> 00:04:53,433
+aumentar el valor es en realidad pedir prestado un 10. Ahora podemos restar. Continúe este proceso hasta que lleguemos al final de los dígitos.
+
+33
+00:04:53,433 --> 00:05:04,799
+Hagamos un ejemplo más complejo: 100101 menos 11111. En decimal, esto es 37 - 31
+
+34
+00:05:04,800 --> 00:05:09,900
+así que se supone que la respuesta es 6. Repasemos el proceso.
+
+35
+00:05:09,900 --> 00:05:20,766
+Comenzando con el dígito del 1, es solo 1-1, que es 0, y no es necesario pedir prestado. Moviéndonos al lugar del 2, tenemos 0 - 1. Como dijimos, necesitamos
+
+36
+00:05:20,766 --> 00:05:30,499
+pedir prestado un 1 del siguiente lugar. Entonces, este 1 que está en el lugar del 4 se convierte en un 0, y es un 2 o un 10 aquí en este lugar.
+
+37
+00:05:30,500 --> 00:05:42,766
+Ahora 10 menos 1 es 1 y hemos terminado con el lugar del 2, así que muévase al lugar del 4. Debido a que pedimos prestado, el lugar de los 4 ahora tiene 0 - 1, por lo que
+
+38
+00:05:42,766 --> 00:05:52,166
+aquí estamos de nuevo. Lo que deberíamos hacer es pedir prestado un 1 del siguiente lugar, ¡pero no hay nada allí! Dice 0. Así que tenemos que mantener
+
+39
+00:05:52,166 --> 00:06:00,199
+buscar en este número superior y subir los valores posicionales hasta que podamos encontrar algún lugar del que podamos pedir prestado. El lugar de los 16 es también un
+
+40
+00:06:00,200 --> 00:06:12,133
+0. No encontramos un 1 hasta el lugar del 32. Entonces hay una reacción en cadena aquí: tome prestado un 1 del lugar de los 32 para tener un 10 en los 16
+
+41
+00:06:12,133 --> 00:06:25,366
+sitio. Pero también tenemos que pedir prestado un 1 del lugar de los 16 para dar un 10 al lugar de los 8. Esto reduce el 10 a solo un 1 en el lugar de los 16 y
+
+42
+00:06:25,366 --> 00:06:37,599
+suma 10 en lugar de los 8. Pero luego tome prestado de ESO para dar un 10 al lugar de los 4 como originalmente necesitábamos, por lo que el lugar de los 8 ahora es un 1
+
+43
+00:06:37,600 --> 00:06:48,266
+y el lugar de los 4 es ahora un 10. La resta puede continuar como de costumbre en el lugar de los 4, ya que 10 menos 1 es 1. Ahora muévete al lugar de los 8: nosotros
+
+44
+00:06:48,266 --> 00:06:53,532
+tiene 1 menos 1 que es 0 sin pedir prestado. El lugar de los 16 es el mismo.
+
+45
+00:06:53,533 --> 00:06:58,533
+Y el lugar de los 32 ahora es completamente cero, por lo que no hay nada que hacer allí.
+
+46
+00:06:58,533 --> 00:07:06,466
+Terminamos con el número 110. Eso es un 6 en decimal, y recuerde que esa es la respuesta que se suponía.
+
+47
+00:07:06,466 --> 00:07:13,932
+Este ejemplo fue bastante complicado porque tuvimos que pedir prestado de varios lugares antes de que se pudiera realizar la resta. Esto sucede en
+
+48
+00:07:13,933 --> 00:07:25,166
+resta decimal también, y es igual de complicado, como cuando tenemos 3104 menos 731. En este problema. el dígito de las unidades no es un problema, pero en
+
+49
+00:07:25,166 --> 00:07:30,166
+el dígito de las decenas necesitamos pedir prestado un 1 del lugar de las centenas, pero luego tenemos que pedir prestado otro 1 del
+
+50
+00:07:30,166 --> 00:07:33,999
+miles de lugares para poder dar a los cientos de lugares.
+
+51
+00:07:34,000 --> 00:07:43,900
+Entonces, en este video, ha ampliado su conjunto de habilidades para incluir restar números binarios y no solo sumarlos.
+
+52
+00:07:43,900 --> 00:07:49,600
+¡Eso fue complicado! Muy bien hecho. El siguiente paso es la multiplicación.

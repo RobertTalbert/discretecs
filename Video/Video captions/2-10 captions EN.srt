@@ -1,0 +1,171 @@
+﻿1
+00:00:00,000 --> 00:00:06,633
+The last video introduced the idea of quantification, which is what happens when we take a predicate, whose truth value can't be 
+
+2
+00:00:06,633 --> 00:00:14,366
+determined because of a variable, and then making a claim about whether that predicate is *always* true or *sometimes* true. Since 
+
+3
+00:00:14,366 --> 00:00:21,232
+quantified predicates are propositions, we can negate them. And in this video we're going to see how this is done. 
+ 
+
+4
+00:00:21,233 --> 00:00:33,399
+Take a look at the universally quantified predicates from the last video that were false. How did we know they were false? For 
+
+5
+00:00:33,400 --> 00:00:38,066
+example, why was "for all strings x, the length of x is positive" false? It was because we found a single example of a string that showed us 
+
+6
+00:00:38,066 --> 00:00:44,866
+that *not all* strings have a positive length. That's called a *counterexample* --- an example that proves a universally quantified 
+
+7
+00:00:44,866 --> 00:00:52,532
+statement is false. Universally quantified statements can be shown to be false by producing just one counterexample. 
+ 
+
+8
+00:00:52,533 --> 00:01:02,866
+We can phrase this fact using negations. If you take the universally quantified statement "for all x, P(x)" and negate it, it is a claim that P(x) is 
+
+9
+00:01:02,866 --> 00:01:12,666
+not universally true, or not *always* true. What does it mean when a statement is not always true? It *doesn't* mean that the statement is 
+
+10
+00:01:12,666 --> 00:01:23,832
+always false. For example the statement "All cars are red" is not  true. But this doesn't mean that *no* cars are red --- that no red cars exist. 
+
+11
+00:01:23,833 --> 00:01:31,766
+It just means that not all cars are red, or that there are cars that exist and are not red. 
+ 
+
+12
+00:01:31,766 --> 00:01:39,532
+So a when a univerally quantified statement, something of the form "for all x, P(x) is true" is negated, we are saying that P(x) is 
+
+13
+00:01:39,533 --> 00:01:50,699
+*sometimes* false. Or put differently, there exists an x that makes negation of P(x) true. We can put that in notation by saying: The 
+
+14
+00:01:50,700 --> 00:02:02,700
+negation of "for all x, P(x)" is "there exists an x such that 'not P(x)'". So the negation of a universally quantified predicate is the 
+
+15
+00:02:02,700 --> 00:02:08,533
+existential quantification of the negation of the predicate. 
+
+16
+00:02:08,533 --> 00:02:16,899
+Likewise, look at the existentially quantified predicates that are false, like the one you did in the last video, S(x) is the absolute value of x is 
+
+17
+00:02:16,900 --> 00:02:26,733
+negative. If we existentially quantify that predicate to get "there exists an x such that the absolute value of x is negative", that's a false 
+
+18
+00:02:26,733 --> 00:02:35,233
+statement because we know from basic math than the absolute value of x is never negative --- that is, the absolute value of x is always zero 
+
+19
+00:02:35,233 --> 00:02:43,333
+or positive. This sounds like a universal statement, doesn't it? In fact, what we see from this example is that the negation of "there 
+
+20
+00:02:43,333 --> 00:02:55,533
+exists an x such that P(x)" is "for all x, not P(x)". So negating an existentially quantified statement gives a universally quantified 
+
+21
+00:02:55,533 --> 00:02:58,466
+statement. 
+ 
+
+22
+00:02:58,466 --> 00:03:07,766
+Here's one more example to put it all together. Look at the predicate C(x) where the domain is the set of all countries on Earth, and C(x) says 
+
+23
+00:03:07,766 --> 00:03:19,066
+"the first letter of x is B". Pause the video while you do the following: First, write out in English or whatever language you prefer what the 
+
+24
+00:03:19,066 --> 00:03:29,666
+statements "for all x C(x)" and "there exists an x such that C(x)" would say in plain language. Then, determine whether those statements are 
+
+25
+00:03:29,666 --> 00:03:39,232
+true, or false. Then, write out their negations in plain language and determine whether those are true or false. Come on back here when you 
+
+26
+00:03:39,233 --> 00:03:42,466
+are ready. 
+ 
+
+27
+00:03:42,466 --> 00:03:50,499
+The universally quantified statement would say that Every country begins with the letter B. The existentially quantified statement would say that 
+
+28
+00:03:50,500 --> 00:03:58,766
+At least one country begins with the letter B. There are other possible ways to say either of these. But when you put it this way, it's clear 
+
+29
+00:03:58,766 --> 00:04:08,499
+that "For all x C(x)" is false, again because there are lots of counterexamples possible, for example France. And "There exists x such that 
+
+30
+00:04:08,500 --> 00:04:16,066
+C(x)" is true, because there do exist countries beginning with a B, like Belize or Belarus. 
+ 
+
+31
+00:04:16,066 --> 00:04:26,399
+The negation of "for all x C(x)" would be "There exists x such that not C(x)" which in plainer language would be "There exists a country 
+
+32
+00:04:26,400 --> 00:04:33,533
+whose name doesn't begin with a B". And that's certainly true, in fact this statement is just saying that it's possible to find a 
+
+33
+00:04:33,533 --> 00:04:43,099
+counterexample to the original universal statement. The negation of "there exists an x such that C(x)" is the universal statement "for 
+
+34
+00:04:43,100 --> 00:04:53,733
+all x, not C(x)" or in other words, For every on Earth, the name of the country does not begin with a B. That is a false statement, and we 
+
+35
+00:04:53,733 --> 00:05:01,266
+know it because that's a universal statement but there's a counterexample -- Belize, or Belarus. This makes sense because the 
+
+36
+00:05:01,266 --> 00:05:09,799
+negation of a proposition should have the opposite truth value. The universal statement was false so its negation should be true, and 
+
+37
+00:05:09,800 --> 00:05:15,366
+the existential statement was true so its negation should be false. 
+ 
+
+38
+00:05:15,366 --> 00:05:22,566
+You've learned in this video that the negation of a universally quantified statement is an existentially quantified statement using the 
+
+39
+00:05:22,566 --> 00:05:31,532
+negation of the original predicate. And likewise, the negation of an existentially quantified statement is a universally quantified statement 
+
+40
+00:05:31,533 --> 00:05:39,566
+using the negation of the original predicate. There's just one more topic to touch on here, and that's how quantification works when you 
+
+41
+00:05:39,566 --> 00:05:43,066
+have more than one variable. So stick around. 
+

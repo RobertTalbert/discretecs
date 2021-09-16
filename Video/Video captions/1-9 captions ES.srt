@@ -1,0 +1,151 @@
+1
+00:00:00,000 --> 00:00:07,033
+En este video volvemos al binario, para cubrir un cabo suelto que no hemos discutido. Esa es la cuestión de cómo representar lo negativo.
+
+2
+00:00:07,033 --> 00:00:11,899
+números. Todos los números enteros con los que hemos trabajado hasta ahora han sido cero o positivos.
+
+3
+00:00:11,900 --> 00:00:16,866
+¿Puedes siquiera representar un número negativo en binario? ¿Si es así, cómo?
+
+4
+00:00:16,866 --> 00:00:25,466
+Pensemos cómo podríamos abordar ese problema, con un ejemplo. Sabemos que el entero decimal 9 se representa 1001 en binario.
+
+5
+00:00:25,466 --> 00:00:34,032
+¿Cómo podríamos representar -9? No podemos simplemente poner un signo menos en 1001 porque las computadoras no sabrán qué hacer con él; solo
+
+6
+00:00:34,033 --> 00:00:43,233
+reconocer 0 y 1 y ningún otro símbolo. Un enfoque sería cambiar la forma en que hacemos la representación binaria en primer lugar por
+
+7
+00:00:43,233 --> 00:00:54,166
+agregando un poco al final de cada número que contenga información sobre su signo. Por ejemplo, podríamos tomar 1001 y convertirlo en 01001 si
+
+8
+00:00:54,166 --> 00:01:04,232
+significa positivo 9 y 11001 si queremos decir negativo 9. Eso ciertamente distinguiría 9 de -9. Pero antes que nada haría -9
+
+9
+00:01:04,233 --> 00:01:12,566
+indistinguible de 25 en binario, y peor aún, estropearía la forma en que hacemos aritmética, porque si agregamos estos dos
+
+10
+00:01:12,566 --> 00:01:18,732
+juntos deberíamos obtener 0, pero en su lugar obtenemos esto, que definitivamente NO es cero.
+
+11
+00:01:18,733 --> 00:01:25,633
+Así que tendríamos que rehacer por completo todos los algoritmos de aritmética, lo que parece mucho trabajo.
+
+12
+00:01:25,633 --> 00:01:34,599
+Pero no es una idea terrible agregar un poco a un número para indicar su signo. Solo tenemos que hacerlo de una manera que lo haga viable con todas las
+
+13
+00:01:34,600 --> 00:01:39,100
+aritmética que hemos visto. Resulta que hay varias formas de hacer esto en informática,
+
+14
+00:01:39,100 --> 00:01:43,666
+pero el más común se llama "complemento a dos".
+
+15
+00:01:43,666 --> 00:01:52,332
+Aquí está el proceso de cómo escribir un número entero negativo en binario usando el complemento a dos. Para empezar, primero tenemos que predefinir el número de
+
+16
+00:01:52,333 --> 00:02:01,866
+bits utilizados para representar cualquier número entero. Esto está integrado en las opciones de hardware de las computadoras, por ejemplo, cuando oye hablar de "64 bits" o "32 bits".
+
+17
+00:02:01,866 --> 00:02:10,332
+sistema operativo, significa que el sistema está diseñado para manejar fragmentos de datos de ese tamaño --- 64 bits a la vez o 32 bits a la vez.
+
+18
+00:02:10,333 --> 00:02:24,333
+En un sistema de 8 bits, la información se manejaría de 8 bits a la vez, por lo que en ese caso el número 9 no sería 1001 sino 0000 1001.
+
+19
+00:02:24,333 --> 00:02:32,533
+El número más grande que puede manejar un sistema de 8 bits es 1111 1111, que es 255 en decimal.
+
+20
+00:02:32,533 --> 00:02:39,133
+Once we know the number of bits used to represent an integer, here's how to represent a negative number using two's complement.
+
+21
+00:02:39,133 --> 00:02:53,566
+Start with the positive version of that number. For example we saw 9 is 0000 1001. Then first invert or flip all the bits, from 0 to 1 and 1 to 0.
+
+22
+00:02:53,566 --> 00:03:03,766
+Then add 1 to this. The result is the two's complement binary representation of the number.
+
+23
+00:03:03,766 --> 00:03:24,566
+For example we saw +9 is 0000 1001. To represent -9, first flip the bits to 1111 0110. Then add 1 to get 1111 0111. That's -9.
+
+24
+00:03:24,566 --> 00:03:34,732
+Notice that when we add these two, we do not actually get 0 like you might expect. Instead we get 2^9. But since we are in an 8-bit system,
+
+25
+00:03:34,733 --> 00:03:41,733
+this truncates to 0. Thanks to the 8-bit system therefore we end up with 0, as we should.
+
+26
+00:03:41,733 --> 00:03:47,433
+This makes two's complement consistent with the rules of addition we already have.
+
+27
+00:03:47,433 --> 00:04:03,366
+You do the next example first, using the 8-bit integer 199. In binary this is 1100 0110. Follow the steps to write -199 in two's complement
+
+28
+00:04:03,366 --> 00:04:10,332
+form. Pause the video and work that out, and again don't worry about mistakes.
+
+29
+00:04:10,333 --> 00:04:37,233
+So to get -199, first flip the bits on 199 to get 0011 1001. Then add 1: 0011 1010. That's -198. You can check if you want by adding
+
+30
+00:04:37,233 --> 00:04:48,566
+these two binaries together, and you'll see that you again get 2^9, which in an 8-bit system is 0, which is what you are supposed to get.
+
+31
+00:04:48,566 --> 00:04:56,299
+Why is this method is called "two's complement"? Well, the "two" comes from the fact that we are in base 2. THe "complement"
+
+32
+00:04:56,300 --> 00:05:07,600
+comes from the bit flipping. As we'll explore in a later module on logic, flipping bits like this is akin to changing from off to on or vice versa, or
+
+33
+00:05:07,600 --> 00:05:17,366
+more accurately it's like changing from "true" to "false" or vice versa. The opposite of a truth value is called its "complement" in mathematics
+
+34
+00:05:17,366 --> 00:05:28,999
+and that's the first step in the process. And as the examples we saw hint at, when we add a number x to its opposite -x, we'll get 2^(n+1)
+
+35
+00:05:29,000 --> 00:05:35,466
+if we are in an n-bit system, so the x and -x are "complementary" in that sense.
+
+36
+00:05:35,466 --> 00:05:41,132
+In this video you learned how to represent negative inegers using two's complement, which is a way of writing negative numbers that
+
+37
+00:05:41,133 --> 00:05:48,499
+works with the binary arithmetic we've seen throughout this module. That's the end of this module on integer representation, so
+
+38
+00:05:48,500 --> 00:05:57,066
+congratulations! Next we'll explore the world of logic and see how computers use logic to operate.

@@ -1,0 +1,195 @@
+﻿1
+00:00:00,000 --> 00:00:08,566
+So far in this module we've learned about sets and the different ways to notate and build sets. We're going to return in this video to the idea of 
+
+2
+00:00:08,566 --> 00:00:15,599
+elements and what it means for an object to be an element of a set. This will be very important as we start looking at more advanced 
+
+3
+00:00:15,600 --> 00:00:23,800
+operations to perform on sets, so although set membership is a simple idea it's important that we completely master it, regardless of the 
+
+4
+00:00:23,800 --> 00:00:33,266
+notation given. The basic question we're going to address in this video, is *how can you tell if an object is an element of a given set?* 
+ 
+
+5
+00:00:33,266 --> 00:00:43,099
+If the set is finite and given in roster notation, it's easy: All the elements are explicitly listed, so you just look to see if the given object is on 
+
+6
+00:00:43,100 --> 00:00:51,400
+the list or not. For example in the set {A,B,C,D,E,F}, C is an element of the set and G is not. 
+ 
+
+7
+00:00:51,400 --> 00:00:59,700
+If the set is *infinite* and given in roster notation, then not all elements of the set are listed, nor can they be. So if you are given an 
+
+8
+00:00:59,700 --> 00:01:08,433
+object and you're trying to determine if it's in the set, if it's listed then you know that the answer is yes. But if it isn't listed, you have to 
+
+9
+00:01:08,433 --> 00:01:20,733
+identify the pattern. For example look at the set S = {10, 21, ...} This is an infinite set and the dots at the end are supposed to indicate a 
+
+10
+00:01:20,733 --> 00:01:29,133
+continuing pattern, but what is it? We can clearly see that 21 is an element of the set because it's actually there in the list. But what 
+
+11
+00:01:29,133 --> 00:01:30,999
+other numbers are supposed to be included? 
+ 
+
+12
+00:01:31,000 --> 00:01:41,733
+Is the number 65 in this set? If you believe that the pattern is that every number in this set is 11 more than the one before it, then yes, 65 is in 
+
+13
+00:01:41,733 --> 00:01:49,599
+the set. But here's another pattern that generates 10 and 21 but 65 is not in the set.  
+ 
+
+14
+00:01:49,600 --> 00:01:58,333
+In fact if you write out the first few numbers in a sequence, you can to to the Online Encyclopedia of Integer Sequences and find a 
+
+15
+00:01:58,333 --> 00:02:07,799
+whole host of sets of numbers that contain that list. So there are many, many infinite lists of numbers that fit a pattern. Some include 65 
+
+16
+00:02:07,800 --> 00:02:15,633
+and others don't. Determining whether an object is in an infinite set given in roster notation comes down to whether you and I 
+
+17
+00:02:15,633 --> 00:02:22,266
+have some consensus on the pattern indicated in the set. This can be misleading! 
+ 
+
+18
+00:02:22,266 --> 00:02:29,999
+That's a very good reason why set-builder notation is usually preferable in these situations. Set builder notation doesn't leave 
+
+19
+00:02:30,000 --> 00:02:38,400
+the pattern up to a guess, it starts with the pattern and builds the set around it. So for example in this set, the set of all natural 
+
+20
+00:02:38,400 --> 00:02:50,433
+numbers that are 10 mod 11, we can easily see that 65 belongs to this set because we just use the predicate, n mod 11 equals 10, and apply it 
+
+21
+00:02:50,433 --> 00:03:06,399
+to the object in question. 65 mod 11 does equal 10, and so 65 is in this set. 33 mod 11 on the other hand is 0, not 10, so it does not belong to 
+
+22
+00:03:06,400 --> 00:03:07,800
+this set. 
+ 
+
+23
+00:03:07,800 --> 00:03:17,233
+It's also easy to see that -1 does not belong to this set because although -1 mod 11 is 10, -1 does not belong to the initial set that we are 
+
+24
+00:03:17,233 --> 00:03:24,133
+filtering. So if it's not in the initial set, it's not going to belong to any filtered-out version of that set. 
+ 
+
+25
+00:03:24,133 --> 00:03:33,899
+Basic idea here is that in the "filtering" version of set builder notation, an object will belong to that set if it's in the initial pre-filtered set, and if 
+
+26
+00:03:33,900 --> 00:03:39,200
+the object also makes the predicate true, that is, if it meets the membership requirements. 
+
+27
+00:03:39,200 --> 00:03:44,500
+If it fails either of those two, the object is not in the set. 
+ 
+
+28
+00:03:44,500 --> 00:03:51,933
+Remember there's another form of set-builder notation where we don't start with a set and filter things out but start with a computation and 
+
+29
+00:03:51,933 --> 00:04:05,266
+map it over a set. For example { x**3 : x in {0,1,2,3}} is the set we get by taking the elements in {0,1,2,3} and mapping the cube 
+
+30
+00:04:05,266 --> 00:04:16,766
+operation over that set. This is a finite set so it's pretty easy just to generate the roster notation for it and see that the elements are 0, 1, 8, and 
+
+31
+00:04:16,766 --> 00:04:30,599
+27. If this were an infinite set, like {x^3 : x in N} then it's a little harder. Is the number 100 in this set, for instance? Well, then we would have to 
+
+32
+00:04:30,600 --> 00:04:38,966
+ask: Does there exist a natural number whose cube is 100? Is there a natural number x I could plug in to the operation I am mapping 
+
+33
+00:04:38,966 --> 00:04:51,299
+that gives me 100? So it involves working backwards. In this case, while x^3 = 100 does actually have a solution, the solution is not a 
+
+34
+00:04:51,300 --> 00:04:57,433
+natural number and so the answer is that 100 does not belong to the set. 
+ 
+
+35
+00:04:57,433 --> 00:05:03,499
+What about a set that is just a random collection of objects? Like for example this set. [0, 1/2, {1,2,3}, "hello", emoji] What are the 
+
+36
+00:05:03,500 --> 00:05:13,966
+elements of this set? It's given in roster notation so we can list them: the numbers 0 and 1/2, the set {1,2,3}, the string "hello", and 
+
+37
+00:05:13,966 --> 00:05:24,666
+an emoji. That's *five* elements. It's easy to see that 0 and 1/2 are elements of this set and for example 5 is not. But it also gets a little 
+
+38
+00:05:24,666 --> 00:05:37,766
+weird. For example 2 is NOT an element of this set. Although we see the number 2 "in" the set, it's not one of the elements. On the other hand 
+
+39
+00:05:37,766 --> 00:05:47,699
+the set {1,2,3} is a element of this set. We can have sets whose elements are other sets --- back to the box metaphor, we can have boxes 
+
+40
+00:05:47,700 --> 00:05:57,600
+whose contents are other boxes. The string "hello" is also an element of this set but the substring "he" is not because that substring is 
+
+41
+00:05:57,600 --> 00:06:07,900
+not in the list of elements. The takeaway here is that just because we see an object inside a set somewhere does not mean that that object 
+
+42
+00:06:07,900 --> 00:06:16,566
+is actually an element of the set. The roster notation of this random looking set tells you exactly what is an element and what is not. 
+ 
+
+43
+00:06:16,566 --> 00:06:25,466
+In this video we dug deeper into the idea of what an "element" of a set looks like and how to determine if an object is an element of a set 
+
+44
+00:06:25,466 --> 00:06:32,932
+or not. It can be trickier than it appears at first, but in roster notation we take the list of elements literally to determine membership, 
+
+45
+00:06:32,933 --> 00:06:38,666
+and in set-builder notation we use the rules for building the set to guide us. 
+ 
+
+46
+00:06:38,666 --> 00:06:46,966
+In the next video, we're going to use these concepts to discuss the concept of a subset, and to determine whether two sets are equal.
+

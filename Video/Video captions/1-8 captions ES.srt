@@ -1,0 +1,271 @@
+1
+00:00:00,000 --> 00:00:06,866
+En los últimos videos, nos hemos centrado en los números enteros en binario. Sin embargo, para este video, cambiaremos el enfoque de nuevo a decimal para intentar
+
+2
+00:00:06,866 --> 00:00:15,032
+entender más acerca de la división. Comencemos con una pregunta simple. En el momento en que estoy haciendo este video, son las 10 de la mañana. Qué hora
+
+3
+00:00:15,033 --> 00:00:23,466
+¿serán dentro de 100 horas? Pausa el video y mira si puedes responder esa pregunta. Si no puede resolverlo, está bien, solo pruébelo
+
+4
+00:00:23,466 --> 00:00:28,732
+y vea qué tipo de trucos o métodos se le ocurren.
+
+5
+00:00:28,733 --> 00:00:37,099
+Aquí hay una forma de pensar en esta pregunta. Dentro de 24 horas, volverán a ser las 10:00 a. M., Por lo que cada 24 horas pasa el tiempo del
+
+6
+00:00:37,100 --> 00:00:48,266
+el reloj es el mismo. ¿Cuántos incrementos de 24 horas ocurren en el espacio de 100 horas? Un día son 24 horas; dos son 48; tres son 72; y
+
+7
+00:00:48,266 --> 00:01:00,899
+cuatro serían 96. Si avanzara un día más, serían más de 100 horas, así que detente. 100 horas son cuatro días completos más 4 horas extra. Es
+
+8
+00:01:00,900 --> 00:01:14,000
+realmente solo las 4 horas extra que importan aquí. En 96 horas todavía serán las 10:00 am; en 100 horas serán cuatro horas después de eso, o 2 pm.
+
+9
+00:01:14,000 --> 00:01:20,766
+¿Qué tiene esto que ver con la división, preguntas? Bueno, cuando dividimos un entero en otro, no estamos realizando un misterioso
+
+10
+00:01:20,766 --> 00:01:29,666
+algoritmo --- en realidad estamos haciendo algo muy simple que los niños hacen todo el tiempo. Mira, por ejemplo, el problema 22 dividido por 3. ¿Qué
+
+11
+00:01:29,666 --> 00:01:40,299
+esta pregunta es realmente: ** ¿Cuántos grupos de 3 puedo hacer de 22 cosas, y cuántas de esas cosas quedarían fuera de un grupo? ** En
+
+12
+00:01:40,300 --> 00:01:45,433
+En este caso, puede tomar 22 elementos y agruparlos en 7 grupos de 3, y quedaría 1. Entonces decimos que 3 "entra" 22 7
+
+13
+00:01:45,433 --> 00:01:50,599
+veces
+
+14
+00:01:50,600 --> 00:02:00,233
+con un "resto" de 1. El cociente 7 es el número de grupos; el 1 es el número de elementos que no entran en un grupo.
+
+15
+00:02:00,233 --> 00:02:09,266
+Entonces, cuando preguntamos qué hora sería dentro de 100 horas, lo pensamos preguntando, ¿cuántos grupos de 24 horas podemos distinguir?
+
+16
+00:02:09,266 --> 00:02:17,799
+de 100, y ¿cuántas horas quedarían? La respuesta fue que podemos hacer 4 grupos, y quedan 4 horas. En otra
+
+17
+00:02:17,800 --> 00:02:25,100
+palabras, resolvimos el problema simplemente dividiendo 100 entre 24 y centrándonos en el resto.
+
+18
+00:02:25,100 --> 00:02:33,166
+Observe que la división, en esta forma de pensar, en realidad no es una operación separada en absoluto, sino solo una combinación de multiplicación y
+
+19
+00:02:33,166 --> 00:02:41,066
+adición. Cuando dividimos un número por otro, nos preguntamos cuántas veces, literalmente "veces", necesitamos agrupar y luego
+
+20
+00:02:41,066 --> 00:02:49,099
+agregue las sobras. Y observe que el sobrante tiene que ser más pequeño por lo que estamos dividiendo --- si fuera más grande, entonces podríamos
+
+21
+00:02:49,100 --> 00:02:50,700
+solo forma otro grupo.
+
+22
+00:02:50,700 --> 00:02:59,600
+La forma exacta de expresar esta idea de que la división es solo multiplicación y suma juntas, es en un hecho matemático conocido como el
+
+23
+00:02:59,600 --> 00:03:02,133
+Algoritmo de división. Afirma:
+
+24
+00:03:02,133 --> 00:03:12,999
+Dados cualesquiera dos enteros ayb con un valor distinto de cero, existen enteros únicos qyr tales que b = aq + r,
+
+25
+00:03:13,000 --> 00:03:21,066
+y r satisface la desigualdad 0 es menor o igual que r que es menor que a.
+
+26
+00:03:21,066 --> 00:03:28,766
+Podemos ver esto en los ejemplos que hicimos anteriormente. Esta forma de pensar sobre la división es extremadamente poderosa, especialmente en informática, ya que
+
+27
+00:03:28,766 --> 00:03:36,299
+significa que la división no requiere nuevas operaciones, solo la multiplicación y la suma, que las computadoras hacen muy bien.
+
+28
+00:03:36,300 --> 00:03:43,300
+There's some mathematical language in the Division Algorithm that needs unpacking. First of all notice that like an algorithm there is input ---
+
+29
+00:03:43,300 --> 00:03:52,933
+two integers which we call a and b and we stipulate that a doesn't equal 0. Then there is output -- two integers we call q and r. Here "q"
+
+30
+00:03:52,933 --> 00:04:02,599
+stands for quotient and "r" means remainder. The Division Algorithm states three facts about q and r. First it says they exist; regardless of
+
+31
+00:04:02,600 --> 00:04:10,800
+the integers, as long as we aren't dividing by 0 there will always be a quotient and a remainder. This is like the requirement of any
+
+32
+00:04:10,800 --> 00:04:20,000
+algorithm that as long as the input is valid, the algorithm should produce a valid result. Then it says that the quotient and remainder are
+
+33
+00:04:20,000 --> 00:04:27,566
+unique --- meaning that there's only one pair that will result from the division process. It wouldn't be a very good algorithm if one set of
+
+34
+00:04:27,566 --> 00:04:37,399
+inputs produced one set of outputs one time and another a different time. Then finally, it places a size restriction on the remainder --- it
+
+35
+00:04:37,400 --> 00:04:43,266
+could be as small as 0 but must be less than the thing we divide by.
+
+36
+00:04:43,266 --> 00:04:51,366
+Let's actually think about why the Division Algorithm works. Let's say that b is bigger than a, so we have a bunch of things whose precise
+
+37
+00:04:51,366 --> 00:05:00,766
+number is "b" that we want to package into groups of size "a". Let q be the number of groups and r the number of items left
+
+38
+00:05:00,766 --> 00:05:13,366
+unpackaged. Start a process with q = 1. This packages up a of the items, but there are a lot left over. In fact there are b - a of the items left
+
+39
+00:05:13,366 --> 00:05:25,232
+over. So increment q to 2, which leaves b - 2a left over and notice that b - 2a, while still nonnegative, is less than b - a because you are
+
+40
+00:05:25,233 --> 00:05:35,699
+subtracting a larger amount from b. Every time you make a new package you increase q by 1, and you are removing "a" of the items, which
+
+41
+00:05:35,700 --> 00:05:45,500
+decreases r while still keeping it nonnegative. Since the sequence of "r" values is strictly decreasing and consists only of nonnegative
+
+42
+00:05:45,500 --> 00:05:52,566
+numbers, at some point, you are going to reach a point where you cannot package up any more of the items because the r is as small as
+
+43
+00:05:52,566 --> 00:06:03,366
+it can get. In other words we know that regardless of what we start with, as long as a is not 0, this algorithm will always terminate.
+
+44
+00:06:03,366 --> 00:06:18,599
+When it does, notice you have r = b - aq, which in other words is b = aq + r and r satisfies the inequality 0 <= r < a because if r were bigger
+
+45
+00:06:18,600 --> 00:06:27,400
+than a, we would just make another package. The q is our quotient and r is the remainder.
+
+46
+00:06:27,400 --> 00:06:33,600
+We'll skip explaining why these two numbers are "unique" but you're encouraged to think about what would happen if you had two
+
+47
+00:06:33,600 --> 00:06:41,833
+different values of q and two different values of r that produced the same packaging that the algorithm does.
+
+48
+00:06:41,833 --> 00:06:49,899
+So what the Division Algorithm says basically is that integer division is more or less just repeated subtraction. We start with a number
+
+49
+00:06:49,900 --> 00:06:58,266
+we are dividing and a number we are dividing by, and start subtracting off the second number over and over until we can't do it anymore
+
+50
+00:06:58,266 --> 00:07:05,832
+without entering negative territory. And that's why long division works! When we do long division, all we are doing is subtraction in
+
+51
+00:07:05,833 --> 00:07:13,399
+fragmentos --- primero viendo cuántas veces podemos restar del lugar más grande, luego restando eso y viendo cuántas veces
+
+52
+00:07:13,400 --> 00:07:20,366
+podemos restar del siguiente lugar más grande, y así sucesivamente hasta que no se pueda hacer más resta.
+
+53
+00:07:20,366 --> 00:07:27,466
+Entonces, el algoritmo de división es una forma matemáticamente precisa de expresar cómo hacemos una división larga, sin hacer realmente ninguna
+
+54
+00:07:27,466 --> 00:07:34,766
+división. Aquí también hay una aplicación importante para una operación que también es crítica para las aplicaciones informáticas modernas. Ese
+
+55
+00:07:34,766 --> 00:07:43,699
+La operación se llama operación ** módulo ***. Probablemente no aprendiste esto en la escuela, pero es simple y muy útil. A menudo usamos el
+
+56
+00:07:43,700 --> 00:07:47,333
+símbolo de porcentaje '%' para indicarlo. Así es como funciona:
+
+57
+00:07:47,333 --> 00:08:00,799
+Dados dos enteros `a` y` b` con a no igual a 0, `b% a` que leemos" b mod a "es el resto que queda cuando se divide b por a.
+
+58
+00:08:00,800 --> 00:08:12,700
+Por ejemplo: 37% 10 es 7, porque 37 dividido entre 10 es 3 con resto 7. Y 100% 24 es 4, porque como vimos anteriormente
+
+59
+00:08:12,700 --> 00:08:25,633
+24 entra en 100 4 veces con un resto de 4. De manera similar, 22% 3 es 1 porque 3 entra en 22 7 veces con resto 1.
+
+60
+00:08:25,633 --> 00:08:33,799
+Una nota técnica en este punto: la forma en que definimos el operador de módulo aquí, como el resto que queda después de la división, solo
+
+61
+00:08:33,800 --> 00:08:42,300
+tiene sentido si ni a ni b son negativos. Si uno de estos es negativo, la división larga no se define de la misma manera que cuando son
+
+62
+00:08:42,300 --> 00:08:50,133
+positivo. Esta es una falla en nuestra definición del operador de módulo que arreglaremos más adelante. Sin embargo, vamos a mantenerlo simple por ahora e ir
+
+63
+00:08:50,133 --> 00:08:57,433
+sobre trabajar solo con números positivos, aunque no excluimos la b de ser cero.
+
+64
+00:08:57,433 --> 00:09:05,066
+El operador de módulo tiene miles de usos, incluidos los cálculos de fecha y hora como con los que comenzamos este video y, por ejemplo, es un
+
+65
+00:09:05,066 --> 00:09:09,899
+herramienta central en métodos criptográficos que aseguran sus datos.
+
+66
+00:09:09,900 --> 00:09:18,000
+Entonces, en este video aprendiste que la división se puede considerar como una resta repetida, y esta noción culmina en el algoritmo de división, y
+
+67
+00:09:18,000 --> 00:09:25,300
+también aprendió sobre el operador de módulo y cómo funciona. Solo queda un video en este módulo, y eso nos devuelve al binario.
+
+68
+00:09:25,300 --> 00:09:29,700
+pensar en cómo se representan los números negativos.

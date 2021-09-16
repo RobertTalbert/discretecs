@@ -1,0 +1,199 @@
+﻿1
+00:00:00,000 --> 00:00:07,300
+In the last video we learned about truth tables and how they can be used to determine if two statements are logically equivalent. In this 
+
+2
+00:00:07,300 --> 00:00:14,066
+video we're going to extend that idea to think about how to construct a truth table for a proposition that has a more complicated 
+
+3
+00:00:14,066 --> 00:00:16,766
+structure than just a basic connective. 
+ 
+
+4
+00:00:16,766 --> 00:00:27,399
+We ended that video wondering about If P, then Q and its contrapositive which is If not Q  then not P. Let's build a truth table for that 
+
+5
+00:00:27,400 --> 00:00:35,500
+contrapositive and see if it's really logically equivalent to the original. Making this truth table is going to be harder this time because 
+
+6
+00:00:35,500 --> 00:00:43,600
+more is happening in the contrapositive than just switching the hypothesis and conclusion. There are two intermediate steps: First we 
+
+7
+00:00:43,600 --> 00:00:51,666
+negate the hypothesis and then we negate the conclusion and then we switch them. In order to keep careful track of what's happening, in 
+
+8
+00:00:51,666 --> 00:01:00,099
+the truth table for the contrapositive I'm going to create columns for the atomic statements P and Q, and a column for the final proposition if 
+
+9
+00:01:00,100 --> 00:01:04,566
+not Q then not P, but I am also going to create two other columns, 
+
+10
+00:01:04,566 --> 00:01:11,266
+one for each of the intermediate steps, negating P and negating Q. 
+ 
+
+11
+00:01:11,266 --> 00:01:18,932
+Just as in the last video, I'll make one row for each of the combinations of truth values of the inputs. I'll put these in the same order as we 
+
+12
+00:01:18,933 --> 00:01:29,766
+did then. Next, rather than look directly at the final proposition, I'll do the intermediate steps first. In the column for not P, I'm just looking at 
+
+13
+00:01:29,766 --> 00:01:38,499
+the truth value for P and putting down its opposite. And then I'll do the same in the column for not Q. 
+ 
+
+14
+00:01:38,500 --> 00:01:46,300
+And now I'm looking at the contrapositive. This has "not Q" as the hypothesis and "not P" as the conclusion. Remembering that a 
+
+15
+00:01:46,300 --> 00:01:55,933
+conditional statement is true in all cases except where the hypothesis (which this time is "not Q") is true but the conclusion (which is 
+
+16
+00:01:55,933 --> 00:02:06,899
+"not P" this time) is false, I can see that the final proposition is false in this row, where again not Q is true but not P is false. In all 
+
+17
+00:02:06,900 --> 00:02:11,066
+other rows, either the hypothesis is false (as in rows 1 and 3) 
+
+18
+00:02:11,066 --> 00:02:18,699
+or both hypothesis and conclusion are true (in row 4) so those result in TRUE. 
+ 
+
+19
+00:02:18,700 --> 00:02:26,466
+Now looking back at the truth table for If P then Q, I can see that the outputs are the same in each possible combination of truth values. 
+
+20
+00:02:26,466 --> 00:02:32,299
+That means every conditional statement is logically equivalent to its contrapositive. 
+ 
+
+21
+00:02:32,300 --> 00:02:39,800
+So, making a truth table for a complex proposition is a little like doing an arithmetic calculation with a lot of parentheses and 
+
+22
+00:02:39,800 --> 00:02:49,633
+operations. In this calculation here for example, we'd use natural order of operations to do the computations in parentheses first, 
+
+23
+00:02:49,633 --> 00:02:58,233
+then exponents, then multiplication, and finally the addition. We build up the computation from the lowest level gradually to the highest level. 
+
+24
+00:02:58,233 --> 00:03:05,466
+Similarly when making a truth table for a proposition with a lot of parts, we work from the lowest level and gradually assemble the 
+
+25
+00:03:05,466 --> 00:03:11,799
+entire proposition, using separate columns in the truth table to keep track of the intermediate steps. 
+ 
+
+26
+00:03:11,800 --> 00:03:21,200
+Let's look at another example: (not P) or Q. Let's set up the rows and columns of the truth table. First there's two columns for the input 
+
+27
+00:03:21,200 --> 00:03:30,266
+variables P and Q. Now building from the lowest level up, I'll need a column for "not P", then a column for the final statement 
+
+28
+00:03:30,266 --> 00:03:40,066
+(not P) or Q. Pause the video here and see if you can fill in the rest of the truth table. 
+ 
+
+29
+00:03:40,066 --> 00:03:50,766
+We put in four rows for the combinations of truth values of two variables, like so. We fill in the truth table from the lowest level first. That's 
+
+30
+00:03:50,766 --> 00:03:59,466
+"not P", which is just the opposite of whatever truth value P has. Now to get that last column, we remember that a disjunction is true when 
+
+31
+00:03:59,466 --> 00:04:10,499
+one or both of the parts is true. That means we should put false here, in row 2, and true everywhere else. So here's the final result. 
+ 
+
+32
+00:04:10,500 --> 00:04:19,333
+If that looks familiar, then you're paying attention, because this is the same truth table as if P, then Q. That means that If P then Q is 
+
+33
+00:04:19,333 --> 00:04:28,499
+logically equivalent to (Not P) or Q. And that's why when we looked at logic gates earlier, we didn't see one for a conditional statement --- 
+
+34
+00:04:28,500 --> 00:04:36,466
+it's because we didn't need one. We can just chain together the logic gate for NOT with the logic gate for OR. 
+ 
+
+35
+00:04:36,466 --> 00:04:42,466
+Now let's look at one more example. You might have wondered in the last example whether the parentheses around "not P" were 
+
+36
+00:04:42,466 --> 00:04:53,099
+necessary. Well, if you leave them off, you get this, which might be interpreted as not (P or Q), that is the negation of the entire statement 
+
+37
+00:04:53,100 --> 00:05:06,733
+"P or Q". Is that statement logically equivalent to (not P) or Q? Pause the video and make a truth table for not (P or Q) and find out. 
+ 
+
+38
+00:05:06,733 --> 00:05:13,733
+To set up the truth table, as always we'll include two columns for the input variables. This time there's still an intermediate step, but 
+
+39
+00:05:13,733 --> 00:05:24,233
+it's to form P or Q first. Then the final step is to negate the statement P or Q. As before, there are two inputs so that's four combinations of 
+
+40
+00:05:24,233 --> 00:05:34,999
+truth values, and we'll put those in as we've been doing. Now let's work from the bottom up. First look at P or Q. This will have a FALSE 
+
+41
+00:05:35,000 --> 00:05:44,800
+here, in row 4, and TRUE elsewhere. Now in the final column, we are negating all that, so we simply flip the truth values to get False, 
+
+42
+00:05:44,800 --> 00:05:55,166
+False, False, True. That's a complete and correct truth table. And you'll notice it's definitely not the same as the truth table for 
+
+43
+00:05:55,166 --> 00:06:03,966
+(not P) or Q, so those two statements are not logically equivalent. Which tells us that parentheses do matter here. 
+ 
+
+44
+00:06:03,966 --> 00:06:10,766
+In this video and in the last one, you learned how to make a truth table for a logical proposition with two atomic inputs, even when 
+
+45
+00:06:10,766 --> 00:06:18,532
+there are intermediate steps involved, and how to use those truth tables to determine logical equivalence of propositions. The next video is 
+
+46
+00:06:18,533 --> 00:06:25,699
+one more look at truth tables, and we'll raise the level of complexity to look at propositions with multiple intermediate steps as well as 
+
+47
+00:06:25,700 --> 00:06:29,800
+those with three and even four input variables. 
+

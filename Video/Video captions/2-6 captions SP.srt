@@ -1,0 +1,187 @@
+1
+00:00:00,000 --> 00:00:07,300
+En el último video aprendimos sobre las tablas de verdad y cómo se pueden usar para determinar si dos declaraciones son lógicamente equivalentes. En esto
+
+2
+00:00:07,300 --> 00:00:14,066
+En el vídeo vamos a ampliar esa idea para pensar en cómo construir una tabla de verdad para una proposición que tiene un aspecto más complicado.
+
+3
+00:00:14,066 --> 00:00:16,766
+estructura que solo un conectivo básico.
+
+4
+00:00:16,766 --> 00:00:27,399
+Terminamos ese video preguntándonos sobre Si P, entonces Q y su contrapositivo, que es Si no Q, entonces no P. Construyamos una tabla de verdad para eso.
+
+5
+00:00:27,400 --> 00:00:35,500
+contrapositivo y ver si realmente es lógicamente equivalente al original. Hacer esta tabla de verdad va a ser más difícil esta vez porque
+
+6
+00:00:35,500 --> 00:00:43,600
+En lo contrapositivo está sucediendo más que simplemente cambiar la hipótesis y la conclusión. Hay dos pasos intermedios: primero
+
+7
+00:00:43,600 --> 00:00:51,666
+Negamos la hipótesis y luego negamos la conclusión y luego las cambiamos. Para realizar un seguimiento cuidadoso de lo que está sucediendo, en
+
+8
+00:00:51,666 --> 00:01:00,099
+la tabla de verdad para el contrapositivo voy a crear columnas para los enunciados atómicos P y Q, y una columna para la proposición final si
+
+9
+00:01:00,100 --> 00:01:04,566
+no Q entonces no P, pero también voy a crear otras dos columnas,
+
+10
+00:01:04,566 --> 00:01:11,266
+uno para cada uno de los pasos intermedios, negando P y negando Q.
+
+11
+00:01:11,266 --> 00:01:18,932
+Al igual que en el último video, haré una fila para cada una de las combinaciones de valores de verdad de las entradas. Los pondré en el mismo orden que nosotros.
+
+12
+00:01:18,933 --> 00:01:29,766
+hizo entonces. A continuación, en lugar de mirar directamente a la propuesta final, haré primero los pasos intermedios. En la columna para no P, solo estoy mirando
+
+13
+00:01:29,766 --> 00:01:38,499
+el valor de verdad para P y anotar su opuesto. Y luego haré lo mismo en la columna para no Q.
+
+14
+00:01:38,500 --> 00:01:46,300
+Y ahora estoy mirando el contrapositivo. Esto tiene "no Q" como hipótesis y "no P" como conclusión. Recordando que un
+
+15
+00:01:46,300 --> 00:01:55,933
+La declaración condicional es verdadera en todos los casos excepto cuando la hipótesis (que esta vez es "no Q") es verdadera pero la conclusión (que es
+
+16
+00:01:55,933 --> 00:02:06,899
+"no P" esta vez) es falso, puedo ver que la proposición final es falsa en esta fila, donde nuevamente no Q es verdadero pero no P es falso. En todo
+
+17
+00:02:06,900 --> 00:02:11,066
+otras filas, la hipótesis es falsa (como en las filas 1 y 3)
+
+18
+00:02:11,066 --> 00:02:18,699
+o tanto la hipótesis como la conclusión son verdaderas (en la fila 4) por lo que resultan en VERDADERO.
+
+19
+00:02:18,700 --> 00:02:26,466
+Ahora, mirando hacia atrás en la tabla de verdad para Si P entonces Q, puedo ver que las salidas son las mismas en cada combinación posible de valores de verdad.
+
+20
+00:02:26,466 --> 00:02:32,299
+Eso significa que cada enunciado condicional es lógicamente equivalente a su contrapositivo.
+
+21
+00:02:32,300 --> 00:02:39,800
+Entonces, hacer una tabla de verdad para una proposición compleja es un poco como hacer un cálculo aritmético con muchos paréntesis y
+
+22
+00:02:39,800 --> 00:02:49,633
+operaciones. En este cálculo aquí, por ejemplo, usaríamos el orden natural de las operaciones para hacer los cálculos entre paréntesis primero,
+
+23
+00:02:49,633 --> 00:02:58,233
+luego exponentes, luego multiplicación y finalmente la suma. Construimos el cálculo desde el nivel más bajo gradualmente hasta el nivel más alto.
+
+24
+00:02:58,233 --> 00:03:05,466
+De manera similar, cuando hacemos una tabla de verdad para una proposición con muchas partes, trabajamos desde el nivel más bajo y ensamblamos gradualmente los
+
+25
+00:03:05,466 --> 00:03:11,799
+proposición completa, utilizando columnas separadas en la tabla de verdad para realizar un seguimiento de los pasos intermedios.
+
+26
+00:03:11,800 --> 00:03:21,200
+Veamos otro ejemplo: (no P) o Q. Configuremos las filas y columnas de la tabla de verdad. Primero hay dos columnas para la entrada
+
+27
+00:03:21,200 --> 00:03:30,266
+variables P y Q. Ahora, construyendo desde el nivel más bajo hacia arriba, necesitaré una columna para "no P", luego una columna para la declaración final
+
+28
+00:03:30,266 --> 00:03:40,066
+(no P) o Q. Pause el video aquí y vea si puede completar el resto de la tabla de verdad.
+
+29
+00:03:40,066 --> 00:03:50,766
+Ponemos cuatro filas para las combinaciones de valores de verdad de dos variables, así. Primero completamos la tabla de verdad desde el nivel más bajo. Esa es
+
+30
+00:03:50,766 --> 00:03:59,466
+"no P", que es exactamente lo opuesto a cualquier valor de verdad P que tenga. Ahora, para obtener la última columna, recordamos que una disyunción es verdadera cuando
+
+31
+00:03:59,466 --> 00:04:10,499
+una o ambas partes es verdadera. Eso significa que deberíamos poner falso aquí, en la fila 2, y verdadero en cualquier otro lugar. Así que aquí está el resultado final.
+
+32
+00:04:10,500 --> 00:04:19,333
+Si le parece familiar, entonces está prestando atención, porque esta es la misma tabla de verdad que si P, entonces Q. Eso significa que si P entonces Q es
+
+33
+00:04:19,333 --> 00:04:28,499
+lógicamente equivalente a (No P) o Q. Y es por eso que cuando miramos las puertas lógicas antes, no vimos una para una declaración condicional ---
+
+34
+00:04:28,500 --> 00:04:36,466
+es porque no lo necesitamos. Podemos simplemente encadenar la puerta lógica para NO con la puerta lógica para OR.
+
+35
+00:04:36,466 --> 00:04:42,466
+Ahora veamos un ejemplo más. Es posible que se haya preguntado en el último ejemplo si los paréntesis alrededor de "no P" eran
+
+36
+00:04:42,466 --> 00:04:53,099
+necesario. Bueno, si los deja fuera, obtiene esto, que podría interpretarse como no (P o Q), que es la negación de la declaración completa
+
+37
+00:04:53,100 --> 00:05:06,733
+"P o Q". ¿Es esa declaración lógicamente equivalente a (no P) o Q? Pausa el video y haz una tabla de verdad para no (P o Q) y descúbrelo.
+
+38
+00:05:06,733 --> 00:05:13,733
+Para configurar la tabla de verdad, como siempre, incluiremos dos columnas para las variables de entrada. Esta vez todavía hay un paso intermedio, pero
+
+39
+00:05:13,733 --> 00:05:24,233
+es formar P o Q primero. Luego, el paso final es negar la declaración P o Q.Como antes, hay dos entradas, por lo que son cuatro combinaciones de
+
+40
+00:05:24,233 --> 00:05:34,999
+valores de la verdad, y los incluiremos como lo hemos estado haciendo. Ahora trabajemos de abajo hacia arriba. Primero mire P o Q. Esto tendrá un FALSO
+
+41
+00:05:35,000 --> 00:05:44,800
+aquí, en la fila 4, y VERDADERO en otra parte. Ahora, en la columna final, estamos negando todo eso, así que simplemente cambiamos los valores de verdad para obtener Falso,
+
+42
+00:05:44,800 --> 00:05:55,166
+Falso, Falso, Verdadero. Esa es una tabla de verdad completa y correcta. Y notarás que definitivamente no es lo mismo que la tabla de verdad para
+
+43
+00:05:55,166 --> 00:06:03,966
+(no P) o Q, por lo que esas dos declaraciones no son lógicamente equivalentes. Lo que nos dice que los paréntesis son importantes aquí.
+
+44
+00:06:03,966 --> 00:06:10,766
+En este video y en el último, aprendiste cómo hacer una tabla de verdad para una proposición lógica con dos entradas atómicas, incluso cuando
+
+45
+00:06:10,766 --> 00:06:18,532
+hay pasos intermedios involucrados, y cómo usar esas tablas de verdad para determinar la equivalencia lógica de proposiciones. El siguiente video es
+
+46
+00:06:18,533 --> 00:06:25,699
+una mirada más a las tablas de verdad, y aumentaremos el nivel de complejidad para ver proposiciones con múltiples pasos intermedios, así como
+
+47
+00:06:25,700 --> 00:06:29,800
+aquellos con tres e incluso cuatro variables de entrada.

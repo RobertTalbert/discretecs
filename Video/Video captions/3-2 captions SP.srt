@@ -1,0 +1,235 @@
+1
+00:00:00,000 --> 00:00:09,233
+En el último video aprendimos muchas ideas básicas sobre decorados. En este video, veremos dos formas importantes diferentes de escribir conjuntos.
+
+2
+00:00:09,233 --> 00:00:17,099
+La mayoría de los conjuntos que vimos en el último video se dieron como listas. Simplemente enumeramos los elementos del conjunto, y si había un patrón, vimos que
+
+3
+00:00:17,100 --> 00:00:24,000
+nos ayudó a expresar esa lista, luego usamos puntos para representarla. Por ejemplo, aquí está el conjunto de todas las letras del alfabeto inglés donde
+
+4
+00:00:24,000 --> 00:00:28,833
+suponga que se entiende el patrón aquí en los puntos. Pero son todas listas.
+
+5
+00:00:28,833 --> 00:00:37,133
+Cuando expresamos un conjunto simplemente enumerando sus elementos entre llaves, esto se llama escribir el conjunto en ** notación de lista **. La palabra
+
+6
+00:00:37,133 --> 00:00:44,433
+"lista" en el lenguaje cotidiano también significa una lista, generalmente de personas, por ejemplo, el once inicial de un equipo de fútbol o los miembros de un
+
+7
+00:00:44,433 --> 00:00:49,333
+clase universitaria. Y ese es el significado que adoptamos aquí para los sets.
+
+8
+00:00:49,333 --> 00:00:57,199
+La notación de lista es simple pero a veces puede ocultar información sobre * por qué * los objetos son los elementos de un conjunto. Por ejemplo, mira este conjunto.
+
+9
+00:00:57,200 --> 00:01:05,566
+Hay puntos al final, pero ¿cuál es exactamente el patrón aquí? Quisiéramos que este patrón sea más fácil de entender por alguien que lo lea.
+
+10
+00:01:05,566 --> 00:01:14,166
+De hecho, el patrón es que cada elemento de este conjunto es un número natural que es igual a 1 mod 6. Podría ser más claro simplemente * decir * eso. En otra
+
+11
+00:01:14,166 --> 00:01:22,999
+En palabras, este es el conjunto de números naturales que son iguales a 1 mod 6. Ser explícito sobre los * requisitos de membresía * aquí lo hace mucho
+
+12
+00:01:23,000 --> 00:01:26,133
+más fácil de entender este conjunto.
+
+13
+00:01:26,133 --> 00:01:33,499
+Aquí hay una forma alternativa de expresar este conjunto que aclara los requisitos de membresía. He aquí cómo leer esto: Las llaves
+
+14
+00:01:33,500 --> 00:01:41,933
+significa "El conjunto de". Antes de los dos puntos, tenemos una variable y estamos indicando el dominio de esa variable. Así que esto significa "el conjunto de todos los n en el
+
+15
+00:01:41,933 --> 00:01:54,466
+números naturales ". Luego, los dos puntos significan" tal que ". Luego, después de los dos puntos hay un predicado: n mod 6 es 1. Entonces, en total, esta notación dice:
+
+16
+00:01:54,466 --> 00:02:04,732
+conjunto de todos los números naturales n, tal que n mod 6 es 1. Y esa es una forma económica de escribir el conjunto con el que comenzamos, que especifica el
+
+17
+00:02:04,733 --> 00:02:11,233
+elementos del conjunto no enumerándolos, sino dando los requisitos para ser miembro.
+
+18
+00:02:11,233 --> 00:02:20,466
+Este tipo de notación se llama ** notación de constructor de conjuntos **. En la notación del constructor de conjuntos en lugar de enumerar la lista de elementos, * construimos * el conjunto
+
+19
+00:02:20,466 --> 00:02:29,899
+estableciendo las reglas para la membresía. Lo que estamos haciendo aquí es comenzar con un conjunto inicial, todos números naturales, y luego usar un predicado para
+
+20
+00:02:29,900 --> 00:02:39,633
+filtrar todos menos los elementos que queremos conservar. Primero enumeramos la variable y su dominio, luego, después de los dos puntos, enumeramos el predicado que filtra
+
+21
+00:02:39,633 --> 00:02:42,399
+fuera de los elementos.
+
+22
+00:02:42,400 --> 00:02:52,133
+Aquí hay otro ejemplo de notación de constructor de conjuntos: el conjunto de todos los números reales x tal que x ** 2 = 1. ¿Qué es este conjunto en notación de lista? Bueno, empezamos
+
+23
+00:02:52,133 --> 00:02:59,199
+con el conjunto completo de números reales, que es un conjunto enorme. Pero luego usamos este predicado para filtrar la mayoría de ellos. Solo vamos a
+
+24
+00:02:59,200 --> 00:03:12,966
+mantenga los números reales que hacen que este predicado sea verdadero. Eso es solo x = 1 y x = -1. Entonces, este conjunto en notación de lista es el conjunto que consta de 1 y -1.
+
+25
+00:03:12,966 --> 00:03:20,866
+Y aquí hay otro ejemplo: el conjunto de todos los valores de x del conjunto {0,1,2, ..., 6} cuya raíz cuadrada es mayor que 2. ¿Qué es esto en la lista?
+
+26
+00:03:20,866 --> 00:03:32,566
+notation? Start with all the elements of the set {0,1,2,..., 6}. That's 7 numbers. Now apply the predicate to filter out. The numbers that meet
+
+27
+00:03:32,566 --> 00:03:41,299
+the membership requirements, that make the predicate true, are the numbers 5 and 6. So that's our set in roster notation.
+
+28
+00:03:41,300 --> 00:03:47,900
+In other words, when we write a set in set-builder notation we are expressing it as the truth set of a predicate, namely the predicate
+
+29
+00:03:47,900 --> 00:03:57,033
+that comes after the colon. What comes before the colon is the initial set before we apply the filter. Then the predicate does the filtering.
+
+30
+00:03:57,033 --> 00:04:06,399
+Now you try it. Here's a set in set-builder notation. Just in case you didn't know, a "vowel" in English is one of the letters A, E, I,
+
+31
+00:04:06,400 --> 00:04:13,766
+O, or U. Pause the video and write out this set in roster notation.
+
+32
+00:04:13,766 --> 00:04:21,799
+Entonces, el conjunto inicial prefiltrado que usamos es el conjunto de letras de la A a la M. Fíjate que no es el alfabeto completo. Luego filtramos todo
+
+33
+00:04:21,800 --> 00:04:32,100
+excepto las letras que forman el predicado, "x es una vocal", verdadero. Eso nos deja con A, E e I.
+
+34
+00:04:32,100 --> 00:04:40,933
+Pruébelo yendo en la otra dirección. Aquí hay un conjunto en notación de lista. Elija cualquiera de las siguientes opciones que serían la notación correcta del constructor de conjuntos para
+
+35
+00:04:40,933 --> 00:04:44,999
+el mismo conjunto.
+
+36
+00:04:45,000 --> 00:04:52,933
+Así que hay dos respuestas correctas en esta y aquí están. Ambos producen la misma lista de números y ambos son igualmente
+
+37
+00:04:52,933 --> 00:05:00,799
+correcto, aunque éste es más corto. Los otros dos no son correctos y explicaré por qué. Este no es correcto porque el conjunto que comenzamos
+
+38
+00:05:00,800 --> 00:05:10,133
+con, antes del filtrado, es incorrecto --- este es el conjunto de TODOS los enteros. Si comenzamos con ese conjunto y filtramos todos menos los que son 3 mod
+
+39
+00:05:10,133 --> 00:05:20,066
+10 recogeríamos no solo todos los números en el conjunto de la lista, sino también los números negativos. ¡Así que ese set de partida realmente importa! Hay que decirlo,
+
+40
+00:05:20,066 --> 00:05:22,732
+y expresado correctamente.
+
+41
+00:05:22,733 --> 00:05:31,199
+Este otro es incorrecto porque tiene el predicado listado en primer lugar y el conjunto en segundo lugar. Esta sintaxis no tiene sentido. Si lo lees
+
+42
+00:05:31,200 --> 00:05:42,066
+en voz alta, dice "El conjunto de n mod 10 es igual a 3 tal que n está en los números naturales". Esto no tiene sentido en inglés y tampoco en
+
+43
+00:05:42,066 --> 00:05:52,199
+Matemáticas. La notación correcta del constructor de conjuntos no enumera primero el predicado de filtrado; no puede hacerlo, porque tenemos que tener un conjunto de números para filtrar primero.
+
+44
+00:05:52,200 --> 00:05:57,733
+Por lo tanto, tenga en cuenta la sintaxis que utiliza para escribir en la notación del generador de conjuntos.
+
+45
+00:05:57,733 --> 00:06:05,833
+Finalmente, aquí hay una variación en la notación del generador de conjuntos que puede ser útil para fines de programación. A veces podemos escribir un conjunto en
+
+46
+00:06:05,833 --> 00:06:15,533
+no en términos de filtros, sino en términos de cálculos que realizamos en elementos de un conjunto. Por ejemplo: este conjunto también se considera que está en el constructor de conjuntos.
+
+47
+00:06:15,533 --> 00:06:23,533
+notación pero es diferente. No comenzamos con un conjunto inicial y filtramos cosas. Observe que la expresión antes de los dos puntos no declara el
+
+48
+00:06:23,533 --> 00:06:33,266
+variable y su dominio, como vimos hace unos minutos. En cambio, especifica un cálculo para realizar, en este caso cuadrado, y luego da
+
+49
+00:06:33,266 --> 00:06:35,366
+la variable y su dominio.
+
+50
+00:06:35,366 --> 00:06:45,199
+Lo que significa esta notación alternativa del generador de conjuntos es realizar este cálculo sobre todos los elementos de este conjunto. Todavía está construyendo el set en
+
+51
+00:06:45,200 --> 00:06:52,633
+términos de las reglas para construir los elementos, por eso se considera una notación de constructor de conjuntos. Pero en lugar de comenzar con un conjunto y filtrar
+
+52
+00:06:52,633 --> 00:06:57,399
+, estamos comenzando con un cálculo e indicando dónde aplicarlo.
+
+53
+00:06:57,400 --> 00:07:05,800
+Este es básicamente un bucle FOR. Significa recorrer todos los elementos de este conjunto después de los dos puntos y realizar este proceso en ellos. O en
+
+54
+00:07:05,800 --> 00:07:14,066
+otra metáfora de programación, en lugar de usar un predicado para filtrar elementos, estamos usando un cálculo y mapeando el
+
+55
+00:07:14,066 --> 00:07:21,899
+cálculo sobre un conjunto. En este caso, estamos mapeando el cálculo de la cuadratura sobre el conjunto completo de números naturales, y eso nos da
+
+56
+00:07:21,900 --> 00:07:26,033
+esto se establece en notación de lista al final.
+
+57
+00:07:26,033 --> 00:07:33,299
+Entonces, en este video aprendiste acerca de la notación de lista y la notación del constructor de conjuntos y las diferencias entre las dos, y obtuviste algunas
+
+58
+00:07:33,300 --> 00:07:39,666
+Practique cambiar la expresión de un conjunto de una notación a otra. ¡Buen trabajo! En el siguiente video, practicaremos un poco más con esto.
+
+59
+00:07:39,666 --> 00:07:45,299
+desde el punto de vista de decidir si un objeto pertenece a un conjunto dado o no.

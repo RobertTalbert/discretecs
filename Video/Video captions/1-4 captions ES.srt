@@ -1,0 +1,203 @@
+1
+00:00:00,000 --> 00:00:07,733
+Como hemos aprendido, la representación binaria o en base 2 es la forma en que las computadoras almacenan y procesan información numérica. De hecho es como
+
+2
+00:00:07,733 --> 00:00:15,166
+las computadoras almacenan y procesan CUALQUIER tipo de información, ya que las computadoras no saben cómo hacer nada más que matemáticas. Todo tu
+
+3
+00:00:15,166 --> 00:00:20,899
+hacer en una computadora es el resultado de algunos procesos matemáticos realizados en números escritos en binario.
+
+4
+00:00:20,900 --> 00:00:27,566
+En los próximos videos, aprenderemos cómo funciona esto en el nivel más básico, específicamente aprendiendo cómo hacer aritmética.
+
+5
+00:00:27,566 --> 00:00:33,566
+suma, resta, multiplicación y división básica, utilizando números representados en binario.
+
+6
+00:00:33,566 --> 00:00:41,899
+Este video se enfoca en la suma, y ​​luego habrá videos para las otras tres operaciones aritméticas básicas.
+
+7
+00:00:41,900 --> 00:00:50,500
+Para entender cómo sumar dos números binarios, primero hagamos una revisión MUY básica sobre cómo aprendimos a sumar dos decimales.
+
+8
+00:00:50,500 --> 00:00:58,900
+números juntos cuando éramos niños. Mira la suma 147 + 782.
+
+9
+00:00:58,900 --> 00:01:07,633
+El algoritmo que aprendimos en el pasado es el siguiente. Primero escribe los números verticalmente así. Luego comience a agregar en el lugar de las unidades.
+
+10
+00:01:07,633 --> 00:01:18,133
+Aquí, 7 + 2 es 9, por lo que va en el lugar de las unidades para la respuesta. Luego pasa al lugar de las decenas. Esta vez, la suma de los dígitos, 4 + 8, es
+
+11
+00:01:18,133 --> 00:01:28,899
+12. No tiene sentido escribir un "12" en la respuesta para el lugar de las decenas porque 12 es más grande que 10. Desborda el espacio. Entonces qué hacemos
+
+12
+00:01:28,900 --> 00:01:38,500
+es escribir el 2 (que está en el lugar de las unidades de esta suma de dígitos) y "llevar el 1" al lugar de las centenas, donde ahora tenemos tres
+
+13
+00:01:38,500 --> 00:01:47,400
+cosas para agregar: el 1 y el 7, y el 1 adicional del carry. Eso suma 9, y esto no desborda el espacio, así que escribimos
+
+14
+00:01:47,400 --> 00:01:53,233
+abajo. Por lo tanto, la respuesta es 929.
+
+15
+00:01:53,233 --> 00:02:04,033
+Entonces, en base 10, todas las sumas realmente se llevan a cabo solo en números de un solo dígito, del 0 al 9, un lugar a la vez. Si hacemos una suma de dígitos y da
+
+16
+00:02:04,033 --> 00:02:14,433
+un resultado mayor que 9, luego separamos los dígitos de las unidades del dígito de las decenas y llevamos ese dígito de las decenas al siguiente lugar, y continuamos hasta
+
+17
+00:02:14,433 --> 00:02:18,333
+no hay más acarreos ni más dígitos.
+
+18
+00:02:18,333 --> 00:02:25,833
+Sumar números en binario usa el mismo principio y de alguna manera es más fácil, porque ahora solo tiene dos dígitos posibles para trabajar
+
+19
+00:02:25,833 --> 00:02:35,066
+con --- 0 y 1 --- en lugar de diez de ellos. Dado que, como acabamos de señalar, la suma de números más grandes es en realidad una suma repetida de
+
+20
+00:02:35,066 --> 00:02:43,299
+números de un solo dígito junto con este proceso de "transporte", pensemos en lo que sucede cuando sumamos dos bits individuales.
+
+21
+00:02:43,300 --> 00:02:58,066
+Bueno, 0 en binario todavía significa 0, entonces 0 + 0 = 0. Y 1 todavía significa 1, entonces 1 + 0 = 1 y también 0 + 1 = 1 porque la suma es conmutativa, es decir,
+
+22
+00:02:58,066 --> 00:03:07,532
+el orden de la suma no afecta la respuesta. Pero cuando sumamos 1 y 1, se vuelve un poco complicado. La respuesta, por supuesto, es 2, pero recuerde que estamos en
+
+23
+00:03:07,533 --> 00:03:20,833
+binario ahora, entonces: 1 + 1 = 10 que es 2 en binario. Eso significa que cuando sumamos 1 y 1, terminamos con un número de dos dígitos que desborda el
+
+24
+00:03:20,833 --> 00:03:31,799
+espacio. Es análogo a cuando agregamos 8 y 4 en el ejemplo inicial. Obtuvimos 12, por lo que anotamos 2 y llevamos el 1. De manera similar, cualquier
+
+25
+00:03:31,800 --> 00:03:37,533
+vez que agreguemos 1 + 1 en binario, tendremos que llevar un 1.
+
+26
+00:03:37,533 --> 00:03:49,699
+Ahora estamos listos para pensar en cómo las computadoras suman números más grandes en binario. Veamos 110 + 11. En decimal, esto es 6 + 3, por lo que la respuesta
+
+27
+00:03:49,700 --> 00:03:55,866
+debería ser 9. Pero queremos hacer esto completamente en binario sin cambiar la representación a decimal,
+
+28
+00:03:55,866 --> 00:03:58,899
+porque las computadoras no harían ese cambio.
+
+29
+00:03:58,900 --> 00:04:07,500
+Al igual que en la base 10, alinee estos verticalmente como tal. Agregué un 0 en el lado izquierdo del segundo número solo para rellenar, para mostrarle cómo
+
+30
+00:04:07,500 --> 00:04:09,800
+dos números se alinean. No es realmente necesario.
+
+31
+00:04:09,800 --> 00:04:20,600
+Ahora, al igual que en la base 10, agregue un lugar a la vez comenzando con el lugar de las unidades. Aquí, 0 + 1 es solo 1, por lo que va en el lugar de las unidades para el
+
+32
+00:04:20,600 --> 00:04:32,400
+respuesta. Pasando al siguiente lugar (que es el lugar "2", no el lugar de las "decenas") encontramos 1 + 1. Como vimos anteriormente, la respuesta no es "2" sino
+
+33
+00:04:32,400 --> 00:04:39,600
+10. Esto desborda el espacio, por lo que escribiremos 0 y llevaremos el 1.
+
+34
+00:04:39,600 --> 00:04:49,800
+Ahora, en el siguiente lugar tenemos 1 + 1 + 0. Al igual que en decimal, solo podemos sumar dos cosas a la vez, y la agrupación no
+
+35
+00:04:49,800 --> 00:05:01,533
+importa porque la suma no solo es conmutativa sino también asociativa. Así que agregue 1 + 1 para obtener 10, luego agregue 0 para obtener 10 nuevamente.
+
+36
+00:05:01,533 --> 00:05:13,399
+Al igual que en el último paso, esto desborda el espacio de un dígito permitido para la respuesta, así que solo coloque el lugar de las unidades y lleve el 1.
+
+37
+00:05:13,400 --> 00:05:23,866
+En el siguiente lugar, no hay nada --- puedes pensar en ello como dos ceros si quieres, así que estaríamos agregando 1 + 0 + 0 que es solo 1, y
+
+38
+00:05:23,866 --> 00:05:29,432
+eso va aquí. Así que al final tenemos como resultado 1001, y
+
+39
+00:05:29,433 --> 00:05:33,699
+en decimal que es de hecho 9 como se supone que es.
+
+40
+00:05:33,700 --> 00:05:49,500
+Veamos otro ejemplo: 11101 + 11001. En decimal, esto es 29 + 25, por lo que se supone que la respuesta es 54. Le animo a que haga una pausa.
+
+41
+00:05:49,500 --> 00:05:55,733
+el video e intente resolverlo usted mismo antes de ver la solución, ¡y recuerde que está totalmente bien cometer errores! Realmente no lo harás
+
+42
+00:05:55,733 --> 00:06:01,066
+aprender cualquier otra cosa, y nadie está mirando.
+
+43
+00:06:01,066 --> 00:06:11,166
+Entonces comenzamos alineando estos verticalmente y agregando lugar por lugar comenzando con el lugar de las unidades. Esto es 1 + 1 que es 10. Escribe 0 y
+
+44
+00:06:11,166 --> 00:06:22,899
+lleva el 1. En el lugar del 2, tenemos 1 + 0 + 0 que es solo un 1, así que escribe eso. no hay transporte aquí, así que muévete al lugar de los 4.
+
+45
+00:06:22,900 --> 00:06:36,666
+Esto es 1 + 0, que es solo un 1, así que escríbalo sin acarreo. luego, en el lugar del 8, tenemos 1 + 1 nuevamente, así que escribe 0 y lleva el 1. Ahora en el
+
+46
+00:06:36,666 --> 00:06:48,799
+En el lugar de 16, tenemos 1 + 1 + 1. Esto es técnicamente 3, pero en binario es 11. Esta es prácticamente la misma situación que tener 10 ---
+
+47
+00:06:48,800 --> 00:06:59,600
+el 11 desborda el espacio de un solo dígito, por lo que copiamos el primer 1 y llevamos el segundo. Ese último lugar no tiene nada en él, pero tú
+
+48
+00:06:59,600 --> 00:07:06,200
+puedo pensar en ello como dos ceros. 1 + 0 + 0 es 1, por lo que esa es la última parte del resultado.
+
+49
+00:07:06,200 --> 00:07:14,433
+Llegamos a la respuesta 110110, y si la marca, de hecho es 54 en base 10.
+
+50
+00:07:14,433 --> 00:07:22,133
+Así que enhorabuena, ahora ha aprendido los conceptos básicos de sumar en binario sin traducir primero a decimal. Ahora tenemos que
+
+51
+00:07:22,133 --> 00:07:25,199
+abordar la resta, que ocurrirá en el siguiente video.

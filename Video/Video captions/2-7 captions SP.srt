@@ -1,0 +1,207 @@
+1
+00:00:00,000 --> 00:00:08,500
+Hemos estado mirando las tablas de verdad como una forma de saber cuándo una declaración molecular compleja es verdadera en función de los valores de verdad de las entradas. En
+
+2
+00:00:08,500 --> 00:00:16,366
+En el último video vimos cómo hacer una tabla de verdad para una proposición que tiene pasos intermedios. En este video, concluiremos nuestra discusión inicial sobre
+
+3
+00:00:16,366 --> 00:00:24,632
+tablas de verdad para ver declaraciones de dos variables que tienen varios pasos intermedios y declaraciones que tienen tres variables.
+
+4
+00:00:24,633 --> 00:00:34,399
+Comencemos mirando la proposición "Si (P o no Q), entonces ((no P) y Q)". Esta propuesta tiene un poco más de complejidad que
+
+5
+00:00:34,400 --> 00:00:41,133
+algunos de los otros aquí y no es obvio en absoluto cuándo esta afirmación debería ser cierta. Así que hagamos una tabla de verdad.
+
+6
+00:00:41,133 --> 00:00:47,966
+Comenzaremos como lo hacemos normalmente, configurando una columna para cada una de las variables de entrada. Entonces sigamos adelante y hagamos una fila para cada
+
+7
+00:00:47,966 --> 00:00:53,766
+combinación de los valores de verdad de esas entradas. Dado que hay dos entradas, habrá cuatro combinaciones
+
+8
+00:00:53,766 --> 00:00:58,532
+y los voy a poner aquí en el mismo orden en que lo hemos estado haciendo.
+
+9
+00:00:58,533 --> 00:01:05,266
+Ahora, al igual que cuando miramos el contrapositivo en el último video, necesitamos construir la proposición principal desde abajo.
+
+10
+00:01:05,266 --> 00:01:13,466
+arriba, como si hiciéramos un cálculo aritmético con muchos cálculos anidados. Haremos una columna para cada "nivel" de la declaración.
+
+11
+00:01:13,466 --> 00:01:23,666
+Mirando de izquierda a derecha en la proposición principal, puedo ver que necesitaremos una columna para "no Q". También necesitaré una columna para "no P"
+
+12
+00:01:23,666 --> 00:01:30,699
+y podría hacer esa columna ahora, pero en cambio voy a seguir construyendo esta primera parte, la hipótesis de la proposición principal por
+
+13
+00:01:30,700 --> 00:01:34,400
+creando una columna para "P o no Q".
+
+14
+00:01:34,400 --> 00:01:41,133
+Una vez más, el orden en el que establezcamos estas columnas, estrictamente hablando, no importa, pero puede marcar una diferencia en lo bien que funciona su cerebro.
+
+15
+00:01:41,133 --> 00:01:48,199
+puedo realizar un seguimiento del proceso, y me resulta más fácil terminar cada parte de la propuesta principal por turno.
+
+16
+00:01:48,200 --> 00:01:55,566
+Entonces, ahora que la hipótesis de la proposición principal está presente, trabajemos en la conclusión. Necesitamos una columna para no P, y
+
+17
+00:01:55,566 --> 00:02:03,566
+necesitamos una columna para "(no P) y Q". Y finalmente necesitamos una columna para la propuesta principal.
+
+18
+00:02:03,566 --> 00:02:11,066
+Completemos ahora cada una de esas columnas una a la vez. La columna para no Q es fácil ya que es todo lo contrario de cualquier valor de verdad
+
+19
+00:02:11,066 --> 00:02:17,199
+aparece en Q. De manera similar, no P es el opuesto de P.
+
+20
+00:02:17,200 --> 00:02:26,566
+Ahora, para "P o no Q", tenemos una disyunción. Una disyunción es verdadera siempre que una o ambas declaraciones involucradas sean verdaderas y falsas
+
+21
+00:02:26,566 --> 00:02:36,366
+de lo contrario. Las dos declaraciones involucradas son P, y "no Q", así que mírelas. Dada la información en esas dos columnas, que
+
+22
+00:02:36,366 --> 00:02:43,866
+ya construido, deberíamos tener VERDADERO en las filas 1, 2 y 4 y FALSO en la fila 3.
+
+23
+00:02:43,866 --> 00:02:51,966
+Ahora hagamos la columna para "(no P) y Q". Esta es una conjunción, que sabemos que es verdadera siempre que ambas declaraciones involucradas sean verdaderas.
+
+24
+00:02:51,966 --> 00:03:02,566
+y falso de lo contrario. Las declaraciones involucradas son "no P" y "Q", así que mire esas columnas. Ambos son verdaderos en la fila 3, de lo contrario al menos
+
+25
+00:03:02,566 --> 00:03:08,499
+uno de ellos es falso. Entonces tenemos VERDADERO en la fila 3 y FALSO en otros lugares.
+
+26
+00:03:08,500 --> 00:03:15,433
+Finalmente, estamos listos para completar la columna de la propuesta principal. Esta es una declaración condicional, y recuerde, estos son verdaderos en
+
+27
+00:03:15,433 --> 00:03:25,899
+todas las situaciones excepto cuando la hipótesis es verdadera y la conclusión es falsa. La hipótesis en este caso es "P o no Q". La conclusión es
+
+28
+00:03:25,900 --> 00:03:37,933
+"(no P) y Q". En la fila 1, la hipótesis es verdadera y la conclusión es falsa, así que coloque FALSO en la última columna. Lo mismo es cierto para las filas 2
+
+29
+00:03:37,933 --> 00:03:46,399
+y 4. En la fila 3, la hipótesis es falsa y en ese caso tenemos un enunciado condicional VERDADERO.
+
+30
+00:03:46,400 --> 00:03:53,100
+Entonces, hay una tabla de verdad completa y correcta para esta proposición. En principio, no es diferente a los demás, solo requiere más
+
+31
+00:03:53,100 --> 00:03:55,766
+cuidado en la construcción de la mesa.
+
+32
+00:03:55,766 --> 00:04:04,266
+Pero ahora veamos algo diferente, la declaración "Si (P y no Q), entonces R". Lo que es diferente de esto es que hay * tres *
+
+33
+00:04:04,266 --> 00:04:10,966
+declaraciones atómicas involucradas aquí, no solo dos. ¿Cómo cambia eso la tabla de la verdad? Vamos a sumergirnos y ver.
+
+34
+00:04:10,966 --> 00:04:17,032
+Todavía vamos a necesitar una columna para cada una de las variables atómicas aquí, así que una cosa que es diferente es que hay tres de esas
+
+35
+00:04:17,033 --> 00:04:26,499
+tiempo. Ahora, lo que necesitamos es una fila para cada una de las combinaciones de valores de verdad de estos enunciados. ¿Cuántas filas debería haber?
+
+36
+00:04:26,500 --> 00:04:35,200
+Vamos a pensarlo. Si solo miramos a P y Q e ignoramos a R por el momento, habría cuatro, es decir, estos cuatro.
+
+37
+00:04:35,200 --> 00:04:43,000
+Agregar R a la mezcla aquí * duplica * el número de filas que necesitamos. Hay una copia de estas cuatro filas necesaria para el caso en que R es
+
+38
+00:04:43,000 --> 00:04:51,600
+verdadero, y se necesitan otras cuatro filas cuando R es falso. Eso es un total de ocho filas. Ese será el caso siempre que tengamos tres atómicos
+
+39
+00:04:51,600 --> 00:05:00,066
+variables, nuevamente porque necesitamos cuatro filas para dos variables y luego dos copias de esas cuatro filas, una para cada valor de verdad del nuevo
+
+40
+00:05:00,066 --> 00:05:08,032
+variable. De hecho, hay un principio general aquí: agregar una nueva variable duplica el número de filas necesarias en la tabla de verdad. Si tuviéramos un
+
+41
+00:05:08,033 --> 00:05:16,166
+declaración con cuatro variables, necesitaríamos 16 filas --- una copia de estas ocho filas para cuando la nueva variable sea verdadera, una segunda copia para
+
+42
+00:05:16,166 --> 00:05:19,032
+cuando la nueva variable es falsa.
+
+43
+00:05:19,033 --> 00:05:25,966
+Ahora que tenemos las ocho filas necesarias, podemos comenzar a armar la proposición como de costumbre. Pause el video e intente configurar el
+
+44
+00:05:25,966 --> 00:05:32,766
+columnas que necesitaremos, y si te sientes aventurero, ¡sigue adelante e intenta completar la tabla que obtienes!
+
+45
+00:05:32,766 --> 00:05:41,866
+Parece que necesitaremos una columna para no Q, una columna para (P y no Q) y luego una columna para la proposición principal. Vamos a construir uno
+
+46
+00:05:41,866 --> 00:05:52,499
+pieza a pieza. No Q es todo lo contrario de Q. "P y (no Q)" es una conjunción, verdadera siempre que ambas declaraciones involucradas sean verdaderas, de modo que
+
+47
+00:05:52,500 --> 00:06:02,166
+debe tener VERDADERO en las filas 2 y 6 y FALSO en otros lugares. En la columna final, es una declaración condicional que sabemos que es FALSA cuando el
+
+48
+00:06:02,166 --> 00:06:12,366
+la hipótesis es verdadera pero la conclusión es falsa, y esto ocurre solo en la línea 6. En cualquier otro lugar, la hipótesis es falsa o ambas
+
+49
+00:06:12,366 --> 00:06:16,432
+las declaraciones son verdaderas, por lo que hay VERDADERO allí.
+
+50
+00:06:16,433 --> 00:06:23,299
+Entonces, nuevamente, en principio, hacer una tabla de verdad para declaraciones con tres o incluso más variables no es diferente a las tablas de verdad simples, otras
+
+51
+00:06:23,300 --> 00:06:30,566
+que el tamaño. Todavía nos enfocamos en construir la propuesta de una manera modular y usar la tabla para realizar un seguimiento.
+
+52
+00:06:30,566 --> 00:06:36,699
+En el siguiente video, veremos algo diferente, el concepto de predicado.

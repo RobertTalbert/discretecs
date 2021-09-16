@@ -1,0 +1,191 @@
+1
+00:00:00,000 --> 00:00:06,900
+En el último video, presentamos la idea de la lógica como una forma de que los seres humanos se comuniquen con las computadoras. Y definimos
+
+2
+00:00:06,900 --> 00:00:14,133
+una proposición como un pensamiento completo que tiene un valor de verdad definido y cognoscible. En este video, veremos cómo podemos construir
+
+3
+00:00:14,133 --> 00:00:19,933
+enunciados lógicos complejos a partir de simples que utilizan conectivos lógicos.
+
+4
+00:00:19,933 --> 00:00:27,333
+Mira esta receta básica de galletas de mantequilla de maní. Es una lista de instrucciones sobre cómo combinar los ingredientes y termina con "Hornear
+
+5
+00:00:27,333 --> 00:00:37,599
+en un horno precalentado a 375 grados F durante unos 10 minutos o hasta que las galletas comiencen a dorarse. "De alguna manera, esta receta es como un algoritmo.
+
+6
+00:00:37,600 --> 00:00:46,033
+tiene entrada, instrucciones y un punto final definido. ¿Qué desencadena el final del proceso en este caso? No es posible uno, sino dos
+
+7
+00:00:46,033 --> 00:00:53,866
+condiciones: las galletas se han horneado durante 10 minutos o se están poniendo marrones. Si yo fuera un robot comprobando la cocción de esos
+
+8
+00:00:53,866 --> 00:01:02,766
+cookies, tendría que monitorearlas y el reloj y evaluar los valores de verdad de dos proposiciones lógicas: "Han pasado diez minutos", y
+
+9
+00:01:02,766 --> 00:01:07,366
+"Las galletas se están poniendo marrones". Si alguna de esas proposiciones se vuelve verdadera ---
+
+10
+00:01:07,366 --> 00:01:12,232
+o si ambas son ciertas --- entonces detengo el proceso de cocción.
+
+11
+00:01:12,233 --> 00:01:20,999
+Lo que hace esa última condición en la receta, entonces, es CONECTAR dos proposiciones lógicas con la palabra "o", haciendo una proposición más grande. El
+
+12
+00:01:21,000 --> 00:01:29,666
+palabra "o" aquí es un ejemplo de un conectivo - una palabra en inglés que conecta dos proposiciones más pequeñas para hacer una más grande. Nosotros
+
+13
+00:01:29,666 --> 00:01:37,132
+a veces dicen que una proposición que no se puede dividir en un grupo de otras más pequeñas es una proposición "atómica", y una proposición que
+
+14
+00:01:37,133 --> 00:01:44,699
+no es atómico --- si está formado por declaraciones atómicas unidas por conectivos --- se llama "molecular".
+
+15
+00:01:44,700 --> 00:01:49,466
+Hay tres formas básicas de conectivos que hacen esto por nosotros.
+
+16
+00:01:49,466 --> 00:01:59,199
+Tal vez necesitemos que se active alguna parte de un programa de computadora si, como en esta receta, cualquier condición de una lista de condiciones es verdadera.
+
+17
+00:01:59,200 --> 00:02:06,433
+Nuevamente, como en la receta, usualmente usamos la palabra inglesa "o" para conectar las condiciones. Una declaración creada al unir dos atómicas
+
+18
+00:02:06,433 --> 00:02:15,933
+las proposiciones junto con "o" se denominan "disyunción". Y una disyunción es verdadera, siempre que una o ambas proposiciones
+
+19
+00:02:15,933 --> 00:02:27,999
+se une es verdad. Por ejemplo: "O pasé álgebra o pasé C ++" es una disyunción. Si pasó álgebra pero no C ++, el
+
+20
+00:02:28,000 --> 00:02:36,400
+la disyunción es verdadera porque la primera proposición es verdadera. Estabas diciendo la verdad en otras palabras cuando afirmaste que pasaste una
+
+21
+00:02:36,400 --> 00:02:46,633
+clase o pasaste la otra. Lo mismo ocurre si no pasó álgebra pero sí C ++. Si pasó ambos, la disyunción es verdadera porque si
+
+22
+00:02:46,633 --> 00:02:55,599
+pasaste ambos, luego definitivamente pasaste uno. Eso hace que nuestro uso de "o" en lo que llamamos un "o inclusivo", por lo que la declaración "o" es
+
+23
+00:02:55,600 --> 00:03:05,433
+Verdadero si una O AMBAS de las proposiciones atómicas involucradas es verdadera. La única forma en que una disyunción puede ser falsa es si ambas declaraciones
+
+24
+00:03:05,433 --> 00:03:14,966
+involucrados son falsos. Por ejemplo, si no pasó ni álgebra ni C ++, esta afirmación de que pasó uno u otro de ellos es falsa.
+
+25
+00:03:14,966 --> 00:03:22,932
+Una de las cosas buenas de la lógica es que el contenido de las declaraciones involucradas no importa realmente, solo la forma. El valor de verdad de un
+
+26
+00:03:22,933 --> 00:03:30,499
+En otras palabras, el enunciado molecular siempre está determinado solo por los valores de verdad de los enunciados atómicos que lo componen y el
+
+27
+00:03:30,500 --> 00:03:37,066
+conectivos que se utilizan, y nada más. Por ejemplo, cada vez que forme una disyunción de dos declaraciones,
+
+28
+00:03:37,066 --> 00:03:46,966
+la disyunción será verdadera si una o ambas declaraciones involucradas son verdaderas.
+
+29
+00:03:46,966 --> 00:03:55,299
+Esto nos permite resumir las condiciones donde una declaración compleja será verdadera y donde será falsa en una tabla, como esta. Aquí, la v-mirando
+
+30
+00:03:55,300 --> 00:04:02,033
+símbolo es un símbolo matemático utilizado para representar la palabra inglesa "o". Diferentes símbolos representan "o" en diferentes computadoras
+
+31
+00:04:02,033 --> 00:04:11,333
+idiomas, por ejemplo, las barras verticales dobles || representan "o" en Java y en C ++. En Python, simplemente escriba la palabra "o". Desde esto
+
+32
+00:04:11,333 --> 00:04:20,599
+La disyunción involucra dos valores booleanos independientes, cada uno de los cuales es verdadero o falso, conduce a cuatro combinaciones de valores verdaderos / falsos.
+
+33
+00:04:20,600 --> 00:04:29,700
+En cada caso, el valor de verdad de la disyunción se enumera en la columna final. Como vimos, cuando una o ambas proposiciones básicas es
+
+34
+00:04:29,700 --> 00:04:34,500
+cierto, la disyunción es verdadera. Cuando ambos son falsos, la disyunción es falsa.
+
+35
+00:04:34,500 --> 00:04:41,800
+Esta tabla se llama TABLA DE LA VERDAD y veremos muchas más en un minuto y en otros videos.
+
+36
+00:04:41,800 --> 00:04:49,400
+A veces necesitamos que se active una parte de un programa si TODAS las condiciones de una lista son verdaderas. Por ejemplo, para tomar matemáticas discretas,
+
+37
+00:04:49,400 --> 00:04:56,900
+podría necesitar una calificación aprobatoria tanto en álgebra como en C ++, no solo en uno u otro. Usamos la palabra "y" y un símbolo que parece un
+
+38
+00:04:56,900 --> 00:05:05,900
+V al revés para representar este conectivo, que llamamos * conjunción *. En una conjunción de dos proposiciones, ambas proposiciones deben ser
+
+39
+00:05:05,900 --> 00:05:13,900
+verdadero para que la conjunción sea verdadera. Eso se resume en la tabla de verdad para las conjunciones que ve aquí. El
+
+40
+00:05:13,900 --> 00:05:22,300
+la conjunción es falsa de lo contrario --- es decir, siempre que una o ambas de las declaraciones atómicas que componen la conjunción sean falsas.
+
+41
+00:05:22,300 --> 00:05:31,000
+A veces necesitamos que se active una parte de un programa si una sola proposición NO es verdadera. Esta es una conectiva llamada negación, y usamos
+
+42
+00:05:31,000 --> 00:05:38,933
+este símbolo para denotarlo. Las negaciones son diferentes a las disyunciones o conjunciones porque solo funcionan en una declaración, si tiene la
+
+43
+00:05:38,933 --> 00:05:49,899
+enunciado P, entonces ~ P es su negación. La negación ~ P es verdadera cuando P es falsa y falsa cuando P es verdadera ---
+
+44
+00:05:49,900 --> 00:05:54,666
+es el opuesto lógico de la declaración original.
+
+45
+00:05:54,666 --> 00:06:00,899
+En este video aprendiste que formamos enunciados lógicos complejos a partir de enunciados atómicos con conectivos. Vimos tres básicos
+
+46
+00:06:00,900 --> 00:06:09,066
+conectivos, "o" (disyunción), "y" (conjunción), y "no" (negación). Y aprendimos sobre el concepto de una tabla de verdad
+
+47
+00:06:09,066 --> 00:06:16,099
+que nos permite ver los valores de verdad de un enunciado molecular determinados por los valores de verdad de los enunciados atómicos y por el
+
+48
+00:06:16,100 --> 00:06:24,100
+conectivos que los unen. En el siguiente video veremos otra conectiva, la condicional o declaración "si-entonces". Te veo allí.

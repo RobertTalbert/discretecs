@@ -1,0 +1,349 @@
+﻿1
+00:00:00,000 --> 00:00:07,066
+So far we've learned about representing integers in different number bases, specifically base 10 which is what we learn as kids, and 
+
+2
+00:00:07,066 --> 00:00:14,599
+bases 2, 8, and 16 which are commonly used in computer science. These different number bases are a lot like different units of 
+
+3
+00:00:14,600 --> 00:00:22,966
+measurement. Milliliters, gallons, and cups are all measures of volume, but each one is more useful in some contexts than others, and we 
+
+4
+00:00:22,966 --> 00:00:30,166
+often have to convert from one measure of volume to another. Similarly, it's important to be able to convert between different number base 
+
+5
+00:00:30,166 --> 00:00:40,532
+representations. We've seen how to convert a representation from base 2, 8, or 16 to base 10 (which is pretty simple) and from base 2 to 
+
+6
+00:00:40,533 --> 00:00:47,399
+either base 8 or 16 (which is also pretty simple). Going from base 10 to any other base, on the other hand, isn't hard but when we did it, 
+
+7
+00:00:47,400 --> 00:00:56,500
+it might have felt to you like guesswork. In this video we're going to make the process of converting from decimal to other bases more 
+
+8
+00:00:56,500 --> 00:01:00,500
+foolproof through a simple and rigorous algorithm. 
+ 
+
+9
+00:01:00,500 --> 00:01:09,633
+First of all, an "algorithm" is a finite process or a set of rules that we or a computer will follow to make a computation or solve a problem. An 
+
+10
+00:01:09,633 --> 00:01:17,466
+algorithm, if correct, will have a definite start point, and it will end after a finite number of steps with a correct result. 
+ 
+
+11
+00:01:17,466 --> 00:01:24,132
+For example, in school we learned algorithms for multiplying two numbers together. In computer science we have algorithms for all 
+
+12
+00:01:24,133 --> 00:01:32,599
+kinds of things like sorting of lists, finding the shortest path through a network, and more. Algorithms are at the core of computer science 
+
+13
+00:01:32,600 --> 00:01:38,900
+and you will be visiting them regularly throughout this course and throughout your careers. 
+ 
+
+14
+00:01:38,900 --> 00:01:46,300
+We're going to describe an algorithm now that will convert a number from base 10 to base 2, and to set the stage, let's consider the following 
+
+15
+00:01:46,300 --> 00:01:51,900
+process that isn't really useful by itself but illustrates the main idea. 
+ 
+
+16
+00:01:51,900 --> 00:02:00,066
+Take the number 2417 in base 10. Starting with this input, let's go through some steps. 
+ 
+
+17
+00:02:00,066 --> 00:02:11,099
+First, divide 2417 by 10 and record the quotient (how many times 10 goes into it) and the remainder (the amount left over). If you do the 
+
+18
+00:02:11,100 --> 00:02:23,466
+long division on this (another algorithm we learned in school), 10 goes into 2417 241 times with a remainder of 7. So the quotient is 241 
+
+19
+00:02:23,466 --> 00:02:31,999
+and the remainder is 7. Note that the remainder must be less than 10, because we're dividing by 10, and if the remainder were 10 or greater 
+
+20
+00:02:32,000 --> 00:02:37,700
+we could just divide again. Record both the quotient and the remainder. 
+ 
+
+21
+00:02:37,700 --> 00:02:49,100
+Now repeat this process but use the quotient from the previous step, 241, as the new input. Divide 241 by 10: The quotient is 24 and the 
+
+22
+00:02:49,100 --> 00:03:00,733
+remainder is 1. Record both. Now repeat the process again using the previous step's quotient as the new input: Divide 24 by 10 and 
+
+23
+00:03:00,733 --> 00:03:13,299
+you have a new quotient of 2 and a remainder of 4. Repeat again: Divide 2 by 10 and this yields a quotient of 0 and a remainder of 2. If 
+
+24
+00:03:13,300 --> 00:03:18,766
+we were to repeat this process more, we would be getting a quotient and a remainder of 0, 
+
+25
+00:03:18,766 --> 00:03:23,299
+so once we get a quotient of 0 the algorithm terminates. 
+ 
+
+26
+00:03:23,300 --> 00:03:34,833
+Now if you look at the list of remainders we kept, these are the base 10 digits of the original number 2417 in reverse order. Repeated 
+
+27
+00:03:34,833 --> 00:03:40,266
+division by 10 in other words produces a list of the digits. 
+ 
+
+28
+00:03:40,266 --> 00:03:49,132
+I want you to notice two things at this point. First, algorithms in computer science and in real life often work by repetition --- 
+
+29
+00:03:49,133 --> 00:03:58,233
+you have just few lines, or even one line of code that performs a simple operation and the algorithm simply repeats, or iterates, over these 
+
+30
+00:03:58,233 --> 00:04:05,833
+instructions until some kind of condition is met and then it stops. Remember that concept as we explore algorithms in the future. 
+
+31
+00:04:05,833 --> 00:04:12,933
+Second, let's be honest, this algorithm on its own is totally useless because we don't need to go through all these steps to see the digits of a 
+
+32
+00:04:12,933 --> 00:04:21,633
+decimal number, we just look at it. The power of the algorithm really comes from the fact that we can modify it to do other things. 
+ 
+
+33
+00:04:21,633 --> 00:04:31,499
+In fact, this very algorithm can be modified just slightly to give us the BINARY digits of this same number. All we have to do is change the 
+
+34
+00:04:31,500 --> 00:04:41,366
+instruction of dividing by 10, to dividing by 2. When we divide an integer by 2, we always get a remainder of either 0 (if the number is even) 
+
+35
+00:04:41,366 --> 00:04:51,166
+or 1 (if it's odd) and never anything else. So those remainders are going to be bits and those bits are the digits of the binary form of 
+
+36
+00:04:51,166 --> 00:04:56,799
+the integer we start with.  Let's see how this works with a simple two-digit 
+
+37
+00:04:56,800 --> 00:05:06,600
+decimal integer, 37. Again, the way the conversion algorithm works is that we will repeatedly divide the input by 2, record the 
+
+38
+00:05:06,600 --> 00:05:15,833
+quotient and remainder, and then repeat that process using the previous step's quotient as the new input, and then stop when the 
+
+39
+00:05:15,833 --> 00:05:22,299
+quotient is 0. So first, 37 / 2 is 18 with a remainder of 1. 
+
+40
+00:05:22,300 --> 00:05:33,100
+Record 18 and 1 in memory. 
+Next: 18 / 2 is 9 with remainder 0. Record those two in memory. 
+
+41
+00:05:33,100 --> 00:05:46,500
+Next: 9 / 2 is 4 with remainder 1. 
+Next: 4 / 2 is 2 with remainder 0. 
+Next: 2  / 2 is 1 with remainder 0. 
+
+42
+00:05:46,500 --> 00:05:58,300
+Next: 1 / 2 gives a quotient of 0 with a remainder of 1, so record those in memory but then stop since the quotient is 0.  
+ 
+
+43
+00:05:58,300 --> 00:06:06,433
+To end the algorithm and get the binary representation, construct a string from the remainders in the reverse order in which they 
+
+44
+00:06:06,433 --> 00:06:19,233
+appeared: 100101. Let's check to make sure this is right. 100101 is 
+
+45
+00:06:19,233 --> 00:06:33,399
+1 2^5, 1 2^2, and 1 2^0 which is 32 + 4 + 1 and that is indeed 37 in base 10. 
+ 
+
+46
+00:06:33,400 --> 00:06:41,666
+Now you try it. In the very first video, we converted the base 10 integer 275 to binary without this algorithm and the answer was 
+
+47
+00:06:41,666 --> 00:06:56,832
+100010011. Pause the video, and take a few minutes to work through the algorithm to convert the bases with the algorithm. 
+ 
+
+48
+00:06:56,833 --> 00:07:03,533
+Here's the work for this process, and you can see that it does indeed produce the right binary. 
+ 
+
+49
+00:07:03,533 --> 00:07:11,099
+And that's an algorithm for converting a number from decimal to binary. But --- you wouldn't be wrong to have a LOT of questions about this 
+
+50
+00:07:11,100 --> 00:07:19,466
+algorithm. For example, WHY does this algorithm produce the correct binary form of the integer? Are we sure that it always does 
+
+51
+00:07:19,466 --> 00:07:26,532
+produce the correct binary, or did we just get lucky with these two examples? Are we sure that the algorithm always terminates, or is it 
+
+52
+00:07:26,533 --> 00:07:32,333
+possible that we could start with an integer that throws the algorithm into an infinite loop? 
+ 
+
+53
+00:07:32,333 --> 00:07:39,866
+These are questions that, as computer scientists, we have to ask and answer about every algorithm we meet. It's not enough just to 
+
+54
+00:07:39,866 --> 00:07:49,566
+be able to write code and compute answers --- kids, or AIs, can do that. What we have to be able to do is reason about algorithms like this 
+
+55
+00:07:49,566 --> 00:08:00,299
+and explain why they work, in ALL cases and not just the ones we choose or observe. A million examples will not do this for us. We 
+
+56
+00:08:00,300 --> 00:08:08,133
+need to use mathematics, and mathematical reasoning, to get into the deep machinery of computing processes to help us understand 
+
+57
+00:08:08,133 --> 00:08:16,866
+things that simply writing code cannot explain. Being able to use mathematics to go beyond code, and reason about computational 
+
+58
+00:08:16,866 --> 00:08:25,099
+processes, is a major high-level learning goal for this course and we will be revisiting it repeatedly throughout everything we do. 
+ 
+
+59
+00:08:25,100 --> 00:08:32,666
+For now, we are going to take it on faith that this base conversion algorithm really works. But we will need to come back to this algorithm 
+
+60
+00:08:32,666 --> 00:08:40,532
+later, once we have more tools for thinking about algorithms, and think about why it works. 
+ 
+
+61
+00:08:40,533 --> 00:08:48,099
+Notice that this algorithm, while a little tedious to do by hand, is quite fast because every iteration of the loop where we divide and record 
+
+62
+00:08:48,100 --> 00:08:56,833
+the quotient and remainder literally cuts the new input size in half. This means that it will scale up well --- while it obviously takes more 
+
+63
+00:08:56,833 --> 00:09:04,233
+steps to convert a large integer than it does a small one, a number with twice as many decimal digits does not necessarily take twice 
+
+64
+00:09:04,233 --> 00:09:12,766
+as many steps. Another important concept we will be thinking about in this course is just how exactly algorithms scale up when the input size 
+
+65
+00:09:12,766 --> 00:09:19,066
+increases and how that scaling up might be modeled with mathematical functions. 
+ 
+
+66
+00:09:19,066 --> 00:09:26,766
+Another great thing about this algorithm is that it can be modified to convert a decimal integer into ANY base, not just binary, simply by 
+
+67
+00:09:26,766 --> 00:09:36,199
+changing the number we divide by. For example if we wanted to convert the number 1982 from decimal to octal, just run the same 
+
+68
+00:09:36,200 --> 00:09:39,500
+process but divide by 8. In this case, 
+ 
+
+69
+00:09:39,500 --> 00:09:51,966
+1982 / 8 = 247 with remainder 6
+247 / 8 = 30 with remainder 7
+30 / 8 = 3 with remainder 6 
+
+70
+00:09:51,966 --> 00:10:09,799
+3 / 8 = 0 with remainder 3, stop here and list back the remainders in reverse order to get 3676 which is 1982 in octal. 
+ 
+
+71
+00:10:09,800 --> 00:10:19,200
+Here's an example in hexadecimal that shows how fast this can be --- look at 161067 in base 10. 
+
+72
+00:10:19,200 --> 00:10:33,966
+161067 / 16 = 10066 with remainder 11
+10066 / 16 = 629 with remainder 2
+629 / 16 = 39 with remainder 5
+
+73
+00:10:33,966 --> 00:10:41,166
+39 // 16 = 2 with remainder 7 
+2 // 16 = 0 with remainder 2
+ 
+
+74
+00:10:41,166 --> 00:10:55,432
+So the base 16 representation of 161067 is 2752B (remember B is the hexadecimal for the number 11). Again we have not attempted to 
+
+75
+00:10:55,433 --> 00:11:03,299
+explain WHY this works other than by analogy when we divide by 10. To prove that the algorithm works for any base will require some 
+
+76
+00:11:03,300 --> 00:11:07,300
+mathematical tools we will be encountering in later videos. 
+ 
+
+77
+00:11:07,300 --> 00:11:15,700
+In this video, you learned an algorithm for converting from base 10 to any other base you want. And we've introduced some important 
+
+78
+00:11:15,700 --> 00:11:21,433
+concepts about algorithms -- what they are, the importance of reasoning through them, and the concept of understanding mathematically how 
+
+79
+00:11:21,433 --> 00:11:29,166
+they scale up. In the next few videos we're going to focus on binary representation specifically and think about how computers do 
+
+80
+00:11:29,166 --> 00:11:31,999
+basic arithmetic with base 2. 
+

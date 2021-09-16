@@ -1,0 +1,195 @@
+1
+00:00:00,000 --> 00:00:06,600
+Ha trabajado mucho hasta ahora con predicados. Ha aprendido qué son y cómo se relacionan con las proposiciones, cómo
+
+2
+00:00:06,600 --> 00:00:14,800
+cuantificarlos, cómo negarlos, ¡y más! Buen trabajo hasta ahora. Pero queda una pregunta en la que pensar: ¿qué sucede cuando tu
+
+3
+00:00:14,800 --> 00:00:18,633
+predicado tiene más de una variable?
+
+4
+00:00:18,633 --> 00:00:30,233
+Dejemos que P (x, y) es el enunciado x * y es mayor o igual que 0. Para determinar el valor de verdad de esto, necesitamos los valores no solo de uno sino
+
+5
+00:00:30,233 --> 00:00:43,366
+dos entradas. Por ejemplo, P (2,3) es verdadero y P (2, -4) es falso. Vimos en los dos últimos videos que cuantificar la variable se convierte en un predicado
+
+6
+00:00:43,366 --> 00:00:49,999
+en una proposición con un valor de verdad definido. ¿Eso funciona para predicados de dos variables?
+
+7
+00:00:50,000 --> 00:01:00,633
+Supongamos que tomamos P (x, y) y cuantificamos la variable x diciendo "para todo x, P (x, y) es verdadero". A diferencia de antes, este sigue siendo un
+
+8
+00:01:00,633 --> 00:01:10,699
+declaración porque hemos cuantificado la variable x pero la variable y aún se desconoce. Cuantificar la variable x convierte una variable de dos
+
+9
+00:01:10,700 --> 00:01:18,633
+predicado con variables x, y en un predicado de una variable con variable y. Sigue siendo un predicado y, a menos que hagamos algo con la variable y
+
+10
+00:01:18,633 --> 00:01:27,466
+Además, todavía no podemos determinar su valor de verdad. El principio general aquí es que para dos predicados variables, * ambas * variables deben cuantificarse
+
+11
+00:01:27,466 --> 00:01:32,199
+antes de que podamos decir algo definitivo sobre los valores de verdad.
+
+12
+00:01:32,200 --> 00:01:41,666
+Mantengamos el cuantificador universal aquí en x. Hay dos formas de cuantificar la variable faltante y: universal o existencial. Si nosotros
+
+13
+00:01:41,666 --> 00:01:54,732
+cuantificar universalmente y, tendríamos esto en notación --- para todo x y para todo y, P (x, y) es verdadero. En lenguaje sencillo, esto diría que x * y es
+
+14
+00:01:54,733 --> 00:02:03,866
+positivo para cada posible par de entradas xey. Ahora bien, esta afirmación tiene un valor de verdad definido, a saber, FALSO porque puedo encontrar un
+
+15
+00:02:03,866 --> 00:02:15,566
+contraejemplo fácilmente, por ejemplo x = 2 e y = -4. Por tanto, no es el caso de que P (x, y) sea verdadero "para todos" los valores de x e y.
+
+16
+00:02:15,566 --> 00:02:27,232
+Pero también podríamos haber cuantificado existencialmente y, para obtener esto: para todo x, existe un tal que P (x, y) es verdadero. O en un lenguaje sencillo, para cada
+
+17
+00:02:27,233 --> 00:02:38,599
+número real x, hay algún otro número real y tal que x * y es positivo. Esa declaración también tiene un valor de verdad definido, a saber, VERDADERO. Vamos
+
+18
+00:02:38,600 --> 00:02:47,000
+ver por qué. Donde está sentado ahora, elija el número real que desee. Ahora, no importa el número que elija, una de las tres cosas debe
+
+19
+00:02:47,000 --> 00:02:57,700
+be true about it: It's either negative, positive or zero. I will now tell you the "y" value that will make xy bigger than or equal to zero. If your "x"
+
+20
+00:02:57,700 --> 00:03:15,733
+was positive or zero, let y = +1. Then x times 1 is positive or zero, which means P(x,1) is true no matter what the choice for x was.
+
+21
+00:03:15,733 --> 00:03:30,633
+If your x was negative, let y = -1. Since x is negative, x times -1 is positive so P(x,-1) is true. Therefore for every x you might choose,
+
+22
+00:03:30,633 --> 00:03:39,533
+no matter its value, I can find a y value --- there exists a y value -- that makes P(x,y) true.
+
+23
+00:03:39,533 --> 00:03:47,399
+What would happen if we had existentially quantified the x earlier instead of universally quantifying it? Well, we'd still need to quantify
+
+24
+00:03:47,400 --> 00:03:55,400
+the y variable to end up with a fully determined proposition and there are two ways to do that. You could have: "There exists an x such that
+
+25
+00:03:55,400 --> 00:04:06,766
+for every y, P(x,y) is true" and you could have "There exists an x such and there exists a y such that P(x,y) is true". Now pause the video
+
+26
+00:04:06,766 --> 00:04:14,266
+and see if you can determine which, if either, of those statements is now true.
+
+27
+00:04:14,266 --> 00:04:23,566
+"There exists an x such that for every y, P(x,y) is true" is in fact a true statement. The statement is claiming that at least one x exists
+
+28
+00:04:23,566 --> 00:04:33,499
+such that x*y >= 0 no matter what y you choose, and that's true --- can you guess what x it is?
+
+29
+00:04:33,500 --> 00:04:44,500
+It's x = 0. If you choose that x, then xy >= 0 for every single y value.
+
+30
+00:04:44,500 --> 00:04:51,933
+"There exists an x such and there exists a y such that P(x,y) is true" is also a true statement because I can certainly find an example of x
+
+31
+00:04:51,933 --> 00:05:01,399
+and y where xy >= 0, for example x = 1 and y = 2.
+
+32
+00:05:01,400 --> 00:05:10,100
+Entonces, dado un predicado de dos variables P (x, y), hay al menos cuatro formas posibles de cuantificarlo: una para cada combinación de cuantificación de x
+
+33
+00:05:10,100 --> 00:05:21,833
+y y. Cada uno tiene su propio valor de verdad que es nuestro trabajo, como matemáticos, explicar por qué el valor de verdad es verdadero o por qué es falso.
+
+34
+00:05:21,833 --> 00:05:30,799
+Digo "al menos" cuatro valores de verdad porque, de hecho, a veces también importa el orden de las variables. Por ejemplo, mira el predicado
+
+35
+00:05:30,800 --> 00:05:42,833
+Q (x, y) es la afirmación de que x * y <1 donde los valores de x son números enteros y los valores de y son números reales distintos de cero. Mira las declaraciones
+
+36
+00:05:42,833 --> 00:05:53,399
+para todo x existe ay tal que Q (x, y) y existe ay tal que para todo x Q (x, y). Podría pensar que estas declaraciones son equivalentes
+
+37
+00:05:53,400 --> 00:05:59,300
+ya que todo lo que hicimos fue cambiar el orden de los cuantificadores. Pero mira cada uno.
+
+38
+00:05:59,300 --> 00:06:09,866
+El enunciado para todo x existe ay tal que xy <1 es VERDADERO, y aquí hay una explicación. Elija cualquier número entero x que desee. Si eliges un
+
+39
+00:06:09,866 --> 00:06:28,199
+x que era cero o negativo, establezca y = 1 y luego xy <1. Si eligió una x que fue positiva, establezca y = 1 / (x + 1). Entonces xy es x / (x + 1) y debido a que el
+
+40
+00:06:28,200 --> 00:06:37,433
+el denominador es más grande que el numerador, la fracción es menor que 1. Esa explicación, fíjense, no depende de ejemplos específicos ---
+
+41
+00:06:37,433 --> 00:06:40,266
+funciona "para todos" x.
+
+42
+00:06:40,266 --> 00:06:52,166
+Sin embargo, el enunciado de que existe ay tal que para todo x, xy <1 ... es un enunciado FALSO. Explicaré por qué no existe tal y.
+
+43
+00:06:52,166 --> 00:07:03,432
+Suponga que tenemos ay tal que xy <1 sin importar cuál sea x. Este y no puede ser 0 porque 0 no está en el dominio. Dado ese hecho,
+
+44
+00:07:03,433 --> 00:07:21,199
+no es el caso de que xy <1 "para todos" los valores de x, porque hay un contraejemplo: x = 1 / y. Si x = 1 / y, entonces xy = 1 y eso no es menor que 1.
+
+45
+00:07:21,200 --> 00:07:29,333
+En otras palabras, ¡el orden en el que colocamos los cuantificadores a veces puede ser importante! Se necesita un razonamiento matemático cuidadoso para ver cuándo
+
+46
+00:07:29,333 --> 00:07:35,533
+estas declaraciones son verdaderas y cuando son falsas. Pero de eso se trata todo este curso, así que es un buen trabajo.
+
+47
+00:07:35,533 --> 00:07:42,633
+Eso nos lleva al final de este módulo sobre lógica. Estás aprendiendo mucho, ¡así que felicitaciones! Nuestro próximo módulo se trata de dos
+
+48
+00:07:42,633 --> 00:07:50,666
+conceptos matemáticos fundamentales que subyacen a la informática: el concepto de * conjunto *, que es el modelo para todas las estructuras de datos
+
+49
+00:07:50,666 --> 00:07:58,699
+en informática, y el concepto de * función * que es el modelo para todos los programas. Ideas bastante grandes, en otras palabras. Te veo allí.

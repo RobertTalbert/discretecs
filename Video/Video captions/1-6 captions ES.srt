@@ -1,0 +1,183 @@
+1
+00:00:00,000 --> 00:00:07,400
+A estas alturas, espero que esté viendo que la aritmética en binario funciona casi exactamente igual que en decimal, pero el concepto
+
+2
+00:00:07,400 --> 00:00:16,466
+del valor posicional cambia, y la comprensión de la aritmética binaria requiere una comprensión sólida de lo que significa el valor posicional. A medida que nos movemos de
+
+3
+00:00:16,466 --> 00:00:25,166
+suma y resta a la multiplicación en este video y luego división en el siguiente, ese tema continuará. Al igual que con la suma y la resta,
+
+4
+00:00:25,166 --> 00:00:32,832
+revisemos el método para multiplicar dos números enteros en base 10 y vigilemos con atención el valor posicional.
+
+5
+00:00:32,833 --> 00:00:43,266
+Así que mira 263 por 13. Nuestro algoritmo escolar funciona así. Primero coloque los números verticalmente con el más grande en la parte superior. Luego
+
+6
+00:00:43,266 --> 00:00:55,532
+proceda a multiplicar el primer número por el dígito de las unidades del segundo. 3 por 3 es 9. 3 por 6 es 18, y además eso desborda el
+
+7
+00:00:55,533 --> 00:01:06,799
+un espacio de un dígito asignado, así que escribimos 8 y llevamos el 1. Ahora recuerda que * dice * 1, pero en realidad es un diez porque es el dígito de las decenas
+
+8
+00:01:06,800 --> 00:01:18,300
+de 18, y estamos subiendo un lugar, y cada lugar es diez veces más grande que el lugar anterior. Llevamos el 1, luego multiplicamos 3 por 2
+
+9
+00:01:18,300 --> 00:01:24,700
+y * agregue * el 1 (porque eso es lo que significa llevar, solo sumar) para obtener 7.
+
+10
+00:01:24,700 --> 00:01:32,933
+Ahora pasamos al dígito de las decenas en el segundo número y vamos a almacenar el resultado en una segunda fila a continuación. Dado que estas son las decenas
+
+11
+00:01:32,933 --> 00:01:42,066
+dígito, no el dígito de las unidades, cambiamos todo en ese segundo registro una unidad porque el resultado comenzará en el dígito de las decenas del
+
+12
+00:01:42,066 --> 00:01:51,632
+respuesta. En este caso, el resto es fácil porque multiplicamos por 1, por lo que obtenemos 263. Luego hay una etapa final en la que sumamos ambos más bajos.
+
+13
+00:01:51,633 --> 00:02:01,699
+filas, y al igual que antes, a veces tenemos que llevar un dígito al sumar. Nuestra respuesta final es 3419.
+
+14
+00:02:01,700 --> 00:02:12,333
+Ahora, ¿cómo funcionaría esto en binario? Comencemos de manera simple con 111 por 11. Vamos a seguir con esto e intentemos seguir las mismas reglas que con la base 10
+
+15
+00:02:12,333 --> 00:02:26,799
+multiplicación. Bueno, 111 por 1 es solo 111. Luego, en el segundo paso, sigue siendo 111 por 1 y sigue siendo 111. Pero cuando lo escribimos, estamos
+
+16
+00:02:26,800 --> 00:02:34,900
+cambiando una unidad porque estamos multiplicando por un valor posicional más alto, al igual que estábamos en esta etapa de la multiplicación en base 10. Vos tambien
+
+17
+00:02:34,900 --> 00:02:42,700
+puedo ver que en un nivel, la multiplicación binaria es sorprendentemente fácil porque solo multiplicamos por 1, lo que significa que simplemente copiamos el
+
+18
+00:02:42,700 --> 00:02:46,700
+número hacia abajo, o por 0, lo que hace que todo sea cero.
+
+19
+00:02:46,700 --> 00:02:54,733
+So now we are just left with an addition problem, which we saw how to do two videos ago. We have 1 + 0 (although we don't write
+
+20
+00:02:54,733 --> 00:03:10,199
+the 0) which is 1. Then 1+1 which is 2, or 10, so put down 0 and carry the 1. Now we have 1+1+1 which is 3 or "11", so put down 1 and
+
+21
+00:03:10,200 --> 00:03:22,800
+carry the other 1. then we have 1+1, which is 10. 10101 is our result and in base 10 that's 16+4+1 which is 21,
+
+22
+00:03:22,800 --> 00:03:29,966
+which is good because the original numbers we multiplied are 7 and 3 in base 10.
+
+23
+00:03:29,966 --> 00:03:37,299
+So in fact the only thing really hard about binary multiplication is binary addition at the end.
+
+24
+00:03:37,300 --> 00:03:52,366
+Let's try a larger example, 11111 times 101. In base 10 that's 31 and 5, so the answer should be 155. Lining these up, we first multiply by 1
+
+25
+00:03:52,366 --> 00:04:07,966
+to get 11111. Then shift once, and multiply by 0. Then we need to shift another time since we are now two places higher. Multiply by 1 to get
+
+26
+00:04:07,966 --> 00:04:28,832
+11111. Now add these together: 1+0 is 1, 1+0 is 1, 1+1 is 0 carry the 1; 1+1+1 is 1 carry the 1, and this happens twice; 1+1 is 0 carry a 1, then
+
+27
+00:04:28,833 --> 00:04:39,366
+finally 10. That gives us 10011011 which you can check is indeed 155.
+
+28
+00:04:39,366 --> 00:04:52,432
+One more example will illustrate what happens when the addition at the end starts to stack up. Look at 11111 times 111. That's 31 again but
+
+29
+00:04:52,433 --> 00:05:05,799
+this time it's times 7. The answer should be 217. The multiplication steps are very simple and here's where it leads. Now we have to add --
+
+30
+00:05:05,800 --> 00:05:13,833
+but there's something new. We've never tried adding a stack of binary integers like this. In decimal, adding a stack of 3 or more integers
+
+31
+00:05:13,833 --> 00:05:21,099
+works pretty much the same as adding just two integers together, although when we do, the numbers can get quite large --- adding two
+
+32
+00:05:21,100 --> 00:05:28,433
+integers together in base 10, we sometimes don't carry just a 1 but for example in this case a 2.
+
+33
+00:05:28,433 --> 00:05:36,199
+We could handle adding a stack of binary integers in one of two ways. We could add just the first two levels then add the result to the
+
+34
+00:05:36,200 --> 00:05:46,700
+third level. That would work, but it seems like more work than needed. So let's try to adapt the base 10 method of adding to binary.
+
+35
+00:05:46,700 --> 00:05:58,066
+In the ones place, it's just 1 plus two zeroes that we don't write, so we have 1. In the 2s place we have 1 + 1 which is 0, carry the 1.
+
+36
+00:05:58,066 --> 00:06:15,266
+Now let's think. In the 4s place we have 1+1+1+1. This is 4. In binary, this is 100. What this means is that we have 0 here, and we need to
+
+37
+00:06:15,266 --> 00:06:26,966
+carry a 1 to TWO places up. It's like if we added a stack of decimal integers so high that the tens place added up to 106, we'd put down
+
+38
+00:06:26,966 --> 00:06:39,732
+6 and carry the 1, but not to the next place up but the place AFTER THAT since that 1 is one hundred, not ten. So we'll carry that 1 to the
+
+39
+00:06:39,733 --> 00:06:52,599
+16s place and leave it until we get there. But next we need to add the 8s place. This is 1+1+1 which is 11, so write 1 and carry the 1 also
+
+40
+00:06:52,600 --> 00:07:08,200
+to the 16s place. In that 16s place now we have 5 1's. That adds up to 5 which in binary is 101. So write 1 and carry the leftmost 1 up two
+
+41
+00:07:08,200 --> 00:07:25,166
+places. Moving on to the 64s place, we have 1+1 which is 0, carry the 1. So finally, we have in the 128s place 1+1+1 which is 11. The result is
+
+42
+00:07:25,166 --> 00:07:37,466
+11011001. Is it right? Let's convert to base 10: We get 217, which is indeed what we were supposed to get.
+
+43
+00:07:37,466 --> 00:07:44,299
+¡Uf! Ha aprendido al menos un par de cosas en este video, primero el proceso general de multiplicar en binario. Y segundo, posiblemente
+
+44
+00:07:44,300 --> 00:07:52,500
+lo que es más importante, ha aprendido que el valor posicional es realmente de lo que depende toda la aritmética. Si puedes entender lo que todos los dígitos de un
+
+45
+00:07:52,500 --> 00:08:00,600
+media numérica en términos de su valor posicional, esto desbloquea toda la aritmética y también una comprensión real de cómo una máquina puede hacer
+
+46
+00:08:00,600 --> 00:08:07,900
+aritmética. A continuación, abordaremos nuestra cuarta y última operación aritmética, la división en binario.

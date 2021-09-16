@@ -1,0 +1,215 @@
+1
+00:00:00,000 --> 00:00:07,066
+En el último video, aprendimos sobre los predicados, que son como proposiciones pero cuyo valor de verdad depende del valor de una entrada.
+
+2
+00:00:07,066 --> 00:00:14,799
+variable. Mencionamos brevemente que hay una manera de convertir un predicado en una proposición con un valor de verdad fijo y definido haciendo un
+
+3
+00:00:14,800 --> 00:00:21,866
+declaración secundaria sobre la frecuencia con la que el predicado es verdadero. Profundicemos un poco más en ese concepto.
+
+4
+00:00:21,866 --> 00:00:31,232
+Así que aquí está la proposición que vimos por primera vez en el último video: P (x) es la declaración x + 5 = 12 donde el dominio es el conjunto de todos los números reales.
+
+5
+00:00:31,233 --> 00:00:39,566
+De nuevo, esto es un predicado, no una proposición. Esta afirmación no es ni verdadera ni falsa como es, porque tiene una variable indeterminada.
+
+6
+00:00:39,566 --> 00:00:50,932
+Pero formemos una nueva declaración que esté relacionada con ella: la declaración "P (x) es verdadera para todos los valores de x". Ahora bien, esta afirmación es definitivamente FALSA
+
+7
+00:00:50,933 --> 00:01:01,199
+porque sabemos a ciencia cierta que P (x) no es * siempre * verdadero. Es decir, sabemos que x + 5 no es * siempre * igual a 12. De hecho, P (x) solo es cierto para
+
+8
+00:01:01,200 --> 00:01:13,333
+uno y solo un valor de x, a saber, x = 7. Por tanto, el enunciado "P (x) es verdadero para todos los valores de x" es definitivamente, sabiamente falso. Eso lo convierte en un
+
+9
+00:01:13,333 --> 00:01:17,066
+proposición, no un predicado.
+
+10
+00:01:17,066 --> 00:01:25,799
+Aquí hay otra declaración secundaria que podríamos hacer a partir del predicado original: "P (x) es verdadera para al menos un valor de x". Otra forma de decir
+
+11
+00:01:25,800 --> 00:01:34,500
+esto es que P (x) es * a veces * verdadero. Ahora, esa afirmación es definitivamente VERDADERA porque * hay * al menos un valor de x que hace que P (x) sea verdadero,
+
+12
+00:01:34,500 --> 00:01:38,266
+e incluso sabemos qué es - x = 7.
+
+13
+00:01:38,266 --> 00:01:46,132
+Entonces, nuevamente, los predicados por sí mismos no tienen suficiente información para saber si son verdaderos o falsos. A veces decimos que son
+
+14
+00:01:46,133 --> 00:01:53,099
+underdetermined because the variable prevents us from knowing the truth value. But when we make a secondary statement about
+
+15
+00:01:53,100 --> 00:02:02,200
+*how often* the predicate is true --- for example "this predicate is always true" or "this predicate is sometimes true" --- these statements are
+
+16
+00:02:02,200 --> 00:02:09,200
+propositions with truth values. We call this process **quantifying** the predicate.
+
+17
+00:02:09,200 --> 00:02:15,900
+To approach computer science from a mathematical point of view we often have to make claims about patterns we see or
+
+18
+00:02:15,900 --> 00:02:23,400
+algorithms we create and then give an explanation. Those claims often come in the form of quantified predicates. For example, in
+
+19
+00:02:23,400 --> 00:02:31,866
+an earlier video we saw an algorithm that converts a base 10 integer to base 2. We did *not*, however, discuss whether this algorithm
+
+20
+00:02:31,866 --> 00:02:41,166
+always works. Doing so, involves working with a quantified predicate. The predicate would say, "This algorithm applied to the integer n
+
+21
+00:02:41,166 --> 00:02:50,366
+produces the correct binary representation". And what we'd want to know, and explain, is whether P(n) is always true. So this notion of
+
+22
+00:02:50,366 --> 00:02:56,266
+quantifying a predicate is really at the heart of computer science in important ways.
+
+23
+00:02:56,266 --> 00:03:03,666
+As we saw a moment ago, there's two ways to quantify a predicate. One, like in our example with the algorithm, is to claim that the predicate
+
+24
+00:03:03,666 --> 00:03:14,199
+is always true. When we take a predicate P(x) and make the claim that P(x) is always true, this is called *universal* quantification. We
+
+25
+00:03:14,200 --> 00:03:23,300
+have a special symbol for this that looks like an upside down A, which you can remember because this means "for all" x, P(x) is true. For
+
+26
+00:03:23,300 --> 00:03:35,100
+example, if P(x) is the predicate x+5=12, then "for all x P(x)" is the statement that x+5 = 12 for all real numbers x, and that is a FALSE
+
+27
+00:03:35,100 --> 00:03:37,766
+statement.
+
+28
+00:03:37,766 --> 00:03:52,632
+Here are some more examples. Let Q(x) be the predicate x**2 >= 0. "For all x Q(x)" is the claim that x**2 >=0 for every real number x. And
+
+29
+00:03:52,633 --> 00:03:59,133
+that's actually TRUE this time because we know from basic math that squaring a number always produces a result that's bigger than or
+
+30
+00:03:59,133 --> 00:04:01,699
+equal to 0.
+
+31
+00:04:01,700 --> 00:04:12,533
+Here's two more. R(x) is the predicate "The length of x is positive" where x is a string, and S(x) is the predicate the absolute value of x is
+
+32
+00:04:12,533 --> 00:04:25,066
+negative where x is a real number. Pause the video and find the truth value of for all x R(x), and for all x S(x).
+
+33
+00:04:25,066 --> 00:04:32,632
+So in these examples, both universally quantified statements are FALSE. It's not the case for every string x, the length of x is
+
+34
+00:04:32,633 --> 00:04:42,899
+positive because there is such a thing as a string of length 0, namely the empty string. So for all x R(x) is false because we found what's
+
+35
+00:04:42,900 --> 00:04:54,166
+called a *counterexample* --- a single example that shows us that R(x) is sometimes false, therefore not always true. Likewise for all x S(x)
+
+36
+00:04:54,166 --> 00:05:03,466
+is false, because there's a counterexample there as well: In fact there are many, for example x = 1. The absolute value of 1 is 1,
+
+37
+00:05:03,466 --> 00:05:08,732
+which is not negative, so S(x) is not always true.
+
+38
+00:05:08,733 --> 00:05:16,499
+The other form of quantification we have is when we take a predicate and claim that it is *sometimes*, but not necessarily always true.
+
+39
+00:05:16,500 --> 00:05:26,400
+For example if P(x) is x+5=12, then while this predicate is not always true, it is true for at least one value of x. A fancier way of saying
+
+40
+00:05:26,400 --> 00:05:36,033
+this is that *there exists an x* that makes P(x) true. So this form of quantification, where we make a claim about the existence of at least
+
+41
+00:05:36,033 --> 00:05:45,066
+one input value that makes the predicate true, is called *existential quantification*. We use a special symbol for this too, a backwards "E".
+
+42
+00:05:45,066 --> 00:05:52,166
+So this notation means, "there exists at least one x such that P(x) is true".
+
+43
+00:05:52,166 --> 00:06:04,932
+We saw that there exists x such that x+5 = 12, is a TRUE statement. (Remember the universally quantified version of that predicate
+
+44
+00:06:04,933 --> 00:06:16,433
+was false.) If Q(x) is x**2 >= 0, then since this predicate is true *for all* x, it's certainly true for at least one x.
+
+45
+00:06:16,433 --> 00:06:24,033
+Now you try it with the earlier predicates R(x) and S(x). Are the existentially quantified versions of those predicates true, or are they
+
+46
+00:06:24,033 --> 00:06:27,633
+false?
+
+47
+00:06:27,633 --> 00:06:38,633
+There exists x such that R(x), is TRUE this time because it is true that there exists at least one string that has a positive length. For example,
+
+48
+00:06:38,633 --> 00:06:46,733
+the word "logic" has a positive length. But, the statement there exists x such that S(x), is false because there does not exist even one real
+
+49
+00:06:46,733 --> 00:06:50,199
+number whose absolute value is negative.
+
+50
+00:06:50,200 --> 00:06:56,700
+Here's a table summarizing what we've found in these examples.
+
+51
+00:06:56,700 --> 00:07:03,333
+So in this video, you learned that taking a predicate and quantifying the variable turns it into a proposition with a truth value. And there
+
+52
+00:07:03,333 --> 00:07:11,599
+are two ways to do this, universal or existential each of which has its own notation. You also learned that a counterexample can be used to
+
+53
+00:07:11,600 --> 00:07:19,966
+prove that a universally quantified statement is false. The next video is going to look a little more at this idea of proving quantified
+
+54
+00:07:19,966 --> 00:07:24,999
+statements are false by asking how do we negate a quantified statement.

@@ -1,0 +1,218 @@
+﻿1
+00:00:00,000 --> 00:00:07,733
+As we've learned, binary or base 2 representation is how computers store and process numerical information. In fact it's how 
+
+2
+00:00:07,733 --> 00:00:15,166
+computers store and process ANY kind of information, since computers don't know how to do anything else besides math. Everything you 
+
+3
+00:00:15,166 --> 00:00:20,899
+do on a computer is the result of some mathematical processes performed on numbers written in binary. 
+ 
+
+4
+00:00:20,900 --> 00:00:27,566
+In the next few videos we're going to learn how this works on the most basic level --- specifically by learning how to do arithmetic - 
+
+5
+00:00:27,566 --> 00:00:33,566
+basic addition, subtraction, multiplication, and division - using numbers represented in binary. 
+
+6
+00:00:33,566 --> 00:00:41,899
+This video focuses on addition, and then there will be videos for the other three basic arithmetic operations. 
+ 
+
+7
+00:00:41,900 --> 00:00:50,500
+To understand how to add two binary numbers together, let's first do some VERY basic review about how we learned to add two decimal 
+
+8
+00:00:50,500 --> 00:00:58,900
+numbers together back when we were kids. Look at the sum 147 + 782. 
+ 
+
+9
+00:00:58,900 --> 00:01:07,633
+The algorithm we learned back in the day goes like this. First write the numbers vertically like so. THen start adding in the ones place. 
+
+10
+00:01:07,633 --> 00:01:18,133
+Here, 7 + 2 is 9 so that goes in the ones place for the answer. Then move on to the tens place. This time, the sum of the digits, 4 + 8, is 
+
+11
+00:01:18,133 --> 00:01:28,899
+12. It doesn't make sense to write a "12" in the answer for the tens place because 12 is bigger than 10. It overflows the space. So what we do 
+
+12
+00:01:28,900 --> 00:01:38,500
+is write down the 2 (which is in the ones place of this digit sum) and "carry the 1" over to the hundreds place, where we now have three 
+
+13
+00:01:38,500 --> 00:01:47,400
+things to add: the 1 and the 7, and the additional 1 from the carry. That adds up to 9, and this doesn't overflow the space so we write 
+
+14
+00:01:47,400 --> 00:01:53,233
+it down. Therefore the answer is 929. 
+ 
+
+15
+00:01:53,233 --> 00:02:04,033
+So in base 10, all addition is really carried out only on single digit numbers, 0 through 9, one place at a time. If we do a digit sum and it gives 
+
+16
+00:02:04,033 --> 00:02:14,433
+a result bigger than 9, then we split off the ones digits from the tens digit and carry that tens digit up to the next place, and continue until 
+
+17
+00:02:14,433 --> 00:02:18,333
+there is no more carrying and no more digits. 
+ 
+
+18
+00:02:18,333 --> 00:02:25,833
+Adding numbers in binary uses the same principle and in some ways it's easier, because you now only have two possible digits to work 
+
+19
+00:02:25,833 --> 00:02:35,066
+with --- 0 and 1 --- rather than ten of them. Since, as we just pointed out, addition of larger numbers is really just repeated addition of 
+
+20
+00:02:35,066 --> 00:02:43,299
+single-digit numbers together with this "Carrying" process, let's think about what happens when we add two single bits together. 
+ 
+
+21
+00:02:43,300 --> 00:02:58,066
+Well, 0 in binary still means 0, so 0 + 0 = 0. And 1 still means 1, so 1 + 0 = 1 and also 0 + 1 = 1 because addition is commutative, meaning the 
+
+22
+00:02:58,066 --> 00:03:07,532
+order of addition doesn't affect the answer. But when we add 1 and 1, it gets a little tricky. The answer of course is 2, but remember we are in 
+
+23
+00:03:07,533 --> 00:03:20,833
+binary now, so: 1 + 1 = 10 which is 2 in binary. That means when we add 1 and 1, we end up with a two digit number that overflows the 
+
+24
+00:03:20,833 --> 00:03:31,799
+space. It's analogous to when we added 8 and 4 in the starting example. We got 12, so we wrote down 2 and carried the 1. Similarly, any 
+
+25
+00:03:31,800 --> 00:03:37,533
+time we add 1 + 1 in binary, we will have to carry a 1. 
+ 
+
+26
+00:03:37,533 --> 00:03:49,699
+Now we're ready to think about how computers add larger numbers in binary. Let's look at 110 + 11. In decimal, this is 6 + 3 so the answer 
+
+27
+00:03:49,700 --> 00:03:55,866
+should be 9. But we want to do this entirely in binary without changing the representation to decimal, 
+
+28
+00:03:55,866 --> 00:03:58,899
+because computers wouldn't make that change. 
+ 
+
+29
+00:03:58,900 --> 00:04:07,500
+Just like in base 10, line these up vertically like so. I added a 0 on the left side of the second number just for padding, to show you how the 
+
+30
+00:04:07,500 --> 00:04:09,800
+two numbers line up. It's not really necessary. 
+ 
+
+31
+00:04:09,800 --> 00:04:20,600
+Now just like in base 10, add one place at a time starting with the ones place. Here, 0 + 1 is just 1, so that goes in the ones place for the 
+
+32
+00:04:20,600 --> 00:04:32,400
+answer. Moving to the next place (which is the "2" place, not the "tens" place) we encounter 1 + 1. As we saw above, the answer is not "2" but 
+
+33
+00:04:32,400 --> 00:04:39,600
+10. This overflows the space, so we will write down 0 and carry the 1. 
+ 
+
+34
+00:04:39,600 --> 00:04:49,800
+Now in the next place we have 1 + 1 + 0. Just like in decimal, we can only really add two things at a time, and the grouping doesn't 
+
+35
+00:04:49,800 --> 00:05:01,533
+matter because addition is not only commutative but also associative. So add 1+1 to get 10, then add 0 to just get 10 again. 
+
+36
+00:05:01,533 --> 00:05:13,399
+Just as in the last step, this overflows the one-digit sized space allowed for the answer, so just put down the ones place and carry the 1 over. 
+
+37
+00:05:13,400 --> 00:05:23,866
+In that next place over, there's nothing --- you can think of it as two zeroes if you want, so we'd be adding 1 + 0 + 0 which is just 1, and 
+
+38
+00:05:23,866 --> 00:05:29,432
+that goes here. So in the end we have as the result 1001, and 
+
+39
+00:05:29,433 --> 00:05:33,699
+in decimal that is indeed 9 like it's supposed to be. 
+ 
+
+40
+00:05:33,700 --> 00:05:49,500
+Let's look at another example: 11101 + 11001.  In decimal this is 29 + 25 so the answer is supposed to be 54. I encourage you to pause 
+
+41
+00:05:49,500 --> 00:05:55,733
+the video and try working this out for yourself before watching the solution, and remember it is totally fine to make mistakes! You won't really 
+
+42
+00:05:55,733 --> 00:06:01,066
+learn anything otherwise, and nobody is watching. 
+ 
+
+43
+00:06:01,066 --> 00:06:11,166
+So we begin by lining these up vertically and adding place by place starting with the ones place. This is 1 + 1 which is 10. Write 0 and 
+
+44
+00:06:11,166 --> 00:06:22,899
+carry the 1. In the 2's place, we have 1 + 0 + 0 which is just a 1, so write that. there's no carry here, so just move to the 4's place. 
+
+45
+00:06:22,900 --> 00:06:36,666
+This is 1 + 0 which is just a 1, so write that with no carry. then in the 8's place, we have 1+1 again, so write 0 and carry the 1. Now in the 
+
+46
+00:06:36,666 --> 00:06:48,799
+16's place, we have 1 + 1 + 1. This is technically 3, but in binary that's 11. This is pretty much the same situation as having 10 --- 
+
+47
+00:06:48,800 --> 00:06:59,600
+the 11 overflows the single digit space, so we copy down the first 1 and carry the second. That last place there has nothing in it, but you 
+
+48
+00:06:59,600 --> 00:07:06,200
+can think of it as two zeroes. 1 + 0 + 0 is 1, and so that's the last part of the result. 
+ 
+
+49
+00:07:06,200 --> 00:07:14,433
+We arrive at the answer 110110, and if you check it, this is indeed 54 in base 10. 
+ 
+
+50
+00:07:14,433 --> 00:07:22,133
+So congratulations, you've now learned the basics behind doing addition in binary without translating to decimal first! Now we have to 
+
+51
+00:07:22,133 --> 00:07:25,199
+tackle subtraction, which will happen in the next video. 
+

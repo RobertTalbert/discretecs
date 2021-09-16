@@ -1,0 +1,275 @@
+1
+00:00:00,000 --> 00:00:06,933
+Hemos estado buscando representar números enteros en base 2 o en forma binaria, que es lo que usan las computadoras para los números, y sumar,
+
+2
+00:00:06,933 --> 00:00:14,299
+resta y multiplicación en binario, que es lo que hacen las computadoras con esos números. Llegamos ahora al cuarto de la aritmética básica.
+
+3
+00:00:14,300 --> 00:00:21,033
+operaciones, división. En este video veremos cómo hacer la división de dos enteros en binario.
+
+4
+00:00:21,033 --> 00:00:29,233
+La división es mucho más compleja que las otras tres operaciones aritméticas. Al igual que con las operaciones anteriores, es útil mirar un ejemplo
+
+5
+00:00:29,233 --> 00:00:38,333
+del mundo de base 10, y pensar en el algoritmo que usamos. Este algoritmo es algo que aprendimos en la escuela como * división larga *. Al igual que con
+
+6
+00:00:38,333 --> 00:00:44,933
+todos los algoritmos, pensemos en las entradas necesarias, cuáles son las instrucciones y cómo saber cuándo detenerse y también cuáles son las salidas
+
+7
+00:00:44,933 --> 00:00:52,066
+son. Mira el ejemplo donde dividimos 90125 entre 12.
+
+8
+00:00:52,066 --> 00:01:00,099
+Las entradas son los dos números enteros y el orden aquí es importante. La forma en que procede el algoritmo de división larga es que primero intentamos dividir el
+
+9
+00:01:00,100 --> 00:01:10,900
+divisor, ese es el 12, en el dígito más a la izquierda del dividendo, ese es el 90125. Escribimos cuántas veces va esto, en este caso cómo
+
+10
+00:01:10,900 --> 00:01:22,433
+muchas veces 12 entra en 9. Bueno, 9 es menor que 12, por lo que 12 no entra en absoluto. Escribimos 0 en el cociente (que eventualmente será parte
+
+11
+00:01:22,433 --> 00:01:33,999
+de la respuesta) para indicar esto. Para pasar al siguiente paso, multiplicamos de 0 a 12 y escribimos esto a continuación. Luego restamos - 9 - 0 es 9. Luego
+
+12
+00:01:34,000 --> 00:01:38,433
+baje el siguiente dígito que nos da 90.
+
+13
+00:01:38,433 --> 00:01:47,966
+Ahora repita las instrucciones. ¿Cuántas veces entra 12 en 90? En este caso, va, de hecho, 7 veces. Así que pon 7 aquí y multiplica 7 por
+
+14
+00:01:47,966 --> 00:02:00,766
+12. Eso da 84 que va aquí, y reste para obtener 6. Baje el siguiente dígito y repita. 12 entra en 61 5 veces. Multiplica para obtener
+
+15
+00:02:00,766 --> 00:02:14,732
+60, anótelo y reste. Baje el siguiente dígito para obtener 12. El 12 entra en esto una vez. Así que ponga 1 aquí ... multiplique ... reste ... reduzca
+
+16
+00:02:14,733 --> 00:02:22,966
+el siguiente dígito. 12 no entra en 5, entonces 0 va aquí ... multiplicar ... restar.
+
+17
+00:02:22,966 --> 00:02:30,866
+No hay más dígitos para reducir y 12 no pueden ir al resultado anterior, por lo que el algoritmo termina. Esto te muestra otro
+
+18
+00:02:30,866 --> 00:02:39,266
+lo que hace que la división sea diferente, es decir, que da como resultado no uno, sino dos números: un cociente y un resto. En este caso, el
+
+19
+00:02:39,266 --> 00:02:51,866
+La respuesta es un cociente de 7510 y un resto de 5. Entonces, 12 entra en 90125, 7510 veces y quedan 5.
+
+20
+00:02:51,866 --> 00:02:59,466
+Es posible que tenga muchas preguntas sobre este proceso. ¿Por qué funciona? ¿Funciona siempre en el sentido de producir resultados correctos?
+
+21
+00:02:59,466 --> 00:03:07,232
+¿Siempre termina, o podríamos alimentarlo con una entrada que haría que continúe para siempre? Abordaremos estas preguntas a tiempo. Pero para
+
+22
+00:03:07,233 --> 00:03:15,266
+ahora, esto es lo que es importante acerca de la división larga con el propósito de conectarla a enteros binarios. Primero, funciona tomando el
+
+23
+00:03:15,266 --> 00:03:22,932
+más pequeño de los dos enteros y verificando cuántas veces entra en trozos de dígitos sucesivos del más grande. Entonces se trata de un
+
+24
+00:03:22,933 --> 00:03:30,199
+multiplicación y un paso de resta. Entonces notamos que el algoritmo se detiene cuando nos quedamos sin dígitos y el número pequeño ya no puede
+
+25
+00:03:30,200 --> 00:03:34,300
+entrar en cualquier cosa. Esto produce un cociente y un residuo.
+
+26
+00:03:34,300 --> 00:03:42,900
+Veamos cómo funciona esto en binario, intentando replicar el algoritmo de división larga para el problema de 11001 dividido por
+
+27
+00:03:42,900 --> 00:03:53,933
+11. En decimal, esto es 25 dividido por 3, por lo que se supone que la respuesta es 8 con un resto de 1. Así que plantee el problema de la misma manera que lo hacemos.
+
+28
+00:03:53,933 --> 00:04:03,499
+con decimales y proceda de la misma manera. Mire el dígito más a la izquierda del dividendo (ese es el número grande en este caso). 11 no divide 1
+
+29
+00:04:03,500 --> 00:04:16,966
+así que ponga un 0, multiplique y luego reste y baje el siguiente dígito. 11 entra en 11 una vez, así que ponga 1 aquí, multiplique, reste y luego traiga
+
+30
+00:04:16,966 --> 00:04:27,666
+hacia abajo el siguiente dígito. 11 no entra en 0, así que ponga 0, multiplique, reste y luego baje el siguiente dígito. Nuevamente, 11 no entra en 0, así que ponga 0,
+
+31
+00:04:27,666 --> 00:04:39,499
+multiplique, reste y luego baje el siguiente dígito. 11 no entra en 1, así que pon 0, multiplicar, restar. No hay más dígitos y 11
+
+32
+00:04:39,500 --> 00:04:50,566
+no entra en el dígito que tenemos aquí, así que hemos terminado. Como se esperaba, el cociente es 1000, que es 8 en base 10, y el resto es 1, que es 1 en
+
+33
+00:04:50,566 --> 00:04:52,166
+base 10.
+
+34
+00:04:52,166 --> 00:05:07,699
+Intentemos eso con un ejemplo más complicado, 1001100110 dividido por 1100. En decimal, esto es 614 dividido por 12, por lo que la respuesta debería ser 51
+
+35
+00:05:07,700 --> 00:05:10,933
+con un resto de 2. Veamos si funciona.
+
+36
+00:05:10,933 --> 00:05:24,199
+Configurando las cosas como de costumbre, verificamos con los dígitos moviéndose de izquierda a derecha. 1100 es bastante grande, por lo que no entra en 1, 10, 100 o 1001. Entonces
+
+37
+00:05:24,200 --> 00:05:34,266
+pondremos 0 encima de cada uno de los cuatro dígitos más a la izquierda. Podríamos multiplicar por 0 y restar, pero esto no resultaría en nada. Así que en lugar de eso
+
+38
+00:05:34,266 --> 00:05:46,066
+simplemente siga poniendo ceros hasta que nuestro cociente entre. Aquí, en este punto, lo hace. ¿Cuántas veces entra 1100 en 10011? Al principio esto parece
+
+39
+00:05:46,066 --> 00:05:54,999
+difícil, pero en realidad es muy fácil, porque los únicos dígitos con los que tiene que trabajar son 0 o 1. Por lo tanto, la pregunta no es "¿Cuántas veces
+
+40
+00:05:55,000 --> 00:06:04,800
+"¿Entra o no?" Si lo hace, ponemos un 1. Si no, ponemos un 0 como en los pasos anteriores y seguimos adelante. No tenemos que
+
+41
+00:06:04,800 --> 00:06:12,566
+piense en "cuántas veces" entra el cociente porque si entrara más de una vez, lo habríamos detectado en un dígito anterior.
+
+42
+00:06:12,566 --> 00:06:24,799
+Entonces aquí, 1100 entra una vez. Ponga un 1, multiplique, que es simplemente copiar el número hacia abajo. Ahora resta. Este es el único que realmente no es fácil
+
+43
+00:06:24,800 --> 00:06:36,500
+cálculo involucrado. Ayuda ver que esto se hace por separado. Estoy restando 1100 de 10011. Los dos primeros dígitos no implican ningún préstamo.
+
+44
+00:06:36,500 --> 00:06:48,033
+El dígito del 4 requiere que tome prestado 1 del lugar de los 8, pero el lugar de los 8 es un 0, así que tengo que subir al 16. Hay un 1 ahí, así que
+
+45
+00:06:48,033 --> 00:06:58,599
+pedir prestado para convertir este 0 en el lugar de los 8 en un 10. Pero luego pedir prestado 1 de * ese * para dárselo a los 4. El lugar de los 4 ahora es un 10 y el lugar de los 8
+
+46
+00:06:58,600 --> 00:07:13,666
+es un 1. Ahora toda la resta puede tener lugar y terminamos con 0111. Observe que esto es menor que 1100 --- el 0111 es un 7 en decimal y
+
+47
+00:07:13,666 --> 00:07:19,066
+1100 es 12 --- así que esto es como una división decimal, sabemos que no nos hemos equivocado porque el resultado aquí es más pequeño que el divisor.
+
+48
+00:07:19,066 --> 00:07:29,699
+Ahora baje el siguiente dígito, nuevamente como en la división decimal larga. Eso da 1110 aquí. 1100 entra en esto, que sabemos porque
+
+49
+00:07:29,700 --> 00:07:45,733
+1110 es mayor que 1100. Sabemos * eso * mirando porque 1110 es 1100 con un 2 adicional agregado allí en el segundo bit. Entonces 1100
+
+50
+00:07:45,733 --> 00:07:56,333
+entra en esto --- por lo tanto, ponga un 1 aquí, multiplique y reste. La resta es más fácil esta vez porque no hay que pedir prestado. Somos
+
+51
+00:07:56,333 --> 00:08:09,899
+a la izquierda con 10. Baje el siguiente dígito para obtener 100. Esto es menor que 1100, por lo que 1100 no entra en él. Así que ponemos un 0 en la parte superior. Voy a multiplicar
+
+52
+00:08:09,900 --> 00:08:22,933
+por 0 esta vez para no perder de vista dónde estoy. Restar solo da 100. Baje el siguiente dígito para obtener 1001. Esto es aún más pequeño que
+
+53
+00:08:22,933 --> 00:08:37,499
+1100 por lo que entra 0 veces. Multiplica y resta para obtener 10011. Da la casualidad de que hicimos esto antes y vimos que 1100 entra en
+
+54
+00:08:37,500 --> 00:08:48,100
+esto, entonces ponemos un 1, multiplicamos, y la resta es la misma para que sepamos que el resultado es 111. Bajamos el siguiente dígito y obtenemos 1110. Vimos
+
+55
+00:08:48,100 --> 00:08:57,033
+esto también antes, y sabemos que entra 1100, así que pon 1, multiplica y resta para obtener 10.
+
+56
+00:08:57,033 --> 00:09:05,299
+La división larga se detiene aquí porque no hay más dígitos para reducir y el resultado es menor que el cociente. Así que mirando el
+
+57
+00:09:05,300 --> 00:09:11,833
+trabajo tenemos un cociente de 110011 y un resto de 10.
+
+58
+00:09:11,833 --> 00:09:19,199
+El cociente es 51 en decimal y el resto es 2, que es lo que se suponía que debíamos obtener.
+
+59
+00:09:19,200 --> 00:09:34,533
+Creo que esto necesita un ejemplo más, y es hora de que lo intentes. Use la división larga en binario para dividir 1100001001 por 10110. Pause el video
+
+60
+00:09:34,533 --> 00:09:41,499
+y resuelve esto. Puede comprobar su trabajo * y * practicar algunos conceptos anteriores convirtiéndolos a decimales y viendo qué
+
+61
+00:09:41,500 --> 00:09:45,866
+el cociente y el resto son.
+
+62
+00:09:45,866 --> 00:09:55,199
+Así que aquí está el trabajo en esto. Compare su propio trabajo con esto y vea cómo lo hizo. Recuerda que acabas de aprender esto
+
+63
+00:09:55,200 --> 00:10:01,266
+proceso, por lo que existe una gran posibilidad de que haya cometido un error aquí, especialmente en uno de los pasos de resta, y ESO ESTÁ BIEN. El
+
+64
+00:10:01,266 --> 00:10:08,066
+Lo principal aquí es depurar su trabajo, encontrar sus errores y corregirlos y luego estará listo para comenzar.
+
+65
+00:10:08,066 --> 00:10:14,266
+En este video, actualizó su memoria sobre la división larga y aprendió cómo aplicar el algoritmo para la división larga a números enteros.
+
+66
+00:10:14,266 --> 00:10:22,199
+representado en binario. Ahora tiene todas las herramientas que necesita para realizar toda la aritmética básica en la que se basan las matemáticas, utilizando solo
+
+67
+00:10:22,200 --> 00:10:28,066
+enteros binarios. Ese es un gran logro y deberías tomarte un momento para sentirte bien al respecto.
+
+68
+00:10:28,066 --> 00:10:35,699
+En el siguiente video, dejaremos el mundo binario por un momento y profundizaremos un poco más en la división larga mirando la división.
+
+69
+00:10:35,700 --> 00:10:43,866
+algoritmo y el operador de módulo muy importante, utilizado en muchas aplicaciones informáticas diferentes. Te veo allí.

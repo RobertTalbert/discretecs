@@ -1,0 +1,239 @@
+1
+00:00:00,000 --> 00:00:07,866
+Tanto en matemáticas como en informática, cada vez que aprendemos sobre una estructura, es útil aprender cómo construir nuevas estructuras a partir de ella.
+
+2
+00:00:07,866 --> 00:00:15,932
+Vamos a hacer eso ahora mirando cinco operaciones que podemos realizar en conjuntos que crearán conjuntos nuevos relacionados que se pueden utilizar para
+
+3
+00:00:15,933 --> 00:00:18,133
+varios propósitos.
+
+4
+00:00:18,133 --> 00:00:26,933
+Como ejemplo continuo a lo largo de este video, suponga que está en una clase de matemáticas discreta. Dejemos que U sea el conjunto de todos los estudiantes de la clase. También
+
+5
+00:00:26,933 --> 00:00:36,199
+Sea C el conjunto de todas las especialidades en informática de su clase y F es el conjunto de todos los estudiantes de primer año de la clase. Entonces C y F son ambos
+
+6
+00:00:36,200 --> 00:00:41,966
+subconjuntos de U, pero no sabemos necesariamente cómo se relacionan C y F entre sí.
+
+7
+00:00:41,966 --> 00:00:49,366
+El instructor de la clase quiere que todos los estudiantes de primer año de ciencias de la computación sepan sobre el club de Ciencias de la Computación. Entonces ella necesita
+
+8
+00:00:49,366 --> 00:00:58,932
+generar una lista de todos los estudiantes de la clase que son estudiantes de ciencias de la computación y estudiantes de primer año --- todos los estudiantes que están en
+
+9
+00:00:58,933 --> 00:01:09,599
+el conjunto C y en el conjunto F. Esto se llama la * intersección * de esos dos conjuntos. En general, la intersección de dos conjuntos A y B es una nueva
+
+10
+00:01:09,600 --> 00:01:18,833
+conjunto cuyos elementos son los que son elementos de A y elementos de B. Usamos un símbolo U invertido como este para representar el
+
+11
+00:01:18,833 --> 00:01:28,466
+intersección de A y B --- debería recordarle la V invertida que usamos para "y" cuando estudiamos lógica. Expresaríamos la intersección de
+
+12
+00:01:28,466 --> 00:01:37,799
+A y B así en la notación del constructor de conjuntos. En nuestra clase, C intersecta F contendría a estos tres estudiantes ya que están en ambos conjuntos en el
+
+13
+00:01:37,800 --> 00:01:40,600
+Mismo tiempo.
+
+14
+00:01:40,600 --> 00:01:48,666
+Más tarde, la instructora recibe un mensaje de la universidad pidiéndole que recuerde a los estudiantes que deben inscribirse en las clases. Ella decide ella
+
+15
+00:01:48,666 --> 00:01:57,199
+necesita contactar especialmente a cualquier estudiante que sea un estudiante de primer año o un estudiante de ciencias de la computación, ya que los estudiantes de primer año pueden
+
+16
+00:01:57,200 --> 00:02:04,566
+es necesario recordarle que debe inscribirse en las clases y los estudiantes de ciencias de la computación tienen un complicado conjunto de cursos que terminar. Así que esto
+
+17
+00:02:04,566 --> 00:02:12,532
+tiempo, necesita estudiantes que sean de primer año o de ciencias de la computación, o ambos. Esto se llama la * unión * de esos dos conjuntos. En
+
+18
+00:02:12,533 --> 00:02:25,399
+En general, la unión de dos conjuntos cualesquiera A y B es un nuevo conjunto cuyos elementos son aquellos que son elementos de A o elementos de B o ambos.
+
+19
+00:02:25,400 --> 00:02:34,666
+Usamos un símbolo en forma de U para denotar la unión, y así se vería en la notación del generador de conjuntos. Para nuestra clase, C unión F sería
+
+20
+00:02:34,666 --> 00:02:42,099
+contienen estos ocho estudiantes ya que están en C o F, o en algunos casos en ambos.
+
+21
+00:02:42,100 --> 00:02:48,200
+Not all the students in the discrete math class are computer science majors, and the instructor would like to send the first-year
+
+22
+00:02:48,200 --> 00:02:56,100
+students who are not majoring in computer science some information about the computer science major to see if they are interested. Now
+
+23
+00:02:56,100 --> 00:03:04,100
+the instructor needs the students who are first-year students but who are not computer science majors. The set of results is called the
+
+24
+00:03:04,100 --> 00:03:13,866
+*difference* of the two sets. In general, if A and B are sets, then the difference of A and B is written either with a minus sign A-B, or with a
+
+25
+00:03:13,866 --> 00:03:22,266
+backward slash A \ B and it's pronounced "A minus B" either way. This is the set whose elements are those that *are* elements of A
+
+26
+00:03:22,266 --> 00:03:31,599
+*and not* elements of B. In our class, we're looking for students who are first-year students but not computer science majors, so that's F
+
+27
+00:03:31,600 --> 00:03:42,633
+menos C, que en este caso tiene tres estudiantes. Tenga en cuenta que, a diferencia de la intersección y la unión, el orden es importante aquí. C \ F es
+
+28
+00:03:42,633 --> 00:03:51,233
+diferente: este sería el conjunto de estudiantes que son estudiantes de ciencias de la computación y no estudiantes de primer año.
+
+29
+00:03:51,233 --> 00:03:57,133
+El instructor de la clase de matemáticas discretas decide que sería bueno enviar esa información sobre ser un informático.
+
+30
+00:03:57,133 --> 00:04:04,433
+especialización para * todos * los estudiantes que actualmente no se están especializando en ciencias de la computación, no solo los estudiantes de primer año. Entonces ella necesita una lista de todos
+
+31
+00:04:04,433 --> 00:04:11,566
+estudiantes que * no * se están especializando en ciencias de la computación sin importar en qué año estén. Esto se llama el * complemento * de un conjunto. En
+
+32
+00:04:11,566 --> 00:04:22,499
+En general, si A es un conjunto, entonces su complemento es un nuevo conjunto cuyos elementos son aquellos que * no * están en A. Usamos una barra sobre el nombre del
+
+33
+00:04:22,500 --> 00:04:29,533
+establecido para denotar su complemento. En nuestra clase, el instructor necesita el complemento de C, el conjunto de todos los estudiantes que no se especializan en informática.
+
+34
+00:04:29,533 --> 00:04:37,566
+Ciencias. Ese es este grupo de siete estudiantes. Observe que para encontrar el complemento, necesitábamos saber lo que el conjunto completo de estudiantes
+
+35
+00:04:37,566 --> 00:04:46,699
+en la clase fue. A ese conjunto lo llamamos U, y el conjunto de todos los elementos que estamos considerando en una situación dada a veces se llama
+
+36
+00:04:46,700 --> 00:04:56,466
+*universo*. De modo que observe que el complemento de A es solo la diferencia U menos A; y la diferencia A menos B es la intersección de A y
+
+37
+00:04:56,466 --> 00:05:05,066
+el complemento de B - el conjunto de todos los elementos que están en A y no en B.
+
+38
+00:05:05,066 --> 00:05:11,966
+Volviendo a nuestra clase de matemáticas discreta, resulta que el departamento de informática tiene su propio mensaje para enviar sobre el registro de la clase a
+
+39
+00:05:11,966 --> 00:05:19,799
+todos los estudiantes de primer año en ciencias de la computación. Entonces, el instructor de la clase no necesitaba enviar la información a esos estudiantes. Ella necesitaba
+
+40
+00:05:19,800 --> 00:05:27,900
+envíelo a estudiantes que sean estudiantes de ciencias de la computación o estudiantes de primer año, * pero no ambos *. El conjunto de estudiantes en esa situación es
+
+41
+00:05:27,900 --> 00:05:36,700
+llamada la * diferencia simétrica * de dos conjuntos. En general, si A y B son dos conjuntos, entonces la diferencia simétrica de los dos, que
+
+42
+00:05:36,700 --> 00:05:47,800
+anotar con un símbolo de triángulo, es la unión de A y B menos la intersección de A y B --- el conjunto cuyos elementos están en A o B, pero no
+
+43
+00:05:47,800 --> 00:05:56,200
+en ambos. En nuestra clase, el instructor necesitaría la diferencia simétrica de C y F, que sería este conjunto.
+
+44
+00:05:56,200 --> 00:06:09,366
+Ahora inténtalo. Sea A el conjunto {1,2,3,4,5}, B el conjunto {3,4,5,6,7} y C el conjunto {1,2,8}. Suponga que el universo en este caso es el
+
+45
+00:06:09,366 --> 00:06:22,032
+establecer {1,2, ..., 10}. Pausa el video y escribe los siguientes conjuntos en notación de lista: A se cruza B, B se cruza C, A se une C, A menos B, A
+
+46
+00:06:22,033 --> 00:06:30,566
+diferencia simétrica B, y finalmente A intersecan el complemento de B unión C.
+
+47
+00:06:30,566 --> 00:06:46,632
+Entonces, A intersecta B es el conjunto de elementos tanto en A como en B, y ese es el conjunto {3, 4, 5}. B intersect C es el conjunto de elementos en ambos B
+
+48
+00:06:46,633 --> 00:06:55,566
+y C pero no hay elementos en ambos, por lo que el conjunto está vacío. Siempre que dos conjuntos tienen una intersección vacía, decimos que esos conjuntos son
+
+49
+00:06:55,566 --> 00:07:09,832
+desarticular. Una unión C es el conjunto de elementos en A o C o en ambos, por lo que es {1,2,3,4,5,8}. Una unión fija es una
+
+50
+00:07:09,833 --> 00:07:18,566
+poco como fusionar los dos conjuntos y eliminar duplicados. A menos B es el conjunto de elementos que están en A
+
+51
+00:07:18,566 --> 00:07:34,266
+pero no en B. Bueno, A consta de 1, 2, 3, 4, 5 y 3,4,5 están en B, por lo que arrojamos nuestro 3, 4, 5 y nos queda {1,2}. A menos B es como un filtrado
+
+52
+00:07:34,266 --> 00:07:43,032
+proceso donde comenzamos con A y filtramos las cosas que están en B.
+
+53
+00:07:43,033 --> 00:07:57,099
+Una diferencia simétrica B es A unión B, que es {1,2,3,4,5,6,7}, menos A intersecan B que es 3,4,5.
+
+54
+00:07:57,100 --> 00:08:03,166
+Filtrar esos tres elementos nos deja con {1,2,6,7}.
+
+55
+00:08:03,166 --> 00:08:16,666
+Ahora, para el último, construimos el conjunto pieza por pieza usando el orden de operaciones. B unión C es el conjunto {1,2,3,4,5,6,7,8}. El complemento de
+
+56
+00:08:16,666 --> 00:08:28,299
+esto es todo en el conjunto de universos que no está en la unión B C, entonces eso es {9,10}. Entonces A intersecta con este conjunto está vacío, ya que esos dos conjuntos
+
+57
+00:08:28,300 --> 00:08:31,733
+no tienen elementos en común.
+
+58
+00:08:31,733 --> 00:08:41,299
+En este video presentamos cinco operaciones de conjuntos: intersección, unión, diferencia, complemento y diferencia simétrica y vimos cómo estas
+
+59
+00:08:41,300 --> 00:08:49,033
+se puede utilizar para combinar conjuntos de diferentes formas para diferentes propósitos. En el siguiente video discutiremos una sexta operación llamada cartesiana.
+
+60
+00:08:49,033 --> 00:08:53,166
+producto de dos conjuntos que produce un tipo de resultado muy diferente.
