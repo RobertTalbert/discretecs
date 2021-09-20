@@ -281,3 +281,107 @@ Notice that unlike in multiplication of real numbers, the order of A and B in A 
 You've actualy worked with Cartesian products before because you've worked with ordered pairs before. Back in your early algebra classes, you learned how to plot points in a two-dimensional xy-plane and then graph functions using this process. Each point is a pair of numbers, like (4,3) or (-2,-3). So the xy-plane which consists of **all** those points, is the set R times R where R is the set of all real numbers. This is the set consisting of all possible pairs with real numbers in each coordinate. 
 
 So you've learned what the Cartesian product is, and how to find the Cartesian product of simple sets. In our next video, we'll be shifting gears to focus on the idea of a *function* which, as we just mentioned, is a way of mapping elements of one set onto the elements of another. 
+
+
+## 3.8
+
+- The idea of assigning values of output to values of input --- the core idea of a computer program
+  - Integer -> another integer
+  - String -> Integer
+  - Two strings -> Boolean
+  - **Core concept:** A process that takes input from a set, then assigns it to output in a different set 
+- Function
+  - A rule that assigns input from one set (the *domain*) to elements of another set (the *codomain*) in such a way that every input is assigned to exactly one output. 
+  - Example from Python 
+  - Example from math 
+- What the last part means 
+  - Every input gets assigned to something 
+  - No input gets assigned to more than one thing
+  - Examples from Python 
+- How we notate functions
+  - Often lower-case letters to denote the rule
+  - $f: A --> B$ means f is the function, the domain is A, and the codomain is B
+  - f(x) means the output that we get when x is the input
+- Examples
+  - f: R -> R by f(x) = x + 1
+  - g: {1,2,3} -> {x,y,z} given by a diagram
+  - The same g given by a matrix 
+  - Python predicate , P: N -> {True, False} (All predicates are just functions from a set into {True, False})
+- Non examples
+  - Diagram with one thing mapping to two 
+  - Diagram with an input not mapping anywhere
+  - f: N -> N, f(n) = n/2
+- Domain = Set of inputs; codomain = Set that contains outputs, think of it as a data type 
+- Range = Set of all actual outputs 
+  - Example: diagram, two functions same two sets but one has a different range 
+
+## 3.9
+
+- Functions never send the same input to two different outputs, but is it OK to send two different inputs to the same output? 
+  - Example where this happens: f(x) = x^2 -- has a "collision" 
+  - Example where this doesn't happen: f(x) = x + 3 (Why?) 
+- Function where two different inputs never map to the same output: **Injective** 
+  - Formal definition (if x != y, then f(x) != f(y))
+- Examples
+  - G-numbers
+  - Predicate
+  - Matrix example 
+- Non examples 
+  - f(n) = n % 10 
+  - birthdays 
+  - Matrix example 
+
+## 3.10
+
+- Saw earlier that the codomain of a function is not always the same as range 
+  - Codomain is more like the general data type of the output
+  - Range is the set of actual outputs 
+- Function where domain = range -- **Surjective** 
+  - Formal definition: (for all y in codomain exists x such that f(x) = y)
+- Examples 
+  - Birthdays 
+  - f(x) = x^2 over the nonnegative reals 
+  - Matrix example 
+- Non examples (exists some y in codomain such that f(x) != y for any x)
+  - Matrix example
+  - f(x) = x^2 over all reals (so whether a function is surjective or not, depends on what the codomain is) 
+  - G-numbers 
+
+## 3.11
+
+- Earlier example about N and evens having the same number of elements -- used a 1-1 correspondence. This was actually a function from N to evens that was both injective and surjective. Namely f(n) = 2n. These functions are very useful for counting things 
+- Function that is both injective and surjective: **Bijective**
+- Examples
+  - Diagram/matrix 
+  - f(x) = x + 3
+- Non examples
+  - G numbers
+  - Birthdays 
+  - f(x) = 2x + 3 (injective but not surjective)
+  - f(x) = x^3 - 2x (surjective but not injective)  
+
+
+## 3.12
+
+- Ceiling (round up to nearest integer)
+  - Domain = R, codomain = Z
+  - CEIL or brackets 
+  - Examples 
+- Floor (round down to nearest integer)
+  - Domain = R, codomain = Z
+  - FLOOR or brackets
+  - Examples
+- Factorial 
+  - Domain = N, codomain = N
+  - 0! = 1, n! = 1 * 2 * 3 * ... * (n-1) * n
+  - Or, 0! = 1 and n! = n * (n-1)! 
+  - Examples
+- DIV (like % but keep the quotient instead of the remainder )
+  - Examples 
+- MOD (same as %)
+  - Examples 
+- How to use these in Python 
+  - MOD is `%` 
+  - DIV is `//` 
+  - CEIL, FLOOR, FACT: belong to the math library
+    - `import math` and then math.floor(x), math.ceil(x), math.factorial(x)
