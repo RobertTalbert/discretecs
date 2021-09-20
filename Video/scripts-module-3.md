@@ -315,6 +315,20 @@ So you've learned what the Cartesian product is, and how to find the Cartesian p
 - Range = Set of all actual outputs 
   - Example: diagram, two functions same two sets but one has a different range 
 
+
+We've learned a lot about sets and how to work with them. One of the purposes of sets is that they are basic data structures -- in fact every data structure you learn about in computer science comes from the idea of a set. But we have data structures not just for holding information but for doing something with it, and that's what we're going to dive into next. 
+
+At the core of computer science is the idea of taking objects from one data structure, and then assigning them to objects in another data structure. For example this short Python program takes integers and assigns them to another integer using a mathematical formula.  This one takes integers and assigns them to strings by duplicating the string "foo" a number of times equal to the input. This Python program takes strings on the other hand and turns them into integers by computing their lengths. This one takes two strings, and assigns a Boolean true or false value according to whether the first string is shorter than the second. 
+
+The idea that threads all three of those programs is that they all take input from one set, and then assign it to output in another set. In Python we call these programs *functions*, and in fact that term is taken from a bigger and older term from mathematics that we'll use now as a formal definition. 
+
+Let's define a **function** to be a rule that assigns elements from one set, which we call the *domain* of the function, to elements of another set (the *codomain*) in such a way that every input is assigned to exactly one output.  All of the Python functions we just saw fit this definition. In the first one, the domain and codomain are both the set of integers, and the rule is the mathematical function you see in the code. In the second, the domain is the set of integers and the codomain is the set of all strings. In the third, the domain is the set of strings and the codomain is the set of integers. And in the last one, the domain is the set of strings and the codomain is the two-element set {True, False}. 
+
+Here's a function that isn't in code. The function is called "f". The domain is the set of real numbers, and the codomain is also the set of real numbers. There are many, many possible functions between these two sets so I need to tell you what the particular rule is. The rule I have in mind is that given an input x, we square it and add 1, and that's the output. Here are some examples of this function in use. We'll notate all this as follows. If f is the name of the function, and if A is its domain and B is the codomain, we write f: A -> B which is like a little diagram showing that f maps elements of A to elements of B. Then I have to specify the rule, which in my case is to take an input, square it and add 1. We'll write this as f(x) = x^2 + 1. That formula tell you the rule for turning inputs to outputs in this example. 
+
+This should remind you of predicates. In fact every predicate is a function, whose codomain is always the set {True, False}. For example earlier we looked at the example of the predicate Q(x) whose domain is the set of integers, and each integer is assigned a true/false value based on the outcome of the statement x % 3 = 0. This is a function from Z to {True, False} and the output is determined by finding x % 3 and seeing if it's equal to 0. 
+
+
 ## 3.9
 
 - Functions never send the same input to two different outputs, but is it OK to send two different inputs to the same output? 
