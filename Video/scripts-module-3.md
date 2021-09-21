@@ -363,6 +363,36 @@ So this video was a deep dive on the central idea of the function. You've learne
   - birthdays 
   - Matrix example 
 
+We introduced functions in our last video, which we can think of as a generalization of the idea of a computer program. Functions take in input from one set called the *domain* of the function, and map it to output in another set we call the *codomain* according to some kind of rule. That rule might be a formula, a code snippet, a set of verbal instructions, or a picture. But the mapping takes place so that every element in the domain maps to exactly one element in the codomain. 
+
+So a valid function never takes an input and sends it to two different outputs. But what happens if a mapping does the opposite -- sending two different inputs to the same output? Is this allowed? What happens if it is? That's the subject of this video. 
+
+First, let's be clear that functions *can* send two different inputs to the same output. In fact many functions we use in real life do this. In the last video we gave the example of a function from the set of all sstudents at your university to the set of all days of the year, which maps a person to their birthday. This is a valid function because every person has a birthday, and no person has two birthdays. So the function does produce an output for each person, and it doesn't "split" inputs by giving a person two birthdays. But two different people could map to the same birthday, and this doesn't make the function invalid. You might say that this function has "collisions" --- two inputs from the domain that collide in the codomain. 
+
+But not all functions have collisions, for example a similar function that maps students at your university to the set of all student ID numbers at your university. If this function had a collision, it would mean two people have the same student ID, and generally speaking that's bad. 
+
+We'd like to distinguish valid functions that have collisions from those that don't because the existence of collisions has real-world implications, as we just saw. So we are going to say that a function where two different inputs never map to the same output, is **injective**. More formally, we say a function f from A to B is injective if, for all elements x1 and x2 in the domain, if x1 does not equal x2, then f(x1) also does not equal f(x2). This is the formal way of saying there are no collisions -- a pair of distinct inputs must always map to a pair of distinct outputs. 
+
+Let's look at some examples and non-examples. 
+
+The G-number function is, we hope, injective again because if you take any two different people and "plug them in" to this function, you should get two different ID numbers. 
+
+This function given as a table from {1,2,3,4} to the set {x,y,z,t} is injective because you can look at the table and see that no two different elements in {1,2,3,4} map to the same point in {x,y,z,t}. 
+
+The function f from the natural numbers to the natural numbers given by the formula f(n) = 2n is injective. Why is this? This time we can't use a table because both the domain and codomain are infinite. So let's give a rigorous explanation using the definition of "injective". That definition remember says f is inejective if for all x1 and x2 in the domain, if x1 does not equal x2 then f(x1) does not equal f(x2). Note that conditional statement. I'm going to use the contrapositive of that statement, which remember is logically equivalent to the original. The contrapositive would say that for all x1, x2 in the domain, if f(x1) *equals* f(x2), then x1 *equals* x2. So let's pick any two natural numbers from the domain and call then a and b, and suppose f(a) = f(b). Apply the function on both sides to get 2a = 2b. Well, if that equation is true, we can divide off the 2's to get a = b. That shows that the function is injective the definition has been satisfied for a random choice of a and b --- if their outputs are the same, then the inputs must be the same. 
+
+So, proving that a function is injective, is a matter of showing that *all* pairs of different elements in the domain map to different elements in the codomain. Examples won't do --- this is a universal statement that has to be shown for all pairs of points in the domain. 
+
+Now here are some non-examples. The birthday function is a good nonexample because in a group the size of your university's student body, it's nearly 100% likely that you can find two people with the same birthday. 
+
+Here's another function from {1,2,3,4} to {x,y,z,t} that you can see is non-injective because there is a collision --- 1 and 2 map to the same element in the codomain. 
+
+And the mathematical function f from Z to Z given by f(n) = n^2 is not injective because f(-1) and f(1) both map to 1. So, showing a function *is not* injective is a matter of finding an example -- an example of two distinct elements in the domain that map to the same element of the codomain. 
+
+However notice if we used a different domain, for example f mapping the natural numbers to the integers, this function *would* be injective. Because if N were the domain and not Z, suppose I had two natural numbers a and b such that f(a) = f(b). Then applying the function gives me a^2 = b^2, which gives a^2 - b^2 = 0, which means (a+b)(a-b) = 0. This means either a+b = 0 or a - b = 0. The first equation gives a = -b. That's only possible if both a and b are both 0 themselves because a and b are natural numbers and not just any integer. And the second equation says a = b. In either case, a and b are equal to each other so the function is injective if you use N as the domain. 
+
+In this video you've learned about injective functions, what the definition is and also the contrapositive of the definition, seen a bunch of examples of injective functions and some that are not injective, and seen examples of how to argue that a function is injective and how to argue that it's not injective. In the next video, we'll look at a similar property for functions involving situations where the codomain and range are equal. 
+
 ## 3.10
 
 - Saw earlier that the codomain of a function is not always the same as range 
@@ -378,6 +408,27 @@ So this video was a deep dive on the central idea of the function. You've learne
   - Matrix example
   - f(x) = x^2 over all reals (so whether a function is surjective or not, depends on what the codomain is) 
   - G-numbers 
+
+In the last video, we moved from discussion what a function is, to how it behaves. We introduced the idea of an injective function to describe functions that map elements so that there are no "collisions". This video is going to introduce a similar idea, focusing on the codomain. 
+
+Earlier we distinguished between the *codomain* of a function and its *range*. The codomain is a set that *contains* the outputs of a function while the range is the set of *actual* outputs of a function. For example this function's codomain is the set {x,y,z,t} but its range is just the set {x,y}. This function given by the mathematical formula f(x) = x^2 + 1 has a codomain of the real numbers, but its range is the set of real numbers bigger than or equal to 1. So sometimes the range of a function is smaller than, and not equal to, its codomain. You can think of the codomain of a function as the *data type* of its outputs while the range is list of actual outputs. The outputs must belong to the codomain, they must be of a data type belonging to this set, but not every point in the codomain may actually get output. 
+
+But sometimes the range and codomain are equal, like you see in this diagram. Or like with this predicate, thought of as a function from the natural numbers to the set {true, false} using the statement "n is even". The codomain is the set of {True, False} but this is also the range, because sometimes this predicate actually does evaluate to True, like when n = 2, and sometimes evaluates to False such as when n = 3. In both cases, for every element in the codomain, there is at least one and possibly many points in the domain that map to it. 
+
+These functions where the codomain and range are equal, we will call **surjective**. More formally, if f: A -> B is a function (note B is the codomain), then f is surjective if the following double-quantified statement is true: For every point b in the codomain, there exist a point a in the domain such that f(a) = b. 
+
+So this function from the diagram is surjective because for any of the four points in the codomain, there exists an element of the domain that maps to it. But this function with the same domain and codomain is not surjective, because there exists an element in the codomain with no point in the domain mapping to it. Likewise, f: R -> R given by f(x) = x^2 + 1 is not surjective because I can find a point in the codomain with nothing mapping onto it: namely the point b = 0. Nothing maps to zero because if something did map to zero, call it a, then we'd have a^2+ 1 = 0. That would mean a^2 = -1 but that has no solution if a is a real number. 
+
+The function f: N -> N given by f(n) = 2n is also not surjective. Pause the video, and think about why. Can you find a point in the codomain (the natural numbers) so that nothing maps onto it? 
+
+There are lots of points that don't get mapped onto, namely any odd natural number. Look at b = 3 for instance, in the codomain. If something mapped onto this, call it "a". Then f(a) = 3, but that means 2a = 3, or a = 3/2. But that's wrong because 3/2 is not a natural number. So nothing maps to 3 under this function. 
+
+Let's play with this idea some more. Look at the function L that maps the set of all string values to the set of natural numbers, and it operates by taking a string and returning its length. This is a valid function because every string has a length and no string has more than one value for its length. Is it surjective? Pause the video and think about it. 
+
+So this function *is* surjective, and let's explain why. We'd need to show that for any element of the codomain "b", there is an element "a" of the domain that maps to it. The domain is the set of natural numbers, so choose some random element from that set and call it "b". Can I find a string that maps to it? In other words, if I choose a random natural number, does there exist a string of that length? Well, yes, and here's how to find it: Given the "b", choose the string consisting of b copies of the letter X. For example if you choose b = 6, look at the string "XXXXXX". Choosing this string always produces something of length b. Even if b were equal to 0 this would work, because then the element of the domain would just be the empty string of zero copies of "X". This explanation has an example in it but works without the example, so it's a proof that this function is surjective. 
+
+In this video you've learned about surjective functions and how they are defined, seen several examples of surjective and non-surjective functions, and looked at how to show in a convincing way why a function is or is not surjective. In our next video, we'll look at functions that have different combinations of being injective and being surjective. 
+
 
 ## 3.11
 
