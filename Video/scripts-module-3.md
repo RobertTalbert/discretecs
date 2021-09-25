@@ -349,20 +349,6 @@ So this video was a deep dive on the central idea of the function. You've learne
 
 ## 3.9
 
-- Functions never send the same input to two different outputs, but is it OK to send two different inputs to the same output? 
-  - Example where this happens: f(x) = x^2 -- has a "collision" 
-  - Example where this doesn't happen: f(x) = x + 3 (Why?) 
-- Function where two different inputs never map to the same output: **Injective** 
-  - Formal definition (if x != y, then f(x) != f(y))
-- Examples
-  - G-numbers
-  - Predicate
-  - Matrix example 
-- Non examples 
-  - f(n) = n % 10 
-  - birthdays 
-  - Matrix example 
-
 We introduced functions in our last video, which we can think of as a generalization of the idea of a computer program. Functions take in input from one set called the *domain* of the function, and map it to output in another set we call the *codomain* according to some kind of rule. That rule might be a formula, a code snippet, a set of verbal instructions, or a picture. But the mapping takes place so that every element in the domain maps to exactly one element in the codomain. 
 
 So a valid function never takes an input and sends it to two different outputs. But what happens if a mapping does the opposite -- sending two different inputs to the same output? Is this allowed? What happens if it is? That's the subject of this video. 
@@ -394,20 +380,6 @@ However notice if we used a different domain, for example f mapping the natural 
 In this video you've learned about injective functions, what the definition is and also the contrapositive of the definition, seen a bunch of examples of injective functions and some that are not injective, and seen examples of how to argue that a function is injective and how to argue that it's not injective. In the next video, we'll look at a similar property for functions involving situations where the codomain and range are equal. 
 
 ## 3.10
-
-- Saw earlier that the codomain of a function is not always the same as range 
-  - Codomain is more like the general data type of the output
-  - Range is the set of actual outputs 
-- Function where domain = range -- **Surjective** 
-  - Formal definition: (for all y in codomain exists x such that f(x) = y)
-- Examples 
-  - Birthdays 
-  - f(x) = x^2 over the nonnegative reals 
-  - Matrix example 
-- Non examples (exists some y in codomain such that f(x) != y for any x)
-  - Matrix example
-  - f(x) = x^2 over all reals (so whether a function is surjective or not, depends on what the codomain is) 
-  - G-numbers 
 
 In the last video, we moved from discussion what a function is, to how it behaves. We introduced the idea of an injective function to describe functions that map elements so that there are no "collisions". This video is going to introduce a similar idea, focusing on the codomain. 
 
@@ -467,29 +439,6 @@ In this video we learned about bijective functions or bijections, which are func
 
 
 ## 3.12
-
-- Ceiling (round up to nearest integer)
-  - Domain = R, codomain = Z
-  - CEIL or brackets 
-  - Examples 
-- Floor (round down to nearest integer)
-  - Domain = R, codomain = Z
-  - FLOOR or brackets
-  - Examples
-- Factorial 
-  - Domain = N, codomain = N
-  - 0! = 1, n! = 1 * 2 * 3 * ... * (n-1) * n
-  - Or, 0! = 1 and n! = n * (n-1)! 
-  - Examples
-- DIV (like % but keep the quotient instead of the remainder )
-  - Examples 
-- MOD (same as %)
-  - Examples 
-- How to use these in Python 
-  - MOD is `%` 
-  - DIV is `//` 
-  - CEIL, FLOOR, FACT: belong to the math library
-    - `import math` and then math.floor(x), math.ceil(x), math.factorial(x)
 
 
 Welcome to the final video in this module on sets and functions. You've come a long way and learned a lot since we first introduced the set, 10 videos ago. Take a moment to congratulate yourself! In our final video, we're going to look at five special functions that are really important and useful in computer science. We'll look at their definitions and how they're implement in Python 3, and also look at their properties as functions. 
