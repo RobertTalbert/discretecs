@@ -2,15 +2,6 @@
 
 ## 4.1 
 
-- what is combinatorics 
-- Making a single choice from multiple bins (and bins are disjoint)
-  - *Additive Principle*
-  - Example: choosing shirts of different colors 
-- When the bins are not disjoint
-  - Choosing shirts that are either red or long-sleeve
-  - Double-counts any that are both
-  - *Principle of Inclusion/Exclusion* 
-
 Welcome to Module 4! So far in this series of videos, we've learned about how computers represent and work with integers, about the logic behind how those and other computer operations work, and in Module 3 we learned about sets and functions which are the prototypes for computer data structures and programs. All of that materiall lays the groundwork for what the next two moodules are about -- thinking mathematically about underlying problems that show up throughout computer science. 
 
 One of the major categories of those kinds of problems is *counting*. I don't mean simple counting, like you learned when you were a toddler. We mean counting complex arrangements of things. For example: How many 16-bit strings are there that have exactly 10 "1" digits? Or, if your computer password has to be a 12-character string that must contain a number, a capital letter, and a special character, how many passwords are possible? Or, if you are trying to sort a long list of numbers or words, how many steps are needed? 
@@ -74,3 +65,36 @@ What if you chose a password in this system but weren't allowed to duplicate any
 OK, let's count. There are still 12 blanks to fill, and filling them is a sequence of choices. There are still 76 ways to pick the character in the first blank. But if we can't duplicate, then there are only 75 ways to make the second choice, because the first character we picked is no longer available. then there are only 74 choices for the third blank, 73 for the fourth, and so on until we have 65 choices for the twelfth and final blank. Again this is a sequence of choices and we see the number of possible outcomes for each choice. So the total number of passwords now is the product of all these, which is still a huge number but not as huge as it was before. Which makes sense because we are counting a smaller space of outcomes now. 
 
 So in this video we learned a new counting technique, the Multiplicative Principle, which shows us how to count arrangements when the arrangements are the outcome of a sequence of choices each of which has a certain number of outcomes. We also saw the Additive Principle make an appearance to help determine the number of outcomes of some of those choices, which shows that these principles don't always stand alone but have to work together, and it's our job as intelligent humans to know what tool to use in which situations. Next up is a mini-series of videos where we're going to learn a central tool for counting, and in the process learn some more techniques for counting these complex arrangements. See you there! 
+
+## 4.7
+
+- Number of n-bit strings with weight k = number of k-element subsets of an n-element set 
+- Not just happens to be equal but are equal because on some deeper level they are the same thing
+- We are taking a collection of n objects and selecting k things out of it
+- We will now call this number something: The **binomial coefficient** $\binom{n}{k}$ pronounced "n choose k" because that's what you're doing. 
+  - It's not a fraction, it's like a little matrix with the size of the collection on top and the size of the set you're selecting on the bottom. 
+  - It replaces the notation |B(n,k)| from earlier videos. 
+- Examples: 
+  - 5 choose 3 is 10 
+  - Special cases are easy: 5 choose 0 is 1, in fact anything choose 0 is 1
+  - 5 choose 5 is 1, in fact anything choose itself is 1 
+- Fundamental recurrence relation
+
+
+
+## 4.8
+
+- Binomial coefficient n choose k = number of ways to select k elements irrespective of ordering out of a set of n objects. 
+- More generally how do we count selections and rearrangements? 
+- NUmber of ways to rearrange n distinct objects: n! (why) 
+  - This is called a permutation. 
+  - Example: Arranging people around a dinner table
+- How many ways to rearrange (permute) k objects chosen from a collection of n distinct objects? 
+  - Example: Select 4 people from a group of 6 and then arrange them around a dinner table
+  - First do the selection: C(6,4) But this is just a set of people, the order is not taken into account. So for each selection there are 4! ways to rearrange. 
+- In general, a permutation of k objects selected from a collection of n objects is called a k-permutation
+- Formula for k-permutation of n elements: n! times C(n,k) which equals n!/(n-k)!. Write this as P(n,k). 
+- Example
+  - Number of three-character airport codes possible --- select 3 from 26 and put in order. Not 26 choose 3 because that's just a set. We care about order, sp P(26,3). 
+  - The formula isn't really necessary just think of filling boxes. 
+- Differences between n!, C(n,k), and P(n,k) 
