@@ -107,9 +107,9 @@ In this video we're going to take on yet another counting problem, counting the 
 
 Specifically we are going to look at the problem of counting the number of n-bit strings that have a weight of k, and we're introducing a new method for doing so, namely the extremely important idea of recursion and the related notion of a recurrence relation.
 
-First of all by the weight of a bit string we just mean the number of 1's that are in it. Or you can think of weight as the sum of all the bits. For example here's an 8-bit string with weight 4. Some notation here. B,n,k is the set of all n-bit strings with weight k -- for example here's B,4,2 which is the set of all 4-bit strings having weight 2 and you can see that the cardinality of this set is 6.
+First of all by the weight of a bit string we just mean the number of 1's that are in it. Or you can think of weight as the sum of all the bits. For example here's an 8-bit string with weight 4. Some notation here. B,n,k is the set of all n-bit strings with weight k -- for example here's B,4,2 which is the set of all 4-bit strings having weight 2 and you can see that the cardinality of this set is 6. So just to clarify, B,n,k is the *set* whose elements are n-bit strings of weight k, and this is the cardinality of that set, which is the number of n-bit strings of weight k. 
 
-So let's think about the cardinality of B,5,3 which is the number of 5-bit strings that have a weight of 3. We could sit down and look at all 2^5 or 32 possible 5-bit strings and just highlight the ones that have weight 3, but that seems inefficient and it wouldn't scale up to longer bit strings. Instead, we're going to introduce a powerful concept used throughout computer science to solve problems --- recursion.
+So let's think about the cardinality of B,5,3 which is the number of 5-bit strings that have a weight of 3. One way to count this number is by brute force, by just listing all 2^5 possible 5-bit strings of any weight and then picking out the ones that have weight 3 and counting the result. But that seems like more work than necessary, and it wouldn't scale up to longer bit strings. Instead, we're going to introduce a powerful concept used throughout computer science to solve problems --- recursion.
 
 Recursion is the process of solving a problem by reducing it to smaller or simpler copies of the same problem, that eventually terminate in a starting condition.
 
@@ -133,15 +133,18 @@ We're going to use this recurrence relation to finally compute B5,3 but there's 
 
 Similarly Bn,0 is the set of all n-bit strings of weight 0, and there's only one such string, namely the string of all 0's. Therefore the number Bn0 is also 1.
 
-So armed with the recurrence relation and these two special cases, we can now compute B53. [[..just talk ]]]
+So armed with the recurrence relation and these two special cases, we can now actually find the number of 5-bit strings with weight 3. We're going to do this using recursion and the recurrence relation we saw earlier, which I've copied here for reference. We'll also need the two special cases to help us end the recursive process: B, n, 0 and B,n,n both equal 1 for any natural number n. 
 
+Starting with B53, use the recurrence relation to reduce this to B43 plus B42. We don't know what those two numbers equal, but we can use the recurrence relation again on each of them to reduce some more. B43 becomes B33 plus B32, and B42 becomes B32 plus B31. Now I'm going to do a couple of things here. First, B33 equals 1 because that's one of our special cases. Second, I see two copies of B32 so I'm just going to combine those into one. I have B32 and B31 and I don't know the values of those, but again I can keep applying the recurrence relation to simplify. 
+
+B32 becomes B22 plus B21 and the B31 becomes B21 plus B20. Now B22 equals 1, B21 is B11 plus B10, here's another B21 that equals the same thing, and B20 is 1 because that's our other special case. Everything that remains is now a special case and equals 1. So we have 1 + 2 times (1+1+1) + (1 + 1 + 1). That's 1 + 2*3 + 3 which is 10. 
 --
 
 Two observations to make at this point.
 
-First, the computation on the previous slide works, but it seems inefficient still. In fact, unless we wrote some code to do this for us, it seems like recursion is not a great way to actually count things. Instead it's a really great way to identify deep relationships between the objects that we're counting. So don't take all this as a kind of algorithm-- think of it more as a way of understanding the mathematical relationships between the objects.
+First, the computation you just saw, using recursion *works*, but it seems inefficient still. In fact, unless we wrote some code to do this for us, it seems like recursion is not a great way to actually count things. Instead it's a really great way to identify deep relationships between the objects that we're counting. So don't take all this as a kind of algorithm-- think of it more as a way of understanding the mathematical relationships between the objects. 
 
-Second, doesn't this seem familiar? The number of 5-bit strings of weight k was 10. And earlier we saw that the number of 3-element subsets of a 5-element set was also 10. Is this a coincidence? Stay tuned to find out.
+Second, doesn't this seem familiar? The number of 5-bit strings of weight 3 was 10. And earlier we saw that the number of 3-element subsets of a 5-element set was also 10. Is this a coincidence? Stay tuned to find out.
 
 ## Video 4
 

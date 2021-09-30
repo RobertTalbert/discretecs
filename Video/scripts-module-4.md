@@ -39,11 +39,6 @@ So in this video you learned about the important field of combinatorics and why 
 
 ## 4.2
 
-- When making a sequence of choices that are independent of each other 
-- *Multiplicative principle* 
-- Example: Choosing an outfit of shirt, pants, shoes
-- Example: License plates 
-
 In the last video we learned about the Additive Principle of counting and the basic Principle of Inclusion and Exclusion. These are guidelines for how to count the number of outcomes of in this case a single choice, made from a collection of sets. Here's a different counting problem that we often encounter, where this principle does NOT apply. 
 
 Go back to choosing clothes to get ready for work. Obviously I don't *just* wear a shirt to work but I also have to choose a pair of pants, and a pair of shoes to wear among other things. Let's suppose I definitely want to wear a long sleeve dress shirt today, and I don't care what color it is -- last time I said I have six of those in my closet. I also need to choose a pair of pants to wear, and I have 5 pairs. And finally I need to choose shoes, and I have three pairs from which to choose. (This of course is ignoring other choices I have to make like socks, underwear, belts, and so on). How many possible outfits can I pick, given that range of choices? 
