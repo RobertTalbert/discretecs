@@ -75,6 +75,9 @@ So in this video we learned a new counting technique, the Multiplicative Princip
   - 5 choose 5 is 1, in fact anything choose itself is 1 
 - Fundamental recurrence relation
 
+In this miniseries of videos, you've learned a lot about counting complex arrangements. You've learned some techniques and tricks for counting as well as some pitfalls to avoid when solving a problem about counting. There's one finding from what we've seen that really stands out. 
+
+That's the fact that the number of n-bit strings with weight k, is the same as the number of k-element subsets of an n-element set. The fact that these two numbers work out to be the same is a little mysterious because when you look at the objects that are being counted, they don't look like each other. But the numbers are the same, not by coincidence but because on some deep level, they are just two ways of expressing the same thing. We built a bijection between the two sets to express this. 
 
 
 ## 4.8
