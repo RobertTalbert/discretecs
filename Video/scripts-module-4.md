@@ -81,7 +81,7 @@ That's the fact that the number of n-bit strings with weight k, is the same as t
 
 In other words, these processes -- finding n-bit strings of a given weight and finding subsets of an n-element set of a given size -- are really doing the same thing. They are starting with a collection of distinct objects and then selecting items out of that collection. The number of ways to take a collection of n distinct objects and select k items from that collection is really what we have been computing all this time. 
 
-This idea of selecting k elements from a collection of n elements is such an important type of counting problem that we are going to give it a special name. The binomial coefficient -- notated like this, and pronounced "n choose k" -- is the number of ways to select k elements from a collection of n distinct elements. This is the same thing as the number of k-element subsets of an n-element set; which is also the same as the number of n-bit strings with weight k. Previously we'd notated this number as B,n,k but we will now just say that this number is n choose k. 
+This idea of selecting k elements from a collection of n elements is such an important type of counting problem that we are going to give it a special name. The binomial coefficient -- notated like this, and pronounced "n choose k" -- is the number of ways to select k elements from a collection of n distinct elements. This is the same thing as the number of k-element subsets of an n-element set; which is also the same as the number of n-bit strings with weight k. 
 
 Please note, this notation is NOT a fraction. It is just notation and there is no algebra manipulation we can do with it. 
 
