@@ -161,6 +161,24 @@ In this video we added two tools to our collection for counting: The factorial f
 - What if we wanted each person to get at least one cookie? 
   - Give one cookie out to each student. Now there are 7 left to give away. So... 7 stars, 2 bars. That's a 9-bit string with weight 2, so 9 choose 2 or 36. 
 
+We've looked a lot at counting problems that deal with selections and rearrangements. Here's a new kind of problem that on the surface looks very different from these. 
+
+I have three children, and lets suppose I want to give them some money in the form of $20 bills. I happen to have $200, in 10 $20 bills. And I want to give those $10 bills away to my three kids. But there's no restriction on how I give them away. My kids' first names start with H, P, and L. I could for example give 3 bills to H, 3 to L, and 4 to P. Or, I could give 5 to L, 3 to P, and 2 to H. Or I could give all 10 of them to H. The only rules here are that I can't split up the $10 bills into smaller amounts, and I have to give away all of them. Also, all the bills are identical. So, how many ways are there to do this? 
+
+Let's start with some WRONG answers to this question. 
+
+One wrong answer is 3^10. This is the answer you would get if you approached the problem like picking a license plate --- where, for each of the 10 bills, you pick a kid to give it to. That would be a sequence of 10 choices with 3 outcomes each, so 3^10. This sounds reasonable, but it's wrong, because it overcounts. For example, if I wanted to give 5 bills to P, then under this method of selection, giving P the first five and giving her the first three and then the last 2, are counted as separate, different ways of distributing the money. But they aren't different, because P ends up with 5 bills either way. 
+
+Another wrong answer is 10^3. This would be the answer if you approach it as a sequence of 3 choices with 10 outcomes each --- pick a $20 bill for each kid. But this isn't right either because it doesn't account for the fact that a kid will get more than one $20 bill. 
+
+Another wrong answer is 10 choose 3. This one feels better but it's still wrong. 10 choose 3 is the number of ways to select 3 objects from a group of 10 and we're not doing that. We're not picking three $20 bills out of the collection, we are giving away all 10 in different ways. 
+
+Yet another wrong answer is P(10,3), which is 10 * 9 * 8. This has the same problem as 10^3 --- it assumes we're going down the line one kid to the next and picking a single $20 bill to give to each kid, but that's not right because the kids could potentially get more than one bill. 
+
+So this is a new kind of situation. We are not rearranging anything, we are not selecting anything --- we are *distributing* things. We are taking 10 identical objects ($20 bills) and distributing them in different ways to 3 different places (my kids' wallets). Before we can count the number of ways to do this, we need to have a way of even conceptualizing how this works.
+
+
+
 ## 4.10
 
 - Basic PIE
