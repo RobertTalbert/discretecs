@@ -112,3 +112,102 @@ In this video, we introduced the binomial coefficient which is a number that giv
   - Number of three-character airport codes possible --- select 3 from 26 and put in order. Not 26 choose 3 because that's just a set. We care about order, sp P(26,3). 
   - The formula isn't really necessary just think of filling boxes. 
 - Differences between n!, C(n,k), and P(n,k) 
+
+We've just added the binomial coefficient to our list of tools for solving complex counting problems. The binomial coefficient n choose k counts the number of ways to select a group of k things from a larger collection of n things. An important interpretation of this is it's the number of ways to choose a k-element subset of an n-element set. One important thing to remember about sets in general is that the ordering of the elements in a set doesn't matter. But what if we were making a selection from a larger group and the ordering did matter? That's what this video is about. 
+
+Let's start with a simpler situation. Suppose I'm playing a game where I have some letter tiles and I need to rearrange them to spell out as many words as I can. Suppose that I have six of these tiles and they are all different letters. How many arrangements are there? That is, how many ways can I reorder this set of tiles? 
+
+We can solve this pretty easily with the Multiplicative Principle. Imagine that I am going to physically reorder those tiles on an empty rack with six positions. Filling the empty rack is a sequence of choices, so let's count the choices at each stage. There are 6 ways to fill in the first slot, 5 for the second, then 4, then 3, then 2, then 1. So the number of rearrangements is the product of all these, which in this case is 720. More generally if I had "n" tiles and they were all different letters, then the number of rearrangements would be n times n-1 times n-2 times... and so on down to 3 times 2 times 1. This is *n factorial* which we defined in an earlier video, and back when we defined it, we said that it counts the number of arrangements possible of a list of n distinct or different objects. 
+
+Now let's think about the problem we started this video with, counting the number of ways to select a group of objects from a larger group of objects in such a way that the ordering actually is taken into account. Again if the ordering were *not* taken into account, we'd just use the binomial coefficient because that's just forming a subset from a larger set. Here's an example of the kind of problem we're interested in. Suppose I have a class of 12 students and from that group, I need to pick 3 students to be the leadership team of the math club. One student will be the president, another the vice-president, and the other the treasurer. How many ways are there to make this selection? It's not 12 choose 3 because that treats the choice of Alice, bob, chuck the same as the choice of bob, chuck, alice and that's not it. So let's think about this. Imagine the leadership team choices as three spots to fill (because it *is* three spots to fill). Filling those spots is a sequence of choices. There are 12 ways to fill the first spot. Then 11 ways to fill the second, then 10 to fill the last one. So it's 12 * 11 * 10 or 1320 by the Multiplicative Principle. 
+
+We could stop there, and just say that this problem of selecting an *ordered* list of objects from a larger group always works out like this, using the Multiplicative Principle, and that wouldn't be wrong. But let's look a little further. This number 12 * 11 * 10 is not a factorial but it's a piece of a factorial. In fact if you think about it, it's 12! with 9! divided off. So the number of ways to make this selection is 12!/9!. 
+
+This looks a little like the closed formula for the binomial coefficient. 12 choose 3 according to that formula would be 12! over not just 9! but 9! times 3!. So this ordered version of the binomial coefficient is missing the 3! on the bottom. But this makes sense, because we are taking the ordering into account now. The binomial coefficient, when we were defining it, divided off the 3! because choosing items with ordering counted each arrangement as different selections. That was not what we wanted when making sets, so we divided off that 3! to correct the count. But this *is* what we want when we are making ordered selections, so we don't divide it off. 
+
+In general, when you make a selection of k elements from a larger group of n elements and do so in a way that takes the order of the choice into account, this is called a *k-permutation* and this is denoted P(n,k). We just learned that P(n,k) is always equal to n!/(n-k)! For example we saw P(12,3) is 12! over 9!. This is not by magic but because this is just the Mutliplicative Principle at work. 
+
+Here's another example. Suppose I have a set A with 4 elements and a set B with 10 elements. How many functions are possible from A to B, and how many of those are injective? 
+
+To answer the first question, let's make a sequence of choices of where to send each element of A. Although the ordering doesn't matter in a set, let's pretend the set is {1,2,3,4} and go one at a time. Well, with no restriction on the function, there are 10 choices for where to map 1, then 10 for where to map 2, 10 for 3, and 10 for 4. So there are four blanks with 10 choices each so there are 10^4 or 10000 possible functions. That's not a k-permutation or a rearrangement but just the basic multiplicative principle. However if we require injective, then it's got to be less than 10000. Let's count: there are 10 choices for the output of 1, but now only 9 choices for the output of 2, 8 for 3, and 7 for 4. This is 10*9*8*7 which is 5040. You may not even realize it, but this is P(10,4) --- which makes sense in hindsight, because we're basically looking at the codomain of our function and making a selection of 4 things out of it, and putting the selection in order of which point in the domain maps to it. But I think it's actually clearer to *not* view this as a 4-permutation but just count things and use the Multiplicative principle. 
+
+In this video we added two tools to our collection for counting: The factorial function for counting arrangements of items in a set, and the k-permutation for counting the number of *ordered* selections of k items from a group of n items. Next up, we introduce a new but not entirely unrelated counting problem of distributing items to different people. 
+
+## 4.9
+
+- Seen counting problems about selection and arrangements, now one about distribution
+- 10 identical cookies, you want to give these to 3 different students. How many ways to do it? 
+- Wrong answers: 
+  - 3^10 -- Pick the cookie for the first student, then pick for the second, etc. This is wrong because it assumes one cookie per student, but there's no such restriction, could give all 10 to one student and none to anybody else 
+  - 10^3 -- For each cookie pick the student to give it to. This lets you give a student more than one cookie, but it overcounts --- all the cookies are identical, so giving first three cookies to alice, the next three to bob, and the next four to chuck is the same as giving the first four to chuck, the next three to bob, and the next three to alice --- but they are counted as different. 
+  - 10 choose 3 -- Popular choice, but wrong because 10 choose 3 counts the number of ways of picking 3 things from a collection of 10, and we're not doing that. We're not selecting a subset of the cookies to give away. 
+  - Nor is it P(10,3) because this is just 10 choose 8 with the ordering taken into account, and it's still the wrong situation. 
+- So this is a new kind of problem where we are *distributing 10 identical items among 8 people*. How to conceptualize this? 
+  - For example: Suppose we're giving 5 cookies to alice, 4 to bob, 1 to chuck. 
+  - Pretend that the students are line to receive the cookies. Count out 5 cookies to alice, then switch to bob and count out 4, then switch and count out 1. 
+  - Represent each cookie with a star and each switching point with a vertical bar. It would produce a little diagram like this: *****|****|*. 
+  - What would that diagram look like if we gave 1 to alice, 6 to bob, 3 to chuck? *|******|***
+  - What if we gave 8 to alice, none to bob, and 2 to chuck: ********||**
+  - So each possible distribution can be represented by one of these diagrams, and each diagram tells you a distribution. In other words there are exactly as many ways to give out the cookies as there are diagrams of this form. "Stars and bars" --- abstracts things away from cookies ad students. This could represent *any* form of distribution. 
+- So how many stars/bars diagrams are there in this case? 
+  - there are 10 stars and 2 bars since 10 cookies to give and three students, therefore two switchovers. 
+  - These diagrams are the same thing as bit strings --- with 10 zeroes and 2 1's. 
+  - IOW each diagram is a 12-bit string with weight 2. 
+  - The number of such diagrams is 12 choose 2, or 66. 
+- Stars and bars method: 
+  - For counting number of arrangements of n identical objects to k different locations. 
+  - Each distribution consists of n stars and k-1 bars
+  - So it's a n+k-1 bit string with weight k-1: n+k-1 choose k-1. 
+- What if we wanted each person to get at least one cookie? 
+  - Give one cookie out to each student. Now there are 7 left to give away. So... 7 stars, 2 bars. That's a 9-bit string with weight 2, so 9 choose 2 or 36. 
+
+## 4.10
+
+- Basic PIE
+- What if you had three sets, with overlaps like this? How many elements in the union? YOu can verify it's 12 here.  
+- Sum up the elements in all three: 20. Obviously we overcounted, but how? 
+- This counts the elements in each two-way intersection twice, so we need to subtract those out: subtract off A ^ B = 3, A ^ C = 4, B ^ C = 3. But that would get us to 20 - 10 = 10... too small! What happened? 
+- The three-way intersection was subtracted out, and now it needs to be added back in. That gets us to 12. 
+- PIE for three sets 
+- There are versions for four, five, etc. sets 
+- Example: Back to giving 10 cookies to 3 students. How many ways to do this so that no student gets more than 4 cookies? 
+  - Without the restriction the answer, we saw would be 12 choose 2 (10 stars, 2 bars)
+  - Now add up the number of ways that the restriction could be violated and subtract that off. 
+  - Number of ways that Alice could get more than 5 OR Bob OR Chuck -- it's a union. 
+  - A = set of outcomes where Alice gets more than 4, B = bob, C = Chuck. WE're looking for the |A v B v C|. 
+  - |A| = Give alice 5, distribute the remaining 5. That's 5 stars and 2 bars, so 7 choose 2. 
+  - |B| also 7 choose 2
+  - |C| same. 
+  - Now the intersections: A ^ B -- this means Alice and Bob get 5 cookies each. If that's the case there are no more cookies to distribute, so there's only one way to o this. Same for the other two 2-way intersections 
+  - Three-way intersection is impossible, so it's empty. 
+  - So number of ways to violate the condition is 12 choose 2 minus 3 times 7 choose 2 + 0. 
+- The application of the PIE is not obvious! Takes careful human-brain thinking to see that there's a union of three sets involved. 
+
+
+## 4.11
+
+- Counting problems can be very tricky because it's not always clear exactly what approach you should take -- might be a combination of approaches. And it's tempting to just start applying formulas before you truly understand the problem. Here are some guidelines -- not a foolproof algorithm but guidelines. 
+- First use your human brain to study and analyze the problem --- play with examples --- what am I trying to do? 
+- Flowchart
+  - Making a single selection from a bunch of sets? 
+    - Are they disjoint or not?
+  - Making a sequence of selections with known outcomes for each? 
+  - Selecting a group from a collection? 
+    - Does order matter? 
+  - Rearranging a list of objects? 
+    - Are they all identical? 
+  - Distributing identical items to different locations? 
+- And realize that the right method may not be any single one of these, but a combo 
+- Example: Class of 12 students and I want to split them up into 4 groups of 3. How many different ways to do that? 
+  - Closest match in the flowchart is selecting a group from a collection, but it's not a perfect match --- 12 choose 3 is just picking one group. But maybe that helps. Think about the actual process that would take place -- I'd pick the first group, then the second, then the third, then the fourth. So it's a sequence of choices -- multiplicative principle. And each choice has outcomes, how many? 
+  - First choice is picking the first group -- 12 choose 3. 
+  - Second choice is picking the second group -- 9 choose 3
+  - Then 6 choose 3
+  - Then finally 3 choose 3. 
+  - So first glance --- it's the product of these three binomial coefficients. 
+  - But there's one subtle point: We have overcounted because this picks "group 1", then "group 2", etc. But if I put ABC in group 1 and DEF in group 2, that's the same, for me as putting DEF in group 1 and ABC in group 2. So I have overcounted because I am treating the ordering of the groups themselves as being different. That's not the case so I have to divide off by the number of ways to rearrange those groups, which is 4!. 
+  - Guidelines: 
+    - Use your human brain first
+    - Play with examples until you understand the process
+    - The flowchart helps, but most counting problems are a combo
+    - Beware of overcounting 
