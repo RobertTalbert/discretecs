@@ -98,28 +98,17 @@ In this video, we introduced the binomial coefficient which is a number that giv
 
 ## 4.8
 
-- Binomial coefficient n choose k = number of ways to select k elements irrespective of ordering out of a set of n objects. 
-- More generally how do we count selections and rearrangements? 
-- NUmber of ways to rearrange n distinct objects: n! (why) 
-  - This is called a permutation. 
-  - Example: Arranging people around a dinner table
-- How many ways to rearrange (permute) k objects chosen from a collection of n distinct objects? 
-  - Example: Select 4 people from a group of 6 and then arrange them around a dinner table
-  - First do the selection: C(6,4) But this is just a set of people, the order is not taken into account. So for each selection there are 4! ways to rearrange. 
-- In general, a permutation of k objects selected from a collection of n objects is called a k-permutation
-- Formula for k-permutation of n elements: n! times C(n,k) which equals n!/(n-k)!. Write this as P(n,k). 
-- Example
-  - Number of three-character airport codes possible --- select 3 from 26 and put in order. Not 26 choose 3 because that's just a set. We care about order, sp P(26,3). 
-  - The formula isn't really necessary just think of filling boxes. 
-- Differences between n!, C(n,k), and P(n,k) 
-
 We've just added the binomial coefficient to our list of tools for solving complex counting problems. The binomial coefficient n choose k counts the number of ways to select a group of k things from a larger collection of n things. An important interpretation of this is it's the number of ways to choose a k-element subset of an n-element set. One important thing to remember about sets in general is that the ordering of the elements in a set doesn't matter. But what if we were making a selection from a larger group and the ordering did matter? That's what this video is about. 
 
-Let's start with a simpler situation. Suppose I'm playing a game where I have some letter tiles and I need to rearrange them to spell out as many words as I can. Suppose that I have six of these tiles and they are all different letters. How many arrangements are there? That is, how many ways can I reorder this set of tiles? 
+Let's start with a simpler situation. Suppose I'm playing a game where I have some letter tiles and I need to rearrange them to spell out as many words as I can. Suppose that I have seven of these tiles and they are all different letters. How many arrangements are there? That is, how many ways can I reorder this set of tiles? 
 
-We can solve this pretty easily with the Multiplicative Principle. Imagine that I am going to physically reorder those tiles on an empty rack with six positions. Filling the empty rack is a sequence of choices, so let's count the choices at each stage. There are 6 ways to fill in the first slot, 5 for the second, then 4, then 3, then 2, then 1. So the number of rearrangements is the product of all these, which in this case is 720. More generally if I had "n" tiles and they were all different letters, then the number of rearrangements would be n times n-1 times n-2 times... and so on down to 3 times 2 times 1. This is *n factorial* which we defined in an earlier video, and back when we defined it, we said that it counts the number of arrangements possible of a list of n distinct or different objects. 
+We can solve this pretty easily with the Multiplicative Principle. Imagine that I am going to physically reorder those tiles on an empty rack with six positions. Filling the empty rack is a sequence of choices, so let's count the choices at each stage. There are 7 ways to fill in the first slot, 6 for the second, then 5, then 4, then 3, then 2, then 1. So the number of rearrangements is the product of all these, which in this case is 5040. YOu might remember that this product of 7 times 6 times 5 and so forth times 2 times 1 is called 7 factorial. 
 
-Now let's think about the problem we started this video with, counting the number of ways to select a group of objects from a larger group of objects in such a way that the ordering actually is taken into account. Again if the ordering were *not* taken into account, we'd just use the binomial coefficient because that's just forming a subset from a larger set. Here's an example of the kind of problem we're interested in. Suppose I have a class of 12 students and from that group, I need to pick 3 students to be the leadership team of the math club. One student will be the president, another the vice-president, and the other the treasurer. How many ways are there to make this selection? It's not 12 choose 3 because that treats the choice of Alice, bob, chuck the same as the choice of bob, chuck, alice and that's not it. So let's think about this. Imagine the leadership team choices as three spots to fill (because it *is* three spots to fill). Filling those spots is a sequence of choices. There are 12 ways to fill the first spot. Then 11 ways to fill the second, then 10 to fill the last one. So it's 12 * 11 * 10 or 1320 by the Multiplicative Principle. 
+More generally if I had "n" tiles and they were all different letters, then the number of rearrangements would be n factorial -- n times n-1 times n-2 times... and so on down to 3 times 2 times 1. Back when we defined the factorial function, we said that it counts the number of arrangements possible of a list of n distinct or different objects. 
+
+Now let's think about the problem we started this video with, counting the number of ways to select a group of objects from a larger group of objects in such a way that the ordering actually is taken into account. Again if the ordering were *not* taken into account, we'd just use the binomial coefficient because that's just forming a subset from a larger set. 
+
+Here's an example of the kind of problem we're interested in. Suppose I have a class of 12 students and from that group, I need to pick 3 students to be the leadership team of the math club. One student will be the president, another the vice-president, and the other the treasurer. How many ways are there to make this selection? It's not 12 choose 3 because that treats the choice of Alice, bob, chuck the same as the choice of bob, chuck, alice and that's not it. So let's think about this. Imagine the leadership team choices as three spots to fill (because it *is* three spots to fill). Filling those spots is a sequence of choices. There are 12 ways to fill the first spot. Then 11 ways to fill the second, then 10 to fill the last one. So it's 12 * 11 * 10 or 1320 by the Multiplicative Principle. 
 
 We could stop there, and just say that this problem of selecting an *ordered* list of objects from a larger group always works out like this, using the Multiplicative Principle, and that wouldn't be wrong. But let's look a little further. This number 12 * 11 * 10 is not a factorial but it's a piece of a factorial. In fact if you think about it, it's 12! with 9! divided off. So the number of ways to make this selection is 12!/9!. 
 
@@ -135,35 +124,9 @@ In this video we added two tools to our collection for counting: The factorial f
 
 ## 4.9
 
-- Seen counting problems about selection and arrangements, now one about distribution
-- 10 identical cookies, you want to give these to 3 different students. How many ways to do it? 
-- Wrong answers: 
-  - 3^10 -- Pick the cookie for the first student, then pick for the second, etc. This is wrong because it assumes one cookie per student, but there's no such restriction, could give all 10 to one student and none to anybody else 
-  - 10^3 -- For each cookie pick the student to give it to. This lets you give a student more than one cookie, but it overcounts --- all the cookies are identical, so giving first three cookies to alice, the next three to bob, and the next four to chuck is the same as giving the first four to chuck, the next three to bob, and the next three to alice --- but they are counted as different. 
-  - 10 choose 3 -- Popular choice, but wrong because 10 choose 3 counts the number of ways of picking 3 things from a collection of 10, and we're not doing that. We're not selecting a subset of the cookies to give away. 
-  - Nor is it P(10,3) because this is just 10 choose 8 with the ordering taken into account, and it's still the wrong situation. 
-- So this is a new kind of problem where we are *distributing 10 identical items among 8 people*. How to conceptualize this? 
-  - For example: Suppose we're giving 5 cookies to alice, 4 to bob, 1 to chuck. 
-  - Pretend that the students are line to receive the cookies. Count out 5 cookies to alice, then switch to bob and count out 4, then switch and count out 1. 
-  - Represent each cookie with a star and each switching point with a vertical bar. It would produce a little diagram like this: *****|****|*. 
-  - What would that diagram look like if we gave 1 to alice, 6 to bob, 3 to chuck? *|******|***
-  - What if we gave 8 to alice, none to bob, and 2 to chuck: ********||**
-  - So each possible distribution can be represented by one of these diagrams, and each diagram tells you a distribution. In other words there are exactly as many ways to give out the cookies as there are diagrams of this form. "Stars and bars" --- abstracts things away from cookies ad students. This could represent *any* form of distribution. 
-- So how many stars/bars diagrams are there in this case? 
-  - there are 10 stars and 2 bars since 10 cookies to give and three students, therefore two switchovers. 
-  - These diagrams are the same thing as bit strings --- with 10 zeroes and 2 1's. 
-  - IOW each diagram is a 12-bit string with weight 2. 
-  - The number of such diagrams is 12 choose 2, or 66. 
-- Stars and bars method: 
-  - For counting number of arrangements of n identical objects to k different locations. 
-  - Each distribution consists of n stars and k-1 bars
-  - So it's a n+k-1 bit string with weight k-1: n+k-1 choose k-1. 
-- What if we wanted each person to get at least one cookie? 
-  - Give one cookie out to each student. Now there are 7 left to give away. So... 7 stars, 2 bars. That's a 9-bit string with weight 2, so 9 choose 2 or 36. 
-
 We've looked a lot at counting problems that deal with selections and rearrangements. Here's a new kind of problem that on the surface looks very different from these. 
 
-I have three children, and lets suppose I want to give them some money in the form of $20 bills. I happen to have $200, in 10 $20 bills. And I want to give those $10 bills away to my three kids. But there's no restriction on how I give them away. My kids' first names start with H, P, and L. I could for example give 3 bills to H, 3 to L, and 4 to P. Or, I could give 5 to L, 3 to P, and 2 to H. Or I could give all 10 of them to H. The only rules here are that I can't split up the $10 bills into smaller amounts, and I have to give away all of them. Also, all the bills are identical. So, how many ways are there to do this? 
+I have three children and their initials are L, P, and H. Lets suppose I want to give them some money in the form of $20 bills. I happen to have $200, in 10 $20 bills. And I want to give those $10 bills away to my three kids. But there's no restriction on how I give them away.  I could for example give 3 bills to H, 3 to L, and 4 to P. Or, I could give 5 to L, 3 to P, and 2 to H. Or I could give all 10 of them to H. The only rules here are that I can't split up the $10 bills into smaller amounts, and I have to give away all of them. Also, all the bills are identical. So, how many ways are there to do this? 
 
 Let's start with some WRONG answers to this question. 
 
