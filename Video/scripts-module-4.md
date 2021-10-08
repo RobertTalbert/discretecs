@@ -144,7 +144,9 @@ Like all counting problems, it helps to visualize the actual process that we are
 
 This "Stars and bars" diagram is shorthand for the distribution of money. Every distribution has its own diagram. For example if I wanted to give 2 bills to L, 4 to P, and 4 to H, the diagram would look like this. If I wanted to give L 8 bills, P nothing, and H the remaining two, the diagram would look like 8 stars, followed by a bar, followed by another bar --- there's no star here because there was no bill given -- followed by 2 stars. Likewise if you're given a diagram like this, you can tell what distribution of money was meant. This diagram for example means give 1 bill to L, 1 to P, and the remaining 8 to H. 
 
-So every distribution of money has a unique diagram that represents it, and vice versa, every diagram gives you a unique distribution. That means there is a bijection between the set of all distributions of 10 bills to 3 kids, and the set of all these stars and bars diagrams with 10 stars and 2 bars. So if I count one set, I have counted the other. But it's actually really easy to count the second set here of stars and bars diagrams if you look at it right. Each of these diagrams can be turned into a string of bits by replacing each star with a 0 and each bar with a 1. This replacement --- stars to 0s and bars to 1s --- is yet another bijection. In our example it turns a stars and bars diagram into a string of bits, and not just any string, but a string with 12 bits in it --- because there are always 10 stars and 2 bars in any distribution of money --- and exactly 2 "1" bits. And we have seen this problem before: The set of all 12-bit strings with weight 2, is counted by the binomial coefficient 12 choose 2. 
+So every distribution of money has a unique diagram that represents it, and vice versa, every diagram gives you a unique distribution. That means there is a bijection between the set of all distributions of 10 bills to 3 kids, and the set of all these stars and bars diagrams with 10 stars and 2 bars. So if I count one set, I have counted the other. 
+
+But it's actually really easy to count the second set here of stars and bars diagrams if you look at it right. Each of these diagrams can be turned into a string of bits by replacing each star with a 0 and each bar with a 1. This replacement --- stars to 0s and bars to 1s --- is yet another bijection. In our example it turns a stars and bars diagram into a string of bits, and not just any string, but a string with 12 bits in it --- because there are always 10 stars and 2 bars in any distribution of money --- and exactly 2 "1" bits. And we have seen this problem before: The set of all 12-bit strings with weight 2, is counted by the binomial coefficient 12 choose 2. 
 
 Therefore the number of stars and bars diagrams in our example is 12 choose 2 and therefore the number of ways to distribute 10 $20 bills to three kids is also 12 choose 2, or 66. 
 
@@ -159,31 +161,7 @@ We can check this result by using a computer to actually list all the distributi
 So this video introduced a new kind of counting problem, where we are distributing a collection of identical items to a number of recipients. That problem is solved using a visual trick called a stars and bars diagram, and changing those diagrams into bit strings of a certain weight (equal to the number of bars used) allows us to solve these problems using the binomial coefficient. Thanks for watching. 
 
 
-
-## 4.10
-
-- Basic PIE
-- What if you had three sets, with overlaps like this? How many elements in the union? YOu can verify it's 12 here.  
-- Sum up the elements in all three: 20. Obviously we overcounted, but how? 
-- This counts the elements in each two-way intersection twice, so we need to subtract those out: subtract off A ^ B = 3, A ^ C = 4, B ^ C = 3. But that would get us to 20 - 10 = 10... too small! What happened? 
-- The three-way intersection was subtracted out, and now it needs to be added back in. That gets us to 12. 
-- PIE for three sets 
-- There are versions for four, five, etc. sets 
-- Example: Back to giving 10 cookies to 3 students. How many ways to do this so that no student gets more than 4 cookies? 
-  - Without the restriction the answer, we saw would be 12 choose 2 (10 stars, 2 bars)
-  - Now add up the number of ways that the restriction could be violated and subtract that off. 
-  - Number of ways that Alice could get more than 5 OR Bob OR Chuck -- it's a union. 
-  - A = set of outcomes where Alice gets more than 4, B = bob, C = Chuck. WE're looking for the |A v B v C|. 
-  - |A| = Give alice 5, distribute the remaining 5. That's 5 stars and 2 bars, so 7 choose 2. 
-  - |B| also 7 choose 2
-  - |C| same. 
-  - Now the intersections: A ^ B -- this means Alice and Bob get 5 cookies each. If that's the case there are no more cookies to distribute, so there's only one way to o this. Same for the other two 2-way intersections 
-  - Three-way intersection is impossible, so it's empty. 
-  - So number of ways to violate the condition is 12 choose 2 minus 3 times 7 choose 2 + 0. 
-- The application of the PIE is not obvious! Takes careful human-brain thinking to see that there's a union of three sets involved. 
-
-
-## 4.11
+## 4.10 
 
 - Counting problems can be very tricky because it's not always clear exactly what approach you should take -- might be a combination of approaches. And it's tempting to just start applying formulas before you truly understand the problem. Here are some guidelines -- not a foolproof algorithm but guidelines. 
 - First use your human brain to study and analyze the problem --- play with examples --- what am I trying to do? 
