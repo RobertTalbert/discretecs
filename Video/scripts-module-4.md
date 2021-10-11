@@ -188,3 +188,16 @@ So this video introduced a new kind of counting problem, where we are distributi
     - Play with examples until you understand the process
     - The flowchart helps, but most counting problems are a combo
     - Beware of overcounting 
+
+We've come to the final video in this module on combinatorics. We've seen a lot of different ways to formulate and solve counting problems and introduced several tools for solving them. As you're surely aware by now, these problems can be very tricky. Solutions that seem perfectly logical might contain hidden assumptions or incorrect interpretations that might lead to a solution that overcounts, or undercounts, or just isn't even the correct approach at all. In this video, we're not going to introduce any new concepts or tools but instead just review some problem-solving concepts that will help you stay on the right track when working a combinatorics problem, or any other kind of problem. 
+
+The first concept to keep in mind is **try to understand the problem first before using math**. Don't begin by applying formulas. Instead, begin by using your human brain to comprehend what exactly is being done. What are the data? What are the conditions on the problem? What are we counting? A powerful way to understand a problem is to **look at it in different ways**. Can you draw a picture or a diagram? Can you physically act out the situation to understand how the process you are counting actually unfolds? 
+
+The second concept is to **compare the problem you have to problems you have seen before**. For example, is the situation you are counting like the license plate problem? Or is it a distribution style of problem that would involve stars and bars? If so, then how is it like those? Can you explain the way that the problem you have relates to a problem you have seen before? 
+
+The third concept is related to the second one: **Generate lots of examples and data, and try to solve the problem in a specific related special case.** As we've seen many times already, specific examples do not belong in a general solution to a problem, but it's often nearly impossible to understand a new problem without doing reconnaissance work first by looking at specific examples, or simplified versions of the problem. If you can work out the problem in special cases, look at all those special cases and see what they have in common. You can also use a computer at times to actually enumerate and count the situation you are counting, by having the computer generate a lot of examples for you very quickly, and then you can use your human brain to reality check your own solution. 
+
+Fourth and finally, to repeat something just said, **reality check your solution**. Does the answer make sense? For example, look at the problem of counting the number of 8-bit strings that either begin with a "10" or end in a "11". If you come up with an answer of 512, you should reality check this --- it's not even possible, because the number of 8-bit strings without any restrictions at all is 2^8 which is 256. The bit strings being counted are a subset of all 8-bit strings so the answer to your problem cannot possibly be larger than 256. 
+
+
+
