@@ -163,31 +163,6 @@ So this video introduced a new kind of counting problem, where we are distributi
 
 ## 4.10 
 
-- Counting problems can be very tricky because it's not always clear exactly what approach you should take -- might be a combination of approaches. And it's tempting to just start applying formulas before you truly understand the problem. Here are some guidelines -- not a foolproof algorithm but guidelines. 
-- First use your human brain to study and analyze the problem --- play with examples --- what am I trying to do? 
-- Flowchart
-  - Making a single selection from a bunch of sets? 
-    - Are they disjoint or not?
-  - Making a sequence of selections with known outcomes for each? 
-  - Selecting a group from a collection? 
-    - Does order matter? 
-  - Rearranging a list of objects? 
-    - Are they all identical? 
-  - Distributing identical items to different locations? 
-- And realize that the right method may not be any single one of these, but a combo 
-- Example: Class of 12 students and I want to split them up into 4 groups of 3. How many different ways to do that? 
-  - Closest match in the flowchart is selecting a group from a collection, but it's not a perfect match --- 12 choose 3 is just picking one group. But maybe that helps. Think about the actual process that would take place -- I'd pick the first group, then the second, then the third, then the fourth. So it's a sequence of choices -- multiplicative principle. And each choice has outcomes, how many? 
-  - First choice is picking the first group -- 12 choose 3. 
-  - Second choice is picking the second group -- 9 choose 3
-  - Then 6 choose 3
-  - Then finally 3 choose 3. 
-  - So first glance --- it's the product of these three binomial coefficients. 
-  - But there's one subtle point: We have overcounted because this picks "group 1", then "group 2", etc. But if I put ABC in group 1 and DEF in group 2, that's the same, for me as putting DEF in group 1 and ABC in group 2. So I have overcounted because I am treating the ordering of the groups themselves as being different. That's not the case so I have to divide off by the number of ways to rearrange those groups, which is 4!. 
-  - Guidelines: 
-    - Use your human brain first
-    - Play with examples until you understand the process
-    - The flowchart helps, but most counting problems are a combo
-    - Beware of overcounting 
 
 We've come to the final video in this module on combinatorics. We've seen a lot of different ways to formulate and solve counting problems and introduced several tools for solving them. As you're surely aware by now, these problems can be very tricky. Solutions that seem perfectly logical might contain hidden assumptions or incorrect interpretations that might lead to a solution that overcounts, or undercounts, or just isn't even the correct approach at all. In this video, we're not going to introduce any new concepts or tools but instead just review some problem-solving concepts that will help you stay on the right track when working a combinatorics problem, or any other kind of problem. 
 
@@ -199,5 +174,20 @@ The third concept is related to the second one: **Generate lots of examples and 
 
 Fourth and finally, to repeat something just said, **reality check your solution**. Does the answer make sense? For example, look at the problem of counting the number of 8-bit strings that either begin with a "10" or end in a "11". If you come up with an answer of 512, you should reality check this --- it's not even possible, because the number of 8-bit strings without any restrictions at all is 2^8 which is 256. The bit strings being counted are a subset of all 8-bit strings so the answer to your problem cannot possibly be larger than 256. 
 
+Particularly in counting problems, an important reality check we always need to perform is asking ourselves if the method we used to count the situation could have possibly overcounted, that is counting identical arrangements as being different. We've seen this principle at work already, for example when differentiating between forming subsets of a set versus forming ordered lists from a set. Overcounting is a constant debugging issue in counting problems and we have to stand guard against it. 
 
+Let's look at a problem and see if we can crack it with our brains first, then apply the right math to it once we understand the problem. Let's suppose I have a class with 12 students and I want to put them into four groups of three students each for classwork. How many ways are there to do this? 
 
+You may be tempted so start pulling out formulas and doing things like computing 12 choose 4 or 12 choose 3 or something of that nature, but it's too early! I haven't really understood the problem yet, so the first thing I'm going to do is play with some examples. Here are 12 students and I'm just going try to understand what's happening first. So one way to create the groups is to have students 1-3, 4-6, 7-9 and 10-12 in a group. I could also have students 2,3,4 in a group; 5,6,7; in a group; 8,9,10; and 11, 12, 1 in a group. Or 1,5,6; 2,10,11; 3, 4, 8; then the last group would have to be 7,9,12. So I'm understanding better now what we mean by "the number of ways to form four groups of three students" and I now think I understand what the problem is asking for. And I also sense that it seems like a pretty large number. 
+
+Playing with examples also helps me think about the actual process that I am trying to count. In actually making the groups, like I did in my examples, I picked the first group; then the second; then the third; then the fourth. That's four consecutive choices and so now I use another concept of problem solving -- is this similar to a problem I've already seen? And it is -- making a sequence of four choices is what the Multplicative principle is used for. So I've made a little progress here: I need to find out how many ways there are to form the first group, the the second group, then the third, then the fourth, then multiply those together. 
+
+So now the problem is broken down into four simpler ones. I would probably not have thought to do this, if I had started off applying formulas to things. I needed to play with the problem first! 
+
+So let's think about each of these mini-problems. How many ways are there to pick the first group? There are 12 students in all and I can pick any three. Again, use the concept, does this look like a problem I have seen before? Well, yes, we have seen problems like this many times -- where we select 3 things from a group of 12. If the order doesn't matter, then the answer is 12 choose 3. Otherwise the answer is P(12,3). So which is it? When I'm forming just a group of students, the order doesn't matter because I'm not for example making one the president, another the vice president, and the third person the treasurer. So there are 12 choose 3 ways to pick the first group. 
+
+OK, how many ways to pick the second? This is 9 choose 3 because I'm making a group of 3 from 9 people --- not 12, because I've already assigned three students. Likewise the number of ways to pick the third group is 6 choose 3, and the number of ways to pick the fourth group is 3 choose 3. That last binomial coefficient is 1. Apply another concept -- does that make sense? It certainly does, because in my examples I noticed that by the time I'd picked the first three groups there was only one choice left for the last one. 
+
+So, by this work, it seems like the answer should be 12 choose 3 times 9 choose 3 times 6 choose 3 times 3 choose 3 which comes out to 369,600. Now this is fairly believable. But, before we declare this to be an official answer, we need to remember to **reality check the result**. Especially in counting problems, scrutinize your work to see if there is any chance that you counted something multiple times. Playing with more examples helps. When I do, I might notice that if I pick 1,2,3; 4,5,6; 7,8,9; and 10,11,12 as my four groups then this is counted as a distinct selection. But if I picked 4,5,6; then 7,8,9; then 10,11,12; then 1,2,3 as the final group that is *also* counted as a distinct selection. But this is not any different than the first collection of groups because I'm not putting the groups themselves in any kind of order. So my number I came up with earlier is an overcount. In fact it overcounts by a factor of 4!, which is the number of ways to rearrange the groups themselves. So my real final answer has to be taking this number and dividing by 24!. And that gives me 15,400. 
+
+This isn't that difficult of a problem in retrospect, but it was *not* the kind of problem that is just a straightforward application of a single formula we've learned! It was a combination of several different concepts -- the Multiplicative Principle, the binomial coefficient, permutations -- and we used some general concepts that aren't themselves any particular formula or method, such as understanding that the initial answer was a fairly serious overcount. What gets us through this problem is not the successful application of a formula. It's the successful use of our human brain to play, experiment, observe, and reason and *then* pick the right mathematical tool, *and then* use it correctly. It's a complex set of skills that only humans have, and you should congratulate yourself on making progress in this direction! 
