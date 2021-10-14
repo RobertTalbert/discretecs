@@ -1,22 +1,6 @@
 # Module 5 scripts 
 
 ## 5.1
-
-- What is a sequence? Just an ordered list of numbers 
-- Examples
-  - With a pattern
-  - Without really a pattern but an ordering, digits of pi
-  - Often start counting at 0 but sometimes 1  (*We will start counting at 0 unless explicitly shown otherwise*)
-  - Label the elements with a subscript called the index
-  - Sequences are also functions from N into the set of real numbers 
-- Two ways of generating sequences
-  - With a closed formula
-    - Examples: a_n = n^2, b_n = 3(1.1)^n -- to generate elements just plug numbers in (spreadsheet or Python function, Python list comprehension)  
-  - Recursively
-    - Sequence terms are defined using previously-computed sequence terms
-    - Requires a recurrence relation to define how to relate terms, and an initial condition (one or more terms of the sequence -- one less than the number of terms needed by the recurrence relation)
-    - Example: a_n = 2 * a_{n-1} with initial condition a_0 = 3
-    - Example: b_n = b_{n-1} + 2b_{n-2} with initial conditions b_1 = 1, b_2 = 1. Notice we need TWO initial conditions 
  
 Welcome to Module 5, the final group of lessons in this course. We've come a long way since first learning about binary and other number bases, then logic, then sets and functions and then counting. In this last module, we will focus in on perhaps the biggest concept of the whole course --- *recursion*. We've seen this idea before, particulary with the binomial coefficient, and in this module we're going to drill deeply into this idea and learn how to work with recursion and how to craft mathematically sound arguments about recursion. But first let's start small. 
 
@@ -26,50 +10,37 @@ Here's the next one that I had in mind. What's the pattern exactly? It looks lik
 
 Now let's count the number of circles in each figure. The first one has 1. The second 3, then 6, then 10, then 15. Can you guess the next one? Can you guess it without drawing a triangle? Try it! 
 
-Did you guess 21? Let's draw the triangle and see: here it is. we don't have to count every single circle in the picture because we already know that this group here has 15, because that's the previous figure and we already counted those. We just need to add the 6 circles here, so that's 21. 
+Did you guess 21? Let's draw the triangle and see: here it is. The visual pattern says we make the new triangle by taking the previous one and adding a row of circles on the right. We already know that the previous figure has 15. Since the previous right side had five circles, the new one should have six. We just need to add the 6 circles here, so that's 21. 
 
-This list of numbers is called a *sequence*. This word refers to any ordered sequence of numbers. So not a *set* of things, but a *list* with a definite first element, second element, third element, and so on. Sequences occur throughout mathematics and computer science in all kinds of ways, and they are often a key to many applications as well as interesting objects unto themselves. 
+This list of numbers is called a *sequence*. This word refers to any ordered sequence of numbers. The numbers in a sequence are called the *terms* of the sequence. So not a *set* of things, but a *list* with a definite first term, second term, third term, and so on. Sequences occur throughout mathematics and computer science in all kinds of ways, and they are often a key to many applications as well as interesting objects unto themselves. 
 
-We often label the elements of a sequence with a letter and a subscript. For example to denote this sequence 1, 3, 6, 10, 15, 21, and so forth we could use the letter T (for triangle) with subscripts to tell which element in the list we mean, so T_1 is 1, T_2 is 3, T_3 is 6, T_4 is 10, and so on. A number in a subscript is called an *index* and the plural form of index is *indices*. 
+We often label the terms of a sequence with a letter and a subscript. For example to denote this sequence 1, 3, 6, 10, 15, 21, and so forth we could use the letter T (for triangle) with subscripts to tell which term in the list we mean, so T_1 is 1, T_2 is 3, T_3 is 6, T_4 is 10, and so on. A number in a subscript is called an *index* and the plural form of index is *indices*. This particular sequence has a special name, the *triangular numbers* because the numbers emerge from this visual pattern you see here. 
 
-Here's another sequence, which this time starts the index at 0: f_0 = 1, f_1 = 1, f_2 = 2, f_3 = 3, f_4 = 5, f_5 = 8, and so on. First of all note that unlike with sets, sequences can and often do have duplicate elements. THe pattern in this sequence is that the first two elements are both 1, and every other element is the sum of the previous two. This one is called the Fibonacci sequence and it plays a big role in mathematics and computer science. 
+Here's another sequence, which this time starts the index at 0: f_0 = 1, f_1 = 1, f_2 = 2, f_3 = 3, f_4 = 5, f_5 = 8, and so on. First of all note that unlike with sets, sequences can and often do have duplicate terms. THe pattern in this sequence is that the first two terms are both 1, and every other term is the sum of the previous two. This one is called the Fibonacci sequence and it plays a big role in mathematics and computer science. 
 
 Sequences can also be spelled out with a formula, like this: The sequence g where g_i is equal to 2**i for each i in the natural numbers. So g_0 = 1, g_1 = 2, g_2 = 4, g_3 = 8, and so on. 
 
-Sequences don't *have* to have any pattern at all. Look at the sequence h given by h_1 = 3, h_2 = 1, h_3 = 4, h_4 = 1, h_5 = 5, h_6 = 9, and so on. The "pattern" here is that h_n is the nth digit of the number pi. There's no formula or pattern here, just a direct mapping from the index to the digit. 
+Sequences don't *have* to have any pattern at all. Look at the sequence h given by h_0 = 3, h_1 = 1, h_2 = 4, h_3 = 1, h_4 = 5, h_5 = 9, and so on. The "pattern" here is that h_n is the nth digit of the number pi. There's no formula or pattern here, just a direct mapping from the index to the digit. 
 
-As we just saw, there are two main ways to generate sequences. One is with a closed formula, where you plug in the index and the formula tells you what the sequence element is at that index. For example the sequence g where g_i is equal to 2**i uses a closed formula, and we can quickly generate as many elements in this sequence as we want using Python, or a spreadsheet. Here's another, b_n = 3(1.1)^n and here are the first 10 elements of that sequence. This also shows you that sequences don't have to consist only of integers -- although the indices in a sequence have to be integers because they count the positions of the elements. 
+As we just saw, there are two main ways to generate sequences. One is with a closed formula, where you plug in the index and the formula tells you what the sequence term is at that index. For example the sequence g where g_i is equal to 2**i uses a closed formula, and we can quickly generate as many terms in this sequence as we want using Python, or a spreadsheet. Here's another, b_n = 3(1.1)^n and here are the first 10 terms of that sequence. This also shows you that sequences don't have to consist only of integers -- although the indices in a sequence have to be integers because they count the positions of the terms. 
 
-The other major way to generate a sequence gets us to the heart of this module --- we can define sequences recursively. A recursive definition of a sequence computes an element of a sequence in terms of one or more of the previous elements in the sequence. The Fibonacci sequence was recursive because the third, fourth and so on elements of the sequence were the sum of the previous two. We can phrase this using notation by writing f_n = f_{n-1} + f_{n-2}. That relationship is called a *recurrence relation* --- A recurrence relation is a math expression that tells how one element in the sequence relates to previous elements. 
+The other major way to generate a sequence gets us to the heart of this module --- we can define sequences recursively. A recursive definition of a sequence computes an term of a sequence in terms of one or more of the previous terms in the sequence. The Fibonacci sequence was recursive because the third, fourth and so on terms of the sequence were the sum of the previous two. We can phrase this using notation by writing f_n = f_{n-1} + f_{n-2}. That relationship is called a *recurrence relation* --- A recurrence relation is a math expression that tells how one term in the sequence relates to previous terms. We also had some starting terms given as part of the definition of the sequence. Those starting terms are called the initial condition. 
 
-But notice a recurrence relation isn't enough to determine a sequence. If we wanted to know what f_3 is in the Fibonacci numbers, then it's equal to f_2 + f_1. But what's f_2? Well, that's f_1 + f_0. If I had *only* the recurrence relation, it would just keep pushing me further and further back in the sequence -- in order to actually find the elements in the sequence, I need a starting point. That's called an *initial condition*. In the Fibonacci numbers, the initial conditions are f_0 = 1 and f_1 = 1. With those initial conditions *and* the recurrence relation, I can compute any element of the sequence I wanted. 
+A complete recursive definition of a sequence requires both a recurrence relation *and* an initial condition. With both the recurrence relation and the initial condition in place, we can compute any term of the sequence we want. If we wanted to know what f_3 is in the Fibonacci numbers, then it's equal to f_2 + f_1. But what's f_2? Well, that's f_1 + f_0. If I had *only* the recurrence relation, it would just keep pushing me further and further back in the sequence -- in order to actually find the terms in the sequence, I need a starting point. That's called an *initial condition*. In the Fibonacci numbers, the initial conditions are f_0 = 1 and f_1 = 1. Again with those initial conditions *and* the recurrence relation, I can compute any term of the sequence I wanted. 
 
-For example look at a_n = 2 * a_{n-1} with initial condition a_0 = 3. Let's write out the first 5 elements of this sequence. Well, the first one, a_0, is given to you: It's 3. a_1 by the recurrence relation is equal to 2*a_0  and a_0 is 3, so a_1 is 6. Likewise a_2 is 2 times a_1, so that's 12. Pause the video and see if you can get a3 and a4. 
+For example look at a_n = 2 * a_{n-1} with initial condition a_0 = 3. Let's write out the first 5 terms of this sequence. Well, the first one, a_0, is given to you: It's 3. a_1 by the recurrence relation is equal to 2*a_0  and a_0 is 3, so a_1 is 6. Likewise a_2 is 2 times a_1, so that's 12. Pause the video and see if you can get a3 and a4. 
 
-So, a3 is 2*a2 which is 2 times 12 or 24. And a4 is 2 times a3 which is 2 times 24 which is 48. So those are your first five elements: 3, 6, 12, 24, 48. We're doubling each time, which makes sense when you look at the recurrence relation. Notice with this sequence we needed only one initial condition because you only had to go back one step in the sequence to compute a new element. Whereas with the Fibonacci numbers, you had to go back two steps, so we needed two initial conditions. 
+So, a3 is 2*a2 which is 2 times 12 or 24. And a4 is 2 times a3 which is 2 times 24 which is 48. So those are your first five terms: 3, 6, 12, 24, 48. We're doubling each time, which makes sense when you look at the recurrence relation. Notice with this sequence we needed only one initial condition because you only had to go back one step in the sequence to compute a new term. Whereas with the Fibonacci numbers, you had to go back two steps, so we needed two initial conditions. 
 
-Many times we can represent a recursive sequence with a closed formula, and vice versa. It's going to be important to phrase a given sequence in both ways if possible. Let's try this with the sequence we opened with: T_1 = 1, T_2 = 3, T_3 = 6, T_4 = 10, T_5 = 15, T_6 = 21. Can we first come up with a recursive definition for this sequence? It helps to go back to the visual pattern. The first number is 1. The second one we got by adding two circles on the triangle. The third we got by taking the second figure and adding 3 circles onto the triangle. The fourth one we got by taking the third, and adding four circles. I think I'm beginning to understand the pattern: At stage n, I get T_n by dropping back to the previous stage, n-1, and adding n circles. So T_n should be T_{n-1} + n. That's the right recurrence relation, so all I need is the initial condition, which is T_1 = 1. 
+Many times we can represent a recursive sequence with a closed formula, and vice versa. It's going to be important to phrase a given sequence in both ways if possible. Let's try this with the triangular numbers we opened with: T_1 = 1, T_2 = 3, T_3 = 6, T_4 = 10, T_5 = 15, T_6 = 21. Can we first come up with a recursive definition for this sequence? It helps to go back to the visual pattern. The first number is 1. The second one we got by adding two circles on the triangle. The third we got by taking the second figure and adding 3 circles onto the triangle. The fourth one we got by taking the third, and adding four circles. I think I'm beginning to understand the pattern: At stage n, I get T_n by dropping back to the previous stage, n-1, and adding n circles. So T_n should be T_{n-1} + n. That's the right recurrence relation, so all I need is the initial condition, which is T_1 = 1. 
 
-Here's a bit of recursive Python code that implements this recurrence relation, and I can see from the list comprehension here that I'm generating the right values, so I have confidence this is right. 
+Here's a recursive Python function that should generate this sequence. You can see in the second line I have the initial condition coded in, and then in the remaining lines it uses a recursive function call to implement the recurrence relation. Down below I'm going to make a list comprehension with this function to generate terms of the sequence. And when I execute it, I can see that it seems to be generating the right numbers, so I think my recursive definition, both the recurrence relation and the initial conditions, was right. 
 
-What about a closed formula for this? This is harder here. Just looking at the numbers, it's hard to guess --- there's not a totally obvious formula that produces all these. But remember the problem-solving concept of *looking at the problem in different ways*. If I look back at the picture and draw the triangle more like this, I can imagine turning that triangle into a rectangle and adding the copy onto it like this. It's now a rectangle with n circles on one side and n+1 on the other. The total number of circles in the rectangle is n times n+1. But the original triangle has exactly half of those circles in it, which is n(n+1)/2. So that's a closed formula. Is it right? Here's a list comprehension that tests this directly, and I can see that it produces the same sequence. Note there's no need for initial conditions with a closed formula -- the formula just directly produces the output. 
+What about a closed formula for this? This is harder here. Just looking at the numbers, it's hard to guess --- there's not a totally obvious formula that produces all these. But remember the problem-solving concept of *looking at the problem in different ways*. If I look back at the picture and draw the triangle more like this, I can make a copy of that triangle and rotate it, and attach it to the original triangle to form a rectangle like this. This rectangle has n circles on one side and n+1 on the other. The total number of circles in the rectangle is n times n+1. But the original triangle has exactly half of those circles in it, which is n(n+1)/2. So that's a closed formula. Is it right? Here's a list comprehension that tests this directly, and I can see that it produces the same sequence. Note there's no need for initial conditions with a closed formula -- the formula just directly produces the output. 
 
-In this video you learn what a sequence is, how to represent one recursively using a recurrence relation and initial conditions, and how to represent one as a closed formula. And we've gotten a taste of how to look at a visual pattern and write a recursive definition for it, also how to use the same visual pattern to write a closed formula. Next up we will discuss how to add and multiply elements of a sequence together using a notational trick. 
+In this video you learned what a sequence is, how to represent one recursively using a recurrence relation and initial conditions, and how to represent one as a closed formula. And we've gotten a taste of how to look at a visual pattern and write a recursive definition for it, also how to use the same visual pattern to write a closed formula. Next up we will discuss how to add and multiply terms of a sequence together using a notational trick. 
 
 ## 5.2
-
-- What we often do with sequences: Add or multiply the terms. Two math notation pieces that shorten this up. 
-- Sigma notation
-  - What it looks like and what the parts mean
-  - Examples (from 5.1) 
-  - This is a FOR loop where we're accumulating by adding. 
-- Pi notation
-  - Exactly the same as sigma notation but multiplying instead 
-  - Examples 
-  - It's a FOR loop where we multiply instead. 
-- Partial sums: 
-  - kth partial sum of a sequence = sigma of 0 through k-1 (first k elements)
-  - Equal to sigma of 1 through k-1 of sequence where the index is shifted 
 
 One of the things we often do with sequences, which we learned about in the last video, is add their elements together or multiply them together. This video is going to demonstrate some mathematical notation for writing these in a compact and efficient way. 
 
@@ -103,3 +74,5 @@ In this video you learned the sigma notation shorthand for adding up a finite pi
   - Example: 5, (grow by *1.1)
 - Quiz: Label each as geometric, arithmetic, or neither 
 - Example: Summing up powers of 2 --- conjecture? 
+
+In this video we're going to look at two special kinds of sequences 
