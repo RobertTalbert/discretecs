@@ -48,11 +48,9 @@ First, realize that when we say "add or multiply the elements of a sequence" we 
 
 To write the sum of a sequence "a" starting at index 1 and going through index n, we write this: The big symbol here is a giant Greek capital letter "sigma", which starts with s to remind you of sums. Read this as "the sum of a_k, from k = 1 to k = n". THis means a1 plus a2 plus a3 plus a4, and so on through an. We can change a lot in this "sigma notation". For example the name of the index is irrelevant. We can also start the summing in a different place, or end it in a different place, or both. 
 
-For example using the sequence f_n = 2**n, here's the sum of f_i where i goes from 0 through 4 as we saw above, and here's the sum of f_k where k goes from 1 to 8. 
+For example here's the sum of 2^i where i goes from 0 through 4 as we saw above, and here's the sum of 2^k where k goes from 3 to 8. Notice it doesn't really matter what I call the index, as long as it's the same variable used inside the sigma -- it's just a counting variable, like you would use in a FOR loop. Also there's no rule saying the counter must start at 0 or 1. 
 
-We don't even have to have the name of a sequence present if we use a closed formula. For example this sum where n goes from 0 to 6 of n(n+1)/2 is this number here. 
-
-In fact, sigma notation is really just a mathematical way of writing a FOR loop with an accumulating variable that we change by adding. For example, the last example in sigma notation is equivalent to this FOR loop. 
+In fact, sigma notation is really just a mathematical way of writing a FOR loop with an accumulating variable that we change by adding. For example, this sigma notation adds up the expression n(n+1)/2 from n = 0 to 10. Here's the corresponding FOR loop that does the same thing. And you can also do this with a list comprehension by generating a list of the terms of the sum and then using the `sum` command to add them up. 
 
 We can also multiply sequence elements together, and we use a giant Greek letter pi for that. So this notation means take the elements of sequence "a" from 0 through n, and multiply them together. For example, the product of k^2 from k = 1 to 8 is this number. Notice that if we look at the product of just the variable "k" from 1 to n, this is 1 times 2 times 3 times and so on up through n-1 times n, which is n factorial. 
 
