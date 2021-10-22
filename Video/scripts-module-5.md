@@ -71,6 +71,41 @@ In this video you learned the sigma notation shorthand for adding up a finite pi
   - Example: 3, 6, 12, 24, 48, ... always *2 
   - Example: 5, (grow by *1.1)
 - Quiz: Label each as geometric, arithmetic, or neither 
-- Example: Summing up powers of 2 --- conjecture? 
+- Example: Summing up powers of 2 --- conjecture?
 
-In this video we're going to look at two special kinds of sequences 
+So far in this module we've learned what a sequence is, how to represent sequences using closed formulas and recursive definitions, and how to use sigma and pi notation to find partial sums and products of sequences. In this video we're going to examine two special types of sequences that have some distinctive behaviors. 
+
+Take a look at this visual pattern and let's see if we can count the number of stars at each stage. Let s_n be the number of stars in the figure at stage n. If we start the indexing at 1, then s_1 is 3, s_2 is 5, and s_3 is 7. I bet you can probably guess what the next several terms of the sequence are going to be, without either a closed formula or a recursive definition. It's a safe guess that s_4 will be 9, then s_5 is 11, and so on because all we are doing to get from one stage to the next is taking the current stage and adding 2. We can say in this case the sequence is increasing by a constant amount --- namely 2 each time I go from one stage to the next. 
+
+A sequence with this behavior, where the terms in the sequence increase by a constant amount added on every time we go from one term to the next, is called an *arithmetic sequence*. So this is an arithmetic sequence, and here are a couple of others. The first sequence on this slide is arithmetic because the terms increase by a constant amount of 10 each time. The second is also considered arithmetic, even though the terms are decreasing, because they are still changing by a constant amount, this time dropping by 3. But this sequence is not arithmetic because the different between the first and second terms is 3 but the differnt ce between the second and third terms is 6. Since that's not the same amount, this is not arithmetic. 
+
+Arithmetic sequence increase (or decrease) like a staircase, always moving up (or down) by the same height each time we take a step. 
+
+Coming up with closed formulas and recursive definitions for arithmetic sequences is fairly easy. To get a closed formula for our star sequence for example, we can use some concepts from basic algebra. If you think of a sequence as a function, which is what we do when we make a closed formula for it, then what you might notice about this function is that it increases at a constant rate, always up 2 for every increase of 1 in the input. Functions that behave like that are called *linear* functions. Linear functions are completely defined by their slope, which is the rate at which they change, and a point on the graph of that function. Well, the slope here is 2 because every increase of 1 in the input produces a change of 2 in the output. And i can look at the data here and see that the point (1,3) is on the graph of this function. So using what we called the point-slope form for the equation of a line back in algebra. we can write y - y1 = m(x-x1), or y - 3 = 2(x-1). That simplifies to y = 2x+1 so the closed formula is s_n = 2n + 1. Using a little Python to check shows me that this seems right. 
+
+A recursive definition is even easier because we don't need any algebra. Just first of all realize that from the visual pattern, to get the figure at stage n we look back one step to n-1 and add 2. So the recurrence relation for this sequence would be s_n = s_{n-1} + 2. Since we go back one step, we need one initial condition, and we can get that from the picture -- s_1 = 3. 
+
+So to determine if a sequence is arithmetic, just look to see if the terms increase or decrease by the same amount each time we move to the next term. Then we can use linear functions to write a closed formula and the pattern itself to write a recursive definition. 
+
+Let's go back to a sequence we saw earlier that was NOT arithmetic. It had terms 3, 6, 12, 24, 48, and so on. This wasn't arithmetic because it didn't increase by the same *amount* each time. But you might have noticed that the terms do have some very noticeable behavior --- they *double* each time. So this the terms of this sequence increase not by the same *amount* but by the same *factor*. 
+
+Here's another sequence whose terms change by the same factor: 1, 1/3, 1/9, 1/27, 1/81, and so on. The differences between the terms aren't always the same so this is not an arithmetic sequence. But there is a common multiple between each term --- each term is obtained by taking the previous one and multiplying by 1/3 (or dividing by 3). So each term is one-third the size of the one that came before it. 
+
+A sequence like these, where the terms change by the same *factor*, is called a *geometric sequence*. You just saw two examples of geometric sequences. Here's another, because the terms are increasing by a factor of 5 each time. Here's one that is not geometric, because the second term is 2 times the first one but the third term is 3 times the second one. Since that's not the same multiple each time, it's not geometric. 
+
+Just as with arithmetic sequences, geometric sequences are fairly simple to represent recursively or in closed form. Look at our first example. Recursively, we just note again that each term is twice the one before it. So the recurrence relation should be a_n = 2*a_{n-1} for n > 1. And for the initial condition, just look at the first term of the sequence to see that a_1 = 3. Likewise the second sequence would have an initial condition b_1 = 1, and for n > 1 we'd have b_n = 1/3 ( b_{n-1}. )
+
+Closed formulas for geometric sequences are a little harder because they aren't linear functions but instead what we call *exponential* functions. The recurrence relation can actually help here: In this sequence, I start with a_1 = 3 and then if I want to go to the nth term, I need to multiply this by 2, n-1 times. So the formula would be a_n = 3(2)^(n-1). We can check to see that this is correct with Python or a spreadsheet. 
+
+Let's review this for a moment. Here are six sequences. Pause the video and label each one as arithmetic, geometric, or neither. 
+
+1, 1, 2, 3, 5, 8, 13, 21, ...
+4, 8, 12, 16, 20, ...
+1, 3, 6, 10, 15, ...
+1, 1.1, 1.21, 1.331, 
+
+Only the second sequence is arithmetic, because the terms are going up by the same amount, 4, each time. Looking at the differences between terms in the other three shows you that those *don't* increase by the same amount each time. 
+
+Likewise I can tell which one is geometric here by looking at the ratios between the terms. Wherever there's a common *ratio*, there's a geometric sequence. The fouth sequence here is the only one that's geometric because the terms are increasing not by a constant amount but by a constant *factor*, being multiplied by 1.1 each time. 
+
+In this video, we learned what arithmetic and geometric sequences are, and methods for expressing both as closed formulas and recursively. Next up, we start a mini-series of videos on taking recurrence relations and figuring out ways to express those as closed formulas. We just saw how this might work in the special cases of arithmetic and geometric sequences, but what if the sequence is neither? Stay tuned. 
