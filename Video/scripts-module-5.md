@@ -44,7 +44,7 @@ In this video you learned what a sequence is, how to represent one recursively u
 
 One of the things we often do with sequences, which we learned about in the last video, is add their elements together or multiply them together. This video is going to demonstrate some mathematical notation for writing these in a compact and efficient way. 
 
-First, realize that when we say "add or multiply the elements of a sequence" we don't necessarily mean ALL the elements. Sequences are infinite, and it's a tricky question as to whether it even makes sense to "Add up infinitely many things". So we always mean what we call a *partial sum* or *partial product* --- starting at a certain point in the sequence (usually the beginning) and adding up or multiplying together the first "n" elements of a sequence. For example, in the sequence given by f(n) = 2**n where n starts at 0, here's the sum of the first 5 terms and the product of the first 5 terms, called the fifth partial sum and fifth partial product respectively. 
+First, realize that when we say "add or multiply the elements of a sequence" we don't necessarily mean ALL the elements. Sequences are infinite, and it's a tricky question as to whether it even makes sense to "Add up infinitely many things". That's a question that requires ideas from calculus to answer. So for us, when we speak of "adding" or "multiplying" terms of a sequence, for us we mean a *partial sum* or *partial product* --- starting at a certain point in the sequence (usually the beginning) and adding up or multiplying together the first "n" elements of a sequence. For example, in the sequence given by f(n) = 2**n where n starts at 0, here's the sum of the first 5 terms and the product of the first 5 terms, called the fifth partial sum and fifth partial product respectively. 
 
 To write the sum of a sequence "a" starting at index 1 and going through index n, we write this: The big symbol here is a giant Greek capital letter "sigma", which starts with s to remind you of sums. Read this as "the sum of a_k, from k = 1 to k = n". THis means a1 plus a2 plus a3 plus a4, and so on through an. We can change a lot in this "sigma notation". For example the name of the index is irrelevant. We can also start the summing in a different place, or end it in a different place, or both. 
 
@@ -61,31 +61,17 @@ In this video you learned the sigma notation shorthand for adding up a finite pi
 
 ## 5.3 
 
-- Two special kinds of sequences where the elements have a special relationship
-- Arithmetic
-  - The sequence is growing by the same amount each time
-  - Example: 3, 5, 7, 9, 11, ... always +2
-  - Example: 10, 5, 0, -5, -10, .... always -5
-- Geometric
-  - The sequence is growing by the same factor each time
-  - Example: 3, 6, 12, 24, 48, ... always *2 
-  - Example: 5, (grow by *1.1)
-- Quiz: Label each as geometric, arithmetic, or neither 
-- Example: Summing up powers of 2 --- conjecture?
-
 So far in this module we've learned what a sequence is, how to represent sequences using closed formulas and recursive definitions, and how to use sigma and pi notation to find partial sums and products of sequences. In this video we're going to examine two special types of sequences that have some distinctive behaviors. 
 
 Take a look at this visual pattern and let's see if we can count the number of stars at each stage. Let s_n be the number of stars in the figure at stage n. If we start the indexing at 1, then s_1 is 3, s_2 is 5, and s_3 is 7. I bet you can probably guess what the next several terms of the sequence are going to be, without either a closed formula or a recursive definition. It's a safe guess that s_4 will be 9, then s_5 is 11, and so on because all we are doing to get from one stage to the next is taking the current stage and adding 2. We can say in this case the sequence is increasing by a constant amount --- namely 2 each time I go from one stage to the next. 
 
-A sequence with this behavior, where the terms in the sequence increase by a constant amount added on every time we go from one term to the next, is called an *arithmetic sequence*. So this is an arithmetic sequence, and here are a couple of others. The first sequence on this slide is arithmetic because the terms increase by a constant amount of 10 each time. The second is also considered arithmetic, even though the terms are decreasing, because they are still changing by a constant amount, this time dropping by 3. But this sequence is not arithmetic because the different between the first and second terms is 3 but the differnt ce between the second and third terms is 6. Since that's not the same amount, this is not arithmetic. 
+A sequence with this behavior, where the terms in the sequence change by a constant amount every time we go from one term to the next, is called an *arithmetic sequence*. So this is an arithmetic sequence, and here's another. The first sequence on this slide is arithmetic because the terms increase by a constant amount of 2 each time. The second is also considered arithmetic, even though the terms are decreasing, because they are still changing by a constant amount, this time dropping by 3. But this sequence is not arithmetic because the difference between the first and second terms is 3 but the difference between the second and third terms is 6. Since that's not the same amount, this is not arithmetic. 
 
 Arithmetic sequence increase (or decrease) like a staircase, always moving up (or down) by the same height each time we take a step. 
 
-Coming up with closed formulas and recursive definitions for arithmetic sequences is fairly easy. To get a closed formula for our star sequence for example, we can use some concepts from basic algebra. If you think of a sequence as a function, which is what we do when we make a closed formula for it, then what you might notice about this function is that it increases at a constant rate, always up 2 for every increase of 1 in the input. Functions that behave like that are called *linear* functions. Linear functions are completely defined by their slope, which is the rate at which they change, and a point on the graph of that function. Well, the slope here is 2 because every increase of 1 in the input produces a change of 2 in the output. And i can look at the data here and see that the point (1,3) is on the graph of this function. So using what we called the point-slope form for the equation of a line back in algebra. we can write y - y1 = m(x-x1), or y - 3 = 2(x-1). That simplifies to y = 2x+1 so the closed formula is s_n = 2n + 1. Using a little Python to check shows me that this seems right. 
+Coming up with closed formulas and recursive definitions for arithmetic sequences is fairly easy. To get a closed formula for our star sequence for example, we can use some concepts from basic algebra. If you think of a sequence as a function, which is what we do when we make a closed formula for it, then what you might notice about this function is that it increases at a constant rate, always up 2 for every increase of 1 in the input. Functions that behave like that are called *linear* functions. Linear functions are completely defined by their slope, which is the rate at which they change, and a point on the graph of that function. Well, the slope here is 2 because every increase of 1 in the input produces a change of 2 in the output. And I can look at the data here and see that the point (1,3) is on the graph of this function. So using what we called the point-slope form for the equation of a line back in algebra. we can write y - y1 = m(x-x1), or y - 3 = 2(x-1). That simplifies to y = 2x+1 so the closed formula is a_n = 2n + 1. Using a little Python to check shows me that this seems right. 
 
-A recursive definition is even easier because we don't need any algebra. Just first of all realize that from the visual pattern, to get the figure at stage n we look back one step to n-1 and add 2. So the recurrence relation for this sequence would be s_n = s_{n-1} + 2. Since we go back one step, we need one initial condition, and we can get that from the picture -- s_1 = 3. 
-
-So to determine if a sequence is arithmetic, just look to see if the terms increase or decrease by the same amount each time we move to the next term. Then we can use linear functions to write a closed formula and the pattern itself to write a recursive definition. 
+A recursive definition is even easier because we don't need any algebra. Just first of all realize that from the visual pattern, to get the figure at stage n we look back one step to n-1 and add 2. So the recurrence relation for this sequence would be a_n = a_{n-1} + 2. Since we go back one step, we need one initial condition, and we can get that from the picture -- a_1 = 3. 
 
 Let's go back to a sequence we saw earlier that was NOT arithmetic. It had terms 3, 6, 12, 24, 48, and so on. This wasn't arithmetic because it didn't increase by the same *amount* each time. But you might have noticed that the terms do have some very noticeable behavior --- they *double* each time. So this the terms of this sequence increase not by the same *amount* but by the same *factor*. 
 
@@ -97,12 +83,7 @@ Just as with arithmetic sequences, geometric sequences are fairly simple to repr
 
 Closed formulas for geometric sequences are a little harder because they aren't linear functions but instead what we call *exponential* functions. The recurrence relation can actually help here: In this sequence, I start with a_1 = 3 and then if I want to go to the nth term, I need to multiply this by 2, n-1 times. So the formula would be a_n = 3(2)^(n-1). We can check to see that this is correct with Python or a spreadsheet. 
 
-Let's review this for a moment. Here are six sequences. Pause the video and label each one as arithmetic, geometric, or neither. 
-
-1, 1, 2, 3, 5, 8, 13, 21, ...
-4, 8, 12, 16, 20, ...
-1, 3, 6, 10, 15, ...
-1, 1.1, 1.21, 1.331, 
+Let's review this for a moment. Here are four sequences. Pause the video and label each one as arithmetic, geometric, or neither. 
 
 Only the second sequence is arithmetic, because the terms are going up by the same amount, 4, each time. Looking at the differences between terms in the other three shows you that those *don't* increase by the same amount each time. 
 
