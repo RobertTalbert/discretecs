@@ -134,11 +134,11 @@ Let's look at another example, going back to the earlier recurrence relation a_n
 
 That's all the specific numbers we are going to plug in. Now let's substitute the formula in for the sequence terms in the recurrence relation and do the math to see if the left and right sides equal each other. Separate the left and right sides. On the left we would replace a_n with the appropriate function value which is 3 times 2^n - 1. On the right, I would do the same, replacing a_{n-1} with f(n-1) and a_{n-2} with f(n-2). 
 
-Then use the formula to get: 3 times the quantity 3 times 2^(n-1) - 1, minus 2 times the quantity 3 times 2^(n-2) - 1. I'm now going to simplify all this. This involves algebra, which I'll do without explanation but if you see a step here that is unfamiliar to you, pause the video and try to work it out, and go search the internet or ask a friend to fill in the gaps. 
+Then use the formula to get: 3 times the quantity 3 times 2^(n-1) - 1, minus 2 times the quantity 3 times 2^(n-2) - 1. I'm now going to simplify all this. This involves algebra, which I'll do without a lot of explanation but if you see a step here that is unfamiliar to you, pause the video and try to work it out, and go search the internet or ask a friend to fill in the gaps. 
 
 First, distribute the 3 through the first set of parentheses to get 9 times 2^(n-1) - 3. Now in the second set, I want to distribute this 2 and subtract. Multiplying the 2 to the first term actually raises the power of 2 by 1. So I have minus 6 times 2 to the n-1. And since I need to distribute to the entire expression, I also have plus 2 --- 2 because I multiplied by 2, plus because this was originally subtraction and I multiplied by something negative. 
 
-Now simplify --- these two terms combine to be 3 times 2^(n-1) and these two combine to give me -1. Now look at the left and right sides --- they are equal. 
+We can combine the first and third terms to get 6 times 2^(n-1) and also the second and fourth terms to get -1. Now if I peek over to the left side, these two things don't look equal yet, but there's one more step I can do. This 6 here is the same as 3 times 2, so let me split the 6 into 3 times 2. Now the new 2 can multiply to 2^(n-1) to give me 2^n. And at last, I am left with 3 times 2^n - 1, which is what the left side is. 
 
 This means that the function f(n) = 3 times 2^(n-1) - 1 solves the recurrence relation because it satisfies both the initial conditions and the recurrence relation. 
 
