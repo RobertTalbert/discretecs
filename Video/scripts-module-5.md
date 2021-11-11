@@ -147,3 +147,12 @@ This means that the function f(n) = 3 times 2^(n) - 1 solves the recurrence rela
 In this video, we've covered a lot of ground. We learned about what a solution to a recurrence relation is, how to show that a function is not a solution to a recurrence relation, how *not* to show that a function *is* a recurrence relation (namely by showing that the first few terms agree) and then showing how to properly check that a proposed solution to a recurrence relation really is one, without going through examples. 
 
 Next we need to start dealing with the question of how to actually solve recurrence relations in the first place. 
+
+## Additional CRM video 
+
+- Setup: a_n = 4a_{n-1} - 4a_{n-2}, a0 = 1, a1 = 6
+- Go through process of setting up CE... CR are repeated.
+- What happens if we just ignore the fact? (Get contradiction) 
+- Adjustment: Add factor of "n" to one of the terms 
+- Solve, check
+
