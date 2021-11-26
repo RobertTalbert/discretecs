@@ -16,6 +16,10 @@ L.2
 Use truth tables to determine whether the two statements ~(P ^ Q) and (~P) v (~Q) are logically equivalent.
 Make a truth table for the statement (P --> Q) ^ (Q --> R). Include columns for all intermediate steps. 
 
+(~P) --> Q  and P --> (~Q)
+P v (Q --> R) 
+
+
 L.3
 
 Consider these two predicates whose domain is the entire set of integers:
@@ -40,6 +44,15 @@ Let A = {2,5}, B = {n in N : n % 5 = 0}, and C = {1, 2, ...., 10}. The universal
 - A ∩ B
 - A x {q,r,s}
 - | C \ B | 
+
+
+SF.3
+
+Below are three mappings from {0,1,2,3,4,5}$ to {x,y,z,t}. For each one, state whether the mapping is a function. If the mapping is not a function, give a SPECIFIC explanation why. Otherwise if the mapping is a function, state the domain, range, and codomain; you do not need to explain your reasoning if the mapping is a function but your answers must be correct. 
+
+f given by f(0) = z, f(1) = t, f(2) = z, f(3) = t, f(4) = z, f(5) = t
+g given by g(1) = y, g(2) = x, g(3) = z, g(4) = t, g(5) = t
+h given by h(n) = t for every n in {0,1,2,3,4,5}
  
 
 SF.4
@@ -83,3 +96,19 @@ RI.2
 
 - Write the sum 3 + 6 + 9 + 12 + 15 + 18 using correct sigma notation. 
 - Write the sum 1 + 0.1 + 0.01 + 0.001 using correct sigma notation. 
+
+
+RI.3
+
+For each sequence below, find both a closed formula and a complete recursive definition for the sequence. You do not need to show your work, but your results must be correct. 
+
+3,5,7,9,11,13,...
+3,6,12,24,48,96,...
+10,100,1000,10000,100000,...
+10,20,30,40,50,60,...
+
+
+RI.4
+
+Consider the recurrence relation given by a(0) = 3, a(1) = 8, and for n > 1, 
+a(n)  = 5a(n-1) - 6a(n-2) Determine whether the function f(n) = 2^n + 2*3^n is or is not a solution to this recurrence relation. If it is not a solution, give an instance of a sequence term where the function differs from the recurrence relation. If it is a solution, show all steps that prove this (as in the examples done on video and in class). 
