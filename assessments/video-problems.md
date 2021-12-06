@@ -2,6 +2,11 @@ Here are the video problems you requested. Read the instructions carefully befor
 
 
 CA.1
+Convert the base 10 integer 712 to binary and to hexadecimal.
+Convert the base 8 integer 712 to decimal. 
+Convert the base 2 integer 10111001 to decimal and octal. 
+
+CA.2
 Compute: 
 10011000 + 01111111
 10011000 - 01111111
