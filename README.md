@@ -14,4 +14,4 @@ The top-level directory contains:
 - A subfolder for each instance of the course, beginning in Fall 2021. I don't teach the course every semester so there are only subfolders for the times when I do teach it. **Specific course materials like syllabi, assessments, and so on are in the subfolders.** 
 - A folder for an archive of instances of the course prior to Fall 2021. In particular, **all the materials for MTH 325 are in the archive**; everything else is MTH 225. 
 
-Additionally, the most recent version of the syllabus for MTH 225 is located here: 
+Additionally, the most recent version of the syllabus for MTH 225 is located here: *Link will be put here in April 2022* 
