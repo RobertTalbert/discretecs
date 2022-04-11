@@ -6,4 +6,5 @@
 - Submit a survey with background and group work style for assignment into working groups 
 - Sign into Perusall (maybe)
 - Leave a note on Jamboard or whatever whiteboarding tool I use 
+- Complete syllabus quiz
 - 
