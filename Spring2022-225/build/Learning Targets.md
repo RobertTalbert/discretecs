@@ -47,20 +47,19 @@
 5.  **CORE** Given a conditional statement, I can identify the hypothesis and conclusion, and I can state its negation, converse, inverse, and contrapositive. 
 6.  I can determine the truth value of a predicate at a specific input, and given a quantified predicate I can state its negation and its truth value.
 7. **CORE** I can write a given set in both roster and set-builder notation. 
-8.  I can determine the cardinality and the power set of a finite set. 
-9.  **CORE** I can determine the complement of a set and the intersection, union, difference, and Cartesian product of two sets.
-10. I can determine if a mapping is a function; identify the domain, range, and codomain of a function; and determine the image of a specific input. 
-11. I can determine if a function is injective, surjective, and/or bijective. 
-12. I can determine the values of an inverse function and the composition of two functions. 
-13. I can compute values of the functions `FLOOR`, `CEIL`, `DIV`, `%` (`MOD`), and `!` (`FACT`). 
-14. **CORE** I can apply the Additive and Multiplicative Principles and the Principle of Inclusion/Exclusion to formulate and solve basic combinatorics problems. 
-15. **CORE** I can compute a binomial coefficient and apply the binomial coefficient to solve basic combinatorics problems. 
-16. I can determine the number of permutations of a group of objects and the number of $k$-permutations from a set of $n$ objects.
-17. I can use the "dots and dividers" method to count the number of ways to distribute objects among a group.
-18. **CORE** I can generate several values of a sequence given either a closed-form or recursive definition.
-19. I can use "sigma" and "pi" notation to find the sum and product of a sequence of numbers. 
-20. I can find closed form and recursive definitions for arithmetic and geometric sequences. 
-21. I can solve a second-order linear homogeneous recurrence relation using the characteristic root method.
-22. **CORE** Given a statement to be proven by mathematical induction, I can identify the predicate, prove the base case, state the inductive hypothesis, and sketch a proof. 
+8.  **CORE** I can determine the cardinality and power set of a finite set; and given two sets, I can determine their intersection, union, difference, and Cartesian product. 
+9.  I can determine if a mapping is a function; identify the domain, range, and codomain of a function; and determine the image of a specific input. 
+10. I can determine if a function is injective, surjective, and/or bijective. 
+11. I can determine the values of an inverse function and the composition of two functions. 
+12. I can compute values of the functions `FLOOR`, `CEIL`, `DIV`, `%` (`MOD`), and `!` (`FACT`). 
+13. **CORE** I can apply the Additive and Multiplicative Principles and the Principle of Inclusion/Exclusion to formulate and solve basic combinatorics problems. 
+14. **CORE** I can compute a binomial coefficient and apply the binomial coefficient to solve basic combinatorics problems. 
+15. I can determine the number of permutations of a group of objects and the number of $k$-permutations from a set of $n$ objects.
+16. I can use the "dots and dividers" method to count the number of ways to distribute objects among a group.
+17. **CORE** I can generate several values of a sequence given either a closed-form or recursive definition.
+18. I can use "sigma" and "pi" notation to find the sum and product of a sequence of numbers. 
+19. I can find closed form and recursive definitions for arithmetic and geometric sequences. 
+20. I can solve a second-order linear homogeneous recurrence relation using the characteristic root method.
+21. **CORE** Given a statement to be proven by mathematical induction, I can identify the predicate, prove the base case, state the inductive hypothesis, and sketch a proof. 
 
-22 total, 8 core. 
+21 total, 8 core. 
