@@ -21,13 +21,13 @@ This document contains all the information you need to navigate the course. Plea
 
 ## Key Information
 
-**Meetings:** MTWR 1:00-3:15pm ET, on Zoom. The class meeting Zoom link is on the [Class Page](https://hackmd.io/@rtalbert235/HyTuIxi4q) and on Blackboard. 
+**Meetings:** MTWR 1:00-2:30pm ET, on Zoom. The class meeting Zoom link is on the [Class Page](https://hackmd.io/@rtalbert235/HyTuIxi4q) and on Blackboard. 
 
-**Student drop-in hours:** Hours TBD. These are also online via Zoom. The drop-in hours Zoom link is on the [Class Page](https://hackmd.io/@rtalbert235/HyTuIxi4q) and on Blackboard. No appointment is necessary for drop-in hours; just join the meeting. Additional times are available by appointment; [schedule those using my Calendly page](https://calendly.com/robert-talbert/). 
+**Student drop-in hours:** ==Hours TBD==. These are also online via Zoom. The drop-in hours Zoom link is on the [Class Page](https://hackmd.io/@rtalbert235/HyTuIxi4q) and on Blackboard. No appointment is necessary for drop-in hours; just join the meeting. Additional times are available by appointment; [schedule those using my Calendly page](https://calendly.com/robert-talbert/). 
 
-**Contacting the prof:** Email (talbertr@gvsu.edu) is preferred; you can schedule a phone call through [my Calendly page](https://calendly.com/robert-talbert/). Be sure to read my availability/response policy. 
+**Contacting the prof:** Email (talbertr@gvsu.edu) is preferred; you can schedule a phone call through [my Calendly page](https://calendly.com/robert-talbert/). Be sure to read my availability/response policy. ==link== 
 
-**Course calendar:** The official course calendar is a Google Calendar, linked on the [Class Page](https://hackmd.io/@rtalbert235/HyTuIxi4q) and on Blackboard. *The class calendar is always correct if there's an apparent date conflict.* 
+**Course calendar:** The official course calendar is a Google Calendar, linked on the [Class Page](https://hackmd.io/@rtalbert235/HyTuIxi4q) and on Blackboard. *In case of a date conflict on assignments or course documents, the Class Calendar is assumed to be correct.* 
 
 **Definition of "week":** In our course, a "week" is defined to begin at 12:01am ET on Monday and end at 11:59pm ET the following Sunday. 
 
@@ -47,10 +47,10 @@ In Discrete Structures for Computer Science 1, you'll be learning **the math tha
 Your success in the course depends on three things: 
 
 1. **Your willingness to be actively engaged during class time**. All the available research on learning says that the only way to learn is to be an active participant in the process. Active enagement means everything from keeping your camera on during meetings, to asking and answering questions during and between classes, and being actively involved during in-class breakout group work. Students who approach the class with a passive mindset typically struggle, and often fail. Those who approach it with an active mindset, on the other hand, often surprise themselves with how much and how well they learn. 
-2. **Your willingness to ask questions**. The material in MTH 225 is challenging, and it is 100% certain you will be encountering things you don't fully understand at first. **This is totally normal.** But when it happens, you can't wait for it to make sense: *Ask questions* of me and your classmates and take action to make sense of the material. 
-3. **Your ability to keep current and maintain awareness in the course**. Being a six-week course, the class moves at a *very* rapid pace. Each class meeting (135 minutes) is almost a *week's worth* of class time in a regular semester (150 minutes). To manage this, you will need to check messages and the calendar at once daily; get to work immediately on assignments; and above all **don't procrastinate** because there's just no room for it! 
+2. **Your willingness to ask questions**. The material in MTH 225 is challenging, and it is 100% certain you will  be lost, confused, and/or stuck at times. **This means you're doing the course right.** When it happens, don't wait for things to make sense on their own: *Ask questions* of me and your classmates and take action to make sense of the material. 
+3. **Your ability to keep current and maintain awareness in the course**. Being a six-week course, the class moves at a *very* rapid pace. A week in our class (360 minutes of class time) is over *two weeks' worth* of class time in a regular semester (300 minutes). It's easy to fall behind very quickly and very difficult to catch up again. To avoid this, check your messages and the calendar at once daily; get to work immediately on assignments; and above all **ask questions** and **don't procrastinate**.  
 
-If you can commit to those three things, then there is every expectation that you'll succeed in the course, no matter what your math background or perceived math skill is. 
+If you can commit to these three things, then there is every expectation that you'll succeed in the course, no matter what your math background or perceived math skill is. 
 
 **My #1 job as the professor is to make sure you succeed in learning.** Success in the course doesn't come cheap. Like learning to program, learning math involves hard work, a willingness to try things that might not work the first time, and the ability to improve using feedback. **But I promise you that I will work to make MTH 225 a class where you can make mistakes and grow safely and productively.** 
 
@@ -80,7 +80,7 @@ The overall goal of MTH 225 is to **build a solid foundation in the basic theory
 - **Module 4: Combinatorics**. The Additive and Multiplicative counting principles, the binomial coefficient, permutations, dots-and-dividers counting methods. 
 - **Module 5: Recursion and induction**. Numerical sequences in closed-formula and recursive forms, solutions to recurrence relations, the Principle of Mathematical Induction and proof by induction. 
 
-The basic skills that you'll learn in the course are encapsulated in a list of **21 Learning Targets**, eight (8) of which are labelled as **CORE** targets and represent the eight essential skills that every MTH 225 student should possess by the end of the course. You can find that list in the Appendix, and it's linked elsewhere on our various course sites. 
+The basic skills that you'll learn in the course are encapsulated in a list of **21 Learning Targets**, eight (8) of which are labelled as **CORE** targets and represent the eight essential skills that every MTH 225 student should possess by the end of the course. You can find that list in the Appendix, and it's linked elsewhere on our various course sites. ==link== 
 
 ## MTH 225 Workflow 
 
@@ -92,7 +92,10 @@ Each class meeting has activities for you to do *before*, *during* and *after* t
 
 ==maybe a diagram here==
 
-Our class meetings are long --- 135 minutes. To make this productive, we'll structure our time in **30-minute blocks** (25 minutes of heads-down work followed by a 5-minute break): 
+Our class meetings are 90 minutes long. To keep our energy up,  we'll structure our time in **30-minute blocks** (25 minutes of heads-down work followed by a 5-minute break): 
+
+
+==this all needs to be redone along with maybe out of class assessments== 
 
 | Time | Focus | 
 | :--- | :--- | 
@@ -112,23 +115,23 @@ On days that involve Learning Target quizzes (below), we'll replace the 2:30-3:0
 You can only learn by doing things. The things you will do to learn include many things that are not assessed or graded, along with some items that are formally assessed and graded. These are: 
 
 * **Daily Prep assignments**: These lead you through an active reading of portions of [the textbook](http://discrete.openmathbooks.org/dmoi3/dmoi.html) and some of [the videos](https://vimeo.com/showcase/8667148). You'll use [Perusall](https://perusall.com/) to engage in discussions and questions on these, and complete a short form with basic exercises and questions. 
-* **Learning Target completions**: Learning Targets are the basic skills that you should learn in the course. You will be asked to "complete" as many Learning Targets as possible, done mainly by taking short quizzes on them at regular intervals. See "Completing Learning Targets" below for more. 
+* **Learning Target completions**: Learning Targets are the basic skills that you should learn in the course. You will be asked to "complete" as many Learning Targets as possible, done mainly by taking short quizzes on them at regular intervals. See "Learning Targets" below for more. 
 * **Application and Extension Problems (AEPs)**: AEPs are problems that either *apply* or *extend* the basic skills found in the Learning Targets. They involve solving new-to-you problems and communicating your reasoning clearly to an appropriate audience.  
 * **Online Practice**: You'll use the WeBWorK online homework system to practice the skills found in the Learning Targets. ==add link== 
 * **Final Exam**: We'll have a final exam at the end of the course that involves reassessing on a selection of Learning Targets and completing additional tasks. More information on this in week 3. 
 
 :::info
-**About the grading system in MTH 225** 
+### About the grading system in MTH 225
 
 The way we do grades in this course is a little different than you might be used to. Please read this part carefully and ask questions as needed. 
 
 As a teacher and learner, I strongly believe that **learning takes time** and that grading your work based on a single point of data such as a single quiz or test is not only inaccurate, but invalid and even unethical. A true, valid measure of learning has to involve **multiple attempts** that allow you to learn from your past mistakes and demonstrate not only your skill, but also your growth; and you should not be penalized for having a bad day that results in a bad test score, so long as you can eventually show evidence that you've learned what you need to learn. 
 
-I also strongly believe that **assigning points to your work is deeply unhelpful** for all parties involved. Points give the appearance of a scientific measurement, but in reality *all grading involves a judgment call by the instructor* based on their professional expertise and opinions about what constitutes "quality". So rather than try to pretend it's otherwise, I believe your work should be evaluated just like everyone else's work in the real world is evaluated: Have *clearly defined standards* for quality, then I *give detailed verbal feedback* on your work instead of points, then *give the opportunity to try again* based on the feedback. This gets you into a **feedback loop** that you continue until your work meets the standards. 
+I also strongly believe that **assigning points to your work is deeply unhelpful** for all parties involved. Points give the appearance of a scientific measurement, but in reality *all grading involves a judgment call by the instructor* based on their professional expertise and opinions about what constitutes "quality". And points lead to arguments about points and "grade grubbing", both of which are gross. So rather than try to pretend it's otherwise, I believe your work should be evaluated just like everyone else's work in the real world is evaluated: Have *clearly defined standards* for quality, then I *give detailed verbal feedback* on your work instead of points, then *give you the opportunity to try again* based on the feedback. This gets you into a **feedback loop**, a conversation between you and me about your work, that continues until your work meets the standards. 
 
 So in MTH 225: 
 
-* *There are no points on work* (except for WeBWorK, which *has* to use points). 
+* *There are no points on your work* except for WeBWorK and the final exam. 
 * What you get instead of points is a *simple mark* that summarizes your current progress on the work, and *detailed verbal feedback* on what went well and what needs attention. 
 * *There is also no partial credit* awarded on your work, because there's no points. 
 * What you get instead of partial credit is *the ability to revise and resubmit almost any piece of work*, several times over if needed, using the feedback at each stage to improve and grow.
@@ -138,20 +141,171 @@ This is not as weird as it sounds. **It's actually the way all human learning wo
 Keep reading for more details. 
 :::
 
+**How each assignment is graded:** Each kind of graded assignment is different, and here is how each is graded: 
+
+| Assignment | How it's graded | What's recorded in Blackboard | 
+| :----     | :------------ | :-------------- | 
+| Daily Prep | Completeness and effort only | `1` for complete, good-faith effort; `0` otherwise | 
+| Learning Targets | Completeness, effort and correctness | *Successful* or *Retry* (see below) | 
+| AEPs    | Completeness, effort, correctness, and communication quality | `E`, `M`, `R`, or `N` (see below) | 
+| Online practice | Correctness | N/A, these are recorded in WeBWorK and not ported to Blackboard | 
+| Final exam | Completeness, effort and correctness | Points, 70 maximum | 
+
+**Standards for quality:** The "Standards for Assessments in MTH 225" document contains details on the quality standards for each kind of assessment in the course. Please read this carefully and review before each submission you make. ==include link== 
+
+**Learning Targets:** Each Learning Target requires **two successful demonstrations of skill** in order to **complete** the Learning Target. The primary means of demonstrating skill is through *Learning Target quizzes* which will typically be given 1-2 times per week during class. Each quiz problem addresses exactly one Learning Target, and each quiz will contain several of these problems. Work on a quiz problem for a Learning Target with only a limited number of errors will constitute a "successful demonstration" of skill. See the Standards for Assessments document ==link== for the details on what you'll be asked to do for each Learning Target and the precise criteria for success. 
+
+Each quiz is cumulative, meaning that it will contain problems for each *new* Learning Target along with *new versions* of quiz problems for earlier Learning Targets. **You do not need to do all the problems on each quiz;** just attempt the problems for Learning Targets that you haven't completed yet and feel ready to try. If you try a problem and do not do successful work, you can just try again on a new version of that problem on the next quiz. ==Note about "retiring" old problems?== 
+
+Your work on Learning Target quizzes will be done by hand, then scanned and uploaded to Blackboard. Each problem will be graded either *Successful* or *Retry* depending on whether the work meets the standards for that problem. **Once you have done successful work on two separate instances of the problem, you have "Completed" the Learning Target and you do not need to take any more quizzes on it.** You will be responsible for keeping track of how many successful attempts you've made, although I will update you on your records around week 4. 
+
+**Alternative ways of demonstrating skill on Learning Targets:** You can also demonstrate your skill on a Learning Target in the following ways other than quizzes: 
+
+- *An oral quiz in drop-in or appointment hours*. In this option, you schedule time with me to meet online, during which I'll give you a new instance of a problem, and you work it out "live".  
+- *A video posted to Flipgrid*. In this option, you request a Learning Target, and I'll give you a new instance of a problem for it, then you make a brief video of the solution and post it to the service [Flipgrid](https://info.flipgrid.com/). 
+
+Details on these will be sent out in week 2. Other ways of demonstrating skill may be introduced later, especially for Learning Targets appearing near the end of the course. 
+
+
+**AEPs and the EMRN rubric:** AEP sets are assigned occasionally with "soft" deadlines. You are free to work as many or as few of these as you want, although a course grade of B or higher requires acceptable work on at least one of these. They involve more in-depth problem solving and writing and are graded on a four-level rubric: 
+
+![EMRN rubric](http://rtalbert.org/content/images/2022/04/EMRN-rubric-2020.png)
+
+
 ## Earning a Course Grade  
 
+Your grade in the course is determined by how many requirements for each kind of assessment you eventually meet. To earn a course grade, satisfy all of the requirements in the row for that grade in the table below: 
+
+|  | Learning Targets completed (21) | All 8 Core Learning Targets complete? | AEP marks | Online practice (60+) | Daily Prep (20) | Final Exam score (70) | 
+| :---: |  :---: |  :---: |  :---: |  :---: |  :---: |  :---: | 
+| A | 18 |  Yes | 1 E and 1 M+ |  50 | 17 | 42 | 
+| B | 15 |  Yes | 1 M+        | 42  | 14  | 35 | 
+| C | 12 |  No  | none        | 34  | 11  | 28 | 
+| D | 9  |  No  | none        | 26  | 8   | 21 | 
+
+Numbers in parentheses indicate the total number of assignments or points available. "M+" means "Either M or E". A grade of "F" is assigned if *not all of the requirements for a D are met*. 
+
+:::success
+**Example:** Alice finishes the semester with the following things accomplished: 
+
+* She's completed (= done two successful demonstrations of skill on) 16 Learning Targets, including all 8 Core targets. 
+* She's submitted three AEPs, with marks of E, R, and N. 
+* She's completed 62 points on WeBWorK for online practice.
+* She's completed 15 out of 20 Daily Prep assignments. 
+* And she earned a 55/70 on the Final Exam.
+
+Looking across the row for a grade of "B", she has satisfied all the requirements for that grade. Her work on Online Practice and the Final Exam is at "A" level. But since she fulfilled all the requirements for a B, she gets a B in the course; but not an A, because not all of the requirements for that grade were met. 
+:::
+
+**Plus/minus grades:** To earn a "plus" grade, complete all the requirements for a basic letter grade **and** the requirements for the next grade up in at least two of the following: Learning Targets completed, AEP marks, and the Final Exam. A "minus" grade is assigned if you meet all of the requirements for a grade except for one category, and that category is no more than one level lower than the rest. 
+
+*Exceptions*: GVSU does not award grades of A+ or D-. 
+
+:::warning
+**Important facts about this grading system**
+
+- **Different assignments do not "average together".** You can't make up for less-than-great work on AEPs by doing more Learning Targets, for instance. Each course grade requires *consistent quality on all assignments* to earn the grade. 
+- **Once you have satisfied all the requirements for a grade, you've earned that grade, and it never goes down.** In fact grades only ever go *up* (or remain the same) in this system. Actually it's technically possible to earn a "C" in the course by around week 4. 
+- **You do not have to do everything.** If you want an "A" in the class, for example, you do not have to complete *every* Learning Target, only 18 of them (as long as you do all 8 Core as part of that). 
+:::
+
+
+## Revision and Resubmission
+
+Except for Daily Prep and the Final Exam, **you can revise and resubmit any work you turn in, without penalty, until it meets course standards**. How this works depends on the assignment: 
+
+**Learning Targets:** As detailed above, work on a Learning Target (via a quiz or other means) that doesn't meet the standards for "success" can be reattempted, through work on a new version of the same problem. 
+
+**AEPs:** An AEP earning a mark of M, R, or N can be revised and resubmitted by uploading a revised version of the work to the same Blackboard "assignment" folder where it was previously submitted. All versions of the AEP will be kept in that folder for reference. 
+
+**Online Practice:** Problems on WeBWorK sets can be reattempted as often as needed until the deadline. 
+
+**Limitations on revisions:** Although there is no penalty for revising and resubmitting work, we place the following reasonable limitations on this: 
+
++ **Only two AEP submissions per week are allowed.** This can be new submissions of two different problems; or revisions of two different problems; or one new submission and one revision. 
++ **Only three (3) revisions of AEPs earning an "N" mark (*Not Assessable*) are allowed during the course.** This includes revisions of work marked "N" where the revision also earns an "N". After the third "N", all other AEP submissions marked "N" may not be revised. (So, always check your AEP work against the rubric to make sure it doesn't fall into the N category.)
++ **No revisions are allowed after 11:59pm ET on Sunday, June 19** in order to provide time and space to grade all pending revisions for final course grade determinations. 
++ **There will be further limitations on Learning Target assessments for weeks 5 and 6** to ensure that there are no last-minute assessment requests. More information on this coming in week 2. 
+
+
+
 ## Academic integrity
+
+:::warning
+This course is subject to [GVSU course policies](http://www.gvsu.edu/coursepolicies/) and the [GVSU student code](https://www.gvsu.edu/cms4/asset/7B58A5E7-F4C2-114C-CCDA36F96BD2AF73/the_statement_final_fa2020(2).pdf). This document establishes guidelines and expands and clarifies these policies with respect to all work done in MTH 225 this semester. Be sure to read it carefully and honor it fully.
+:::
+
+The student code defines **academic misconduct** as *any action or behavior that misrepresents one’s contributions to or the results of any scholarly product submitted for credit, evaluation, or dissemination*. This includes cheating, collusion, dual submission, falsification, and plagiarism --- as well as any behavior that enables or helps others do these things.
+
+Academic misconduct is a serious matter and carries significant consequences, up to and including failure of the course and possible suspension from the university. In all cases, the guidelines established in the GVSU catalog and GVSU student code will be followed. I reserve the right to discuss the nature and origins of any assignment with any student before assessing it.
+
+Here are the specific parameters for how much and with whom you may collaborate on each piece of graded work in the course: 
+
+| Assessment | Collaboration allowed | 
+| :--------  | :--------------------- | 
+| Daily Prep | You are encouraged to collaborate with others, particularly on [Perusall](https://perusall.com/) via questions and discussion threads. On the response forms, your work must be your own and reflect your own understanding. | 
+| Learning Targets | **No collaboration is allowed at all** --- with other people, or with print or electronic sources. | 
+| AEPs | **No collaboration is allowed at all** --- with other people, or with print or electronic sources other than your textbook, the video playlist, or your notes. | 
+| Online practice | You are encouraged to collaborate on these, and you can use outside sources. But your work must be your own and reflect your own understanding. | 
+| Final Exam | **No collaboration is allowed at all** --- with other people, or with print or electronic sources other than your textbook, the video playlist, or your notes. | 
+
+**There's no need to be academically dishonest here, because you can revise and resubmit almost everything.** Rather than cheat, *ask questions and use the feedback loop* so that you really grow and learn in the course. 
+
+## How to Get Help 
+
+As mentioned, you will almost certainly find yourself lost, stuck, or confused on *something* in this course, possibly quite often. This is not a defect in your character or intelligence; it's a sign you are being challenged, and you can turn that challenge into real growth by **seeking out help as soon as you need it**. 
+
+Make every effort to get yourself unstuck and resolve your questions on your own first. But then: 
+
+* [Post a question on the course Padlet](https://padlet.com/talbertr1/6itl6dvga4zytpc1). To post on the Padlet, just double click in an empty part of the screen and start typing (or upload a photo, etc.) in the note that appears. To ask a question anonymously, make sure you are logged out first. (If an avatar photo appears in the upper right, click on it and then log out. No photo means you're logged out.) You can also answer or upvote other people's questions. 
+* **In WeBWorK sets, click the "Email the instructor" link** and ask your question. This will email me your question with a link to your work so I can see what you're doing. 
+* For questions on stuff in the textbook or on the videos, [use Perusall to leave a question](https://perusall.com/). 
+* **Attend drop-in hours and ask questions there.** 
+* [Schedule an appointment through Calendly](https://calendly.com/robert-talbert/) if drop-in hours don't work for you. 
+* **Work with a classmate** especially on Daily Prep, as long as you're staying within bounds on academic honesty. ==link==
+
+Bottom line: **If you need help, you can get it.** 
+
 
 ## Course Policies
 
 ### Attendance, absences, and participation
 
+**Attendance:** Attenance is expected at all class meetings. The pace of the course is such that missing a class will result in falling behind immediately, and it's very hard to recover. Attendance will be recorded so I can keep track of it. 
+
+**Absences:** If you must be absent, you do not need prior permission or justification; a heads-up is appreciated. However *please avoid any non-essential absences* such as skipping class, or scheduling a vacation during a day where class is scheduled. If you miss, you are solely responsible for catching up. 
+
+**Missing Learning Target quizzes:** If you miss a class meeting during which there is a Learning Target quiz (these are clearly marked on the Class Calendar), **there are no makeups offered**. Instead, just attempt the problems you intended to take on the next quiz. 
+
+**Participation in class:** You are expected to participate actively during each class meeting. **Keep your Zoom camera turned on** during all class meetings so that you are fully "present". (However, please keep your microphone muted unless you have a question.)
 
 ### Deadlines and late work 
+
+Daily Prep, AEPs, and Online Practice sets all have deadlines.
+
++ *Daily Preps* must be turned in by the deadline (typically 11:59pm ET the night before class) and this deadline may not be extended due to the time-sensitive nature of the assignment. 
++ *AEPs* have "soft" deadlines --- suggested deadlines that give you something to put on the calendar and motivate you to complete it. If you intend to turn in an AEP set but don't think you can finish by the deadline, **you can ask for an extension** by emailing me. Tell me what the issue is, and tell me when you plan to turn in the work. Extension requests must be received before the original deadline, and I have the right to refuse or give you a different extended deadline if the situation warrants. 
++ *Online Practice* sets have a deadline when the system shuts off access to the problem set. **You can request a 24-hour extension for an online practice set, up to three (3) times during the semester**. Just email me; however the extended deadline will be set to 24 hours after the original deadline, not 24 hours after I get your email, so if you know you'll need an extension then email me as soon as possible about it. 
 
 ### Technology skills and tech support 
 
 You should be proficient in the basic technology skills listed at [this GVSU policy page](https://www.gvsu.edu/online/technology-requirements-for-onlinehybrid-courses-8.htm). If you need help at any time with those skills, please ask me or a classmate. 
+
+**Tech support:** Technology issues will happen with almost 100% certainty, usually at the worst possible moment. **When this happens, do NOT contact me first!** Instead, *contact 
+the appropriate person or office listed below: 
+
+:::warning
+* For help with **Blackboard:** Email the Blackboard Help Desk at bbadmin@gvsu.edu or call (616)331-8526. For hours of operation and more information see http://www.gvsu.edu/elearn/help. 
+* For help with **the GVSU network, email, or printing**: Email the GVSU IT Help Desk at helpdesk@gvsu.edu; or call (616)331-2101 or toll free (855)435-7488. For hours of operation and more information see https://www.gvsu.edu/it. 
+* For help with **your computer:** Try the GVSU IT Help Desk (above) or contact your device's manufacturer or a computer store. 
+* For help with **Perusall:** Contact **Perusall Help** at https://support.perusall.com. 
+* For help with **any other technology:** Ask a question of a classmate (or me), seek out the help documentation in the tool you are using, or do a targeted Google search. 
+:::
+
+**I (Talbert) am not able to provide tech support** since I lack the skill and permissions to fix all possible problems. 
+
+**If technology issues prevent submitting work:** If you have contacted an appropriate source of help and an issue still persists that prevents you from turning in work in the usual way (for example on Blackboard), **you are expected to take alternative measures to get your work turned in on time.** For example, if Blackboard is offline and a deadline is looming, send an email with an attachment. Then, submit the work using the normal means later. If Zoom isn't working on your computer, try joining the meeting on your phone. 
+
 
 ### Instructor availability and message responses 
 
@@ -164,10 +318,27 @@ I typically respond to email and Padlet posts **once per day** in the late after
 
 ### Special accommodations and basic needs 
 
+If you have special needs because of learning, physical or other disabilities, it is your responsibility to contact Disability Support Resources (DSR) at (616)331-2490 or http://www.gvsu.edu/dsr/. DSR will help you arrange accommodations. Then, speak with me in person about making those accommodations and ensure that they are consistent with your arrangements with DSR.
+
+If you have difficulty affording groceries or accessing sufficient food to eat every day, or if you lack a safe and stable place to live, I encourage you to visit Replenish, a food resource for GVSU students. If you are comfortable doing so, please speak with me about your circumstances so that I can advocate for you and to connect you with other campus resources.
+
+If, for purposes of gender identity and expression, your official name (in Banner) does not match your preferred name, your name can be updated in Blackboard. Please contact the registrar's office to submit this request. The registrar's office will contact the Blackboard administrator to make the change and will also contact your professors to inform them that your name in Banner will not match the name in Blackboard.
+
+
+
 ## FAQs
 
 :::info
 This list will be added to throughout the semester as issues arise. Check back often! 
+:::
+
+:::success
+Changes to this syllabus may occur during the semester. In those cases,
+the changes will be announced in class and online, and if appropriate,
+students will be given a voice on how the changes will be implemented.
+Again it is your responsibility to attend class and process all the
+information passed along in course announcements so that you will be
+aware of any changes that take place.
 :::
 
 ## About the instructor
