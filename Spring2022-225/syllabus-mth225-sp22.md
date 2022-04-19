@@ -115,7 +115,28 @@ You can only learn by doing things. The things you will do to learn include many
 * **Learning Target completions**: Learning Targets are the basic skills that you should learn in the course. You will be asked to "complete" as many Learning Targets as possible, done mainly by taking short quizzes on them at regular intervals. See "Completing Learning Targets" below for more. 
 * **Application and Extension Problems (AEPs)**: AEPs are problems that either *apply* or *extend* the basic skills found in the Learning Targets. They involve solving new-to-you problems and communicating your reasoning clearly to an appropriate audience.  
 * **Online Practice**: You'll use the WeBWorK online homework system to practice the skills found in the Learning Targets. ==add link== 
-* Final Exam 
+* **Final Exam**: We'll have a final exam at the end of the course that involves reassessing on a selection of Learning Targets and completing additional tasks. More information on this in week 3. 
+
+:::info
+**About the grading system in MTH 225** 
+
+The way we do grades in this course is a little different than you might be used to. Please read this part carefully and ask questions as needed. 
+
+As a teacher and learner, I strongly believe that **learning takes time** and that grading your work based on a single point of data such as a single quiz or test is not only inaccurate, but invalid and even unethical. A true, valid measure of learning has to involve **multiple attempts** that allow you to learn from your past mistakes and demonstrate not only your skill, but also your growth; and you should not be penalized for having a bad day that results in a bad test score, so long as you can eventually show evidence that you've learned what you need to learn. 
+
+I also strongly believe that **assigning points to your work is deeply unhelpful** for all parties involved. Points give the appearance of a scientific measurement, but in reality *all grading involves a judgment call by the instructor* based on their professional expertise and opinions about what constitutes "quality". So rather than try to pretend it's otherwise, I believe your work should be evaluated just like everyone else's work in the real world is evaluated: Have *clearly defined standards* for quality, then I *give detailed verbal feedback* on your work instead of points, then *give the opportunity to try again* based on the feedback. This gets you into a **feedback loop** that you continue until your work meets the standards. 
+
+So in MTH 225: 
+
+* *There are no points on work* (except for WeBWorK, which *has* to use points). 
+* What you get instead of points is a *simple mark* that summarizes your current progress on the work, and *detailed verbal feedback* on what went well and what needs attention. 
+* *There is also no partial credit* awarded on your work, because there's no points. 
+* What you get instead of partial credit is *the ability to revise and resubmit almost any piece of work*, several times over if needed, using the feedback at each stage to improve and grow.
+
+This is not as weird as it sounds. **It's actually the way all human learning works, and the way most professionals are evaluated in their work**. It only seems strange because it's not how school is typically done. But school and the real world are, well, not necessarily aligned. We will take the "real world" approach. 
+
+Keep reading for more details. 
+:::
 
 ## Earning a Course Grade  
 
