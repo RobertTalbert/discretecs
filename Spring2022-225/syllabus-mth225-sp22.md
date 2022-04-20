@@ -21,9 +21,10 @@ This document contains all the information you need to navigate the course. Plea
 
 ## Key Information
 
-**Meetings:** MTWR 1:00-2:30pm ET, on Zoom. The class meeting Zoom link is on the [Class Page](https://hackmd.io/@rtalbert235/HyTuIxi4q) and on Blackboard. 
+**Meetings:** MTWR 1:00-2:30pm ET, on Zoom. [Click here to join the Zoom meeting](https://gvsu-edu.zoom.us/j/6163318968?pwd=bnFudTBGbE4xbG1DMitDbGhtYkFGdz09); this link is also on the [Class Page](https://hackmd.io/@rtalbert235/HyTuIxi4q) and on Blackboard. 
 
-**Student drop-in hours:** ==Hours TBD==. These are also online via Zoom. The drop-in hours Zoom link is on the [Class Page](https://hackmd.io/@rtalbert235/HyTuIxi4q) and on Blackboard. No appointment is necessary for drop-in hours; just join the meeting. Additional times are available by appointment; [schedule those using my Calendly page](https://calendly.com/robert-talbert/). 
+**Student drop-in hours:** MTWR 2:30-3:15pm ET, on Zoom. 
+ No appointment is necessary for drop-in hours; [just click here to join the meeting](https://gvsu-edu.zoom.us/j/6163318968?pwd=bnFudTBGbE4xbG1DMitDbGhtYkFGdz09). The drop-in hours Zoom link is also on the [Class Page](https://hackmd.io/@rtalbert235/HyTuIxi4q) and on Blackboard. Additional times are available by appointment; [schedule those using my Calendly page](https://calendly.com/robert-talbert/). 
 
 **Contacting the prof:** Email (talbertr@gvsu.edu) is preferred; you can schedule a phone call through [my Calendly page](https://calendly.com/robert-talbert/). Be sure to read my availability/response policy. ==link== 
 
