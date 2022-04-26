@@ -125,7 +125,7 @@ You can only learn by doing things. The things you will do to learn include many
 * **Daily Prep assignments**: These lead you through an active reading of portions of [the textbook](http://discrete.openmathbooks.org/dmoi3/dmoi.html) and some of [the videos](https://vimeo.com/showcase/8667148). You'll use [Perusall](https://perusall.com/) to engage in discussions and questions on these, and complete a short form with basic exercises and questions. 
 * **Learning Target completions**: Learning Targets are the basic skills that you should learn in the course. You will be asked to "complete" as many Learning Targets as possible, done mainly by taking short quizzes on them at regular intervals. See "Learning Targets" below for more. 
 * **Application and Extension Problems (AEPs)**: AEPs are problems that either *apply* or *extend* the basic skills found in the Learning Targets. They involve solving new-to-you problems and communicating your reasoning clearly to an appropriate audience.  
-* **Online Practice**: You'll use the WeBWorK online homework system to practice the skills found in the Learning Targets. ==add link== 
+* **Online Practice**: You'll use the WeBWorK online homework system to practice the skills found in the Learning Targets. ==add link once WeBWorK is set up== 
 * **Final Exam**: We'll have a final exam from **1:00-2:30pm ET on Tuesday, June 21** that involves reassessing on a selection of Learning Targets and completing additional tasks. More information on this in week 3. 
 
 :::info
@@ -161,11 +161,11 @@ Each kind of graded assignment is different, and here is how each is graded:
 | Online practice | Correctness | N/A, these are recorded in WeBWorK and not ported to Blackboard | 
 | Final exam | Completeness, effort and correctness | Points, 70 maximum | 
 
-The "Standards for Assessments in MTH 225" document contains details on the quality standards for each kind of assessment in the course. Please read this carefully and review before each submission you make. ==include link== 
+[The "Standards for Assessments in MTH 225" document](https://hackmd.io/@rtalbert235/Bys_sKSBc) contains details on the quality standards for each kind of assessment in the course. Please read this carefully and review before each submission you make. 
 
 ### Learning Targets
 
-A main goal for you in the class is to demonstrate skill on the [Learning Target](https://hackmd.io/TchC8fZORJ29EgxQb1O4lQ?view#Appendix-Learning-Targets). The primary way you'll demonstrate skill is through **Learning Target quizzes**, given 1-2 times per week. Each quiz contains several problems, and each problem covers exactly one of the Learning Targets. Work on a quiz problem for a Learning Target with only a limited number of errors will constitute a "successful demonstration" of skill and will be marked *Successful*. Work on a Learning Target quiz problem that doesn't meet the standards will be marked *Retry*, and you'll have a chance to try again later after further study and practuce. See the ==Standards for Assessments== document for the details on what you'll be asked to do for each Learning Target and the precise criteria for success. 
+A main goal for you in the class is to demonstrate skill on the [Learning Target](https://hackmd.io/TchC8fZORJ29EgxQb1O4lQ?view#Appendix-Learning-Targets). The primary way you'll demonstrate skill is through **Learning Target quizzes**, given 1-2 times per week. Each quiz contains several problems, and each problem covers exactly one of the Learning Targets. Work on a quiz problem for a Learning Target with only a limited number of errors will constitute a "successful demonstration" of skill and will be marked *Successful*. Work on a Learning Target quiz problem that doesn't meet the standards will be marked *Retry*, and you'll have a chance to try again later after further study and practuce. See the [Standards for Assessments document](https://hackmd.io/@rtalbert235/Bys_sKSBc) for the details on what you'll be asked to do for each Learning Target and the precise criteria for success. 
 
 **Each Learning Target requires two successful demonstrations of skill.** Once you've successfully demonstrated skill twice on a Learning Target, the Target is **completed** and no further assessment on that target is necessary. 
 
