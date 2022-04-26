@@ -147,7 +147,7 @@ Keep reading for more details.
 | Assignment | How it's graded | What's recorded in Blackboard | 
 | :----     | :------------ | :-------------- | 
 | Daily Prep | Completeness and effort only | `1` for complete, good-faith effort; `0` otherwise | 
-| Learning Targets | Completeness, effort and correctness | *Successful* or *Retry* (see below) | 
+| Learning Targets | Completeness and correctness | *Successful* or *Retry* (see below) | 
 | AEPs    | Completeness, effort, correctness, and communication quality | `E`, `M`, `R`, or `N` (see below) | 
 | Online practice | Correctness | N/A, these are recorded in WeBWorK and not ported to Blackboard | 
 | Final exam | Completeness, effort and correctness | Points, 70 maximum | 
