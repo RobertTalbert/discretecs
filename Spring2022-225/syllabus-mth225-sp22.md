@@ -2,10 +2,8 @@
 tags: 225-spr22, syllabus
 ---
 
-==***DRAFT***==
-
 # MTH 225 Syllabus, Spring 2022 
-Instructor: Robert Talbert, Ph.D., Professor of Mathematics
+*Instructor*: Robert Talbert, Ph.D., Professor of Mathematics
 
 
 ## How to use this syllabus
@@ -139,9 +137,9 @@ I also strongly believe that **assigning points to your work is deeply unhelpful
 
 So in MTH 225: 
 
-* *There are no points on your work* except for WeBWorK and the final exam. 
+* *There are no points on your work* except for WeBWorK and the final exam. (Daily Prep is recorded 0 or 1 but that's not a point, that's a label.) 
 * What you get instead of points is a *simple mark* that summarizes your current progress on the work, and *detailed verbal feedback* on what went well and what needs attention. 
-* *There is also no partial credit* awarded on your work, because there's no points. 
+* *There is also no partial credit* awarded on your work, because there's no points. (Some WeBWorK questions may receive partial credit if they are multi-part.)
 * What you get instead of partial credit is *the ability to revise and resubmit almost any piece of work*, several times over if needed, using the feedback at each stage to improve and grow.
 
 This is not as weird as it sounds. **It's actually the way all human learning works, and the way most professionals are evaluated in their work**. It only seems strange because it's not how school is typically done. But school and the real world are, well, not necessarily aligned. We will take the "real world" approach. 
@@ -375,7 +373,7 @@ After a two-year gig as a Psychology major in college, I changed my major to mat
 
 Now, I teach computer scientists and engineers how to think like mathematicians, do research on how to make college teaching better, and coordinate large-scale teaching/learning projects for President Mantella's office. When nobody is looking I am always trying to build my skills in Python, data science, and project management. 
 
-I live in Allendale with my wife, three teenage kids, and three cats. I am a halfway-decent cook, a longtime bass guitarist, and lover of the outdoors. I aspire to spend more time in a kayak or on a bike than in front of a computer. You can read more about what I'm thinking and doing at my website, [rtalbert.org](https://rtalbert.org), or at my "other blog" [Grading for Growth](https://gradingforgrowth.com) about alternative grading practices which I co-author with my GVSU college Prof. David Clark. I'm also on Twitter at [@RobertTalbert](http://twitter.com/RobertTalbert) and on [LinkedIn](https://www.linkedin.com/in/roberttalbert/). I will accept any connection request on LinkedIn from a student!   
+I live in Allendale with my wife, three teenage kids, and three cats. I am a halfway-decent cook, a longtime bass guitarist, and lover of the outdoors. I aspire to spend more time in a kayak or on a bike than in front of a computer. You can read more about what I'm thinking and doing at my website, [rtalbert.org](https://rtalbert.org), or at my "other blog" [Grading for Growth](https://gradingforgrowth.com) about alternative grading practices which I co-author with my GVSU colleague Prof. David Clark. I'm also on Twitter at [@RobertTalbert](http://twitter.com/RobertTalbert) and on [LinkedIn](https://www.linkedin.com/in/roberttalbert/). I will accept any connection request on LinkedIn from a student!   
 
 ## Appendix A: Learning Targets 
 
