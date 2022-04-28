@@ -32,14 +32,29 @@ Something you'll be doing almost every day is **handwriting solutions to problem
 
 Once you've uploaded your file, I'll "grade" it with a "1" if everything is OK, and a "0" otherwise. This point does not factor into any grade in the course. I will also leave a feedback note on your file, just like you'll see on real assignments; if you don't see it or can't read it, let me know immediately. 
 
-
-## Part 2: Navigating and writing on the online whiteboard
-
-## Part 3: Getting oriented in WeBWorK 
+## Part 2: Getting oriented in WeBWorK 
 
 :::warning
 Coming prior to week 1 -- currently waiting for WeBWorK courses to refresh following Winter 2022 semester
 :::
+
+## Part 3: Navigating and writing on the online whiteboard
+
+**[Miro](http://miro.com)** is an online whiteboard and collaboration tool that we will use extensive in class activities and in between classes. It's available as a webpage at the link above (http://miro.com). There are also [desktop apps for macOS and Windows](https://help.miro.com/hc/en-us/articles/360017572854-Desktop-app), and mobile apps for [iOS](https://apps.apple.com/us/app/miro-online-whiteboard/id1180074773) and [Android](https://play.google.com/store/apps/details?id=com.realtimeboard). 
+
+For this Part, **do the following**: 
+
+1. Sign up on Miro using [this link](https://miro.com/welcomeonboard/VnJzckUwVHptMkVzdWtTWThsdlNPa2JIWW4yT29ER1psMXBZaHFNdFVQOWI0emFTQXF2UjNwaHhlVVNHVm9MN3wzMDc0NDU3MzQ5MzUyMTczOTI5?share_link_id=832910622003): 
+> https://miro.com/welcomeonboard/VnJzckUwVHptMkVzdWtTWThsdlNPa2JIWW4yT29ER1psMXBZaHFNdFVQOWI0emFTQXF2UjNwaHhlVVNHVm9MN3wzMDc0NDU3MzQ5MzUyMTczOTI5?share_link_id=832910622003
+
+2. Then [click on this link](https://miro.com/app/board/uXjVO5Vq85o=/?share_link_id=850780074478) and follow the steps to go through a quick tutorial about Miro. Direct link: https://miro.com/app/board/uXjVO5Vq85o=/?share_link_id=850780074478
+3. Then [click on this link](https://miro.com/app/board/uXjVO5YC1sg=/?share_link_id=990302407015) to do an activity where you'll write on the board, make a sticky note on the board, upload an image to the board, and leave a comment on something on the board. Instructions are on the board at the link. Direct link: https://miro.com/app/board/uXjVO5YC1sg=/?share_link_id=990302407015 
+
+:::success
+**Successful completion means:** You've completed the four tasks found on the board (and left your name on each to let me know you did them).  
+:::
+
+
 
 ## Part 4: Commenting on documents and video with Perusall
 
