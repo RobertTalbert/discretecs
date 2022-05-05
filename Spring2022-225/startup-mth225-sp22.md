@@ -40,9 +40,23 @@ Once you've uploaded your file, I'll "grade" it with a "1" if everything is OK, 
 
 ## Part 2: Getting oriented in WeBWorK 
 
-:::warning
-Coming prior to week 1 -- currently waiting for WeBWorK courses to refresh following Winter 2022 semester
+:new: **WeBWorK** is an online homework system that we'll use for weekly practice problems. Typically (but not always) you will receive **two practice sets per week**, one due on Wednesday and the other on Sunday (always at 11:59pm ET), typically 4-5 problems per set (for a total of around 10 per week; we are planning on at least 60 problems assigned for the whole course). These are automatically graded by the software, and you can retry any problem you get wrong as many times as you need, until the deadline. 
+
+For this part, **do the following**: 
+
+1. Go to the WeBWorK site for this class using this link: https://webwork-math.gvsu.edu/webwork2/MTH225-01 (Like all important links in the class, this is also on the [MTH 225 Spring 2022 Class Page](/V4skBgowQQC-mgYJRKKHEg).)
+2. Log in using your GVSU credentials (same username/password you use for email). If you have issues logging in, make sure you are using all lower case letters. 
+3. You'll see a list of current homework sets that have been assigned. One of those is called **WeBWorK Tutorial**. Click the link for that homework assignment. 
+4. Then complete the WeBWorK Tutorial set, which is just a few questions to help you navigate how the system works.
+
+
+:::success
+**Successful completion means**: You've finished the WeBWorK Tutorial homework set with a score of at least 8 points out of 9.  
 :::
+
+If you run into any issues with a problem in a homework set, click the button that says "**Email instructor**". This will compose an email to me that includes a link to your answer history on the problem are asking about, and you can add questions or comments. **Don't just send an email about it, click the Email Instructor button.** 
+
+
 
 ## Part 3: Navigating and writing on the online whiteboard
 
