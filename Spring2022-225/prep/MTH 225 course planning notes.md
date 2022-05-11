@@ -67,3 +67,56 @@
 - Block 3 
   - Stations 
 - Then wrap up and preview 
+
+## Week 2
+
+### May 16
+
+- Block 1
+  - QA from Daily Prep 
+  - Polling questions mostly on predicates
+- Block 2
+  - Practice 1 -- Decide if a statement is a tautology or contradiction; decide if two statements are LE 
+  - Practice 2 -- Give a predicate. Decide truth values at given input. Decide truth values of quantified versions. State negation. 
+- Block 3
+  - Stations
+    - Learning Target 4
+    - Learning Target 5
+    - Learning Target 6
+
+
+### May 17
+
+- Block 1
+  - QA from Daily Prep 
+  - Polling questions 
+- Block 2
+  - Convert sets from roster to set-builder and vice versa using both set-builder forms 
+- Block 3
+  - Stations
+    - Learning Target 6
+    - Learning Target 7
+  - Maybe a pop-up quiz on Learning Target 7
+
+
+### May 18
+
+- Block 1
+  - QA from Daily Prep 
+  - Polling questions (set operations)
+- Block 2
+  - Practice doing set operations  
+- Block 3
+  - Mini-quiz on Learning Target 7 and 8
+
+
+### May 19
+
+- Block 1
+  - QA from Daily Prep 
+  - Polling questions (when something is/is not a function)
+- Block 2
+  - Telling whether something is a function
+  - Creating functions between two sets (use Miro arrow functionality)
+- Block 3
+  - Time for LT quiz 3
