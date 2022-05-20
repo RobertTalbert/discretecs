@@ -123,7 +123,7 @@ You can only learn by doing things. The things you will do to learn include many
 * **Daily Prep assignments**: These lead you through an active reading of portions of [the textbook](http://discrete.openmathbooks.org/dmoi3/dmoi.html) and some of [the videos](https://vimeo.com/showcase/8667148). You'll use [Perusall](https://perusall.com/) to engage in discussions and questions on these, and complete a short form with basic exercises and questions. 
 * **Learning Target completions**: Learning Targets are the basic skills that you should learn in the course. You will be asked to "complete" as many Learning Targets as possible, done mainly by taking short quizzes on them at regular intervals. See "Learning Targets" below for more. 
 * **Application and Extension Problems (AEPs)**: AEPs are problems that either *apply* or *extend* the basic skills found in the Learning Targets. They involve solving new-to-you problems and communicating your reasoning clearly to an appropriate audience.  
-* **Online Practice**: You'll use the WeBWorK online homework system to practice the skills found in the Learning Targets. ==add link once WeBWorK is set up== 
+* **Online Practice**: You'll use the WeBWorK online homework system to practice the skills found in the Learning Targets. [You can access WeBWorK here](https://webwork-math.gvsu.edu/webwork2/MTH225-01/) (https://webwork-math.gvsu.edu/webwork2/MTH225-01/). 
 * **Final Exam**: We'll have a final exam from **1:00-2:30pm ET on Tuesday, June 21** that involves reassessing on a selection of Learning Targets and completing additional tasks. More information on this in week 3. 
 
 :::info
@@ -176,7 +176,7 @@ Your work on Learning Target quizzes will be done by hand, then scanned and uplo
 - *An oral quiz in drop-in or appointment hours*. In this option, you schedule time with me to meet online, during which I'll give you a new instance of a problem, and you work it out "live".  
 - *A video posted to Flipgrid*. In this option, you request a Learning Target, and I'll give you a new instance of a problem for it, then you make a brief video of the solution and post it to the service [Flipgrid](https://info.flipgrid.com/). 
 
-Details on these will be sent out in week 2. Other ways of demonstrating skill may be introduced later, especially for Learning Targets appearing near the end of the course. 
+==Details on using these alternative assessment methods are found in the [Instructions for alternative Learning Target assessments](/gZhPoxR-QWq1g4jM9tr30A) document.== Other ways of demonstrating skill may be introduced later, especially for Learning Targets appearing near the end of the course. 
 
 
 ### AEPs 
@@ -260,7 +260,8 @@ Here are the specific parameters for how much and with whom you may collaborate 
 | Assessment | Collaboration allowed | 
 | :--------  | :--------------------- | 
 | Daily Prep | You are encouraged to collaborate with others, particularly on [Perusall](https://perusall.com/) via questions and discussion threads. On the response forms, your work must be your own and reflect your own understanding. | 
-| Learning Targets | **No collaboration is allowed at all** --- with other people, or with print or electronic sources. | 
+| Learning Targets | **No collaboration is allowed at all** with other people (including online forums such as Stack Exchange or Reddit). You are allowed to use resources from the class such as the textbook, your notes, the videos, and your past quiz work; but getting answers or significant parts of solutions from print or electronic resources is not allowed. | 
+| ==Video Learning Target solutions== | ==Same guidelines and restrictions as for "Learning Targets" above. However, it's OK to have someone help you in the technical process of making the video (for example having a friend film you).== 
 | AEPs | **No collaboration is allowed at all** --- with other people, or with print or electronic sources other than your textbook, the video playlist, or your notes. | 
 | Online practice | You are encouraged to collaborate on these, and you can use outside sources. But your work must be your own and reflect your own understanding. | 
 | Final Exam | **No collaboration is allowed at all** --- with other people, or with print or electronic sources other than your textbook, the video playlist, or your notes. | 
@@ -273,7 +274,7 @@ As mentioned, you will almost certainly find yourself lost, stuck, or confused o
 
 Make every effort to get yourself unstuck and resolve your questions on your own first. But then: 
 
-* [Post a question on the course Padlet](https://padlet.com/talbertr1/6itl6dvga4zytpc1). To post on the Padlet, just double click in an empty part of the screen and start typing (or upload a photo, etc.) in the note that appears. To ask a question anonymously, make sure you are logged out first. (If an avatar photo appears in the upper right, click on it and then log out. No photo means you're logged out.) You can also answer or upvote other people's questions. 
+* ~~[Post a question on the course Padlet](https://padlet.com/talbertr1/6itl6dvga4zytpc1). To post on the Padlet, just double click in an empty part of the screen and start typing (or upload a photo, etc.) in the note that appears. To ask a question anonymously, make sure you are logged out first. (If an avatar photo appears in the upper right, click on it and then log out. No photo means you're logged out.) You can also answer or upvote other people's questions.~~ ==We retired the course padlet in week 2.== 
 * **In WeBWorK sets, click the "Email the instructor" link** and ask your question. This will email me your question with a link to your work so I can see what you're doing. 
 * For questions on stuff in the textbook or on the videos, [use Perusall to leave a question](https://perusall.com/). 
 * **Attend drop-in hours and ask questions there.** 
@@ -331,7 +332,7 @@ the appropriate person or office listed below:
 
 ### Instructor availability and message responses 
 
-**You have a right and the responsibility to ask a question about anything you don't fully understand, at any time.** To ask me questions, you can use email (talbertr@gvsu.edu), [the course Padlet](https://padlet.com/talbertr1/6itl6dvga4zytpc1), or drop-in hours or appointments.  
+**You have a right and the responsibility to ask a question about anything you don't fully understand, at any time.** To ask me questions, you can use email (talbertr@gvsu.edu), drop-in hours or appointments.  
 
 I do not always respond to all messages immediately because I have to prioritize a number of tasks throughout the week that make demands on my time; and I do not leave my email open all day. 
 
@@ -381,25 +382,25 @@ There are 21 Learning Targets in the course overall. These represent the basic s
 
 1. I can represent an integer in base 2, 8, 10, and 16 including negative integers in base 2. 
 2. (**CORE**) I can add, subtract, multiply, and divide numbers in base 2. 
-3. (**CORE**) Given a conditional statement, I state its hypothesis, conclusion, negation, converse, inverse, and contrapositive. 
+3. (**CORE**) Given a conditional statement, I can state its hypothesis, conclusion, negation, converse, inverse, and contrapositive. 
 4. I can construct a truth table for propositions involving 2, 3, or 4 statements.
 5. I can use a truth table to decide if a statement is a tautology or contradiction, or to determine if two statements are logically equivalent. 
-7.  I can determine the truth value of a predicate at a specific input, and given a quantified predicate I can state its negation and its truth value.
-8. (**CORE**) I can write a set using roster and set-builder notation. 
-9.  (**CORE**) I can find the cardinality, power set, and complement of a set; and I can find the intersection, union, difference, and Cartesian product of two sets.  
-10.  I can determine if a mapping is a function; identify the domain, range, and codomain of a function; and determine the image of a specific input. 
-11. I can determine if a function is injective, surjective, and/or bijective. 
-12. I can determine the values of an inverse function and the composition of two functions. 
-13. I can compute values of the functions `FLOOR`, `CEIL`, `DIV`, `%` (`MOD`), and `!` (`FACT`). 
-14. (**CORE**) I can apply the Additive and Multiplicative Principles and the Principle of Inclusion/Exclusion to formulate and solve basic combinatorics problems. 
-15. (**CORE**) I can compute a binomial coefficient and apply the binomial coefficient to solve basic combinatorics problems. 
-16. I can determine the number of permutations of a set of objects and the number of $k$-permutations from a set of $n$ objects.
-17. I can use the "dots and dividers" method to count the number of ways to distribute objects among a group.
-18. (**CORE**) I can generate several values of a sequence given either a closed-form or recursive definition.
-19. I can use "sigma" and "pi" notation to find the sum and product of a sequence of numbers. 
-20. I can find closed form and recursive definitions for arithmetic and geometric sequences. 
-21. I can solve a second-order linear homogeneous recurrence relation using the characteristic root method.
-22. (**CORE**) Given a statement to be proven by mathematical induction, I can identify the predicate, prove the base case, state the inductive hypothesis, and sketch a proof. 
+6.  I can determine the truth value of a predicate at a specific input, and given a quantified predicate I can state its negation and its truth value.
+7. (**CORE**) I can write a set using roster and set-builder notation. 
+8.  (**CORE**) I can find the cardinality, power set, and complement of a set; and I can find the intersection, union, difference, and Cartesian product of two sets.  
+9.  I can determine if a mapping is a function; identify the domain, range, and codomain of a function; and determine the image of a specific input. 
+10. I can determine if a function is injective, surjective, and/or bijective. 
+11. I can determine the values of an inverse function and the composition of two functions. 
+12. I can compute values of the functions `FLOOR`, `CEIL`, `DIV`, `%` (`MOD`), and `!` (`FACT`). 
+13. (**CORE**) I can apply the Additive and Multiplicative Principles and the Principle of Inclusion/Exclusion to formulate and solve basic combinatorics problems. 
+14. (**CORE**) I can compute a binomial coefficient and apply the binomial coefficient to solve basic combinatorics problems. 
+15. I can determine the number of permutations of a set of objects and the number of $k$-permutations from a set of $n$ objects.
+16. I can use the "dots and dividers" method to count the number of ways to distribute objects among a group.
+17. (**CORE**) I can generate several values of a sequence given either a closed-form or recursive definition.
+18. I can use "sigma" and "pi" notation to find the sum and product of a sequence of numbers. 
+19. I can find closed form and recursive definitions for arithmetic and geometric sequences. 
+20. I can solve a second-order linear homogeneous recurrence relation using the characteristic root method.
+21. (**CORE**) Given a statement to be proven by mathematical induction, I can identify the predicate, prove the base case, state the inductive hypothesis, and sketch a proof. 
 
 ## Appendix B: Class Calendar
 
