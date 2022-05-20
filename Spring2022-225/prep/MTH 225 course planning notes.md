@@ -120,3 +120,27 @@
   - Creating functions between two sets (use Miro arrow functionality)
 - Block 3
   - Time for LT quiz 3
+
+
+
+## Week 3
+
+### Monday 5/23
+
+Learning Target 10: I can determine if a function is injective, surjective, and/or bijective. 
+
+- Block 1
+- 
+
+### Tuesday 5/24
+
+Learning Target 11: I can determine the values of an inverse function and the composition of two functions. 
+
+### Wednesday 5/25
+
+ Learning Target 12: I can compute values of the functions `FLOOR`, `CEIL`, `DIV`, `%` (`MOD`), and `!` (`FACT`).
+
+
+### Thursday 5/26
+
+Learning Target 13: (**CORE**) I can apply the Additive and Multiplicative Principles and the Principle of Inclusion/Exclusion to formulate and solve basic combinatorics problems. 
