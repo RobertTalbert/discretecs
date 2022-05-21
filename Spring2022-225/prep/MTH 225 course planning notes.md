@@ -130,16 +130,25 @@
 Learning Target 10: I can determine if a function is injective, surjective, and/or bijective. 
 
 - Block 1
-- 
+  - QA from DP 
+  - Polling 
+- Block 2
+  - 
+- Block 3
 
 ### Tuesday 5/24
 
 Learning Target 11: I can determine the values of an inverse function and the composition of two functions. 
 
+- Collatz conjecture 
+
 ### Wednesday 5/25
 
  Learning Target 12: I can compute values of the functions `FLOOR`, `CEIL`, `DIV`, `%` (`MOD`), and `!` (`FACT`).
 
+- Fractions with factorials 
+- Using mod with negative inputs 
+- 
 
 ### Thursday 5/26
 
