@@ -17,7 +17,7 @@ $\begin{eqnarray*}
 3x + 2 &= 1 \\
 3x &= -3 \\
 x &= -1
-\end{eqnarray*}
+\end{eqnarray*}$
 
 ## Hardest
 
