@@ -1,3 +1,7 @@
+---
+tags: mth225, 225-spr22
+---
+
 # Information on MTH 225 Final Exam
 
 ## Summary
