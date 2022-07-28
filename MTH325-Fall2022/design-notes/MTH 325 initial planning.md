@@ -77,3 +77,5 @@ Course objectives from the [syllabus of record](https://www.gvsu.edu/cms4/asset/
 - Module 4: Trees
 
 ## First pass at assessment level objectives 
+
+Lesson level objectives are here. 
