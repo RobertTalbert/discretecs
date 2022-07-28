@@ -73,9 +73,46 @@ Course objectives from the [syllabus of record](https://www.gvsu.edu/cms4/asset/
 - Module 0: Startup and review. This is just getting set up and fluent in course tools; *maybe* Python; and a quick review of what happened in MTH 225. 
 - Module 1: Proof
 - Module 2: Graphs
-- Module 3: Relations
+- Module 3: Relations (*edit: Updated to **Digraphs and Relations***)
 - Module 4: Trees
 
 ## First pass at assessment level objectives 
 
-Lesson level objectives are here. 
+[Lesson level objectives are here](https://github.com/RobertTalbert/discretecs/blob/c46a0c4634f883e16040ae380489d69b875ffa87/MTH325-Fall2022/design-notes/Lesson%20level%20objectives%20for%20MTH%20325.md). 
+
+
+### Proof
+
++ Given a statement to be proven with mathematical induction, I can state and prove the base case, I can state the inductive hypothesis, and I can state what needs to be proved after assuming the inductive hypothesis. 
++ Given a statement to be proven using a direct proof, I can identify the assumptions to be made and the statements to be proven.
++ Given a statement to be proven using contrapositive, I can identify the assumptions to be made and the statements to be proven.
++ Given a statement to be proven using contradiction, I can identify the assumptions to be made.
+
+Additionally: Thinking of a Proof Portfolio -- do along the lines of MTH 350 but smaller 
+
+### Graphs
+
++ Determine information about a graph at the local and global level 
+  + Includes: Degree of a vertex, number of vertices and edges, ... what else? 
++ Determine whether two graphs are isomorphic; if they are, give an explicit isomorphism
++ Give a proper vertex coloring of a graph and a proper edge coloring of a graph.  Determine the graph’s chromatic number and chromatic index.
++ I can determine whether a graph has an Euler path or Euler circuit, and whether a graph has a Hamiltonian path or cycle.
++ I can determine whether a description of a graph (list of vertex and edge sets, degree sequence, a drawing, or list of properties) represents a tree. 
++ I can construct a spanning tree for a (connected) graph, and I can construct a minimal spanning tree for a weighted graph using Prim's Algorithm and Kruskal's Algorithm.
+
+### Digraphs and Relations
+
++ I can give examples of relations on a set that have combinations of the properties of reflexivity, symmetry, antisymmetry, and transitivity.
++ I can compute the composition of two relations (and determine when a composition cannot be computed) and raise a relation on a set to a positive integer power.
++ I can sketch the transitive closure of a digraph. I can explain whether a digraph is weakly connected and/or strongly connected. 
++ I can determine when a relation is an equivalence relation. I can determine the equivalence class for an element and determine whether two elements belong to the same equivalence class. 
++ I can determine when a set with a relation is a poset. I can draw the Hasse diagram of a poset. I can identify maximal/minimal elements and/or greatest/least elements, if they exist.
+
+
+### Trees 
+
++ Given a list with a total ordering, I can construct the binary search tree.
++ I can list the vertices of a tree in the order they are visited using the preorder, inorder, and postorder traversals.
+
+
+
