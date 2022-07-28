@@ -1,0 +1,33 @@
+# MTH 325 Learning Targets from Winter 2017
+
+## Proof
+
++ P.1: I can set up a framework of assumptions and conclusions for proofs using direct proof, proof by contraposition, and proof by contradiction.
++ P.2: I can identify the predicate being used in a proof by mathematical induction and use it to set up a framework of assumptions and conclusions for an induction proof.
++ P.3: I can identify the parts of a proof, including the technique used and the assumptions being made.
++ P.4: I can perform a critical analysis of a written proof and provide a detailed explanation of the steps used in the proof.
+
+## Graphs
+
++ G.1: I can create a graph given information or rules about nodes and edges.
++ G.2: I can give examples of graphs having combinations of various properties and examples of graphs of special ("named") types.
++ G.3: I can represent a graph in different ways and change representations from one to another.
++ G.4: I can take any representation of a graph and determine information about the entire graph or parts of the graph.
++ G.5: I can determine whether two graphs are isomorphic.
++ G.6: I can give a valid vertex coloring for a graph and determine a graph's chromatic number.
++ G.7: I can determine whether a graph has an Euler path or cycle, and whether it has a Hamilton path or cycle.
++ G.8: I can construct a spanning tree for a (connected) graph, and I can construct a minimal spanning tree for a weighted graph using Prim's Algorithm and Kruskal's Algorithm.
+
+## Relations  
+
++ R.1: I can represent a relation in different ways and change representations from one to another.
++ R.2: I can give examples of relations on a set that have combinations of the properties of reflexivity, symmetry, antisymmetry, and transitivity.
++ R.3: I can compute the composition of two relations (and determine when a composition cannot be computed) and raise a relation on a set to a positive integer power.
++ R.4: I can determine whether two points in a set with a relation belong to the transitive closure of that relation, and I can use Warshall’s Algorithm to find the matrix for the transitive closure of a relation.
++ R.5: I can determine when a relation is an equivalence relation, and I can determine the equivalence class for an element and determine whether two elements belong to the same equivalence class.
++ R.6: I can determine when a set with a relation is a partially ordered set, a totally ordered set, and a well-ordered set.
+
+## Trees
+
++ T.1: I can give examples of trees with combinations of important properties and determine information about a tree as a whole or about parts of the tree.
++ T.2: I can list the nodes of a tree in the correct order when visited using preorder, postorder, and inorder traversals.
