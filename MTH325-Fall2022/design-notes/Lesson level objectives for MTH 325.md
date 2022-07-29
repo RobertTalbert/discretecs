@@ -2,6 +2,11 @@
 
 ## Review
 
+- Given a set, or two sets: 
+  - Determine if an object is an element 
+  - Determine if one is a subset of the other
+  - Find the intersection, union, difference, and cartesian product 
+- Determine if two integers are congruent mod $m$
 - Given a conditional statement: 
   - State the hypothesis and conclusion
   - State the converse, contrapositive, and negation
@@ -45,8 +50,9 @@
 - State the definition of a graph
 - Represent a graph in different ways 
   - As a pair (V,E) of vertices and edges 
+  - As an adjacency list 
   - As a picture
-  - As a matrix 
+  - As a matrix (two ways: adjacency and incidence)
   - As a table
   - ==As a Python dictionary==
 - Visualize a graph using `networkX` 
@@ -68,6 +74,7 @@
 - Find all parents, children, and siblings of a vertex in a rooted tree
 - Find a spanning tree for a connected graph
 - Find the total weight of a path in a weighted graph
+- Use Dijkstras algorithm to find the shortest path between two vertices in a weighted graph
 - Find a minimal spanning tree in a weighted graph (Prim/Kruskal)
 - Give a proper vertex coloring for a graph
 - Determine the chromatic number of a graph

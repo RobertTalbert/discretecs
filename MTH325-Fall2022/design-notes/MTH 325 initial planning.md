@@ -114,5 +114,27 @@ Additionally: Thinking of a Proof Portfolio -- do along the lines of MTH 350 but
 + Given a list with a total ordering, I can construct the binary search tree.
 + I can list the vertices of a tree in the order they are visited using the preorder, inorder, and postorder traversals.
 
+## Step 2
+
+High level outline of the class and its components. 
+
+**Focus of the course:** MTH 325 is an even mix of content/skills and concept/processes. There is a fair amount of straight-up skills that students need to learn and terminology, etc. But the point of view from which we do it, is fairly conceptual. The inclusion of proof skews this a little more toward the conceptual than MTH 225. 
+
+**Types of assessments:**
+
+- Proof assignments, where students have to write proofs and then submit them for peer review. (So it's based on both writing proofs and peer reviewing others'.)
+  - Maybe a portfolio that is assembled from a variety of proof problems that I assign. Ungraded. Every so often we have days set aside for peer review of works in progress. Students pick which ones to review and include in their portfolios. More types of proof = Better. More proofs = Better. More peer reviews = Better. 
+- Application problems, where basic stuff gets applied to real situations. 
+  - Maybe it's just one portfolio and students are tasked with doing a mix of proof and applications. 
+- Daily Prep, getting first contact with new info and generating data and examples that we can then use in class meetings
+  - Won't have time to do videos all the time, so mostly this is like "look at these definitions, now look at the examples and tell me something about them"?
+- Learning Target quizzes, where students demonstrate skill on the basic skills stuff
+  - I don't want too many of these. Maybe only require one successful demo for "Pass"? 
 
 
+Additionally, give practice problems each week over the skills based stuff so that students can practice. This is not graded or taken into account for a grade, though if WeBWorK does something decent I'll use it. 
+
+**General approach to grading:** There's an SBG flavor here with the Learning Target quizzes. Maybe call these "Basic Skill Standards" to make that clear. Also an ungrading flavor with the portfolio(s). Can see the course grade determined like this: 
+
+- You earn a base grade by virtue of number of BSS met and number of Daily Preps completed. 
+- Then you make a case at the end of the semester for anything higher than that, using your portfolio. As long as the portfolio meets a baseline standard (one proof + one application?) and the base grade is a C, a C is guaranteed. Then you can argue for something higher based on the portfolio. 
