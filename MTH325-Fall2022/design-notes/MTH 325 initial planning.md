@@ -12,7 +12,7 @@
     - They've all had MTH 225 so they have a decent understanding of what discrete math is, but might need a refresher 
     - Goals -- IDK but many are fairly far along in their careers and close to graduation. Probably means they don't want a lot of hassle, and are taking some advanced classes, projects, internships, etc. 
     - Stakeholders: 
-        - School of CIS 
+        - School of CIS, esp senior level courses 
         - Graduate schools into which they are going
         - Employers 
     - About me
