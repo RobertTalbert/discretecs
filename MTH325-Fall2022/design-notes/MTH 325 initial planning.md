@@ -17,8 +17,7 @@
         - Employers 
     - About me
         - Coming back into F2F teaching after a while online
-        - Doubling down on teaching and research, not so much on leadership 
-        - So I am curious to try out new stuff, but also I am aware of not overloading myself since I want to focus less on work 
+        - Curious to try out new stuff, but also I am aware of not overloading myself since I want to focus less on work 
         - Plenty of experience with the 225-325 sequence but my first time back with 325 since 2017 and first time teaching since the redesign that puts proof in the first 1/4 of the course 
 + What
     - Topic areas: Proof -> Graphs -> Relations -> Trees. 
