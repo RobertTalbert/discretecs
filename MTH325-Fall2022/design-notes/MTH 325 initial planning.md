@@ -137,3 +137,40 @@ Additionally, give practice problems each week over the skills based stuff so th
 
 - You earn a base grade by virtue of number of BSS met and number of Daily Preps completed. 
 - Then you make a case at the end of the semester for anything higher than that, using your portfolio. As long as the portfolio meets a baseline standard (one proof + one application?) and the base grade is a C, a C is guaranteed. Then you can argue for something higher based on the portfolio. 
+
+*Let's change the name from BSS because this sounds like "BS".* Alternatives: 
+
+- Foundational Skills
+- Content Skills 
+- Fundamental Content Skills 
+
+
+## Step 3
+
+*Prototype of marking methods and what A/C represent* 
+
+| Assignment | How it's marked | 
+| ---------  | --------------  | 
+| Proofs  |  Ungraded   | 
+| Application problems |  Ungraded   | 
+| Daily Prep | 0 or 1  | 
+| Basic Skill Standards | Assessment on individual standards is 0 or 1  | 
+
+Two successful demonstrations of skill needed to meet a standard. 
+
+**In MTH 325, a C means:** A "C" student has demonstrated competency on all the "must have" content skills. They can break down and analyze a proof. They can do basic computational work with the fundamental strucrtures of graphs, trees, and relations. And they have shown consistent engagement with the class most of the time. There's room for improvement but they have the tools they need to do well in classes like CIS 263. 
+
+**In MTH 325, an A means:** An "A" student has demonstrated skill on nearly all of the fundamental content skills, not just the "must haves" but also nearly all of the "nice to haves". They have also aggregated a body of work in the course that shows skill in both the theoretical and applied areas of the subject: They have not only analyzed proofs but written their own, in a variety of styles and contexts, with sound logic and clear style. They have shown the ability to apply the basic content knowledge to a variety of domains. And they are consistently engaged with the learning community. 
+
+**Second pass at assessments:** Having written the above, and slept on everything else, some updated thoughts. 
+
+| What is it | What is it for | How is it evaluated | How is it marked | 
+| ---------- | -------------  | ------------------- | ---------------- | 
+| Daily Prep | Prepare for class, first contact <br> with new stuff, data collection | Completeness and effort | 0 or 1 | 
+| FCS  | Assessment of basic content | Different methods, on correctness and explanation | 0 or 1 | 
+| Proofs | Specifically to assess the proof parts | Correctness, logic, communication | 0 or 1 but actually ungraded | 
+| Applications | Extending basic content | Correctness, communication | 0 or 1 but actually ungraded | 
+
+Notes: 
+- This being 325, *every* student should do at least *some* proof in order to pass. But applications are optional. 
+- Does it make sense to lump submissions on proof and submissions on applications into the same portfolio? I think so, but there's some distinction. 
