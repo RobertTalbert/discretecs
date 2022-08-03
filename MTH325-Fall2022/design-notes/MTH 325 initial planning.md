@@ -174,3 +174,24 @@ Two successful demonstrations of skill needed to meet a standard.
 Notes: 
 - This being 325, *every* student should do at least *some* proof in order to pass. But applications are optional. 
 - Does it make sense to lump submissions on proof and submissions on applications into the same portfolio? I think so, but there's some distinction. 
+
+
+## Step 4
+
+*Outlining core feedback loops* 
+
+| Assessment | Feedback | Reattempts | 
+| --------- | --------- | ---------- | 
+| Daily Prep | No feedback but answers provided | N/A | 
+| FCS | Keys provided, with additional feedback on submissions | Cumulative reattempts or use of video or office hours | 
+| Proofs | Detailed feedback provided on PDF | Redo/resubmit with boundaries | 
+| Applications | Same | Same | 
+
+
+
+## Step 5
+
+*Build an assessment and rehearse the feedback loop* 
+
+See Prototype Skills Quiz for an example. 
+
