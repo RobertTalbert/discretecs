@@ -193,5 +193,5 @@ Notes:
 
 *Build an assessment and rehearse the feedback loop* 
 
-See Prototype Skills Quiz for an example. 
+See [Prototype Skills Quiz](https://github.com/RobertTalbert/discretecs/blob/3c838ed7816c5de9bde2d0acfddd7c801bad2ee8/MTH325-Fall2022/design-notes/Skill%20Quiz%20Prototype.md) for an example. 
 
