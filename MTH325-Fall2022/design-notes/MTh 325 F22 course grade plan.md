@@ -13,4 +13,3 @@
   - Plus: Given if you complete both, not just one of the badges OR if you meet the number of content standards for the next letter grade up. 
   - Minus: Given if you meet all the requirements for a grade except for Daily Prep. Grade adjustment in this case given at RTs discretion. 
 
-
