@@ -50,10 +50,10 @@ Two demonstrations of skill to meet a standard.
 
 - Completing the Proof badge: 
   - Meet all three "P" content standards 
-  - Submit three proofs: One must use some form of induction, the other two must use different techniques and *not* use induction. 
+  - Submit four proofs: One must use some form of induction, two more using different techniques and *not* use induction, the fourth free choice 
   - A reflection essay 
 
 - Completing the Applications badge: 
-  - Choose three from: G.5, G.7, G.8, DR.5, DR.6, T.2, T.3 
-  - Complete three different Application Problems 
+  - Completion of Codecademy Python course 
+  - Complete four different Application Problems, at least one of which is a programming problem 
   - Reflection essay 
