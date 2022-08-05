@@ -10,7 +10,7 @@
 
 - G.1: I can represent a graph in different ways and change representations from one to another. 
 - G.2: I can determine information about a graph and its individual vertices and edges using different representations. 
-- G.3: I can give examples of graphs having combinations of various properties or explain why no such example exists, and I can draw examples of special ("named") graphs. 
+- G.3: I can give examples of graphs having combinations of various properties or explain why no such example exists, and I can draw examples of special ("named") graphs.
 - G.4: I can determine whether two graphs are isomorphic; I can give an explicit isomorphism if they are, and an explanation if they are not. 
 - G.5: I can give a valid vertex coloring for a graph and determine a graph's chromatic number. 
 - G.6: I can determine whether a graph has an Euler path or Euler circuit, and whether a graph has a Hamiltonian path or cycle.
@@ -19,13 +19,12 @@
 
 ## Group DR: Digraphs and Relations
 
-- DR.1: I can determine information about a directed graph and its individual vertices and edges using different representations.
-- DR.2: I can represent a relation in different ways and change representations from one to another.  
-- DR.3: I can give examples of relations on a set that have combinations of the properties of reflexivity, symmetry, antisymmetry, and transitivity.
-- DR.4: I can determine if a relation is an equivalence relation; I can determine the equivalence class of an element under an equivalence relation and determine whether two elements belong to the same equivalence class. 
-- DR.5: I can find the $n$th order composition of a relation with itself. 
-- DR.6: I can sketch the transitive closure of a relation as a directed graph. 
-- DR.7: I can determine when a set with a relation is a partially ordered set; I can draw the Hasse diagram of a poset and identify maximal/minimal elements and/or greatest/least elements, if they exist.
+- DR.1: I can determine information about a directed graph and its individual vertices and edges using different representations.  
+- DR.2: I can give examples of relations on a set that have combinations of the properties of reflexivity, symmetry, antisymmetry, and transitivity.
+- DR.3: I can determine if a relation is an equivalence relation; I can determine the equivalence class of an element under an equivalence relation and determine whether two elements belong to the same equivalence class. 
+- DR.4: I can find the $n$th order composition of a relation with itself. 
+- DR.5: I can sketch the transitive closure of a relation as a directed graph. 
+- DR.6: I can determine when a set with a relation is a partially ordered set; I can draw the Hasse diagram of a poset and identify maximal/minimal elements and/or greatest/least elements, if they exist.
 
 ## Group T: Trees 
 
@@ -33,5 +32,28 @@
 - T.2: Given a list with a total ordering, I can construct the binary search tree.
 - T.3: I can list the vertices of a tree in the order they are visited using preorder, inorder, and postorder traversals.
 
+---
+
+## What we do with these 
+
+Two demonstrations of skill to meet a standard. 
+
+| Grade | Content standards met* | 
+| ----  | --------------------- | 
+|  A    | 18 | 
+|  B    | 15 |
+|  C    | 12 | 
+|  D    | 8 | 
 
 
+*Required content standards: P.1, P.2, G.1, G.2, and DR.1. 
+
+- Completing the Proof badge: 
+  - Meet all three "P" content standards 
+  - Submit three proofs: One must use some form of induction, the other two must use different techniques and *not* use induction. 
+  - A reflection essay 
+
+- Completing the Applications badge: 
+  - Choose three from: G.5, G.7, G.8, DR.5, DR.6, T.2, T.3 
+  - Complete three different Application Problems 
+  - Reflection essay 
