@@ -2,34 +2,48 @@
 
 Course banner goes here
 
-## About this course and this document 
+## About the course and this syllabus
 
-- About the course
-- How to use the syllabus
-- Course catalog description
+Welcome to MTH 325! I'm Dr. Robert Talbert, the professor of this course. I'm grateful you're here, and I think you're going to love what you learn this semester. MTH 325 really gets into the *structures* part of Discrete Structures by looking at three fundamental constructs that are everywhere in math and CS: **graphs**, **relations**, and **trees**. We'll be learning all about these, and also learning how to think rigorously about these structures through the use of **proof**. 
+
+This syllabus contains all the information you need to navigate the course. It is available in an online format as well as a PDF. Both versions will be updated weekly. 
+
+When you see blue- or purple-underlined text in the syllabus or any other document, it's a clickable link. For example, [click here for a cat video](https://www.youtube.com/watch?v=aFuUidBR1aQ).
+
+**This document is meant to be read once, then searched as needed.** If you need to find something, you can either use the table of contents found in the left sidebar of the web version (click "Expand All" to see the subsections in the table) or  hit `Control-F` to bring up a search field, and then type in the text you are looking for. 
+
 
 ## Course information 
 
-- Class meetings
-- Drop-in hours 
-- Instructor
-- Office, ways to contact 
-- Calendly and appointments 
-- Course calendar
-- Definition of "week" 
-- Blackboard 
-- Textbook 
-- Perusall and Replit
-
-
+- **Class meetings:** Section 03 meets MWF 12:00-12:50pm in MAK B-1-110. Section 04 meets MWF 2:00-2:50pm in MAK A-1-111. 
+- **Instructor:** Robert Talbert, Ph.D., Professor of Mathematics. 
+- **Office location:** MAK C-2-513. 
+- **Drop-in hours:** *In-person* drop-in hours are MW 3:00-3:50pm. *Online* drop-in hours are MW 4:00-4:50 via [this Zoom link](https://gvsu-edu.zoom.us/j/93770327341?pwd=OURoeWJLVWFNRmFaZ1E1Ynhpc2Nkdz09). **No appointment is necessary**. 
+- **Appointments outside drop-in hours:** Available on a limited basis. Go to https://calendly.com/robert-talbert, choose a meeting type, then choose an open 20-minute time slot. 
+- **Contacting the prof:** Email (talbertr@gvsu.edu) is preferred. Be sure to read [my availability/response policy](https://hackmd.io/TchC8fZORJ29EgxQb1O4lQ?view#Instructor-availability-and-message-responses).  
+- **Course calendar:** The official course calendar is in Appendix B and on Blackboard. *In case of a date conflict on assignments or course documents, the Class Calendar is assumed to be correct.* 
+- **Definition of "week":** In our course, a "week" is defined to begin at 12:01am ET on *Monday* and end at 11:59pm ET the following *Sunday*. 
+- **Blackboard and announcements:** Our Blackboard page is at https://lms.gvsu.edu. Announcements will be posted on Sundays and Wednesdays and other times as needed. *Be sure to check announcements, email, and the calendar at least once daily.*
+- **Textbook:** The textbook is [Discrete Mathematics: An Open Introduction](http://discrete.openmathbooks.org/dmoi3/dmoi.html) by Oscar Levin. It's free; just click the link. A PDF copy is available for download [here](http://discrete.openmathbooks.org/pdfs/dmoi3-tablet.pdf).
+- **Perusall and Replit:** 
 
 ## Success in MTH 325 
 
-- My commitment to your success
-- Your commitments: 
-  - Active engagement in class
-  - Ask questions
-  - Stay current and maintain awareness
+**My commitment to your success:** My top prority as a professor at GVSU is your success. In MTH 325, you can expect:
+
+- A learning environment that challenges you, but also where support is readily available and freely given. This class is *a safe space to make mistakes*. 
+- Transparency and openness in how the course is run, including clear instructions on what you need to do and when. 
+- Openness to your ideas about the course, with regular solicitations for feedback that are taken seriously through a continuous improvement process. 
+- Work that is meaningful and not "busy work", and grading practices that prioritize growth and improvement. 
+- Above all, **respect** -- for you as a learner, as an adult, and as a human. 
+
+On your end, your success in the course depends on three things: 
+
+1. **Active engagement during class time**. All the available research on learning says that the only way to learn is to be an active participant in the process. Make it a priority not to just attend and take notes, but *get involved*. Students who approach the class with a passive mindset typically struggle, and often fail. Those who approach it with an active mindset, on the other hand, often surprise themselves with how much and how well they learn. 
+2. **Asking questions**. The material in MTH 325 is challenging, and it is 100% certain you will  be lost, confused, and/or stuck at times. **This is not a defect -- it means you're doing the course right.** When it happens, don't wait for things to make sense on their own: *Ask questions* of me and your classmates and take action to make sense of the material. 
+3. **Good management of time, tasks, and information.** Understanding the material won't help you if you procrastinate, skip reading announcements, or don't use a calendar. All course information will be clearly laid out for you, but it's up to you to import that information into your own lives and act on it. 
+
+If you can commit to these three things, then I have every expectation that you'll succeed in the course, no matter what your math background or perceived math skill is. 
 
 
 ## How MTH 325 is structured 
