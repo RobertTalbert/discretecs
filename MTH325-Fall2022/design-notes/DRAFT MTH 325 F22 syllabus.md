@@ -50,18 +50,38 @@ If you can commit to these three things, then I have every expectation that you'
 
 ### Course level learning objectives and catalog description
 
-### Module Structure and content standards
+The overall goal of MTH 225 and MTH 325 is to build a solid foundation in the basic theory and tools for the mathematics that computer science is built on, especially the theory and tools you will need for later coursework such as MTH 325 and CIS 263.
 
-- List of modules
-- Link to content standards
+After successful completion of MTH 325, you will be able to…
+- Compute basic information about graphs, relations, and trees.
+- Solve theoretical and applied problems involving applications of basic concepts of graphs, relations, and trees.
+- Formulate computational problems in terms of graphs, relations, and trees.
+- Construct a logical framework for a proof using mathematical induction, direct proof, proof by contraposition, or proof by contradiction.
+- Analyze the structure and validity of a mathematical proof.
+- Employ effective problem-solving skills in solving computational problems.
+- Explain methods and solutions of computational problems in a clear way to a specified target audience.
+- Demonstrate fluency in applying algorithms in the formulation and solutions of mathematical problems.
+- Assess one's own work in mathematical problem solving and apply feedback to make improvements to one's own work.
+
+### Module structure and content standards
+
+The course content is split up into four modules: 
+
+- **Module 1: Proof.** The concept of proof, examples, and counterexamples; review of (weak) mathematical induction; strong induction; structural induction; direct proof; proof by contrapositive; indirect proof. 
+- **Module 2: Graphs.** Terminology and examples of graphs; representation of graphs in computer languages; the Handshaking Theorem; Euler and Hamilton paths and cycles; isomorphism; vertex coloring; minimal spanning trees.
+- **Module 3: Digraphs and relations.** Terminology of directed graphs and relations; representation of relations in computer languages; properties of relations; composition of relations; transitive closure and Warshall's algorithm; equivalence relations; partial orderings.
+- **Module 4: Trees.** Terminology and examples of trees; properties of trees; binary search trees; tree traversals. 
+
+The most important skills that you will learn in the course are housed in a list of 20 **Content Skill Standards**, found in Appendix A. 
+
 
 ### The MTH 325 Workflow 
 
-- Before class
-- During class
-  - Not much lecture
-  - How time works in class 
-- After class
+Each class meeting has activities for you to do *before*, *during* and *after* the class. For details on specific assignment types, see the next section.
+
+- **Before class:** You'll be asked to complete a **Daily Prep** assignment where you'll do a combination of reading, video viewing, and other activities then answering basic questions about it. This way, you'll come to class ready to work, and we can skip the lecturing in class unless it's really needed.
+- **During class:** Class meetings will be focused on *answering questions* and *doing active work*. We'll also use time in class for assessment and for completing other assignments. We will *not* be doing much lecturing in class, unless it's something quick and targeted at specific questions from your Daily Prep. 
+- **After class:** In addition to getting started on the next Daily Prep, you should expect to spend significant time in between classes doing practice on concepts you don't fully understand yet, asking questions, and working on Proof or Applications problems. 
 
 
 ## Assessments and marking 
@@ -141,21 +161,28 @@ If you can commit to these three things, then I have every expectation that you'
 
 ## Getting help 
 
-- Drop-in hours
-- Schedule appointments in Calendly 
-- Perusall 
-- Work with a friend
-- Math Center is not set up for MTH 325 but they can help with prerequisites 
+As mentioned, you will almost certainly find yourself lost, stuck, or confused on *something* in this course, possibly quite often. This is not a defect in your character or intelligence; it's a sign you are being challenged, and you can turn that challenge into real growth by **seeking out help as soon as you need it**. 
+
+Make every effort to get yourself unstuck and resolve your questions on your own first. But then: 
+
+* **Attend drop-in hours and ask questions there.** You can use the in-person drop-in hours, the online ones, or both. No appointment needed. 
+* [Schedule an appointment through Calendly](https://calendly.com/robert-talbert/) if drop-in hours don't work for you. 
+* **Work with a classmate** especially on Daily Prep, as long as you're staying within bounds on academic honesty.
+
+**GVSU Math Center:** *Insert blurb here*
+
 
 ## Course policies
 
 ### Attendance, absences and participation
 
-- Attendance is recorded but not graded -- will reach out if there's a pattern
-- Attending remotely
-- Absences
-- Content standard quizzes: We start them in class and then they are due by 11:59pm the same day; if you miss class, you can still do them
-- Participation expected 
+**Attendance:** Attenance is expected at all class meetings. Attendance is recorded so I can have a record of it and reach out to see if you're OK if you miss several classes; but it is not graded, nor does it count in your final grade. 
+
+**Remote attendance:** Class meetings will be live-streamed on Zoom and recorded. If you cannot be physically present for class, you can access the recording at any point within 30 days of the class. You may join the Zoom meeting if you can't be present, but my attention will be focused on those who are present; you won't be able to work with others, and if you leave questions in the chat I may not see them until 
+
+**Absences:** If you must be absent, you do not need prior permission or justification; a heads-up is appreciated. However *please avoid any non-essential absences* such as skipping class, or scheduling a vacation during a day where class is scheduled. If you miss, you are solely responsible for catching up. 
+
+**Missing Content Skill Standard quizzes:** There is no makeup available if you miss Content Skill Standard quizzes in class. These are begun in class but completed outside of class, so missing the in-class time for working on them should not affect you. 
 
 
 ### Deadlines and late work 
