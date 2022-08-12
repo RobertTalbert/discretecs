@@ -315,15 +315,50 @@ I live in Allendale with my wife, two teenage kids (there's another kid who live
 
 ## Appendix A: Content Skill Standards 
 
+*Note: The five Content Skill Standards marked with a star (\*) are **required** for grades of A, B, or C. Failing to meet all five will result in a one-letter grade deduction on the final grade. Those standards are **P.1, P.2, G.1, G.2, and DR.1**. 
+
+## Group P: Proof
+
+- \* P.1: Given a statement to prove with mathematical induction, I can identify the predicate, state and prove the base case, state the inductive hypothesis, and outline the rest of the proof. 
+- \* P.2: Given a conditional statement, I can state the assumptions and conclusions for a direct proof, proof by contrapositive, and proof by contradiction. 
+- P.3: I can conduct a critical analysis of a proposed proof of a logical proposition. 
+
+## Group G: Graphs
+
+- \* G.1: I can represent a graph in different ways and change representations from one to another. 
+- \* G.2: I can determine information about a graph and its individual vertices and edges using different representations. 
+- G.3: I can give examples of graphs having combinations of various properties or explain why no such example exists, and I can draw examples of special ("named") graphs.
+- G.4: I can determine whether two graphs are isomorphic; I can give an explicit isomorphism if they are, and an explanation if they are not. 
+- G.5: I can give a valid vertex coloring for a graph and determine a graph's chromatic number. 
+- G.6: I can determine whether a graph has an Euler path or Euler circuit, and whether a graph has a Hamiltonian path or cycle.
+- G.7: I can use Prim's Algorithm and Kruskal's Algorithm to construct a minimum spanning tree for a weighted graph. 
+- G.8: I can use Dijkstra's Algorithm to find a minimum-weight path between two vertices in a connected weighted graph. 
+
+## Group DR: Digraphs and Relations
+
+- \* DR.1: I can determine information about a directed graph and its individual vertices and edges using different representations.  
+- DR.2: I can give examples of relations on a set that have combinations of the properties of reflexivity, symmetry, antisymmetry, and transitivity.
+- DR.3: I can determine if a relation is an equivalence relation; I can determine the equivalence class of an element under an equivalence relation and determine whether two elements belong to the same equivalence class. 
+- DR.4: I can find the $n$th order composition of a relation with itself. 
+- DR.5: I can sketch the transitive closure of a relation as a directed graph. 
+- DR.6: I can determine when a set with a relation is a partially ordered set; I can draw the Hasse diagram of a poset and identify maximal/minimal elements and/or greatest/least elements, if they exist.
+
+## Group T: Trees 
+
+- T.1: I can determine whether a description of a graph (list of vertex and edge sets, degree sequence, a drawing, or list of properties) represents a tree. 
+- T.2: Given a list with a total ordering, I can construct the binary search tree.
+- T.3: I can list the vertices of a tree in the order they are visited using preorder, inorder, and postorder traversals.
+
+
 ## Appendix B: Class Calendar 
 
 ## Appendix C: Important Links 
 
-- Blackboard: http://lms.gvsu.edu, then look for your section of MTH 325. 
-- Zoom: 
+- **Blackboard**: http://lms.gvsu.edu, then look for your section of MTH 325. 
+- **Zoom**: 
     - Section 03 class meetings: https://gvsu-edu.zoom.us/j/99159039027?pwd=QmllU3phTUZ1NERyRmtvcEt2LzJ1UT09 
     - Section 04 class meetings: https://gvsu-edu.zoom.us/j/97606610892?pwd=c1RqSm41ODZWZXEzUGxKZURkcEtkUT09
     - Online drop-in hours (same link for both sections): https://gvsu-edu.zoom.us/j/93770327341?pwd=OURoeWJLVWFNRmFaZ1E1Ynhpc2Nkdz09 
-- Calendly: 
+- **Calendly**: https://calendly.com/robert-talbert then choose the kind of appointment you want, then pick any open 20-minute time slot. 
 - Replit
-- Perusall 
+- **Perusall**: http://perusall.com (Log in to access course materials) 
