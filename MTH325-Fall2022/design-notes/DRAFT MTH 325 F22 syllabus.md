@@ -356,6 +356,8 @@ I live in Allendale with my wife, two teenage kids (there's another kid who live
 
 ## Appendix B: Class Calendar 
 
+<iframe src="https://calendar.google.com/calendar/embed?src=dcau0dfhfoc80n45gdmaho3l6g%40group.calendar.google.com&ctz=America%2FDetroit" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
+
 ## Appendix C: Important Links 
 
 - **Blackboard**: http://lms.gvsu.edu, then look for your section of MTH 325. 

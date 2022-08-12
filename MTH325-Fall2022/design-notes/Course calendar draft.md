@@ -80,11 +80,11 @@ F 11/25: No class (Thanksgiving)
 
 M 11/28: Quiz 9 
 W 11/30: TBA
-F 12/2: TBA
+F 12/2: Mini-quiz just on the T standards 
 
 ---
 
 M 12/5: Quiz 10 
-W 12/7: TBA
-F 12/9: TBA 
+W 12/7: TBA (course retrospective)
+F 12/9: Mini quiz on T standards 
 
