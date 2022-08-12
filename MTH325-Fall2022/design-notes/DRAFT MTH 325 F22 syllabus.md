@@ -195,12 +195,26 @@ You can revise or reattempt any work you turn in, without penalty, until it meet
 
 
 
-## Academic integrity and honesty
+## Academic misconduct and honesty
 
-- What is academic integrity
-- What happens if you violate university policies
-- What's allowed for each kind of assignment
 
+:::warning
+This course is subject to [GVSU course policies](http://www.gvsu.edu/coursepolicies/) and the [GVSU student code](https://www.gvsu.edu/cms4/asset/7B58A5E7-F4C2-114C-CCDA36F96BD2AF73/the_statement_final_fa2020(2).pdf). This document establishes guidelines and expands and clarifies these policies with respect to all work done in MTH 325 this semester. 
+:::
+
+The student code defines **academic misconduct** as *any action or behavior that misrepresents one’s contributions to or the results of any scholarly product submitted for credit, evaluation, or dissemination*. This includes cheating, collusion, dual submission, falsification, and plagiarism as well as any behavior that enables or helps others do these things.
+
+Academic misconduct is a serious matter and carries significant consequences, up to and including failure of the course and possible suspension from the university. In all cases, the guidelines established in the GVSU catalog and GVSU student code will be followed. I reserve the right to discuss the nature and origins of any assignment with any student before assessing it.
+
+On **Daily Prep assignments**, you are **allowed and encouraged to collaborate with others** as long as the responses you submit reflect your own understanding. Remember these are only graded on completeness and effort, and mistakes are not penalized. 
+
+On **all other work** (Content Skill Standard work, Proof problems, and Applications problems) **no collaboration is allowed with another person**, including former students, Math Center tutors, or online discussion forums. Further, **you may not use unauthorized resources**. A list of "authorized" resources will be printed on the assignments; they may include your textbook, class videos, or other items. 
+
+"Collaboration" here means any interaction where significant ideas on solutions are shared. You may talk with a classmate, for instance, in very general terms about an assignment; but sharing information about *how to complete* an assignment is not allowed. Exception: *Technical* details about an assignment (for example how to use the equation editor in Word, or the syntax of how to use a Python dictionary) are fine to discuss, in fact you are encouraged to help each other out in such matters. 
+
+In the end, **your work must reflect your own understanding of the problem, and the solution must consist entirely of ideas you thought of yourself**. 
+
+PLEASE NOTE: **There's no need to be academically dishonest in MTH 325, because you can revise and resubmit almost everything.** Rather than cheat, *ask questions and use the feedback loop* so that you really grow and learn in the course. 
 
 ## Getting help 
 
@@ -221,7 +235,7 @@ Make every effort to get yourself unstuck and resolve your questions on your own
 
 **Attendance:** Attenance is expected at all class meetings. Attendance is recorded so I can have a record of it and reach out to see if you're OK if you miss several classes; but it is not graded, nor does it count in your final grade. 
 
-**Remote attendance:** Class meetings will be live-streamed on Zoom and recorded. If you cannot be physically present for class, you can access the recording at any point within 30 days of the class. You may join the Zoom meeting if you can't be present, but my attention will be focused on those who are present; you won't be able to work with others, and if you leave questions in the chat I may not see them until 
+**Remote attendance:** Class meetings will be live-streamed and recorded on Zoom. If you cannot be physically present for class, you can access the recording at any point within 30 days of the meeting. You can attend class remotely via the livestream if you are unable to attend physically, but this option is intended only for those who *cannot* be present. Remote attendees won't be able to do group work, and I can't promise I will be able to respond promptly to items in the chat. 
 
 **Absences:** If you must be absent, you do not need prior permission or justification; a heads-up is appreciated. However *please avoid any non-essential absences* such as skipping class, or scheduling a vacation during a day where class is scheduled. If you miss, you are solely responsible for catching up. 
 
@@ -230,29 +244,39 @@ Make every effort to get yourself unstuck and resolve your questions on your own
 
 ### Deadlines and late work 
 
-Daily Preps are due by 11:59pm on the day it says; late work is accepted up until the point that I sit down to grade them, which could happen at any point between 5am and noon. After that point, the work is marked "Not Completed". 
+Most items in the course have deadlines. You are expected to complete the work and submit it before the stated deadline. However, most of these deadlines are flexible, and if you need extra time to do your best work, you can ask for an extension. To do so, fill out the Deadline Extension Form located here (and linked in the Blackboard sidebar): 
 
-Quizzes on Content Skill Standards are *begun* during class meetings but then you will have until 11:59pm ET of that day to complete and submit your work on Blackboard. 
+[[link]]
 
-Proof and Applications problems will come with deadlines printed on the assignments (and listed on the course calendar). You are expected to submit your work on these by that deadline, but there are no deadlines on revisions except for the end-of-semester deadline on Sunday, December 4. 
+**Deadline extensions are automatically approved as long as you complete the form prior to the deadline**. There is no penalty and no approval process; just fill out the form and tell me when you plan on submitting your work. 
 
-**Deadline policy:** The policy on deadline extensions in MTH 325 will mirror that of real-world jobs, but this might not mean what you think. In the real world, due dates and deadlines exist, but studies have shown that a little over half of these are flexible, assigned mainly as a "commitment device" to help you stay motivated to complete the task. But, if things go sideways and you need more time to get the job done well, you email whoever set the deadline and ask if you can have some more time. Studies have shown[^1] that deadline extensions, when requested in moderation and when truly needed, can lead to better evaluation (and better work).
+>Side note: This may seem too good to be true. But, in the real world, most deadlines are not firm; they are only there to indicate a general time frame for completing work, and to be a "commitment device" to help you stay motivated to complete work within that frame. But in the real world, if you really need an extension, you ask your manager for one, and most of the time it's not only OK, it improves the perception of the quality of your work.[^1] Here at GVSU, we are trying to prepare you for the real world; and anyway, life gets messy sometimes and this is one small way to make things more manageable. 
+
+If you are asking for deadline extensions frequently, I will probably ask you to meet with me so we can discuss how to manage your work more effectively. Also please note, you may not get timely feedback if you turn in work on an extended deadline. 
+
+**Exception: Deadlines on Daily Preps may not be extended.** Due to the time-sensitive nature of these assignments, they really must be turned in prior to the day's class. The stated deadline is always 11:59pm ET the night before class; however, I won't grade these until 7:00am the day of class at the very earliest. If you submit your work before I get around to grading it, I'll consider it "on time". 
 
 [^1]: See "Go Ahead and Ask for More Time on that Deadline", https://hbr.org/2021/12/go-ahead-and-ask-for-more-time-on-that-deadline
 
-Therefore if you are needing an extension on a due date, you can request one, without penalty. Just fill out the **Due Date Change Request form** found here: 
-
-[link]
-
-(This is also linked on the Blackboard sidebar.) You do not need approval; this form is simply informing me of when you plan on turning in the work. Please note, you may not get timely feedback on your work if you change the due date. If you ask for repeated extensions, I will likely reach out to see if we can find ways to help you keep up better. 
-
-And please note, due dates on Daily Prep assignments *may not* be changed due to their time-sensitive nature. Remember these are graded on completeness and effort only. 
 
 ### Technology skills and support
 
-- Don't ask me for tech support
-- List of support numbers
-- If tech issues prevent submission of work 
+You should be proficient in the basic technology skills listed at [this GVSU policy page](https://www.gvsu.edu/online/technology-requirements-for-onlinehybrid-courses-8.htm). This list is specifically for online and hybrid courses, but the skill set applies to our class as well. If you need help at any time with those skills, please ask me or a classmate. 
+
+**Tech support:** Technology issues will happen with almost 100% certainty, usually at the worst possible moment. **When this happens, do NOT contact me first!** Instead, contact the appropriate person or office listed below: 
+
+:::success
+* For help with **Blackboard:** Email the Blackboard Help Desk at bbadmin@gvsu.edu or call (616)331-8526. For hours of operation and more information see http://www.gvsu.edu/elearn/help. 
+* For help with **the GVSU network, email, or printing**: Email the GVSU IT Help Desk at helpdesk@gvsu.edu; or call (616)331-2101 or toll free (855)435-7488. For hours of operation and more information see https://www.gvsu.edu/it. 
+* For help with **your computer:** Try the GVSU IT Help Desk (above) or contact your device's manufacturer or a computer store. 
+* For help with **Perusall:** Contact **Perusall Help** at https://support.perusall.com. 
+* For help with **any other technology:** Ask a question of a classmate (or me), seek out the help documentation in the tool you are using, or do a targeted Google search. 
+:::
+
+**I (Talbert) am not able to provide tech support** since I lack the skill and permissions to fix all possible problems. 
+
+**If technology issues prevent submitting work:** If you have contacted an appropriate source of help and an issue still persists that prevents you from turning in work in the usual way (for example on Blackboard), **you are expected to take alternative measures to get your work turned in on time.** For example, if Blackboard is offline and a deadline is looming, send an email with an attachment. Then, submit the work using the normal means later. If Zoom isn't working on your computer, try joining the meeting on your phone. 
+ 
 
 ### Instructor availability and message responses
 
@@ -261,6 +285,13 @@ You have a right and the responsibility to ask a question about anything you don
 I do not always respond to all messages immediately because I have to prioritize a number of tasks throughout the week that make demands on my time; and I do not leave my email open all day.
 
 I typically respond to email and Padlet posts once per day in the late afternoon. If you send a message on a weekday (Monday through Friday) before 4:00pm ET, it will get a same-day response. Messages sent after 4:00pm on Fridays or on the weekends will get a response no later than the following Monday afternoon. Please note: If you have a significant question over a weekend, your best bet is to post it to the course Padlet where it will be seen by the entire class, so you might get an answer before Monday.
+
+### Covid-19 and masking
+
+Throughout the semester, we will use the GVSU Alert Level recommendations found at the [Lakers Together website](https://www.gvsu.edu/lakerstogether/alert-levels-and-indicators-39.htm). It is expected we will start the semester at Alert Level 0, which for us means that **masks in class meetings and drop-in hours are optional**. If you decide masking is the appropriate action for your perceived level of risk, please wear one. If not, then please respect the actions and personal space of those who do mask. If you need a mask, you can drop into most campus offices and get one. (I have both surgical masks and a limited supply of N95 masks in my office; just ask if you need one.)
+
+Per recent CDC guidelines, we will not be engaging in social distancing or contact tracing. However, should you contract Covid-19, please stay home and participate remotely if you are able. In fact do this even if you just feel sick, and certainly participate remotely if you really are sick, Covid or otherwise. 
+
 
 ### Special accommodations and basic needs 
 
@@ -272,14 +303,27 @@ If, for purposes of gender identity and expression, your official name (in Banne
 
 ## About the instructor 
 
+I'm Robert Talbert, the professor for this course. I'm a Professor of Mathematics and also work in the president's office as Presidential Fellow for the Advancement of Learning. This is my 31st year of teaching overall (not counting tutoring gigs). I have a Ph.D. in Mathematics from Vanderbilt University and a B.S. degree from Tennessee Tech University. 
+
+I was, at best, a thoroughly mediocre math student in school until my senior year of high school, when I had a teacher for Calculus (hi, Mrs. Allen) who stopped trying to cram things into my head and instead showed me the basics -- and then backed off, and let me work things out on my own (with support if I got stuck). Basically, this is how I teach today. 
+
+After a two-year gig as a Psychology major in college, I changed my major to math after a late-night dare from my roommate (long story) and, to my great surprise, I fell in love with the subject. I ended up getting a Ph.D. working in an obscure area at the intersection of abstract algebra and geometry, and I also discovered I loved teaching math to college students. So I went on to spend 14 years teaching in small liberal arts colleges before coming to GVSU in 2011.
+
+Now, I teach computer scientists and engineers how to think like mathematicians, I do research on how to make college teaching better, and I coordinate large-scale teaching/learning projects for President Mantella's office. (The fancy active learning classroom in which we are meeting, is one of my projects.) When nobody is looking, I am working on my skills in Python and R, learning data science, and dabbling in project management. 
+
+I live in Allendale with my wife, two teenage kids (there's another kid who lives in Greenville), and three cats. I am a halfway-decent cook, a longtime bass guitarist, and lover of the outdoors. I aspire to spend more time in a kayak or on a bike than in front of a computer. You can read more about what I'm thinking and doing at my website, [rtalbert.org](https://rtalbert.org), or at my "other blog" [Grading for Growth](https://gradingforgrowth.com) about alternative grading practices which I co-author with my GVSU colleague Prof. David Clark. I'm also on Twitter at [@RobertTalbert](http://twitter.com/RobertTalbert) and on [LinkedIn](https://www.linkedin.com/in/roberttalbert/). I will accept any connection request on LinkedIn from a student! 
+
 ## Appendix A: Content Skill Standards 
 
 ## Appendix B: Class Calendar 
 
 ## Appendix C: Important Links 
 
-- Blackboard
-- Zoom 
-- Calendly 
+- Blackboard: http://lms.gvsu.edu, then look for your section of MTH 325. 
+- Zoom: 
+    - Section 03 class meetings: https://gvsu-edu.zoom.us/j/99159039027?pwd=QmllU3phTUZ1NERyRmtvcEt2LzJ1UT09 
+    - Section 04 class meetings: https://gvsu-edu.zoom.us/j/97606610892?pwd=c1RqSm41ODZWZXEzUGxKZURkcEtkUT09
+    - Online drop-in hours (same link for both sections): https://gvsu-edu.zoom.us/j/93770327341?pwd=OURoeWJLVWFNRmFaZ1E1Ynhpc2Nkdz09 
+- Calendly: 
 - Replit
 - Perusall 
