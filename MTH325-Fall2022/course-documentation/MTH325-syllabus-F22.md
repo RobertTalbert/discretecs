@@ -8,7 +8,7 @@
 
 ## About the course and this syllabus
 
-Welcome to MTH 325! I'm Dr. Robert Talbert, the professor of this course. I'm grateful you're here, and I think you're going to love what you learn this semester. MTH 325 really gets into the *structures* part of Discrete Structures by looking at three fundamental constructs that are everywhere in math and CS: **graphs**, **relations**, and **trees**. We'll be learning all about these, and also learning how to think rigorously about these structures through the use of **proof**. 
+**Welcome to MTH 325!** I'm Dr. Robert Talbert, the professor of this course. I'm grateful you're here, and I think you're going to love what you learn this semester. MTH 325 really gets into the *structures* part of Discrete Structures by looking at three fundamental constructs that are everywhere in math and CS: **graphs**, **relations**, and **trees**. We'll be learning all about these, and also learning how to think rigorously about these structures through the use of **proof**. 
 
 This syllabus contains all the information you need to navigate the course. It is available in an online format as well as a PDF. Both versions will be updated weekly. 
 
@@ -24,7 +24,7 @@ When you see blue- or purple-underlined text in the syllabus or any other docume
 - **Office location:** MAK C-2-513. 
 - **Drop-in hours:** *In-person* drop-in hours are MW 3:00-3:50pm. *Online* drop-in hours are MW 4:00-4:50 via [this Zoom link](https://gvsu-edu.zoom.us/j/93770327341?pwd=OURoeWJLVWFNRmFaZ1E1Ynhpc2Nkdz09). **No appointment is necessary**. 
 - **Appointments outside drop-in hours:** Available on a limited basis. Go to https://calendly.com/robert-talbert, choose a meeting type, then choose an open 20-minute time slot. 
-- **Contacting the prof:** Email (talbertr@gvsu.edu) is preferred. Be sure to read [my availability/response policy](https://hackmd.io/TchC8fZORJ29EgxQb1O4lQ?view#Instructor-availability-and-message-responses).  
+- **Contacting the prof:** Email (talbertr@gvsu.edu) is preferred. Be sure to read my availability/response policy **==Insert link==**  
 - **Course calendar:** The official course calendar is in Appendix B and on Blackboard. *In case of a date conflict on assignments or course documents, the Class Calendar is assumed to be correct.* 
 - **Definition of "week":** In our course, a "week" is defined to begin at 12:01am ET on *Monday* and end at 11:59pm ET the following *Sunday*. 
 - **Blackboard and announcements:** Our Blackboard page is at https://lms.gvsu.edu. Announcements will be posted on Sundays and Wednesdays and other times as needed. *Be sure to check announcements, email, and the calendar at least once daily.*
@@ -33,17 +33,17 @@ When you see blue- or purple-underlined text in the syllabus or any other docume
 
 ## Success in MTH 325 
 
-**My commitment to your success:** My top prority as a professor at GVSU is your success. In MTH 325, you can expect:
+**My top prority as a professor at GVSU is your success**. In MTH 325, you can expect:
 
 - A learning environment that challenges you, but also where support is readily available and freely given. This class is *a safe space to make mistakes*. 
+- Work that is meaningful and not "busy work", and grading practices that prioritize growth and improvement. 
 - Transparency and openness in how the course is run, including clear instructions on what you need to do and when. 
 - Openness to your ideas about the course, with regular solicitations for feedback that are taken seriously through a continuous improvement process. 
-- Work that is meaningful and not "busy work", and grading practices that prioritize growth and improvement. 
 - Above all, **respect** -- for you as a learner, as an adult, and as a human. 
 
 On your end, your success in the course depends on three things: 
 
-1. **Active engagement during class time**. All the available research on learning says that the only way to learn is to be an active participant in the process. Make it a priority not to just attend and take notes, but *get involved*. Students who approach the class with a passive mindset typically struggle, and often fail. Those who approach it with an active mindset, on the other hand, often surprise themselves with how much and how well they learn. 
+1. **Active engagement during class time**. All the available research on learning says that the best  way to learn is to be an active participant in the process. Students who approach the class with a passive mindset typically struggle, and often fail. Those who approach it with an active mindset, on the other hand, often surprise themselves with how much and how well they learn. Make it a priority not to just attend and take notes, but *get involved*. 
 2. **Asking questions**. The material in MTH 325 is challenging, and it is 100% certain you will  be lost, confused, and/or stuck at times. **This is not a defect -- it means you're doing the course right.** When it happens, don't wait for things to make sense on their own: *Ask questions* of me and your classmates and take action to make sense of the material. 
 3. **Good management of time, tasks, and information.** Understanding the material won't help you if you procrastinate, skip reading announcements, or don't use a calendar. All course information will be clearly laid out for you, but it's up to you to import that information into your own lives and act on it. 
 
@@ -54,7 +54,7 @@ If you can commit to these three things, then I have every expectation that you'
 
 ### Course level learning objectives and catalog description
 
-The overall goal of MTH 225 and MTH 325 is to build a solid foundation in the basic theory and tools for the mathematics that computer science is built on, especially the theory and tools you will need for later coursework such as MTH 325 and CIS 263.
+The overall goal of MTH 225 and MTH 325 is to build a solid foundation in the basic theory and tools for the mathematics that computer science is built on, especially in later coursework such as CIS 263.
 
 After successful completion of MTH 325, you will be able to…
 - Compute basic information about graphs, relations, and trees.
@@ -97,10 +97,10 @@ The way grades work in MTH 325 is fairly different from how they are usually don
 - **None of your assignments have point values**, and therefore there is **no partial credit and no averaging**. 
 - Instead, assignments have **specifications** which are descriptions of what constitutes "acceptable" work. When you submit an assignment, I will evaluate it and simply determine whether it meets the specifications or not. 
 - After I evaluate your work, in most cases you will receive **detailed feedback** that will tell you whether your work meets the specifications, and if not, the feedback will tell you what was missing and how you might go about fixing it. 
-- Then on almost every piece of work, you will have the chance to **revise or reattempt** the assignment, get more feedback, and so on -- repeating this feedback loop until you are happy with your results. 
-- Your course grade is based on **how many important learning tasks you've accomplished** by the end of the semester, using a simple table. We make no distinction between someone who can get things right the first time and someone who takes 10 weeks to understand; 
+- Then on almost every piece of work, you will have the chance to **revise or reattempt** the assignment, get more feedback, and repeat this **feedback loop** until the work meets our specifications. 
+- Your course grade is based on **how many important learning tasks you've accomplished** by the end of the semester, using a simple table. 
 
-This process, using two-level grading and feedback loops rather than points and averages, is actually how evaluation of work happens in most situations outside of college. In your future jobs, for example, you'll be reviewed regularly by your manager; it's not a "one and done" situation where you get a point score and that's it, but instead you get 360-degree feedback and coaching on how to improve, and then you act on the feedback. 
+This process, using specifications and feedback loops rather than points and averages, is actually how evaluation of work happens in most situations outside of college. In your future jobs, for example, you'll be reviewed regularly by your manager; it's not a "one and done" situation where you get a point score and that's it, but instead you get 360-degree feedback and coaching on how to improve, and then you act on the feedback. 
 
 I've been using this grading method since 2017, originally in MTH 325 and now in all my classes. We do things this way because **learning takes time**, and I believe grading your work based on a single point of data such as a quiz or test and then averaging all of those data is not only inaccurate, but statistically invalid and even unethical. Feedback loops are how all human learning takes place. So this seems like the best way to do grading. 
 
@@ -133,13 +133,13 @@ The document Specifications for Student Work in MTH 325 contains details on the 
 
 The 20 Content Skill Standards, given in Appendix A and elsewhere, are the core basic skills of MTH 325. Part of your job is to **"meet"** as many of these standards as possible. **"Meeting" a standard requires TWO (2) successful demonstrations of skill on that standard**. A demonstration of skill is one of three things: 
 
-- **Successful work on a quiz problem targeting that standard.** Periodically during the semester, you'll be given a Content Skill Standard quiz. Each quiz contains several problems, and each problem covers exactly one of the Content Skill Standards. A repsonse to a quiz problem for a Content Skill Standard with only a limited number of errors will constitute a "successful demonstration" of skill on that standard. *Each quiz is cumulative*, meaning that it will contain problems for each new Content Skill Standard along with new versions of quiz problems for earlier standards. (For example, Quiz 2 will have new versions of problems for all the standards assessed on Quiz 1, along with new problems for standards we cover since Quiz 1.) You do not need to do all the problems on each quiz; just attempt the problems for Content Skill Standards that you haven't completed yet and feel ready to try. We will take time in class to work on Content Skill Standard quizzes, then you will complete these and upload your work to Blackboard later. 
+- **Successful work on a quiz problem targeting that standard.** Almost every week, we will have a quiz over Content Skill Standards. Each quiz contains several problems, and each problem covers exactly one Content Skill Standard. *Each quiz is cumulative*, with new problems for the most recently-covered standards along with new versions of problems for standards on previous quizzes. An answer to a problem that meets the specifications found in the Specifications for Student Work in MTH 325 document, is considered a "successful demontration of skill".  
 - **Successful work on an oral quiz done during drop-in hours.** You can also demonstrate skill on a Content Skill Standard by requesting a live oral quiz on that standard in drop-in hours. To use this option, go to the Calendly page at https://calendly.com/robert-talbert and request either an oral quiz either in-person or online. You'll be asked which standard you want to be quizzed over. Then, I will make out a new problem for that standard, and you'll work through it live at the requested time. 
 - **Successful work on a video solution to a quiz.** Finally, you can demonstrate skill asynchronously by requesting a new problem on a standard and then working out the solution on a video, and posting that video to [our class' private Flip channel](https://flip.com/4c1a7e9d). 
 
-As mentioned above, **to meet a Content Skill Standard, you must provide TWO (2) separate demonstrations of skill on that standard.** (The idea is that a single successful demonstration of skill could be a fluke; two successful demonstrations are far more likely to be the truth.) You can mix and match the three different ways of demonstrating skill listed above. However: **At least one demonstration of skill must come from a quiz problem.** 
+As mentioned above, **to meet a Content Skill Standard, you must provide TWO (2) separate demonstrations of skill on that standard.** (A single successful demonstration of skill could be a fluke; two successful demonstrations generally aren't.) You can mix and match the three different ways of demonstrating skill listed above; for example you can give one demonstration of skill using a video and the second one using a quiz problem. However: **At least one demonstration of skill must come from a quiz problem.** 
 
-The document Specifications for Student Work in MTH 325 gives complete details on what you'll be asked to do in these demonstrations of skill and what constitutes a "successful" demonstration. In Blackboard, there is a gradebook entry for each Content Skill Standard. If you have *no* successful demonstrations of skill on a Content Skill Standard yet, that standard will show *No DOS yet* (where DOS = Demonstration Of Skill). If you have *one* successful demonstration, it will say *One DOS*. Once you have given two successful demonstrations of skill on a Content Skill Standard, in Blackboard it will say *CSS met* (where CSS = Content Skill Standard) and **you do not need to give any more demonstrations of skill on that standard for the rest of the course**. Blackboard entries are updated after every quiz or other demonstration of skill. 
+**How these are recorded on Blackboard:** The Blackboard gradebook contains one column for each of the 20 Content Skill Standards. If you have *no* successful demonstrations of skill on a Content Skill Standard yet, that standard will show *No DOS yet* (where DOS = Demonstration Of Skill). If you have *one* successful demonstration, it will say *One DOS*. Once you have given two successful demonstrations of skill on a Content Skill Standard, in Blackboard it will say *CSS met* (where CSS = Content Skill Standard) and **you do not need to give any more demonstrations of skill on that standard for the rest of the course**. Blackboard entries are updated after every quiz or other demonstration of skill. 
 
 
 ### Proof and Application problems, and the Proof and Applications Badges
@@ -166,24 +166,24 @@ Please note, **although several Proofs and Applications problems will eventually
 
 Your course grade is assigned using the table below. **To earn a grade, complete ALL the requirements listed in the row for that grade.**
 
-| Grade | Daily Preps completed | Content Standards met | Badges earned | 
+| Grade | Daily Preps completed (out of 22) | Content Standards met (out of 20) | Badges earned | 
 | :----: | :-------:  | :---------------: | :------------: | 
-|  A    |  (85% of max) | 18  | Both Proof and Applications | 
-|  B    |  (75% of max) | 16  | Either Proof or Applications | 
-|  C    |  (65% of max) | 14   | Either Proof or Applications | 
-|  D    |  (35% of max) | 6   |  None required | 
+|  A    |  18 | 18  | Both Proof and Applications | 
+|  B    |  16 | 16  | Either Proof or Applications | 
+|  C    |  14 | 14   | Either Proof or Applications | 
+|  D    |  6 | 6   |  None required | 
 
 Additionally: **To earn a grade of A, B, or C you must specifically meet Content Skill Standards P.1, P.2, G.1, G.2, and DR.1**. Failure to meet all five of these "core" standards results in a one letter grade deduction after all other tabulations are done. 
 
 A grade of "F" is earned if not all of the requirements for a "D" are met. 
 
-**Plus/minus grades:** A "plus" is given on a letter grade if you satisfy all the requirements for that letter *plus* you either complete both the Proof and Applications badges (not just one of these) *or* if you meet the number of content standards for the next letter grade up. A "minus* is given on a letter grade if you meet all the requirements for that letter except for Daily Prep. The exact amount of downward adjustment in this case will be at the professor's discretion based on how many Daily Preps were completed. 
+**Plus/minus grades:** A "plus" is given on a letter grade if you satisfy all the requirements for that letter *plus* you either complete both the Proof and Applications badges (not just one of these) *or* if you meet the number of content standards for the next letter grade up. A "minus" is given on a letter grade if you meet all the requirements for that letter except for Daily Prep. The exact amount of downward adjustment in this case will be at the professor's discretion based on how many Daily Preps were completed. 
 
 **Exceptions:** GVSU does not award grades of A+ or D-. 
 
 ## Revision and reattempts
 
-You can revise or reattempt any work you turn in, without penalty, until it meets the criteria for acceptable work given in the Specifications for Student Work in MTH 325 document. The exception is Daily Prep, which due to its time-sensitive nature cannot be reattempted. 
+**You can revise or reattempt any work you turn in, without penalty, until it meets the criteria for acceptable work given in the Specifications for Student Work in MTH 325 document.** *The exception is Daily Prep*, which due to its time-sensitive nature cannot be reattempted. 
 
 **Demonstrations of skill for Content Skill Standards** can be reattempted at every quiz, since the quizzes are cumulative; if your work on a problem is not successful, just try again at the next quiz, or try an oral or video quiz instead. Unsuccessful oral or video quizzes can be redone simply by scheduling a new one. 
 
@@ -201,10 +201,23 @@ You can revise or reattempt any work you turn in, without penalty, until it meet
 
 ## Academic integrity and honesty
 
-- What is academic integrity
-- What happens if you violate university policies
-- What's allowed for each kind of assignment
+:::warning
+This course is subject to [GVSU course policies](http://www.gvsu.edu/coursepolicies/) and the [GVSU student code](https://www.gvsu.edu/cms4/asset/7B58A5E7-F4C2-114C-CCDA36F96BD2AF73/the_statement_final_fa2020(2).pdf). This document establishes guidelines and expands and clarifies these policies with respect to all work done in MTH 325 this semester. 
+:::
 
+The student code defines **academic misconduct** as *any action or behavior that misrepresents one’s contributions to or the results of any scholarly product submitted for credit, evaluation, or dissemination*. This includes cheating, collusion, dual submission, falsification, and plagiarism as well as any behavior that enables or helps others do these things.
+
+Academic misconduct is a serious matter and carries significant consequences, up to and including failure of the course and possible suspension from the university. In all cases, the guidelines established in the GVSU catalog and GVSU student code will be followed. I reserve the right to discuss the nature and origins of any assignment with any student before assessing it.
+
+On **Daily Prep assignments**, you are **allowed and encouraged to collaborate with others** as long as the responses you submit reflect your own understanding. Remember these are only graded on completeness and effort, and mistakes are not penalized. 
+
+On **all other work** (Content Skill Standard work, Proof problems, and Applications problems) **no collaboration is allowed with another person**, including former students, Math Center tutors, or online discussion forums. Further, **you may not use unauthorized resources**. A list of "authorized" resources will be printed on the assignments; they may include your textbook, class videos, or other items. 
+
+"Collaboration" here means any interaction where significant ideas on solutions are shared. You may talk with a classmate, for instance, in very general terms about an assignment; but sharing information about *how to complete* an assignment is not allowed. Exception: *Technical* details about an assignment (for example how to use the equation editor in Word, or the syntax of how to use a Python dictionary) are fine to discuss, in fact you are encouraged to help each other out in such matters. 
+
+In the end, **your work must reflect your own understanding of the problem, and the solution must consist entirely of ideas you thought of yourself**. 
+
+PLEASE NOTE: **There's no need to be academically dishonest in MTH 325, because you can revise and resubmit almost everything.** Rather than cheat, *ask questions and use the feedback loop* so that you really grow and learn in the course. 
 
 ## Getting help 
 
@@ -223,9 +236,9 @@ Make every effort to get yourself unstuck and resolve your questions on your own
 
 ### Attendance, absences and participation
 
-**Attendance:** Attenance is expected at all class meetings. Attendance is recorded so I can have a record of it and reach out to see if you're OK if you miss several classes; but it is not graded, nor does it count in your final grade. 
+**Attendance:** Attendance is expected at all class meetings. Attendance will be taken, so I can have a record of it and reach out to see if you're OK if you miss several classes; but it is not graded, nor does it count in your final grade. 
 
-**Remote attendance:** Class meetings will be live-streamed on Zoom and recorded. If you cannot be physically present for class, you can access the recording at any point within 30 days of the class. You may join the Zoom meeting if you can't be present, but my attention will be focused on those who are present; you won't be able to work with others, and if you leave questions in the chat I may not see them until 
+**Remote attendance:** Class meetings will be live-streamed on Zoom and recorded. If you cannot be physically present for class, you can access the recording at any point within 30 days of the class. You may join the Zoom meeting if you can't be present, but my attention will be focused on those who are present; you won't be able to work with others, and if you leave questions in the chat I may not see them until well after they are asked. 
 
 **Absences:** If you must be absent, you do not need prior permission or justification; a heads-up is appreciated. However *please avoid any non-essential absences* such as skipping class, or scheduling a vacation during a day where class is scheduled. If you miss, you are solely responsible for catching up. 
 
@@ -254,17 +267,34 @@ And please note, due dates on Daily Prep assignments *may not* be changed due to
 
 ### Technology skills and support
 
-- Don't ask me for tech support
-- List of support numbers
-- If tech issues prevent submission of work 
+
+You should be proficient in the basic technology skills listed at [this GVSU policy page](https://www.gvsu.edu/online/technology-requirements-for-onlinehybrid-courses-8.htm). This list is specifically for online and hybrid courses, but the skill set applies to our class as well. If you need help at any time with those skills, please ask me or a classmate. 
+
+**Tech support:** Technology issues will happen with almost 100% certainty, usually at the worst possible moment. **When this happens, do NOT contact me first!** Instead, contact the appropriate person or office listed below: 
+
+:::success
+* For help with **Blackboard:** Email the Blackboard Help Desk at bbadmin@gvsu.edu or call (616)331-8526. For hours of operation and more information see http://www.gvsu.edu/elearn/help. 
+* For help with **the GVSU network, email, or printing**: Email the GVSU IT Help Desk at helpdesk@gvsu.edu; or call (616)331-2101 or toll free (855)435-7488. For hours of operation and more information see https://www.gvsu.edu/it. 
+* For help with **your computer:** Try the GVSU IT Help Desk (above) or contact your device's manufacturer or a computer store. 
+* For help with **Perusall:** Contact **Perusall Help** at https://support.perusall.com. 
+* For help with **any other technology:** Ask a question of a classmate (or me), seek out the help documentation in the tool you are using, or do a targeted Google search. 
+:::
+
+**I (Talbert) am not able to provide tech support** since I lack the skill and permissions to fix all possible problems. 
+
+**If technology issues prevent submitting work:** If you have contacted an appropriate source of help and an issue still persists that prevents you from turning in work in the usual way (for example on Blackboard), **you are expected to take alternative measures to get your work turned in on time.** For example, if Blackboard is offline and a deadline is looming, send an email with an attachment. Then, submit the work using the normal means later. If Zoom isn't working on your computer, try joining the meeting on your phone. 
 
 ### Instructor availability and message responses
 
-You have a right and the responsibility to ask a question about anything you don't fully understand, at any time. To ask me questions, you can use email (talbertr@gvsu.edu), the course Padlet, or drop-in hours or appointments.
+**You can ask a question about anything at any time.** You have both the right and the responsibility to ask questions about anything in the course you don't fully understand, whether math or some aspect of the syllabus or anything else. You can use email (talbert@gvsu.edu), drop-in hours (either in person or virtual), or grab me after class. Email is usually the best venue. 
 
-I do not always respond to all messages immediately because I have to prioritize a number of tasks throughout the week that make demands on my time; and I do not leave my email open all day.
+However, please note that I do not always respond immediately to messages. In particular **I do not check email between 6:00pm and 6:00am on weeknights**, and **I do not check email at all on weekends**. That said, 
 
-I typically respond to email and Padlet posts once per day in the late afternoon. If you send a message on a weekday (Monday through Friday) before 4:00pm ET, it will get a same-day response. Messages sent after 4:00pm on Fridays or on the weekends will get a response no later than the following Monday afternoon. Please note: If you have a significant question over a weekend, your best bet is to post it to the course Padlet where it will be seen by the entire class, so you might get an answer before Monday.
+- Messages sent on a weekday (Monday-Friday) before 4:00pm ET will get a response *the same day*. 
+- Messages sent after 4:00pm ET Monday-Thursday will get a response *the next day*. 
+- Messages sent after 4:00pm on Fridays or on the weekend will get a response *the following Monday*. 
+
+**Please plan ahead for instructor availability.** Many assignments are due on Sunday evenings; if you don't begin the assignment until Friday afternoon and encounter a question, you may not be able to get help from me in time. 
 
 ### Special accommodations and basic needs 
 
@@ -276,14 +306,78 @@ If, for purposes of gender identity and expression, your official name (in Banne
 
 ## About the instructor 
 
+I'm Robert Talbert, the professor for this course. I'm a Professor of Mathematics and also work in the president's office as Presidential Fellow for the Advancement of Learning. This is my 31st year of teaching overall (not counting tutoring gigs). I have a Ph.D. in Mathematics from Vanderbilt University and a B.S. degree from Tennessee Tech University. 
+
+I was, at best, a thoroughly mediocre math student in school until my senior year of high school, when I had a teacher for Calculus (hi, Mrs. Allen) who stopped trying to cram things into my head and instead showed me the basics -- and then backed off, and let me work things out on my own (with support if I got stuck). Basically, this is how I teach today. 
+
+After a two-year gig as a Psychology major in college, I changed my major to math after a late-night dare from my roommate (long story) and, to my great surprise, I fell in love with the subject. I ended up getting a Ph.D. working in an obscure area at the intersection of abstract algebra and geometry, and I also discovered I loved teaching math to college students. So I went on to spend 14 years teaching in small liberal arts colleges before coming to GVSU in 2011.
+
+Now, I teach computer scientists and engineers how to think like mathematicians, I do research on how to make college teaching better, and I coordinate large-scale teaching/learning projects for President Mantella's office. (The fancy active learning classroom in which we are meeting, is one of my projects.) When nobody is looking, I am working on my skills in Python and R, learning data science, and dabbling in project management. 
+
+I live in Allendale with my wife, two teenage kids (there's another kid who lives in Greenville), and three cats. I am a halfway-decent cook, a longtime bass guitarist, and lover of the outdoors. I aspire to spend more time in a kayak or on a bike than in front of a computer. You can read more about what I'm thinking and doing at my website, [rtalbert.org](https://rtalbert.org), or at my "other blog" [Grading for Growth](https://gradingforgrowth.com) about alternative grading practices which I co-author with my GVSU colleague Prof. David Clark. I'm also on Twitter at [@RobertTalbert](http://twitter.com/RobertTalbert) and on [LinkedIn](https://www.linkedin.com/in/roberttalbert/). I will accept any connection request on LinkedIn from a student! 
 ## Appendix A: Content Skill Standards 
 
-## Appendix B: Class Calendar 
+
+*Note: The five Content Skill Standards marked with a star (\*) are **required** for grades of A, B, or C. Failing to meet all five will result in a one-letter grade deduction on the final grade. Those standards are **P.1, P.2, G.1, G.2, and DR.1**. 
+
+## Group P: Proof
+
+- \* P.1: Given a statement to prove with mathematical induction, I can identify the predicate, state and prove the base case, state the inductive hypothesis, and outline the rest of the proof. 
+- \* P.2: Given a conditional statement, I can state the assumptions and conclusions for a direct proof, proof by contrapositive, and proof by contradiction. 
+- P.3: I can conduct a critical analysis of a proposed proof of a logical proposition. 
+
+## Group G: Graphs
+
+- \* G.1: I can represent a graph in different ways and change representations from one to another. 
+- \* G.2: I can determine information about a graph and its individual vertices and edges using different representations. 
+- G.3: I can give examples of graphs having combinations of various properties or explain why no such example exists, and I can draw examples of special ("named") graphs.
+- G.4: I can determine whether two graphs are isomorphic; I can give an explicit isomorphism if they are, and an explanation if they are not. 
+- G.5: I can give a valid vertex coloring for a graph and determine a graph's chromatic number. 
+- G.6: I can determine whether a graph has an Euler path or Euler circuit, and whether a graph has a Hamiltonian path or cycle.
+- G.7: I can use Prim's Algorithm and Kruskal's Algorithm to construct a minimum spanning tree for a weighted graph. 
+- G.8: I can use Dijkstra's Algorithm to find a minimum-weight path between two vertices in a connected weighted graph. 
+
+## Group DR: Digraphs and Relations
+
+- \* DR.1: I can determine information about a directed graph and its individual vertices and edges using different representations.  
+- DR.2: I can give examples of relations on a set that have combinations of the properties of reflexivity, symmetry, antisymmetry, and transitivity.
+- DR.3: I can determine if a relation is an equivalence relation; I can determine the equivalence class of an element under an equivalence relation and determine whether two elements belong to the same equivalence class. 
+- DR.4: I can find the $n$th order composition of a relation with itself. 
+- DR.5: I can sketch the transitive closure of a relation as a directed graph. 
+- DR.6: I can determine when a set with a relation is a partially ordered set; I can draw the Hasse diagram of a poset and identify maximal/minimal elements and/or greatest/least elements, if they exist.
+
+## Group T: Trees 
+
+- T.1: I can determine whether a description of a graph (list of vertex and edge sets, degree sequence, a drawing, or list of properties) represents a tree. 
+- T.2: Given a list with a total ordering, I can construct the binary search tree.
+- T.3: I can list the vertices of a tree in the order they are visited using preorder, inorder, and postorder traversals.
+
+## Appendix B: Class Calendar and important dates 
+
+The course calendar shown below is also linked in the Blackboard sidebar. **In all cases of apparent date or time conflicts, this course calendar is assumed to be correct.**
+
+<iframe src="https://calendar.google.com/calendar/embed?src=dcau0dfhfoc80n45gdmaho3l6g%40group.calendar.google.com&ctz=America%2FDetroit" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
+
+**Important dates:** (All found on the calendar but summarized here for reference)
+
+- Monday August 5: No class (Labor Day recess). 
+- Friday Ocobter 7: No class (Talbert at conference) but Content Skill Standard quiz done on your own
+- Monday October 24: No class (Fall Break). 
+- Wednesday November 2: No class (Talbert at conference). 
+- Wedensday November 16 and Friday November 18: No class (Talbert at conference). 
+- Wednesday November 23 and Friday November 25: No class (Thanksgiving Break). 
+- Sunday, December 4: Deadline for oral and video quiz requests. 
+- Friday, December 9: Deadline for completing oral and video quizzes. 
+- Sunday, December 11: Deadline for Proof and Application problem submissions. 
+- Wednesday, December 14: Final Exam periods -- 12:00-1:50pm for Section 03, 2:00-3:50pm for Section 04. 
 
 ## Appendix C: Important Links 
 
-- Blackboard
-- Zoom 
-- Calendly 
+- **Blackboard**: http://lms.gvsu.edu, then look for your section of MTH 325. 
+- **Zoom**: 
+    - Section 03 class meetings: https://gvsu-edu.zoom.us/j/99159039027?pwd=QmllU3phTUZ1NERyRmtvcEt2LzJ1UT09 
+    - Section 04 class meetings: https://gvsu-edu.zoom.us/j/97606610892?pwd=c1RqSm41ODZWZXEzUGxKZURkcEtkUT09
+    - Online drop-in hours (same link for both sections): https://gvsu-edu.zoom.us/j/93770327341?pwd=OURoeWJLVWFNRmFaZ1E1Ynhpc2Nkdz09 
+- **Calendly**: https://calendly.com/robert-talbert then choose the kind of appointment you want, then pick any open 20-minute time slot. 
 - Replit
-- Perusall 
+- **Perusall**: http://perusall.com (Log in to access course materials) 
