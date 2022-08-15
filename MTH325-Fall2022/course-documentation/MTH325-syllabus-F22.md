@@ -22,7 +22,7 @@ When you see blue- or purple-underlined text in the syllabus or any other docume
 - **Class meetings:** Section 03 meets MWF 12:00-12:50pm in MAK B-1-110. Section 04 meets MWF 2:00-2:50pm in MAK A-1-111. 
 - **Instructor:** Robert Talbert, Ph.D., Professor of Mathematics. 
 - **Office location:** MAK C-2-513. 
-- **Drop-in hours:** *In-person* drop-in hours are MW 3:00-3:50pm. *Online* drop-in hours are MW 4:00-4:50 via [this Zoom link](https://gvsu-edu.zoom.us/j/93770327341?pwd=OURoeWJLVWFNRmFaZ1E1Ynhpc2Nkdz09). **No appointment is necessary**. 
+- **Drop-in hours:** *In-person* drop-in hours are MW 3:00-3:50pm. *Online* drop-in hours are MW 4:00-4:50 via the Zoom link found on Blackboard. **No appointment is necessary**. 
 - **Appointments outside drop-in hours:** Available on a limited basis. Go to https://calendly.com/robert-talbert, choose a meeting type, then choose an open 20-minute time slot. 
 - **Contacting the prof:** Email (talbertr@gvsu.edu) is preferred. Be sure to read my availability/response policy **==Insert link==**  
 - **Course calendar:** The official course calendar is in Appendix B and on Blackboard. *In case of a date conflict on assignments or course documents, the Class Calendar is assumed to be correct.* 
@@ -135,7 +135,7 @@ The 20 Content Skill Standards, given in Appendix A and elsewhere, are the core 
 
 - **Successful work on a quiz problem targeting that standard.** Almost every week, we will have a quiz over Content Skill Standards. Each quiz contains several problems, and each problem covers exactly one Content Skill Standard. *Each quiz is cumulative*, with new problems for the most recently-covered standards along with new versions of problems for standards on previous quizzes. An answer to a problem that meets the specifications found in the Specifications for Student Work in MTH 325 document, is considered a "successful demontration of skill".  
 - **Successful work on an oral quiz done during drop-in hours.** You can also demonstrate skill on a Content Skill Standard by requesting a live oral quiz on that standard in drop-in hours. To use this option, go to the Calendly page at https://calendly.com/robert-talbert and request either an oral quiz either in-person or online. You'll be asked which standard you want to be quizzed over. Then, I will make out a new problem for that standard, and you'll work through it live at the requested time. 
-- **Successful work on a video solution to a quiz.** Finally, you can demonstrate skill asynchronously by requesting a new problem on a standard and then working out the solution on a video, and posting that video to [our class' private Flip channel](https://flip.com/4c1a7e9d). 
+- **Successful work on a video solution to a quiz.** Finally, you can demonstrate skill asynchronously by requesting a new problem on a standard and then working out the solution on a video, and posting that video to our class' private Flip channel. The submission link along with additional instructions about video creation are on Blackboard in the [insert name here] section.  
 
 As mentioned above, **to meet a Content Skill Standard, you must provide TWO (2) separate demonstrations of skill on that standard.** (A single successful demonstration of skill could be a fluke; two successful demonstrations generally aren't.) You can mix and match the three different ways of demonstrating skill listed above; for example you can give one demonstration of skill using a video and the second one using a quiz problem. However: **At least one demonstration of skill must come from a quiz problem.** 
 
@@ -319,7 +319,7 @@ I live in Allendale with my wife, two teenage kids (there's another kid who live
 ## Appendix A: Content Skill Standards 
 
 
-*Note: The five Content Skill Standards marked with a star (★) are **required** for grades of A, B, or C. Failing to meet all five will result in a one-letter grade deduction on the final grade. Those standards are **P.1, P.2, G.1, G.2, and DR.1**. 
+**Note**: The five Content Skill Standards marked with a star (★) are **required** for grades of A, B, or C. Failing to meet all five will result in a one-letter grade deduction on the final grade. Those standards are **P.1, P.2, G.1, G.2, and DR.1**. 
 
 ## Group P: Proof
 
