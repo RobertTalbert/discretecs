@@ -1,6 +1,6 @@
 # MTH 325 draft syllabus
 
-![Course banner](MTH%20325%20Course%20Banner%20f22.png)
+![Course banner](325-f22-course-banner.png)
 
 >Let us change our traditional attitude to the construction of programs: Instead of imagining that our main task is to instruct a computer what to do, let us concentrate rather on explaining to human beings what we want a computer to do.
 >
