@@ -1,5 +1,3 @@
-# MTH 325 draft syllabus
-
 ![Course banner](325-f22-course-banner.png)
 
 >Let us change our traditional attitude to the construction of programs: Instead of imagining that our main task is to instruct a computer what to do, let us concentrate rather on explaining to human beings what we want a computer to do.
@@ -29,7 +27,7 @@ When you see blue- or purple-underlined text in the syllabus or any other docume
 - **Definition of "week":** In our course, a "week" is defined to begin at 12:01am ET on *Monday* and end at 11:59pm ET the following *Sunday*. 
 - **Blackboard and announcements:** Our Blackboard page is at https://lms.gvsu.edu. Announcements will be posted on Sundays and Wednesdays and other times as needed. *Be sure to check announcements, email, and the calendar at least once daily.*
 - **Textbook:** The textbook is [Discrete Mathematics: An Open Introduction](http://discrete.openmathbooks.org/dmoi3/dmoi.html) by Oscar Levin. It's free; just click the link. A PDF copy is available for download [here](http://discrete.openmathbooks.org/pdfs/dmoi3-tablet.pdf).
-- **Perusall and Replit:** 
+- **Perusall and Replit:** [Blurb here once I set them up]
 
 ## Success in MTH 325 
 
