@@ -141,6 +141,7 @@ As mentioned above, **to meet a Content Skill Standard, you must provide TWO (2)
 
 **How these are recorded on Blackboard:** The Blackboard gradebook contains one column for each of the 20 Content Skill Standards. If you have *no* successful demonstrations of skill on a Content Skill Standard yet, that standard will show *No DOS yet* (where DOS = Demonstration Of Skill). If you have *one* successful demonstration, it will say *One DOS*. Once you have given two successful demonstrations of skill on a Content Skill Standard, in Blackboard it will say *CSS met* (where CSS = Content Skill Standard) and **you do not need to give any more demonstrations of skill on that standard for the rest of the course**. Blackboard entries are updated after every quiz or other demonstration of skill. 
 
+**Final exam:** There is no final exam for this course. During your section's final exam period (see the Calendar), there will be a Content Skill Standard quiz available with all 20 standards represented, in case you need one last attempt on these. 
 
 ### Proof and Application problems, and the Proof and Applications Badges
 
@@ -318,18 +319,18 @@ I live in Allendale with my wife, two teenage kids (there's another kid who live
 ## Appendix A: Content Skill Standards 
 
 
-*Note: The five Content Skill Standards marked with a star (\*) are **required** for grades of A, B, or C. Failing to meet all five will result in a one-letter grade deduction on the final grade. Those standards are **P.1, P.2, G.1, G.2, and DR.1**. 
+*Note: The five Content Skill Standards marked with a star (★) are **required** for grades of A, B, or C. Failing to meet all five will result in a one-letter grade deduction on the final grade. Those standards are **P.1, P.2, G.1, G.2, and DR.1**. 
 
 ## Group P: Proof
 
-- \* P.1: Given a statement to prove with mathematical induction, I can identify the predicate, state and prove the base case, state the inductive hypothesis, and outline the rest of the proof. 
-- \* P.2: Given a conditional statement, I can state the assumptions and conclusions for a direct proof, proof by contrapositive, and proof by contradiction. 
+- ★ P.1: Given a statement to prove with mathematical induction, I can identify the predicate, state and prove the base case, state the inductive hypothesis, and outline the rest of the proof. 
+- ★ P.2: Given a conditional statement, I can state the assumptions and conclusions for a direct proof, proof by contrapositive, and proof by contradiction. 
 - P.3: I can conduct a critical analysis of a proposed proof of a logical proposition. 
 
 ## Group G: Graphs
 
-- \* G.1: I can represent a graph in different ways and change representations from one to another. 
-- \* G.2: I can determine information about a graph and its individual vertices and edges using different representations. 
+- ★ G.1: I can represent a graph in different ways and change representations from one to another. 
+- ★ G.2: I can determine information about a graph and its individual vertices and edges using different representations. 
 - G.3: I can give examples of graphs having combinations of various properties or explain why no such example exists, and I can draw examples of special ("named") graphs.
 - G.4: I can determine whether two graphs are isomorphic; I can give an explicit isomorphism if they are, and an explanation if they are not. 
 - G.5: I can give a valid vertex coloring for a graph and determine a graph's chromatic number. 
@@ -339,7 +340,7 @@ I live in Allendale with my wife, two teenage kids (there's another kid who live
 
 ## Group DR: Digraphs and Relations
 
-- \* DR.1: I can determine information about a directed graph and its individual vertices and edges using different representations.  
+- ★ DR.1: I can determine information about a directed graph and its individual vertices and edges using different representations.  
 - DR.2: I can give examples of relations on a set that have combinations of the properties of reflexivity, symmetry, antisymmetry, and transitivity.
 - DR.3: I can determine if a relation is an equivalence relation; I can determine the equivalence class of an element under an equivalence relation and determine whether two elements belong to the same equivalence class. 
 - DR.4: I can find the $n$th order composition of a relation with itself. 
@@ -374,10 +375,7 @@ The course calendar shown below is also linked in the Blackboard sidebar. **In a
 ## Appendix C: Important Links 
 
 - **Blackboard**: http://lms.gvsu.edu, then look for your section of MTH 325. 
-- **Zoom**: 
-    - Section 03 class meetings: https://gvsu-edu.zoom.us/j/99159039027?pwd=QmllU3phTUZ1NERyRmtvcEt2LzJ1UT09 
-    - Section 04 class meetings: https://gvsu-edu.zoom.us/j/97606610892?pwd=c1RqSm41ODZWZXEzUGxKZURkcEtkUT09
-    - Online drop-in hours (same link for both sections): https://gvsu-edu.zoom.us/j/93770327341?pwd=OURoeWJLVWFNRmFaZ1E1Ynhpc2Nkdz09 
+- **Zoom**: Please see the Blackboard sidebar for links to your section's class meeting and for online drop-in hours. 
 - **Calendly**: https://calendly.com/robert-talbert then choose the kind of appointment you want, then pick any open 20-minute time slot. 
-- Replit
-- **Perusall**: http://perusall.com (Log in to access course materials) 
+- **Replit**: http://replit.com (Use the invite code posted to Blackboard for your section)
+- **Perusall**: http://perusall.com (Use the invite code posted to Blackboard; log in to access course materials) 
