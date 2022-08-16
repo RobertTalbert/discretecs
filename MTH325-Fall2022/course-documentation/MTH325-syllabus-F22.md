@@ -1,4 +1,4 @@
-![Course banner](325-f22-course-banner.png)
+![MTH 325 Course Banner](https://i.ibb.co/kQRRq4p/325-f22-course-banner.png)
 
 >Let us change our traditional attitude to the construction of programs: Instead of imagining that our main task is to instruct a computer what to do, let us concentrate rather on explaining to human beings what we want a computer to do.
 >
@@ -22,12 +22,12 @@ When you see blue- or purple-underlined text in the syllabus or any other docume
 - **Office location:** MAK C-2-513. 
 - **Drop-in hours:** *In-person* drop-in hours are MW 3:00-3:50pm. *Online* drop-in hours are MW 4:00-4:50 via the Zoom link found on Blackboard. **No appointment is necessary**. 
 - **Appointments outside drop-in hours:** Available on a limited basis. Go to https://calendly.com/robert-talbert, choose a meeting type, then choose an open 20-minute time slot. 
-- **Contacting the prof:** Email (talbertr@gvsu.edu) is preferred. Be sure to read my availability/response policy **==Insert link==**  
-- **Course calendar:** The official course calendar is in Appendix B and on Blackboard. *In case of a date conflict on assignments or course documents, the Class Calendar is assumed to be correct.* 
+- **Contacting the prof:** Email (talbertr@gvsu.edu) is preferred. [Be sure to read my availability/response policy](https://hackmd.io/SVah5pL8TdWxMGxtTJQdog#Instructor-availability-and-message-responses).   
+- **Course calendar:** The official course calendar is in [Appendix B](https://hackmd.io/SVah5pL8TdWxMGxtTJQdog#Appendix-B-Class-Calendar-and-important-dates) and on Blackboard. *In case of a date conflict on assignments or course documents, the Class Calendar is assumed to be correct.* 
 - **Definition of "week":** In our course, a "week" is defined to begin at 12:01am ET on *Monday* and end at 11:59pm ET the following *Sunday*. 
 - **Blackboard and announcements:** Our Blackboard page is at https://lms.gvsu.edu. Announcements will be posted on Sundays and Wednesdays and other times as needed. *Be sure to check announcements, email, and the calendar at least once daily.*
 - **Textbook:** The textbook is [Discrete Mathematics: An Open Introduction](http://discrete.openmathbooks.org/dmoi3/dmoi.html) by Oscar Levin. It's free; just click the link. A PDF copy is available for download [here](http://discrete.openmathbooks.org/pdfs/dmoi3-tablet.pdf).
-- **Perusall and Replit:** [Blurb here once I set them up]
+- **Perusall and Replit:** ==Insert info later once setup is done== 
 
 ## Success in MTH 325 
 
@@ -74,7 +74,7 @@ The course content is split up into four modules:
 - **Module 3: Digraphs and relations.** Terminology of directed graphs and relations; representation of relations in computer languages; properties of relations; composition of relations; transitive closure and Warshall's algorithm; equivalence relations; partial orderings.
 - **Module 4: Trees.** Terminology and examples of trees; properties of trees; binary search trees; tree traversals. 
 
-The most important skills that you will learn in the course are housed in a list of 20 **Content Skill Standards**, found in Appendix A. 
+The most important skills that you will learn in the course are housed in a list of 20 **Content Skill Standards**, found in [Appendix A](https://hackmd.io/SVah5pL8TdWxMGxtTJQdog#Appendix-A-Content-Skill-Standards). 
 
 
 ### The MTH 325 Workflow 
@@ -112,7 +112,7 @@ There are four categories of graded assignments:
 - **Proof problems:** Problems that involve writing clear and correct proofs of mathematical propositions. 
 - **Application problems:** Problems that involve applying basic skills from class to applications in a variety of different areas. Some of these focus on programming in Python. 
 
-Additionally, you'll be completing **demonstrations of skill** on the twenty (20) **Content Skill Standards** found in Appendix A. The Standards are 20 basic skills from the course. You'll be demonstrating skill on these Standards in one of three different ways, described below. 
+Additionally, you'll be completing **demonstrations of skill** on the twenty (20) **Content Skill Standards** found in [Appendix A](https://hackmd.io/SVah5pL8TdWxMGxtTJQdog#Appendix-A-Content-Skill-Standards). The Standards are 20 basic skills from the course. You'll be demonstrating skill on these Standards in one of three different ways, described below. 
 
 These assignments are graded as follows: 
 
@@ -125,15 +125,15 @@ These assignments are graded as follows:
 
 The document Specifications for Student Work in MTH 325 contains details on the quality standards for each kind of assessment in the course. Please read this carefully and review before each submission you make.
 
-**You can either revise or reattempt any item of work other than Daily Prep** if your work does not meet the specifications. See "Revisions and Reattempts" below. 
+**You can either revise or reattempt any item of work other than Daily Prep** if your work does not meet the specifications. See ["Revisions and Reattempts"](https://hackmd.io/SVah5pL8TdWxMGxtTJQdog#Revision-and-reattempts) below. 
 
 ### More about Content Skill Standards
 
-The 20 Content Skill Standards, given in Appendix A and elsewhere, are the core basic skills of MTH 325. Part of your job is to **"meet"** as many of these standards as possible. **"Meeting" a standard requires TWO (2) successful demonstrations of skill on that standard**. A demonstration of skill is one of three things: 
+The 20 Content Skill Standards, given in [Appendix A](https://hackmd.io/SVah5pL8TdWxMGxtTJQdog#Appendix-A-Content-Skill-Standards) and elsewhere, are the core basic skills of MTH 325. Part of your job is to **"meet"** as many of these standards as possible. **"Meeting" a standard requires TWO (2) successful demonstrations of skill on that standard**. A demonstration of skill is one of three things: 
 
 - **Successful work on a quiz problem targeting that standard.** Almost every week, we will have a quiz over Content Skill Standards. Each quiz contains several problems, and each problem covers exactly one Content Skill Standard. *Each quiz is cumulative*, with new problems for the most recently-covered standards along with new versions of problems for standards on previous quizzes. An answer to a problem that meets the specifications found in the Specifications for Student Work in MTH 325 document, is considered a "successful demontration of skill".  
 - **Successful work on an oral quiz done during drop-in hours.** You can also demonstrate skill on a Content Skill Standard by requesting a live oral quiz on that standard in drop-in hours. To use this option, go to the Calendly page at https://calendly.com/robert-talbert and request either an oral quiz either in-person or online. You'll be asked which standard you want to be quizzed over. Then, I will make out a new problem for that standard, and you'll work through it live at the requested time. 
-- **Successful work on a video solution to a quiz.** Finally, you can demonstrate skill asynchronously by requesting a new problem on a standard and then working out the solution on a video, and posting that video to our class' private Flip channel. The submission link along with additional instructions about video creation are on Blackboard in the [insert name here] section.  
+- **Successful work on a video solution to a quiz.** Finally, you can demonstrate skill asynchronously by requesting a new problem on a standard and then working out the solution on a video, and posting that video to our class' private Flip channel. The submission link along with additional instructions about video creation are on Blackboard in the ==put name of section here once Bb is setup== section.  
 
 As mentioned above, **to meet a Content Skill Standard, you must provide TWO (2) separate demonstrations of skill on that standard.** (A single successful demonstration of skill could be a fluke; two successful demonstrations generally aren't.) You can mix and match the three different ways of demonstrating skill listed above; for example you can give one demonstration of skill using a video and the second one using a quiz problem. However: **At least one demonstration of skill must come from a quiz problem.** 
 
@@ -228,7 +228,7 @@ Make every effort to get yourself unstuck and resolve your questions on your own
 * [Schedule an appointment through Calendly](https://calendly.com/robert-talbert/) if drop-in hours don't work for you. 
 * **Work with a classmate** especially on Daily Prep, as long as you're staying within bounds on academic honesty.
 
-**GVSU Math Center:** *Insert blurb here*
+**GVSU Math Center:** ==Waiting for text from Marcia==
 
 
 ## Course policies
@@ -258,7 +258,7 @@ Proof and Applications problems will come with deadlines printed on the assignme
 
 Therefore if you are needing an extension on a due date, you can request one, without penalty. Just fill out the **Due Date Change Request form** found here: 
 
-[link]
+==[link]==
 
 (This is also linked on the Blackboard sidebar.) You do not need approval; this form is simply informing me of when you plan on turning in the work. Please note, you may not get timely feedback on your work if you change the due date. If you ask for repeated extensions, I will likely reach out to see if we can find ways to help you keep up better. 
 
@@ -276,6 +276,7 @@ You should be proficient in the basic technology skills listed at [this GVSU pol
 * For help with **the GVSU network, email, or printing**: Email the GVSU IT Help Desk at helpdesk@gvsu.edu; or call (616)331-2101 or toll free (855)435-7488. For hours of operation and more information see https://www.gvsu.edu/it. 
 * For help with **your computer:** Try the GVSU IT Help Desk (above) or contact your device's manufacturer or a computer store. 
 * For help with **Perusall:** Contact **Perusall Help** at https://support.perusall.com. 
+* For help with **Replit:** Log into Replit and click the "Help & shortcuts" button (which looks like a question mark) at the bottom of the right sidebar. For general help, search through https://docs.replit.com/. 
 * For help with **any other technology:** Ask a question of a classmate (or me), seek out the help documentation in the tool you are using, or do a targeted Google search. 
 :::
 
@@ -299,7 +300,7 @@ However, please note that I do not always respond immediately to messages. In pa
 
 If you have special needs because of learning, physical or other disabilities, it is your responsibility to contact Disability Support Resources (DSR) at (616)331-2490 or http://www.gvsu.edu/dsr/. DSR will help you arrange accommodations. Then, speak with me in person about making those accommodations and ensure that they are consistent with your arrangements with DSR.
 
-If you have difficulty affording groceries or accessing sufficient food to eat every day, or if you lack a safe and stable place to live, I encourage you to visit Replenish, a food resource for GVSU students. If you are comfortable doing so, please speak with me about your circumstances so that I can advocate for you and to connect you with other campus resources.
+If you have difficulty affording groceries or accessing sufficient food to eat every day, or if you lack a safe and stable place to live, I encourage you to visit [Replenish](https://www.gvsu.edu/replenish/), a food resource for GVSU students. If you are comfortable doing so, please speak with me about your circumstances so that I can advocate for you and to connect you with other campus resources.
 
 If, for purposes of gender identity and expression, your official name (in Banner) does not match your preferred name, your name can be updated in Blackboard. Please contact the registrar's office to submit this request. The registrar's office will contact the Blackboard administrator to make the change and will also contact your professors to inform them that your name in Banner will not match the name in Blackboard.
 
@@ -356,6 +357,8 @@ I live in Allendale with my wife, two teenage kids (there's another kid who live
 The course calendar shown below is also linked in the Blackboard sidebar. **In all cases of apparent date or time conflicts, this course calendar is assumed to be correct.**
 
 <iframe src="https://calendar.google.com/calendar/embed?src=dcau0dfhfoc80n45gdmaho3l6g%40group.calendar.google.com&ctz=America%2FDetroit" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
+
+
 
 **Important dates:** (All found on the calendar but summarized here for reference)
 
