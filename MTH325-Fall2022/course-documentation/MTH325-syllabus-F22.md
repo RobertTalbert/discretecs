@@ -1,3 +1,5 @@
+# MTH 325 Syllabus Fall 2022
+
 ![MTH 325 Course Banner](https://i.ibb.co/kQRRq4p/325-f22-course-banner.png)
 
 >Let us change our traditional attitude to the construction of programs: Instead of imagining that our main task is to instruct a computer what to do, let us concentrate rather on explaining to human beings what we want a computer to do.
@@ -123,7 +125,7 @@ These assignments are graded as follows:
 | Proof problems | Correctness and writing quality | *Successful* or *Revise*  | 
 | Application problems | Correctness and writing quality | *Successful* or *Revise* | 
 
-The document Specifications for Student Work in MTH 325 contains details on the quality standards for each kind of assessment in the course. Please read this carefully and review before each submission you make.
+The document [Specifications for Student Work in MTH 325](https://hackmd.io/@rtalbert235/BkWoCLt0c) contains details on the quality standards for each kind of assessment in the course. Please read this carefully and review before each submission you make.
 
 **You can either revise or reattempt any item of work other than Daily Prep** if your work does not meet the specifications. See ["Revisions and Reattempts"](https://hackmd.io/SVah5pL8TdWxMGxtTJQdog#Revision-and-reattempts) below. 
 
@@ -131,7 +133,7 @@ The document Specifications for Student Work in MTH 325 contains details on the 
 
 The 20 Content Skill Standards, given in [Appendix A](https://hackmd.io/SVah5pL8TdWxMGxtTJQdog#Appendix-A-Content-Skill-Standards) and elsewhere, are the core basic skills of MTH 325. Part of your job is to **"meet"** as many of these standards as possible. **"Meeting" a standard requires TWO (2) successful demonstrations of skill on that standard**. A demonstration of skill is one of three things: 
 
-- **Successful work on a quiz problem targeting that standard.** Almost every week, we will have a quiz over Content Skill Standards. Each quiz contains several problems, and each problem covers exactly one Content Skill Standard. *Each quiz is cumulative*, with new problems for the most recently-covered standards along with new versions of problems for standards on previous quizzes. An answer to a problem that meets the specifications found in the Specifications for Student Work in MTH 325 document, is considered a "successful demontration of skill".  
+- **Successful work on a quiz problem targeting that standard.** Almost every week, we will have a quiz over Content Skill Standards. Each quiz contains several problems, and each problem covers exactly one Content Skill Standard. *Each quiz is cumulative*, with new problems for the most recently-covered standards along with new versions of problems for standards on previous quizzes. An answer to a problem that meets the specifications found in the [Specifications for Student Work in MTH 325](https://hackmd.io/@rtalbert235/BkWoCLt0c) document, is considered a "successful demontration of skill".  
 - **Successful work on an oral quiz done during drop-in hours.** You can also demonstrate skill on a Content Skill Standard by requesting a live oral quiz on that standard in drop-in hours. To use this option, go to the Calendly page at https://calendly.com/robert-talbert and request either an oral quiz either in-person or online. You'll be asked which standard you want to be quizzed over. Then, I will make out a new problem for that standard, and you'll work through it live at the requested time. 
 - **Successful work on a video solution to a quiz.** Finally, you can demonstrate skill asynchronously by requesting a new problem on a standard and then working out the solution on a video, and posting that video to our class' private Flip channel. The submission link along with additional instructions about video creation are on Blackboard in the ==put name of section here once Bb is setup== section.  
 
@@ -145,7 +147,7 @@ As mentioned above, **to meet a Content Skill Standard, you must provide TWO (2)
 
 While Daily Prep and Content Skill Standards focus on the basic elements of MTH 325, Proof and Applications problems highlight advanced theory and applications, respectively, using those basics. Both kinds of problems involve analytical problem solving and clear, coherent professional communication as their primary criteria for evaluation -- definitely not just "right answers". 
 
-Detailed instructions for completing and submitting Proof and Application problems will be printed on the assignments themselves. The document Specifications for Student Work in MTH 325 has details on what constitutes acceptable work on these, in a general sense. There will be several Proof problems, most of which will be posted on Blackboard in the first three weeks of class. Application problems will be released more gradually, as we cover more topics, and it's expected there will be about 4-6 of these total. 
+Detailed instructions for completing and submitting Proof and Application problems will be printed on the assignments themselves. The document [Specifications for Student Work in MTH 325](https://hackmd.io/@rtalbert235/BkWoCLt0c) has details on what constitutes acceptable work on these, in a general sense. There will be several Proof problems, most of which will be posted on Blackboard in the first three weeks of class. Application problems will be released more gradually, as we cover more topics, and it's expected there will be about 4-6 of these total. 
 
 **Badges:** To show that you have acquired a strong grasp on Proofs or Applications, you can earn the **Proofs Badge** or the **Applications Badge**. 
 
@@ -182,7 +184,7 @@ A grade of "F" is earned if not all of the requirements for a "D" are met.
 
 ## Revision and reattempts
 
-**You can revise or reattempt any work you turn in, without penalty, until it meets the criteria for acceptable work given in the Specifications for Student Work in MTH 325 document.** *The exception is Daily Prep*, which due to its time-sensitive nature cannot be reattempted. 
+**You can revise or reattempt any work you turn in, without penalty, until it meets the criteria for acceptable work given in the [Specifications for Student Work in MTH 325](https://hackmd.io/@rtalbert235/BkWoCLt0c) document.** *The exception is Daily Prep*, which due to its time-sensitive nature cannot be reattempted. 
 
 **Demonstrations of skill for Content Skill Standards** can be reattempted at every quiz, since the quizzes are cumulative; if your work on a problem is not successful, just try again at the next quiz, or try an oral or video quiz instead. Unsuccessful oral or video quizzes can be redone simply by scheduling a new one. 
 
@@ -258,7 +260,7 @@ Proof and Applications problems will come with deadlines printed on the assignme
 
 Therefore if you are needing an extension on a due date, you can request one, without penalty. Just fill out the **Due Date Change Request form** found here: 
 
-==[link]==
+https://docs.google.com/forms/d/e/1FAIpQLScek4frZuSxHwMN2a1Ino4GETPwH4v5tyL3KLTNRpXY3qDQcw/viewform
 
 (This is also linked on the Blackboard sidebar.) You do not need approval; this form is simply informing me of when you plan on turning in the work. Please note, you may not get timely feedback on your work if you change the due date. If you ask for repeated extensions, I will likely reach out to see if we can find ways to help you keep up better. 
 
