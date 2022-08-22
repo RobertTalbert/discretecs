@@ -1,4 +1,4 @@
-# MTH 325 Syllabus Fall 2022
+# ==DRAFT== MTH 325 Syllabus Fall 2022
 
 ![MTH 325 Course Banner](https://i.ibb.co/kQRRq4p/325-f22-course-banner.png)
 
