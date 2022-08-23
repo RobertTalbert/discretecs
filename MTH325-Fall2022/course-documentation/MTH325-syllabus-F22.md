@@ -1,4 +1,4 @@
-# ==DRAFT== MTH 325 Syllabus Fall 2022
+# MTH 325 Syllabus Fall 2022
 
 ![MTH 325 Course Banner](https://i.ibb.co/kQRRq4p/325-f22-course-banner.png)
 
@@ -29,7 +29,7 @@ When you see blue- or purple-underlined text in the syllabus or any other docume
 - **Definition of "week":** In our course, a "week" is defined to begin at 12:01am ET on *Monday* and end at 11:59pm ET the following *Sunday*. 
 - **Blackboard and announcements:** Our Blackboard page is at https://lms.gvsu.edu. Announcements will be posted on Sundays and Wednesdays and other times as needed. *Be sure to check announcements, email, and the calendar at least once daily.*
 - **Textbook:** The textbook is [Discrete Mathematics: An Open Introduction](http://discrete.openmathbooks.org/dmoi3/dmoi.html) by Oscar Levin. It's free; just click the link. A PDF copy is available for download [here](http://discrete.openmathbooks.org/pdfs/dmoi3-tablet.pdf).
-- **Perusall and Replit:** ==Insert info later once setup is done== 
+- **Perusall:** We will use **Perusall**, a tool for commenting on text and video, regularly through the course. Go to http://perusall.com, sign up for an account, then use the course code posted on Blackboard in the *Important Links* area to join the class. 
 
 ## Success in MTH 325 
 
@@ -230,8 +230,6 @@ Make every effort to get yourself unstuck and resolve your questions on your own
 * [Schedule an appointment through Calendly](https://calendly.com/robert-talbert/) if drop-in hours don't work for you. 
 * **Work with a classmate** especially on Daily Prep, as long as you're staying within bounds on academic honesty.
 
-**GVSU Math Center:** ==Waiting for text from Marcia==
-
 
 ## Course policies
 
@@ -278,7 +276,6 @@ You should be proficient in the basic technology skills listed at [this GVSU pol
 * For help with **the GVSU network, email, or printing**: Email the GVSU IT Help Desk at helpdesk@gvsu.edu; or call (616)331-2101 or toll free (855)435-7488. For hours of operation and more information see https://www.gvsu.edu/it. 
 * For help with **your computer:** Try the GVSU IT Help Desk (above) or contact your device's manufacturer or a computer store. 
 * For help with **Perusall:** Contact **Perusall Help** at https://support.perusall.com. 
-* For help with **Replit:** Log into Replit and click the "Help & shortcuts" button (which looks like a question mark) at the bottom of the right sidebar. For general help, search through https://docs.replit.com/. 
 * For help with **any other technology:** Ask a question of a classmate (or me), seek out the help documentation in the tool you are using, or do a targeted Google search. 
 :::
 
@@ -378,7 +375,6 @@ The course calendar shown below is also linked in the Blackboard sidebar. **In a
 ## Appendix C: Important Links 
 
 - **Blackboard**: http://lms.gvsu.edu, then look for your section of MTH 325. 
-- **Zoom**: Please see the Blackboard sidebar for links to your section's class meeting and for online drop-in hours. 
+- **Zoom**: See the *Important Links* area in the Blackboard sidebar for links to your section's class meeting and for online drop-in hours. 
 - **Calendly**: https://calendly.com/robert-talbert then choose the kind of appointment you want, then pick any open 20-minute time slot. 
-- **Replit**: http://replit.com (Use the invite code posted to Blackboard for your section)
-- **Perusall**: http://perusall.com (Use the invite code posted to Blackboard; log in to access course materials) 
+- **Perusall**: http://perusall.com (Use the invite code posted to Blackboard in the *Important Links* area; log in to access course materials) 
