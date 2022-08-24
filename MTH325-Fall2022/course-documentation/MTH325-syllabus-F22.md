@@ -366,8 +366,8 @@ The course calendar shown below is also linked in the Blackboard sidebar. **In a
 
 **Important dates:** (All found on the calendar but summarized here for reference)
 
-- Monday August 5: No class (Labor Day recess). 
-- Friday Ocobter 7: No class (Talbert at conference) but Content Skill Standard quiz done on your own
+- Monday September 5: No class (Labor Day recess). 
+- Friday October 7: No class (Talbert at conference) but Content Skill Standard quiz done on your own
 - Monday October 24: No class (Fall Break). 
 - Wednesday November 2: No class (Talbert at conference). 
 - Wedensday November 16 and Friday November 18: No class (Talbert at conference). 
