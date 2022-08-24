@@ -324,13 +324,13 @@ I live in Allendale with my wife, two teenage kids (there's another kid who live
 
 **Note**: The five Content Skill Standards marked with a star (★) are **required** for grades of A, B, or C. Failing to meet all five will result in a one-letter grade deduction on the final grade. Those standards are **P.1, P.2, G.1, G.2, and DR.1**. 
 
-## Group P: Proof
+### Group P: Proof
 
 - ★ P.1: Given a statement to prove with mathematical induction, I can identify the predicate, state and prove the base case, state the inductive hypothesis, and outline the rest of the proof. 
 - ★ P.2: Given a conditional statement, I can state the assumptions and conclusions for a direct proof, proof by contrapositive, and proof by contradiction. 
 - P.3: I can conduct a critical analysis of a proposed proof of a logical proposition. 
 
-## Group G: Graphs
+### Group G: Graphs
 
 - ★ G.1: I can represent a graph in different ways and change representations from one to another. 
 - ★ G.2: I can determine information about a graph and its individual vertices and edges using different representations. 
@@ -341,7 +341,7 @@ I live in Allendale with my wife, two teenage kids (there's another kid who live
 - G.7: I can use Prim's Algorithm and Kruskal's Algorithm to construct a minimum spanning tree for a weighted graph. 
 - G.8: I can use Dijkstra's Algorithm to find a minimum-weight path between two vertices in a connected weighted graph. 
 
-## Group DR: Digraphs and Relations
+### Group DR: Digraphs and Relations
 
 - ★ DR.1: I can determine information about a directed graph and its individual vertices and edges using different representations.  
 - DR.2: I can give examples of relations on a set that have combinations of the properties of reflexivity, symmetry, antisymmetry, and transitivity.
@@ -350,7 +350,7 @@ I live in Allendale with my wife, two teenage kids (there's another kid who live
 - DR.5: I can sketch the transitive closure of a relation as a directed graph. 
 - DR.6: I can determine when a set with a relation is a partially ordered set; I can draw the Hasse diagram of a poset and identify maximal/minimal elements and/or greatest/least elements, if they exist.
 
-## Group T: Trees 
+### Group T: Trees 
 
 - T.1: I can determine whether a description of a graph (list of vertex and edge sets, degree sequence, a drawing, or list of properties) represents a tree. 
 - T.2: Given a list with a total ordering, I can construct the binary search tree.
