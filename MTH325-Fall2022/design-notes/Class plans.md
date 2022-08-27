@@ -20,6 +20,12 @@
 
 ### August 31 
 
+- Review of Daily Prep questions
+- Activity: Collatz conjecture true or false? 
+- Recursion in the daily prep activities
+- Activity in finding recursive formula for a new visual pattern
+- Conjecture a formula -- what will prove that it works? Not examples
+
 ### Sept 2
 
 ## Week 2
