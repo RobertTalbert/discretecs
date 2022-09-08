@@ -64,7 +64,7 @@ With this information, prove that for all integers $n \geq 1$, the value that is
 See Problem 2 for a definition of the **logarithm base 2** of a number. Prove that, for all positive integers $n$, the number of bits needed to represent $n$ in binary (base 2) is $1 + \lfloor \log_2(n) \rfloor$, that is, the logarithm base 2 of $n$ rounded down to the next lowest integer, plus 1. 
 
 *Example:* According to this proposition, the number of bits needed to represent the number 99 in binary is 
-\[ 1 + \lfloor \log_2(99) \rfloor = 1+ \lfloor \log_2(99) \rfloor = 1 + \lfloor 6.6294 \rfloor = 1+6 = 7 \]
+$$1 + \lfloor \log_2(99) \rfloor = 1+ \lfloor \log_2(99) \rfloor = 1 + \lfloor 6.6294 \rfloor = 1+6 = 7 $$
 And indeed, if we convert 99 to binary we get `1100011` which contains 7 bits. 
 
 ### Problem 4 
