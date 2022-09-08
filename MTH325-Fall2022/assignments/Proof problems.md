@@ -24,12 +24,17 @@ Here are specific instructions on how to submit your work:
 Once your work is submitted, I will be notified, and then I will evaluate it using our "Critical Analysis" process. If your work meets the specifications laid out in the [Specifications](https://hackmd.io/lD6oyEN5RdiUi_wdg-rkZg) document, it will be marked *Successful* on Blackboard, and you are done with that problem. If not, it will be marked *Revise* and you will be given feedback on both the good and the not-as-good on your work, and then you can revise and resubmit again later. Note that feedback will be given regardless of the mark. 
 
 
+**Deadlines:** Each Proof Problem has an **initial deadline** listed. If you intend to submit any work at all on a problem, the first attempt must be submitted before this deadline. Once you have made that initial lsubmission, there is no further deadline on revisions other than the final deadline of **Sunday December 11**. Only attempts that represent good-faith efforts at complete and correct proofs are counted as "initial submissions. For example, if you submit a partial proof just before the deadline, a "revision" of that proof that is submitted after the deadline, in which you complete the partial work, will not be accepted. 
+
+
 
 ---
 
 
 
 ### Problem 1
+
+*Initial deadline: Sunday, October 2 11:59pm ET* 
 
 Recall from MTH 225 that the **binomial coefficient** $\binom{n}{k}$ is the number of ways to select $k$ elements from an $n$-element set (irrespective of ordering). It can also be interpreted as the number of $k$-element subsets of an $n$-element set; or as the number of bitstrings of length $n$ that have exactly $k$ `1` bits. 
 
@@ -45,6 +50,9 @@ $$\binom{n}{0}2^0 + \binom{n}{1}2^1 + \binom{n}{2}2^2 + \cdots + \binom{n}{n}2^n
 
 
 ### Problem 2
+
+*Initial deadline: Sunday, October 2 11:59pm ET* 
+
 
 The **logarithm base 2** of a number $x$, written $\log_2(x)$, is the power to which you would raise $2$ in order to get $x$. That is, if $\log_2(x) = a$ then $2^a = x$. For example, $\log_2(8) = 3$, $\log_2(1024) = 10$, and (using a calculator) $\log_2(100)$ is around $6.644$. 
 
@@ -64,6 +72,9 @@ With this information, prove that for all integers $n \geq 1$, the value that is
 
 ### Problem 3
 
+*Initial deadline: Sunday, October 2 11:59pm ET* 
+
+
 See Problem 2 for a definition of the **logarithm base 2** of a number. Prove that, for all positive integers $n$, the number of bits needed to represent $n$ in binary (base 2) is $1 + \lfloor \log_2(n) \rfloor$, that is, the logarithm base 2 of $n$ rounded down to the next lowest integer, plus 1. 
 
 *Example:* According to this proposition, the number of bits needed to represent the number 99 in binary is 
@@ -71,6 +82,9 @@ $$1 + \lfloor \log_2(99) \rfloor = 1 + \lfloor 6.6294 \rfloor = 1+6 = 7 $$
 And indeed, if we convert 99 to binary we get `1100011` which contains 7 bits. 
 
 ### Problem 4 
+
+*Initial deadline: Sunday, October 2 11:59pm ET* 
+
 
 >Definition: If $a$ and $b$ are integers then we say that **$a$ divides $b$** if there is an integer $k$ such that $b = ak$. For example, $3$ divides $21$ because there is an integer ($k=7$) such that $21 = 3k$. If $a$ divides $b$ then we write $a | b$. 
 
