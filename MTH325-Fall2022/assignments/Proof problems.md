@@ -10,6 +10,9 @@ Your job is to **find a problem that looks interesting to you and then solve it*
 - Your work must be **free from serious errors** in computation, logic, factual knowledge, and semantics. (See the [Specifications document](https://hackmd.io/lD6oyEN5RdiUi_wdg-rkZg) for descriptions of those.)
 - Your work must **look professional** and **explain your reasoning clearly**. Proofs that are just computations (a "wall of math") will need to be revised. 
 
+Remember that **proofs are highly personalized, and the same statement can be proven many different ways**. A proof is just a clear, correct, and convincing explanation why a statement is always true. It does not have to conform to any particular method like induction, contradiction, etc. If you feel you can give an argument for why a statement below is true that is clear, correct, and convincing and it doesn't look like one of the basic arguments we explored in class, give it a try. 
+
+
 Here are specific instructions on how to submit your work: 
 
 - All Proof problems must be **typed** using a word processor or other computer program that allows for entry of mathematical notation. Microsoft Word, Google Docs, and Open Office Writer all have built-in equation editors you can use to insert mathematical notation. You can also use LaTeX if you know how. But, **no handwritten work is accepted** -- any submission that is handwritten will be marked "Revise" and returned without any feedback on the work itself. 
@@ -64,7 +67,7 @@ With this information, prove that for all integers $n \geq 1$, the value that is
 See Problem 2 for a definition of the **logarithm base 2** of a number. Prove that, for all positive integers $n$, the number of bits needed to represent $n$ in binary (base 2) is $1 + \lfloor \log_2(n) \rfloor$, that is, the logarithm base 2 of $n$ rounded down to the next lowest integer, plus 1. 
 
 *Example:* According to this proposition, the number of bits needed to represent the number 99 in binary is 
-$$1 + \lfloor \log_2(99) \rfloor = 1+ \lfloor \log_2(99) \rfloor = 1 + \lfloor 6.6294 \rfloor = 1+6 = 7 $$
+$$1 + \lfloor \log_2(99) \rfloor = 1 + \lfloor 6.6294 \rfloor = 1+6 = 7 $$
 And indeed, if we convert 99 to binary we get `1100011` which contains 7 bits. 
 
 ### Problem 4 
