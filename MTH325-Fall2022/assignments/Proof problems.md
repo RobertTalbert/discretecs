@@ -2,7 +2,7 @@
 
 ## Instructions for all Proof Problems 
 
-First of all please note: **You do not have to do all of the problems below.** The Proofs badge instructions in the syllabus only requires that you complete **three different Proof problems** --- one that uses mathematical induction in the proof, one that does *not* use induction, and a third one that you can prove any way you want. Proof problems will be added continuously to this list through the semester, and there may be dozens of problems fromm which to choose by the end. Please note that problems could be solved in many different ways, and it's possible that some problems could be done both with induction and without it. 
+First of all please note: **You do not have to do all of the problems below.** The Proofs badge instructions in the syllabus only requires that you complete **three different Proof problems** --- one that uses mathematical induction in the proof, one that does *not* use induction, and a third one that you can prove any way you want. Proof problems will be added continuously to this list through the semester, and there may be dozens of problems from which to choose by the end. Please note that problems can be solved in many different ways, and it's possible that some Proof problems could be done both with induction and without it. 
 
 Your job is to **find a problem that looks interesting to you and then solve it**. "Solve" here means **write a complete, correct, and polished proof** for the statement that's given in the problem. [Please see the Specifications for Students Work in MTH 325 document](https://hackmd.io/lD6oyEN5RdiUi_wdg-rkZg) for precise details of what this involves. Among the criteria for acceptable work are these important points: 
 
