@@ -1,4 +1,4 @@
-# SAMPLE Content Skill Standard Quiz
+# Content Skill Standard Quiz 1
 
 :::info
 This quiz contains *new questions* for **Content Skill Standards P.1 and P.2**.
@@ -48,20 +48,3 @@ Consider the statement:
 
 **Success criteria:** All parts of each of the three items here are correctly and clearly stated. 
 
----
-
-### "Successful" solutions for these sample problems
-
-#### P.1 solution
-
-1. The predicate is $P(n): 1 + 2 + 4 + 8 + \cdots + 2^n = 2^{n+1} - 1$. 
-2. We would need to show that $P(1)$ is true, that is, $1 + 2^1 = 2^{1+1} -1$. To prove this, note that the left side is $1 + 2$ or $3$; and note that the right side is $2^2 - 1$ which is also $3$. These two are equal, so the predicate is true when $n=1$. 
-3. Assume that for some positive integer $k$, $1 + 2 + 4 + 8 + \cdots + 2^k = 2^{k+1} - 1$. 
-4. We want to prove that $1 + 2 + 4 + 8 + \cdots + 2^{k+1} = 2^{k+1+1} - 1$. To do this, we might look at the left side and group together the first $k$ terms to get $(1 + 2 + 4 + \cdots + 2^k) + 2^{k+1}$. Then we could replace the stuff in the group with $2^{k+1} - 1$ since we assumed this in the inductive hypothesis. That makes the left side equal to $2^{k+1} -1 + 2^{k+1}$. Then we would want to do some algebra to simplify this and make it equal to $2^{k+2} - 1$ somehow. 
-
-
-#### P.2 solution
-
-1. Assume that $n$ is a multiple of $4$. Then prove that $n^2 - 1$ is a multiple of $4$. 
-2. Assume that $n^2 - 1$ is *not* a multiple of $4$. Then prove that $n$ is *not* a multiple of $4$. 
-3. Assume that $n$ is a multiple of $4$ but $n^2 - 1$ is not a multiple of $4$. 
