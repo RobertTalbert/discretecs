@@ -22,7 +22,7 @@ When you see blue- or purple-underlined text in the syllabus or any other docume
 - **Class meetings:** Section 03 meets MWF 12:00-12:50pm in MAK B-1-110. Section 04 meets MWF 2:00-2:50pm in MAK A-1-111. 
 - **Instructor:** Robert Talbert, Ph.D., Professor of Mathematics. 
 - **Office location:** MAK C-2-513. 
-- **Drop-in hours:** *In-person* drop-in hours are MW 3:00-3:50pm. *Online* drop-in hours are MW 4:00-4:50 via the Zoom link found on Blackboard. **No appointment is necessary**. 
+- **Drop-in hours:** 3:00-5:00pm in Mackinac Hall C-2-513. Online visits are available by appointment at https://calendly.com/robert-talbert/online-drop-in-meeting.  
 - **Appointments outside drop-in hours:** Available on a limited basis. Go to https://calendly.com/robert-talbert, choose a meeting type, then choose an open 20-minute time slot. 
 - **Contacting the prof:** Email (talbertr@gvsu.edu) is preferred. [Be sure to read my availability/response policy](https://hackmd.io/SVah5pL8TdWxMGxtTJQdog#Instructor-availability-and-message-responses).   
 - **Course calendar:** The official course calendar is in [Appendix B](https://hackmd.io/SVah5pL8TdWxMGxtTJQdog#Appendix-B-Class-Calendar-and-important-dates) and on Blackboard. *In case of a date conflict on assignments or course documents, the Class Calendar is assumed to be correct.* 
