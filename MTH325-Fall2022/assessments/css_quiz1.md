@@ -1,3 +1,7 @@
+---
+tags: mth325-f22
+---
+
 # Content Skill Standard Quiz 1
 
 :::info
