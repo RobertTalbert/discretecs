@@ -10,7 +10,9 @@ The flip side of storing that data, is accessing it and turning it into a list. 
 
 For example, suppose you have this BST of words that are ordered [lexicographically](https://stackoverflow.com/a/60604165): 
 
+![](http://walshe.faculty.mjc.edu/Virtual/IntroToProgramming/lectures/06/binaryTree.gif)
 
+(Credit: http://walshe.faculty.mjc.edu/Virtual/IntroToProgramming/lectures/06/129.html)
 
 Let's suppose we want to produce a list of all 15 words in this BST in alphabetical/lexicographic order. We don't know the order in which the words were entered into the tree. But we can traverse the tree according to a particular method or algorithm: For each subtree, do the following recursively: 
 
@@ -18,10 +20,9 @@ Let's suppose we want to produce a list of all 15 words in this BST in alphabeti
 - Then visit the parent node of the subtree
 - Then visit the right subtree
 
-This method of traversal is called an _in-order traversal_. 
+Or look at this BST which encodes the steps in a `while` loop, so that a computer or calculator can execute it: 
 
-On the other hand, look at this BST which encodes the steps in a `while` loop, so that a computer or calculator can execute it: 
-
+![](https://agilewarrior.files.wordpress.com/2017/11/code-tree.png?w=500)
 
 (Credit: https://agilewarrior.wordpress.com/2017/11/07/binary-trees/)
 
@@ -31,8 +32,8 @@ For a computer to make sense of, or **parse**, this expression, it must go throu
 
 In the videos for today's lesson, you'll learn three methods of traversing a tree: 
 
-- *Pre-order* traversal
-- *In-order* traversal
-- *Post-order* traversal
+- [*Pre-order* traversal](https://www.youtube.com/watch?v=1WxLM2hwL-U)
+- [*In-order* traversal](https://www.youtube.com/watch?v=5dySuyZf9Qg)
+- [*Post-order* traversal](https://www.youtube.com/watch?v=4zVdfkpcT6U)
 
 Each method works slightly differently to produce different results that are of use in different situations. 
