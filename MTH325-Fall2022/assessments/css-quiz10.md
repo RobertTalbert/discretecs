@@ -298,7 +298,7 @@ Each part below states a specific condition on a graph $G$. For each case, deter
 In each case, if the graph *must* be a tree or *cannot* be a tree, give a specific, clear, and correct explanation of why (that does not merely state the definition of a tree). If the graph *might or might not* be a tree, give a concrete, specific example of a graph that is a tree that satisfies the conditions given and a concrete, specific example of a graph that is not a tree that satisfies the conditions. 
 
 1. $G$ is a graph with 10 vertices and 8 edges
-2. $G$ is a graph with 10 certices and 10 edges 
+2. $G$ is a graph with 10 vertices and 10 edges 
 3. $G$ is a graph with degree sequence $4, 4, 4, 2, 2, 2$
 
 
