@@ -86,84 +86,102 @@ The basic skills that you'll learn in the course are encapsulated in a list of *
 
 Each class meeting has activities for you to do *before*, *during* and *after* the class. For details on specific assignment types, see the next section. 
 
-* **Before class:** You'll be asked to complete a **Daily Prep** assignment that will involve you in reading a section of [the textbook](http://discrete.openmathbooks.org/dmoi3/dmoi.html) and watching some of the videos at [our playlist](https://vimeo.com/showcase/8667148). You'll be engaging in questions and discussion about these using [Perusall](https://perusall.com/), and completing a small set of basic questions and exercises on a Google Form. This way, you'll come to class ready to work, and we can skip the lecturing in class unless it's really needed. 
+* **Before class:** You'll be asked to complete a **Daily Prep** assignment that will involve you in reading content from [the course vault](https://publish.obsidian.md/mth225/) and watching some of the videos at [our playlist](https://vimeo.com/showcase/8667148). You'll complete a small set of basic questions and exercises on a Google Form. This way, you'll come to class ready to work, and we can skip the lecturing in class unless it's really needed. 
 * **During class:** Class meetings will be focused on *answering questions* and *doing active work*, both intended to make it easy for you to make sense of the material and ask questions. We'll also use time in class for assessment and for completing other assignments, so that a lot of the "homework" for the class is done during class time. 
-* **After class:** In addition to getting started on the next Daily Prep, you should expect to spend significant time in between classes doing practice on concepts you don't fully understand yet, and asking questions. There will occasionally be **Application and Extension Problems** (AEPs) to work on as well. But, most of the work you do outside of class will be on Daily Prep. 
+* **After class:** In addition to getting started on the next Daily Prep, you should expect to spend significant time in between classes doing practice on concepts you don't fully understand yet, and asking questions. There will be weekly **Application/Analysis** problems and occasional **Application and Extension Problems** (AEPs) to work on. 
 
-Our class meetings are 90 minutes long. To keep our energy up,  we'll structure our time in **30-minute blocks** (25 minutes of heads-down work followed by a 5-minute break): 
+A typical week in MTH 225 looks like this: 
 
+(visual here)
 
-| Time | Focus | 
-| :--- | :--- | 
-| 1:00-1:30 | Q&A and review on the Daily Prep assignment; and a 5-minute break | 
-| 1:30-2:00 | Focused group work on the main concept of the day; and a 5-minute break | 
-| 2:00-2:30 | Focused active learning on whatever needs it the most -- and wrap-up for the day | 
-
-
-[Click here to learn more](https://todoist.com/productivity-methods/pomodoro-technique) about the time management technique that underlies this "25+5" approach. 
-
+Sunday - Complete Daily prep for Monday 
+Monday - Q&A from Daily Prep and active work on more advanced concepts from Daily Prep 
+Tuesday - Complete Daily Prep for Wednesday 
+Wednesday -- Q&A from Daily Prep and active work on more advanced concepts from Daily Prep 
+Thursday - Complete Daily Prep for Friday 
+Friday -- Q&A from Daily Prep and active work on more advanced concepts from Daily Prep 
+Saturday -- Nothing (If you stay current on work during the week you shouls always have Saturday open)
 
 ## Assessments and Grades 
 
 You can only learn by doing things. The things you will do to learn include many things that are not assessed or graded, along with some items that are formally assessed and graded. These are: 
 
-* **Daily Prep assignments**: These lead you through an active reading of portions of [the textbook](http://discrete.openmathbooks.org/dmoi3/dmoi.html) and some of [the videos](https://vimeo.com/showcase/8667148). You'll use [Perusall](https://perusall.com/) to engage in discussions and questions on these, and complete a short form with basic exercises and questions. 
+* **Daily Prep assignments**: These lead you through an active reading articles from [the course vault](https://publish.obsidian.md/mth225) and some of [the videos](https://vimeo.com/showcase/8667148). You'll complete a short form with basic exercises and questions. You won't be responsible for matersin *all* the concepts for the lesson, just gaining a basic familiarity with the basic terms and computations so we can focus our time together on things that need the most attention. 
 * **Learning Target completions**: Learning Targets are the basic skills that you should learn in the course. You will be asked to "complete" as many Learning Targets as possible, done mainly by taking short quizzes on them at regular intervals. See "Learning Targets" below for more. 
+* **Application/Analysis**: During class you'll be working in groups on applications and analyses of ideas using the basic skills you pick up through Daily Prep. A portion of that work each week will be selected for you to complete individually and turned in for assessment. These are called *Application/Analysis* sets. 
 * **Application and Extension Problems (AEPs)**: AEPs are problems that either *apply* or *extend* the basic skills found in the Learning Targets. They involve solving new-to-you problems and communicating your reasoning clearly to an appropriate audience.  
-* **Online Practice**: You'll use the WeBWorK online homework system to practice the skills found in the Learning Targets. ==add link once WeBWorK is set up== 
-* **Final Exam**: We'll have a final exam from **1:00-2:30pm ET on Tuesday, June 21** that involves reassessing on a selection of Learning Targets and completing additional tasks. More information on this in week 3. 
+* **Final Exam**: We'll have a final exam on **Wednesday, December 13** that involves reassessing on a selection of Learning Targets and completing additional tasks. More information on this is coming later. 
 
-:::info
+
 ### About the grading system in MTH 225
 
-The way we do grades in this course is a little different than you might be used to. Please read this part carefully and ask questions as needed. 
+The way grades work in MTH 225 is different from what you might have experienced. In MTH 225: 
 
-As a teacher and learner, I strongly believe that **learning takes time** and that grading your work based on a single point of data such as a single quiz or test is not only inaccurate, but invalid and even unethical. A truly valid measure of learning has to involve **multiple attempts** that allow you to learn from your past mistakes and demonstrate not only your skill, but also your growth; and you should not be penalized for having a bad day that results in a bad test score, so long as you can show evidence that you've *eventually* learned what you need to learn. 
+- **Almost none of your assignments have point values**. In fact only the final exam is graded with points. Therefore there is **no partial credit and no averaging**. 
+- Instead, assignments have **specifications** which are descriptions of what constitutes "acceptable" work. These are given in detail in the document *Standards for Student Work* which you can find on Blackboard in the *Syllabus and Calendar* area. When you submit an assignment, I will read it carefully and compare it with the standards, and simply determine whether it meets the specifications or not. 
+- After I evaluate your work, in most cases you will receive **detailed feedback** that will tell you whether your work meets the standards, and if not, the feedback will tell you what was missing and how you might go about fixing it. 
+- Then, on almost every piece of work, you will have the chance to **retry** the assignment if needed, get more feedback, and repeat this **feedback loop** until the work meets our specifications. 
+- Your course grade is not based on point totals or averages (because there are no point values). Instead, the course grade is based on **how many important learning tasks you've successfully accomplished** by the end of the semester, using a simple table that's given below. 
 
-I also strongly believe that **assigning points to your work is deeply unhelpful** for all parties involved. Points give the appearance of a scientific measurement, but in reality *all grading involves a judgment call by the instructor* based on their professional expertise. And points lead to arguments about points and "grade grubbing", both of which are gross. So rather than try to pretend otherwise, I believe your work should be evaluated just like everyone else's work in the real world is evaluated: Have *clearly defined standards* for quality, then I *give detailed verbal feedback* on your work instead of points, then *give you the opportunity to try again* based on the feedback. This gets you into a **feedback loop**, a conversation between you and me about your work, that continues until your work meets the standards. 
+Therefore grades in MTH 225 are based not on your ability to do good work at a single point in time, but rather on your ability to **eventually learn the material** by **acting on feedback** from previous attempts. 
 
-So in MTH 225: 
+This process, using specifications and feedback loops rather than points and averages, is how evaluation of work happens in most situations outside of college. In your future jobs, for example, you'll be reviewed regularly by your manager; it's not a "one and done" situation where you get a point score and then the process is over. Instead, in a real job, you get feedback and coaching on how to improve, and then you act on the feedback and show the boss that you have improved. 
 
-* *There are no points on your work* except for WeBWorK and the final exam. (Daily Prep is recorded 0 or 1 but that's not a point, that's a label.) 
+I've been using this grading method since 2017, originally in MTH 325 and now in all my classes. We do things this way because **learning takes time**, and I believe grading your work based on a single point of data such as a quiz or test and then averaging all of those data is not only inaccurate, but statistically invalid and even unethical. Feedback loops are how all human learning takes place. This approach aligns the grading in the course with the way you naturally learn anything important. 
+
+Those are the main concepts; the details are in the rest of the syllabus. Most students need a week or two to adapt to this system, but then everything is fine. I encourage you to ask questions at any time so I can help you.
+
+
+<!-- The way we do grades in this course is a little different than you might be used to. Before you read about it, let me explain my beliefs about grades and grading. 
+
+A basic fact about learning is that **we all learn through feedback loops**. To learn something, we try it; we get feedback on how it went; we figure out what needs to change; then we try again; and keep trying until it's "good enough" based on some standard we hold. Everything you have ever learned that matters, you learned this way. 
+
+And yet, the way college courses are usually set up are nothing like this. You're expected to try something *once*, which is then assigned a point value that tells you little to nothing about what you did well or did poorly, and you're not allowed any reattempt to fix what needs fixing. 
+
+I have come to believe deeply that **traditional grading systems in college actually detract from learning** because they don't align with the way that you naturally learn things. Traditional points-based grading might be comfortably familiar and give the appearance of objective scientific measurement. But that's just an illusion. In reality, what will help you learn the best is a system that **looks like a feedback loop** --- where you have *clearly defined standards* for quality, then I *give detailed verbal feedback* on your work instead of points, then *give you the opportunity to try again* based on the feedback, and keep trying (with some comnon-sense logistical limits) until you and I are both satisfied. 
+
+That's how the grading system for MTH 225 is set up. In MTH 225: 
+
+* *There are no points on your work* except for the final exam. 
 * What you get instead of points is a *simple mark* that summarizes your current progress on the work, and *detailed verbal feedback* on what went well and what needs attention. 
-* *There is also no partial credit* awarded on your work, because there's no points. (Some WeBWorK questions may receive partial credit if they are multi-part.)
+* *There is also no partial credit* awarded on your work, because there's no points. 
 * What you get instead of partial credit is *the ability to revise and resubmit almost any piece of work*, several times over if needed, using the feedback at each stage to improve and grow.
 
 This is not as weird as it sounds. **It's actually the way all human learning works, and the way most professionals are evaluated in their work**. It only seems strange because it's not how school is typically done. But school and the real world are, well, not necessarily aligned. We will take the "real world" approach. 
 
-Keep reading for more details. 
-:::
+Keep reading for more details.  -->
 
-### How each assignment is graded
 
-Each kind of graded assignment is different, and here is how each is graded: 
+### How your learning is assessed 
 
-| Assignment | How it's graded | What's recorded in Blackboard | 
-| :----     | :------------ | :-------------- | 
-| Daily Prep | Completeness and effort only | `1` for complete, good-faith effort; `0` otherwise | 
-| Learning Targets | Completeness and correctness | *Successful* or *Retry* (see below) | 
-| AEPs    | Completeness, effort, correctness, and communication quality | `E`, `M`, `R`, or `N` (see below) | 
-| Online practice | Correctness | N/A, these are recorded in WeBWorK and not ported to Blackboard | 
-| Final exam | Completeness, effort and correctness | Points, 70 maximum | 
+There are five major categories of assignments: 
 
-[The "Standards for Assessments in MTH 225" document](https://hackmd.io/@rtalbert235/Bys_sKSBc) contains details on the quality standards for each kind of assessment in the course. Please read this carefully and review before each submission you make. 
+- **Class Prep:** These are done prior to class and will give you the basic knowledge of terms, ideas, and basic concepts that will allow us to jump right into applications when we get to class. They involve learning the basics using the course vault and video library and answering some simple questions about the content. 
+- **Application and Analysis:** In class, we will work in groups on higher-level tasks involving application and analysis of the basics. You'll be responsible for individually completing this work that you start in groups during class, and turning it in to be checked for basic overall correctness. 
+- **Learning Targets:** (more info below, flesh out some more) 
+- **AEPs:** These are longer-form problems that involve deeper applications of the concepts from class, on applications in a variety of domains and in problems whose solutions require computer tools and good technical writing.
+
+| Assignment | How it's graded | How it's marked on Blackboard | 
+| :--- | :--- | :---- | 
+| Daily Prep | Completeness and effort only | **Success** or **Incomplete** | 
+| Application/Analysis | Completeness and overall correctness | **Success**, **Retry**, or **Incomplete** | 
+| Learning Targets | Completeness and correctness | **Success** or **Retry**  | 
+| AEPs    | Completeness, effort, correctness, and communication quality | **Success**, **Retry**, or **Incomplete** | 
+| Final exam | Completeness, effort and correctness | Points | 
+
+[The Standards for Student Work document](link needed) contains details on the quality standards for each kind of assessment in the course. Please read this carefully and review before each submission you make. 
 
 ### Learning Targets
 
-A main goal for you in the class is to demonstrate skill on the [Learning Target](https://hackmd.io/TchC8fZORJ29EgxQb1O4lQ?view#Appendix-Learning-Targets). The primary way you'll demonstrate skill is through **Learning Target quizzes**, given 1-2 times per week. Each quiz contains several problems, and each problem covers exactly one of the Learning Targets. Work on a quiz problem for a Learning Target with only a limited number of errors will constitute a "successful demonstration" of skill and will be marked *Successful*. Work on a Learning Target quiz problem that doesn't meet the standards will be marked *Retry*, and you'll have a chance to try again later after further study and practuce. See the [Standards for Assessments document](https://hackmd.io/@rtalbert235/Bys_sKSBc) for the details on what you'll be asked to do for each Learning Target and the precise criteria for success. 
+A main goal for you in the class is to demonstrate skill on the [Learning Targets](link). The primary way you'll demonstrate skill is through **Learning Target checkpoints**, given 1-2 times per week. Each checkpoint contains one problem for every Learning Target that's been discussed in class meetings by that point, and each problem addresses exactly one Learning Target. Each problem is an opportunity to give **demonstration of skill** on the target it covers. 
 
-**Each Learning Target requires two successful demonstrations of skill.** Once you've successfully demonstrated skill twice on a Learning Target, the Target is **completed** and no further assessment on that target is necessary. 
+Each Learning Target comes with **success criteria** that describe what a successful demonstration of skill on that target looks like. If your work on a checkpoint problem over a particular Learning Target meets those success criteria, it will be marked **Success**. Otherwise it will be marked **Retry**, and you will try that problem again on a future checkpoint. **You are not penalized for work that doesn't meet the success criteria.** It just means you'll need to try again later, once you've read the feedback and practiced. 
 
-Each quiz is **cumulative**, meaning that it will contain problems for each *new* Learning Target along with *new versions* of quiz problems for earlier Learning Targets. **You do not need to do all the problems on each quiz;** just attempt the problems for Learning Targets that you haven't completed yet and feel ready to try. 
+Each checkpoint is **cumulative**, meaning that it will contain problems for each *new* Learning Target along with *new versions* of checkpoint problems for earlier Learning Targets. **You do not need to do all the problems on each checkpoint;** just attempt the problems for Learning Targets that you haven't completed yet and feel ready to try. 
 
-Your work on Learning Target quizzes will be done by hand, then scanned and uploaded to Blackboard. You will be responsible for keeping track of how many successful attempts you've made, although I will update you on your records around week 4. 
+**Need to include:** 
 
-**Alternative ways of demonstrating skill on Learning Targets:** You can also demonstrate your skill on a Learning Target in the following ways other than quizzes: 
-
-- *An oral quiz in drop-in or appointment hours*. In this option, you schedule time with me to meet online, during which I'll give you a new instance of a problem, and you work it out "live".  
-- *A video posted to Flipgrid*. In this option, you request a Learning Target, and I'll give you a new instance of a problem for it, then you make a brief video of the solution and post it to the service [Flipgrid](https://info.flipgrid.com/). 
-
-Details on these will be sent out in week 2. Other ways of demonstrating skill may be introduced later, especially for Learning Targets appearing near the end of the course. 
+- 
 
 
 ### AEPs 
