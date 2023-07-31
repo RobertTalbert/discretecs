@@ -148,8 +148,267 @@ Each of these assignments is graded as follows:
 
 [The Standards for Student Work document](link needed) contains details on the quality standards for each kind of assessment in the course. Please read this carefully and review before each submission you make. 
 
+Additionally, we will have a brief but comprehensive **final exam**, graded using points (out of 100) whose schedule is on the course calendar. 
+
 ### More about Learning Targets
 
-The 15 Learning Targets given in Appendix A are the core basic skills of MTH 225. They are not the only thing that matters in the course; but part of your job in the course is to **demonstrate skill on as many of these Learning Targets as you can, at some point in the semester.** 
+The 15 Learning Targets given in Appendix A are the basic skills of MTH 225. They are not the only thing that matters in the course; but part of your job in the course is to **demonstrate skill on as many of these Learning Targets as you can, at some point in the semester.** 
 
-The main way you'll demonstrate skill on Learning Targets is by **working Skill Quiz problems**. Almost every week, we will have a short in-class quiz over a portion of the Learning Targets. Each quiz contains one problem for each Learning Target that is covered, and each problem focuses on just one Learning Target. 
+The main way you'll demonstrate skill on Learning Targets is by **working Skill Quiz problems**. Almost every week, we will have a short in-class quiz over a portion of the Learning Targets. Each quiz contains one problem for each Learning Target that is covered, and each problem focuses on just one Learning Target. Each problem on a Learning Target is a **demonstration of skill** on that target. 
+
+The [The Standards for Student Work document](link needed) contains details on what constitutes a *successful demonstration of skill* on each Learning Target. Generally, a successful demonstration of skill involves completing the action or task described by the Learning Target with no significant errors and only a small number of minor mistakes allowed, along with a clear explanation of the work.  Your work on skill quizzes will be graded per problem, and each problem that you work will receive a mark of **Success** if the work meets the success criteria and **Retry** if it does not. 
+
+The Blackboard gradebook will record the number of successful demonstrations of skill you have attained on each Learning Target. **Once you have provided two successful demonstrations of skill on a Learning Target, you are considered to have mastered that concept, and no further quiz work is necessary.** We will use the term **Level 1** to describe a Learning Target with one successful demonstration of skill and **Level 2** to describe a Learning Target with one successful demonstrations of skill. 
+
+Problems covering Learning Targets that are not CORE, will appear on **three consecutive Skill Quizzes**, beginning when the Learning Target is covered in class, offering you three opportunities to demonstrate skill on those Learning Targets. Problems covering CORE Learning Targets will appear on *every* Skill Quiz beginning when they are covered in class. There will also be a **mega-quiz** at the end of the semester covering all 15 Learning Targets, and the final exam will contain an optional section with one last attempt on any Learning Target that needs one. 
+
+Because of the cumulative nature of the Skill Quizzes, you have the freedom to skip problems that you are not prepared to work; just practice for another week and try again at the next quiz (if the Learning Target is available). If you attempt a quiz problem and it receives a **Retry** mark, or if you are absent for a quiz, or if you choose not to attempt a problem because you're not prepared for it, you can just take it later. 
+
+Alternative methods of demonstrating skill on Learning Targets may be made available during the semester as needed. 
+
+## Course Grades
+
+Your course grade is assigned using the table below. It shows the requirements for the "base grade" of A, B, C, or D; criteria for plus/minus grades are shown below the table. The numbers in the table refer to the number of **Success** marks on each item. **To earn a grade, complete ALL the requirements listed in the row for that grade.**
+
+| Grade | Class Preps (out of 25) | Application/Analysis out of 10)  | Learning Targets at Level 1 | Learning Targets at Level 2 | AEPs (out of 8) | 
+| :---: | :-------------------:   | :-------------: | :--------------------: | :-------: | :----: | 
+| A | 20 |  8 | All 8 Core + 6 others | All 8 Core + 2 others | 6 | 
+| B | 18 |  7 | All 8 Core + 4 others | All 8 Core | 4 | 
+| C | 16 |  6 | All 8 Core + 2 others | Any 6 Core + 2 others | 2 | 
+| D | 10 |  4 | Any 8 | All 8 Core + 2 others | 0 | 
+
+A grade of "F" is earned if not all of the requirements for a "D" are met.
+
+The final exam only contributes to your course grade by potentially adding a plus/minus modifier to your base grade. Hence it does not appear in the grade table. 
+
+If the total number of assignments of a given type is changed due to scheduling or other issues, this table will be updated. 
+
+**Plus/Minus grades:** A *plus* modifier to a base grade is given if you meet all the requirements for the base grade and either: 
+
+- You also complete either the Level 2 Learning Target requirement or the AEP requirement for the next grade up, *or*
+- You earn an 85% or higher on the final exam. 
+
+(Completing both of these does not raise your grade further.) A *minus* modifier is given if:
+
+- You complete all the requirements for a base grade *except* Class Preps, *or*
+- You earn 50% or lower on the final exam. 
+
+Note: Significant deficiencies in Class Prep submissions may warrant a further reduction in your grade. 
+
+*Exceptions:* GVSU does not award grades of A+ or D-. 
+
+To track your grade as the semester unfolds, you can use the *Course Grade Tracker* handout that is posted on Blackboard in the *Syllabus and Calendar* area. 
+
+## Revisions and reattempts 
+
+**You can revise or reattempt most assignments you turn in, without penalty, until they meet the criteria for acceptable work given in the *Standards for Student Work* document.** Not all work can be revised, and some work has limitations on revision. Here are the details: 
+
+| Assignment | Revisions allowed | How to revise and resubmit | 
+| :-------: | :----------------: | :-------------------------: | 
+| Class Prep | *May not be revised.* | n/a | 
+| Application/Analysis | Application/Analysis sets may be revised **once per set**. | Submit a revision on Blackboard. | 
+| Learning Targets | Each target appears on multiple quizzes. | Retry the skill on a subsequent quiz. | 
+| AEPs | Up to **two submissions per week** of AEPs are allowed. | Submit a revision on Blackboard. | 
+
+
+
+**Limitations on revisions:** Although there is no penalty for revising or reattempting work, we place the following limitations on this process to keep the feedback process manageable: 
+
+- **Learning Targets can only be retried on later skill quizzes**. Makeup quizzes are not offered. 
+- **Application/Analysis sets can only be revised once.** Revisions are submitted on Blackboard in the same assignment area as the original submission, and each set will have a deadline by which revisions need to be submitted. 
+- **Only two submissions per week are allowed for AEPs**. This can be new submissions of two different AEPs; or revisions of two different AEPs; or one new submission and one revision. Make sure to build a habit of submitting AEP work early and often, since you cannot wait until the end and submit several all at once. 
+- **No revisions any work are allowed after 11:59pm ET on Sunday, December 3** in order to provide time and space to grade all pending revisions for final course grade determinations.
+
+### Retry vs. Incomplete
+
+Application/Analysis and AEP submissions are marked *Success*, *Retry*, or *Incomplete*. 
+
+- A *Retry* mark is given to work that represents a good-faith effort at a complete and correct solution and which shows partial understanding of the concepts, but which has significant errors or gaps. 
+- An *Incomplete* mark, on the other hand, does not contain enough information in the work to determine if there is understanding of the concepts; typically this is due to omissions of major portions of the assignment, code that will not run due to syntax errors, fundamental misunderstandings with the problem, or having too many issues to justify feedback on each one.
+
+Work marked *Retry* can be revised and resubmitted without penalty, subject to the restrictions above. Work marked *Incomplete* is subject to further restrictions: 
+
+- You must spend a token (explained below) to revise any item marked *Incomplete*. (Reminder, Class Preps cannot be revised at all.)
+- If a revision of an Application/Analysis set is marked *Incomplete*, no further revisions are allowed. 
+
+### Tokens 
+
+Tokens are a fake currency (like Bitcoin) used in MTH 225 to buy exceptions to the rules. Each student starts with five tokens; your current "balance" is found in the Blackboard gradebook. You can spend one token to purchase any of the following: 
+
+- A single 48-hour extension to any deadline (except the December 3 deadline for revisions) 
+- A revision of an AEP or Application/Analysis set marked *Incomplete* (except for revisions of Application/Analysis that are themselves marked *Incomplete*)
+- Change the mark on a Class Prep from *Incomplete* to *Success* 
+
+To spend a token, fill out the Token Spending Form **LINK NEEDED**. The token has been spent as soon as you fill the form out; you do not need to wait for my approval.
+
+Other uses of tokens, and ways for earning more, may become available during the semester. 
+
+## Academic integrity and honesty 
+
+**This course is subject to [GVSU course policies](http://www.gvsu.edu/coursepolicies/) and the [GVSU student code](https://www.gvsu.edu/cms4/asset/7B58A5E7-F4C2-114C-CCDA36F96BD2AF73/the_statement_final_fa2020(2).pdf). This document establishes guidelines and expands and clarifies these policies with respect to all work done in MTH 225 this semester.** 
+
+The student code defines **academic misconduct** as *any action or behavior that misrepresents one’s contributions to or the results of any scholarly product submitted for credit, evaluation, or dissemination*. This includes cheating, collusion, dual submission, falsification, and plagiarism as well as any behavior that enables or helps others do these things.
+
+Academic misconduct is a serious matter and carries significant consequences, up to and including failure of the course and possible suspension from the university. In all cases, the guidelines established in the GVSU catalog and GVSU student code will be followed. I reserve the right to discuss the nature and origins of any assignment with any student before assessing it.
+
+Different assignments in MTH 225 have different levels of acceptable collaboration. These are detailed below. **It's your job to read these carefully, know what is acceptable and what is not acceptable on each kind of assignment, and stay within bounds.** 
+
+- On *Class Prep*, you are **allowed and encouraged to collaborate with others** as long as your  responses reflect your own understanding and are not merely copied from another. Remember, these are only graded on completeness and effort, and mistakes are not penalized. 
+- On *Application/Analysis sets*, you **are allowed** (in fact, expected) **to work on these in groups during class time first**. You can, and should, use your group work as the basis for your individual writeup. However, **they must be finished individually with no collaboration beyond what took place in class**. For example if you need to talk with one of your group members to clarify something they said during class, that is OK; but it is not OK to question that person further about work that didn't take place during class, or to continue working as a group outside of class beyond your class work. 
+- On *Skill Quizzes*, you will take these individually in class and **no collaboration is allowed at all**. Additionally **your use of technology is restricted to a basic scientific or graphing calculator**. 
+- On *AEPs*, you are **allowed to engage in general discussions of strategy only with others, but no collaboration on the details of a problem are allowed.**. 
+
+**Definition of "others" in these policies:** Collaboration with "others" includes current students in your section of MTH 225; students in other sections of MTH 225; former students from MTH 225; discussion-oriented websites like StackExchange or Reddit; and artificial intelligence applications such as ChatGPT. The intention here is that **the work you submit is your thinking, not someone or something else's.** 
+
+I have no interest in creating a police state in your course. But I am obliged to investigate any evidence I percieve in which a student is submitting work that does not faithfully represent their own understanding. This investigation may involve discussions about the work or a request to reproduce the work or something like it, in a face-to-face meeting. 
+
+There are two important exceptions to these rules: 
+
+- *Technical* details about an assignment --- for example how to format an equation in Markdown, or getting general help on using Jupyter notebooks --- is fine to discuss in whatever level of detail you want with anyone else. 
+- **You can ask me (Talbert) any question you want, about anything, at any time.** Getting help from the professor is not academic dishonesty! In case I cannot answer a question because it would reveal spoilers for the solution, I'll tell you so and it will be no big deal. 
+
+PLEASE NOTE: **There's no need to be academically dishonest in MTH 225, because you can revise and resubmit.** Rather than cheat, *do your best, ask questions, and use the revision process* so that you really grow and learn in the course. 
+
+## Getting help 
+
+As mentioned, you will almost certainly find yourself lost, stuck, or confused on *something* in this course, possibly quite often. This is not a defect in your character or intelligence; it's a sign you are being challenged, and you can turn that challenge into real growth by **seeking out help as soon as you need it**. 
+
+Make every effort to get yourself unstuck and resolve your questions on your own first. But then: 
+
+* **Attend drop-in hours and ask questions there.** You can use the in-person drop-in hours, the online ones, or both. No appointment needed. 
+* [Schedule an appointment through Calendly](https://calendly.com/robert-talbert/) if drop-in hours don't work for you. 
+* **Work with a classmate** as long as you're staying within bounds on academic honesty above. In particular, working in groups on Class Prep is a very good idea and will help keep you from getting stuck at the beginning of a new concept. 
+
+## Course Policies 
+
+### Attendance, absence, and participation
+
+- **Attendance** is expected at all class meetings and is required for working on Application/Analysis sets and Skill Quizzes. While attendance is not directly part of your grade, it will be recorded at each class meeting, so that I can reach out to students who are absent often. 
+- **Remote attendance** (via live-streaming or recorded class meetings) is generally not offered in MTH 225. If you are in a situation where you believe you need a remote attendance option, please let me know as soon as possible.
+- **Absences** from class do not require permission from me or prior notification, although a heads-up is helpful. However: 
+    - If you are absent, you will not have the benefit of working with your group on Application/Analysis; you will be expected to complete the set on your own. 
+    - If you are absent from a Skill Quiz, no makeups are available. Each Learning Target appears on multiple quizzes, so if you miss one, you'll be expected to make an attempt on the next quiz.
+
+Exceptions to these rules are always up for discussion. If you believe you need special accommodation, please contact me as soon as possible to discuss it. 
+
+### Inclement weather 
+
+In case of a major weather event that makes in-person meeting inadvisable, **class will be moved online**. You'll be provided with links to the tools for doing this in case it becomes necessary. **Class will not be cancelled completely unless the university itself closes.** Make sure to check your email daily for announcements about changes to the class. 
+
+
+### Deadlines 
+
+Class Preps are always due at **11:59pm Eastern Time the night before their class**. (For example, Wednesday Class Preps are due 11:59pm ET Tuesday.) 
+
+Application/Analysis sets are always due at **11:59pm ET on Fridays**. Revisions of Application/Analysis sets will also have deadlines, which will be announced in class (typically one week after the original set is graded). 
+
+Skill Quizzes are given in class, and the work is collected at the end of the period. A schedule for these will be available early in the semester. 
+
+Each AEP comes with an **initial deadline**. Your **first attempt** on a miniproject must be submitted by that deadline, and no first attempts on a miniproject are accepted after that initial deadline. However, once your first attempt is submitted, there is **no deadline** for turning in revisions (if revisions are needed); you can continue to work with a miniproject at your own pace once the initial draft is turned in. However, **a single deadline of 11:59pm ET on Sunday, December 3** is in place for all work on Miniprojects. 
+
+## Late work
+
+Class Prep assignments have a deadline of 11:59pm ET. However, I do not grade these until the following morning. If you need an hour or two more to complete a Class Prep, go ahead and submit it a little late. As long as I have not graded the class' submissions, I will treat it as an on-time submission. *However please note*: The actual grading time varies from day to day and is often quite early (5:30am sometimes). So make every effort to submit work on time. 
+
+A similar rule holds for Application/Analysis sets: Although the deadline is 11:59pm ET Fridays, I will not grade these until the following Monday. Use the Friday deadline as an "implementation intention" that helps you turn things in on time; but if you desperately need the weekend to complete it, go ahead and submit it a little late. 
+
+If you need additional time to complete any assignment, fill out the Token Spending Form to purchase a 48-hour extension. **Only one deadline extension per assignment is allowed.**. 
+
+There are two sets of deadlines that **may not be extended even with a token**: 
+
+- Any Class Prep assignment; and 
+- The Sunday December 3 deadline for all AEP submissions. 
+
+Finally, **deadlines may not be extended twice on the same assignment**. Once you have purchase a 48-hour extension, the new deadline is 48 hours from the original and may not be extended further. 
+
+If you are in a life situation where submitting work on time consistently is an issue, please let me know and we will try to work something out. 
+
+
+---
+
+
+### Technology skills and support 
+
+You should be proficient in the basic technology skills listed at [this GVSU policy page](https://www.gvsu.edu/online/technology-requirements-for-onlinehybrid-courses-8.htm). This list is specifically for online and hybrid courses, but the skill set applies to our class as well. If you need help at any time with those skills, please ask me or a classmate. 
+
+**I (Talbert) am not able to provide tech support** since I lack the skill and permissions to fix all possible problems. 
+
+**Tech support:** Technology issues will happen with almost 100% certainty, usually at the worst possible moment. **When this happens, do NOT contact me first!** Instead, contact the appropriate person or office listed below: 
+
+* For help with **Blackboard:** Email the Blackboard Help Desk at bbadmin@gvsu.edu or call (616)331-8526. For hours of operation and more information see http://www.gvsu.edu/elearn/help. 
+* For help with **the GVSU network, email, or printing**: Email the GVSU IT Help Desk at helpdesk@gvsu.edu; or call (616)331-2101 or toll free (855)435-7488. For hours of operation and more information see https://www.gvsu.edu/it. 
+* For help with **your computer:** Try the GVSU IT Help Desk (above) or contact your device's manufacturer or a computer store. 
+* For help with **any other technology:** Ask a question of a classmate (or me), seek out the help documentation in the tool you are using, or do a targeted Google search. 
+
+**If technology issues prevent submitting work:** If you have contacted an appropriate source of help and an issue still persists that prevents you from turning in work in the usual way (for example on Blackboard), **you are expected to take alternative measures to get your work turned in on time.** For example, if Blackboard is offline and a deadline is near, send an email with an attachment. Then, submit the work using the normal means later. 
+
+### Instructor availability and message responses
+
+**You can ask a question about anything at any time.** You have both the right and the responsibility to ask questions about anything in the course you don't fully understand, whether math or some aspect of the syllabus or anything else. You can use email (talbert@gvsu.edu), drop-in hours, or grab me after class. Email is the best venue; to get help on a WeBWorK question, use the "Email the instructor" link found in the problem. 
+
+However, please note that I do not always respond immediately to messages. In particular **I do not check email between 6:00pm and 6:00am on weeknights**, and **I do not check email at all on weekends**. That said, 
+
+- Messages sent on a weekday (Monday-Friday) before 4:00pm ET will get a response *the same day*. 
+- Messages sent after 4:00pm ET Monday-Thursday will get a response *the next day*. 
+- Messages sent after 4:00pm on Fridays or on the weekend will get a response *the following Monday*. 
+
+**Please plan ahead for instructor availability.** For example if you have something to turn in on a Friday, and you send a question by email after 4:00pm, my reply may not come in time to help you; plan ahead for contingencies like this. 
+
+### Special accommodations and basic needs 
+
+If you have special needs because of learning, physical or other disabilities, it is your responsibility to contact Disability Support Resources (DSR) at (616)331-2490 or http://www.gvsu.edu/dsr/. DSR will help you arrange accommodations. Then, speak with me in person about making those accommodations and ensure that they are consistent with your arrangements with DSR.
+
+If you have difficulty affording groceries or accessing sufficient food to eat every day, or if you lack a safe and stable place to live, I encourage you to visit [Replenish](https://www.gvsu.edu/replenish/), a food resource for GVSU students. If you are comfortable doing so, please speak with me about your circumstances so that I can advocate for you and to connect you with other campus resources.
+
+If, for purposes of gender identity and expression, your official name (in Banner) does not match your preferred name, your name can be updated in Blackboard. Please contact the registrar's office to submit this request. The registrar's office will contact the Blackboard administrator to make the change and will also contact your professors to inform them that your name in Banner will not match the name in Blackboard.
+
+## About the instructor 
+
+I'm Robert Talbert, the professor for this course. I'm a Professor of Mathematics and also work in the president's office as Presidential Fellow for the Advancement of Learning. This is my 31st year of teaching overall (not counting tutoring gigs). I have a Ph.D. in Mathematics from [Vanderbilt University](http://vanderbilt.edu) and a B.S. degree from [Tennessee Tech University](http://www.tntech.edu). 
+
+I was, at best, a thoroughly mediocre math student in school until my senior year of high school, when I had a teacher for Calculus (hi, Mrs. Allen) who stopped trying to cram things into my head and instead showed me the basics -- and then backed off, and let me work things out on my own (with support if I got stuck). Basically, this is how I teach today. 
+
+After a two-year gig as a Psychology major in college, I changed my major to math after a late-night dare from my roommate (long story) and, to my great surprise, I fell in love with the subject. I ended up getting a Ph.D. working in an obscure area at the intersection of abstract algebra and geometry, and I also discovered I loved teaching math to college students. So I went on to spend 14 years teaching in [small liberal arts colleges](http://franklincollege.edu) before coming to GVSU in 2011.
+
+Now, I teach computer scientists and engineers how to think like mathematicians, I do research on how to make college teaching better, and I have an appointment as Senior Faculty Fellow for Learning Futures, in which I coordinate research and development projects to make your learning experience better here. When nobody is looking, I'm working on my data science skills including learning the languages R and Julia. 
+
+I live in Allendale with my family, consisting of a wife and three kids, although two of those kids are currently elsewhere (one is a high school exchange student in Australia this year, the other has a job and an apartment). I'm an avid bass guitar player, currently playing in the Grand Rapids and Muskegon areas with two cover bands. I also love the outdoors and get out to run, bicycle, or hike when I can. You can read more about what I'm thinking and doing at my website, [rtalbert.org](https://rtalbert.org), or at my "other blog" [Grading for Growth](https://gradingforgrowth.com) about alternative grading practices which I co-author with my GVSU colleague Prof. David Clark. I'm also on Twitter at [@RobertTalbert](http://twitter.com/RobertTalbert) and on [LinkedIn](https://www.linkedin.com/in/roberttalbert/). I will accept any connection request on LinkedIn from a student! 
+
+## Appendix A: Learning Targets
+
+The Learning Targets labeled with a star ⭐ are the CORE Learning Targets. 
+
+1. I can convert a positive integer from base 10 to base 2, 8, and 16 and vice versa and represent a negative integer in base 2 using two's complement notation. 
+2. ⭐ I can add, subtract, multiply, and divide positive integers in base 2. 
+3. ⭐ I can identify the hypothesis and conclusion of a conditional statement and state its converse, contrapositive, inverse, and negation. 
+4. I can construct truth tables for propositions involving two or three atomic propositions and use truth tables to determine if two propositions are logically equivalent. 
+5. I can determine the truth value of a predicate at a specific input, the truth value of a quantified predicate, and the negation of a quantified predicate. 
+6. ⭐ I can determine elements of a recursively-defined sequence using a recurrence relation and derive a recurrence relation for a recursively-defined sequence. 
+7. ⭐ Given a statement to prove using mathematical induction, I can state the framework of a proof. (Identify the predicate, identify and prove the base case, state the inductive hypothesis, and state what needs to be proven in the inductive step)
+8. ⭐ I can convert a set given in roster notation to set-builder notation and vice versa; and determine if an object is an element of the set. 
+9. ⭐ I can find the intersection, union, difference, symmetric difference, power set, cardinality, cartesian product, and complement of sets. 
+10. I can determine if a mapping is a function; identify the domain, range, and codomain of a function; and determine the image of a specific input in one function or a composition of functions.
+11. I can determine if a function is injective, surjective, or bijective. 
+12. ⭐ I can apply the Additive and Multiplicative Principles and the Principle of Inclusion/Exclusion to formulate and solve basic combinatorics problems.
+13. ⭐ I can compute factorials and binomial coefficients, and apply the these concepts to solve basic combinatorics problems. (permutations, selections, distributions)
+14. I can determine if a sequence of numbers is arithmetic or geometric and derive both closed-form and recursive formulas for them. 
+15. I can use the characteristic root method to find a closed-form solution for a first- or second-order linear homogeneous recurrence relation. 
+
+## Appendix B: Course Calendar 
+
+You can access the calendar directly at this link: https://calendar.google.com/calendar/u/1?cid=Y183MGRiN2ExZjIyNzc0OTYxOTEwY2IxN2ZlNzRhZjBjMDNhNzg3NDY5YjhlMzNiYWE0OGNhYzNlNTZjMjNhNDAwQGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20  It's also embedded on Blackboard in the *Syllabus and Calendar* area, as well as below (although some web versions may not display it). 
+
+<iframe src="https://calendar.google.com/calendar/embed?src=c_70db7a1f22774961910cb17fe74af0c03a787469b8e33baa48cac3e56c23a400%40group.calendar.google.com&ctz=America%2FNew_York" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
+
+**Important dates:**
+
+- Tuesday, January 24 and Thursday, January 26: No class, Prof. Talbert out of town
+- Monday, March 6--Friday, March 10: Spring Break
+- Thursday, April 21: Last class meeting
+
+## Appendix C: Course Tools and Links
+
+- **Blackboard**: http://lms.gvsu.edu, then look for your section of MTH 302. 
+- **Google Colab:** This is our platform for using Python to do linear algebra and differential equations. Go to https://colab.research.google.com/ and sign in with your GVSU Google account. 
+- **Perusall**: This is for doing reading and other activities for  http://perusall.com (Use the invite code posted to Blackboard in the *Important Links* area; log in to access course materials) 
+- **Calendly**: This is for scheduling appointments with me outside of the usual drop-in hours. Go to https://calendly.com/robert-talbert then choose the kind of appointment you want, then pick any open 20-minute time slot. Note, appointment slots are limited. 
