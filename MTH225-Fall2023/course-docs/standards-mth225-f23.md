@@ -34,6 +34,8 @@ Work that is marked *Retry* will get feedback on the issues that are present, an
 
 Each Learning Target has its own set of **Success Criteria** that will appear on Skill Quizzes. Your work on a Skill Quiz will be marked *Success* if the work meets the success criteria. Otherwise it will be marked *Retry* and you'll receive feedback on your work. Skills appear on multiple quizzes, so you have multiple chances to Succeed on each.
 
+Success criteria for the Learning Targets will be accumulated in this document as we progress through the course. 
+
 ## Standards for AEPs 
 
 AEPs are the most complex and involved assignments you will have in MTH 225. They involve writing and communication in addition to mathematical and computer work. Like Application/Analysis, AEPs are marked *Success*, *Retry*, or *Incomplete* but the criteria are different: 
