@@ -235,11 +235,17 @@ Work marked *Retry* can be revised and resubmitted without penalty, subject to t
 
 Tokens are a fake currency (like Bitcoin) used in MTH 225 to buy exceptions to the rules. Each student starts with five tokens; your current "balance" is found in the Blackboard gradebook. You can spend one token to purchase any of the following: 
 
-- A single 48-hour extension to any deadline (except the December 3 deadline for revisions) 
+- A submission of a third AEP in a given week (Normally you can only submit two items per week)
+- A single 48-hour extension to any AEP deadline (except the December 3 deadline) 
 - A revision of an AEP or Application/Analysis set marked *Incomplete* (except for revisions of Application/Analysis that are themselves marked *Incomplete*)
 - Change the mark on a Class Prep from *Incomplete* to *Success* 
 
-To spend a token, fill out the Token Spending Form **LINK NEEDED**. The token has been spent as soon as you fill the form out; you do not need to wait for my approval.
+
+To spend a token, fill out the [Token Spending Form](https://docs.google.com/forms/d/e/1FAIpQLSdec4ILo7guFJteABZ-e8AxK1GxDOJ-f2yEOWKxjAjH84SP2A/viewform) at the link shown here, or on our Blackboard site. The token has been spent as soon as you fill the form out; you do not need to wait for my approval.
+
+Please see the *Late Work* section below for additional information and some important restrictions about deadline extensions via tokens. 
+
+**Tokens may not be "stacked"**, for example you may not spend two tokens to extend the deadline on an AEP by 96 hours; or three tokens to submit five AEPs in a given week. 
 
 Other uses of tokens, and ways for earning more, may become available during the semester. 
 
@@ -298,34 +304,30 @@ In case of a major weather event that makes in-person meeting inadvisable, **cla
 
 ### Deadlines 
 
-Class Preps are always due at **11:59pm Eastern Time the night before their class**. (For example, Wednesday Class Preps are due 11:59pm ET Tuesday.) 
+All deadlines for assignments will be clearly indicated either on the assignment, the course calendar, or both and will be repeated in the weekly announcement digest on Blackboard. Deadlines follow a consistent pattern to make them easier to remember: 
 
-Application/Analysis sets are always due at **11:59pm ET on Fridays**. Revisions of Application/Analysis sets will also have deadlines, which will be announced in class (typically one week after the original set is graded). 
+- Class Preps are always due at **11:59pm Eastern Time the night before their class**. (For example, Wednesday Class Preps are due 11:59pm ET Tuesday.) 
+- Application/Analysis sets are always due at **11:59pm ET on Fridays**. Revisions of Application/Analysis sets will also have deadlines, which will be announced in class (typically one week after the original set is graded). 
+- Skill Quizzes are given in class, and the work is collected at the end of the period, so the end of the hour is the "deadline". A schedule for these will be available early in the semester. 
 
-Skill Quizzes are given in class, and the work is collected at the end of the period. A schedule for these will be available early in the semester. 
+**For AEPs:** Each AEP has an **initial deadline**. Your **first attempt** on an AEP must be submitted by that deadline, and no first attempts on an AEP are accepted after that initial deadline. However, once your first attempt is submitted, there is **no deadline** for turning in revisions (if revisions are needed); you can continue to work with an AEP at your own pace once the initial draft is turned in. However, **a single deadline of 11:59pm ET on Sunday, December 3** is in place for all work on AEPs. 
 
-Each AEP comes with an **initial deadline**. Your **first attempt** on a miniproject must be submitted by that deadline, and no first attempts on a miniproject are accepted after that initial deadline. However, once your first attempt is submitted, there is **no deadline** for turning in revisions (if revisions are needed); you can continue to work with a miniproject at your own pace once the initial draft is turned in. However, **a single deadline of 11:59pm ET on Sunday, December 3** is in place for all work on Miniprojects. 
+## Late work and deadline extensions
 
-## Late work
+Most deadlines in MTH 225 are there for you as "commitment devices", something you can put on your calendar to establish a time frame for completion and to motivate you to complete the work in a timely way. But there is also a great deal of flexibility: 
 
-Class Prep assignments have a deadline of 11:59pm ET. However, I do not grade these until the following morning. If you need an hour or two more to complete a Class Prep, go ahead and submit it a little late. As long as I have not graded the class' submissions, I will treat it as an on-time submission. *However please note*: The actual grading time varies from day to day and is often quite early (5:30am sometimes). So make every effort to submit work on time. 
+- **Class Preps**: While these are due at 11:59pm ET the night before a class, I will not grade these until the following morning. If you need an hour or two more to complete a Class Prep, go ahead and submit it a little late. If it's turned in by the time it's graded, it will be considered an on-time submission. *However, please note well:* The actual time of grading varies from day to day, and is usually early (like, 5:30am some times). I cannot guarantee the schedule, so make every effort to submit these on time. 
+- **Application/Analysis:** A similar rule holds for these -- although they are due on Fridays at 11:59pm ET, I will not grade these until the following Monday. So make every effort to complete these on time; but if you desperately need the weekend to complete it, go ahead and take the weekend. 
 
-A similar rule holds for Application/Analysis sets: Although the deadline is 11:59pm ET Fridays, I will not grade these until the following Monday. Use the Friday deadline as an "implementation intention" that helps you turn things in on time; but if you desperately need the weekend to complete it, go ahead and submit it a little late. 
+Deadline extensions are also available for "purchase" by [spending a token](https://docs.google.com/forms/d/e/1FAIpQLSdec4ILo7guFJteABZ-e8AxK1GxDOJ-f2yEOWKxjAjH84SP2A/viewform). However the following restrictions apply: 
 
-If you need additional time to complete any assignment, fill out the Token Spending Form to purchase a 48-hour extension. **Only one deadline extension per assignment is allowed.**. 
+- **Deadlines on Class Prep and Application/Analysis assignments** (including revisions of Application/Analysis) **may not be extended**, because of the built-in flexibility in the deadline stated above. If you need more time to complete the assignment, just take it, within the time frames stated above. 
+- **Skill Quizzes must be submitted during class time**. These don't have "deadlines" as such since they are done strictly in person. Therefore a token can't "extend the deadline". 
+- Therefore **deadline extensions via tokens only applies to AEPs**. Tokens can be spent to extend any deadline once by 48 hours. The exception is the Sunday, December 3 deadline by which all AEP work for the course must be submitted. The new deadline is 48 hours past the original deadline -- not 48 hours from the time you spend the token. You may not extend the deadline on an assignment twice, or spend more than one token to extend the deadline more than 48 hours. 
 
-There are two sets of deadlines that **may not be extended even with a token**: 
-
-- Any Class Prep assignment; and 
-- The Sunday December 3 deadline for all AEP submissions. 
-
-Finally, **deadlines may not be extended twice on the same assignment**. Once you have purchase a 48-hour extension, the new deadline is 48 hours from the original and may not be extended further. 
+Further, **to extend a deadline with a token, you must spend the token *before the original deadline*.** Requests to extend a deadline after the original one has passed will be declined. 
 
 If you are in a life situation where submitting work on time consistently is an issue, please let me know and we will try to work something out. 
-
-
----
-
 
 ### Technology skills and support 
 
@@ -364,7 +366,7 @@ If, for purposes of gender identity and expression, your official name (in Banne
 
 ## About the instructor 
 
-I'm Robert Talbert, the professor for this course. I'm a Professor of Mathematics and also work in the president's office as Presidential Fellow for the Advancement of Learning. This is my 31st year of teaching overall (not counting tutoring gigs). I have a Ph.D. in Mathematics from [Vanderbilt University](http://vanderbilt.edu) and a B.S. degree from [Tennessee Tech University](http://www.tntech.edu). 
+I'm Robert Talbert, the professor for this course. I'm a Professor of Mathematics and also work in the president's office. This is my 31st year of teaching overall (not counting tutoring gigs). I have a Ph.D. in Mathematics from [Vanderbilt University](http://vanderbilt.edu) and a B.S. degree from [Tennessee Tech University](http://www.tntech.edu). 
 
 I was, at best, a thoroughly mediocre math student in school until my senior year of high school, when I had a teacher for Calculus (hi, Mrs. Allen) who stopped trying to cram things into my head and instead showed me the basics -- and then backed off, and let me work things out on my own (with support if I got stuck). Basically, this is how I teach today. 
 
