@@ -46,7 +46,7 @@ AEPs are the most complex and involved assignments you will have in MTH 225. The
 
 Please note: **Getting a right answer is not the object of an AEP**. Some problems on AEPs may not even have a single right answer, but instead ask you to model some situation where you have to make choices or assumptions and then follow through and explain yourself. So: 
 
->![IMPORTANT]
+>[!IMPORTANT]
 >The main criteria for AEPs is the quality of your solution and the degree to which you explain yourself clearly.
 
 
