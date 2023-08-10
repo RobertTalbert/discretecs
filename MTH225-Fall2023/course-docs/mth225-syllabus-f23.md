@@ -1,17 +1,18 @@
 # MTH 225: Discrete Structures for Computer Science 1
 
-![](mth225-banner.jpg)
+![](mth225-logo.png)
 
 >Let us change our traditional attitude to the construction of programs: Instead of imagining that our main task is to instruct a computer what to do, let us concentrate rather on explaining to human beings what we want a computer to do.
+>
 >-- Donald Knuth, *Literate Programming*
 
 ## About MTH 225 and this syllabus
 
 **Welcome to MTH 225!** I'm Dr. Robert Talbert, the professor of this course. I'm grateful you're here. 
 
-In this course, you will learn **the math that all of computer science is based on**. You'll learn things like how to do arithmetic in binary, how to count the number of ways to deal a five-card poker hand, and how to generate complex data structures using simple rules involving recursion. And more! By studying discrete structures, **you'll gain a superpower to make you an expert learner** of any hardware and any software, including those that haven't been invented yet. As a computer scientist, your ability to learn new things quickly, and use fundamental concepts to model complex ideas, are more valuable than your coding skills. 
+In this course, you will learn **the math that all of computer science is based on**. You'll learn things like how to do arithmetic in binary, how to count the number of ways to deal a five-card poker hand, and how to generate complex data structures using simple rules involving recursion. And more! By studying discrete structures, **you'll gain a superpower to make you an expert learner of any hardware and any software, including those that haven't been invented yet**. As a computer scientist, your ability to learn new things quickly, and use fundamental concepts to model complex ideas, are more valuable than your coding skills. 
 
-**This syllabus contains all the information you need to navigate the course.** The main document will be kept continuously up to date at this link. When you see blue- or purple-underlined text in the syllabus or any other document, it's a clickable link. For example, [click here for a cat video](https://www.youtube.com/watch?v=aFuUidBR1aQ). A PDF version of the syllabus will also be available on Blackboard in the *Syllabus and Calendar* area, but it will not be updated unless there is a major change. 
+**This syllabus contains all the information you need to navigate the course.** The main document will be kept continuously up to date at this link. When you see blue- or purple-underlined text in the syllabus or any other document, it's a clickable link. For example, [click here for a cat video](https://www.youtube.com/watch?v=aFuUidBR1aQ). A PDF version of the syllabus will also be available on Blackboard in the *Course Documents and Tools* folder, but it will not be updated unless there is a major change. 
 
 **This document is meant to be read once, then searched as needed.** If you need to find something, the easiest way is to pull up this  document, hit `Control-F` and then do a search for the text you're looking for. 
 
@@ -21,21 +22,21 @@ All course materials for MTH 225 are available on GitHub at https://github.com/R
 
 **Meetings:** Section 03 and Section 04 meet Monday/Wednesday/Friday in Mackinac Hall B-1-110. Section 03 meets 12:00-12:50pm and Section 04 meets 2:00-2:50pm. 
 
-**Student drop-in hours:** TBD
+**Student drop-in hours:** To be determined during week 1. Watch this space for an update. 
 
-**Blackboard, Class Page, and Class Vault:** Our main course portal is on Blackboard, which you can access at http://lms.gvsu.edu. Please note that we are using *Blackboard Ultra*, a major update to Blackboard which has significant differences from previous versions. If you need a tutorial on how to navigate Blackboard Ultra, **LINK NEEDED**. We use two other electronic resources for the class: the **Class Page** (click here to access **LINK NEEDED**) which is a Google Doc showing notes and resources for class meetings; and the **Class Vault** ([click here to access](https://publish.obsidian.md/mth225) which serves as our primary textbook. All of these are linked together, so you don't need to remember them all. 
+**Blackboard, Class Page, and Class Vault:** Our main course portal is on Blackboard, which you can access at http://lms.gvsu.edu. Please note that we are using *Blackboard Ultra*, a major update to Blackboard which has significant differences from previous versions. If you need a tutorial on how to navigate Blackboard Ultra,  We use two other electronic resources for the class: the **[Class Page](https://docs.google.com/document/d/1JxG_s77q1Z3Ho_GsHXsQafZhpFJ_lW1Bbl7Hn0epWns/edit?usp=sharing)** which is a Google Doc showing notes and resources for class meetings; and the **[Course vault](https://publish.obsidian.md/mth225)** which serves as our primary textbook. All of these are linked to Blackboard in the *Course Documents and Tools* folder, so you don't need to remember them all. But it's a good idea to bookmark the ones you use frequently in your browser. 
 
 **Contacting the prof:** Email (talbertr@gvsu.edu) is preferred. You can schedule a video or phone call outside of office hours through [my Calendly page](https://calendly.com/robert-talbert/). Be sure to read my availability/response policy **LINK NEEDED**
 
-**Course calendar:** The official course calendar is in Google Calendar. **LINK NEEDED**. linked on the [Class Page](https://hackmd.io/@rtalbert235/HyTuIxi4q) and on Blackboard. *In case of a date conflict on assignments or course documents, the Class Calendar is assumed to be correct.* 
+**Course calendar:** The official course calendar is in **Google Calendar** [at this link](https://calendar.google.com/calendar/embed?src=9faa4be7819d7e9f621c4deb8f2e0fc91ab47d8140a117459e9ca26d5611ae06%40group.calendar.google.com&ctz=America%2FDetroit). It is also linked on the [Class Page](https://hackmd.io/@rtalbert235/HyTuIxi4q) and embedded at the end of this syllabus, although some web formats do not display it correctly. Assignments that are turned in on Blackboard will also have their due dates shown on the Blackboard calendar. *In case of an apparent date conflict on assignments or course documents, the Google Calendar is assumed to be correct.* 
 
 **Definition of "week":** In our course, a "week" is defined to begin at 12:01am ET on Monday and end at 11:59pm ET the following Sunday. 
 
-**Course content and videos:** There is no formal textbook for this course. The content for the course is at the Class Vault (https://publish.obsidian.md/mth225). A *optional* additional textbook is [Discrete Mathematics: An Open Introduction](http://discrete.openmathbooks.org/dmoi3/dmoi.html) by Oscar Levin. It's free; just click the link. A PDF copy is available for download [here](http://discrete.openmathbooks.org/pdfs/dmoi3-tablet.pdf). Not all course material is included in this textbook, and we may not follow the exact sequence that this book uses. But you are free to use it as a supplement. A playlist of instructional videos is available on Vimeo at https://vimeo.com/showcase/8667148, and individual videos are embedded in the class vault. 
+**Course content and videos:** The content for the course is housed in the Course Vault (https://publish.obsidian.md/mth225), a wiki-style website containing interconnected articles for each major course concept. A *optional* additional textbook is [Discrete Mathematics: An Open Introduction](http://discrete.openmathbooks.org/dmoi3/dmoi.html) by Oscar Levin. It's free; just click the link. A PDF copy is available for download [here](http://discrete.openmathbooks.org/pdfs/dmoi3-tablet.pdf). Not all course material is included in the Levin textbook, and we may not follow the exact sequence that this book uses. But you are free to use it as a supplement. A playlist of instructional videos is available on Vimeo at https://vimeo.com/showcase/8667148, and individual videos are embedded in the class vault. 
 
-**Course tools:** We will use [Miro](http://miro.com) (an online whiteboard tool) for class work and other purposes. You will also be using Juypyter notebooks on the [Google Colab platform](https://colab.research.google.com/) throughout the course. You'll receive some training on these tools in the first week of classes. 
+**Course tools:** We will use [Juypyter notebooks](https://jupyter.org/) on the [Google Colab platform](https://colab.research.google.com/) throughout the course for Python programming and writing up some assignments. You'll receive training on these tools in the first week of classes. 
 
-**Technology:** For our class, you should have access to a laptop (a tablet is acceptable but not recommended) and a high-speed internet connection. You are *strongly encouraged* to have a device with a touchscreen and stylus input, or an external drawing pad, for handwritten work at an online whiteboard. If technology access is an issue for you, please let me know so we can discuss your options. 
+**Technology:** For our class, you should have access to a laptop (a tablet is acceptable but not recommended) and a high-speed internet connection. You are *strongly encouraged* to have a device with a touchscreen and stylus input, or an external drawing pad. If technology access is an issue for you, please let me know so we can discuss your options. 
 
 ## How to have an good experience in MTH 225
 
@@ -86,27 +87,25 @@ The course content is split up into five modules:
 - **Module 4: Combinatorics**. The Additive and Multiplicative counting principles, the binomial coefficient, permutations, dots-and-dividers counting methods; using computational thinking to solve combinatorics problems. 
 - **Module 5: Recursion and induction**. Numerical sequences in closed-formula and recursive forms, solutions to recurrence relations, the Principle of Mathematical Induction and proof by induction. 
 
-The basic skills that you'll learn in the course are encapsulated in a list of **15 Learning Targets**, eight (8) of which are labelled as **CORE** targets and represent the essential skills that every MTH 225 student should possess by the end of the course. You can find that list in Appendix A(link needed), and it's linked elsewhere on our various course sites. 
+The basic skills that you'll learn in the course are encapsulated in a list of **15 Learning Targets**, eight (8) of which are labelled as **CORE** targets and represent the essential skills that every MTH 225 student should possess by the end of the course. You can find that list in [Appendix A](https://github.com/RobertTalbert/discretecs/blob/master/MTH225-Fall2023/course-docs/mth225-syllabus-f23.md#appendix-a-learning-targets), and it's linked elsewhere on our various course sites. 
 
 ## MTH 225 Workflow 
 
 Each class meeting has activities for you to do *before*, *during* and *after* the class. For details on specific assignment types, see the next section. 
 
-* **Before class:** You'll be asked to complete a **Class Prep** assignment that will involve you in reading content from [the course vault](https://publish.obsidian.md/mth225/) and watching some of the videos at [our playlist](https://vimeo.com/showcase/8667148). You'll complete a small set of basic questions and exercises on a Google Form. This way, you'll come to class ready to work, and we can skip the lecturing in class unless it's really needed. 
+* **Before class:** You'll be asked to complete a **Class Prep** assignment that will involve you in reading content from [the course vault](https://publish.obsidian.md/mth225/) and watching some of the videos at [our playlist](https://vimeo.com/showcase/8667148). You'll then complete a small set of basic questions and exercises. This way, you'll come to class ready to work, and we can skip  lectures on the basics in class unless it's really needed. 
 * **During class:** Class meetings will be focused on *answering questions* and *doing active work*, both intended to make it easy for you to make sense of the material and ask questions. Selected portions of your class work will be written up individually and turned in as **Application/Analysis** sets. We'll also use time in class for assessment and for completing other assignments, so that a lot of the "homework" for the class is done during class time. 
 * **After class:** In addition to getting started on the next Class Prep, you should expect to spend significant time in between classes doing practice on concepts you don't fully understand yet, and asking questions. There will be occasional **Application and Extension Problems** (AEPs) to work on. 
 
 A typical week in MTH 225 looks like this: 
 
-(visual here)
-
-Sunday - Complete Class Prep for Monday 
-Monday - Q&A from Class Prep and active work on more advanced concepts from Class Prep 
-Tuesday - Complete Class Prep for Wednesday 
-Wednesday -- Q&A from Class Prep and active work on more advanced concepts from Class Prep 
-Thursday - Complete Class Prep for Friday 
-Friday -- Q&A from Class Prep and active work on more advanced concepts from Class Prep 
-Saturday -- Nothing (If you stay current on work during the week you shouls always have Saturday open)
+1. **Sunday** - Complete Class Prep for Monday 
+2. **Monday** - Q&A from Class Prep and active work on more advanced concepts from Class Prep 
+3. **Tuesday** - Complete Class Prep for Wednesday 
+4. **Wednesday** -- Q&A from Class Prep and active work on more advanced concepts from Class Prep 
+5. **Thursday** - Complete Class Prep for Friday 
+6. **Friday** -- Q&A from Class Prep and active work on more advanced concepts from Class Prep 
+7. **Saturday** -- Nothing! If you stay current on work during the week you shouls always have Saturday open. 
 
 ## Assessments and Grades
 
@@ -115,7 +114,7 @@ Saturday -- Nothing (If you stay current on work during the week you shouls alwa
 The way grades work in MTH 225 is different from what you might have experienced. In MTH 225: 
 
 - **Almost none of your assignments have point values**. In fact only the final exam is graded with points. Therefore there is **no partial credit and no averaging**. 
-- Instead, assignments have **specifications** which are descriptions of what constitutes "acceptable" work. These are given in detail in the document *Standards for Student Work* which you can find on Blackboard in the *Syllabus and Calendar* area. When you submit an assignment, I will read it carefully and compare it with the standards, and simply determine whether it meets the specifications or not. Typically your work is marked either **Success** or **Retry** depending on whether it meets the specifications or not. 
+- Instead, assignments have **specifications** which are descriptions of what constitutes "acceptable" work. These are given in detail in the document *[Standards for Student Work](https://github.com/RobertTalbert/discretecs/blob/f454fa80b1ec09b5380c09813903f9fcb406e315/MTH225-Fall2023/course-docs/standards-mth225-f23.md)* which you can find at the link and on Blackboard in the *Course Documents and Tools* folder. When you submit an assignment, I will read it carefully and compare it with the standards, and simply determine whether it meets the specifications or not. Typically your work is marked either **Success** or **Retry** depending on whether it meets the specifications or not. 
 - After I evaluate your work, in most cases you will receive **detailed feedback** that will tell you whether your work meets the standards, and if not, the feedback will tell you what was missing and how you might go about fixing it. 
 - Then, on almost every piece of work, you will have the chance to **retry** the assignment if needed, get more feedback, and repeat this **feedback loop** until the work meets our specifications. 
 - Your course grade is not based on point totals or averages (because there are no point values). Instead, the course grade is based on **how many important learning tasks you've successfully accomplished** by the end of the semester, using a simple table that's given below. 
@@ -132,37 +131,37 @@ Those are the main concepts; the details are in the rest of the syllabus. Most s
 
 There are five major kinds of assignments in MTH 225: 
 
-- **Class Prep:** These are done prior to class and will give you the basic knowledge of terms, ideas, and basic concepts that will allow us to jump right into applications when we get to class. They involve reading articles from the class vault (and occasionally watching video), engaging in asking questions about what you read, and answering some simple questions about the content. 
-- **Application and Analysis:** In class, we will work in groups on higher-level tasks involving application and analysis of the basics. You'll be responsible for individually completing selections from this work that you start in groups during class, and turning it in to be checked for basic overall correctness. 
-- **Skill Quizzes:** Each week (typically) we'll take time in class for a timed quiz over a subset of the 15 Learning Targets found in Appendix A. 
+- **Class Prep:** These are done prior to class and will give you the basic knowledge of terms, ideas, and basic concepts that will allow us to jump right into applications when we get to class. They involve reading articles from the [course vault](https://publish.obsidian.md/mth225) (and occasionally [watching video](https://vimeo.com/manage/showcases/8667148/info)), asking questions about what you read, and answering some simple questions about the content. 
+- **Application and Analysis:** In class, we will work in groups on higher-level tasks involving application and analysis of the basics. You'll be responsible for individually completing selections from this work that you start in groups during class, and turning these in to be checked for basic overall correctness. 
+- **Checkpoints:** Each week (typically) we'll take time in class for a timed quiz over a subset of the 15 Learning Targets [found in Appendix A](https://github.com/RobertTalbert/discretecs/blob/f454fa80b1ec09b5380c09813903f9fcb406e315/MTH225-Fall2023/course-docs/mth225-syllabus-f23.md#appendix-a-learning-targets). 
 - **Application/Extension Problems (AEPs):** These are longer-form problems that involve deeper applications of the concepts from class, on applications in a variety of domains and in problems whose solutions require computer tools and good technical writing. 
 
 Each of these assignments is graded as follows: 
 
-| Assignment | Basis for grading | What's recorded on Blackboard | 
-| :---------: |  :---------: |  :---------: | 
-| Class Prep | Completeness and effort only | *Success* or *Incomplete* | 
-| Application/Analysis | Completeness and overall correctness | *Success*, *Retry*, or *Incomplete* | 
-| Problems on Skill Quizzes | Overall correctness | *Success* or *Retry* | 
-| AEPs |  Completeness, overall correctness, writing, and presentation | *Success*, *Retry*, or *Incomplete* | 
+| Assignment | Basis for grading | What's recorded on Blackboard |
+| :---------: |  :---------: |  :---------: |
+| Class Prep | Completeness and effort only | *Success* or *Incomplete* |
+| Application/Analysis | Completeness and overall correctness | *Success*, *Retry*, or *Incomplete* |
+| Problems on Checkpoints | Overall correctness | *Success* or *Retry* |
+| AEPs |  Completeness, overall correctness, writing, and presentation | *Success*, *Retry*, or *Incomplete* |
 
-[The Standards for Student Work document](link needed) contains details on the quality standards for each kind of assessment in the course. Please read this carefully and review before each submission you make. 
+[The Standards for Student Work document](https://github.com/RobertTalbert/discretecs/blob/f454fa80b1ec09b5380c09813903f9fcb406e315/MTH225-Fall2023/course-docs/standards-mth225-f23.md) contains details on the quality standards for each kind of assessment in the course. Please read this carefully and review before each submission you make. 
 
-Additionally, we will have a brief but comprehensive **final exam**, graded using points (out of 100) whose schedule is on the course calendar. 
+The fifth major assessment is a brief but comprehensive **final exam**, graded using points (out of 100) whose schedule is on the course calendar. More information on this is coming around mid-semester.
 
 ### More about Learning Targets
 
-The 15 Learning Targets given in Appendix A are the basic skills of MTH 225. They are not the only thing that matters in the course; but part of your job in the course is to **demonstrate skill on as many of these Learning Targets as you can, at some point in the semester.** 
+The [15 Learning Targets given in Appendix A](https://github.com/RobertTalbert/discretecs/blob/f454fa80b1ec09b5380c09813903f9fcb406e315/MTH225-Fall2023/course-docs/mth225-syllabus-f23.md#appendix-a-learning-targets) are the basic skills of MTH 225. They are not the only things that matter in the course; but part of your job in the course is to **demonstrate skill on as many of these Learning Targets as you can, at some point in the semester.** 
 
-The main way you'll demonstrate skill on Learning Targets is by **working Skill Quiz problems**. Almost every week, we will have a short in-class quiz over a portion of the Learning Targets. Each quiz contains one problem for each Learning Target that is covered, and each problem focuses on just one Learning Target. Each problem on a Learning Target is a **demonstration of skill** on that target. 
+The main way you'll demonstrate skill on Learning Targets is by **working Checkpoint problems**. Almost every week, we will have a short in-class quiz over a portion of the Learning Targets. Each quiz contains one problem for each Learning Target that is covered, and each problem focuses on just one Learning Target. Each problem on a Learning Target is a **demonstration of skill** on that target. 
 
-The [The Standards for Student Work document](link needed) contains details on what constitutes a *successful demonstration of skill* on each Learning Target. Generally, a successful demonstration of skill involves completing the action or task described by the Learning Target with no significant errors and only a small number of minor mistakes allowed, along with a clear explanation of the work.  Your work on skill quizzes will be graded per problem, and each problem that you work will receive a mark of **Success** if the work meets the success criteria and **Retry** if it does not. 
+The [The Standards for Student Work document](https://github.com/RobertTalbert/discretecs/blob/f454fa80b1ec09b5380c09813903f9fcb406e315/MTH225-Fall2023/course-docs/standards-mth225-f23.md) contains details on what constitutes a *successful demonstration of skill* on each Learning Target. Generally, a successful demonstration of skill involves completing the action or task described by the Learning Target with no significant errors and only a small number of minor mistakes allowed, along with a clear explanation of the work.  Your work on Checkpoints will be graded per problem, and each problem that you work will receive a mark of **Success** if the work meets the success criteria and **Retry** if it does not. 
 
-The Blackboard gradebook will record the number of successful demonstrations of skill you have attained on each Learning Target. **Once you have provided two successful demonstrations of skill on a Learning Target, you are considered to have mastered that concept, and no further quiz work is necessary.** We will use the term **Level 1** to describe a Learning Target with one successful demonstration of skill and **Level 2** to describe a Learning Target with one successful demonstrations of skill. 
+The Blackboard gradebook will record the number of successful demonstrations of skill you have attained on each Learning Target. **Once you have provided two successful demonstrations of skill on a Learning Target, you are considered to have mastered that concept, and no further quiz work is necessary.** We will use the term **Level 1** to describe a Learning Target with *one* successful demonstration of skill and **Level 2** to describe a Learning Target with *two* successful demonstrations of skill. 
 
-Problems covering Learning Targets that are not CORE, will appear on **three consecutive Skill Quizzes**, beginning when the Learning Target is covered in class, offering you three opportunities to demonstrate skill on those Learning Targets. Problems covering CORE Learning Targets will appear on *every* Skill Quiz beginning when they are covered in class. There will also be a **mega-quiz** at the end of the semester covering all 15 Learning Targets, and the final exam will contain an optional section with one last attempt on any Learning Target that needs one. 
+Problems covering Learning Targets that are not CORE, will appear on **three consecutive Checkpoints**, beginning when the Learning Target is covered in class, offering you three opportunities to demonstrate skill on those Learning Targets. Problems covering CORE Learning Targets will appear on *every* Checkpoint beginning when they are covered in class. Some Checkpoints near the end of the semester will be all-inclusive, covering all 15 Learning Targets; and the final exam will contain an optional section with one last attempt on any Learning Target that needs one. 
 
-Because of the cumulative nature of the Skill Quizzes, you have the freedom to skip problems that you are not prepared to work; just practice for another week and try again at the next quiz (if the Learning Target is available). If you attempt a quiz problem and it receives a **Retry** mark, or if you are absent for a quiz, or if you choose not to attempt a problem because you're not prepared for it, you can just take it later. 
+Because of the cumulative nature of the Checkpoints, you have the freedom to skip problems that you are not prepared to work; just practice for another week and try again at the next quiz (if the Learning Target is available). If you attempt a quiz problem and it receives a **Retry** mark, or if you are absent for a quiz, or if you choose not to attempt a problem because you're not prepared for it, you can just take it later. 
 
 Alternative methods of demonstrating skill on Learning Targets may be made available during the semester as needed. 
 
@@ -170,12 +169,12 @@ Alternative methods of demonstrating skill on Learning Targets may be made avail
 
 Your course grade is assigned using the table below. It shows the requirements for the "base grade" of A, B, C, or D; criteria for plus/minus grades are shown below the table. The numbers in the table refer to the number of **Success** marks on each item. **To earn a grade, complete ALL the requirements listed in the row for that grade.**
 
-| Grade | Class Preps (out of 25) | Application/Analysis out of 10)  | Learning Targets at Level 1 | Learning Targets at Level 2 | AEPs (out of 8) | 
-| :---: | :-------------------:   | :-------------: | :--------------------: | :-------: | :----: | 
-| A | 20 |  8 | All 8 Core + 6 others | All 8 Core + 2 others | 6 | 
-| B | 18 |  7 | All 8 Core + 4 others | All 8 Core | 4 | 
-| C | 16 |  6 | All 8 Core + 2 others | Any 6 Core + 2 others | 2 | 
-| D | 10 |  4 | Any 8 | All 8 Core + 2 others | 0 | 
+| Grade | Class Preps (out of 25) | Application/Analysis out of 10)  | Learning Targets at Level 1 | Learning Targets at Level 2 | AEPs (out of 8) |
+| :---: | :-------------------:   | :-------------: | :--------------------: | :-------: | :----: |
+| A | 20 |  8 | All 8 Core + 6 others | All 8 Core + 2 others | 6 |
+| B | 18 |  7 | All 8 Core + 4 others | All 8 Core | 4 |
+| C | 16 |  6 | All 8 Core + 2 others | Any 6 Core + 2 others | 2 |
+| D | 10 |  4 | Any 8 | 0 | 0 |
 
 A grade of "F" is earned if not all of the requirements for a "D" are met.
 
@@ -197,31 +196,29 @@ Note: Significant deficiencies in Class Prep submissions may warrant a further r
 
 *Exceptions:* GVSU does not award grades of A+ or D-. 
 
-To track your grade as the semester unfolds, you can use the *Course Grade Tracker* handout that is posted on Blackboard in the *Syllabus and Calendar* area. 
+To track your grade as the semester unfolds, you can use the *Course Grade Tracker* handout that is posted on Blackboard in the *Course Documents and Tools* folder. 
 
 ## Revisions and reattempts 
 
-**You can revise or reattempt most assignments you turn in, without penalty, until they meet the criteria for acceptable work given in the *Standards for Student Work* document.** Not all work can be revised, and some work has limitations on revision. Here are the details: 
+**You can revise or reattempt most assignments you turn in, without penalty, until they meet the criteria for acceptable work given in the [Standards for Student Work](https://github.com/RobertTalbert/discretecs/blob/f454fa80b1ec09b5380c09813903f9fcb406e315/MTH225-Fall2023/course-docs/standards-mth225-f23.md) document.** Not all work can be revised, and most work has limitations on revision. Here are the details: 
 
-| Assignment | Revisions allowed | How to revise and resubmit | 
-| :-------: | :----------------: | :-------------------------: | 
-| Class Prep | *May not be revised.* | n/a | 
-| Application/Analysis | Application/Analysis sets may be revised **once per set**. | Submit a revision on Blackboard. | 
-| Learning Targets | Each target appears on multiple quizzes. | Retry the skill on a subsequent quiz. | 
-| AEPs | Up to **two submissions per week** of AEPs are allowed. | Submit a revision on Blackboard. | 
-
-
+| Assignment | Revisions allowed | How to revise and resubmit |
+| :-------: | :----------------: | :-------------------------: |
+| Class Prep | *May not be revised.* | n/a |
+| Application/Analysis | Application/Analysis sets may be revised **once per set**. | Submit a revision on Blackboard. |
+| Learning Targets | Each target appears on multiple quizzes. | Retry the skill on a later Checkpoint. |
+| AEPs | Up to **two submissions per week** of AEPs are allowed. | Submit a revision on Blackboard. |
 
 **Limitations on revisions:** Although there is no penalty for revising or reattempting work, we place the following limitations on this process to keep the feedback process manageable: 
 
-- **Learning Targets can only be retried on later skill quizzes**. Makeup quizzes are not offered. 
+- **Learning Targets can only be retried on later Checkpoints**. Makeup quizzes outside scheduled Checkpoint times are not available. 
 - **Application/Analysis sets can only be revised once.** Revisions are submitted on Blackboard in the same assignment area as the original submission, and each set will have a deadline by which revisions need to be submitted. 
 - **Only two submissions per week are allowed for AEPs**. This can be new submissions of two different AEPs; or revisions of two different AEPs; or one new submission and one revision. Make sure to build a habit of submitting AEP work early and often, since you cannot wait until the end and submit several all at once. 
 - **No revisions any work are allowed after 11:59pm ET on Sunday, December 3** in order to provide time and space to grade all pending revisions for final course grade determinations.
 
 ### Retry vs. Incomplete
 
-Application/Analysis and AEP submissions are marked *Success*, *Retry*, or *Incomplete*. 
+Application/Analysis and AEP submissions are marked *Success*, *Retry*, or *Incomplete*. Both *Retry* and *Incomplete* provide the opportunity to revise and resubmit in most cases. The differences are: 
 
 - A *Retry* mark is given to work that represents a good-faith effort at a complete and correct solution and which shows partial understanding of the concepts, but which has significant errors or gaps. 
 - An *Incomplete* mark, on the other hand, does not contain enough information in the work to determine if there is understanding of the concepts; typically this is due to omissions of major portions of the assignment, code that will not run due to syntax errors, fundamental misunderstandings with the problem, or having too many issues to justify feedback on each one.
@@ -241,9 +238,9 @@ Tokens are a fake currency (like Bitcoin) used in MTH 225 to buy exceptions to t
 - Change the mark on a Class Prep from *Incomplete* to *Success* 
 
 
-To spend a token, fill out the [Token Spending Form](https://docs.google.com/forms/d/e/1FAIpQLSdec4ILo7guFJteABZ-e8AxK1GxDOJ-f2yEOWKxjAjH84SP2A/viewform) at the link shown here, or on our Blackboard site. The token has been spent as soon as you fill the form out; you do not need to wait for my approval.
+To spend a token, fill out the [Token Spending Form](https://docs.google.com/forms/d/e/1FAIpQLSdec4ILo7guFJteABZ-e8AxK1GxDOJ-f2yEOWKxjAjH84SP2A/viewform) at the link shown here, or on our Blackboard site in the *Forms* folder. The token has been spent as soon as you fill the form out; you do not need to wait for my approval.
 
-Please see the *Late Work* section below for additional information and some important restrictions about deadline extensions via tokens. 
+Please see the *Late Work and Deadlines* section below for additional information and some important restrictions about deadline extensions via tokens. 
 
 **Tokens may not be "stacked"**, for example you may not spend two tokens to extend the deadline on an AEP by 96 hours; or three tokens to submit five AEPs in a given week. 
 
@@ -261,7 +258,7 @@ Different assignments in MTH 225 have different levels of acceptable collaborati
 
 - On *Class Prep*, you are **allowed and encouraged to collaborate with others** as long as your  responses reflect your own understanding and are not merely copied from another. Remember, these are only graded on completeness and effort, and mistakes are not penalized. 
 - On *Application/Analysis sets*, you **are allowed** (in fact, expected) **to work on these in groups during class time first**. You can, and should, use your group work as the basis for your individual writeup. However, **they must be finished individually with no collaboration beyond what took place in class**. For example if you need to talk with one of your group members to clarify something they said during class, that is OK; but it is not OK to question that person further about work that didn't take place during class, or to continue working as a group outside of class beyond your class work. 
-- On *Skill Quizzes*, you will take these individually in class and **no collaboration is allowed at all**. Additionally **your use of technology is restricted to a basic scientific or graphing calculator**. 
+- On *Checkpoints*, you will take these individually in class and **no collaboration is allowed at all**. Additionally **your use of technology is restricted to a basic scientific or graphing calculator**. 
 - On *AEPs*, you are **allowed to engage in general discussions of strategy only with others, but no collaboration on the details of a problem are allowed.**. 
 
 **Definition of "others" in these policies:** Collaboration with "others" includes current students in your section of MTH 225; students in other sections of MTH 225; former students from MTH 225; discussion-oriented websites like StackExchange or Reddit; and artificial intelligence applications such as ChatGPT. The intention here is that **the work you submit is your thinking, not someone or something else's.** 
@@ -289,11 +286,11 @@ Make every effort to get yourself unstuck and resolve your questions on your own
 
 ### Attendance, absence, and participation
 
-- **Attendance** is expected at all class meetings and is required for working on Application/Analysis sets and Skill Quizzes. While attendance is not directly part of your grade, it will be recorded at each class meeting, so that I can reach out to students who are absent often. 
+- **Attendance** is expected at all class meetings and is required for working on Application/Analysis sets and Checkpoints. While attendance is not directly part of your grade, it will be recorded at each class meeting, so that I can reach out to students who are absent often. 
 - **Remote attendance** (via live-streaming or recorded class meetings) is generally not offered in MTH 225. If you are in a situation where you believe you need a remote attendance option, please let me know as soon as possible.
 - **Absences** from class do not require permission from me or prior notification, although a heads-up is helpful. However: 
     - If you are absent, you will not have the benefit of working with your group on Application/Analysis; you will be expected to complete the set on your own. 
-    - If you are absent from a Skill Quiz, no makeups are available. Each Learning Target appears on multiple quizzes, so if you miss one, you'll be expected to make an attempt on the next quiz.
+    - If you are absent from a Checkpoint, no makeups are available. Each Learning Target appears on multiple quizzes, so if you miss one, you'll be expected to make an attempt on the next quiz.
 
 Exceptions to these rules are always up for discussion. If you believe you need special accommodation, please contact me as soon as possible to discuss it. 
 
@@ -304,11 +301,11 @@ In case of a major weather event that makes in-person meeting inadvisable, **cla
 
 ### Deadlines 
 
-All deadlines for assignments will be clearly indicated either on the assignment, the course calendar, or both and will be repeated in the weekly announcement digest on Blackboard. Deadlines follow a consistent pattern to make them easier to remember: 
+All deadlines for assignments will be clearly indicated either on the assignment, the course calendar, or both and will be repeated in the weekly announcements. Deadlines follow a consistent pattern to make them easier to remember: 
 
 - Class Preps are always due at **11:59pm Eastern Time the night before their class**. (For example, Wednesday Class Preps are due 11:59pm ET Tuesday.) 
 - Application/Analysis sets are always due at **11:59pm ET on Fridays**. Revisions of Application/Analysis sets will also have deadlines, which will be announced in class (typically one week after the original set is graded). 
-- Skill Quizzes are given in class, and the work is collected at the end of the period, so the end of the hour is the "deadline". A schedule for these will be available early in the semester. 
+- Checkpoints are given in class, and the work is collected at the end of the period, so the end of the hour is the "deadline". A schedule for these will be available early in the semester. 
 
 **For AEPs:** Each AEP has an **initial deadline**. Your **first attempt** on an AEP must be submitted by that deadline, and no first attempts on an AEP are accepted after that initial deadline. However, once your first attempt is submitted, there is **no deadline** for turning in revisions (if revisions are needed); you can continue to work with an AEP at your own pace once the initial draft is turned in. However, **a single deadline of 11:59pm ET on Sunday, December 3** is in place for all work on AEPs. 
 
@@ -322,7 +319,7 @@ Most deadlines in MTH 225 are there for you as "commitment devices", something y
 Deadline extensions are also available for "purchase" by [spending a token](https://docs.google.com/forms/d/e/1FAIpQLSdec4ILo7guFJteABZ-e8AxK1GxDOJ-f2yEOWKxjAjH84SP2A/viewform). However the following restrictions apply: 
 
 - **Deadlines on Class Prep and Application/Analysis assignments** (including revisions of Application/Analysis) **may not be extended**, because of the built-in flexibility in the deadline stated above. If you need more time to complete the assignment, just take it, within the time frames stated above. 
-- **Skill Quizzes must be submitted during class time**. These don't have "deadlines" as such since they are done strictly in person. Therefore a token can't "extend the deadline". 
+- **Checkpoints must be submitted during class time**. These don't have "deadlines" as such since they are done strictly in person. Therefore a token can't "extend the deadline". 
 - Therefore **deadline extensions via tokens only applies to AEPs**. Tokens can be spent to extend any deadline once by 48 hours. The exception is the Sunday, December 3 deadline by which all AEP work for the course must be submitted. The new deadline is 48 hours past the original deadline -- not 48 hours from the time you spend the token. You may not extend the deadline on an assignment twice, or spend more than one token to extend the deadline more than 48 hours. 
 
 Further, **to extend a deadline with a token, you must spend the token *before the original deadline*.** Requests to extend a deadline after the original one has passed will be declined. 
@@ -346,9 +343,9 @@ You should be proficient in the basic technology skills listed at [this GVSU pol
 
 ### Instructor availability and message responses
 
-**You can ask a question about anything at any time.** You have both the right and the responsibility to ask questions about anything in the course you don't fully understand, whether math or some aspect of the syllabus or anything else. You can use email (talbert@gvsu.edu), drop-in hours, or grab me after class. Email is the best venue; to get help on a WeBWorK question, use the "Email the instructor" link found in the problem. 
+**You can ask a question about anything at any time.** You have both the right and the responsibility to ask questions about anything in the course you don't fully understand, whether math or some aspect of the syllabus or anything else. You can use email (talbert@gvsu.edu), drop-in hours, or grab me before or after class. Email is the best venue for me, but use what works best for you. 
 
-However, please note that I do not always respond immediately to messages. In particular **I do not check email between 6:00pm and 6:00am on weeknights**, and **I do not check email at all on weekends**. That said, 
+However, please note that I do not always respond immediately to messages. In particular **I do not typically check email between 6:00pm and 6:00am on weeknights**, and **I do not typically check email at all on weekends**. That said, 
 
 - Messages sent on a weekday (Monday-Friday) before 4:00pm ET will get a response *the same day*. 
 - Messages sent after 4:00pm ET Monday-Thursday will get a response *the next day*. 
@@ -398,19 +395,22 @@ The Learning Targets labeled with a star ⭐ are the CORE Learning Targets.
 
 ## Appendix B: Course Calendar 
 
-You can access the calendar directly at this link: https://calendar.google.com/calendar/u/1?cid=Y183MGRiN2ExZjIyNzc0OTYxOTEwY2IxN2ZlNzRhZjBjMDNhNzg3NDY5YjhlMzNiYWE0OGNhYzNlNTZjMjNhNDAwQGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20  It's also embedded on Blackboard in the *Syllabus and Calendar* area, as well as below (although some web versions may not display it). 
+You can access the calendar directly at this link: https://calendar.google.com/calendar/embed?src=9faa4be7819d7e9f621c4deb8f2e0fc91ab47d8140a117459e9ca26d5611ae06%40group.calendar.google.com&ctz=America%2FDetroit  It's also embedded on Blackboard in the *Course Documents and Tools* folder, as well as below (although some web versions may not display it). 
 
-<iframe src="https://calendar.google.com/calendar/embed?src=c_70db7a1f22774961910cb17fe74af0c03a787469b8e33baa48cac3e56c23a400%40group.calendar.google.com&ctz=America%2FNew_York" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
+<iframe src="https://calendar.google.com/calendar/embed?src=9faa4be7819d7e9f621c4deb8f2e0fc91ab47d8140a117459e9ca26d5611ae06%40group.calendar.google.com&ctz=America%2FDetroit" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
 
 **Important dates:**
 
-- Tuesday, January 24 and Thursday, January 26: No class, Prof. Talbert out of town
-- Monday, March 6--Friday, March 10: Spring Break
-- Thursday, April 21: Last class meeting
+- September 1: 100% tuition refund deadline
+- September 3-4: Labor Day recess, no classes
+- September 22: 75% tuition refund deadline
+- October 22-24: Fall break, no classes
+- November 10: Last day to drop with a "W" grade
+- November 22-26: Thanksgiving break, no classes
+- December 9: Last day of classes
 
 ## Appendix C: Course Tools and Links
 
 - **Blackboard**: http://lms.gvsu.edu, then look for your section of MTH 302. 
 - **Google Colab:** This is our platform for using Python to do linear algebra and differential equations. Go to https://colab.research.google.com/ and sign in with your GVSU Google account. 
-- **Perusall**: This is for doing reading and other activities for  http://perusall.com (Use the invite code posted to Blackboard in the *Important Links* area; log in to access course materials) 
 - **Calendly**: This is for scheduling appointments with me outside of the usual drop-in hours. Go to https://calendly.com/robert-talbert then choose the kind of appointment you want, then pick any open 20-minute time slot. Note, appointment slots are limited. 
