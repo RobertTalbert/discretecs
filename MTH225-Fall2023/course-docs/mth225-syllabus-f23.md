@@ -18,9 +18,11 @@ In this course, you will learn **the math that all of computer science is based 
 
 All course materials for MTH 225 are available on GitHub at https://github.com/RobertTalbert/discretecs. The current version is in the folder `MTH225-Fall2023`. Critically important documents (syllabus, etc.) will also be on Blackboard. 
 
+This course is subject to the GVSU policies listed at http://www.gvsu.edu/coursepolicies/. 
+
 ## Key Information
 
-**Professor:** Robert Talbert, Ph.D., Professor of Mathematics. My office is Mackinac Hall C-2-513 and my email is talbertr@gvsu.edu. 
+**Professor:** Robert Talbert, Ph.D., Professor of Mathematics. My office is Mackinac Hall C-2-513; my email is talbertr@gvsu.edu; my direct phone is 616-331-8968. 
 
 **Meetings:** Section 03 and Section 04 meet Monday/Wednesday/Friday in Mackinac Hall B-1-110. Section 03 meets 12:00-12:50pm and Section 04 meets 2:00-2:50pm. 
 
@@ -283,11 +285,16 @@ There are two important exceptions to these rules:
 
 As mentioned, you will almost certainly find yourself lost, stuck, or confused on *something* in this course at some point. This is not a defect in your character or intelligence; it's a sign you are being challenged, and you can turn that challenge into real growth by **seeking out help as soon as you need it**. 
 
+
 Make every effort to get yourself unstuck and resolve your questions on your own first. But then: 
 
 * **Attend drop-in hours and ask questions there.** You can use the in-person drop-in hours, the online ones, or both. No appointment needed. 
 * [Schedule an appointment through Calendly](https://calendly.com/robert-talbert/) if drop-in hours don't work for you. 
 * **Work with a classmate** as long as you're staying within bounds on academic honesty above. In particular, working in groups on Class Prep is a very good idea and will help keep you from getting stuck at the beginning of a new concept. 
+
+**Math Tutoring Center:** GVSU’s Math Tutoring Center offers both in-person and online drop-in tutoring this semester, starting Wednesday, August 30.  You can access the most up-to-date information at http://gvsu.edu/tutoring/math/.  There you will find our current hours, information on how to access online tutoring with Discord Voice and a schedule of when you can find tutors to help with your specific course.  Bring questions to any center about using technology (calculator or Desmos), on methods and concepts, or on specific problems.  All Math Center tutoring is FREE, so stop by early and often.  
+
+
 
 ## Course Policies 
 
@@ -429,13 +436,13 @@ You can access the calendar directly at this link: https://calendar.google.com/c
 
 **Important dates:**
 
-- September 1: 100% tuition refund deadline
+- September 1: Last day to drop with 100% tuition refund
 - September 3-4: Labor Day recess, no classes
 - September 22: 75% tuition refund deadline
 - October 22-24: Fall break, no classes
 - November 10: Last day to drop with a "W" grade
 - November 22-26: Thanksgiving break, no classes
-- December 9: Last day of classes
+- December 8: Last day of classes
 
 ## Appendix D: Course Tools and Links
 
