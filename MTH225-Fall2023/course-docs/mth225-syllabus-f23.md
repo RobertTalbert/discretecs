@@ -194,6 +194,8 @@ If the total number of assignments of a given type is changed due to scheduling 
 - You complete all the requirements for a base grade *except* Class Preps, *or*
 - You earn 50% or lower on the final exam. 
 
+(If both of these happen, your grade is not necessarily lowered any further.) 
+
 Note: Significant deficiencies in Class Prep submissions may warrant a further reduction in your grade. 
 
 *Exceptions:* GVSU does not award grades of A+ or D-. 
@@ -375,7 +377,7 @@ After a two-year excursion as a Psychology major in college, I changed my major 
 
 Now, I teach computer scientists and engineers how to think like mathematicians; I do research on how to make college teaching better; and I have an appointment as "Senior Faculty Fellow for Learning Futures", in which I coordinate research and development projects to make your learning experience better here. When nobody is looking, I'm working on my data science skills including learning the languages R and Julia. 
 
-I live in Allendale with my family, consisting of a wife and three kids, although two of those kids are currently elsewhere (one is a high school exchange student in Australia this year, the other has a job and an apartment). I'm an avid bass guitar player, currently playing in the Grand Rapids and Muskegon areas with the cover bands [Taproom Fix](https://www.facebook.com/TaproomFixBand/) and Elleven. I also love the outdoors and get out to run, bicycle, or hike when I can. You can read more about what I'm thinking and doing at my website, [rtalbert.org](https://rtalbert.org), or at my "other blog" [Grading for Growth](https://gradingforgrowth.com) about alternative grading practices which I co-author with my GVSU colleague Prof. David Clark. I'm also on Twitter at [@RobertTalbert](http://twitter.com/RobertTalbert) and on [LinkedIn](https://www.linkedin.com/in/roberttalbert/). I will accept any connection request on LinkedIn from a student! 
+I live in Allendale with my family, consisting of a wife and three kids, although two of those kids are currently elsewhere (one is a high school exchange student in Australia this year, the other has a job and an apartment). I'm an avid bass guitar player, currently playing in the Grand Rapids and Muskegon areas with the bands [Taproom Fix](https://www.facebook.com/TaproomFixBand/) and Elleven. I also love the outdoors and get out to run, bicycle, or hike when I can. You can read more about what I'm thinking and doing at my website, [rtalbert.org](https://rtalbert.org), or at my "other blog" [Grading for Growth](https://gradingforgrowth.com) about alternative grading practices which I co-author with my GVSU colleague Prof. David Clark. I'm also on Twitter at [@RobertTalbert](http://twitter.com/RobertTalbert) and on [LinkedIn](https://www.linkedin.com/in/roberttalbert/). I will accept any connection request on LinkedIn from a student! 
 
 ## Appendix A: Learning Targets
 
