@@ -161,7 +161,7 @@ The [The Standards for Student Work document](https://github.com/RobertTalbert/d
 
 The Blackboard gradebook will record the number of successful demonstrations of skill you have attained on each Learning Target. **Once you have provided two successful demonstrations of skill on a Learning Target, you are considered to have mastered that concept, and no further quiz work is necessary.** We will use the term **Level 1** to describe a Learning Target with *one* successful demonstration of skill and **Level 2** to describe a Learning Target with *two* successful demonstrations of skill. 
 
-Problems covering Learning Targets that are not CORE, will appear on **three consecutive Checkpoints**, beginning when the Learning Target is covered in class, offering you three opportunities to demonstrate skill on those Learning Targets. Problems covering CORE Learning Targets will appear on *every* Checkpoint beginning when they are covered in class. Some Checkpoints near the end of the semester will be all-inclusive, covering all 15 Learning Targets; and the final exam will contain an optional section with one last attempt on any Learning Target that needs one. An initial schedule of which Learning Targets will appear on which Checkpoint is given at the end of this syllabus in Appendix B.
+Problems covering Learning Targets that are not CORE, will appear on **three consecutive Checkpoints**, beginning when the Learning Target is covered in class, offering you three opportunities to demonstrate skill on those Learning Targets. Problems covering CORE Learning Targets will appear on *every* Checkpoint beginning when they are covered in class. Some Checkpoints near the end of the semester will be all-inclusive, covering all 15 Learning Targets; and the final exam will contain an optional section with one last attempt on any Learning Target that needs one. An initial schedule of which Learning Targets will appear on which Checkpoint is given at the end of this syllabus in [Appendix B](https://github.com/RobertTalbert/discretecs/blob/master/MTH225-Fall2023/course-docs/mth225-syllabus-f23.md#appendix-b-schedule-of-checkpoint-coverage).
 
 Because of the cumulative nature of the Checkpoints, you have the freedom to skip problems that you are not prepared to work; just practice for another week and try again at the next quiz (if the Learning Target is available). If you attempt a quiz problem and it receives a **Retry** mark, or if you are absent for a quiz, or if you choose not to attempt a problem because you're not prepared for it, you can just take it later. 
 
@@ -173,14 +173,14 @@ Your course grade is assigned using the table below. It shows the requirements f
 
 | Grade | Class Preps (out of 25) | Application/Analysis out of 10)  | Learning Targets at Level 1 | Learning Targets at Level 2 | AEPs (out of 8) |
 | :---: | :-------------------:   | :-------------: | :--------------------: | :-------: | :----: |
-| A | 20 |  8 | All 8 Core + 6 others | All 8 Core + 2 others | 6 |
-| B | 18 |  7 | All 8 Core + 4 others | All 8 Core | 4 |
-| C | 16 |  6 | All 8 Core + 2 others | Any 6 Core + 2 others | 2 |
+| A | 20 |  8 | All 8 Core + 6 others | All 8 Core + 4 others | 6 |
+| B | 18 |  7 | All 8 Core + 4 others | All 8 Core + 2 others | 4 |
+| C | 16 |  6 | All 8 Core + 2 others | Any 8 Core  | 2 |
 | D | 10 |  4 | Any 8 | 0 | 0 |
 
 A grade of "F" is earned if not all of the requirements for a "D" are met.
 
-The final exam only contributes to your course grade by potentially adding a plus/minus modifier to your base grade. Hence it does not appear in the grade table. 
+The final exam isn't in this table because the only effect it has on your course grade is to potentially add a "plus" or "minus" to the base A/B/C/D grade. See below for full details. 
 
 If the total number of assignments of a given type is changed due to scheduling or other issues, this table will be updated. 
 
@@ -202,7 +202,9 @@ To track your grade as the semester unfolds, you can use the *Course Grade Track
 
 ## Revisions and reattempts 
 
-**You can revise or reattempt most assignments you turn in, without penalty, until they meet the criteria for acceptable work given in the [Standards for Student Work](https://github.com/RobertTalbert/discretecs/blob/f454fa80b1ec09b5380c09813903f9fcb406e315/MTH225-Fall2023/course-docs/standards-mth225-f23.md) document.** Not all work can be revised, and most work has limitations on revision. Here are the details: 
+**You can revise or reattempt most assignments you turn in, without penalty, until they meet the criteria for acceptable work given in the [Standards for Student Work](https://github.com/RobertTalbert/discretecs/blob/f454fa80b1ec09b5380c09813903f9fcb406e315/MTH225-Fall2023/course-docs/standards-mth225-f23.md) document.** This allows you to keep working on a concept and eventually demonstrate your understanding for full credit, even if your initial attempts aren't successful. 
+
+Not all work can be revised, and most work has limitations on revision. Here are the details: 
 
 | Assignment | Revisions allowed | How to revise and resubmit |
 | :-------: | :----------------: | :-------------------------: |
@@ -213,34 +215,33 @@ To track your grade as the semester unfolds, you can use the *Course Grade Track
 
 **Limitations on revisions:** Although there is no penalty for revising or reattempting work, we place the following limitations on this process to keep the feedback process manageable: 
 
-- **Learning Targets can only be retried on later Checkpoints**. Makeup quizzes outside scheduled Checkpoint times are not available. 
-- **Application/Analysis sets can only be revised once.** Revisions are submitted on Blackboard in the same assignment area as the original submission, and each set will have a deadline by which revisions need to be submitted. 
-- **Only two submissions per week are allowed for AEPs**. This can be new submissions of two different AEPs; or revisions of two different AEPs; or one new submission and one revision. Make sure to build a habit of submitting AEP work early and often, since you cannot wait until the end and submit several all at once. 
+- **Learning Targets can only be retried on later Checkpoints**. Makeup quizzes outside scheduled Checkpoint times are not available. (However alternative methods for giving demonstrations of skill may be made available later.)
+- **Application/Analysis sets can only be revised *once*** since you get the benefit of group work on the first attempt.  
+- **Only two submissions *per week* are allowed for AEPs**. In a given week, you can submit first attempts on two different AEPs; or a first attempt on one and a revision of another; or revisions on two different AEPs; or even two revisions of the same AEP. But only two are allowed per week. (A third and final item can be purchased with a token.) Make sure to build a habit of submitting AEP work early and often, since you cannot wait until the end and submit several all at once. 
 - **No revisions any work are allowed after 11:59pm ET on Sunday, December 3** in order to provide time and space to grade all pending revisions for final course grade determinations.
 
 ### Retry vs. Incomplete
 
-Application/Analysis and AEP submissions are marked *Success*, *Retry*, or *Incomplete*. Both *Retry* and *Incomplete* provide the opportunity to revise and resubmit in most cases. The differences are: 
+Application/Analysis and AEP submissions are marked *Success*, *Retry*, or *Incomplete*. Both *Retry* and *Incomplete* provide the opportunity to revise and resubmit in most cases. The differences between these two marks are: 
 
 - A *Retry* mark is given to work that represents a good-faith effort at a complete and correct solution and which shows partial understanding of the concepts, but which has significant errors or gaps. 
-- An *Incomplete* mark, on the other hand, does not contain enough information in the work to determine if there is understanding of the concepts; typically this is due to omissions of major portions of the assignment, code that will not run due to syntax errors, fundamental misunderstandings with the problem, or having too many issues to justify feedback on each one.
+- An *Incomplete* mark, on the other hand, is given when there's not enough information in the attempt to determine if there was partial understanding. This can happen because parts of the assignment were skipped or ommitted; there is code that won't run due to syntax errors; there are fundamental misunderstandings of the problem; or there are too many errors to justify spending time to correct each one and so a complete restart is best. 
 
-Work marked *Retry* can be revised and resubmitted without penalty, subject to the restrictions above. Work marked *Incomplete* is subject to further restrictions: 
+In each case I will give feedback about the issues that are present. Work marked *Retry* can be revised and resubmitted without penalty, subject to the restrictions above. Work marked *Incomplete* is subject to further restrictions: 
 
-- You must spend a token (explained below) to revise any item marked *Incomplete*. (Reminder, Class Preps cannot be revised at all.)
+- You must spend a token (explained below) to revise any AEP marked *Incomplete*. 
 - If a revision of an Application/Analysis set is marked *Incomplete*, no further revisions are allowed. 
 
 ### Tokens 
 
 Tokens are a fake currency (like Bitcoin) used in MTH 225 to buy exceptions to the rules. Each student starts with five tokens; your current "balance" is found in the Blackboard gradebook. You can spend one token to purchase any of the following: 
 
-- A submission of a third AEP in a given week (Normally you can only submit two items per week)
 - A single 48-hour extension to any AEP deadline (except the December 3 deadline) 
 - A revision of an AEP or Application/Analysis set marked *Incomplete* (except for revisions of Application/Analysis that are themselves marked *Incomplete*)
+- A submission of a third AEP in a given week (Normally you can only submit two items per week)
 - Change the mark on a Class Prep from *Incomplete* to *Success* 
 
-
-To spend a token, fill out the [Token Spending Form](https://docs.google.com/forms/d/e/1FAIpQLSdec4ILo7guFJteABZ-e8AxK1GxDOJ-f2yEOWKxjAjH84SP2A/viewform) at the link shown here, or on our Blackboard site in the *Forms* folder. The token has been spent as soon as you fill the form out; you do not need to wait for my approval.
+To spend a token, fill out the [Token Spending Form](https://docs.google.com/forms/d/e/1FAIpQLSdec4ILo7guFJteABZ-e8AxK1GxDOJ-f2yEOWKxjAjH84SP2A/viewform) at the link shown here, or on our Blackboard site in the *Forms* folder. The "purchase" is complete as soon as you fill the form out; you do not need to wait for approval.
 
 Please see the *Late Work and Deadlines* section below for additional information and some important restrictions about deadline extensions via tokens. 
 
@@ -255,6 +256,9 @@ Other uses of tokens, and ways for earning more, may become available during the
 The student code defines **academic misconduct** as *any action or behavior that misrepresents one’s contributions to or the results of any scholarly product submitted for credit, evaluation, or dissemination*. This includes cheating, collusion, dual submission, falsification, and plagiarism as well as any behavior that enables or helps others do these things.
 
 Academic misconduct is a serious matter and carries significant consequences, up to and including failure of the course and possible suspension from the university. In all cases, the guidelines established in the GVSU catalog and GVSU student code will be followed. I reserve the right to discuss the nature and origins of any assignment with any student before assessing it.
+
+>![important] IMPORTANT
+>**PLEASE NOTE**: **None of these policies should be necessary because there's no need to be academically dishonest thanks to the revision/resubmission policy.** Rather than engage in academic dishonesty and putting your entire career at risk, just turn in your best complete good-faith effort on assignments. And then, if revisions are needed, you'll typically get the chance. **The important thing in MTH 225 is not the grade, it's the understanding and growth you get from engaging in a feedback loop on your work.** 
 
 Different assignments in MTH 225 have different levels of acceptable collaboration. These are detailed below. **It's your job to read these carefully, know what is acceptable and what is not acceptable on each kind of assignment, and stay within bounds.** 
 
@@ -272,7 +276,6 @@ There are two important exceptions to these rules:
 - *Technical* details about an assignment --- for example how to format an equation in Markdown, or getting general help on using Jupyter notebooks --- is fine to discuss in whatever level of detail you want with anyone else. 
 - **You can ask me (Talbert) any question you want, about anything, at any time.** Getting help from the professor is not academic dishonesty! In case I cannot answer a question because it would reveal spoilers for the solution, I'll tell you so and it will be no big deal. 
 
-PLEASE NOTE: **There's no need to be academically dishonest in MTH 225, because you can revise and resubmit.** Rather than cheat, *do your best, ask questions, and use the revision process* so that you really grow and learn in the course. 
 
 ## Getting help 
 
