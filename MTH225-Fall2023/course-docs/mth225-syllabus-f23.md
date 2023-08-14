@@ -262,12 +262,12 @@ Academic misconduct is a serious matter and carries significant consequences, up
 
 Different assignments in MTH 225 have different levels of acceptable collaboration. These are detailed below. **It's your job to read these carefully, know what is acceptable and what is not acceptable on each kind of assignment, and stay within bounds.** 
 
-- On *Class Prep*, you are **allowed and encouraged to collaborate with others** as long as your  responses reflect your own understanding and are not merely copied from another. Remember, these are only graded on completeness and effort, and mistakes are not penalized. 
+- On *Class Prep*, you are **allowed and encouraged to collaborate with others** as long as your responses reflect your own understanding and are not merely copied from another. Remember, these are only graded on completeness and effort, and mistakes are not penalized, so don't copy! It will only make you lost in class. 
 - On *Application/Analysis sets*, you **are allowed** (in fact, expected) **to work on these in groups during class time first**. You can, and should, use your group work as the basis for your individual writeup. However, **they must be finished individually with no collaboration beyond what took place in class**. For example if you need to talk with one of your group members to clarify something they said during class, that is OK; but it is not OK to question that person further about work that didn't take place during class, or to continue working as a group outside of class beyond your class work. 
 - On *Checkpoints*, you will take these individually in class and **no collaboration is allowed at all**. Additionally **your use of technology is restricted to a basic scientific or graphing calculator**. 
 - On *AEPs*, you are **allowed to engage in general discussions of strategy only with others, but no collaboration on the details of a problem are allowed.**. 
 
-**Definition of "others" in these policies:** Collaboration with "others" includes current students in your section of MTH 225; students in other sections of MTH 225; former students from MTH 225; discussion-oriented websites like StackExchange or Reddit; and artificial intelligence applications such as ChatGPT. The intention here is that **the work you submit is your thinking, not someone or something else's.** 
+**Definition of "others" in these policies:** Collaboration with "others" includes current students in your section of MTH 225; students in other sections of MTH 225; former students from MTH 225; discussion-oriented websites like StackExchange or Reddit; and artificial intelligence applications such as Bard and ChatGPT. The intention here is that **the work you submit is your thinking, not someone or something else's.** 
 
 I have no interest in creating a police state in your course. But I am obliged to investigate any evidence I percieve in which a student is submitting work that does not faithfully represent their own understanding. This investigation may involve discussions about the work or a request to reproduce the work or something like it, in a face-to-face meeting. 
 
@@ -279,7 +279,7 @@ There are two important exceptions to these rules:
 
 ## Getting help 
 
-As mentioned, you will almost certainly find yourself lost, stuck, or confused on *something* in this course, possibly quite often. This is not a defect in your character or intelligence; it's a sign you are being challenged, and you can turn that challenge into real growth by **seeking out help as soon as you need it**. 
+As mentioned, you will almost certainly find yourself lost, stuck, or confused on *something* in this course at some point. This is not a defect in your character or intelligence; it's a sign you are being challenged, and you can turn that challenge into real growth by **seeking out help as soon as you need it**. 
 
 Make every effort to get yourself unstuck and resolve your questions on your own first. But then: 
 
@@ -310,7 +310,7 @@ All deadlines for assignments will be clearly indicated either on the assignment
 
 - Class Preps are always due at **11:59pm Eastern Time the night before their class**. (For example, Wednesday Class Preps are due 11:59pm ET Tuesday.) 
 - Application/Analysis sets are always due at **11:59pm ET on Fridays**. Revisions of Application/Analysis sets will also have deadlines, which will be announced in class (typically one week after the original set is graded). 
-- Checkpoints are given in class, and the work is collected at the end of the period, so the end of the hour is the "deadline". A schedule for these will be available early in the semester. 
+- Checkpoints are given in class, and the work is collected at the end of the period, so the end of the class session is the "deadline". A schedule for these will be available early in the semester. 
 
 **For AEPs:** Each AEP has an **initial deadline**. Your **first attempt** on an AEP must be submitted by that deadline, and no first attempts on an AEP are accepted after that initial deadline. However, once your first attempt is submitted, there is **no deadline** for turning in revisions (if revisions are needed); you can continue to work with an AEP at your own pace once the initial draft is turned in. However, **a single deadline of 11:59pm ET on Sunday, December 3** is in place for all work on AEPs. 
 
@@ -323,11 +323,10 @@ Most deadlines in MTH 225 are there for you as "commitment devices", something y
 
 Deadline extensions are also available for "purchase" by [spending a token](https://docs.google.com/forms/d/e/1FAIpQLSdec4ILo7guFJteABZ-e8AxK1GxDOJ-f2yEOWKxjAjH84SP2A/viewform). However the following restrictions apply: 
 
+- **To extend a deadline with a token, you must spend the token *before the original deadline*.** Requests to extend a deadline after the original one has passed will be declined. 
 - **Deadlines on Class Prep and Application/Analysis assignments** (including revisions of Application/Analysis) **may not be extended**, because of the built-in flexibility in the deadline stated above. If you need more time to complete the assignment, just take it, within the time frames stated above. 
-- **Checkpoints must be submitted during class time**. These don't have "deadlines" as such since they are done strictly in person. Therefore a token can't "extend the deadline". 
 - Therefore **deadline extensions via tokens only applies to AEPs**. Tokens can be spent to extend any deadline once by 48 hours. The exception is the Sunday, December 3 deadline by which all AEP work for the course must be submitted. The new deadline is 48 hours past the original deadline -- not 48 hours from the time you spend the token. You may not extend the deadline on an assignment twice, or spend more than one token to extend the deadline more than 48 hours. 
-
-Further, **to extend a deadline with a token, you must spend the token *before the original deadline*.** Requests to extend a deadline after the original one has passed will be declined. 
+- **Checkpoints must be submitted during class time**. These don't have "deadlines" as such since they are done strictly in person. Therefore a token can't "extend the deadline". 
 
 If you are in a life situation where submitting work on time consistently is an issue, please let me know and we will try to work something out. 
 
@@ -348,15 +347,15 @@ You should be proficient in the basic technology skills listed at [this GVSU pol
 
 ### Instructor availability and message responses
 
-**You can ask a question about anything at any time.** You have both the right and the responsibility to ask questions about anything in the course you don't fully understand, whether math or some aspect of the syllabus or anything else. You can use email (talbert@gvsu.edu), drop-in hours, or grab me before or after class. Email is the best venue for me, but use what works best for you. 
+**You can ask a question about anything at any time.** You have both the right and the responsibility to ask questions about anything in the course you don't fully understand, whether math or some aspect of the syllabus or anything else. You can use email (talbert@gvsu.edu), drop-in hours, appointments, or grab me before or after class. Email is the best venue for me, but do what works best for you. 
 
-However, please note that I do not always respond immediately to messages. In particular **I do not typically check email between 6:00pm and 6:00am on weeknights**, and **I do not typically check email at all on weekends**. That said, 
+However, please note that I cannot always respond immediately to messages. In particular **I do not typically check email between 6:00pm and 6:00am on weeknights**, and **I do not typically check email at all on weekends** in order to prioritize time for family and other non-work pursuits. That said, 
 
-- Messages sent on a weekday (Monday-Friday) before 4:00pm ET will get a response *the same day*. 
-- Messages sent after 4:00pm ET Monday-Thursday will get a response *the next day*. 
-- Messages sent after 4:00pm on Fridays or on the weekend will get a response *the following Monday*. 
+- Messages sent on a weekday (Monday-Friday) before 3:00pm ET will get a response *the same day*. 
+- Messages sent after 3:00pm ET Monday-Thursday will get a response *the next day*. 
+- Messages sent after 3:00pm on Fridays or on the weekend will get a response *the following Monday*. 
 
-**Please plan ahead for instructor availability.** For example if you have something to turn in on a Friday, and you send a question by email after 4:00pm, my reply may not come in time to help you; plan ahead for contingencies like this. 
+**Please plan ahead for instructor availability.** For example if you have something to turn in on a Friday, and you send a question by email after 3:00pm, my reply may not come in time to help you; plan ahead for contingencies like this. 
 
 ### Special accommodations and basic needs 
 
@@ -372,29 +371,29 @@ I'm Robert Talbert, the professor for this course. I'm a Professor of Mathematic
 
 I was, at best, a thoroughly mediocre math student in school until my senior year of high school, when I had a teacher for Calculus (hi, Mrs. Allen) who stopped trying to cram things into my head and instead showed me the basics -- and then backed off, and let me work things out on my own (with support if I got stuck). Basically, this is how I teach today. 
 
-After a two-year gig as a Psychology major in college, I changed my major to math after a late-night dare from my roommate (long story) and, to my great surprise, I fell in love with the subject. I ended up getting a Ph.D. working in an obscure area at the intersection of abstract algebra and geometry, and I also discovered I loved teaching math to college students. So I went on to spend 14 years teaching in [small liberal arts colleges](http://franklincollege.edu) before coming to GVSU in 2011.
+After a two-year excursion as a Psychology major in college, I changed my major to math after a late-night dare from my roommate (long story, there were substances involved) and, to my great surprise, I fell in love with the subject. I ended up getting a Ph.D. working in an obscure area at the intersection of abstract algebra and geometry, and I also discovered I loved teaching math to college students. So I went on to spend 14 years teaching in [small liberal arts colleges](http://franklincollege.edu) before coming to GVSU in 2011.
 
-Now, I teach computer scientists and engineers how to think like mathematicians, I do research on how to make college teaching better, and I have an appointment as Senior Faculty Fellow for Learning Futures, in which I coordinate research and development projects to make your learning experience better here. When nobody is looking, I'm working on my data science skills including learning the languages R and Julia. 
+Now, I teach computer scientists and engineers how to think like mathematicians; I do research on how to make college teaching better; and I have an appointment as "Senior Faculty Fellow for Learning Futures", in which I coordinate research and development projects to make your learning experience better here. When nobody is looking, I'm working on my data science skills including learning the languages R and Julia. 
 
-I live in Allendale with my family, consisting of a wife and three kids, although two of those kids are currently elsewhere (one is a high school exchange student in Australia this year, the other has a job and an apartment). I'm an avid bass guitar player, currently playing in the Grand Rapids and Muskegon areas with two cover bands. I also love the outdoors and get out to run, bicycle, or hike when I can. You can read more about what I'm thinking and doing at my website, [rtalbert.org](https://rtalbert.org), or at my "other blog" [Grading for Growth](https://gradingforgrowth.com) about alternative grading practices which I co-author with my GVSU colleague Prof. David Clark. I'm also on Twitter at [@RobertTalbert](http://twitter.com/RobertTalbert) and on [LinkedIn](https://www.linkedin.com/in/roberttalbert/). I will accept any connection request on LinkedIn from a student! 
+I live in Allendale with my family, consisting of a wife and three kids, although two of those kids are currently elsewhere (one is a high school exchange student in Australia this year, the other has a job and an apartment). I'm an avid bass guitar player, currently playing in the Grand Rapids and Muskegon areas with the cover bands [Taproom Fix](https://www.facebook.com/TaproomFixBand/) and Elleven. I also love the outdoors and get out to run, bicycle, or hike when I can. You can read more about what I'm thinking and doing at my website, [rtalbert.org](https://rtalbert.org), or at my "other blog" [Grading for Growth](https://gradingforgrowth.com) about alternative grading practices which I co-author with my GVSU colleague Prof. David Clark. I'm also on Twitter at [@RobertTalbert](http://twitter.com/RobertTalbert) and on [LinkedIn](https://www.linkedin.com/in/roberttalbert/). I will accept any connection request on LinkedIn from a student! 
 
 ## Appendix A: Learning Targets
 
-The Learning Targets labeled with a star ⭐ are the CORE Learning Targets. 
+The Learning Targets labeled **CORE** are the CORE Learning Targets. (Those are Learning Targets 2, 3, 6, 7, 8, 9, 12, and 13.)
 
 1. I can convert a positive integer from base 10 to base 2, 8, and 16 and vice versa and represent a negative integer in base 2 using two's complement notation. 
-2. ⭐ I can add, subtract, multiply, and divide positive integers in base 2. 
-3. ⭐ I can identify the hypothesis and conclusion of a conditional statement and state its converse, contrapositive, inverse, and negation. 
+2. (**CORE**) I can add, subtract, multiply, and divide positive integers in base 2. 
+3. (**CORE**) I can identify the hypothesis and conclusion of a conditional statement and state its converse, contrapositive, inverse, and negation. 
 4. I can construct truth tables for propositions involving two or three atomic propositions and use truth tables to determine if two propositions are logically equivalent. 
 5. I can determine the truth value of a predicate at a specific input, the truth value of a quantified predicate, and the negation of a quantified predicate. 
-6. ⭐ I can determine elements of a recursively-defined sequence using a recurrence relation and derive a recurrence relation for a recursively-defined sequence. 
-7. ⭐ Given a statement to prove using mathematical induction, I can state the framework of a proof. (Identify the predicate, identify and prove the base case, state the inductive hypothesis, and state what needs to be proven in the inductive step)
-8. ⭐ I can convert a set given in roster notation to set-builder notation and vice versa; and determine if an object is an element of the set. 
-9. ⭐ I can find the intersection, union, difference, symmetric difference, power set, cardinality, cartesian product, and complement of sets. 
+6. (**CORE**) I can determine elements of a recursively-defined sequence using a recurrence relation and derive a recurrence relation for a recursively-defined sequence. 
+7. (**CORE**) Given a statement to prove using mathematical induction, I can state the framework of a proof. (Identify the predicate, identify and prove the base case, state the inductive hypothesis, and state what needs to be proven in the inductive step)
+8. (**CORE**) I can convert a set given in roster notation to set-builder notation and vice versa; and determine if an object is an element of the set. 
+9. (**CORE**) I can find the intersection, union, difference, symmetric difference, power set, cardinality, cartesian product, and complement of sets. 
 10. I can determine if a mapping is a function; identify the domain, range, and codomain of a function; and determine the image of a specific input in one function or a composition of functions.
 11. I can determine if a function is injective, surjective, or bijective. 
-12. ⭐ I can apply the Additive and Multiplicative Principles and the Principle of Inclusion/Exclusion to formulate and solve basic combinatorics problems.
-13. ⭐ I can compute factorials and binomial coefficients, and apply the these concepts to solve basic combinatorics problems. (permutations, selections, distributions)
+12. (**CORE**) I can apply the Additive and Multiplicative Principles and the Principle of Inclusion/Exclusion to formulate and solve basic combinatorics problems.
+13. (**CORE**) I can compute factorials and binomial coefficients, and apply the these concepts to solve basic combinatorics problems. (permutations, selections, distributions)
 14. I can determine if a sequence of numbers is arithmetic or geometric and derive both closed-form and recursive formulas for them. 
 15. I can use the characteristic root method to find a closed-form solution for a first- or second-order linear homogeneous recurrence relation. 
 
