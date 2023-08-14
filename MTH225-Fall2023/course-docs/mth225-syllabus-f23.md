@@ -180,7 +180,7 @@ Your course grade is assigned using the table below. It shows the requirements f
 | C | 16 |  6 | All 8 Core + 2 others | All 8 Core  | 2 |
 | D | 10 |  4 | Any 8 | 0 | 0 |
 
-A grade of "F" is earned if not all of the requirements for a "D" are met.
+A grade of "F" is earned if not all of the requirements for a "D" are met. test
 
 The final exam isn't in this table because the only effect it has on your course grade is to potentially add a "plus" or "minus" to the base A/B/C/D grade. See below for full details. 
 
