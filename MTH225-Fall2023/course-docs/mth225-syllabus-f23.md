@@ -198,6 +198,8 @@ If the total number of assignments of a given type is changed due to scheduling 
 
 (If both of these happen, your grade is not necessarily lowered any further.) 
 
+If the criteria for both plus *and* minus grades are met (for example the Class Prep requirement is not met but you score above 85% on the final exam) then the modifiers cancel out, and you retain just the base grade without modification. 
+
 Note: Significant deficiencies in Class Prep submissions may warrant a further reduction in your grade. 
 
 *Exceptions:* GVSU does not award grades of A+ or D-. 
