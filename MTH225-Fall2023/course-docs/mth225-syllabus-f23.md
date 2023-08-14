@@ -257,7 +257,7 @@ The student code defines **academic misconduct** as *any action or behavior that
 
 Academic misconduct is a serious matter and carries significant consequences, up to and including failure of the course and possible suspension from the university. In all cases, the guidelines established in the GVSU catalog and GVSU student code will be followed. I reserve the right to discuss the nature and origins of any assignment with any student before assessing it.
 
->![important] IMPORTANT
+>[!important] IMPORTANT
 >**PLEASE NOTE**: **None of these policies should be necessary because there's no need to be academically dishonest thanks to the revision/resubmission policy.** Rather than engage in academic dishonesty and putting your entire career at risk, just turn in your best complete good-faith effort on assignments. And then, if revisions are needed, you'll typically get the chance. **The important thing in MTH 225 is not the grade, it's the understanding and growth you get from engaging in a feedback loop on your work.** 
 
 Different assignments in MTH 225 have different levels of acceptable collaboration. These are detailed below. **It's your job to read these carefully, know what is acceptable and what is not acceptable on each kind of assignment, and stay within bounds.** 
