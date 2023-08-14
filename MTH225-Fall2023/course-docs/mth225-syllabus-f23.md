@@ -8,31 +8,33 @@
 
 ## About MTH 225 and this syllabus
 
-**Welcome to MTH 225!** I'm Dr. Robert Talbert, the professor of this course. I'm grateful you're here. 
+**Welcome to MTH 225!** I'm Dr. Robert Talbert, the professor for this course. I'm grateful you're here. 
 
 In this course, you will learn **the math that all of computer science is based on**. You'll learn things like how to do arithmetic in binary, how to count the number of ways to deal a five-card poker hand, and how to generate complex data structures using simple rules involving recursion. And more! By studying discrete structures, **you'll gain a superpower to make you an expert learner of any hardware and any software, including those that haven't been invented yet**. As a computer scientist, your ability to learn new things quickly, and use fundamental concepts to model complex ideas, are more valuable than your coding skills. 
 
 **This syllabus contains all the information you need to navigate the course.** The main document will be kept continuously up to date at this link. When you see blue- or purple-underlined text in the syllabus or any other document, it's a clickable link. For example, [click here for a cat video](https://www.youtube.com/watch?v=aFuUidBR1aQ). A PDF version of the syllabus will also be available on Blackboard in the *Course Documents and Tools* folder, but it will not be updated unless there is a major change. 
 
-**This document is meant to be read once, then searched as needed.** If you need to find something, the easiest way is to pull up this  document, hit `Control-F` and then do a search for the text you're looking for. 
+**This document is meant to be read once, then searched as needed.** If you need to find something, the easiest way is to pull up this  document, hit `Control-F` or `Command-F`, and then do a search for the text you're looking for. 
 
-All course materials for MTH 225 are available on GitHub at https://github.com/RobertTalbert/discretecs. Critically important documents (syllabus, etc.) will also be on Blackboard. 
+All course materials for MTH 225 are available on GitHub at https://github.com/RobertTalbert/discretecs. The current version is in the folder `MTH225-Fall2023`. Critically important documents (syllabus, etc.) will also be on Blackboard. 
 
 ## Key Information
 
+**Professor:** Robert Talbert, Ph.D., Professor of Mathematics. My office is Mackinac Hall C-2-513 and my email is talbertr@gvsu.edu. 
+
 **Meetings:** Section 03 and Section 04 meet Monday/Wednesday/Friday in Mackinac Hall B-1-110. Section 03 meets 12:00-12:50pm and Section 04 meets 2:00-2:50pm. 
 
-**Student drop-in hours:** To be determined during week 1. Watch this space for an update. 
+**Student drop-in hours:** 11:00-11:50am MWF. Others will be determined during week 1; watch this space for an update. No appointment is needed for drop-in hours. If you want to make an appointment outside office hours for an in-person or online meeting, schedule yourself at http://calendly.com/robert-talbert. 
 
 **Blackboard, Class Page, and Class Vault:** Our main course portal is on Blackboard, which you can access at http://lms.gvsu.edu. Please note that we are using *Blackboard Ultra*, a major update to Blackboard which has significant differences from previous versions. If you need a tutorial on how to navigate Blackboard Ultra,  We use two other electronic resources for the class: the **[Class Page](https://docs.google.com/document/d/1JxG_s77q1Z3Ho_GsHXsQafZhpFJ_lW1Bbl7Hn0epWns/edit?usp=sharing)** which is a Google Doc showing notes and resources for class meetings; and the **[Course vault](https://publish.obsidian.md/mth225)** which serves as our primary textbook. All of these are linked to Blackboard in the *Course Documents and Tools* folder, so you don't need to remember them all. But it's a good idea to bookmark the ones you use frequently in your browser. 
 
-**Contacting the prof:** Email (talbertr@gvsu.edu) is preferred. You can schedule a video or phone call outside of office hours through [my Calendly page](https://calendly.com/robert-talbert/). Be sure to read my availability/response policy **LINK NEEDED**
+**Contacting the prof:** Email (talbertr@gvsu.edu) is preferred. You can schedule a video or phone call outside of office hours through [my Calendly page](https://calendly.com/robert-talbert/). Be sure to read [my availability/response policy](https://github.com/RobertTalbert/discretecs/blob/master/MTH225-Fall2023/course-docs/mth225-syllabus-f23.md#instructor-availability-and-message-responses). 
 
 **Course calendar:** The official course calendar is in **Google Calendar** [at this link](https://calendar.google.com/calendar/embed?src=9faa4be7819d7e9f621c4deb8f2e0fc91ab47d8140a117459e9ca26d5611ae06%40group.calendar.google.com&ctz=America%2FDetroit). It is also linked on the [Class Page](https://hackmd.io/@rtalbert235/HyTuIxi4q) and embedded at the end of this syllabus, although some web formats do not display it correctly. Assignments that are turned in on Blackboard will also have their due dates shown on the Blackboard calendar. *In case of an apparent date conflict on assignments or course documents, the Google Calendar is assumed to be correct.* 
 
 **Definition of "week":** In our course, a "week" is defined to begin at 12:01am ET on Monday and end at 11:59pm ET the following Sunday. 
 
-**Course content and videos:** The content for the course is housed in the Course Vault (https://publish.obsidian.md/mth225), a wiki-style website containing interconnected articles for each major course concept. A *optional* additional textbook is [Discrete Mathematics: An Open Introduction](http://discrete.openmathbooks.org/dmoi3/dmoi.html) by Oscar Levin. It's free; just click the link. A PDF copy is available for download [here](http://discrete.openmathbooks.org/pdfs/dmoi3-tablet.pdf). Not all course material is included in the Levin textbook, and we may not follow the exact sequence that this book uses. But you are free to use it as a supplement. A playlist of instructional videos is available on Vimeo at https://vimeo.com/showcase/8667148, and individual videos are embedded in the class vault. 
+**Course content and videos:** The content for the course is housed in the **Course Vault** (https://publish.obsidian.md/mth225), a wikipedia-style website containing interconnected articles for every major course concept. A *optional* additional textbook is [Discrete Mathematics: An Open Introduction](http://discrete.openmathbooks.org/dmoi3/dmoi.html) by Oscar Levin. It's free; just click the link. A PDF copy is available for download [here](http://discrete.openmathbooks.org/pdfs/dmoi3-tablet.pdf). Not all course material is included in the Levin textbook, and we may not follow the exact sequence that this book uses. But you are free to use it as a supplement. A playlist of instructional videos is available on Vimeo at https://vimeo.com/showcase/8667148, and individual videos are embedded in course vault articles. 
 
 **Course tools:** We will use [Juypyter notebooks](https://jupyter.org/) on the [Google Colab platform](https://colab.research.google.com/) throughout the course for Python programming and writing up some assignments. You'll receive training on these tools in the first week of classes. 
 
@@ -52,11 +54,11 @@ In MTH 225, you can expect:
 
 Success in MTH 225 is within everyone's reach, but it's not effortless. On your end, your success in the course depends on three things: 
 
-1. **Active engagement during class time**. The best  way to learn anything is to be an active participant in the process. Students who approach the class with a passive mindset typically struggle, and often fail. Those who approach it with an active mindset, on the other hand, often surprise themselves with how much and how well they learn. Make it a priority not to just attend and take notes, but *get involved*. 
-2. **Asking questions**. The material in MTH 225 is challenging, and you will almost certainly be lost, confused, and/or stuck at times. **This is not a defect -- it's normal and it means you're doing the course right.** When struggle happens, don't wait for things to make sense on their own: *Ask questions* of me and your classmates and take action to make sense of the material. 
+1. **Active engagement during class time**. The best way to learn anything is to be an active participant in the process. Students who approach the class with a passive mindset typically struggle, and often fail. Those who approach it with an active mindset, on the other hand, often surprise themselves with how much and how well they learn. Make it a priority not to just attend and take notes, but *get involved*. 
+2. **Asking questions**. The material in MTH 225 is challenging, and you will almost certainly be confused or stuck at times. **This is a feature, not a bug, of the learning process.** It's normal and it means you're doing the course right. But when struggle happens, don't wait for things to make sense on their own: *Ask questions* of me and your classmates and take action to make sense of the material. 
 3. **Good management of time, tasks, and information.** Understanding the material won't help you if you procrastinate, skip announcements, or don't use a calendar. All course information will be clearly laid out for you, but it's up to you to import that information into your own lives and act on it. 
 
-If you can commit to these three things, then I have every expectation that you'll succeed in the course, no matter what your math background or perceived math skill is.
+If you can commit to these, then I have every expectation that you'll succeed in the course, no matter what your math background or perceived math skill is.
 
 ## Goals and Structure 
 
@@ -85,7 +87,7 @@ The course content is split up into five modules:
 - **Module 2: Logic**. Logical propositions, conditional statements, truth tables, predicates, and quantification. 
 - **Module 3: Sets and functions**. Set notation and representation, set operations, functions. 
 - **Module 4: Combinatorics**. The Additive and Multiplicative counting principles, the binomial coefficient, permutations, dots-and-dividers counting methods; using computational thinking to solve combinatorics problems. 
-- **Module 5: Recursion and induction**. Numerical sequences in closed-formula and recursive forms, solutions to recurrence relations, the Principle of Mathematical Induction and proof by induction. 
+- **Module 5: Recursion and induction**. Numerical sequences in closed-formula and recursive forms, solutions to recurrence relations, the Principle of Mathematical Induction and proof by induction. (This module will be split up into two parts with the first happening after Module 2.)
 
 The basic skills that you'll learn in the course are encapsulated in a list of **15 Learning Targets**, eight (8) of which are labelled as **CORE** targets and represent the essential skills that every MTH 225 student should possess by the end of the course. You can find that list in [Appendix A](https://github.com/RobertTalbert/discretecs/blob/master/MTH225-Fall2023/course-docs/mth225-syllabus-f23.md#appendix-a-learning-targets), and it's linked elsewhere on our various course sites. 
 
@@ -95,7 +97,7 @@ Each class meeting has activities for you to do *before*, *during* and *after* t
 
 * **Before class:** You'll be asked to complete a **Class Prep** assignment that will involve you in reading content from [the course vault](https://publish.obsidian.md/mth225/) and watching some of the videos at [our playlist](https://vimeo.com/showcase/8667148). You'll then complete a small set of basic questions and exercises. This way, you'll come to class ready to work, and we can skip  lectures on the basics in class unless it's really needed. 
 * **During class:** Class meetings will be focused on *answering questions* and *doing active work*, both intended to make it easy for you to make sense of the material and ask questions. Selected portions of your class work will be written up individually and turned in as **Application/Analysis** sets. We'll also use time in class for assessment and for completing other assignments, so that a lot of the "homework" for the class is done during class time. 
-* **After class:** In addition to getting started on the next Class Prep, you should expect to spend significant time in between classes doing practice on concepts you don't fully understand yet, and asking questions. There will be occasional **Application and Extension Problems** (AEPs) to work on. 
+* **After class:** In addition to getting started on the next Class Prep and writing up Application/Analysis problems, you should expect to spend time in between classes doing practice on concepts you don't fully understand yet, and asking questions. There will be occasional **Application and Extension Problems** (AEPs) to work on. 
 
 A typical week in MTH 225 looks like this: 
 
@@ -105,23 +107,23 @@ A typical week in MTH 225 looks like this:
 4. **Wednesday** -- Q&A from Class Prep and active work on more advanced concepts from Class Prep 
 5. **Thursday** - Complete Class Prep for Friday 
 6. **Friday** -- Q&A from Class Prep and active work on more advanced concepts from Class Prep 
-7. **Saturday** -- Nothing! If you stay current on work during the week you shouls always have Saturday open. 
+7. **Saturday** -- Nothing! If you stay current on work during the week you should always have Saturday open. 
 
 ## Assessments and Grades
 
 ### Overall approach to grades in MTH 225 
 
-The way grades work in MTH 225 is different from what you might have experienced. In MTH 225: 
+The way grading work in MTH 225 is different from what you might have experienced. In MTH 225: 
 
 - **Almost none of your assignments have point values**. In fact only the final exam is graded with points. Therefore there is **no partial credit and no averaging**. 
-- Instead, assignments have **specifications** which are descriptions of what constitutes "acceptable" work. These are given in detail in the document *[Standards for Student Work](https://github.com/RobertTalbert/discretecs/blob/f454fa80b1ec09b5380c09813903f9fcb406e315/MTH225-Fall2023/course-docs/standards-mth225-f23.md)* which you can find at the link and on Blackboard in the *Course Documents and Tools* folder. When you submit an assignment, I will read it carefully and compare it with the standards, and simply determine whether it meets the specifications or not. Typically your work is marked either **Success** or **Retry** depending on whether it meets the specifications or not. 
+- Instead, assignments have **standards** which are descriptions of what constitutes "acceptable" work. These are given in detail in the document *[Standards for Student Work](https://github.com/RobertTalbert/discretecs/blob/f454fa80b1ec09b5380c09813903f9fcb406e315/MTH225-Fall2023/course-docs/standards-mth225-f23.md)* which you can find at the link and on Blackboard in the *Course Documents and Tools* folder. When you submit an assignment, I will read it carefully and compare it with the standards, and simply determine whether it meets the standards or not. Typically your work is marked either **Success** or **Retry** depending on whether it meets the standards or not. 
 - After I evaluate your work, in most cases you will receive **detailed feedback** that will tell you whether your work meets the standards, and if not, the feedback will tell you what was missing and how you might go about fixing it. 
-- Then, on almost every piece of work, you will have the chance to **retry** the assignment if needed, get more feedback, and repeat this **feedback loop** until the work meets our specifications. 
+- Then, on most items, you will have the chance to **retry** the assignment if needed, get more feedback, and repeat this **feedback loop** until the work meets our standards. 
 - Your course grade is not based on point totals or averages (because there are no point values). Instead, the course grade is based on **how many important learning tasks you've successfully accomplished** by the end of the semester, using a simple table that's given below. 
 
 Therefore grades in MTH 225 are based not on your ability to do good work at a single point in time, but rather on your ability to **eventually learn the material** by acting on feedback from previous attempts. 
 
-This process, using specifications and feedback loops rather than points and averages, is how evaluation of work happens in most situations outside of college. In your future jobs, for example, you'll be reviewed regularly by your manager; it's not a "one and done" situation where you get a point score and then the process is over. Instead, in a real job, you get feedback and coaching on how to improve, and then you act on the feedback and show the boss that you have improved. 
+This process, using standards and feedback loops rather than points and averages, is how evaluation of work happens in most situations outside of college. In your future jobs, for example, you'll be reviewed regularly by your manager; it's not a "one and done" situation where you get a point score and then the process is over. Instead, in a real job, you get feedback and coaching on how to improve, and then you act on the feedback and show the boss that you have improved. 
 
 I've been using this grading method since 2017, originally in MTH 325 and now in all my classes. We do things this way because **learning takes time**, and I believe grading your work based on a single point of data such as a quiz or test and then averaging all of those data is not only inaccurate, but statistically invalid and even unethical. Feedback loops are how all human learning takes place. So this seems like the best way to do grading. 
 
@@ -149,17 +151,17 @@ Each of these assignments is graded as follows:
 
 The fifth major assessment is a brief but comprehensive **final exam**, graded using points (out of 100) whose schedule is on the course calendar. More information on this is coming around mid-semester.
 
-### More about Learning Targets
+### Checkpoints and Learning Targets
 
 The [15 Learning Targets given in Appendix A](https://github.com/RobertTalbert/discretecs/blob/f454fa80b1ec09b5380c09813903f9fcb406e315/MTH225-Fall2023/course-docs/mth225-syllabus-f23.md#appendix-a-learning-targets) are the basic skills of MTH 225. They are not the only things that matter in the course; but part of your job in the course is to **demonstrate skill on as many of these Learning Targets as you can, at some point in the semester.** 
 
-The main way you'll demonstrate skill on Learning Targets is by **working Checkpoint problems**. Almost every week, we will have a short in-class quiz over a portion of the Learning Targets. Each quiz contains one problem for each Learning Target that is covered, and each problem focuses on just one Learning Target. Each problem on a Learning Target is a **demonstration of skill** on that target. 
+The main way you'll demonstrate skill on Learning Targets is by **working Checkpoint problems**. Almost every week, we will have a short in-class quiz, called a Checkpoint, over a portion of the Learning Targets. Each Checkpoint contains one problem for each Learning Target that is covered, and each problem focuses on just one Learning Target. Each problem on a Learning Target is a **demonstration of skill** on that target. 
 
 The [The Standards for Student Work document](https://github.com/RobertTalbert/discretecs/blob/f454fa80b1ec09b5380c09813903f9fcb406e315/MTH225-Fall2023/course-docs/standards-mth225-f23.md) contains details on what constitutes a *successful demonstration of skill* on each Learning Target. Generally, a successful demonstration of skill involves completing the action or task described by the Learning Target with no significant errors and only a small number of minor mistakes allowed, along with a clear explanation of the work.  Your work on Checkpoints will be graded per problem, and each problem that you work will receive a mark of **Success** if the work meets the success criteria and **Retry** if it does not. 
 
 The Blackboard gradebook will record the number of successful demonstrations of skill you have attained on each Learning Target. **Once you have provided two successful demonstrations of skill on a Learning Target, you are considered to have mastered that concept, and no further quiz work is necessary.** We will use the term **Level 1** to describe a Learning Target with *one* successful demonstration of skill and **Level 2** to describe a Learning Target with *two* successful demonstrations of skill. 
 
-Problems covering Learning Targets that are not CORE, will appear on **three consecutive Checkpoints**, beginning when the Learning Target is covered in class, offering you three opportunities to demonstrate skill on those Learning Targets. Problems covering CORE Learning Targets will appear on *every* Checkpoint beginning when they are covered in class. Some Checkpoints near the end of the semester will be all-inclusive, covering all 15 Learning Targets; and the final exam will contain an optional section with one last attempt on any Learning Target that needs one. 
+Problems covering Learning Targets that are not CORE, will appear on **three consecutive Checkpoints**, beginning when the Learning Target is covered in class, offering you three opportunities to demonstrate skill on those Learning Targets. Problems covering CORE Learning Targets will appear on *every* Checkpoint beginning when they are covered in class. Some Checkpoints near the end of the semester will be all-inclusive, covering all 15 Learning Targets; and the final exam will contain an optional section with one last attempt on any Learning Target that needs one. An initial schedule of which Learning Targets will appear on which Checkpoint is given at the end of this syllabus in Appendix B.
 
 Because of the cumulative nature of the Checkpoints, you have the freedom to skip problems that you are not prepared to work; just practice for another week and try again at the next quiz (if the Learning Target is available). If you attempt a quiz problem and it receives a **Retry** mark, or if you are absent for a quiz, or if you choose not to attempt a problem because you're not prepared for it, you can just take it later. 
 
@@ -393,7 +395,29 @@ The Learning Targets labeled with a star ⭐ are the CORE Learning Targets.
 14. I can determine if a sequence of numbers is arithmetic or geometric and derive both closed-form and recursive formulas for them. 
 15. I can use the characteristic root method to find a closed-form solution for a first- or second-order linear homogeneous recurrence relation. 
 
-## Appendix B: Course Calendar 
+
+## Appendix B: Schedule of Checkpoint coverage
+
+Here is an initial schedule of which Learning Targets are covered on which Checkpoints, and when those will occur. This schedule may change during the semester, in which case you will be notified; the Course Calendar (below) is always assumed to be right in case of apparent date conflicts. 
+
+| Checkpoint | Date           | Learning Targets included                             |
+| ---------- | -------------- | -------------------------------- |
+| 1          | 9/13           | 1, 2                             |
+| 2          | 9/20           | 1, 2, 3, 4                       |
+| 3          | 9/27           | 1, 2, 3, 4, 5                    |
+| 4          | 10/4           | 2, 3, 4, 5, 6, 7                 |
+| 5          | 10/11          | 2, 3, 5, 6, 7, 8, 9              |
+| 6          | 10/18          | 2, 3, 6, 7, 8, 9, 10, 11         |
+| 7          | 10/25          | 2, 3, 6, 7, 8, 9, 10, 11, 12, 13 |
+| 8          | 11/1           | 2, 3, 6, 7, 8, 9, 10, 11, 12, 13 |
+| 9          | 11/8           | 2, 3, 6, 7, 8, 9, 12, 13         |
+| 10         | 11/15          | 2, 3, 6, 7, 8, 9, 12, 13, 14     |
+| 11         | 11/20 (Monday) | 1-15                             |
+| 12         | 11/29          | 2, 3, 6, 7, 8, 9, 12, 13, 14, 15 |
+| 13         | 12/4 (Monday)  | 1-15                             |
+| Final exam | 12/13          | 1-15                                 |
+
+## Appendix C: Course Calendar 
 
 You can access the calendar directly at this link: https://calendar.google.com/calendar/embed?src=9faa4be7819d7e9f621c4deb8f2e0fc91ab47d8140a117459e9ca26d5611ae06%40group.calendar.google.com&ctz=America%2FDetroit  It's also embedded on Blackboard in the *Course Documents and Tools* folder, as well as below (although some web versions may not display it). 
 
@@ -409,7 +433,7 @@ You can access the calendar directly at this link: https://calendar.google.com/c
 - November 22-26: Thanksgiving break, no classes
 - December 9: Last day of classes
 
-## Appendix C: Course Tools and Links
+## Appendix D: Course Tools and Links
 
 - **Blackboard**: http://lms.gvsu.edu, then look for your section of MTH 302. 
 - **Google Colab:** This is our platform for using Python to do linear algebra and differential equations. Go to https://colab.research.google.com/ and sign in with your GVSU Google account. 
