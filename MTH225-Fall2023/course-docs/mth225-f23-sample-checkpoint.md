@@ -109,14 +109,12 @@ Construct a correct truth table for each of the following statements.
 
 ## Sample Checkpoint 4
 
->![NOTE]
+>[!NOTE]
 >By Checkpoint 4, Learning Target 1 has been "retired" after three consecutive appearances; it will appear again on Checkpoints 11 and 13 and at the final exam. Checkpoint 4 will be the third appearance of Learning Targets 2--4, the second appearance of Learning Target 5, and the first appearance of Learning Targets 6-7. 
 
 ## Learning Target 2 
 
-:::warning
-(**CORE**) I can add, subtract, multiply, and divide numbers in base 2. 
-:::
+>(**CORE**) I can add, subtract, multiply, and divide numbers in base 2. 
 
 Do **all** of the following: 
 
