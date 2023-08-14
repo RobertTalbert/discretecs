@@ -146,7 +146,7 @@ Each of these assignments is graded as follows:
 | :---------: |  :---------: |  :---------: |
 | Class Prep | Completeness and effort only | *Success* or *Incomplete* |
 | Application/Analysis | Completeness and overall correctness | *Success*, *Retry*, or *Incomplete* |
-| Problems on Checkpoints | Overall correctness | *Success* or *Retry* |
+| Problems on Checkpoints | Overall correctness | *Level 2*, *Level 1*, or *Nothing Yet* |
 | AEPs |  Completeness, overall correctness, writing, and presentation | *Success*, *Retry*, or *Incomplete* |
 
 [The Standards for Student Work document](https://github.com/RobertTalbert/discretecs/blob/f454fa80b1ec09b5380c09813903f9fcb406e315/MTH225-Fall2023/course-docs/standards-mth225-f23.md) contains details on the quality standards for each kind of assessment in the course. Please read this carefully and review before each submission you make. 
@@ -177,7 +177,7 @@ Your course grade is assigned using the table below. It shows the requirements f
 | :---: | :-------------------:   | :-------------: | :--------------------: | :-------: | :----: |
 | A | 20 |  8 | All 8 Core + 6 others | All 8 Core + 4 others | 6 |
 | B | 18 |  7 | All 8 Core + 4 others | All 8 Core + 2 others | 4 |
-| C | 16 |  6 | All 8 Core + 2 others | Any 8 Core  | 2 |
+| C | 16 |  6 | All 8 Core + 2 others | All 8 Core  | 2 |
 | D | 10 |  4 | Any 8 | 0 | 0 |
 
 A grade of "F" is earned if not all of the requirements for a "D" are met.
