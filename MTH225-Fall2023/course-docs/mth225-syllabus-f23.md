@@ -325,6 +325,8 @@ All deadlines for assignments will be clearly indicated either on the assignment
 
 **For AEPs:** Each AEP has an **initial deadline**. Your **first attempt** on an AEP must be submitted by that deadline, and no first attempts on an AEP are accepted after that initial deadline. However, once your first attempt is submitted, there is **no deadline** for turning in revisions (if revisions are needed); you can continue to work with an AEP at your own pace once the initial draft is turned in. However, **a single deadline of 11:59pm ET on Sunday, December 3** is in place for all work on AEPs. 
 
+Additionally, AEP submissions must represent a good-faith attempt at a complete and correct solution prior to the initial deadline. **Submissions that do not represent such effort before the initial deadline will not be allowed revision.** For example, a submission that consists of a blank page with the student's name on it, is not considered a good-faith effort. Neither is a submission that only seriously addresses parts of the problem and leaves other parts blank or guessed at. For these and other similar submissions, no revision will be allowed after the initial deadline. They will be marked *Incomplete* and revisions may be attempted before the initial deadline; but not afterwards. 
+
 ## Late work and deadline extensions
 
 Most deadlines in MTH 225 are there for you as "commitment devices", something you can put on your calendar to establish a time frame for completion and to motivate you to complete the work in a timely way. But there is also a great deal of flexibility: 
