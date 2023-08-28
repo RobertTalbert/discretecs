@@ -1,4 +1,4 @@
-# AEP 1: Encrypting messages with binary 
+# AEP 1: Encrypting and decrypting messages with binary 
 
 ## Overview 
 
@@ -87,6 +87,8 @@ In addition to these general requirements, on this assignment "Success" requires
 ## Submitting your work 
 
 **AEP submissions must be typewritten and saved as either a PDF or MS Word file. No part of your submission may involve handwriting; work that is submitted that contains handwriting will be marked *Incomplete* and returned without feedback.** This includes electronic handwritten docments, for example using a stylus and a note-taking app. To type up your work, you can use MS Word or Google Docs (both of which have equation editors for mathematical notation) or any other computer-based math typesetting tool. Just make sure you save your work as a Word document or PDF (no `.odt`, `.rtf`, or other file extensions are allowed).
+
+If you are writing this assignment up in a Jupyter notebook, you'll need to share a **link** to your notebook rather than the notebook itself, because Blackboard will not render `*.ipynb` files. Just make sure your permissions are set to "Everyone with the link can comment" and then paste the link into the submission area. 
 
 When you have your work typed up, double-check it for neatness, correctness, and clarity. Then simply submit your document on Blackboard, in the **AEP** area, in the **AEP 1** assignment. 
 
