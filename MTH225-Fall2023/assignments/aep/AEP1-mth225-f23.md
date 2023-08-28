@@ -50,8 +50,8 @@ Now we can describe how the cipher works:
 
 If everything is done correctly, the recipient will have the original message in the end. 
 
->[!IMPORTANT] EXAMPLE
->Alice wants to send Bob the message `RUN`. First she converts the letters into their ASCII decimals: `82 85 78`. Then she converts each of these to binary "blocks": `01010010 01010101 01001110`. Then, she randoly selects the 8-bit string `11000011` to use as the key. (You could use [a random bit generator](https://catonmat.net/tools/generate-random-bits), or flip a coin 8 times, etc.) She shares this key with Bob. 
+>[!IMPORTANT] 
+>Example: Alice wants to send Bob the message `RUN`. First she converts the letters into their ASCII decimals: `82 85 78`. Then she converts each of these to binary "blocks": `01010010 01010101 01001110`. Then, she randoly selects the 8-bit string `11000011` to use as the key. (You could use [a random bit generator](https://catonmat.net/tools/generate-random-bits), or flip a coin 8 times, etc.) She shares this key with Bob. 
 >
 >To encrypt, Alice `XOR`s the key with each of the blocks. The first block encrypts to `01010010 xor 11000011 = 10010001`. The other two are `10010110` and `10001101`. (Double check this to check your understanding.) The secret message Alice sends to Bob is `10010001 10010110 10001101`. Notice, a person intercepting this message would just see a string of seemingly-random bits. 
 >
