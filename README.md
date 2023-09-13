@@ -1,5 +1,9 @@
 # Overview 
 
+**The most recent version of this course is Fall 2023. You can find the materials in the subdirectory `MTH225-Fall2023`.**
+
+---
+
 This repository contains materials for MTH 225 (Discrete Structures for Computer Science 1) and MTH 325 (Discrete Structures for Computer Science 2) at [Grand Valley State University](http://gvsu.edu). These materials were created and are maintained by me, [Robert Talbert](http://rtalbert.org). 
 
 Everything here is free and licensed under a [Creative Commons Attribution-ShareAlike 3.0 license](http://creativecommons.org/licenses/by-sa/3.0/us/). Please click the link or the `LICENSE.md` file to learn the terms of the license. Basically, you can use and reuse whatever you want as long as you give me attribution as the author. 
