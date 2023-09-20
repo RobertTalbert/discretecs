@@ -191,6 +191,7 @@ $$1 + 2 + 3 + \cdots + (k+1) = \dfrac{(k+1)((k+1)+1)}{2}$$
 Look just at the left side. The next-to-last term on the left is $k$. Write it as: 
 $$1 + 2 + 3 + \cdots + k + (k+1)$$
 
+
 Now group off the first $k$ terms: 
 $$\left(1 + 2 + 3 + \cdots + k\right)+ (k+1)$$
 By the induction hypothesis, the first group equals $\frac{k(k+1)}{2}$, so replace:  

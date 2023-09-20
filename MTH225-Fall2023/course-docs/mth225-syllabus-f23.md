@@ -233,17 +233,14 @@ Application/Analysis and AEP submissions are marked *Success*, *Retry*, or *Inco
 - A *Retry* mark is given to work that represents a good-faith effort at a complete and correct solution and which shows partial understanding of the concepts, but which has significant errors or gaps. 
 - An *Incomplete* mark, on the other hand, is given when there's not enough information in the attempt to determine if there was partial understanding. This can happen because parts of the assignment were skipped or ommitted; there is code that won't run due to syntax errors; there are fundamental misunderstandings of the problem; or there are too many errors to justify spending time to correct each one and so a complete restart is best. 
 
-In each case I will give feedback about the issues that are present. Work marked *Retry* can be revised and resubmitted without penalty, subject to the restrictions above. Work marked *Incomplete* is subject to further restrictions: 
-
-- You must spend a token (explained below) to revise any AEP marked *Incomplete*. 
-- If a revision of an Application/Analysis set is marked *Incomplete*, no further revisions are allowed. 
+In each case I will give feedback about the issues that are present. Work marked *Retry* can be revised and resubmitted without penalty, subject to the restrictions above. Additionally, you must spend a token (explained below) to revise any AEP or Application/Analysis marked *Incomplete*. 
 
 ### Tokens 
 
 Tokens are a fake currency (like Bitcoin) used in MTH 225 to buy exceptions to the rules. Each student starts with five tokens; your current "balance" is found in the Blackboard gradebook. You can spend one token to purchase any of the following: 
 
 - A single 48-hour extension to any AEP deadline (except the December 3 deadline) 
-- A revision of an AEP or Application/Analysis set marked *Incomplete* (except for revisions of Application/Analysis that are themselves marked *Incomplete*)
+- A revision of an AEP or Application/Analysis set marked *Incomplete* 
 - A submission of a third AEP in a given week (Normally you can only submit two items per week)
 - Change the mark on a Class Prep from *Incomplete* to *Success* 
 
