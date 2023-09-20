@@ -22,9 +22,9 @@ Here, for example, would be an explanation for why the binary of an even number 
 
 Here's another, which takes a different approach: 
 
-:::info
-The statement we are explaining says "If $n$ is even, then its binary representation ends in a zero". The contrapositive of this statement would say: "If the binary of $n$ ends in 1, then $n$ is odd." The contrapositive is logically equivalent to the original, so if we can explain why *it* is true, then the original is also explained. So: Let $n$ be a number whose binary ends in 1. Then regardless what the other bits are, they represent multiples of 2. Since the ending bit is 1, the number is a multiple of 2, plus 1. This makes it an odd number because all odd numbers have this form --- they are multiples of 2, plus 1. 
-:::
+
+>The statement we are explaining says "If $n$ is even, then its binary representation ends in a zero". The contrapositive of this statement would say: "If the binary of $n$ ends in 1, then $n$ is odd." The contrapositive is logically equivalent to the original, so if we can explain why *it* is true, then the original is also explained. So: Let $n$ be a number whose binary ends in 1. Then regardless what the other bits are, they represent multiples of 2. Since the ending bit is 1, the number is a multiple of 2, plus 1. This makes it an odd number because all odd numbers have this form --- they are multiples of 2, plus 1. 
+
 
 You might have questions about why some of the individual steps are true. But you can't deny that each step follows logically from the one before it, and no specific examples are ever used. That makes these correct and fully generalized explanations that explain why the statement is **always** true. 
 
@@ -72,13 +72,16 @@ This is when mathematical induction is used: **When trying to prove that a predi
 
 There are three distinct and related steps in a proof by mathematical induction. Keep the metaphor of the ladder in mind. 
 
-:::info
+---
+
 ***Mathematical Induction*** 
 
 - **Step 1: Prove that the predicate is true in the smallest possible case**. For example, if we are proving that "For all natural numbers $n$, the number $n^3 + 2n$ is a mutliple of $3$" then the smallest possible case is where $n=0$. This is called the **base case**. 
 - **Step 2: Assume that the predicate is true for some unspecified value of the input, say $k$.** That is, let $k$ be some random value of the input and assume that $P(k)$ is true. This assumption is called the **induction hypothesis**. 
 - **Step 3: Explain why the predicate is true for the value of the input *just after* $k$.** That is, having assumed that $P(k)$ is true, explain why $P(k+1)$ is true. 
 :::
+
+---
 
 What does this have to do with the ladder?
 
@@ -94,38 +97,39 @@ And just like the ladder, the combination of those three parts proves that the p
 
 The three steps above are what we'll often call the **framework** for a proof by mathematical induction. To "set up the framework" for a proof by mathematical induction, we start with a predicate $P$ and we claim that $P$ is true for some subset of the natural numbers (possibly all of $\mathbb{N}$). Then we do three things: 
 
-:::info
+>[!NOTE]
 1. **Prove the base case:** Demonstrate directly that $P$ is true in the smallest possible case. 
 2. **State the induction hypothesis:** Write out the assumption being made in Step 2 above, in clear language and in the context of the problem. We usually start by saying: **For some natural number $k$, assume that $P(k)$ is true**, and then rephrase the last part ("$P(k)$ is true") using the context of the problem. 
 3. **State precisely what you need to prove and then outline how we might prove it.** State $P(k+1)$ says in terms of the problem. Then give an overview of how we'd explain why $P(k+1)$ is true having assumed $P(k)$ is true. 
-:::
+
 
 ## Examples
 
 ### Example 1: Multiples of 3
 
-:::info
-For all natural numbers $n$, $n^3 + 2n$ is a multiple of 3.
-:::
+
+>For all natural numbers $n$, $n^3 + 2n$ is a multiple of 3.
+
 
 The predicate here is $P(n): n^3 + 2n \ \text{is a multiple of 3}.$. Here is the set-up framework: 
 
 - **Base case**: The claim is that $P(n)$ is true for all natural numbers, so the smallest of those is $n=0$. So here, we want to directly demonstrate that $P(0)$ is true. Well, $P(0)$ is the statement that $0^3 + 2(0)$ is a multiple of 3. The expression $0^3 + 2(0)$ is equal to $0$, and this is a multiple of 3, namely $3 \times 0$. So that shows $P(0)$ is true, and therefore we've established the base case. 
 - **Induction hypothesis:** Boilerplate for this is: **Let $k$ be some natural number. Then assume that $P(k)$ is true.** That's not wrong but we'd like a little more detail in the second part. So here is a better induction hypothesis: 
-:::info
-Let $k$ be some natural number. Assume that $k^3 + 2k$ is a multiple of 3.
-:::
-   This is "better" because the second part has been phrased *in the context of the problem* --- "$k^3 + 2k$ is a multiple of 3" and not just the bland "$P(k)$ is true". It just replaces the literal $P(k)$ with what $P(k)$ says. 
-   
-   - **Proof step:** Now we outline/brainstorm how we'd prove $P(k+1)$ is true assuming $P(k)$ is true. This takes some playing around and some creativity, but here's how that might go here: 
 
-:::info
+>Let $k$ be some natural number. Assume that $k^3 + 2k$ is a multiple of 3.
+
+This is "better" because the second part has been phrased *in the context of the problem* --- "$k^3 + 2k$ is a multiple of 3" and not just the bland "$P(k)$ is true". It just replaces the literal $P(k)$ with what $P(k)$ says. 
+   
+- **Proof step:** Now we outline/brainstorm how we'd prove $P(k+1)$ is true assuming $P(k)$ is true. This takes some playing around and some creativity, but here's how that might go here: 
+
+
 We want to show that $P(k+1)$ is true, that is, $(k+1)^3 + 2(k+1)$ is a multiple of 3. Probably I would multiply out the terms in this expression, and look for places where $k^3 + 2k$ appears. I've assumed that this is a multiple of 3, so whenever I see it I can replace it with a multiple of 3. 
-:::
+
 
 The framework is not asking for a full-blown proof of the statement, just an outline. But: Here is what a full-blown proof *would* look like. 
 
-:::success
+---
+
 **To Prove:** For all natural numbers $n$, $n^3 + 2n$ is a multiple of 3. 
 
 **Proof:** First, to prove the base case, if $n=0$ then we have $0^3 + 2(0)$ which equals $0$. This is a multiple of $3$ because $0 = 3 \times 0$. Therefore the base case is proven. 
@@ -140,7 +144,8 @@ $$
 Now we already assumed that $k^3 + 2k$ was a multiple of 3, and clearly the last three terms are multiples of 3 because 3 is a factor on each. Therefore $(k+1)^3 + 2(k+1)$ is a sum of multiples of 3, which makes the entire expression a multiple of 3. 
 
 That ends the proof.   :+1: 
-:::
+
+---
 
 Notice a few things: 
 
