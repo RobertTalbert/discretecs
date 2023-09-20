@@ -6,9 +6,9 @@ Throughout this course, we've stressed that **good explanations are at least as 
 
 We've also stressed --- over and over again --- the following true fact about explanations: 
 
-:::warning
+>[!IMPORTANT]
 **A list of examples does not explain why a statement is always true**. 
-:::
+
 
 If we believe that the statement *The binary representation of an even number always ends in a zero* is true, it's not enough to demonstrate that $2$ is `10`, $4$ is `100`, and $6$ is `110`. All three of those are correct examples. But the statement doesn't say that the binary representation of an even number is *sometimes* true. It says **always**, and three examples doesn't prove "always". Three million examples wouldn't do it either. 
 
