@@ -235,6 +235,8 @@ Application/Analysis and AEP submissions are marked *Success*, *Retry*, or *Inco
 
 In each case I will give feedback about the issues that are present. Work marked *Retry* can be revised and resubmitted without penalty, subject to the restrictions above. Additionally, you must spend a token (explained below) to revise any AEP or Application/Analysis marked *Incomplete*. 
 
+**Please note:** Application/Analysis sets that are simply not turned in, or which are turned in but have no contents (e.g. blank pages), will be marked *Incomplete* and no further submissions are allowed, regardless of tokens. 
+
 ### Tokens 
 
 Tokens are a fake currency (like Bitcoin) used in MTH 225 to buy exceptions to the rules. Each student starts with five tokens; your current "balance" is found in the Blackboard gradebook. You can spend one token to purchase any of the following: 
