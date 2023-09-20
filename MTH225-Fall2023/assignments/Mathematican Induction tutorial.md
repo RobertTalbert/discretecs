@@ -159,9 +159,9 @@ Notice a few things:
 
 Induction is often used to prove things about sums, because sums are naturally recursive: To compute the first $n+1$ terms of a sum, add a term on to the sum of the first $n$ terms. Here's a fact that we already know: 
 
-:::info
-For all positive integers $n$, $1 + 2 + 3 + \cdots + n = \dfrac{n(n+1)}{2}$. 
-:::
+
+>For all positive integers $n$, $1 + 2 + 3 + \cdots + n = \dfrac{n(n+1)}{2}$. 
+
 
 We already proved this in class without induction, by noticing this is a sum of an arithmetic sequence and then using the flip-and-add trick. But let's prove it with induction too. 
 
@@ -177,7 +177,7 @@ $$1 + 2 + 3 + \cdots + (k+1) = \dfrac{(k+1)((k+1)+1)}{2}$$
    
 Here's a completed proof: 
 
-:::success
+---
 **To prove:** For all positive integers $n$, $1 + 2 + 3 + \cdots + n = \dfrac{n(n+1)}{2}$. 
 
 **Proof:** The smallest value of the input is $n=1$. When that happens, on the left side of the equation we just have $1$. On the right side, we have $\frac{1(2)}{2}$ and this equals 1. Therefore the left and right sides equal each other when $n=1$. 
@@ -204,20 +204,20 @@ $$\begin{align*}
 &= \frac{(k+1)((k+1) + 1)}{2} \quad \text{(Making it look like what we want)}
 \end{align*}$$
 This shows that $1 + 2 + 3 + \cdots + (k+1) = \dfrac{(k+1)((k+1)+1)}{2}$. This is what we wanted to show, so we're done. :satisfied: 
-:::
+---
 
 
 ### Example 3: Fibonacci numbers
 
 Recursively-defined sequences like the Fibonacci numbers almost exclusively need induction to prove anything about them. Remember the Fibonaccis are $1,1,2,3,5,8,13,21,34,\dots$. You might notice this: 
 
-:::info
-Every third Fibonacci number is even. 
-:::
+
+>Every third Fibonacci number is even. 
+
 
 How can we prove this with induction? It helps to first rephrase this a little, so a predicate is involved: 
 
-:::info
+
 Let $F_n$ ($n \geq 1$) be the $n$th Fibonacci number. (So $F_1 = 1$, $F_2 = 1$, $F_3 = 2$, etc.) Then for all positive integers $n$, $F_{3n}$ is even.
 :::
 Notice the predicate, $P(n)$ here is now "$F_{3n}$ is even". The expression $F_{3n}$ is an economical way of saying "every third Fibonacci number". 
@@ -230,7 +230,8 @@ The framework:
 
 That's a good framework. Here's a completed proof: 
 
-:::success
+---
+
 **To prove:** Let $F_n$ ($n \geq 1$) be the $n$th Fibonacci number. (So $F_1 = 1$, $F_2 = 1$, $F_3 = 2$, etc.) Then for all positive integers $n$, $F_{3n}$ is even.
 
 **Proof:** If $n=1$, then $F_{3(1)} = F_3 = 2$ which is clearly even. So the base case is satisfied. 
@@ -244,8 +245,8 @@ $$F_{3k+3} = 2F_{3k+1} + F_{3k}$$
 The first term on the right is even because it has a factor of 2. The second term, $F_{3k}$, is even because we assumed that it was even, in the induction hypothesis. Since the sum of two even numbers is another even number, this means that $F_{3k+3}$ is even. That's what we wanted to show. 
 
 Therefore every third Fibonacci number is even. :sunglasses: 
-:::
 
+---
 
 ## Reality check
 
