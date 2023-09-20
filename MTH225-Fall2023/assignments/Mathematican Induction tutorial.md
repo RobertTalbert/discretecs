@@ -16,8 +16,8 @@ To give an explanation of why a statement is **always** true, examples can be im
 
 Here, for example, would be an explanation for why the binary of an even number always ends in a zero: 
 
->[!NOTE]
-Let $n$ be any even number. Then if we convert $n$ to binary, the rightmost bit will be the remainder left over when we divide $n$ by 2. Since $n$ is even, it's evenly divisible by 2 with no remainder. Therefore that rightmost bit must be zero. 
+
+>Let $n$ be any even number. Then if we convert $n$ to binary, the rightmost bit will be the remainder left over when we divide $n$ by 2. Since $n$ is even, it's evenly divisible by 2 with no remainder. Therefore that rightmost bit must be zero. 
 
 
 Here's another, which takes a different approach: 
