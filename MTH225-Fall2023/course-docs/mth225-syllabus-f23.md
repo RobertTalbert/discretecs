@@ -26,7 +26,7 @@ This course is subject to the GVSU policies listed at http://www.gvsu.edu/course
 
 **Meetings:** Section 03 and Section 04 meet Monday/Wednesday/Friday in Mackinac Hall B-1-110. Section 03 meets 12:00-12:50pm and Section 04 meets 2:00-2:50pm. 
 
-**Student drop-in hours:** 11:00-11:50am MWF. Others will be determined during week 1; watch this space for an update. No appointment is needed for drop-in hours. If you want to make an appointment outside office hours for an in-person or online meeting, schedule yourself at http://calendly.com/robert-talbert. 
+**Student drop-in hours:** 11:00-11:50am MWF in MAK C-2-513 and 3:00-4:00pm in MAK B-1-110. No appointment is needed for drop-in hours. If you want to make an appointment outside office hours for an in-person or online meeting, schedule yourself at http://calendly.com/robert-talbert. 
 
 **Blackboard, Class Page, and Class Vault:** Our main course portal is on Blackboard, which you can access at http://lms.gvsu.edu. Please note that we are using *Blackboard Ultra*, a major update to Blackboard which has significant differences from previous versions. If you need a tutorial on how to navigate Blackboard Ultra,  We use two other electronic resources for the class: the **[Class Page](https://docs.google.com/document/d/1JxG_s77q1Z3Ho_GsHXsQafZhpFJ_lW1Bbl7Hn0epWns/edit?usp=sharing)** which is a Google Doc showing notes and resources for class meetings; and the **[Course vault](https://publish.obsidian.md/mth225)** which serves as our primary textbook. All of these are linked to Blackboard in the *Course Documents and Tools* folder, so you don't need to remember them all. But it's a good idea to bookmark the ones you use frequently in your browser. 
 
