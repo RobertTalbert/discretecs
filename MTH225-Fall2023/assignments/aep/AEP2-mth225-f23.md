@@ -9,7 +9,7 @@ In this AEP, you'll apply the concepts of **recursion** to take a visual pattern
 - Only two submissions of AEP work are allowed per week; and 
 - Your initial draft must be a good-faith effort at a complete and correct solution prior to the initial deadline; otherwise no revision will be allowed. 
 
-You are allowed to spend one token to extend this deadline 24 hours. 
+You are allowed to spend one token to extend this deadline 48 hours. 
 
 ## Background
 

@@ -98,8 +98,8 @@ The basic skills that you'll learn in the course are encapsulated in a list of *
 Each class meeting has activities for you to do *before*, *during* and *after* the class. For details on specific assignment types, see the next section. 
 
 * **Before class:** You'll be asked to complete a **Class Prep** assignment that will involve you in reading content from [the course vault](https://publish.obsidian.md/mth225/) and watching some of the videos at [our playlist](https://vimeo.com/showcase/8667148). You'll then complete a small set of basic questions and exercises. This way, you'll come to class ready to work, and we can skip  lectures on the basics in class unless it's really needed. 
-* **During class:** Class meetings will be focused on *answering questions* and *doing active work*, both intended to make it easy for you to make sense of the material and ask questions. Selected portions of your class work will be written up individually and turned in as **Application/Analysis** sets. We'll also use time in class for assessment and for completing other assignments, so that a lot of the "homework" for the class is done during class time. 
-* **After class:** In addition to getting started on the next Class Prep and writing up Application/Analysis problems, you should expect to spend time in between classes doing practice on concepts you don't fully understand yet, and asking questions. There will be occasional **Application and Extension Problems** (AEPs) to work on. 
+* **During class:** Class meetings will be focused on *answering questions* and *doing active work*, both intended to make it easy for you to make sense of the material and ask questions. We'll use time in class for assessment and for completing other assignments, so that a lot of the "homework" for the class is done during class time. 
+* **After class:** In addition to getting started on the next Class Prep, you should expect to spend time in between classes doing practice on concepts you don't fully understand yet, and asking questions. There will be occasional **Application and Extension Problems** (AEPs) to work on. 
 
 A typical week in MTH 225 looks like this: 
 
@@ -136,7 +136,6 @@ Those are the main concepts; the details are in the rest of the syllabus. Most s
 There are five major kinds of assignments in MTH 225: 
 
 - **Class Prep:** These are done prior to class and will give you the basic knowledge of terms, ideas, and basic concepts that will allow us to jump right into applications when we get to class. They involve reading articles from the [course vault](https://publish.obsidian.md/mth225) (and occasionally [watching video](https://vimeo.com/manage/showcases/8667148/info)), asking questions about what you read, and answering some simple questions about the content. 
-- **Application and Analysis:** In class, we will work in groups on higher-level tasks involving application and analysis of the basics. You'll be responsible for individually completing selections from this work that you start in groups during class, and turning these in to be checked for basic overall correctness. 
 - **Checkpoints:** Each week (typically) we'll take time in class for a timed quiz over a subset of the 15 Learning Targets [found in Appendix A](https://github.com/RobertTalbert/discretecs/blob/f454fa80b1ec09b5380c09813903f9fcb406e315/MTH225-Fall2023/course-docs/mth225-syllabus-f23.md#appendix-a-learning-targets). 
 - **Application/Extension Problems (AEPs):** These are longer-form problems that involve deeper applications of the concepts from class, on applications in a variety of domains and in problems whose solutions require computer tools and good technical writing. 
 
@@ -145,7 +144,6 @@ Each of these assignments is graded as follows:
 | Assignment | Basis for grading | What's recorded on Blackboard |
 | :---------: |  :---------: |  :---------: |
 | Class Prep | Completeness and effort only | *Success* or *Incomplete* |
-| Application/Analysis | Completeness and overall correctness | *Success*, *Retry*, or *Incomplete* |
 | Problems on Checkpoints | Overall correctness | *Level 2*, *Level 1*, or *Nothing Yet* |
 | AEPs |  Completeness, overall correctness, writing, and presentation | *Success*, *Retry*, or *Incomplete* |
 
@@ -173,12 +171,12 @@ Alternative methods of demonstrating skill on Learning Targets may be made avail
 
 Your course grade is assigned using the table below. It shows the requirements for the "base grade" of A, B, C, or D; criteria for plus/minus grades are shown below the table. The numbers in the table refer to the number of **Success** marks on each item. **To earn a grade, complete ALL the requirements listed in the row for that grade.**
 
-| Grade | Class Preps (out of 25) | Application/Analysis out of 10)  | Learning Targets at Level 1 | Learning Targets at Level 2 | AEPs (out of 8) |
-| :---: | :-------------------:   | :-------------: | :--------------------: | :-------: | :----: |
-| A | 20 |  8 | All 8 Core + 6 others | All 8 Core + 4 others | 6 |
-| B | 18 |  7 | All 8 Core + 4 others | All 8 Core + 2 others | 4 |
-| C | 16 |  6 | All 8 Core + 2 others | All 8 Core  | 2 |
-| D | 10 |  4 | Any 8 | 0 | 0 |
+| Grade | Class Preps (out of 25) | Learning Targets at Level 1 | Learning Targets at Level 2 | AEPs (out of 8) |
+| :---: | :-------------------:   |  :--------------------: | :-------: | :----: |
+| A | 20 |   All 8 Core + 6 others | All 8 Core + 4 others | 6 |
+| B | 18 |   All 8 Core + 4 others | All 8 Core + 2 others | 4 |
+| C | 16 |  All 8 Core + 2 others | All 8 Core  | 2 |
+| D | 10 |   Any 8 | 0 | 0 |
 
 A grade of "F" is earned if not all of the requirements for a "D" are met. 
 
@@ -215,35 +213,29 @@ Not all work can be revised, and most work has limitations on revision. Here are
 | Assignment | Revisions allowed | How to revise and resubmit |
 | :-------: | :----------------: | :-------------------------: |
 | Class Prep | *May not be revised.* | n/a |
-| Application/Analysis | Application/Analysis sets may be revised **once per set**. | Submit a revision on Blackboard. |
 | Learning Targets | Each target appears on multiple quizzes. | Retry the skill on a later Checkpoint. |
 | AEPs | Up to **two submissions per week** of AEPs are allowed. | Submit a revision on Blackboard. |
 
 **Limitations on revisions:** Although there is no penalty for revising or reattempting work, we place the following limitations on this process to keep the feedback process manageable: 
 
 - **Learning Targets can only be retried on later Checkpoints**. Makeup quizzes outside scheduled Checkpoint times are not available. (However alternative methods for giving demonstrations of skill may be made available later.)
-- **Application/Analysis sets can only be revised *once*** since you get the benefit of group work on the first attempt.  
 - **Only two submissions *per week* are allowed for AEPs**. In a given week, you can submit first attempts on two different AEPs; or a first attempt on one and a revision of another; or revisions on two different AEPs; or even two revisions of the same AEP. But only two are allowed per week. (A third and final item can be purchased with a token.) Make sure to build a habit of submitting AEP work early and often, since you cannot wait until the end and submit several all at once. 
 - **No revisions any work are allowed after 11:59pm ET on Sunday, December 3** in order to provide time and space to grade all pending revisions for final course grade determinations.
 
 ### Retry vs. Incomplete
 
-Application/Analysis and AEP submissions are marked *Success*, *Retry*, or *Incomplete*. Both *Retry* and *Incomplete* provide the opportunity to revise and resubmit in most cases. The differences between these two marks are: 
+AEP submissions are marked *Success*, *Retry*, or *Incomplete*. Both *Retry* and *Incomplete* provide the opportunity to revise and resubmit in most cases. The differences between these two marks are: 
 
 - A *Retry* mark is given to work that represents a good-faith effort at a complete and correct solution and which shows partial understanding of the concepts, but which has significant errors or gaps. 
 - An *Incomplete* mark, on the other hand, is given when there's not enough information in the attempt to determine if there was partial understanding. This can happen because parts of the assignment were skipped or ommitted; there is code that won't run due to syntax errors; there are fundamental misunderstandings of the problem; or there are too many errors to justify spending time to correct each one and so a complete restart is best. 
 
-In each case I will give feedback about the issues that are present. Work marked *Retry* can be revised and resubmitted without penalty, subject to the restrictions above. Work marked *Incomplete* is subject to further restrictions: 
-
-- You must spend a token (explained below) to revise any AEP marked *Incomplete*. 
-- If a revision of an Application/Analysis set is marked *Incomplete*, no further revisions are allowed. 
+In each case I will give feedback about the issues that are present. Work marked *Retry* can be revised and resubmitted without penalty, subject to the restrictions above. You must spend a token (explained below) to revise any AEP marked *Incomplete*. 
 
 ### Tokens 
 
 Tokens are a fake currency (like Bitcoin) used in MTH 225 to buy exceptions to the rules. Each student starts with five tokens; your current "balance" is found in the Blackboard gradebook. You can spend one token to purchase any of the following: 
 
 - A single 48-hour extension to any AEP deadline (except the December 3 deadline) 
-- A revision of an AEP or Application/Analysis set marked *Incomplete* (except for revisions of Application/Analysis that are themselves marked *Incomplete*)
 - A submission of a third AEP in a given week (Normally you can only submit two items per week)
 - Change the mark on a Class Prep from *Incomplete* to *Success* 
 
@@ -269,7 +261,6 @@ Academic misconduct is a serious matter and carries significant consequences, up
 Different assignments in MTH 225 have different levels of acceptable collaboration. These are detailed below. **It's your job to read these carefully, know what is acceptable and what is not acceptable on each kind of assignment, and stay within bounds.** 
 
 - On *Class Prep*, you are **allowed and encouraged to collaborate with others** as long as your responses reflect your own understanding and are not merely copied from another. Remember, these are only graded on completeness and effort, and mistakes are not penalized, so don't copy! It will only make you lost in class. 
-- On *Application/Analysis sets*, you **are allowed** (in fact, expected) **to work on these in groups during class time first**. You can, and should, use your group work as the basis for your individual writeup. However, **they must be finished individually with no collaboration beyond what took place in class**. For example if you need to talk with one of your group members to clarify something they said during class, that is OK; but it is not OK to question that person further about work that didn't take place during class, or to continue working as a group outside of class beyond your class work. 
 - On *Checkpoints*, you will take these individually in class and **no collaboration is allowed at all**. Additionally **your use of technology is restricted to a basic scientific or graphing calculator**. 
 - On *AEPs*, you are **allowed to engage in general discussions of strategy only with others, but no collaboration on the details of a problem are allowed.**. 
 
@@ -302,10 +293,10 @@ Make every effort to get yourself unstuck and resolve your questions on your own
 
 ### Attendance, absence, and participation
 
-- **Attendance** is expected at all class meetings and is required for working on Application/Analysis sets and Checkpoints. While attendance is not directly part of your grade, it will be recorded at each class meeting, so that I can reach out to students who are absent often. 
+- **Attendance** is expected at all class meetings and is required for working on Checkpoints. While attendance is not directly part of your grade, it will be recorded at each class meeting, so that I can reach out to students who are absent often. 
 - **Remote attendance** (via live-streaming or recorded class meetings) is generally not offered in MTH 225. If you are in a situation where you believe you need a remote attendance option, please let me know as soon as possible.
 - **Absences** from class do not require permission from me or prior notification, although a heads-up is helpful. However: 
-    - If you are absent, you will not have the benefit of working with your group on Application/Analysis; you will be expected to complete the set on your own. 
+    - If you are absent, you will not have the benefit of working with your group.
     - If you are absent from a Checkpoint, no makeups are available. Each Learning Target appears on multiple quizzes, so if you miss one, you'll be expected to make an attempt on the next quiz.
 
 Exceptions to these rules are always up for discussion. If you believe you need special accommodation, please contact me as soon as possible to discuss it. 
@@ -320,7 +311,6 @@ In case of a major weather event that makes in-person meeting inadvisable, **cla
 All deadlines for assignments will be clearly indicated either on the assignment, the course calendar, or both and will be repeated in the weekly announcements. Deadlines follow a consistent pattern to make them easier to remember: 
 
 - Class Preps are always due at **11:59pm Eastern Time the night before their class**. (For example, Wednesday Class Preps are due 11:59pm ET Tuesday.) 
-- Application/Analysis sets are always due at **11:59pm ET on Fridays**. Revisions of Application/Analysis sets will also have deadlines, which will be announced in class (typically one week after the original set is graded). 
 - Checkpoints are given in class, and the work is collected at the end of the period, so the end of the class session is the "deadline". A schedule for these will be available early in the semester. 
 
 **For AEPs:** Each AEP has an **initial deadline**. Your **first attempt** on an AEP must be submitted by that deadline, and no first attempts on an AEP are accepted after that initial deadline. However, once your first attempt is submitted, there is **no deadline** for turning in revisions (if revisions are needed); you can continue to work with an AEP at your own pace once the initial draft is turned in. However, **a single deadline of 11:59pm ET on Sunday, December 3** is in place for all work on AEPs. 
@@ -332,12 +322,11 @@ Additionally, AEP submissions must represent a good-faith attempt at a complete 
 Most deadlines in MTH 225 are there for you as "commitment devices", something you can put on your calendar to establish a time frame for completion and to motivate you to complete the work in a timely way. But there is also a great deal of flexibility: 
 
 - **Class Preps**: While these are due at 11:59pm ET the night before a class, I will not grade these until the following morning. If you need an hour or two more to complete a Class Prep, go ahead and submit it a little late. If it's turned in by the time it's graded, it will be considered an on-time submission. *However, please note well:* The actual time of grading varies from day to day, and is usually early (like, 5:30am some times). I cannot guarantee the schedule, so make every effort to submit these on time. 
-- **Application/Analysis:** A similar rule holds for these -- although they are due on Fridays at 11:59pm ET, I will not grade these until the following Monday. So make every effort to complete these on time; but if you desperately need the weekend to complete it, go ahead and take the weekend. 
 
 Deadline extensions are also available for "purchase" by [spending a token](https://docs.google.com/forms/d/e/1FAIpQLSdec4ILo7guFJteABZ-e8AxK1GxDOJ-f2yEOWKxjAjH84SP2A/viewform). However the following restrictions apply: 
 
 - **To extend a deadline with a token, you must spend the token *before the original deadline*.** Requests to extend a deadline after the original one has passed will be declined. 
-- **Deadlines on Class Prep and Application/Analysis assignments** (including revisions of Application/Analysis) **may not be extended**, because of the built-in flexibility in the deadline stated above. If you need more time to complete the assignment, just take it, within the time frames stated above. 
+- **Deadlines on Class Prep assignments** **may not be extended**, because of the built-in flexibility in the deadline stated above. If you need more time to complete the assignment, just take it, within the time frames stated above. 
 - Therefore **deadline extensions via tokens only applies to AEPs**. Tokens can be spent to extend any deadline once by 48 hours. The exception is the Sunday, December 3 deadline by which all AEP work for the course must be submitted. The new deadline is 48 hours past the original deadline -- not 48 hours from the time you spend the token. You may not extend the deadline on an assignment twice, or spend more than one token to extend the deadline more than 48 hours. 
 - **Checkpoints must be submitted during class time**. These don't have "deadlines" as such since they are done strictly in person. Therefore a token can't "extend the deadline". 
 
