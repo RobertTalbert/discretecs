@@ -1,6 +1,6 @@
-## # Practice witih mathematical induction frameworks
+# Practice with mathematical induction frameworks
 
- ## MTH 225, 2023-09-29
+## MTH 225, 2023-09-29
 
 
 
@@ -56,11 +56,11 @@ Then watch the board for an actual proof. Later in the course you will be learni
 
 
 
-## Activity 2 
+### Activity 2 
 
 
 
-Here's another conjecture: **For all natural numbers $n \geq 4$, $2^n \geq n^2$. ** 
+Here's another conjecture: **For all natural numbers $n \geq 4$, $2^n \geq n^2$.** 
 
 1. What is the predicate in this conjecture? Write it out: $P(n)$ is…. 
 
