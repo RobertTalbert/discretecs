@@ -4,16 +4,17 @@
 
 ## Course Prep 
 
-Course Prep assignments are graded on the basis of **completeness and good-faith effort**. *Correctness is not taken into account for the grade*; but a good-faith effort to *try* to be correct must be evident. Your work on Class Prep is marked either *Complete* or *Incomplete* using the following criteria: 
+Course Prep assignments are graded on the basis of **completeness, overall correctness, and good-faith effort**. Your work on Class Prep is marked either *Complete* or *Incomplete* using the following criteria: 
 
 |    Mark    |                                                                   Criteria                                                                    |
 | :--------: | :-------------------------------------------------------------------------------------------------------------------------------------------: |
-|  **Success**  | Every item on the form that is not marked "Optional" has a complete and good-faith response; and the form is submitted prior to the time of grading. |
-| **Incomplete** |   **Either** there is a question whose response is left blank (and is not marked "Optional"), **or** the form is submitted late.                                                                                                                                          |
+|  **Success**  | Every item on the form that is not marked "Optional" has a complete and good-faith response;  the form is submitted prior to the time of grading; and at least 50% of the overall point total is earned through correct responses. |
+| **Incomplete** |   **Either** there is a question whose response is left blank (and is not marked "Optional"); **or** the form is submitted after grading; or the score is less than 50%.                                                                                                                                   |
 
 Notes on Class Prep: 
 
-- **Correct answers are not required on Class Prep, only a complete good faith effort to answer all the required items**. In fact, one of the reasons we do Class Prep is to surface any misconceptions or errors in thinking that you might be having at the beginning of a new topic, so we can work on those in class. So feel free to make as many honest mistakes as you want. 
+- **Only a complete good faith effort to answer all the required items, and half the point value, is needed**. In fact, one of the reasons we do Class Prep is to surface any misconceptions or errors in thinking that you might be having at the beginning of a new topic, so we can work on those in class. So feel free to make as many honest mistakes as you want. 
+- Each Class Prep contains a single question over the Syllabus or Calendar that is worth about one-third of the total point value. Therefore **getting the Syllabus/Calendar question wrong makes it harder to earn *Success*.** Always strive to get this question right! 
 - **Omission of an item not marked "Optional" from the responses results in an Incomplete**. This applies even if the omission was accidental, so be sure to double-check your responses to look for items unintentionally left blank. 
 - **Items that have a response consisting only of "I don't know", "I don't understand", etc. will be treated as blank responses.** That is, such responses will result in an *Incomplete* on the assignment. You do not have to be correct in your responses, but you must *try* to be correct and respond to the assignment items with your best understanding, even if you have questions. If that is the case, there will be a separate item on the Class Prep for your questions.
 
