@@ -34,7 +34,7 @@ For each of these four:
 
 Since you will be choosing four functions and doing five things with each, that's a total of 20 responses you'll be submitting on this AEP. 
 
-### Examp
+**Important:** Although this AEP does not require writing any code, it's almost 100% certain **you will need to play around with your functions first by interacting with them in a Python environment, before you are able to give a clear and simple explanation of all of its properties**. It's very difficult to simply look at a Python function and thoroughly understand what it does and how it behaves. *Play with it for a while first.* 
 
 ## Expectations and Grading Criteria
 
