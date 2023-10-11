@@ -13,22 +13,28 @@ In this AEP, you'll extend an activity we did in class where we took some functi
 
 In a recent class meeting, we did an activity where we took some Python functions and thought of them like mathematical functions, and determined their domain, codomain, and range and what this information means on a practical level. (The activity, with answers, can be found [here](https://github.com/RobertTalbert/discretecs/blob/master/MTH225-Fall2023/activities/Class%20activity%20October%209%20Functions.ipynb).)
 
-This way of analyzing computer functions by treating them like mathematical functions can really help understand the details of how those functions work. Since computer languages are basically nothing but thousands of functions, there's lots to analyze! And since that class activity, we've added [injectivity](https://publish.obsidian.md/mth225/Sets+and+Functions/Injective), [surjectivity](https://publish.obsidian.md/mth225/Sets+and+Functions/Surjective), and [bijectivity](https://publish.obsidian.md/mth225/Sets+and+Functions/Bijective) to the list of properties of functions that we might care about. 
+This way of analyzing computer functions by treating them like mathematical functions can really help us understand the details of how those functions work and what pitfalls we might wish to avoid. Since computer languages are basically nothing but thousands of functions, there's lots to analyze! And since that class activity, we've added [injectivity](https://publish.obsidian.md/mth225/Sets+and+Functions/Injective), [surjectivity](https://publish.obsidian.md/mth225/Sets+and+Functions/Surjective), and [bijectivity](https://publish.obsidian.md/mth225/Sets+and+Functions/Bijective) to the list of properties of functions that we might care about. 
 
 So it's time for an expansion and update of that class activity. 
 
  
 ## Tasks for this AEP
 
-In Python, find **four built-in functions from the standard library** that interest you. For each of these four: 
+In Python, find **four built-in functions from the either the standard library or from the `math` library** that interest you. A reference for all the built-in functions in the standard library can be found here: https://docs.python.org/3/library/functions.html The `math` library functions are here: https://docs.python.org/3/library/math.html The only functions off limits are `math.gcd` and `math.floor` since those were part of the in-class activity. 
 
-1. State the function and explain in everyday terms what it does. "Everyday terms" means that you should be using nontechnical, jargon-free language. It's OK to refer to names of Python or computing concepts like "list", "for loop", etc. but remember *your audience knows the math you know, but nothing else* so keep things simple; you'll be asked to revise your explanations if they are too complicated. 
+**Note: You might need to do a little research on Python data structures and data types to understand what a function does.** (This is partly the purpose of this assignment.) For example the `map` function uses another function as input --- that seems weird, and if you don't understand what that means, either commit to learning about it or pick another function. Some of the functions might be too obscure to be worth the effort; for example the `exec()` function is quite mysterious and technical, and should probably be left alone. 
+
+For each of these four: 
+
+1. State the function and explain in everyday terms what it does. "Everyday terms" means that you should be using nontechnical, jargon-free language. It's OK to refer to names of Python or computing concepts like "list", "for loop", etc. but remember *your audience knows the math you know, but nothing else* so keep things simple; you'll be asked to revise your explanations if they are too complicated. **Do not just copy, or mildly rephrase the documentation on the function**. Put it in your own words, in simple language that someone needing to have the documentation explained to them would find useful. 
 2. Determine the domain and codomain of your function, and explain your reasoning -- again, using simple language that is as non-technical as possible. 
 3. Determine the range of your function, explain your reasoning -- again, using simple language that is as non-technical as possible. 
 4. Determine whether the function is injective, surjective, both (i.e. bijective), or neither and explain your reasoning -- again, using simple language that is as non-technical as possible. 
 5. Explain what your results from 2-4 might mean for a programmer trying to write code to solve a problem. For example, does a failure of being injective cause any potential issues with errors or security? Does having a particular domain or codomain open up possibilities of combining the function with something else, to do something cool? Use your imagination! 
 
 Since you will be choosing four functions and doing five things with each, that's a total of 20 responses you'll be submitting on this AEP. 
+
+### Examp
 
 ## Expectations and Grading Criteria
 
