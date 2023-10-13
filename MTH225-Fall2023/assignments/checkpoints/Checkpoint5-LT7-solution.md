@@ -64,5 +64,7 @@ $$k + 1 < k + k$$
 The right side here is $2k$. But we assumed in the inductive hypothesis that $k < 2^k$, so 
 $$2k < 2 \cdot 2^k$$ 
 The right side here is $2^{k+1}$ through basic algebra. Putting all this together, we have shown:
-$$ k + 1 < k + k = 2k < 2 \cdot 2^k = 2^{k+1}$$
+
+$$k + 1 < k + k = 2k < 2 \cdot 2^k = 2^{k+1}$$
+
 Therefore $k+1 < 2^{k+1}$. So by mathematical induction, $n < 2^n$ for all $n \geq 1$. 
