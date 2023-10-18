@@ -1,9 +1,7 @@
 # AEP 4: Public-key cryptography
 
-{% note %}
-Noting
-{% endnote %}
-
+>[!WARNING]
+>**Use the PDF version of this document! DO NOT use this GitHub/Markdown version**. This version does not render all the mathematical expressions correctly and your work will be wrong if you use it. It is kept on GitHub for archival purposes only. 
 
 ## Overview 
 
