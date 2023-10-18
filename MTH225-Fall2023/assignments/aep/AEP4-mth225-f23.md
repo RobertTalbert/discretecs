@@ -58,7 +58,9 @@ The pair $(e = 138692, n = 4717141)$ is the public key; Bob decides to get it pu
 Alice wants to send Bob the message `AM ON MY WAY`. Converting this to integers 00-25 gives `00 12 14 13 12 24 22 00 24` and stripping out the spaces gives `001214131224220024`. Bob's value of $n$ is 4717141. So Alice breaks her message up into blocks less than 4717141 --- for example, into blocks four digits long: `0012 1413 1224 2200 24`. To get that last block to be exactly four digits, she pads it with a couple of zeroes to get `0012 1413 1224 2200 2400`. (She could also have chosen blocks five digits long, or shorter.) 
 
 Now Alice encrypts each block as if it were a four-digit integer. For example, the second block in the plaintext is `1413`. To encrypt it, Alice takes Bob's public key --- which is the pair $e = 138692$ and $n = 4717141$ --- computes
-$$(e \cdot P) \, \% \, n = (138692 \cdot 1413) \, \% \, 4717141 = 195971796 \, \% \, 4717141 = 2569015$$
+
+$(e \cdot P) \, \% \, n = (138692 \cdot 1413) \, \% \, 4717141 = 195971796 \, \% \, 4717141 = 2569015$
+
 And that's the encrypted version of that block. Repeat this computation for each of the other blocks. The collection of encrypted blocks is then sent to Bob. 
 
 Bob receives Alice's incoming encrypted message, which looks like a bunch of integers, which could be up to seven digits long. The second one in the sequence is $2569015$. This represnts two encrypted text characters. To decrypt, Bob pulls up his private key $d$ along with $n$ from his public key and computes: 
