@@ -99,7 +99,7 @@ Consider the statement: *If x = 4, then y = 8.* State, in clear English:
 
 
 ## :new: Learning Target 7
-
+ 
 > (**CORE**) Given a statement to prove using mathematical induction, I can state the framework of a proof. (Identify the predicate, identify and prove the base case, state the inductive hypothesis, and state what needs to be proven in the inductive step)
 
 
