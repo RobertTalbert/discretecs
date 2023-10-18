@@ -1,5 +1,10 @@
 # AEP 4: Public-key cryptography
 
+{% note %}
+Noting
+{% endnote %}
+
+
 ## Overview 
 
 This AEP goes back to some of the basic ideas of computer arithmetic to learn about the powerful concept of **public key encryption** --- a method of encrypting and decrypting messages without sharing private information beforehand. The successful implementation of public-key encryption in the 1980's is widely considered one of the greatest scientific innovations of the last few centuries, and we use it every day without realizing it. And it all boils down to arithmetic! 
