@@ -53,7 +53,7 @@ In order for Alice to send Bob a message, Bob (not Alice) first needs a key. Bob
 - $d = BM + b = (34)(5331) + 62 = 181316$
 - $n = \dfrac{ed-1}{M} = \frac{(138692)(181316) - 1}{5331} = 4717141$ 
 
-The pair $(4717141,138692)$ is the public key; Bob decides to get it put onto a T-shirt that he wears when he's going out, because who cares if it's public? If this system works as advertised it shouldn't matter if people know his public key. But, the number $181316$ is private, so Bob tells nobody what it is, under any circumstance! 
+The pair $(e = 138692, n = 4717141)$ is the public key; Bob decides to get it put onto a T-shirt that he wears when he's going out, because who cares if it's public? If this system works as advertised it shouldn't matter if people know his public key. But, the number $181316$ is private, so Bob tells nobody what it is, under any circumstance! 
 
 Alice wants to send Bob the message `AM ON MY WAY`. Converting this to integers 00-25 gives `00 12 14 13 12 24 22 00 24` and stripping out the spaces gives `001214131224220024`. Bob's value of $n$ is 4717141. So Alice breaks her message up into blocks less than 4717141 --- for example, into blocks four digits long: `0012 1413 1224 2200 24`. To get that last block to be exactly four digits, she pads it with a couple of zeroes to get `0012 1413 1224 2200 2400`. (She could also have chosen blocks five digits long, or shorter.) 
 
