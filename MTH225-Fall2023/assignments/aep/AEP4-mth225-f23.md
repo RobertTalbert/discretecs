@@ -59,7 +59,7 @@ Alice wants to send Bob the message `AM ON MY WAY`. Converting this to integers 
 
 Now Alice encrypts each block as if it were a four-digit integer. For example, the second block in the plaintext is `1413`. To encrypt it, Alice takes Bob's public key --- which is the pair $e = 138692$ and $n = 4717141$ --- computes
 
-$(e \cdot P) \, \% \, n = (138692 \cdot 1413) \, \% \, 4717141 = 195971796 \, \% \, 4717141 = 2569015$
+$(e \cdot P)  \%  n = (138692 \cdot 1413) \, \% \, 4717141 = 195971796 \, \% \, 4717141 = 2569015$
 
 And that's the encrypted version of that block. Repeat this computation for each of the other blocks. The collection of encrypted blocks is then sent to Bob. 
 
