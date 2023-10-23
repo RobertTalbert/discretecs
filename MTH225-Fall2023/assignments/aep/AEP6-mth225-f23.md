@@ -6,7 +6,7 @@ Counting problems are awesome! :fire: So let's do some.
 
 ## Tasks for this AEP
 
-Here are three counting problems. Pick any two, and do them. (Don't turn in work on more than one! It will be marked *Incomplete* and returned back to you without further comment.)
+Here are three counting problems. Pick any two, and do them. (Don't turn in work on all three! It will be marked *Incomplete* and returned back to you without further comment.)
 
 ### Problem 1
 
