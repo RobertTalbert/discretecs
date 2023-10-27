@@ -5,7 +5,7 @@
 Counting problems can be complex, and they always involve careful thinking and engagement with a problem rather than throwing formulas at it. It might be tempting, when working on a counting problem -- especially one that will be graded -- to pose the problem to one of the several generative artificial intelligence applications that are now freely available, and use their response as your own. This is a terrible idea it turns out, and in this AEP you will see why, and use your uniquely human brain to set the record straight. 
  
 
-**Initial deadline**: **Sunday, November 26 at 11:59pm ET**. You are allowed to spend one token to extend this deadline by 48 hours.  
+**Initial deadline**: **Sunday, November 19 at 11:59pm ET**. You are allowed to spend one token to extend this deadline by 48 hours.  
 
 ## Background
 
