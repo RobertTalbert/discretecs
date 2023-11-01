@@ -1,4 +1,4 @@
-# AEP 4: Counting Is Fun
+# AEP 6: Counting Is Fun
 
 ## Overview and Background
 
