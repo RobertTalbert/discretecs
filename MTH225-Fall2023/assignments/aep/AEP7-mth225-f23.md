@@ -11,9 +11,7 @@ In mathematics, we observe phenomena that have quantitative patterns and then tr
 A **proof** of a conjecture is a clear, correct, and convincing argument that the conjecture is true. Just like any argument, there are logical strategies that we can use to build a proof. One of those is [mathematical induction](https://publish.obsidian.md/mth225/Recursion+and+Induction/Mathematical+induction), which is the subject of AEP 8 and Learning Target 7. But there are many strategies available, including one that involves counting things. 
 
 Here is an example. Let $x$ and $y$ be any two natural numbers. We make the conjecture that: 
-$$\begin{equation*}
-{x+y \choose 2} - {x \choose 2} - {y \choose 2} = xy
-\end{equation*}$$
+$${x+y \choose 2} - {x \choose 2} - {y \choose 2} = xy$$
 
 For example, if $x = 3$ and $y=2$, then the right hand side is $6$. The left hand side is 
 $$\binom{5}{2} - \binom{3}{2} - \binom{2}{2}$$
