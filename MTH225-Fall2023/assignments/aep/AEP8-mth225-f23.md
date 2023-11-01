@@ -46,19 +46,9 @@ $${n\choose 0} + {n \choose 1} + {n\choose 2} + \cdots + {n \choose n} = 2^n$$
 
 3. The **logarithm base 2** of a number $x$, written $\log_2(x)$, is the power to which you would raise $2$ in order to get $x$. That is, if $\log_2(x) = a$ then $2^a = x$. For example, $\log_2(8) = 3$, $\log_2(1024) = 10$, $\log_2(1) = 0$, and (using a calculator) $\log_2(100)$ is around $6.644$. 
 
-Consider the following recursive function, given here as Python code: 
+Prove that, for all positive integers $n$, the number of bits needed to represent $n$ in binary (base 2) is $1 + \lfloor \log_2(n) \rfloor$, that is, the logarithm base 2 of $n$ rounded down to the next lowest integer, plus 1. (The notation $\lfloor x \rfloor$ is the *floor function*.) 
 
-```python
-def r(n):
-	if n == 1: 
-		return 0
-	else:
-		L = r(n//2)
-	return L+1
-```
-In the next to last line, `n//2` refers to integer division -- divide `n` by 2 and then drop the remainder. For example `15//2 = 7`.  [Click here to learn more](https://www.geeksforgeeks.org/division-operators-in-python/). 
-
-In problem 3: Prove that for all natural numbers $n \geq 1$, the output of `r(n)` is $\log_2(n)$. 
+For example, this result would say that the number of bits needed to represent the decimal integer 782 in binary is $\lfloor \log_2(782) \rfloor + 1$ which [according to a calculator](https://www.wolframalpha.com/input?i=floor%28log2%28782%29%29+%2B+1) is **10 bits**. And indeed we can check that this number in base 2 is `1100001110` which has 10 bits. 
 
 You may use any fact about logarithms that you might have learned in the past, for example in high school or in MTH 122. The three most popular logarithm properties are: 
 
