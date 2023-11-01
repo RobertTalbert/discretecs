@@ -52,7 +52,7 @@ $$k{n\choose k} = n{n-1 \choose k-1}$$
 
 2. For all natural numbers $n$, 
 $${n\choose 0} + {n \choose 1} + {n\choose 2} + \cdots + {n \choose n} = 2^n$$
-(This is Exercise 14 from [Section 1.4](https://discrete.openmathbooks.org/dmoi3/sec_comb-proofs.html). In the text there are three different suggestions for how to think about this; one involves "lattice paths" which we haven't discussed in class but which is discussed in [Section 1.2 of the text](https://discrete.openmathbooks.org/dmoi3/sec_counting-binom.html). You may assume that a set with $n$ elements has $2^n$ subsets, a fact which has shown up in class a few times.)
+(This is Exercise 14 from [Section 1.4](https://discrete.openmathbooks.org/dmoi3/sec_comb-proofs.html). In the text there are three different suggestions for how to think about this; one involves "lattice paths" which we haven't discussed in class but which is discussed in [Section 1.2 of the text](https://discrete.openmathbooks.org/dmoi3/sec_counting-binom.html). You may assume that a set with $n$ elements has $2^n$ subsets, a fact which has shown up in class a few times, and the proof of which is given in [the vault article on mathematical induction](https://publish.obsidian.md/mth225/Recursion+and+Induction/Mathematical+induction).)
 
 3. For all positive integers $n$ and $k$ with $1 \leq k \leq n$, 
 $$\dbinom n {k - 1} + \dbinom n k = \dbinom {n + 1} k$$
