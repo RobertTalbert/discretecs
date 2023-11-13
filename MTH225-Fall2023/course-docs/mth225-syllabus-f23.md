@@ -395,7 +395,7 @@ The Learning Targets labeled **CORE** are the CORE Learning Targets. (Those are 
 10. I can determine if a mapping is a function; identify the domain, range, and codomain of a function; and determine the image of a specific input in one function or a composition of functions.
 11. I can determine if a function is injective, surjective, or bijective. 
 12. (**CORE**) I can apply the Additive and Multiplicative Principles and the Principle of Inclusion/Exclusion to formulate and solve basic combinatorics problems.
-13. (**CORE**) I can compute factorials and binomial coefficients, and apply the these concepts to solve basic combinatorics problems. (permutations, selections, distributions)
+13. (**CORE**) I can compute factorials and binomial coefficients, and apply these concepts to solve basic combinatorics problems. (permutations, selections, distributions)
 14. I can determine if a sequence of numbers is arithmetic or geometric and derive both closed-form and recursive formulas for them. 
 15. I can use the characteristic root method to find a closed-form solution for a first- or second-order linear homogeneous recurrence relation. 
 
