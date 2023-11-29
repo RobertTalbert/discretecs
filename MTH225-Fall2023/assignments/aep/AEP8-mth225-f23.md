@@ -73,7 +73,8 @@ Just as a reminder, the closed formula for the binomial coefficient is
 $$\binom{n}{k} = \frac{n!}{k! \cdot (n-k)!}$$ 
 And the recurrence relation that defines it is 
 $$\binom{n}{k} = \binom{n-1}{k} + \binom{n-1}{k-1}$$
-Again, **these are generally off limits** in this AEP. But if you believe you have a legitimate induction proof of your problem but it involves one or both of these, check with me first. 
+
+Whereas in AEP 7, these formulas were off-limits, here you are welcome to use either one of these since they are fundamental representations of the Binomial Coefficient. But be careful of the closed formula, as it often doesn't work well with an induction proof and tends to create more work than it alleviates. 
 
 
 Submissions that don't follow these requirements will be marked *Incomplete* and returned to you without further comment. 
