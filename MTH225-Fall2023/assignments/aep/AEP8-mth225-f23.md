@@ -64,7 +64,7 @@ Remember the general expectations and grading standards for AEPs are in the [Sta
 
 **Special requirements for this AEP:** As noted above: 
 
-- **Your solution must be a  proof by induction**: Use of the closed formula for the binomial coefficient, or the recurrence relation that defines the binomial coefficient, or another form of proof is not allowed.
+- **Your solution must be a  proof by induction**: Use of another form of proof is not allowed.
 - **Your proof must have the three-step framework clearly stated somewhere in the proof.** A reader should be able to scan your writing and see the framework. 
 - **Your proof must be clearly written**, so that the average reader can follow it from start to finish with no questions and no need to do extra work. 
 - **Your proof must be free of mathematical and logical errors.** Note, some "simple" or trivial errors might not impact the proof and would be permitted -- you'd get feedback about it but these by themselves wouldn't trigger a revision. 
