@@ -39,3 +39,17 @@ $$(edx) \, \% \, n = ((Mn+1)x) \, \% \, n$$
 Multiplying the $x$ through gives $(Mnx + x) \, \% \, n$. Now, the first part of the sum $Mnx$ is a multiple of $m$, so when reduced mod $n$, it becomes $0$. And, $x$ was selected so that it's less than $n$, so $x \, \% \, n = x$. Therefore 
 $$((Mn+1)x) \, \% \, n = 0 + x = x$$
 Which shows that Bob ends up with $x$, the same number that Alice encrypted. 
+
+## AEP 6 
+
+### Dividing 6 professors up into 4 offices (empty offices allowed) 
+
+Split the problem up into four sub-problems, based on the number of empty offices that we have. We could have 0, 1, 2, or 3 offices left empty. 
+
+**If 3 offices are empty:** Then there is only one assignment of profs to offices: Put every one in the same office. Since the offices are identical, this is just one arrangement not four; putting them all in "Office 1" is the same as putting them all in "Office 2". 
+
+**If 2 offices are empty:** Then we have to look at the ways to split up the six profs into two offices that aren't empty. 
+
+
+## AEP 8 
+
