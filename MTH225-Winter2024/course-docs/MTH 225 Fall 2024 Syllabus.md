@@ -12,7 +12,7 @@
 
 In this course, you will learn **the math that all of computer science is based on**. You'll learn things like how to do arithmetic in binary, how to count the number of ways to deal a five-card poker hand, and how to generate complex data structures using simple rules involving recursion. And more! By studying discrete structures, **you'll gain a superpower to make you an expert learner of any hardware and any software, including those that haven't been invented yet**. As a computer scientist, your ability to learn new things quickly, and use fundamental concepts to model complex ideas, are more valuable than your coding skills. 
 
-**This syllabus contains all the information you need to navigate the course.** The main document will be kept continuously up to date at this link. When you see blue- or purple-underlined text in the syllabus or any other document, it's a clickable link. For example, [click here for a cat video](https://www.youtube.com/watch?v=aFuUidBR1aQ). A PDF version of the syllabus will also be available on Blackboard in the *Course Documents and Tools* folder, but it will not be updated unless there is a major change. 
+**This syllabus contains all the information you need to navigate the course.** The main document will be kept continuously up to date at this link. When you see blue- or purple-underlined text in the syllabus or any other document, it's a clickable link. For example, [click here for a cat video](https://www.youtube.com/watch?v=aFuUidBR1aQ). A PDF version of the syllabus will also be available on Blackboard, but it will not be updated unless there is a major change. 
 
 **This document is meant to be read once, then searched as needed.** If you need to find something, the easiest way is to pull up this  document, hit `Control-F` or `Command-F`, and then do a search for the text you're looking for. 
 
@@ -22,45 +22,125 @@ This course is subject to the GVSU policies listed at http://www.gvsu.edu/course
 
 ## Key Information
 
-**Professor:** Robert Talbert, Ph.D., Professor of Mathematics. My office is Mackinac Hall C-2-513; my email is talbertr@gvsu.edu; my direct phone is 616-331-8968. 
+**Professor:** Robert Talbert, Ph.D., Professor of Mathematics. My office is Mackinac Hall C-2-513; my email is [talbertr@gvsu.edu](mailto:talbertr@gvsu.edu); my direct phone is 616-331-8968. 
+
+**Student drop-in hours:** Open drop-in times in MAK C-2-513 are **4:00-5:00pm Monday and Wednesday**. Additional hours are available by appointment by going to http://calendly.com/robert-talbert and selecting a 20-minute time slot from *MTH 225 student appointment*. Appointments are in-person; if you need an online meeting or phone call, please select *20 minute online meeting* or *20 minute phone call* from the Calendly page.
 
 **Meetings:** Section 03 and Section 04 meet Monday/Wednesday/Friday in Mackinac Hall A-2-155. Section 03 meets 11:00-11:50pm and Section 04 meets 12:00-12:50pm. 
 
-**Student drop-in hours:** 4:00-5:00pm Monday and Wednesday and by appointment through my Calendly page: http://calendly.com/robert-talbert.  No appointment is needed for the 4-5pm open drop-in times. To schedule an appoinment outside those times, click the link and then select "MTH 225 student appointment". The default appointment is a 30-minute in-office meeting. If you want a phone call or an online meeting instead, select either "20 minute phone call" or "20 minute online meeting" at Calendly. 
+**Textbook:** There is no requuired textbook for the course. An optional textbook is *Discrete Mathematics: An Open Introduction* (third edition) by Oscar Levin, available for free online at https://discrete.openmathbooks.org/dmoi3/dmoi.html. 
 
-**Blackboard, Class Page, and Class Vault:** Our main course portal is on Blackboard, which you can access at http://lms.gvsu.edu. Please note that we are using *Blackboard Ultra*, a major update to Blackboard which has significant differences from previous versions. If you need a tutorial on how to navigate Blackboard Ultra,  We use two other electronic resources for the class: the **[Class Page](https://docs.google.com/document/d/1JxG_s77q1Z3Ho_GsHXsQafZhpFJ_lW1Bbl7Hn0epWns/edit?usp=sharing)** which is a Google Doc showing notes and resources for class meetings; and the **[Course vault](https://publish.obsidian.md/mth225)** which serves as our primary textbook. All of these are linked to Blackboard in the *Course Documents and Tools* folder, so you don't need to remember them all. But it's a good idea to bookmark the ones you use frequently in your browser. 
+**Course resources:** We use three main resources instead of a textbook. All three are free, and can be accessed from this syllabus, the Course Page, or Blackboard. It's a good idea to  bookmark all three in your browser.
+- **Blackboard**, at http://lms.gvsu.edu 
+- The **Course Page**, a Google Doc of notes and links, at http://gvsu.edu/s/2xI (last three characters are 2, lower-case "x", upper-case "I")
+- The **Course Vault**, a wiki of articles on class topic, at https://publish.obsidian.md/mth225 
 
-**Contacting the prof:** Email (talbertr@gvsu.edu) is preferred. **Blackboard messaging is turned off for this course; please use email instead.** You can schedule a video or phone call outside of office hours through [my Calendly page](https://calendly.com/robert-talbert/). Be sure to read [my availability/response policy](https://github.com/RobertTalbert/discretecs/blob/master/MTH225-Fall2023/course-docs/mth225-syllabus-f23.md#instructor-availability-and-message-responses). 
 
-**Course calendar:** The official course calendar is in **Google Calendar** [at this link](https://calendar.google.com/calendar/embed?src=5da852835eebf4c3ee076f95e7aa2b063dd56b06144a579037ecf8365394d6cc%40group.calendar.google.com&ctz=America%2FDetroit). It is also linked on the [Class Page](https://docs.google.com/document/d/1OVmgR7H6U3wOlUDk2rCr9iVRVET9PqlxYGF05Mb84Xw/edit?usp=sharing) and embedded at the end of this syllabus, although some web formats do not display it correctly. Assignments that are turned in on Blackboard will also have their due dates shown on the Blackboard calendar. *In case of an apparent date conflict on assignments or course documents, the Google Calendar is assumed to be correct.* 
+**Contacting the prof:** Email (talbertr@gvsu.edu) is preferred. **Blackboard messaging is turned off for this course; please use email instead.** Be sure to read **my availability/response policy**.
+
+**Course calendar:** The official course calendar is in **Google Calendar** [at this link](https://calendar.google.com/calendar/embed?src=5da852835eebf4c3ee076f95e7aa2b063dd56b06144a579037ecf8365394d6cc%40group.calendar.google.com&ctz=America%2FDetroit). It is also linked on the [Class Page](https://docs.google.com/document/d/1OVmgR7H6U3wOlUDk2rCr9iVRVET9PqlxYGF05Mb84Xw/edit?usp=sharing) and embedded at the end of this syllabus, although some web formats do not display it correctly. *The calendar on Blackboard will not show all dated items* so please use it only as a supplement to the Google Calendar. In case of an apparent date conflict, the Google Calendar is correct. 
 
 **Definition of "week":** In our course, a "week" is defined to begin at 12:01am ET on Monday and end at 11:59pm ET the following Sunday. 
 
-**Course content and videos:** The content for the course is housed in the **Course Vault** (https://publish.obsidian.md/mth225), a wikipedia-style website containing interconnected articles for every major course concept. A *optional* additional textbook is [Discrete Mathematics: An Open Introduction](http://discrete.openmathbooks.org/dmoi3/dmoi.html) by Oscar Levin. It's free; just click the link. A PDF copy is available for download [here](http://discrete.openmathbooks.org/pdfs/dmoi3-tablet.pdf). Not all course material is included in the Levin textbook, and we may not follow the exact sequence that this book uses. But you are free to use it as a supplement. A playlist of instructional videos is available on Vimeo at https://vimeo.com/showcase/8667148, and individual videos are embedded in course vault articles. 
+**Technology:** Please plan on bringing a laptop or tablet (laptop preferred) to class each day for group work. It's highly recommended to have access to a high-speed internet connection for work outside of class. You will need access to a basic handheld calculator for Checkpoint assessments in class. There is no preferred model of device. Please review the Class Technology Policy for acceptable use. 
 
-**Course tools:** We will use [Jupyter notebooks](https://jupyter.org/) on the [Google Colab platform](https://colab.research.google.com/) throughout the course for Python programming and writing up some assignments. You'll receive training on these tools in the first week of classes. 
+## What you will learn 
 
-**Technology:** For our class, you should have access to a laptop (a tablet is acceptable but not recommended) and a high-speed internet connection. You are *strongly encouraged* to have a device with a touchscreen and stylus input, or an external drawing pad. If technology access is an issue for you, please let me know so we can discuss your options. 
+(Learning objectives) 
 
-## How to have an good experience in MTH 225
+(*Megaskills*)
 
-**I want you to be successful in this class.** This is my #1 priority as a professor at GVSU. Everything in MTH 225 is built to lead you toward having a deep learning experience that is also deeply enjoyable. My goal is to challenge you and support you in equal measures, so you'll learn a lot and have a great experience in the process. 
+(Course timeline) 
 
-In MTH 225, you can expect:
+(Course description) 
 
-- A learning environment that challenges you, but also where support is readily available and freely given. 
-- Work that is meaningful and not "busy work", and grading practices that prioritize growth and improvement. 
-- Transparency and openness in how the course is run, including clear instructions on what you need to do and when, prompt and helpful feedback on your work, and timely replies to messages and questions. 
-- Openness to your ideas about the course, with regular solicitations for feedback that are taken seriously through a continuous improvement process. 
-- Above all, **respect** -- for you as a learner, as an adult, and as a human. 
+## How to succeed 
 
-Success in MTH 225 is within everyone's reach, but it's not effortless. On your end, your success in the course depends on three things: 
+All important learning experiences you've ever had, or will have, are the result of a **feedback loop**: You try something, then you get feedback on your attempt, then you think about and make sense of the feedback, then you use the feedback in another attempt. And this loop continues until the thing you are trying meets a standard of quality.
 
-1. **Active engagement during class time**. The best way to learn anything is to be an active participant in the process. Students who approach the class with a passive mindset typically struggle, and often fail. Those who approach it with an active mindset, on the other hand, often surprise themselves with how much and how well they learn. Make it a priority not to just attend and take notes, but *get involved*. 
-2. **Asking questions**. The material in MTH 225 is challenging, and you will almost certainly be confused or stuck at times. **This is a feature, not a bug, of the learning process.** It's normal and it means you're doing the course right. But when struggle happens, don't wait for things to make sense on their own: *Ask questions* of me and your classmates and take action to make sense of the material. 
-3. **Good management of time, tasks, and information.** Understanding the material won't help you if you procrastinate, skip announcements, or don't use a calendar. All course information will be clearly laid out for you, but it's up to you to import that information into your own lives and act on it. 
+(Image) 
 
-If you can commit to these, then I have every expectation that you'll succeed in the course, no matter what your math background or perceived math skill is.
+Being successful in MTH 225 means two things: **Mastering the basic skills of discrete mathematics** and **successfully applying those basic skills to hard problems**. The way to become good at these two things, is by **engaging with the activities and the feedback loops in the course** that are set up for you. And this engagement involves a number of simple actions and behaviors that you will need to show consistently: 
+
+- **Attending class**, and not only being physically present but **mentally engaged and participatory** in class activities.
+- **Blocking off daily times** for working on the class outside of class meetings.
+- **Mindful practice on basic skills** during those daily work times. 
+- **Careful understanding of feedback** on your work so that you can incorporate it into later attempts intelligently. 
+- **Consistent submission of attempts** on class work, described later. 
+- **Asking questions about math** in drop-in hours, class meetings, or emails. 
+
+Successful MTH 225 students have this in common: They all engage in these behaviors and do these actions consistently, every day throughout the course. Unsuccessful students typically fail to be consistent in one or more of these. **The common denominator is focus and consistency** -- you do not have to be a "math genius" to do well in MTH 225! You just have to **consistently engage with the feedback loops** that are there for you. 
+
+**I want you to be successful in this class.** I am personally invested in each student mastering all of the important topics and learning objectives listed in the previous section, and in your growth as a learner. I will challenge and support you, and if you engage with the learning activities and the feedback you receive, you will learn a lot and have a great experience. 
+
+## The work you will do 
+
+- Three axes: Basic skills, applications, engagement
+- Basic skills
+  - Listed in list of "Skills" 
+  - Six Core Skills 
+  - Ten Supplemental Skills 
+  - Demonstrate competence in each Skill
+    - Primarily through Checkpoints 
+    - But other options will be available (such as?)
+  - Two successful demonstrations needed on each skill to "Pass" or "Master" it 
+- Applications
+  - Challenge problems
+  - Big list of problems, will be added to over time 
+  - Not simple homework problems! Require careful thought, multiple iterations, good communication -- they often focus on the mega skills 
+- Engagement
+  - Includes things like attending class, completing pre-class work, completing ungraded practice sets, doing other things to show you're dialed in to the course
+  - Items of engagement are given point values "Engagement credits" -- accumulate these over time 
+
+
+## How you will be evaluated and graded
+
+- Overview
+  - We do not use a traditional grading system where there are points and one-and-done assessments
+  - Most items have no point value (exception Engagement Credits)
+  - Those items without points are graded either "Success" or "Retry" based on whether they meet quality standards -- see Standards document -- no partial credit
+  - The Standards document lists exactly what you will be asked to do on each item and what is expected of you -- read it along with this syllabus 
+  - Instead, you get reattempts on things that are graded "Retry". No penalty for a Retry. 
+  - This fits with the idea of a feedback loop.
+- Table: Common assignments, how they are graded, what shows up in Blackboard 
+  - Engagement- Shows up individually with EC's, and there's a running Engagement Credit total column
+  - Skills- Listed individually, Level 0, 1 or 2 according to how many successful demonstrations you've made so far -- Checkpoint items themselves will be listed Success or Retry
+  - Challenge problems- Listed individually, Success or Retry 
+- Table showing how course grades are assigned 
+- Plus and minus grades 
+  - Final exam 
+  - Plus: Meet all requirements for a base grade and then earn 85% or higher on the final
+  - Minus: Meet all requirements for a base grade except engagement credits; or meet all requirements for base grade and then earn 50% or lower on the final
+  - There is no A+ and no D-; opposing plus/minus cancels out
+- What if you're a borderline case or almost make it -- instructor discretion, especially looking at skills at level 1. 
+
+## Academic integrity
+
+- Includes AI policy 
+
+## Other Course Policies 
+
+**Instructor availability and responses:** 
+
+**Attendance:**
+
+**Announcements:** 
+
+**Late work and makeups:**
+
+**Remote instruction:** https://www.gvsu.edu/provost/guidelines-for-course-delivery-in-the-event-of-253.htm
+
+**Disability Support Resources:**
+
+**Classroom and campus safety**: 
+
+
+
+The professor reserves the right to adjust this syllabus as needed and will notify you of any changes through Blackboard announcements. 
+
+---
+
+**OLD SYLLABUS LANGUAGE BELOW** 
 
 ## Goals and Structure 
 
