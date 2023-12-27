@@ -64,7 +64,7 @@ We will also focus daily on four **Mega-Skills** that go beyond the content, and
 
 - **Bulls*it detection**: Being able to look at a program, problem solution, or explanation -- especially those you create -- and find and fix errors and misconceptions in it. 
 - **Deliberate practice**: Practicing a skill, not mindlessly but with focused attention and a goal of improving performance. 
-- **Explaining things to another person**: Taking a complex idea and making it make sense to a normal, non-expert human being through a clear, correct, and complete verbal explanation. 
+- **Explaining things to another human**: Taking a complex idea and making it make sense to a normal, non-expert human being through a clear, correct, and complete verbal explanation. 
 - **Solving hard problems**: Taking a problem that is more than just a simple exercise, and applying structured reasoning, creative strategies, and tenacious persistence to make progress. 
 
 The four Mega-Skills are not directly part of your course grade but will be the focus of many activities that are, and will be frequently referenced in class. 
@@ -106,47 +106,97 @@ Successful MTH 225 students have this in common: They all engage in these behavi
 
 ## The work you will do 
 
+In MTH 225 the activities and assignments are all designed intentionally to give you practice along three axes: **basic skills**, **applications and extensions** of those skills, and **engagement in the course**. 
+
+(Image) 
+
+### Skills and Checkpoints
+
+Sixteen (16) **Skills** are highlighted from among the topics you will learn in the course. Six (6) of these are designated as **Core Skills**, and mastery of these six is required for passing the course. The remaining ten (10) are **Supplemental Skills** and while their mastery is not required to pass the course, your course grade will go up the more of the Supplemental skills you master. All 16 Skills are found in Appendix A. 
+
+To master a Skill, you will need to provide a **successful demonstration** of your competence on that Skill. The primary way to do this is through **Checkpoints**: timed quizzes given regularly in the class. Typically, Checkpoints are given every other week, although they will become more frequent near the end of the course. Checkpoints will contain short exercises for you to complete, with each exercise focusing on a single Skill. **Checkpoints always contain new versions of all six Core Skills** as well as **new versions of any Supplemental Skill that had previously appeared**, so they are "cumulative" and if you don't have a successful attempt on an exercise on a Checkpoint, you can try again multiple times later. 
+
+Completing an exercise for a Skill is considered a "successful demonstration" if your work meets the standards that are explained in the **success criteria** for that exercise. The success criteria will always be listed on the Checkpoint following the exercise so you'll always know what you need to do to have a successful attempt. The Standards for Student Work document also contains a listing of the success criteria for each exercises for all 16 Skills. 
+
+**Mastering a Skill requires two (2) separate successful demonstrations**. The way mastering a Skill will work for most students is that you will do successful work on an exercise one week; then do it again in a later week. This way, you will space out your attempts on a skill and retain the information better than if it were just "one and done". 
+
+Alterative methods for demonstrating skill, for example oral exams in drop-in hours, may be added later in the course if it appears you'd benefit from it. 
+
+### Challenge Problems 
+
+To give you practice and assessment on applying and extending the basic skills, you'll complete several **Challenge Problems** during the course. These are hard problems based on the basic skills learned in class. They may involve tricky computation, explaining complex processes to another person, explaining why code works, proving a mathematical statement, or something similar. In any case **they will not be basic homework-style problems but something complex that requires multiple Mega-Skills.** 
+
+Challenge Problems are all located in the Challenge Problem document (click the link to access). That document will have new problems added throughout the semester. 
 
 
+### Engagement with the course
 
-- Three axes: Basic skills, applications, engagement
-- Basic skills
-  - Listed in list of "Skills" 
-  - Six Core Skills 
-  - Ten Supplemental Skills 
-  - Demonstrate competence in each Skill
-    - Primarily through Checkpoints 
-    - But other options will be available (such as?)
-  - Two successful demonstrations needed on each skill to "Pass" or "Master" it 
-- Applications
-  - Challenge problems
-  - Big list of problems, will be added to over time 
-  - Not simple homework problems! Require careful thought, multiple iterations, good communication -- they often focus on the mega skills 
-- Engagement
-  - Includes things like attending class, completing pre-class work, completing ungraded practice sets, doing other things to show you're dialed in to the course
-  - Items of engagement are given point values "Engagement credits" -- accumulate these over time 
+To really learn and succeed in MTH 225, you will need to become involved in the course through preparing for class, attending class, being actively involved in class activities, engaging in deliberate practice outside of class, and more. **Disengagement with the class is by far the main reason students fail.** "Smart" students who are disengaged usually end up repeating the course; conversely students who might still be working on their math skills but who stay engaged with the class usually do quite well. 
 
+Activities that require mindful engagement with the course are given **engagement credits**. Satisfactory completion of an activity that has engagement credit value will add those credits to a running total. Recurring activities that earn engagement credits include: 
+
+- **Class Prep**: Activities that you complete -- involving watching videos, doing some reading, and completing some exercises -- to prepare for an upcoming class meeting. **Each Class Prep is worth 2 engagement credits.** 
+- **Class attendance**: Attendance will be taken at each class meeting, and being in the class for at least 40 minutes will earn you **1 engagement credit**. 
+
+Additionally, you'll be given a **Startup Assignment** during the first week of the semester that will have engagement credit value. Throughout the semester there will be opportunities to earn more engagement credits through practice homework sets, completing surveys, and other means. 
 
 ## How you will be evaluated and graded
 
-- Overview
-  - We do not use a traditional grading system where there are points and one-and-done assessments
-  - Most items have no point value (exception Engagement Credits)
-  - Those items without points are graded either "Success" or "Retry" based on whether they meet quality standards -- see Standards document -- no partial credit
-  - The Standards document lists exactly what you will be asked to do on each item and what is expected of you -- read it along with this syllabus 
-  - Instead, you get reattempts on things that are graded "Retry". No penalty for a Retry. 
-  - This fits with the idea of a feedback loop.
-- Table: Common assignments, how they are graded, what shows up in Blackboard 
-  - Engagement- Shows up individually with EC's, and there's a running Engagement Credit total column
-  - Skills- Listed individually, Level 0, 1 or 2 according to how many successful demonstrations you've made so far -- Checkpoint items themselves will be listed Success or Retry
-  - Challenge problems- Listed individually, Success or Retry 
-- Table showing how course grades are assigned 
-- Plus and minus grades 
-  - Final exam 
-  - Plus: Meet all requirements for a base grade and then earn 85% or higher on the final
-  - Minus: Meet all requirements for a base grade except engagement credits; or meet all requirements for base grade and then earn 50% or lower on the final
-  - There is no A+ and no D-; opposing plus/minus cancels out
-- What if you're a borderline case or almost make it -- instructor discretion, especially looking at skills at level 1. 
+### Overview of how grading works in MTH 225 
+
+Grading in MTH 225 is different from what you might have experienced, because it's based on **feedback loops** as described earlier. In MTH 225: 
+
+- **Almost none of your assignments have point values**. Only the final exam and engagement-credit items have point values. Therefore there is **no partial credit and no averaging**. 
+- Instead, assignments have **standards** which are descriptions of what constitutes "acceptable" work. These are given in detail in the document [Standards for Student Work] which you can find at the link and on Blackboard. When you submit an assignment, I will read it carefully and compare it with the standards, and simply determine whether it meets the standards or not. Typically your work is marked either **Success** or **Retry** depending on whether it meets the standards or not. 
+- After I evaluate your work, in most cases you will receive **detailed feedback** that will tell you whether your work meets the standards, and if not, the feedback will tell you what was missing and how you might go about fixing it. 
+- Then, on most items, you will have the chance to **retry** the assignment if needed, get more feedback, and repeat this **feedback loop** until the work meets our standards. 
+- Your course grade is not based on point totals or averages (because there are no point values). Instead, the course grade is based on **how many important learning tasks you've successfully accomplished** by the end of the semester, using a simple table that's given below. 
+
+Therefore grades in MTH 225 are based not on your ability to do good work at a single point in time, but rather on your ability to **eventually learn the material** by acting on feedback from previous attempts. 
+
+This process, using standards and feedback loops rather than points and averages, is how evaluation of work happens in most situations outside of college. In your future jobs, for example, you'll be reviewed regularly by your manager; it's not a "one and done" situation where you get a point score and then the process is over. Instead, in a real job, you get feedback and coaching on how to improve, and then you act on the feedback and show the boss that you have improved. 
+
+Those are the main concepts; the details are in the rest of the syllabus. Most students need a week or two to adapt to this system, but then everything is fine. I encourage you to ask questions at any time so I can help you. 
+
+### How items are graded and recorded on Blackboard 
+
+Your common, recurring assignments are graded and then recorded on Blackboard as follows: 
+
+| Assignment | How it's graded | What's recorded in the gradebook | 
+| ---- | ---- | --- | 
+| Skill exercises on Checkpoints | Overall correctness | Nothing, see below |
+| Skills | n/a, see below | 0, 1, or 2 |  
+| Challenge Problems | Completeness, overall correctness, writing, and presentation | *Success* or *Retry* | 
+| Engagement credit items | Completeness and effort | Engagement credit value | 
+
+**How Checkpoints and Skills work:** You will work out individual Skill exercises separately, and each attempt on a Skill is graded *Success* or *Retry*, depending on whether or not the work meets the success criteria. You'll get each attempt back, with feedback to prepare for your next attempt if needed. **The individual attempts are not recorded on Blackboard**. Instead, **each Skill has its own gradebook entry that reads 0, 1, or 2 indicating the number of successful attempts that have been made so far.** Once a skill reaches "2", you have mastered that skill and no further demonstrations are necessary. 
+
+**Engagement Credit total:** Individual items that receive engagement credits will be visible in the Blackboard gradebook along with the number of credits you received on it. Additionally, there is an entry for the running total of Engagement Credits you've earned so far in the course, so you can track your progress. 
+
+**Final exam:** In addition to the regular assignments, we will have a final exam consisting of two main parts: A comprehensive exam focusing on main concepts and big ideas; and a final Checkpoint for anyone who needs one more attempt on a Skill. 
+
+### How your course grade is determined 
+
+Your course grade is assigned using the table below. It shows the *minimum* requirements for the "base grades" of A, B, C, and D. Plus/minus modifiers are applied using the rules below the table. **To earn a grade in the course, you need to meet or exceed *all* the requirements for that grade.**
+
+| Grade | CORE skills mastered | SUPPLEMENTAL skills mastered | Challenge Problems | Engagement Credits |
+| :-----: | :--------------------: | :----------------------------: | :------------------: | :------------------: |
+| A     |  6                    |                 8             |      10              |       90             |
+| B     |  6                   |                   4           |        6            |         80           |
+| C     |  6                    |               2               |       2             |        70            |
+| D      | 3                    |                0              |        0            |        50            |
+
+A grade of "F" is given if not all of the requirements for a "D" are met. 
+
+There should be at least 100 engagement credits possible in the course, possibly significantly more. If it appears by the middle of the term that we will fall short of that 100 minimum, the numbers in the last column above may be updated. 
+
+**Plus/minus grades:** A "plus" is added to a base grade if you meet all the requirements for the base grade, and then earn an 85% or higher on the final exam. A "minus" is added to a base grade if either (1) you meet all the requirements for the base grade *except* for engagement credits, or (2) you meet all the requirements for the base grade but then earn a 50% or lower on the final exam. (Therefore the only effect the final exam has on your grade is modification up or down by a "half letter".) If the criteria for both plus *and* minus grades are met, then the modifiers cancel out, and you retain just the base grade without modification. Please note, GVSU does not award grades of A+ or D-. 
+
+**Grade assignments in borderline cases:** Please note that *all* requirements for a base grade must be met, and exceeding the requirements in one column will not offset failing to meet the requirements in another. However, if you end the semester having come close to completing all the requirements for a base grade, I will look at your case individually and take the full scope of your work in the class into account, and assign a grade based on my professional judgment and in consultation with you. You may be assigned a course grade higher than what the syllabus indicates if I believe it's warranted; you will never be assigned a course grade lower than what the syllabus indicates. 
+
+
+
+
 
 ## How to revise and retry your assignments 
 
@@ -214,13 +264,29 @@ I live in Allendale with my family. I'm an avid bass guitar player, currently pl
 
 ### Appendix A: MTH 225 Skills 
 
-There are 16 **Skills** in MTH 225, split into six **Core** and ten **Supplemental** Skills. Two successful demonstrations of competence on each skill is required in order to "pass" the skill. 
+Each Skill requires **two (2) successful demonstrations of competency in order to "master" the skill, typically through Checkpoint problems. 
 
-**Core Skills**
+**CORE** Skills: 
 
+- **C1**: I can identify the hypothesis and conclusion of a conditional statement and state its converse, contrapositive, inverse, and negation.
+- **C2**: Given a statement to prove using mathematical induction, I can state the framework of a proof. (Identify the predicate, identify and prove the base case, state the inductive hypothesis, and state what needs to be proven in the inductive step)
+- **C3**: I can use set-theoretic notation correctly and convert a set from set-builder notation to roster notation and vice versa. 
+- **C4**: I can find the intersection, union, difference, symmetric difference, power set, cardinality, cartesian product, and complement of sets.
+- **C5**: I can apply the Additive and Multiplicative Principles and the Principle of Inclusion/Exclusion to formulate and solve basic combinatorics problems.
+- **C6**: I can compute factorials and binomial coefficients, and apply these concepts to solve basic combinatorics problems involving permutations, selections, and distributions. 
 
+**SUPPLEMENTAL** Skills: 
 
-**Supplemental Skills** 
+- **S1**: I can convert a positive integer from base 10 to base 2, 8, and 16 and vice versa and represent a negative integer in base 2 using two's complement notation.
+- **S2**: I can add, subtract, multiply, and divide positive integers in base 2.
+- **S3**: I can construct truth tables for propositions involving two or three atomic propositions and use truth tables to determine if two propositions are logically equivalent.
+- **S4**: I can determine the truth value of a predicate at a specific input, the truth value of a quantified predicate, and the negation of a quantified predicate. 
+- **S5**: I can determine elements of a recursively-defined sequence using a recurrence relation. 
+- **S6**: I can derive a recurrence relation for a recursive visual pattern, number sequence, or other sequence of objects. 
+- **S7**: I can determine if a mapping is a function; identify the domain, range, and codomain of a function; and determine the image of a specific input in one function or a composition of functions. 
+- **S8**: I can determine if a function is injective, surjective, or bijective. 
+- **S9**: I can determine if a sequence of numbers is arithmetic or geometric and derive both closed-form and recursive formulas for them.
+- **S10**: I can use the characteristic root method to find a closed-form solution for a first- or second-order linear homogeneous recurrence relation. 
 
 ### Appendix B: Schedule of Skill coverage on Checkpoints
 
