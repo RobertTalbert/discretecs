@@ -46,13 +46,44 @@ This course is subject to the GVSU policies listed at http://www.gvsu.edu/course
 
 ## What you will learn 
 
-(Learning objectives) 
+MTH 225 is the first of a two-semester sequence on the mathematical foundations of computer science. In MTH 225, you'll be learning about: 
 
-(*Megaskills*)
+- **How computers represent and work with (whole) numbers**: Representing integers (whole numbers) in binary, octal, and hexadecimal; binary arithmetic; two's complement notation for negative integers; the Division Algorithm and modular arithmetic. 
+- **How computers "decide" what to do in a program**: Logical propositions, conditional statements, truth tables, predicates, and quantification. 
+- **How computers package and transform collections of data**: Set notation and representation, set operations, functions. 
+- **How to count complex arrangements of things**: The Additive and Multiplicative counting principles, the binomial coefficient, permutations, dots-and-dividers counting methods; using computational thinking to solve combinatorics problems. 
+- **How to form abstract general observations about things and explain why they are true, *without* using a computer**: The Principle of Mathematical Induction and proof by induction.
 
-(Course timeline) 
+A common thread through all of these is **recursion**, which is the concept of computing or building something using smaller versions of itself. Recursion is a powerful tool in computer science and mathematics, and it links together almost all the specific topics we will encounter in the course. 
 
-(Course description) 
+### Skills and Mega-Skills 
+
+There are 16 **Skills** in the course that are highlighted for you to learn. These are specific, concrete actions that you should be able to perform with skill and fluency by the end of the course. Six of these are designated as **Core Skills** which means that **every student must master these to pass the course**. The remaining 10 skills are **Supplemental Skills**, and while mastering these is not required to pass the course, the more you master, the higher your grade is. More on that in the *"How you will be evaluated and graded"* section. All 16 Skills are listed in Appendix A. 
+
+We will also focus daily on four **Mega-Skills** that go beyond the content, and which you'll be using for the remainder of your careers regardless of the direction it takes: 
+
+- **Bulls*it detection**: Being able to look at a program, problem solution, or explanation -- especially those you create -- and find and fix errors and misconceptions in it. 
+- **Deliberate practice**: Practicing a skill, not mindlessly but with focused attention and a goal of improving performance. 
+- **Explaining things to another person**: Taking a complex idea and making it make sense to a normal, non-expert human being through a clear, correct, and complete verbal explanation. 
+- **Solving hard problems**: Taking a problem that is more than just a simple exercise, and applying structured reasoning, creative strategies, and tenacious persistence to make progress. 
+
+The four Mega-Skills are not directly part of your course grade but will be the focus of many activities that are, and will be frequently referenced in class. 
+
+### Official learning objectives
+
+Upon completion of MTH 225, you will be able to: 
+
+* Represent integers using different number bases, and perform integer arithmetic using different bases and modular arithmetic.
+* Formulate, manipulate, and determine the truth of logical expressions using symbolic logic.
+* Formulate and solve computational problems using sets and functions.
+* Formulate and solve complex counting problems using computational thinking and the tools of combinatorics.
+* Evaluate numerical and other sequences using recursion, and solve simple recurrence relations.
+* Write clear, correct, and convincing arguments to explain the correctness of a solution using combinatorial proof and mathematical induction.
+* Explain the reasoning behind solutions to computational problems clearly to an appropriate audience.
+* Apply effective problem-solving skills in solving computational problems.
+* Apply computer programming and computational thinking to frame and solve mathematical and computational problems.
+* Self-assess your work and apply feedback from others to make improvements in that work.
+
 
 ## How to succeed 
 
