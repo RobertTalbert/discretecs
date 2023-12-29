@@ -26,23 +26,23 @@ This course is subject to the GVSU policies listed at http://www.gvsu.edu/course
 
 **Student drop-in hours:** Open drop-in times in MAK C-2-513 are **4:00-5:00pm Monday and Wednesday**. Additional hours are available by appointment by going to http://calendly.com/robert-talbert and selecting a 20-minute time slot from *MTH 225 student appointment*. Appointments are in-person; if you need an online meeting or phone call, please select *20 minute online meeting* or *20 minute phone call* from the Calendly page.
 
-**Meetings:** Section 03 and Section 04 meet Monday/Wednesday/Friday in Mackinac Hall A-2-155. Section 03 meets 11:00-11:50pm and Section 04 meets 12:00-12:50pm. 
+**Meetings:** Section 03 and Section 04 meet Monday/Wednesday/Friday in Mackinac Hall A-2-155. Section 03 meets 11:00-11:50am and Section 04 meets 12:00-12:50pm. 
 
 **Textbook:** There is no requuired textbook for the course. An optional textbook is *Discrete Mathematics: An Open Introduction* (third edition) by Oscar Levin, available for free online at https://discrete.openmathbooks.org/dmoi3/dmoi.html. 
 
-**Course resources:** We use three main resources instead of a textbook. All three are free, and can be accessed from this syllabus, the Course Page, or Blackboard. It's a good idea to  bookmark all three in your browser.
+**Course resources:** We use three main resources instead of a textbook. All are free and can be accessed from this syllabus, the Course Page, or Blackboard. It's a good idea to bookmark all three in your browser.
 - **Blackboard**, at http://lms.gvsu.edu 
-- The **Course Page**, a Google Doc of notes and links, at http://gvsu.edu/s/2xI (last three characters are 2, lower-case "x", upper-case "I")
+- The **Course Page**, a Google Doc of notes and links, at http://gvsu.edu/s/2xI (last three characters are 2, lower-case "x", upper-case "I" as in "india")
 - The **Course Vault**, a wiki of articles on class topic, at https://publish.obsidian.md/mth225 
 
 
-**Contacting the prof:** Email (talbertr@gvsu.edu) is preferred. **Blackboard messaging is turned off for this course; please use email instead.** Be sure to read **my availability/response policy**.
+**Contacting the prof:** Email (talbertr@gvsu.edu) is preferred. **Blackboard messaging is turned off for this course; please use email instead.** Be sure to read my availability/response policy found later in this syllabus. 
 
-**Course calendar:** The official course calendar is in **Google Calendar** [at this link](https://calendar.google.com/calendar/embed?src=5da852835eebf4c3ee076f95e7aa2b063dd56b06144a579037ecf8365394d6cc%40group.calendar.google.com&ctz=America%2FDetroit). It is also linked on the [Class Page](https://docs.google.com/document/d/1OVmgR7H6U3wOlUDk2rCr9iVRVET9PqlxYGF05Mb84Xw/edit?usp=sharing) and embedded at the end of this syllabus, although some web formats do not display it correctly. *The calendar on Blackboard will not show all dated items* so please use it only as a supplement to the Google Calendar. In case of an apparent date conflict, the Google Calendar is correct. 
+**Course calendar:** The official course calendar is in **Google Calendar** [at this link](https://calendar.google.com/calendar/embed?src=5da852835eebf4c3ee076f95e7aa2b063dd56b06144a579037ecf8365394d6cc%40group.calendar.google.com&ctz=America%2FDetroit). It is also linked on the [Class Page](https://docs.google.com/document/d/1OVmgR7H6U3wOlUDk2rCr9iVRVET9PqlxYGF05Mb84Xw/edit?usp=sharing) and embedded at the end of this syllabus, although some web formats do not display it. *The calendar on Blackboard will not show all dated items* so please use it only as a supplement to the Google Calendar. In case of an apparent date conflict, the Google Calendar is correct. 
 
 **Definition of "week":** In our course, a "week" is defined to begin at 12:01am ET on Monday and end at 11:59pm ET the following Sunday. 
 
-**Technology:** Please plan on bringing a laptop or tablet (laptop preferred) to class each day for group work. It's highly recommended to have access to a high-speed internet connection for work outside of class. You will need access to a basic handheld calculator for Checkpoint assessments in class. There is no preferred model of device. Please review the Class Technology Policy for acceptable use. 
+**Technology:** Please plan on bringing a laptop or tablet (laptop preferred) to class each day for group work. It's highly recommended to have access to a high-speed internet connection for work outside of class. You will need access to a basic handheld calculator for Checkpoint assessments in class. There is no preferred model of device. Please review the Class Technology Policy, found later in this document, for acceptable use. 
 
 ## What you will learn 
 
@@ -100,9 +100,9 @@ Being successful in MTH 225 means two things: **Mastering the basic skills of di
 - **Consistent submission of attempts** on class work, described later. 
 - **Asking questions about math** in drop-in hours, class meetings, or emails. 
 
-Successful MTH 225 students have this in common: They all engage in these behaviors and do these actions consistently, every day throughout the course. Unsuccessful students typically fail to be consistent in one or more of these. **The common denominator is focus and consistency** -- you do not have to be a "math genius" to do well in MTH 225! You just have to **consistently engage with the feedback loops** that are there for you. 
+Successful MTH 225 students have one thing in common: *They all engage in these behaviors and do these actions consistently, every day throughout the course*. Unsuccessful students typically fail to be consistent in one or more of these. **The common denominator is focus and consistency** -- you do not have to be a "math genius" to do well in MTH 225! You just have to **consistently engage with the feedback loops** that are there for you. 
 
-**I want you to be successful in this class.** I am personally invested in each student mastering all of the important topics and learning objectives listed in the previous section, and in your growth as a learner. I will challenge and support you, and if you engage with the learning activities and the feedback you receive, you will learn a lot and have a great experience. 
+**I want you to be successful in this class.** I am personally invested in each student mastering all of the skills and mega-skills listed above, and in your growth as a learner. I will challenge and support you, and if you engage with the learning activities and the feedback you receive, you will learn a lot and have a great experience. 
 
 ## The work you will do 
 
@@ -112,7 +112,7 @@ In MTH 225 the activities and assignments are all designed intentionally to give
 
 ### Skills and Checkpoints
 
-Sixteen (16) **Skills** are highlighted from among the topics you will learn in the course. Six (6) of these are designated as **Core Skills**, and mastery of these six is required for passing the course. The remaining ten (10) are **Supplemental Skills** and while their mastery is not required to pass the course, your course grade will go up the more of the Supplemental skills you master. All 16 Skills are found in Appendix A. 
+Sixteen (16) **Skills** are highlighted from among the topics you will learn in the course. Six (6) of these are designated as **Core Skills**, and mastery of these six is required for passing the course. The remaining ten (10) are **Supplemental Skills** and while mastery of any particular one is not required to pass the course, your course grade will go up the more of the Supplemental skills you master. All 16 Skills are found in Appendix A. 
 
 To master a Skill, you will need to provide a **successful demonstration** of your competence on that Skill. The primary way to do this is through **Checkpoints**: timed quizzes given regularly in the class. Typically, Checkpoints are given every other week, although they will become more frequent near the end of the course. Checkpoints will contain short exercises for you to complete, with each exercise focusing on a single Skill. **Checkpoints always contain new versions of all six Core Skills** as well as **new versions of any Supplemental Skill that had previously appeared**, so they are "cumulative" and if you don't have a successful attempt on an exercise on a Checkpoint, you can try again multiple times later. 
 
@@ -124,14 +124,14 @@ Alterative methods for demonstrating skill, for example oral exams in drop-in ho
 
 ### Challenge Problems 
 
-To give you practice and assessment on applying and extending the basic skills, you'll complete several **Challenge Problems** during the course. These are hard problems based on the basic skills learned in class. They may involve tricky computation, explaining complex processes to another person, explaining why code works, proving a mathematical statement, or something similar. In any case **they will not be basic homework-style problems but something complex that requires multiple Mega-Skills.** 
+To give you practice and assessment on applying and extending the basic skills, you'll complete several **Challenge Problems** during the course. These are hard problems based on the basic skills learned in class. They may involve tricky computation, explaining complex processes to another person, explaining why code works, proving a mathematical proposition, or something similar, or a combination of these. **Challenge Problems will not be basic homework-style problems but something complex that requires multiple Mega-Skills, and probably multiple submissions done over an extended period of time.** 
 
 Challenge Problems are all located in the Challenge Problem document (click the link to access). That document will have new problems added throughout the semester. 
 
 
 ### Engagement with the course
 
-To really learn and succeed in MTH 225, you will need to become involved in the course through preparing for class, attending class, being actively involved in class activities, engaging in deliberate practice outside of class, and more. **Disengagement with the class is by far the main reason students fail.** "Smart" students who are disengaged usually end up repeating the course; conversely students who might still be working on their math skills but who stay engaged with the class usually do quite well. 
+To really learn and succeed in MTH 225, you will need to prepare for class, attend class, be actively involved in class activities, enengage in deliberate practice outside of class, and more. Students who commit to engaging with the class and its processes typically do quite well; on the other hand, students who are disengaged do not, even if they themselves are "smart" or "A" students. 
 
 Activities that require mindful engagement with the course are given **engagement credits**. Satisfactory completion of an activity that has engagement credit value will add those credits to a running total. Recurring activities that earn engagement credits include: 
 
@@ -142,7 +142,7 @@ Additionally, you'll be given a **Startup Assignment** during the first week of 
 
 ## How you will be evaluated and graded
 
-### Overview of how grading works in MTH 225 
+### How grading works in MTH 225 
 
 Grading in MTH 225 is different from what you might have experienced, because it's based on **feedback loops** as described earlier. In MTH 225: 
 
@@ -173,7 +173,7 @@ Your common, recurring assignments are graded and then recorded on Blackboard as
 
 **Engagement Credit total:** Individual items that receive engagement credits will be visible in the Blackboard gradebook along with the number of credits you received on it. Additionally, there is an entry for the running total of Engagement Credits you've earned so far in the course, so you can track your progress. 
 
-**Final exam:** In addition to the regular assignments, we will have a final exam consisting of two main parts: A comprehensive exam focusing on main concepts and big ideas; and a final Checkpoint for anyone who needs one more attempt on a Skill. 
+**Final exam:** In addition to the regular assignments, we will have a final exam consisting of two main parts: A comprehensive exam focusing on main concepts and big ideas; and a final Checkpoint for anyone who needs one more attempt on a Skill. You'll get detailed information on the final exam around the middle of the semester. 
 
 ### How your course grade is determined 
 
@@ -188,12 +188,13 @@ Your course grade is assigned using the table below. It shows the *minimum* requ
 
 A grade of "F" is given if not all of the requirements for a "D" are met. 
 
-There should be at least 100 engagement credits possible in the course, possibly significantly more. If it appears by the middle of the term that we will fall short of that 100 minimum, the numbers in the last column above may be updated. 
+There should be at least 100 engagement credits possible in the course, possibly significantly more. If it appears by the middle of the term that we will fall short of that 100 minimum, the numbers in the last column above will be updated. 
 
 **Plus/minus grades:** A "plus" is added to a base grade if you meet all the requirements for the base grade, and then earn an 85% or higher on the final exam. A "minus" is added to a base grade if either (1) you meet all the requirements for the base grade *except* for engagement credits, or (2) you meet all the requirements for the base grade but then earn a 50% or lower on the final exam. (Therefore the only effect the final exam has on your grade is modification up or down by a "half letter".) If the criteria for both plus *and* minus grades are met, then the modifiers cancel out, and you retain just the base grade without modification. Please note, GVSU does not offer grades of A+ or D-. 
 
 **Grade assignments in borderline cases:** Please note that *all* requirements for a base grade must be met, and exceeding the requirements in one column will not offset failing to meet the requirements in another. However, if you end the semester having come close to completing all the requirements for a base grade, I will look at your case individually and take the full scope of your work in the class into account, and assign a grade based on my professional judgment and in consultation with you. You may be assigned a course grade higher than what the syllabus indicates if I believe it's warranted; you will never be assigned a course grade lower than what the syllabus indicates. 
 
+**Finding out where you stand with your grade:** A **Grade tracking checklist** is provided for you on Blackboard (also linked on the Class Page). This is a simple PDF checklist that lets you track your progress through the accomplishments needed for different grades in the class. Make sure to keep that checklist up to date each week or more often. You will be asked to show me your updated checklist a few times through the semester for engagement credit, to make sure we are both clear on your progress. 
 
 
 ## How to revise and retry your assignments 
