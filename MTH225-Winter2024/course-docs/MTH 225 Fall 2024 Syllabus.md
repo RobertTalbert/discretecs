@@ -196,20 +196,76 @@ There should be at least 100 engagement credits possible in the course, possibly
 
 
 
-
-
 ## How to revise and retry your assignments 
+
+**All Checkpoint exercises and Challenge Problems come with the ability to retry and/or resubmit any submission that doesn't meet the standard for "Success".** If you are unhappy with the result of a submission of one of these, you can simply try again, using the feedback you'll receive to make another attempt. 
+
+**Retrying Checkpoint exercises:** Checkpoints always contain new versions of the six Core Skills, and any Supplemental Skill that had been previously included. A complete list of the Skills included on each Checkpoint is given in Appendix B of the syllabus. If you attempt a Skill on a Checkpoint and it is not successful, simply study the feedback and engage in practice on that Skill, then try again at the next Checkpoint.
+
+**Revising and resubmitting Challenge Problems:** You will submit Challenge Problems on Blackboard. Once submitted, they will receive feedback and a mark of "Success" or "Retry". If you receive a "Retry", use the feedback to write a revision of the solution, then resubmit it in the same place on Blackboard. Then the feedback loop repeats, with revisions submitted until the work is a "Success".
+
+**Items that earn engagement credits may not be revised or resubmitted** since many of them are time-sensitive and there will be many chances to earn more engagement credits. There are some exceptions to this rule, for example online practice problems can be reattempted as often as needed until the problem set closes. Those exceptions will be made clear if they apply. 
+
+To keep the logistics of evaluating your work speedy and beneficial, there are two important limitations on revisions of Challenge Problems: 
+
+- **You may submit no more than three Challenge Problem items per week**. This can be any combination of new solutions and revisions. For example you can submit three new solutions, or three revisions of solutions you'd previously submitted, or one new solution and two revisions, and so on. But you may not submit four items in any week. **Please keep this rule in mind when planning your work** --- for example you cannot wait until the last week of the semester to submit six different Challenge Problems if you are aiming for a "B" in the class.
+- **No more submissions of Challenge Problems are allowed after 11:59pm ET, Sunday April 14.** This is the Sunday prior to the last week of classes. No more Challenge Problem submissions, either new or revisions, are accepted after this date to allow me (Talbert) time to grade them before the Final Exam.  
+
 
 ## Using technology 
 
-- How we use tech
-- Tech skill expectations
-- Tech support 
+We will use digital tools, including computer software and artificial intelligence tools, regularly in MTH 225 as **tools for learning**. MTH 225 students are not only encouraged to use technology in this way, but are expected to do so. 
 
-## Academic integrity
+You should be proficient in the basic technology skills listed at [this GVSU policy page](https://www.gvsu.edu/online/technology-requirements-for-onlinehybrid-courses-8.htm). This list is specifically for online and hybrid courses, but the skill set applies to our class as well. If you need help at any time with those skills, please ask me or a classmate. You will also need basic proficiency in the Python programming language; completion of CIS 162 in the last year is sufficient. (The language in that class was changed from Java to Python recently.) If you need tutorials on Python, please let me know. 
 
-- General academic integrity policy 
-- AI policy 
+Please bring a laptop to each class session so that you can participate fully in class activities that involve digital tools. It is OK to have your laptops open and ready to use during class, *as long as you are using them as tools for learning*: Taking notes, writing code to help you understand a concept being discussed in class, completing group coding activities, and so on. 
+
+However **the use of a laptop for tasks not related to learning in MTH 225 is not allowed.** These include gaming, shopping, web browsing unrelated to the class, and similar activities. Non-learning related use of a computer will result in a warning, then the loss of the engagement credit for attending the class, and further penalties if the behavior persists.
+
+**Tech support:** **I (Talbert) am not able to provide tech support** since I lack the skill and permissions to fix all possible problems. **Do not contact me when tech problems arise.** Instead, contact the appropriate person or office listed below: 
+
+* For help with **Blackboard:** Email the Blackboard Help Desk at bbadmin@gvsu.edu or call (616)331-8526. For hours of operation and more information see http://www.gvsu.edu/elearn/help. 
+* For help with **the GVSU network, email, or printing**: Email the GVSU IT Help Desk at helpdesk@gvsu.edu; or call (616)331-2101 or toll free (855)435-7488. For hours of operation and more information see https://www.gvsu.edu/it. 
+* For help with **your computer:** Try the GVSU IT Help Desk (above) or contact your device's manufacturer or a computer store. 
+* For help with **any other technology:** Seek out the help documentation in the tool you are using, or do a targeted Google search. Ask a classmate or me if you are unable to resolve the issue.
+
+**If technology issues prevent submitting work:** If you have contacted an appropriate source of help and an issue still persists that prevents you from turning in work in the usual way (for example on Blackboard), **you are expected to take alternative measures to get your work turned in on time.** For example, if Blackboard is offline and a deadline is near, send an email with an attachment. Then, submit the work using the normal means later. 
+
+
+## Academic misconduct 
+
+**This course is subject to [GVSU course policies](http://www.gvsu.edu/coursepolicies/) and the [GVSU student code](https://www.gvsu.edu/cms4/asset/7B58A5E7-F4C2-114C-CCDA36F96BD2AF73/the_statement_final_fa2020(2).pdf). This document establishes guidelines and expands and clarifies these policies with respect to all work done in MTH 225 this semester. Every student is required to be familiar with these policies and the consequences of violating them.** 
+
+The student code defines **academic misconduct** as *any action or behavior that misrepresents one’s contributions to or the results of any scholarly product submitted for credit, evaluation, or dissemination*. 
+
+The official student academic misconduct policy, [found at this link](https://www.gvsu.edu/osccr/academic-misconduct-policies-and-procedures-14.htm), highlights these specific forms of academic misconduct:
+
+- *Cheating*: Attempting to use materials, information, or aids that have not been authorized by the instructor for academic work.
+- *Collusion*: Unauthorized collaboration with another person in preparing academic assignments offered for credit, and collaboration with another person to commit a violation of any section of the rules on academic misconduct.
+- *Dual submission*: Submitting work that has been previously graded, or is being submitted concurrently to more than one course, without authorization from the instructor of the class to which the student wishes to submit. (This especially applies to those who are repeating MTH 225.)
+- *Plagiarism*: Appropriation of, buying, receiving as a gift, or obtaining by any means material that is attributable in whole or in part to another source without any indication or citation of the original source, including words, sentences, ideas, illustrations, structure, computer code, and other expression or media, and presenting that material as one’s own academic work being offered for credit or in conjunction with a program, course, or degree requirements.
+
+Please note that this is not an exhaustive list; refer to the Student Code for other potential forms of academic misconduct. Also please note that the Student Code considers **enabling others to engage in academic misconduct to be another form of academic misconduct**.
+
+The general rule for your work in MTH 225 is:
+
+>Any item you submit for grading must represent your ideas, that you yourself generated, and must be given in your own voice. They cannot significantly consist of ideas from another person or from an artificial intelligence tool, and they must be given in your own words. 
+
+Specific rules for academic misconduct are: 
+
+- *Checkpoint exercises*: Checkpoint exercises on Core skills are completed on paper in class, and no collaboration with any other person or AI tool is allowed. Checkpoint exercises on Supplemental skills can be started in class and completed outside of class; you are still not allowed to collaborate with any other person or AI tool, but you are allowed to use basic computing technology like a calculator or [Wolfram|Alpha](http://wolframlpha.com) to check your work once you've completed it. 
+- *Challenge problems*: You are allowed to engage in high-level discussion with another person or an AI tool, if the issue pertains to terminology used in the problem, or very high-level discussions about what the problem is asking for. But no collaboration with people or AI is allowed on any question or strategy that involves actually solving the problem. A rule of thumb is: **Collaboration or AI use intended aimed at "How do you solve the problem" questions, is off limits**. 
+- **Engagement credit items** such as Class Prep are generally *exempt* from collaboration and the use of AI as long as you are obeying the general rule above (use your own ideas and phrase them in your own voice). If there is an exception, it will be clearly indicated on the assignment. 
+
+Additionally, some assignments may have rules for academic misconduct that are more relaxed or more stringent than the above. Those exceptions will be clearly indicated.
+
+
+Academic misconduct is a serious matter and carries significant consequences, up to and including failure of the course and possible suspension from the university. In all cases, the guidelines established in the GVSU catalog and GVSU student code will be followed. I reserve the right to discuss the nature and origins of any assignment with any student before assessing it.
+
+**There is no reason to consider engaging in academic misconduct, given the liberal revise-resubmit policy on most work.** Rather than engage in academic misconduct and putting your entire career at risk, simply turn in your best complete good-faith effort on assignments. And then, if revisions are needed, you'll typically get the chance. The important thing in MTH 225 is not the grade, it's the understanding and growth you get from engaging in a feedback loop on your work. 
+
+If you are in a life situation where you are considering thowing away your future in order to engage in academic misconduct, **don't do it**. Talk to me ASAP about what you're struggling with, and then let's see if there are legitimate options for help. 
+
 
 ## How to get help
 
@@ -221,7 +277,17 @@ When you get confused or stuck, try to get yourself unstuck first by thinking th
 * **Attend drop-in hours and ask questions there.** You can use the in-person drop-in hours (no appointment needed) or [schedule](https://calendly.com/robert-talbert/) an online meeting or an in-person meeting at other times if drop-in hours don't work for you. 
 * **Work with a classmate** as long as you're staying within bounds on academic integrity above. 
 
-**Math Tutoring Center:** GVSU’s Math Tutoring Center offers both in-person and online drop-in tutoring this semester.  You can access the most up-to-date information at http://gvsu.edu/tutoring/math/.  There you will find our current hours, information on how to access online tutoring with Discord Voice and a schedule of when you can find tutors to help with your specific course.  Bring questions to any center about using technology (calculator or Desmos), on methods and concepts, or on specific problems.  All Math Center tutoring is FREE, so stop by early and often.  
+**Math Tutoring Center:** GVSU’s Math Tutoring Center offers both in-person and online drop-in tutoring this semester, starting Wednesday, January 10.  You can access the most up-to-date information on our website at http://gvsu.edu/tutoring/math/.  There you will find current hours, information on how to access online tutoring with Discord Voice and a schedule of when you can find tutors to help with your specific course.  Bring questions to any center about using technology (calculator or Desmos), on methods and concepts, or on specific problems.  All Math Center tutoring is FREE, so stop by early and often.  
+
+The Math Tutoring Center offers:
+- In-person tutoring on the Allendale campus (MAK A-2-601): Monday – Thursday 10am – 5pm and Friday 10am – 2pm  
+- In-person tutoring on the Pew campus (EC 608): Monday – Thursday 1pm – 5pm (check website, hours may change)
+- Online tutoring via Discord Voice: Sunday – Thursday 5pm – 9pm
+
+To access virtual drop-in tutoring, you can use the link in your Blackboard course called Math Tutoring Center or visit our website.  Then you will need to click on the “Online Math Tutoring Center” button, which will require a GVSU login.  We ask that when you enter our Discord server, please change your username to your first and last name so you can get signed in and connected with a tutor.  
+
+**Tutoring and Reading Center Appointments**:  GVSU’s Tutoring and Reading Center offers appointment tutoring both in-person and virtually.  You can sign up for 50-minute tutoring appointments for many Math courses.  Request a tutor at https://www.gvsu.edu/trc/ or schedule directly on Navigate.
+
 
 ## Other Course Policies 
 
@@ -231,9 +297,14 @@ When you get confused or stuck, try to get yourself unstuck first by thinking th
 
 **Announcements:** Announcements will be posted every Sunday morning on Blackboard in a single "announcement drop". Supplemental announcements may be sent in the case of time-sensitive items that can't wait until Sunday. Each student is responsible for reading announcements carefully and maintaining awareness of their contents. 
 
-**Late work and makeups:**
+**Late work and makeups:** The policies for late work and makeup work are indicated below. **I (Talbert) am open to discussing these with you** if you have a particular life situation that makes it difficult to meet deadlines consistently. 
 
-**Remote instruction:** https://www.gvsu.edu/provost/guidelines-for-course-delivery-in-the-event-of-253.htm
+- *Checkpoints -- Core sklls*: Work on Core skills is done on paper in class and collected before you leave, so no late work is possible. If you miss a class meeting where a Checkpoint is given, you are expected to try again at the next Checkpoint since all previous skills will be included. 
+- *Checkpoints -- Supplemental skills*: Work on Supplemental skills is given in class but you are allowed to complete it outside of class, uploading your work to Blackboard. The deadline for uploading Supplemental skill work is always **noon (12:00pm) of the day following the Checkpoint**. No late work is accepted; if you are unable to complete a Supplemental skill, just try it at the next Checkpoint. 
+- *Challenge Problems*: These have suggested deadlines, to facilitate your personal planning and help you maintain good progress in the course. But those deadlines are not enforced except for the ending deadline of 11:59pm ET Sunday April 14 (after which no Challenge Problem work is accepted). 
+- *Engagement credit items*: These have different deadlines for each assignment, which will be clearly indicated on the assignment and on the class Google Calendar. Typically, late work is not accepted nor are makeups available. Exceptions to this will be clearly indicated. 
+
+**Remote instruction:** Remote options and classroom recordings are not typically offered. However, if GVSU closes, cancels classes, or announces that classes will be shifted to remote instruction, class meetings will continue to take place synchronously on Zoom. In this case, a course announcement will be posted on Blackboard with links. [Click here for the official university policy](https://www.gvsu.edu/provost/guidelines-for-course-delivery-in-the-event-of-253.htm).  
 
 **Disability Support Resources:** If you have special needs because of learning, physical or other disabilities, it is your responsibility to contact Disability Support Resources (DSR) at (616)331-2490 or http://www.gvsu.edu/dsr/. DSR will help you arrange accommodations. Then, speak with me in person about making those accommodations and ensure that they are consistent with your arrangements with DSR.
 
@@ -241,11 +312,10 @@ When you get confused or stuck, try to get yourself unstuck first by thinking th
 
 **Gender identity and expression:** If, for purposes of gender identity and expression, your official name (in Banner) does not match your preferred name, your name can be updated in Blackboard. Please contact the registrar's office to submit this request. The registrar's office will contact the Blackboard administrator to make the change and will also contact your professors to inform them that your name in Banner will not match the name in Blackboard.
 
-**Classroom and campus safety**: 
+**Classroom and campus safety**: I consider classroom and campus safety our shared responsibility. Please familiarize yourself with the classroom emergency placard, which contains important information that could prove useful should an emergency arise. Emergency situations could include a fire alarm, tornado warning, medical emergency, or hostile intruder, and our response might consist of evacuating MAK Hall in an orderly manner, moving as a group to a different location in the building, rendering assistance to a class member, or staying put and locking the classroom door. In all cases, I will provide clear instructions as to what you should do. Please make sure to have your primary mobile number listed in Banner so that you will automatically receive any campus alerts. Should you receive an emergency notification in class, notify me immediately.
 
 
-
-The professor reserves the right to adjust this syllabus as needed and will notify you of any changes through Blackboard announcements. 
+>The professor reserves the right to adjust this syllabus as needed and will notify you of any changes through Blackboard announcements. 
 
 
 ## About the instructor 
@@ -264,7 +334,7 @@ I live in Allendale with my family. I'm an avid bass guitar player, currently pl
 
 ### Appendix A: MTH 225 Skills 
 
-Each Skill requires **two (2) successful demonstrations of competency in order to "master" the skill, typically through Checkpoint problems. 
+Each Skill requires **two (2) successful demonstrations of competency** in order to "master" the skill, typically through Checkpoint problems. 
 
 **CORE** Skills: 
 
