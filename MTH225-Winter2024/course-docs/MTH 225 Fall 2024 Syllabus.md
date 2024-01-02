@@ -14,7 +14,7 @@ In this course, you will learn **the math that all of computer science is based 
 
 **This syllabus contains all the information you need to navigate the course.** The main document will be kept continuously up to date at this link. When you see blue- or purple-underlined text in the syllabus or any other document, it's a clickable link. For example, [click here for a cat video](https://www.youtube.com/watch?v=aFuUidBR1aQ). A PDF version of the syllabus will also be available on Blackboard, but it will not be updated unless there is a major change. 
 
-**This document is meant to be read once, then searched as needed.** If you need to find something, the easiest way is to pull up this  document, hit `Control-F` or `Command-F`, and then do a search for the text you're looking for. 
+**This document is meant to be read once, then searched as needed.** If you need to find something, the easiest way is to pull up this  document, hit `Control-F` (Windows) or `Command-F` (Mac), and then do a search for the text you're looking for. 
 
 All course materials for MTH 225 are available on GitHub at https://github.com/RobertTalbert/discretecs. The current version is in the folder `MTH225-Winter2024`. Critically important documents (syllabus, etc.) will also be on Blackboard. 
 
@@ -26,7 +26,7 @@ This course is subject to the GVSU policies listed at http://www.gvsu.edu/course
 
 **Student drop-in hours:** Open drop-in times in MAK C-2-513 are **4:00-5:00pm Monday and Wednesday**. Additional hours are available by appointment by going to http://calendly.com/robert-talbert and selecting a 20-minute time slot from *MTH 225 student appointment*. Appointments are in-person; if you need an online meeting or phone call, please select *20 minute online meeting* or *20 minute phone call* from the Calendly page.
 
-**Meetings:** Section 03 and Section 04 meet Monday/Wednesday/Friday in Mackinac Hall A-2-155. Section 03 meets 11:00-11:50am and Section 04 meets 12:00-12:50pm. 
+**Meetings:** Monday/Wednesday/Friday in Mackinac Hall A-2-155. Section 03 meets 11:00-11:50am and Section 04 meets 12:00-12:50pm. 
 
 **Textbook:** There is no requuired textbook for the course. An optional textbook is *Discrete Mathematics: An Open Introduction* (third edition) by Oscar Levin, available for free online at https://discrete.openmathbooks.org/dmoi3/dmoi.html. 
 
@@ -58,7 +58,7 @@ A common thread through all of these is **recursion**, which is the concept of c
 
 ### Skills and Mega-Skills 
 
-There are 16 **Skills** in the course that are highlighted for you to learn. These are specific, concrete actions that you should be able to perform with skill and fluency by the end of the course. Six of these are designated as **Core Skills** which means that **every student must master these to pass the course**. The remaining 10 skills are **Supplemental Skills**, and while mastering these is not required to pass the course, the more you master, the higher your grade is. More on that in the *"How you will be evaluated and graded"* section. All 16 Skills are listed in Appendix A. 
+There are 16 **Skills** in the course that are highlighted for you to learn. These are specific, concrete actions that you should be able to perform with skill and fluency by the end of the course. Six of these are designated as **Core Skills** which means that **every student must master these to pass the course**. The remaining 10 skills are **Supplemental Skills**, and while mastery of no single one is required to pass, you will need to master a few of them, the more you master, the higher your grade will be. More on that in the *"How you will be evaluated and graded"* section. All 16 Skills are listed in Appendix A. 
 
 We will also focus daily on four **Mega-Skills** that go beyond the content, and which you'll be using for the remainder of your careers regardless of the direction it takes: 
 
@@ -91,7 +91,7 @@ All important learning experiences you've ever had, or will have, are the result
 
 (Image) 
 
-Being successful in MTH 225 means two things: **Mastering the basic skills of discrete mathematics** and **successfully applying those basic skills to hard problems**. The way to become good at these two things, is by **engaging with the activities and the feedback loops in the course** that are set up for you. And this engagement involves a number of simple actions and behaviors that you will need to show consistently: 
+Success in MTH 225 requires two things: **Mastering the basic skills** and **applying those basic skills to hard problems**. Accomplishing both of these requires **engaging with the activities and the feedback loops in the course** that are set up for you. And this engagement involves a number of simple actions and behaviors that you will need to show consistently: 
 
 - **Attending class**, and not only being physically present but **mentally engaged and participatory** in class activities.
 - **Blocking off daily times** for working on the class outside of class meetings.
@@ -112,13 +112,13 @@ In MTH 225 the activities and assignments are all designed intentionally to give
 
 ### Skills and Checkpoints
 
-Sixteen (16) **Skills** are highlighted from among the topics you will learn in the course. Six (6) of these are designated as **Core Skills**, and mastery of these six is required for passing the course. The remaining ten (10) are **Supplemental Skills** and while mastery of any particular one is not required to pass the course, your course grade will go up the more of the Supplemental skills you master. All 16 Skills are found in Appendix A. 
+Sixteen (16) **Skills** are highlighted from among the topics you will learn in the course. Six (6) of these are designated as **Core Skills**, and mastery of these six is required for passing the course. The remaining ten (10) are called  **Supplemental Skills**. All 16 Skills are found in Appendix A. 
 
-To master a Skill, you will need to provide a **successful demonstration** of your competence on that Skill. The primary way to do this is through **Checkpoints**: timed quizzes given regularly in the class. Typically, Checkpoints are given every other week, although they will become more frequent near the end of the course. Checkpoints will contain short exercises for you to complete, with each exercise focusing on a single Skill. **Checkpoints always contain new versions of all six Core Skills** as well as **new versions of any Supplemental Skill that had previously appeared**, so they are "cumulative" and if you don't have a successful attempt on an exercise on a Checkpoint, you can try again multiple times later. 
+To master a Skill, you will need to provide a **successful demonstration** of your competence on that Skill -- in other words, show me (Talbert) that you have learned the skill through a concrete action. The primary way to do this is through **Checkpoints**: timed quizzes given regularly in the class. Checkpoints will contain short exercises for you to complete, with each exercise focusing on a single Skill. **Checkpoints always contain new versions of all six Core Skills** as well as **new versions of any Supplemental Skill that had previously appeared**, so they are "cumulative" and if you don't have a successful attempt on an exercise on a Checkpoint, you can try again multiple times later. 
 
 Completing an exercise for a Skill is considered a "successful demonstration" if your work meets the standards that are explained in the **success criteria** for that exercise. The success criteria will always be listed on the Checkpoint following the exercise so you'll always know what you need to do to have a successful attempt. The Standards for Student Work document also contains a listing of the success criteria for each exercises for all 16 Skills. 
 
-**Mastering a Skill requires two (2) separate successful demonstrations**. The way mastering a Skill will work for most students is that you will do successful work on an exercise one week; then do it again in a later week. This way, you will space out your attempts on a skill and retain the information better than if it were just "one and done". 
+**Mastering a Skill requires two (2) separate successful demonstrations**. The way mastering a Skill will work for most students is that you will do successful work on an exercise one week; then do it again on a new version of the exercise for that Skill in a later week. This way, you will space out your attempts on a skill and retain the information better than if it were just "one and done". 
 
 Alterative methods for demonstrating skill, for example oral exams in drop-in hours, may be added later in the course if it appears you'd benefit from it. 
 
@@ -146,7 +146,7 @@ Additionally, you'll be given a **Startup Assignment** during the first week of 
 
 Grading in MTH 225 is different from what you might have experienced, because it's based on **feedback loops** as described earlier. In MTH 225: 
 
-- **Almost none of your assignments have point values**. Only the final exam and engagement-credit items have point values. Therefore there is **no partial credit and no averaging**. 
+- **Almost none of your assignments have point values**. Therefore there is **no partial credit and no averaging**. 
 - Instead, assignments have **standards** which are descriptions of what constitutes "acceptable" work. These are given in detail in the document [Standards for Student Work] which you can find at the link and on Blackboard. When you submit an assignment, I will read it carefully and compare it with the standards, and simply determine whether it meets the standards or not. Typically your work is marked either **Success** or **Retry** depending on whether it meets the standards or not. 
 - After I evaluate your work, in most cases you will receive **detailed feedback** that will tell you whether your work meets the standards, and if not, the feedback will tell you what was missing and how you might go about fixing it. 
 - Then, on most items, you will have the chance to **retry** the assignment if needed, get more feedback, and repeat this **feedback loop** until the work meets our standards. 
@@ -164,12 +164,14 @@ Your common, recurring assignments are graded and then recorded on Blackboard as
 
 | Assignment | How it's graded | What's recorded in the gradebook | 
 | ---- | ---- | --- | 
-| Skill exercises on Checkpoints | Overall correctness | Nothing, see below |
+| Skill exercises on Checkpoints | Overall correctness | Exercises are marked *Success* or *Retry* but not recorded in Blackboard (see below) |
 | Skills | n/a, see below | 0, 1, or 2 |  
 | Challenge Problems | Completeness, overall correctness, writing, and presentation | *Success* or *Retry* | 
 | Engagement credit items | Completeness and effort | Engagement credit value | 
 
-**How Checkpoints and Skills work:** You will work out individual Skill exercises separately, and each attempt on a Skill is graded *Success* or *Retry*, depending on whether or not the work meets the success criteria. You'll get each attempt back, with feedback to prepare for your next attempt if needed. **The individual attempts are not recorded on Blackboard**. Instead, **each Skill has its own gradebook entry that reads 0, 1, or 2 indicating the number of successful attempts that have been made so far.** Once a skill reaches "2", you have mastered that skill and no further demonstrations are necessary. 
+**How Checkpoints and Skills work:** Each Checkpoint contains several exercises, one exercise per skill. Core Skills always appear on every Checkpoint; Supplemental Skills that had appeared on earlier Checkpoints will also appear, along with any new Supplemental Skills we've covered. So each Checkpoint will contain new Skills or new versions of previously-tested Skills (or both). 
+
+You will work out individual Skill exercises separately, and each attempt on a Skill is graded *Success* or *Retry*, depending on whether or not the work meets the success criteria. You'll get each attempt back, with feedback to prepare for your next attempt if needed. **The individual attempts are marked and given feedback, but they are not recorded on Blackboard**. Instead, **each Skill has its own gradebook entry that reads 0, 1, or 2 indicating the number of successful attempts that have been made so far.** Once a skill reaches "2", you have mastered that skill and no further demonstrations are necessary. 
 
 **Engagement Credit total:** Individual items that receive engagement credits will be visible in the Blackboard gradebook along with the number of credits you received on it. Additionally, there is an entry for the running total of Engagement Credits you've earned so far in the course, so you can track your progress. 
 
@@ -182,26 +184,28 @@ Your course grade is assigned using the table below. It shows the *minimum* requ
 | Grade | CORE skills mastered | SUPPLEMENTAL skills mastered | Challenge Problems | Engagement Credits |
 | :-----: | :--------------------: | :----------------------------: | :------------------: | :------------------: |
 | A     |  6                    |                 8             |      10              |       90             |
-| B     |  6                   |                   4           |        6            |         80           |
-| C     |  6                    |               2               |       2             |        70            |
-| D      | 3                    |                0              |        0            |        50            |
+| B     |  6                   |                   6           |        6            |         80           |
+| C     |  6                    |               4               |       2             |        70            |
+| D      | 3                    |                2              |        0            |        50            |
+
+Reminder: "Mastering" a Skill requires **two successful demonstrations** of competence, typically through getting *Success* marks on two separate Checkpoint exercises. 
 
 A grade of "F" is given if not all of the requirements for a "D" are met. 
 
-There should be at least 100 engagement credits possible in the course, possibly significantly more. If it appears by the middle of the term that we will fall short of that 100 minimum, the numbers in the last column above will be updated. 
+We will initially plan on having at least 100 engagement credits possible in the course. There could possibly be significantly more by the end of the semester. If it appears by the middle of the term that we will fall short of that 100 minimum, the numbers in the last column above will be updated. 
 
 **Plus/minus grades:** A "plus" is added to a base grade if you meet all the requirements for the base grade, and then earn an 85% or higher on the final exam. A "minus" is added to a base grade if either (1) you meet all the requirements for the base grade *except* for engagement credits, or (2) you meet all the requirements for the base grade but then earn a 50% or lower on the final exam. (Therefore the only effect the final exam has on your grade is modification up or down by a "half letter".) If the criteria for both plus *and* minus grades are met, then the modifiers cancel out, and you retain just the base grade without modification. Please note, GVSU does not offer grades of A+ or D-. 
 
 **Grade assignments in borderline cases:** Please note that *all* requirements for a base grade must be met, and exceeding the requirements in one column will not offset failing to meet the requirements in another. However, if you end the semester having come close to completing all the requirements for a base grade, I will look at your case individually and take the full scope of your work in the class into account, and assign a grade based on my professional judgment and in consultation with you. You may be assigned a course grade higher than what the syllabus indicates if I believe it's warranted; you will never be assigned a course grade lower than what the syllabus indicates. 
 
-**Finding out where you stand with your grade:** A **Grade tracking checklist** is provided for you on Blackboard (also linked on the Class Page). This is a simple PDF checklist that lets you track your progress through the accomplishments needed for different grades in the class. Make sure to keep that checklist up to date each week or more often. You will be asked to show me your updated checklist a few times through the semester for engagement credit, to make sure we are both clear on your progress. 
+**Finding where you stand with your grade:** A **Grade tracking checklist** is provided for you on Blackboard (also linked on the Class Page). This is a simple PDF checklist that lets you track your progress through the accomplishments needed for different grades in the class. Make sure to keep that checklist up to date each week or more often. You will be asked to show me your updated checklist a few times through the semester for engagement credit, to make sure we are both clear on your progress. 
 
 
 ## How to revise and retry your assignments 
 
 **All Checkpoint exercises and Challenge Problems come with the ability to retry and/or resubmit any submission that doesn't meet the standard for "Success".** If you are unhappy with the result of a submission of one of these, you can simply try again, using the feedback you'll receive to make another attempt. 
 
-**Retrying Checkpoint exercises:** Checkpoints always contain new versions of the six Core Skills, and any Supplemental Skill that had been previously included. A complete list of the Skills included on each Checkpoint is given in Appendix B of the syllabus. If you attempt a Skill on a Checkpoint and it is not successful, simply study the feedback and engage in practice on that Skill, then try again at the next Checkpoint.
+**Retrying Checkpoint exercises:** Checkpoints always contain new versions of the six Core Skills, and any Supplemental Skill that had been previously included along with any new Skills picked up in the class. A complete list of the Skills included on each Checkpoint is given in Appendix B of this syllabus. If you attempt a Skill on a Checkpoint and are not successful, simply study the feedback and practice that Skill, then try again at the next Checkpoint.
 
 **Revising and resubmitting Challenge Problems:** You will submit Challenge Problems on Blackboard. Once submitted, they will receive feedback and a mark of "Success" or "Retry". If you receive a "Retry", use the feedback to write a revision of the solution, then resubmit it in the same place on Blackboard. Then the feedback loop repeats, with revisions submitted until the work is a "Success".
 
@@ -221,16 +225,16 @@ You should be proficient in the basic technology skills listed at [this GVSU pol
 
 Please bring a laptop to each class session so that you can participate fully in class activities that involve digital tools. It is OK to have your laptops open and ready to use during class, *as long as you are using them as tools for learning*: Taking notes, writing code to help you understand a concept being discussed in class, completing group coding activities, and so on. 
 
-However **the use of a laptop for tasks not related to learning in MTH 225 is not allowed.** These include working on assignments for other classes, gaming, shopping, web browsing unrelated to the class, and similar activities. Non-learning related use of a computer will result in a warning, then the loss of the engagement credit for attending the class, and further penalties if the behavior persists.
+However please note: **The use of technology for tasks *not* related to learning in MTH 225 is not allowed.** This includes working on assignments for other classes, gaming, shopping, web browsing unrelated to the class, and similar activities. These will result in a warning first, then the loss of the engagement credit for attending the class, and further penalties if the behavior persists.
 
-**Tech support:** **I (Talbert) am not able to provide tech support** since I lack the skill and permissions to fix all possible problems. **Do not contact me when tech problems arise.** Instead, contact the appropriate person or office listed below: 
+**Tech support:** **I (Talbert) am not able to provide tech support** since I lack the skill and permissions to fix all possible problems. **Do not contact me first when tech problems arise.** Instead, contact the appropriate person or office listed below, *then* let me know the situation: 
 
 * For help with **Blackboard:** Email the Blackboard Help Desk at bbadmin@gvsu.edu or call (616)331-8526. For hours of operation and more information see http://www.gvsu.edu/elearn/help. 
 * For help with **the GVSU network, email, or printing**: Email the GVSU IT Help Desk at helpdesk@gvsu.edu; or call (616)331-2101 or toll free (855)435-7488. For hours of operation and more information see https://www.gvsu.edu/it. 
 * For help with **your computer:** Try the GVSU IT Help Desk (above) or contact your device's manufacturer or a computer store. 
 * For help with **any other technology:** Seek out the help documentation in the tool you are using, or do a targeted Google search. Ask a classmate or me if you are unable to resolve the issue.
 
-**If technology issues prevent submitting work:** If you have contacted an appropriate source of help and an issue still persists that prevents you from turning in work in the usual way (for example on Blackboard), **you are expected to take alternative measures to get your work turned in on time.** For example, if Blackboard is offline and a deadline is near, send an email with an attachment. Then, submit the work using the normal means later. 
+**If technology issues prevent submitting work:** If you have contacted an appropriate source of help and an issue still persists that prevents you from turning in work in the usual way (for example on Blackboard), **you are expected to take alternative measures to get your work turned in on time.** For example, if Blackboard is offline, send an email with an attachment. Then, submit the work using the normal means later. 
 
 
 ## Academic misconduct 
@@ -263,7 +267,7 @@ Additionally, some assignments may have rules for academic misconduct that are m
 
 Academic misconduct is a serious matter and carries significant consequences, up to and including failure of the course and possible suspension from the university. In all cases, the guidelines established in the GVSU catalog and GVSU student code will be followed. I reserve the right to discuss the nature and origins of any assignment with any student before assessing it.
 
-**There is no reason to consider engaging in academic misconduct, given the liberal revise-resubmit policy on most work.** Rather than engage in academic misconduct and putting your entire career at risk, simply turn in your best complete good-faith effort on assignments. And then, if revisions are needed, you'll typically get the chance. The important thing in MTH 225 is not the grade, it's the understanding and growth you get from engaging in a feedback loop on your work. 
+**There is no reason to engage in academic misconduct, given our revise-resubmit policy.** Rather than engage in academic misconduct and putting your entire career at risk, simply turn in your best complete good-faith effort on assignments. And then, if revisions are needed, you'll get the chance, and you can learn a lot from the revision using feedback. The important thing in MTH 225 is not the grade, it's the understanding and growth you get from engaging in a feedback loop on your work. 
 
 If you are in a life situation where you are considering thowing away your future in order to engage in academic misconduct, **don't do it**. Talk to me ASAP about what you're struggling with, and then let's see if there are legitimate options for help. 
 
@@ -292,7 +296,7 @@ To access virtual drop-in tutoring, you can use the link in your Blackboard cour
 
 ## Other Course Policies 
 
-**Instructor availability and responses:** I strive to respond promptly to all student emails. However, please note that **I do not typically check email between 6:00pm and 6:00am on weekdays, and I do not check it at all on weekends** in order to prioritize time for family and rest. If you send a message on a weekday (Monday-Friday) before 3:00pm ET and you need a response, you will get a response *the same day*. Emails received after 3:00pm ET Monday-Thursday will get a response *the following day*. Emails received after 3:00pm ET on Fridays will get a response *the following Monday* at latest. Please plan ahead with this policy in mind! 
+**Instructor availability and responses:** I strive to respond promptly to all student emails. However, please note that **I do not typically check email between 6:00pm and 6:00am on weekdays, and I do not check it at all on weekends** in order to prioritize time for family and rest. If you send a message on a weekday (Monday-Friday) before 3:00pm ET and you need a response, you will get a response *the same day*. Emails received after 3:00pm ET Monday-Thursday will get a response *the following day*. Emails received after 3:00pm ET on Fridays will get a response *the following Monday* at latest. 
 
 **Attendance:** Consistent attendance is critical for success in MTH 225, and you are expected to attend each class meeting unless it is physically impossible or highly inadvisable. Attendance will be recorded and assigned engagement credits (1 credit per class meeting). Since you have many opportunities to earn engagement credits, there are no makeups or allowances for medical and other situations. Students who do not attend class consistently will be contacted to discuss their situations further. If you have a life situation that makes consistent attendance difficult, please bring it to my attention immediately so we can discuss your options. 
 
