@@ -73,7 +73,7 @@ Suppose we want to prove the following statement using mathematical induction:
 
       b) $\lbrace x \in \mathbb{N} \, : \, 2^n \rbrace$ 
 
-      c) $\lbrace x \, \text{is odd} \, : \, x\in \{1,2,3,\dots 10\}\rbrace$
+      c) $\lbrace x \, \text{is odd} : x\in \{1,2,3,\dots 10\}\rbrace$
 
 **Success criteria:** All items involving element, subset, and equality determinations are correct. All sets using incorrect set-builder syntax are correctly identified. Up to two simple mistakes are allowed in rewriting sets into roster notation.
 
@@ -83,7 +83,7 @@ Suppose we want to prove the following statement using mathematical induction:
 
 > I can find the intersection, union, difference, symmetric difference, power set, cardinality, cartesian product, and complement of sets.
 
-Let $A = \{1, 3,5\}$, $B = \{2,3\}$, $C = \{0, 5\}$, and $D = \{7\}$.  Find each of the following. You do not need to show intermediate steps, but this is often helpful for you (and for the person grading your work). 
+Let $A = \lbrace 1, 3,5\rbrace $, $B = \lbrace 2,3\rbrace$, $C = \lbrace 0, 5\rbrace $, and $D = \lbrace 7\rbrace$.  Find each of the following. You do not need to show intermediate steps, but this is often helpful for you (and for the person grading your work). 
 
 1. $A \cap B$ 
 2. $A \cup B$
