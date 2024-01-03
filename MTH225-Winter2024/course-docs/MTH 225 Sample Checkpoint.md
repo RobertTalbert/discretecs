@@ -57,9 +57,9 @@ Suppose we want to prove the following statement using mathematical induction:
 
 1. Below are several statements about sets and elements. Label each one as **TRUE** or **FALSE**. 
 
-   a) $\{1,2,3\} \subseteq \{0,1,2,3,4\}$ 
+   a) $\lbrace 1,2,3\rbrace \subseteq \lbrace 0,1,2,3,4\rbrace$ 
 
-   b) $25 \in \{1,2,4,8,16,\dots\}$ 
+   b) $25 \in \lbrace 1,2,4,8,16,\dots\rbrace$ 
 
    c) $3 \in \emptyset$ 
 
@@ -69,11 +69,11 @@ Suppose we want to prove the following statement using mathematical induction:
 
 2. Here are three sets written in set-builder notation. For each, if the set is written using correct set syntax, rewrite it using roster notation. If the set is written using incorrect syntax, write **INCORRECT SYNTAX**. 
 
-      a) $\{4n : n \in \mathbb{N} \}$
+      a) $\lbrace 4n : n \in \mathbb{N} \rbrace$
 
-      b) $\{x \in \mathbb{N} \, : \, 2^n \}$ 
+      b) $\lbrace x \in \mathbb{N} \, : \, 2^n \rbrace$ 
 
-      c) $\{x \, \text{is odd} \, : \, x\in \{1,2,3,\dots 10\}\}$
+      c) $\lbrace x \, \text{is odd} \, : \, x\in \{1,2,3,\dots 10\}\rbrace$
 
 **Success criteria:** All items involving element, subset, and equality determinations are correct. All sets using incorrect set-builder syntax are correctly identified. Up to two simple mistakes are allowed in rewriting sets into roster notation.
 
@@ -224,7 +224,7 @@ Consider the sequence of numbers $a_n$ given by the recursive formula $a_0 = 1$,
 
 Consider the following visual pattern. Let $s_n$ be the number of objects in stage $n$ of the pattern with $n = 0$ corresponding to the first stage.  
 
-![Visual pattern](/Users/talbertr/Documents/GitHub/discretecs/MTH225-Winter2024/course-docs/sample_cp_0.png)
+![Visual pattern](https://i.ibb.co/0M3jvqR/sample-cp-0.png)
 
 1. State the value of $s_0$. 
 2. Give a correct recurrence relation that defines $s_n$, the number of objects in stage $n$ of the pattern. Briefly explain your reasoning. 
