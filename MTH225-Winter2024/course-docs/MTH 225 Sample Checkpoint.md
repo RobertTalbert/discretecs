@@ -244,7 +244,7 @@ Below are six mappings. For each one:
 - State whether the mapping is a function or whether it is not a function. 
 - If the mapping is a function, state its domain, range, and codomain. Phrase each one as a set using correct notation and syntax and make sure to label which one is which. 
 
-<img src="/Users/talbertr/Library/CloudStorage/OneDrive-GrandValleyStateUniversity/1 Projects/MTH 225 F23/lt10-cp13.png" alt="Functions" style="zoom:50%;" />
+![](https://i.ibb.co/SVhfwxX/lt10-cp13.png)
 
 **Success criteria:** All mappings are correctly identified as functions or non-functions. For the ones that are functions, all (or all but one) have the domain, codomain, and range clearly and correctly stated.
 
