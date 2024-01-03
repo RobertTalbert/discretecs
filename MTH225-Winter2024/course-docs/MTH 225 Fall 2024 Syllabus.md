@@ -365,4 +365,21 @@ Each Skill requires **two (2) successful demonstrations of competency** in order
 
 ### Appendix B: Schedule of Skill coverage on Checkpoints
 
+This schedule is subject to change; all changes will be announced in class and in the weekly announcement drop. 
+
+| Checkpoint number | Date | Skills included | 
+| :---: | :---: | :-------------------: | 
+| 0 | 1/12 | Core | 
+| 1 | 1/19 | Core + S1, S2 | 
+| 2 | 1/26 | Core + S1-S3 | 
+| 3 | 2/2 | Core + S1-S4 | 
+| 4 | 2/9 | Core + S1-S5 | 
+| 5 | 2/23 | Core + S1-S6 | 
+| 6 | 3/15 | Core + S1-S8 | 
+| 7 | 3/29 | Core + S1-S8 | 
+| 8 | 4/5 | Core + S1-S10 | 
+| 9 | 4/12 | Core + S1-S10 | 
+| 10 | 4/19 | Core + S1-S10 | 
+| Final | 4/24 (Final exam)  | Core + S1-S10 | 
+
 ### Appendix C: Course Calendar 
