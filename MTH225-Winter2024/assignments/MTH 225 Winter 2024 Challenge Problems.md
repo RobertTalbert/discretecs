@@ -35,3 +35,14 @@ Likewise, the decimal number $2052$ is $52C$ in base 20 (which you can check usi
 
 
 ### Problem 2 
+
+AI critique problem
+
+### Problem 3
+
+Recursive visual pattern problem 
+
+
+### Problem 4
+
+Early counting problem 
