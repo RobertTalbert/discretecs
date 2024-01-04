@@ -89,7 +89,7 @@ Upon completion of MTH 225, you will be able to:
 
 All important learning experiences you've ever had, or will have, are the result of a **feedback loop**: You try something, then you get feedback on your attempt, then you think about and make sense of the feedback, then you use the feedback in another attempt. And this loop continues until the thing you are trying meets a standard of quality.
 
-(Image) 
+![Feedback loop](https://i.ibb.co/9V2qwtL/feedback-loop.png)
 
 Success in MTH 225 requires two things: **Mastering the basic skills** and **applying those basic skills to hard problems**. Accomplishing both of these requires **engaging with the activities and the feedback loops in the course** that are set up for you. And this engagement involves a number of simple actions and behaviors that you will need to show consistently: 
 
