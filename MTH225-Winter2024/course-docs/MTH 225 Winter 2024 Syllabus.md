@@ -1,6 +1,6 @@
 # MTH 225: Discrete Structures for Computer Science 1
 
-![](mth225-logo.png)
+![]([MTH 225 logo](https://i.ibb.co/M2VkFc9/mth225-logo.png))
 
 >Let us change our traditional attitude to the construction of programs: Instead of imagining that our main task is to instruct a computer what to do, let us concentrate rather on explaining to human beings what we want a computer to do.
 >
@@ -108,7 +108,6 @@ Successful MTH 225 students have one thing in common: *They all engage in these 
 
 In MTH 225 the activities and assignments are all designed intentionally to give you practice along three axes: **basic skills**, **applications and extensions** of those skills, and **engagement in the course**. 
 
-(Image) 
 
 ### Skills and Checkpoints
 
@@ -116,7 +115,7 @@ Sixteen (16) **Skills** are highlighted from among the topics you will learn in 
 
 To master a Skill, you will need to provide a **successful demonstration** of your competence on that Skill -- in other words, show me (Talbert) that you have learned the skill through a concrete action. The primary way to do this is through **Checkpoints**: timed quizzes given regularly in the class. Checkpoints will contain short exercises for you to complete, with each exercise focusing on a single Skill. **Checkpoints always contain new versions of all six Core Skills** as well as **new versions of any Supplemental Skill that had previously appeared**, so they are "cumulative" and if you don't have a successful attempt on an exercise on a Checkpoint, you can try again multiple times later. 
 
-Completing an exercise for a Skill is considered a "successful demonstration" if your work meets the standards that are explained in the **success criteria** for that exercise. The success criteria will always be listed on the Checkpoint following the exercise so you'll always know what you need to do to have a successful attempt. The Standards for Student Work document also contains a listing of the success criteria for each exercises for all 16 Skills. 
+Completing an exercise for a Skill is considered a "successful demonstration" if your work meets the standards that are explained in the **success criteria** for that exercise. The success criteria will always be listed on the Checkpoint following the exercise so you'll always know what you need to do to have a successful attempt. The [Standards for Student Work document](https://github.com/RobertTalbert/discretecs/blob/master/MTH225-Winter2024/course-docs/Standards%20for%20Student%20Work%20W24.md) also contains a listing of the success criteria for each exercises for all 16 Skills. 
 
 **Mastering a Skill requires two (2) separate successful demonstrations**. The way mastering a Skill will work for most students is that you will do successful work on an exercise one week; then do it again on a new version of the exercise for that Skill in a later week. This way, you will space out your attempts on a skill and retain the information better than if it were just "one and done". 
 
@@ -147,7 +146,7 @@ Additionally, you'll be given a **Startup Assignment** during the first week of 
 Grading in MTH 225 is different from what you might have experienced, because it's based on **feedback loops** as described earlier. In MTH 225: 
 
 - **Almost none of your assignments have point values**. Therefore there is **no partial credit and no averaging**. 
-- Instead, assignments have **standards** which are descriptions of what constitutes "acceptable" work. These are given in detail in the document [Standards for Student Work] which you can find at the link and on Blackboard. When you submit an assignment, I will read it carefully and compare it with the standards, and simply determine whether it meets the standards or not. Typically your work is marked either **Success** or **Retry** depending on whether it meets the standards or not. 
+- Instead, assignments have **standards** which are descriptions of what constitutes "acceptable" work. These are given in detail in the document [Standards for Student Work](https://github.com/RobertTalbert/discretecs/blob/master/MTH225-Winter2024/course-docs/Standards%20for%20Student%20Work%20W24.md) which you can find at the link and on Blackboard. When you submit an assignment, I will read it carefully and compare it with the standards, and simply determine whether it meets the standards or not. Typically your work is marked either **Success** or **Retry** depending on whether it meets the standards or not. 
 - After I evaluate your work, in most cases you will receive **detailed feedback** that will tell you whether your work meets the standards, and if not, the feedback will tell you what was missing and how you might go about fixing it. 
 - Then, on most items, you will have the chance to **retry** the assignment if needed, get more feedback, and repeat this **feedback loop** until the work meets our standards. 
 - Your course grade is not based on point totals or averages (because there are no point values). Instead, the course grade is based on **how many important learning tasks you've successfully accomplished** by the end of the semester, using a simple table that's given below. 
@@ -383,3 +382,12 @@ This schedule is subject to change; all changes will be announced in class and i
 | Final | 4/24 (Final exam)  | Core + S1-S10 | 
 
 ### Appendix C: Course Calendar 
+
+
+You can access the calendar directly at this link: 
+
+https://calendar.google.com/calendar/embed?src=5da852835eebf4c3ee076f95e7aa2b063dd56b06144a579037ecf8365394d6cc%40group.calendar.google.com&ctz=America%2FDetroit
+
+It's also embedded on Blackboard in the *Course Documents and Tools* folder. 
+
+Please note, the calendar found on Blackboard in the "Calendar" tab at the top of the page is *not* the same as the Google Calendar and does not contain all the date-sensitive items in the course. Please use this Google Calendar as your official reference. 
