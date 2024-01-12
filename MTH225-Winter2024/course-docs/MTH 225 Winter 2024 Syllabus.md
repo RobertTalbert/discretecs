@@ -368,17 +368,16 @@ This schedule is subject to change; all changes will be announced in class and i
 
 | Checkpoint number | Date | Skills included | 
 | :---: | :---: | :-------------------: | 
-| 0 | 1/12 | Core | 
-| 1 | 1/19 | Core + S1, S2 | 
-| 2 | 1/26 | Core + S1-S3 | 
-| 3 | 2/2 | Core + S1-S4 | 
-| 4 | 2/9 | Core + S1-S5 | 
-| 5 | 2/23 | Core + S1-S6 | 
-| 6 | 3/15 | Core + S1-S8 | 
-| 7 | 3/29 | Core + S1-S8 | 
-| 8 | 4/5 | Core + S1-S10 | 
-| 9 | 4/12 | Core + S1-S10 | 
-| 10 | 4/19 | Core + S1-S10 | 
+| 1 | 1/19 (Friday) | Core + S1, S2 | 
+| 2 | 1/24 | Core + S1-S3 | 
+| 3 | 1/31 | Core + S1-S4 | 
+| 4 | 2/7 | Core + S1-S5 | 
+| 5 | 2/23 (Friday) | Core + S1-S6 | 
+| 6 | 3/13 | Core + S1-S8 | 
+| 7 | 3/27 | Core + S1-S8 | 
+| 8 | 4/3 | Core + S1-S10 | 
+| 9 | 4/10 | Core + S1-S10 | 
+| 10 | 4/17 | Core + S1-S10 | 
 | Final | 4/24 (Final exam)  | Core + S1-S10 | 
 
 ### Appendix C: Course Calendar 
