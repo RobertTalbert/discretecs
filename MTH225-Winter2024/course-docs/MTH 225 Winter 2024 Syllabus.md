@@ -372,12 +372,13 @@ This schedule is subject to change; all changes will be announced in class and i
 | 2 | 1/24 | Core + S1-S3 | 
 | 3 | 1/31 | Core + S1-S4 | 
 | 4 | 2/7 | Core + S1-S5 | 
-| 5 | 2/23 (Friday) | Core + S1-S6 | 
-| 6 | 3/13 | Core + S1-S8 | 
-| 7 | 3/27 | Core + S1-S8 | 
-| 8 | 4/3 | Core + S1-S10 | 
-| 9 | 4/10 | Core + S1-S10 | 
-| 10 | 4/17 | Core + S1-S10 | 
+| 5 | 2/16 (Friday) | Core + S1-S6 | 
+| 6 | 2/28 | Core + S1-S6 |
+| 7 | 3/13 | Core + S1-S8 | 
+| 8 | 3/27 | Core + S1-S8 | 
+| 9 | 4/3 | Core + S1-S10 | 
+| 10 | 4/10 | Core + S1-S10 | 
+| 11 | 4/17 | Core + S1-S10 | 
 | Final | 4/24 (Final exam)  | Core + S1-S10 | 
 
 ### Appendix C: Course Calendar 
