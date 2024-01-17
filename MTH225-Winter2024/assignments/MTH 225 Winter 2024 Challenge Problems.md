@@ -36,7 +36,30 @@ Likewise, the decimal number $2052$ is $52C$ in base 20 (which you can check usi
 
 ### Problem 2 
 
-AI critique problem
+The [base conversion algorithm](https://publish.obsidian.md/mth225/Computer+Arithmetic/Base+conversion+algorithm) is a fundamental topic in the course, and being able to use it is the main idea in Supplemental Skill S1. But the video content and the vault never explain *why* this algorithm always works --- they only illustrate how to perform the steps. In computer science, this is not good enough: We want to know not only how to implement an algorithm but also explain why it works, without just using examples. 
+
+In this Challenge Problem, you'll focus on explaining just one part of the algorithm: Its **stopping criterion**. This is a condition that, when met, causes the algorithm to stop and return a result. Every algorithm must have a stopping criterion, and this stopping criterion must be guaranteed to always happen, otherwise the algorithm can enter an infinite loop and never stop. For the base 10 conversion algorithm, the stopping criterion is **the quotient equalling zero** during the process of dividing. When the quotient hits zero, we stop and list the remainders back in reverse order. But, question: **Does the quotient always end up being zero, regardless of the input? And if so, why?** 
+
+To get an answer to this question, you'll be doing two things: Critiquing the explanations produced by generative AI tools, and then coming up with your own explanation. 
+
+1. [This document shows](https://docs.google.com/document/d/1xoGyxRGJVPP33RjuV5jJNXhS4b0LBI8JEfz5jdjN4ow/edit?usp=sharing) the output from three different AI tools --- ChatGPT, Bard (Google's AI tool), and CoPilot (Microsoft) --- when given the prompt: *In the base conversion algorithm, why does the quotient always end up being zero?* This is the prompt that someone might give, if they were looking for a computer to explain the answer to this question rather than coming up with their own ideas. Read through all three responses and do the following for each AI repsonse: 
+
+   (a) Summarize the answer to the question ("Why does the quotient always end up being zero?") in 1-2 sentences. 
+   
+   (b) Our standard for verbal explanations is that they must be clear, correct, and complete. In the Standards for Student Work document, it states that 
+
+>Your standard audience for Challenge Problems is a classmate in MTH 225 who is new to the problem: Someone who has the mathematical and technical background that you have from their study in the course, but who has no knowledge of the problem you are solving. All solutions need to be aimed at this audience unless it says otherwise. Before you turn in a submission of a Challenge Problem, ask yourself honestly: If I were receiving this solution from a classmate, would I be able to understand the solution and agree with the results, using only what is in the solution along with the basic skills from the class? If the answer is "no", then keep working to make the solution clearer, more correct, or more complete.
+
+Based on this standard -- and putting yourself in the shoes of the MTH 225 student reading the work --- would you rate the AI's response as "Successful", or does it need to be revised? Why? Be as specific as possible, and don't be afraid to be critical! This is an AI, not a person. 
+
+2. A "Successful" explanation of why a condition is *always* met, must not rely on specific examples. If you removed any specific examples from the explanation, what's left over should complete the statement *This condition is always met regardless of the specific inputs, because...* in a way that is clear, complete, and mathematically correct. It should convince you without your "BS detector" going off and without you needing to do extra work beyond what's given in the explanation. In your view, do any of these AI responses meet that standard? If so, which ones, and why? If not, which ones, and why not? 
+
+3. Prepare your own explanation, that meets all the standards we've discussed above and does not merely paraphrase the AI's or a combination of the AI's.
+
+
+
+
+
 
 ### Problem 3
 
