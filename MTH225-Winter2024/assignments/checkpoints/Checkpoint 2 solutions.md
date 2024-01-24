@@ -33,11 +33,11 @@
 
    (e) True 
 
-2. (a) $\{1, 2, 4, 8, 16, 32, 64, \cdots \}$
+2. (a) $\lbrace 1, 2, 4, 8, 16, 32, 64, \cdots \rbrace$
 
-   (b) $\{0,1,2,3\}$
+   (b) $\lbrace 0,1,2,3 \rbrace$
 
-   (c) Could be interpreted as incorrect syntax; or if viewed as a Boolean function, results in the set $\{True, False\}$. 
+   (c) Could be interpreted as incorrect syntax; or if viewed as a Boolean function, results in the set $\lbraceTrue, False\rbrace$. 
 
 
 
@@ -45,12 +45,12 @@
 
 ## C4
 
-1. $\{3,4,5\}$
-2. $\{1,2,3,4,5,6,7\}$
-3. $\{6,7\}$
-4. $\{0,1,3,4,5\}$
+1. $\lbrace3,4,5\rbrace$
+2. $\lbrace1,2,3,4,5,6,7\rbrace$
+3. $\lbrace6,7\rbrace$
+4. $\lbrace0,1,3,4,5\rbrace$
 5. $10$
-6. $\{\emptyset, \{0\}, \{1\}, \{0,1\}\}$
+6. $\lbrace\emptyset, \lbrace0\rbrace, \lbrace1\rbrace, \lbrace0,1\rbrace\rbrace$
 
 ---
 
