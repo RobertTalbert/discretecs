@@ -9,6 +9,14 @@
 5. If the sun is not shining, I will not go for a walk.
 6. The sun is shining, but I am not going for a walk.
 
+### Common mistakes
+
+- **Failing to actually switch the hypothesis and conclusion when forming the converse** but instead just moving the phrase "If the sun is shining" to the second half of the sentence. What you end up with is the statement: *"I will go for a walk if the sun is shining"*. But as we pointed out in class, this is the same proposition as the original statement: The hypothesis and conclusion have not been switched, just merely written in different places. 
+- **A similar error to the previous point when forming the contrapositive**: Negating the hypothesis and conclusion but not actually switching their roles, just writing them in a different order. You would end up with the statement *"I will not go for a walk if the sun is not shining."* This is the same as "If the sun is not shining, then I won't go for a walk" but that's the inverse, not the contrapositive. 
+- **Including the word "If" in the negation**, giving the phrase: *"If the sun is shining, and I am not going for a walk."* As we discussed in class, the word "if" is not part of the hypothesis and therefore shouldn't be included in the negation -- because it causes this mistake. The resulting verbiage is not actually a semantically or grammatically correct sentence because it sets up an if-then statement but never tells you what the conclusion is. 
+- **Writing the negation as a conditional statement**: For example *"If the sun is shining, then I will not go for a walk."* The negation of $P \rightarrow Q$ is $P \wedge (\neg Q)$ so the negation must be a conjunction, not another conditional statement. 
+- **Writing the negation as a conjunction but negating the wrong part**: That is, writing $Q \wedge (\neg P)$ instead of $P \wedge (\neg Q)$. In English, that mistake would read as "I am going for a walk but the sun is not shining." 
+
 ---
 
 ## C2
