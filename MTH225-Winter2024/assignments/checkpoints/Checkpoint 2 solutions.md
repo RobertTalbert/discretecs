@@ -80,6 +80,11 @@
 
    (b) This is asking for a unordered selection of 3 items from a set consisting of 8 items. That count is given by the binomial coefficient: $\displaystyle{\binom{8}{3} = 56}$. 
 
+### Common mistakes
+
+- **Using an incorrect formula for the binomial coefficient**: The most common incorrect formula used was $\binom{20}{17} = \frac{20!}{17!}$. This is missing a factor on the bottom of the fraction. [Check out the vault article](https://publish.obsidian.md/mth225/Combinatorics/Binomial+coefficient) for the correct formula and an explanation of why it's correct.  
+- **Incorrect simplification of the fraction that comes from the binomial coefficient formula**: A few students used the correctformula to get $\binom{20}{17} = \frac{20!}{3! \cdot 17!}$. But then they simplified the fraction incorrectly to get $\frac{20!}{3! \cdot 17!} = \frac{20 \cdot 19 \cdot 18}{17 \cdot 16 \cdot 15}$ or something similar. To understand what the correct simplification should be, just write out all the factorials in the fraction and look for opportunities to simplify by cancelling common factors. 
+- **Not using the binomial coefficient on part 2(b)**: Some responses gave an answer of $8 \cdot 7 \cdot 6 = 336$. But this is an overcount, because it assumes that the order in which the people are selected for the committee is relevant, but it isn;t here: picking Alice, Bob, then Chuck does not lead to a different committee than picking Bob, Chuck, then Alice. We are just forming a 3-element subset of an 8-element set, and the number of ways to do this, [by definition](https://publish.obsidian.md/mth225/Combinatorics/Binomial+coefficient), is the binomial coefficient $\binom{8}{3} = 56$. (You can also reason as follows: $8 \cdot 7 \cdot 6 = 336$ is the number of committees possible if we treated different permutations of people as different committees. This overcounts by a factor equal to the number of ways to permute a set of three people, which is $3! = 6$. So we'd have to divide by 6 to correct the overcount, and $336/6 = 56$.)
 
 ---
 
