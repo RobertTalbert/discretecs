@@ -24,7 +24,7 @@ This course is subject to the GVSU policies listed at http://www.gvsu.edu/course
 
 **Professor:** Robert Talbert, Ph.D., Professor of Mathematics. My office is Mackinac Hall C-2-513; my email is [talbertr@gvsu.edu](mailto:talbertr@gvsu.edu); my direct phone is 616-331-8968. 
 
-**Student drop-in hours:** Open drop-in times in MAK C-2-513 are **4:00-5:00pm Monday and Wednesday**. Additional hours are available by appointment by going to http://calendly.com/robert-talbert and selecting a 20-minute time slot from *MTH 225 student appointment*. Appointments are in-person; if you need an online meeting or phone call, please select *20 minute online meeting* or *20 minute phone call* from the Calendly page.
+**Student drop-in hours:** Open drop-in times in MAK C-2-513 are **3:30-4:30 pm Monday and Wednesday**. (*This was changed on January 26.)* Additional hours are available by appointment by going to http://calendly.com/robert-talbert and selecting a 20-minute time slot from *MTH 225 student appointment*. Appointments are in-person; if you need an online meeting or phone call, please select *20 minute online meeting* or *20 minute phone call* from the Calendly page.
 
 **Meetings:** Monday/Wednesday/Friday in Mackinac Hall A-2-155. Section 03 meets 11:00-11:50am and Section 04 meets 12:00-12:50pm. 
 
