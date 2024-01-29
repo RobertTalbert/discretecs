@@ -95,6 +95,10 @@
 3. $1010111$
 4. `1001 1110`
 
+### Common mistakes: 
+
+- **Converting from base 16 or 2 to base 10 in parts 2 and 3, instead of vice versa**: For example in part 2, the number $567$ is already in base 10 and you're asked to convert it to base 8. Some did this backward and wrote $5 \cdot 8^2 + 6 \cdot 8^1 + 7 \cdot 8^0$. This is assuming the number is in base 8 and we're converting to base 10. Any time we convert from base 10 to something else, it requires the base 10 conversion algorithm. 
+
 ## S2 
 
 1. `0111010`
