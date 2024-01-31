@@ -72,4 +72,9 @@ Side note: This general problem, which has to do with the expressibility of comp
 
 ### Problem 4
 
-Early counting problem 
+Below is a visual pattern involving raspberries. Steps 1, 2, and 3 of the pattern are shown. 
+![Visual pattern for Problem 4](challengeproblem4.png)
+
+1. Draw, by hand or with a computer program, the figures that would appear in steps 4 and 5. Then explain, briefly but in detail, how you know these figures accurately represent the pattern. **Your explanation must address exactly how the figure in a given step is visually incorporated into the figure in the next step**. 
+2. Using only the visual description from the first part, write a recurrence relation for $R(n)$, the number of raspberries in step $n$. Explain, briefly but in detail, why your recurrence relation accurately represents the visual progression of figures that you addressed in part 1. (Assume that we start indexing at $n=1$, so $R(1)$ is the number of raspberries in the initial figure.) 
+3. 
