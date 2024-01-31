@@ -58,12 +58,16 @@ Based on this standard -- and putting yourself in the shoes of the MTH 225 stude
 
 
 
-
-
-
 ### Problem 3
 
-Recursive visual pattern problem 
+An early topic in the course is **logical connectives**. We studied four of these: "and" ($\wedge$), "or" ($\vee$), "not" ($\neg$), and "if-then" ($\rightarrow$). But there are others -- and there might be relationships between them. 
+
+1. One important connective is "if and only if", denoted by a double headed arrow $\leftrightarrow$. Look up a truth table for $P \leftrightarrow Q$ to see how it works. Then, show that $P \leftrightarrow Q$ is logically equivalent to the proposition $(P \rightarrow Q) \wedge (Q \rightarrow P)$. (Note: What's the clearest and simplest way to show two statements are logically equivalent?)
+2. The first part of this problem shows why we didn't discuss "if and only if" in class: It's **dependent on** (or "built using") other logical connectives. That is, if somebody doesn't understand $P \leftrightarrow Q$, you can explain that it's the same thing as $(P \rightarrow Q) \wedge (Q \rightarrow P)$. Using only the connectives $\wedge$ and $\neg$, can you explain any of the other three ($\vee$, $\rightarrow$, $\leftrightarrow$) in a similar way? Which ones? And how? 
+3. Redo part 2 but start with the connectives $\rightarrow$ and $\neg$. 
+4. If you started with only $\leftrightarrow$, could you explain any of the other four? If so, then which ones? If not, then why not? 
+
+Side note: This general problem, which has to do with the expressibility of compound logical statements using a small set of basic logical operators, is a key topic in advanced computer science and language design. 
 
 
 ### Problem 4
