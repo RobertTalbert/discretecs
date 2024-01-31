@@ -55,7 +55,7 @@
 
    (b) $\displaystyle{\binom{20}{18} = \frac{20!}{18! \cdot 2!} = \frac{20 \cdot 19}{2} = 190}$ 
 
-2. We are selecting 4 items (toppings) from a list of 16. The order of the selection is irrelevant since we end up with the same pizza no matter what order we choose the toppings in. So the count is given by the binomial coefficient, $\dispplaystyle{\binom{16}{4} = 1820}$. 
+2. We are selecting 4 items (toppings) from a list of 16. The order of the selection is irrelevant since we end up with the same pizza no matter what order we choose the toppings in. So the count is given by the binomial coefficient, $\displaystyle{\binom{16}{4} = 1820}$. 
 
 ---
 
