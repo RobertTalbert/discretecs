@@ -46,7 +46,16 @@
 
 ## C5
 
+1. $2^{19}$ because the test consists of 19 items, each of which has two possible choices. 
+2. According to the Principle of Inclusion and Exclusion, the number of students who major in either math or CS, is equal to the number of students majoring in math plus the number of students majoring in CS minus the number of students majoring in both subjects. It is the final item that we want; so let's find the other three quantities in this statement. The number of students majoring in math is 14; the number majoring in CS is also 14. The number of students majoring in one or both of those subjects, is the complement of those who are not majoring in either one -- so that's $24 - 5 = 19$. Therefore the number of students majoring in both is $14 + 14 - 19 = 9$. 
+
 ## C6
+
+1. (a) $6! = 6 \cdot 5 \cdot 4 \cdot 3 \cdot 2 \cdot 1 = 720$ 
+
+   (b) $\displaystyle{\binom{20}{18} = \frac{20!}{18! \cdot 2!} = \frac{20 \cdot 19}{2} = 190}$ 
+
+2. We are selecting 4 items (toppings) from a list of 16. The order of the selection is irrelevant since we end up with the same pizza no matter what order we choose the toppings in. So the count is given by the binomial coefficient, $\dispplaystyle{\binom{16}{4} = 1820}$. 
 
 ---
 
