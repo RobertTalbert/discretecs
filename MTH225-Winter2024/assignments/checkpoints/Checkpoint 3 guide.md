@@ -44,7 +44,7 @@
 
 1. $\lbrace 2 \rbrace$ 
 2. $\lbrace 2,3,4,5,6 \rbrace$ 
-3. $\lbrace 3,5 \rbrace$ 
+3. $\lbrace 4,5 \rbrace$ 
 4. $\lbrace 2,3,4,6 \rbrace$
 5. $9$ 
 6. $\lbrace \emptyset, \lbrace 2 \rbrace, \lbrace 4 \rbrace, \lbrace 6 \rbrace, \lbrace 2,4 \rbrace, \lbrace 4,6 \rbrace,\lbrace 2,6 \rbrace, \lbrace 2,4,6 \rbrace \rbrace$
