@@ -9,6 +9,11 @@
 5. If the screen doesn't break, I won't get a new phone. 
 6. The screen broke but I didn't get a new phone. 
 
+### Common mistakes
+
+-  **Getting the negation wrong:** The negation of the statement $P \rightarrow Q$ is $P \wedge (\neg Q)$. We have discussed this in videos and class meetings, and seen it from looking at truth tables, so this is now a well-established concept. If you correctly identify the hypothesis and conclusion in steps 1 and 2, then just use the formula to get the correct negation (shown above). A number of students mis-wrote the negation as $(\neg P) \wedge Q$ to get "My screen isn't broken but I got a new phone". Other incorrect formulations were present. **Practice: Memorize the formula for the negation -- then ask ChatGPT for practice exercises.** 
+- **Not actually swapping the hypothesis and conclusion in the converse but just writing them in different locations:** For example, *"If the screen breaks, then I will get a new phone."* This moves the statement about the screen breaking from the second half of the sentence to the first half; but it does not change the fact that it's still the hypothesis. This is the same proposition, from a logical standpoint, as the original. The converse of $P \rightarrow Q$ is $Q \rightarrow P$ and this has to involve reversing the "cause" and the "effect", not just rearranging where phrases happen. **Practice: Memorize the formula for the converse -- then ask ChatGPT for practice exercises.**
+
 ## C2
 
 1. The predicate is the statement, $1 + 2 + 3 + \cdots + n = \frac{n(n+1)}{2}$. 
@@ -39,7 +44,7 @@
 
 1. $\lbrace 2 \rbrace$ 
 2. $\lbrace 2,3,4,5,6 \rbrace$ 
-3. $\lbrace 3,5 \rbrace$ 
+3. $\lbrace 4,5 \rbrace$ 
 4. $\lbrace 2,3,4,6 \rbrace$
 5. $9$ 
 6. $\lbrace \emptyset, \lbrace 2 \rbrace, \lbrace 4 \rbrace, \lbrace 6 \rbrace, \lbrace 2,4 \rbrace, \lbrace 4,6 \rbrace,\lbrace 2,6 \rbrace, \lbrace 2,4,6 \rbrace \rbrace$
