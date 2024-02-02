@@ -61,8 +61,52 @@
 
 ## S1
 
+1. $(500)_{10}$ 
+2. $(E1)_{16}$
+3. $111000$
+4. `0010 0100`
+
 ## S2
+
+1. `01010010`
+2. `100000`
+3. `010101011`
+4. `011100` Remainder : `1`
 
 ## S3
 
+1.
+| $p$ | $q$ | $r$ | $q \vee r$ | $p \wedge (q \vee r)$ |
+| ---- | ---- | ---- | ---- | ---- |
+| T | T | T | T | T |
+| T | T | F | T | T |
+| T | F | T | T | T |
+| T | F | F | F | F |
+| F | T | T | T | F |
+| F | T | F | T | F |
+| F | F | T | T | F |
+| F | F | F | F | F |
+
+2. (Putting both statements into a combo truth table)
+
+| $p$ | $q$ | $p \rightarrow q$ | $\neg(p \rightarrow q)$ | $\neg p$ | $\neg q$ | $(\neg p) \rightarrow (\neg q)$ |
+| ---- | ---- | ---- | ---- | ---- | ---- | ---- |
+| T | T | T | F | F | F | T |
+| T | F | F | T | F | T | T |
+| F | T | T | F | T | F | F |
+| F | F | T | F | T | T | T |
+
+So, **no** the two statements are not logically equivalent. 
+
+
 ## S4
+
+1. (a) True
+
+   (b) True 
+
+   (c) False
+
+   (d) False 
+
+2. There are at least two problems on this quiz that don't have the same answer. (*Other right answers are possible*)
