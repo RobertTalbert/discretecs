@@ -115,3 +115,8 @@ So, **no** the two statements are not logically equivalent.
    (d) False 
 
 2. There are at least two problems on this quiz that don't have the same answer. (*Other right answers are possible*)
+
+### Common mistakes
+
+- **Using a universal statement as the negation in part 2:** This would read something like *"Every problem on this quiz has a different answer"*. This is not the negation of the original because it's possible for this statement and the original to both be false -- imagine a quiz where the first two answers were the same but the rest of the answers are different. The negation of a universal statement is an existential statement -- a statement that a [counterexample](https://publish.obsidian.md/mth225/Logic/Counterexample) exists. 
+- **Giving "TRUE" as the answer to 1(d)**: The statement in 1(d), in English, is saying that there exists an integer, $x$, for which $x+2$ is *not* an integer. But this is a false statement because adding 2 to an integer always creates another integer (not a fraction, etc.). 
