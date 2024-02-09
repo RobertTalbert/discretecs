@@ -30,6 +30,7 @@
 
 
 2. Putting both statements into a combo table: 
+
 | $p$ | $q$ | $p \vee q$ | $\neg(p \vee q)$ | $\neg p$ | $\neg q$ | $(\neg p) \wedge (\neg q)$ |
 | ---- | ---- | ---- | ---- | ---- | ---- | ---- |
 | T | T | T | F | F | F | F |
