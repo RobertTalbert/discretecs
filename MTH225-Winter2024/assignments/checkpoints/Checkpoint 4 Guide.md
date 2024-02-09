@@ -18,6 +18,8 @@
 
 ## S4 
 
+*Note*: Explanations are provided for part 1. These are not required for your work; they're only here for study purposes so you can see why the statements are true or false. 
+
 1. (a) False (because $9^2 = 81$ which is not greater than 100)
 
    (b) True (because $9^3 = 729$)
