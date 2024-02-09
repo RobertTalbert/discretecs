@@ -26,7 +26,7 @@
 
    (d) True (because there does exist an $x$ such that $x^3$ is not odd, for example $x=2$)
 
-2. *No dogs are poodles*  (Note, this isn't the same as "putting 'not' or 'it is not the case that' in front of the statement.)
+2. *No dogs are poodles*  (Note, this isn't the same as "putting 'not' or 'it is not the case that' in front of the statement. If it's too close for comfort you could also say something like *All dogs are non-poodles*.)
 
 ## S5
 
