@@ -16,6 +16,29 @@
 
 ## S3
 
+1.
+| $p$ | $q$ | $r$ | $q \wedge r$ | $p \rightarrow (q \wedge r)$ |
+| ---- | ---- | ---- | ---- | ---- |
+| T | T | T | T | T |
+| T | T | F | F | T |
+| T | F | T | F | F |
+| T | F | F | F | F |
+| F | T | T | T | T |
+| F | T | F | F | T |
+| F | F | T | F | T |
+| F | F | F | F | T |
+
+
+2. Putting both statements into a combo table: 
+| $p$ | $q$ | $p \vee q$ | $\neg(p \vee q)$ | $\neg p$ | $\neg q$ | $(\neg p) \wedge (\neg q)$ |
+| ---- | ---- | ---- | ---- | ---- | ---- | ---- |
+| T | T | T | F | F | F | F |
+| T | F | T | F | F | T | F |
+| F | T | T | F | T | F | F |
+| F | F | F | T | T | T | T |
+
+So **yes** these two statements are logically equivalent. 
+
 ## S4 
 
 *Note*: Explanations are provided for part 1. These are not required for your work; they're only here for study purposes so you can see why the statements are true or false. 
