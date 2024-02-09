@@ -30,6 +30,10 @@
 
 2. *No dogs are poodles*  (Note, this isn't the same as "putting 'not' or 'it is not the case that' in front of the statement. If it's too close for comfort you could also say something like *All dogs are non-poodles*.)
 
+### Common mistakes
+
+- **Stating that "Some dogs are not poodles" as the negation:** The statement "Some dogs are not poodles" is not the negation of "Some dogs are poodles" because both of those statements are true at the same time. 
+
 ## S5
 
 ## S6
