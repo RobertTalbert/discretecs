@@ -47,3 +47,11 @@
 
 
 ## S6
+
+1. $R(1) = 1$
+2. For $n > 1$ the recurrence relation is $R(n) = R(n-1) + n$. That's because what appears to be happening is that in step $n$, we're using the figure from step $n-1$ and then adding a number of footballs to the image equal to the number of the new step -- 2 footballs added in step 2, 3 in step 3 and so on. 
+
+### Common mistakes 
+
+- **On part 2, explaining how the visual pattern works without providing the recurrence relation:** Basically what you see above minus the first sentence. Correct and clear explanations are good (and required here) but there also has to be a recurrence relation -- a precise mathematical equation that relates $R(n)$ to one or more previous values of $R$. 
+- **Writing a recurrence relation that produces incorrect results:** For exampe $R(n) = R(n-1) + (n + 1)$, which is a valid recurrence relation (because it's a precise equation that relates $R(n)$ to one or more previous values of $R$) but it does not match the situation. If you use this recurrence relation to generate a few values starting with $R(1) = 1$, then you would get $R(2) = R(1) + 2 + 1 = 1 + 2 + 1 = 4$ which is incorrect because there are three footballs in figure 2, not four. Remember, **always do a BS check on your work** before turning it in to catch errors like this -- in this case an easy way to do it is use the recurrence relation to generate the first 3 values and see if they match the pictures. 
