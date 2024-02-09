@@ -18,6 +18,16 @@
 
 ## S4 
 
+1. (a) False (because $9^2 = 81$ which is not greater than 100)
+
+   (b) True (because $9^3 = 729$)
+
+   (c) False (because part (a) is a counterexample)
+
+   (d) True (because there does exist an $x$ such that $x^3$ is not odd, for example $x=2$)
+
+2. *No dogs are poodles*  (Note, this isn't the same as "putting 'not' or 'it is not the case that' in front of the statement.)
+
 ## S5
 
 ## S6
