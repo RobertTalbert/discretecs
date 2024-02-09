@@ -36,6 +36,8 @@
 
 ## S5
 
+*Note*: I actually used, and will continue to use, a less stringent set of success criteria -- namely that if you make an arithmetic mistake and get one of the intermediate results wrong, it counts as a "simple" error as long as the remaining values are computed using the correct recursion rules and the answers are consistent with the mistake. For example if you computed $a_5$ as 180 instead of 169, but then used that mistake to get $a_6 = 2(180) + 70 = 430$ and then $a_7 = 2(430) + 180 = 1040$, the solution is considered "successful" despite the mistake. One such error is allowed. 
+
 - $a_2 = 2a_1 + a_0 = 2 \cdot 5 + 2 = 12$
 - $a_3 = 2a_2 + a_1 = 2 \cdot 12 + 5 = 29$ 
 - $a_4 = 2a_3 + a_2 = 2 \cdot 29 + 12 = 70$
