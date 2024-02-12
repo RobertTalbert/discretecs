@@ -89,4 +89,29 @@ Suppose you're given an alphabetized list of words, specifically a Python list c
 words = ["Are", "Body", "Career", "Computer", "Dam", "Mathematics", "Science", "Ugh", "Why"]
 ```
 
-Remember that in Python, lists are zero-indexed, so for example `words[0] = "Are"` and `words[2] = "Career"`. 
+Remember that in Python, lists are zero-indexed, so for example `words[0] = "Are"` and `words[2] = "Career"`. Suppose that you are given a new word, and your job is to first determine if the word is currently on the list, and if it is, to find where (by giving its index in the list). 
+
+Here is a basic Python function that does this. Its inputs are the list of words (again, assume the list is alphabetized already) and the new word. 
+
+```python
+def s(word_list, word):
+  i = 0
+  while i < len(word_list):
+    if word == word_list[i]: 
+      print(i)
+      break
+    elif word < word_list[i]: 
+      print("Fail") 
+      break
+    else: i += 1
+  if i >= len(word_list): 
+    print("Fail")
+```
+
+(Note: This code works but it might not be totally efficient.) 
+
+The problem is: **Rewrite this code as a recursive Python function**. 
+
+Your submission on this should consist of: 
+1. **The code itself**, saved as a public GitHub Gist, and you will **share the link to the Gist**. [Click here for instructions on how to do this](https://docs.github.com/en/get-started/writing-on-github/editing-and-sharing-content-with-gists/creating-gists), and ask for help if you need it. You'll need to create a GitHub account, but if you are involved in computer science then your GitHub presence will be an essential part of your professional portfolio in the future, so it's worth it. 
+2. **An explanation for how you wrote your code**. Explain it to someone with the same amount of Python background as you but who has no experience with this particular problem. Write this up separately, in a Word or other text document and submit a PDF in the appropriate assignment folder on Blackboard. *Do not simply add comments to your code* or include an explanation in the code; doing so will result in a "Retry" and no feedback will be given. 
