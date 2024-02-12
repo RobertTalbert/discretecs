@@ -79,3 +79,13 @@ Below is a visual pattern involving raspberries. Steps 1, 2, and 3 of the patter
 2. Using only the visual description from the first part, write a recurrence relation for $R(n)$, the number of raspberries in step $n$. Explain, briefly but in detail, why your recurrence relation accurately represents the visual progression of figures that you addressed in part 1. Assume that we start indexing at $n=1$, so $R(1)$ is the number of raspberries in the initial figure. And note that we can directly observe that $R(1) = 3$. 
 3. Since $R(1)$ is the number of raspberries in the initial figure, we know that Use the recurrence relation in part 2 to compute $R(2), R(3), R(4), \dots, R(10)$. (Remember you don't "compute" $R(1)$ because that's given to you as an initial condition, $R(1) = 3$.) To show your work, you can do one of two things: *Write out all the steps mathematically* using the recurrence relation, or *write a Python function* that implements your recurrence relation and then use Python to do your computations. If you opt for Python, you can either copy and paste your code into your writeup, or put it on [gist.github.com](https://gist.github.com) and share the link in your writeup; your code must be a **recursive function**, that is, a Python function (not just a block of code, but a function) that uses recursion. If you opt for showing your steps without Python, you must use the recurrence relation from part 2. 
 4. Whichever method you choose in part 3, go back to your visualizations and check that the first five results ($R(1)$ through $R(5)$) agree with the visual pattern itself. That is, actually count the raspberries in the pictures and then compare to your computations. They should be the same. If not, something needs to be fixed! There's nothing to turn in on this step, it's just a "BS detection" step you need to engage with. 
+
+
+### Problem 5
+
+Suppose you're given an alphabetized list of words, specifically a Python list containing strings. For example: 
+
+```python
+words = ["Are", "Body", "Career", "Computer", "Dam", "Mathematics", "Science", "Ugh", 
+Why"]
+```
