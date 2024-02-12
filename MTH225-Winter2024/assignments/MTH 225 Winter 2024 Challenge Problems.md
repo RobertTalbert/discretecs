@@ -125,4 +125,4 @@ Define an integer sequence $c_n$ recursively as follows: Define $c_0 = 0$, $c_1 
 
 Notes on this problem: 
 - $\mathbb{N}$ is the set of all natural numbers: $\mathbb{N} = \lbrace 0,1,2,3,4,\dots \rbrace$
-- An integer is defined to be "even" if it is a multiple of 2; that is, $k$ is even if there exists another integer $m$ such that $k = 2m$. 
+- An integer is defined to be "even" if it is a multiple of 2; that is, $k$ is even if there exists another integer $m$ such that $k = 2m$. (Question you will need to answer: Under this definition, is the number $0$ even?)
