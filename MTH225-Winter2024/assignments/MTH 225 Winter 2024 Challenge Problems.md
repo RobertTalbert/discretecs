@@ -86,6 +86,7 @@ Below is a visual pattern involving raspberries. Steps 1, 2, and 3 of the patter
 Suppose you're given an alphabetized list of words, specifically a Python list containing strings. For example: 
 
 ```python
-words = ["Are", "Body", "Career", "Computer", "Dam", "Mathematics", "Science", "Ugh", 
-Why"]
+words = ["Are", "Body", "Career", "Computer", "Dam", "Mathematics", "Science", "Ugh", "Why"]
 ```
+
+Remember that in Python, lists are zero-indexed, so for example `words[0] = "Are"` and `words[2] = "Career"`. 
