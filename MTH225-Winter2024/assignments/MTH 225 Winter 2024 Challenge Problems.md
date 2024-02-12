@@ -115,3 +115,14 @@ The problem is: **Rewrite this code as a recursive Python function**.
 Your submission on this should consist of: 
 1. **The code itself**, saved as a public GitHub Gist, and you will **share the link to the Gist**. [Click here for instructions on how to do this](https://docs.github.com/en/get-started/writing-on-github/editing-and-sharing-content-with-gists/creating-gists), and ask for help if you need it. You'll need to create a GitHub account, but if you are involved in computer science then your GitHub presence will be an essential part of your professional portfolio in the future, so it's worth it. 
 2. **An explanation for how you wrote your code**. Explain it to someone with the same amount of Python background as you but who has no experience with this particular problem. Write this up separately, in a Word or other text document and submit a PDF in the appropriate assignment folder on Blackboard. *Do not simply add comments to your code* or include an explanation in the code; doing so will result in a "Retry" and no feedback will be given. 
+
+**The resulting Python function *must* be recursive and it must run correctly**, producing correct results with no syntax errors. Functions that are not recursive or which produce syntax errors when entered will be marked "Retry" with no feedback given. 
+
+
+### Problem 6
+
+Define an integer sequence $c_n$ recursively as follows: Define $c_0 = 0$, $c_1 = 2$, $c_2 = 2$, and for all $n > 2$ define $c_n = c_{n-1} + 3c_{n-3}$. Prove using mathematical induction that for all $n \in \mathbb{N}$, $c_n$ is even. 
+
+Notes on this problem: 
+- $\mathbb{N}$ is the set of all natural numbers: $\mathbb{N} = \lbrace 0,1,2,3,4,\dots \rbrace$
+- An integer is defined to be "even" if it is a multiple of 2; that is, $k$ is even if there exists another integer $m$ such that $k = 2m$. 
