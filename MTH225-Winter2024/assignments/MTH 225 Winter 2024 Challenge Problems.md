@@ -157,5 +157,5 @@ If you write out the numbers 1 through 4 in words -- "one", "two", "three", "fou
 Rules for this problem: 
 - Do not count spaces or hyphens. 
 - Use the word "and" when working with numbers over 100, for example 245 is "two hundred and forty five" (a total of 23 letters). 
-- You can solve this problem any way you like, other than "brute force", that is, by actually writing out all the numbers from 1 to 500 and counting words. You can write code for it; or devise a mathematical shortcut; or anything else you can think of. 
+- You can solve this problem any way you like, other than "brute force", that is, by actually writing out all the numbers from 1 to 900 and counting words. You can write code for it; or devise a mathematical shortcut; or anything else you can think of. 
 - But whatever you end up doing, your submission must clearly state your answer *and* especially, you must give a correct, complete, and clear explanation that thoroughly explains how you arrived at the answer. 
