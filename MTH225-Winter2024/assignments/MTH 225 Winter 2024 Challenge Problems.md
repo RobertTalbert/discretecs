@@ -126,3 +126,36 @@ Define an integer sequence $c_n$ recursively as follows: Define $c_0 = 0$, $c_1 
 Notes on this problem: 
 - $\mathbb{N}$ is the set of all natural numbers: $\mathbb{N} = \lbrace 0,1,2,3,4,\dots \rbrace$
 - An integer is defined to be "even" if it is a multiple of 2; that is, $k$ is even if there exists another integer $m$ such that $k = 2m$. (Question you will need to answer: Under this definition, is the number $0$ even?)
+
+### Problem 7
+
+The **logarithm base 2** of a number $x$, written $\log_2(x)$, is a math function that plays an outsized role in computer science, especially in the analysis of algorithm performance. It is defined as **the power to which you would raise $2$ in order to get $x$**. That is, if $\log_2(x) = a$ then $2^a = x$. For example, $\log_2(8) = 3$, $\log_2(1024) = 10$, and (using a calculator) $\log_2(100)$ is around $6.644$. You can compute more values of the logarithm base 2 using Wolfram|Alpha; [click here for an example](https://www.wolframalpha.com/input?i=log+base+2+of+1000). Or in Python, enter `import math` to load a library of special math functions and then use the `math.log2` function. For example, `print(math.log2(1000))` will print the logarithm base 2 of $1000$ (assuming the `math` library was imported first). 
+
+Consider the following recursive function, given here as Python code: 
+
+```python
+def r(n):
+	if n == 1: 
+		return 0
+	else:
+		L = r(n//2)
+	return L+1
+```
+
+Here, the `//` sign means **integer division**, that is, regular division but drop the remainder. For example `19//2` equals `9`.
+
+With this information, prove using mathematical induction that for all integers $n \geq 1$, the value that is output by this algorithm for `r(n)` is $\lfloor \log_2(n) \rfloor$, that is, the logarithm base 2 of $n$ rounded down to the next lowest integer. (The "floor function" $\lfloor x \rfloor$ simply means round down to the next lowest integer; for example $\lfloor 3.999 \rfloor = 3$.) 
+
+### Problem 8
+
+Problem 8 doesn't necessarily have anything to do with MTH 225, it's just a fun problem. 
+
+If you write out the numbers 1 through 4 in words -- "one", "two", "three", "four" -- then you use 15 letters: Three letters each for "one" and "two", five letters for "three", and four letters for "four", so $3+3+5+4 = 15$.
+
+**Problem**: **If all the numbers from 1 to 900 were written out in words, how many letters would you use?** 
+
+Rules for this problem: 
+- Do not count spaces or hyphens. 
+- Use the word "and" when working with numbers over 100, for example 245 is "two hundred and forty five" (a total of 23 letters). 
+- You can solve this problem any way you like, other than "brute force", that is, by actually writing out all the numbers from 1 to 500 and counting words. You can write code for it; or devise a mathematical shortcut; or anything else you can think of. 
+- But whatever you end up doing, your submission must clearly state your answer *and* especially, you must give a correct, complete, and clear explanation that thoroughly explains how you arrived at the answer. 
