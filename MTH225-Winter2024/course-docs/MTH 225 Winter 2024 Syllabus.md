@@ -366,13 +366,16 @@ Each Skill requires **two (2) successful demonstrations of competency** in order
 
 This schedule is subject to change; all changes will be announced in class and in the weekly announcement drop. 
 
+**Last update: 2024-02-18** 
+
 | Checkpoint number | Date | Skills included | 
 | :---: | :---: | :-------------------: | 
 | 1 | 1/19 (Friday) | Core + S1, S2 | 
 | 2 | 1/24 | Core + S1-S3 | 
 | 3 | 1/31 | Core + S1-S4 | 
-| 4 | 2/7 | Core + S1-S5 | 
-| 5 | 2/16 (Friday) | Core + S1-S6 | 
+| 4 | 2/7 | S1-S5 | 
+| 5 | 2/16 (Friday) | S1-S6 | 
+| 5.5 | 2/21 | C1 and C2 only (no Supplemental) | 
 | 6 | 2/28 | Core + S1-S6 |
 | 7 | 3/13 | Core + S1-S8 | 
 | 8 | 3/27 | Core + S1-S8 | 
