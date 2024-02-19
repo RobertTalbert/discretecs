@@ -23,7 +23,7 @@ There were no attempts on Skill S2 this time. If you are using this problem for 
 
 ## S5
 
-Given:$a_0 = 0, a_1 = 2, a_2 = 2$. 
+Given: $a_0 = 0, a_1 = 2, a_2 = 2$. 
 
 $a_3 = a_2 + 3a_0 = 2 + 3(0) = 2$
 $a_4 = a_3 + 3a_1 = 2 + 3(2) = 8$
