@@ -155,6 +155,10 @@ If you write out the numbers 1 through 4 in words -- "one", "two", "three", "fou
 **Problem**: **If all the numbers from 1 to 900 were written out in words, how many letters would you use?** 
 
 Rules for this problem: 
+- **ADDED 2024-02-19:** If you use code to solve this problem:
+  - You must use Python and not some other language, unless you get my permission first.
+  - You may not use external libraries. That is, `import` statements are not allowed. You are to use "base" Python only (and it's all you need).
+  - You may not use object-oriented programming techniques such as classes. (They're not necessary.)
 - Do not count spaces or hyphens. 
 - Use the word "and" when working with numbers over 100, for example 245 is "two hundred and forty five" (a total of 23 letters). 
 - You can solve this problem any way you like, other than "brute force", that is, by actually writing out all the numbers from 1 to 900 and counting words. You can write code for it; or devise a mathematical shortcut; or anything else you can think of. 
