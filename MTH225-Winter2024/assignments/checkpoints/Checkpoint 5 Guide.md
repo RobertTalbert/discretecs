@@ -52,7 +52,7 @@ The two statements are NOT logically equivalent.
   (d) True (Example: $x = 2$)
 
 
-2. There exists a February that is not cold. (Or: Some Februaries are not cold.)
+2. There exists a February that is not cold. (Or: *Some Februaries are not cold*. Other correct answers are possible.) 
 
 ## S5
 
