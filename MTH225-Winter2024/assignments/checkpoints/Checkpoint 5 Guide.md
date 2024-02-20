@@ -13,6 +13,30 @@ There were no attempts on Skill S2 this time. If you are using this problem for 
 
 ## S3
 
+| $p$ | $q$ | $r$ | $\neg p$ | $q \rightarrow r$ | $(\neg p) \vee (q \rightarrow r)$ |
+| --- | --- | --- | -------- | ----------------- | --------------------------------- |
+| T   | T   | T   | F        | T                 | T                                 |
+| T   | T   | F   | F        | F                 | F                                 |
+| T   | F   | T   | F        | T                 | T                                 |
+| T   | F   | F   | F        | T                 | T                                 |
+| F   | T   | T   | T        | T                 | T                                 |
+| F   | T   | F   | T        | F                 | T                                 |
+| F   | F   | T   | T        | T                 | T                                 |
+| F   | F   | F   | T        | T                 | T                                 |
+
+
+| $p$ | $q$ | $r$ | $\neg p$ | $(\neg p) \vee q$ | $((\neg p) \vee q) \rightarrow r$ |
+| --- | --- | --- | -------- | ----------------- | --------------------------------- |
+| T   | T   | T   | F        | T                 | T                                 |
+| T   | T   | F   | F        | T                 | F                                 |
+| T   | F   | T   | F        | F                 | T                                 |
+| T   | F   | F   | F        | F                 | T                                 |
+| F   | T   | T   | T        | T                 | T                                 |
+| F   | T   | F   | T        | T                 | F                                 |
+| F   | F   | T   | T        | T                 | T                                 |
+| F   | F   | F   | T        | T                 | F                                 |
+
+The two statements are NOT logically equivalent.
 
 
 ## S4 
