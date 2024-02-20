@@ -54,6 +54,11 @@ The two statements are NOT logically equivalent.
 
 2. There exists a February that is not cold. (Or: *Some Februaries are not cold*. Other correct answers are possible.) 
 
+### Common mistakes
+
+- **Saying the negation is "February is never cold":** "Never cold" is not the opposite (negation) of "always cold" because both of those statements can be false at the same time. Analogy: The negation of "MTH 225 always holds class on a Friday" is false, because we didn't hold class on Friday February 2/16; but the statement "MTH 225 never holds class on a Friday" is also false, because we did hold class on Friday 2/2. 
+- **Saying the negation is "February is sometimes cold":** "Sometimes cold" is not the opposite (negation) of "always cold" because both of those statements can be true at the same time. Analogy: The statement "MTH 225 always meets before 6pm" is true. The statement "MTH 225 sometimes meets before 6pm" is also true. The word "sometimes" does not automatically mean "sometimes yes, sometimes no". 
+
 ## S5
 
 Given: $a_0 = 0, a_1 = 2, a_2 = 2$. 
