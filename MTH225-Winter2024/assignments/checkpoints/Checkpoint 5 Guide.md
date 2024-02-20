@@ -43,7 +43,16 @@ The two statements are NOT logically equivalent.
 
 *Note*: Explanations are provided for part 1. These are not required for your work; they're only here for study purposes so you can see why the statements are true or false. 
 
+1. (a) False ($2^7 = 128$) 
 
+  (b) False ($2^3 = 8$)
+
+  (c) False (Counterexample: $x = 7$)
+
+  (d) True (Example: $x = 2$)
+
+
+2. There exists a February that is not cold. (Or: Some Februaries are not cold.)
 
 ## S5
 
