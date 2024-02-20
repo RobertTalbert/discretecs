@@ -40,3 +40,6 @@ $a_7 = a_6 + 3a_4 = 20 + 3(8) = 44$
 - **Only going back two steps in the recurrence relation instead of three:** The recurrence relation is $a_n = a_{n-1} + 3a_{n-3}$, so three steps back are required. Several only went back two,and computed $a_n = a_{n-1} + 3a_{n-2}$.
 
 ## S6
+
+1. $R(1) = 4$, $R(2) = 7$, $R(3) = 10$. 
+2. For $n > 1$, $R(n) = R(n-1) + 3$. This is true because in the visual, each step is obtained from taking the previous figure and adding three hexagons on to the right (or left) of the figure. 
