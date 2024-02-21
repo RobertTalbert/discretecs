@@ -14,7 +14,7 @@ Original statement: *If the rug is dirty, then it should be vacuumed.*
 ### Common mistakes
 
 - **Forming the converse by reversing the order of the sentence but without changing the hypothesis and conclusion:** This would look like "*The rug should be vacuumed if it's dirty.*" Note the word "if" here: What follows the word "if" is the hypothesis of the statement, no matter where it is located. And it's the same hypothesis as the initial statement; the logic of the conditional statement hasn't changed, so this isn't the converse. 
-- **Forming the negation incorrectly:** The negation of $P \rightarrow Q$ is $P \wedge (\neg Q)$ (that is, "$P$ and not $Q$"). In particular the negation of this statement **is not** another if-then statement. 
+- **Forming the negation incorrectly:** The negation of $P \rightarrow Q$ is $P \wedge (\neg Q)$ (that is, " $P$ and not $Q$"). In particular the negation of this statement **is not** another if-then statement. 
 
 ## C2
 
