@@ -199,7 +199,7 @@ In the second part, $g(g(n+6))$ is *function composition*. It says, take $n+6$ a
 
 This problem has two parts: 
 
-1. Find the value of $g(1)$. There's no restriction on how you do this (as long as you stay within academic integrity rules, of course). 
+1. **Find the value of $g(1)$.** There's no restriction on how you do this (as long as you stay within academic integrity rules, of course). 
 2. Explain why your answer is right **without resorting to a brute force argument**. A "brute force" argument is one where you simply grind through all of the calculations involved without using any mathematical insights. The first few steps of that process would look like the following: 
 
 - The formula gives $g(1) = g(g(7))$. 
