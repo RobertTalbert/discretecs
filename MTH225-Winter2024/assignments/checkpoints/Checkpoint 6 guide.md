@@ -70,7 +70,7 @@ These are the same common mistakes that have cropped up before; please see the g
 
 ### Common mistakes
 
-- **Putting set braces around the empty set in item 1:** That is, giving the answer as $\lbrace \emptyset \rbrace$ instead of just $\emptyset$ which is the correct response. The sets $\lbrace \emptyset \rbrace$ and $\emptyset$ are not equal! One is empty and the other isn't. 
+- **Putting set braces around the empty set in item 1:** That is, giving the answer as $\lbrace \emptyset \rbrace$ instead of just $\emptyset$ which is the correct response. The sets $\lbrace \emptyset \rbrace$ and $\emptyset$ are not equal! One is empty and the other isn't. This is treated as a "simple" error in terms of the success criteria. 
 - **Mixing up intersection and union:** For example stating that $A \cap C$ in item 1 is $\lbrace 2,3,4,6,7,8 \rbrace$. 
 - **Giving the full power set in item 8 instead of its cardinality:** That's what the " $| \ |$ " bars mean -- cardinality. 
 
