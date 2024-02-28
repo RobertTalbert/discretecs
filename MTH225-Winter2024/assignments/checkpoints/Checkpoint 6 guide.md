@@ -38,7 +38,7 @@ These are the same common mistakes that have cropped up before; please see the g
 
 1. (a) False 
 
-   (b) True
+   (b) False
 
    (c) True
 
