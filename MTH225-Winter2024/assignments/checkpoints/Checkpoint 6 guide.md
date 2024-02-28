@@ -28,6 +28,12 @@ These are the same common mistakes that have cropped up before; please see the g
 4. Assume that $1 + 2+3+ \cdots + k = \dfrac{k(k+1)}{2}$ for some positive integer $k$. 
 5. Prove that $1 + 2+3+ \cdots + (k+1)= \dfrac{(k+1)(k+2)}{2}$. 
 
+### Common mistakes
+
+- **Not using the phrase "Assume that..." in the inductive hypothesis:** That is, writing that the inductive hypothesis only says " $1 + 2+3+ \cdots + k = \dfrac{k(k+1)}{2}$ for some positive integer $k$ ". It's very important to communicate that we are *assuming* that this is the case; in an actual proof, this would need to be made clear. *Omission of this phrase is being counted from now on as a "simple" error as long as the rest of the work is correct.*
+- **In the inductive hypothesis and inductive step, having only $k$ and $k+1$ on the left sides:** For example, saying that we will assume that $k = \dfrac{k(k+1)}{2}$. It's supposed to be *the sum of 1 through $k$*, not just $k$ itself. As discussed in class this is just the predicate, identified in step 1, with $k$ instead of $n$. 
+
+
 ## C3
 
 1. (a) False 
