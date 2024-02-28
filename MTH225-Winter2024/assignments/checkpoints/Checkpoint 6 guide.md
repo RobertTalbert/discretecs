@@ -11,7 +11,12 @@ Initial statement: "I will say hello if I see you later."
 5. If I don't see you later, I won't say hello. 
 6. I saw you later but I didn't say hello. 
 
+### Common mistakes
 
+These are the same common mistakes that have cropped up before; please see the guides for [Checkpoint 3](https://github.com/RobertTalbert/discretecs/blob/master/MTH225-Winter2024/assignments/checkpoints/Checkpoint%203%20guide.md) and [Checkpoint 2](https://github.com/RobertTalbert/discretecs/blob/master/MTH225-Winter2024/assignments/checkpoints/Checkpoint%202%20solutions.md) for details: 
+
+- **Using an incorrect form for the negation**, and 
+- **Not actually switching the hypothesis and conclusion in the converse** but just movintg them to different parts of the sentence. 
 
 ## C2 
 
