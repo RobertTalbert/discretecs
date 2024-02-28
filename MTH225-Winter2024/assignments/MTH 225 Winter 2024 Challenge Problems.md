@@ -186,3 +186,24 @@ This problem has two parts:
 2. Prove the conjecture you made. Induction could be one avenue for proof; but there could also be others. 
 
 You will need to play with this function first to get a sense of what it does and what its outputs are. **You do not need to include the experimentations in your writeup** -- this will consist only of your conjecture, and the proof of your conjecture. 
+
+
+### Problem 10
+
+Consider the function $g:\mathbb{N} \rightarrow \mathbb{N}$ defined recursively: 
+
+* If $n \geq 1000$, then $g(n) = n-3$. 
+* If $n < 1000$, then $g(n) = g(g(n+6))$. 
+
+In the second part, $g(g(n+6))$ is *function composition*. It says, take $n+6$ and plug this into $g$, then take the output and plug *that* into $g$. For example, $g(998) = g(g(1004))$, which becomes $g(1001)$ because the first part says $g(1004) = 1004 - 3$; and then $g(1001) = 998$, so in the end $g(998) = 998$. Please note, $g(g(n+6))$ is *not* multiplication, but rather taking the output of $g$ and plugging it back into $g$. 
+
+This problem has two parts: 
+
+1. Find the value of $g(1)$. There's no restriction on how you do this (as long as you stay within academic integrity rules, of course). 
+2. Explain why your answer is right **without resorting to a brute force argument**. A "brute force" argument is one where you simply grind through all of the calculations involved without using any mathematical insights. The first few steps of that process would look like the following: 
+
+- The formula gives $g(1) = g(g(7))$. 
+- And $g(7) = g(g(13))$, so $g(1) = g(g(g(13)))$.
+- And $g(13) = g(g(19))$, so $g(1) = g(g(g(g(19))))$.
+
+And so on, which creates an insanely long chain of function compositions involving a lot of separate steps. Don't give your explanation *entirely* this way. You can use the idea of function composition and perhaps some of these steps, but at some point your explanation must involve some mathematical insight to make the process of computation shorter than this will be. 
