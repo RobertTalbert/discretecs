@@ -185,3 +185,4 @@ This problem has two parts:
 1. State a general conjecture about the value of $f(n)$. This conjecture would start off: "For every natural number $n$, $f(n)$ equals..." and then you complete the statement with something true, that is not just the original definition of $f$ above. 
 2. Prove the conjecture you made. Induction could be one avenue for proof; but there could also be others. 
 
+You will need to play with this function first to get a sense of what it does and what its outputs are. **You do not need to include the experimentations in your writeup** -- this will consist only of your conjecture, and the proof of your conjecture. 
