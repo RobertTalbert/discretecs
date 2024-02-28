@@ -15,7 +15,7 @@ Initial statement: "I will say hello if I see you later."
 
 >For every integer $n \geq 1$, $1 + 2+3+ \cdots + n = \dfrac{n(n+1)}{2}$.  
 
-1. The predicate is "$1 + 2+3+ \cdots + n = \dfrac{n(n+1)}{2}$". 
+1. The predicate is " $1 + 2+3+ \cdots + n = \dfrac{n(n+1)}{2}$ ". 
 2. The base case is $n = 1$
 3. Suppose $n=1$. Then the left side of the predicate is the one-term "sum" consisting of just the number 1. The right side of the predicate is the fraction $\dfrac{1(1+1)}{2}$. This fraction equals $\frac{1 \cdot 2}{2}$ which equals $1$. The sides are equal so the base case holds. 
 4. Assume that $1 + 2+3+ \cdots + k = \dfrac{k(k+1)}{2}$ for some positive integer $k$. 
