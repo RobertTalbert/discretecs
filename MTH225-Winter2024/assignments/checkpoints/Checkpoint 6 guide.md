@@ -46,7 +46,7 @@ These are the same common mistakes that have cropped up before; please see the g
 
    (e) False 
 
-2. (a) $\lbrace 9, 16, 25\rbrace$
+2. (a) $\lbrace 5,6,7 \rbrace$
 
    (b) Two possibilities: Either INCORRECT SYNTAX because it's written predicate-first; or it's the set {True, False} when interpreting $n^2 < 100$ as a Boolean-valued function. 
 
