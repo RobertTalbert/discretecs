@@ -11,6 +11,8 @@ Initial statement: "I will say hello if I see you later."
 5. If I don't see you later, I won't say hello. 
 6. I saw you later but I didn't say hello. 
 
+
+
 ## C2 
 
 >For every integer $n \geq 1$, $1 + 2+3+ \cdots + n = \dfrac{n(n+1)}{2}$.  
@@ -33,11 +35,11 @@ Initial statement: "I will say hello if I see you later."
 
    (e) False 
 
-2. (a) $\{9, 16, 25\}$
+2. (a) $\lbrace 9, 16, 25\rbrace$
 
    (b) Two possibilities: Either INCORRECT SYNTAX because it's written predicate-first; or it's the set {True, False} when interpreting $n^2 < 100$ as a Boolean-valued function. 
 
-   (c) $\{2,4,6,8,10\}$
+   (c) $\lbrace 2,4,6,8,10 \rbrace$
 
 
 ## C4
