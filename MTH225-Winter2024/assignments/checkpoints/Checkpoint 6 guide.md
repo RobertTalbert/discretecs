@@ -79,6 +79,10 @@ These are the same common mistakes that have cropped up before; please see the g
 1. Since the choice of blouse and the choice of skirt are independent of each other, the Multiplicative Principle applies, and the count is $4 \cdot 3 = 12$. 
 2. The Principle of Inclusion and Exclusion says that the count is the number of sneakers, plus the number of white shoes, minus the number of white sneakers: $3 + 5 - 1 = 7$. 
 
+### Common mistakes
+
+- **Not providing work that explains the answers:** This skill is one of the few where explanations and/or intermediate work, not just an answer, is required for a successful attempt. (See the success criteria for this skill.) So either giving an answer, right or otherwise, without supporting work; or giving work that doesn't clearly follow from the problem statement. 
+
 ## C6
 
 1. (a) $7! = 7 \cdot 6 \cdot 5 \cdot 4 \cdot 3 \cdot 2 \cdot 1 = 5040$
