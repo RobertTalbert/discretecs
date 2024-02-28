@@ -81,7 +81,7 @@ These are the same common mistakes that have cropped up before; please see the g
 
 ### Common mistakes
 
-- **Not providing work that explains the answers:** This skill is one of the few where explanations and/or intermediate work, not just an answer, is required for a successful attempt. (See the success criteria for this skill.) So either giving an answer, right or otherwise, without supporting work; or giving work that doesn't clearly follow from the problem statement. 
+- **Not providing work that explains the answers:** This skill is one of the few where explanations and/or intermediate work, not just an answer, is required for a successful attempt. (See the success criteria for this skill.) So either giving an answer, right or otherwise, without supporting work; or giving work that doesn't clearly follow from the problem statement, will result in an unsuccessful attempt. 
 
 ## C6
 
