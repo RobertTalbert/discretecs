@@ -90,7 +90,7 @@ These are the same common mistakes that have cropped up before; please see the g
    (b) $\displaystyle{\binom{99}{97} = \frac{99!}{97! \cdot 2!} = \frac{99 \cdot 98}{2} = 4851}$
 
 
-2. By definition the count of these is $\displaystyle{\binom{10}{4} = 210}$. 
+2. [By definition](https://publish.obsidian.md/mth225/Combinatorics/Binomial+coefficient), the count of these is $\displaystyle{\binom{10}{4} = 210}$. 
 
 --- 
 
