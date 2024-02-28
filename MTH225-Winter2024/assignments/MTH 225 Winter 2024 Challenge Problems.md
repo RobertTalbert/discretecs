@@ -163,3 +163,25 @@ Rules for this problem:
 - Use the word "and" when working with numbers over 100, for example 245 is "two hundred and forty five" (a total of 23 letters). 
 - You can solve this problem any way you like, other than "brute force", that is, by actually writing out all the numbers from 1 to 900 and counting words. You can write code for it; or devise a mathematical shortcut; or anything else you can think of. 
 - But whatever you end up doing, your submission must clearly state your answer *and* especially, you must give a correct, complete, and clear explanation that thoroughly explains how you arrived at the answer. 
+
+### Problem 9
+
+Consider the following function $f: \mathbb{N} \rightarrow \mathbb{N}$, defined recursively: 
+
+* Define $f(0) = 1$. 
+* If $n > 0$, then $f(n) = (f(n-1)-1)^2$. 
+
+In Python code, this function looks like: 
+```python
+def f(n):
+    if n == 0: 
+        return 1
+    else:
+        return (f(n-1)-1)**2
+```
+
+This problem has two parts: 
+
+1. State a general conjecture about the value of $f(n)$. This conjecture would start off: "For every natural number $n$, $f(n)$ equals..." and then you complete the statement with something true, that is not just the original definition of $f$ above. 
+2. Prove the conjecture you made. Induction could be one avenue for proof; but there could also be others. 
+
