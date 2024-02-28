@@ -68,6 +68,11 @@ These are the same common mistakes that have cropped up before; please see the g
 5. $\lbrace 1,2,3,4,5,6,7,8,9,10 \rbrace$
 6. $8$ 
 
+### Common mistakes
+
+- **Mixing up intersection and union:** For example stating that $A \cap C$ in item 1 is $\lbrace 2,3,4,6,7,8 \rbrace$. 
+- **Giving the full power set in item 8 instead of its cardinality:** That's what the " $| \hskip |$ " bars mean. 
+
 ## C5
 
 1. Since the choice of blouse and the choice of skirt are independent of each other, the Multiplicative Principle applies, and the count is $4 \cdot 3 = 12$. 
