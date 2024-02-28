@@ -71,7 +71,7 @@ These are the same common mistakes that have cropped up before; please see the g
 ### Common mistakes
 
 - **Mixing up intersection and union:** For example stating that $A \cap C$ in item 1 is $\lbrace 2,3,4,6,7,8 \rbrace$. 
-- **Giving the full power set in item 8 instead of its cardinality:** That's what the " $| \hskip{0.1in} |$ " bars mean. 
+- **Giving the full power set in item 8 instead of its cardinality:** That's what the " $| \ |$ " bars mean. 
 
 ## C5
 
