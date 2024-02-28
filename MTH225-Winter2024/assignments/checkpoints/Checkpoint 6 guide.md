@@ -31,7 +31,7 @@ These are the same common mistakes that have cropped up before; please see the g
 ### Common mistakes
 
 - **Not using the phrase "Assume that..." in the inductive hypothesis:** That is, writing that the inductive hypothesis only says " $1 + 2+3+ \cdots + k = \dfrac{k(k+1)}{2}$ for some positive integer $k$ ". It's very important to communicate that we are *assuming* that this is the case; in an actual proof, this would need to be made clear. *Omission of this phrase is being counted from now on as a "simple" error as long as the rest of the work is correct.*
-- **In the inductive hypothesis and inductive step, having only $k$ and $k+1$ on the left sides:** For example, saying that we will assume that $k = \dfrac{k(k+1)}{2}$. It's supposed to be *the sum of 1 through $k$*, not just $k$ itself. As discussed in class this is just the predicate, identified in step 1, with $k$ instead of $n$. 
+- **In the inductive hypothesis and inductive step, having only $k$ and $k+1$ on the left sides:** For example, saying that we will assume that $k = \dfrac{k(k+1)}{2}$. It's supposed to be *the sum of 1 through $k$* , not just $k$ itself. As discussed in class this is just the predicate, identified in step 1, with $k$ instead of $n$. 
 
 
 ## C3
@@ -51,6 +51,10 @@ These are the same common mistakes that have cropped up before; please see the g
    (b) Two possibilities: Either INCORRECT SYNTAX because it's written predicate-first; or it's the set {True, False} when interpreting $n^2 < 100$ as a Boolean-valued function. 
 
    (c) $\lbrace 2,4,6,8,10 \rbrace$
+
+### Common mistakes
+
+- **Answering "True" for 1(a)**: The set $\lbrace 1,2,3 \rbrace$ is not an *element* of the set $\lbrace 0,1,2,3,4 \rbrace$, it is a *subset*. The elements of the set $\lbrace 0,1,2,3,4 \rbrace$ are the numbers 0, 1, 2, 3, and 4. 
 
 
 ## C4
