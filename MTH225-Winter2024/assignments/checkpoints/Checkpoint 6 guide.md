@@ -55,7 +55,7 @@ These are the same common mistakes that have cropped up before; please see the g
 ### Common mistakes
 
 - **Answering "True" for 1(a)**: The set $\lbrace 1,2,3 \rbrace$ is not an *element* of the set $\lbrace 0,1,2,3,4 \rbrace$, it is a *subset*. The elements of the set $\lbrace 0,1,2,3,4 \rbrace$ are the numbers 0, 1, 2, 3, and 4. 
-- **Stating that 2(b) is the set $\lbrace 64, 81 \rbrace$ or $\lbrace 8, 9 \rbrace$:** Both are incorrect because of the reasons explained above. The second of these, $\lbrace 8, 9 \rbrace$, would be a correct roster notation for the set $\lbrace n \in \{8,9,10,11\} : \lbrace n^2 < 100  \rbrace$ -- that is, if the original set were written in correct set-builder notation. 
+- **Stating that 2(b) is the set $\lbrace 64, 81 \rbrace$ or $\lbrace 8, 9 \rbrace$:** Both are incorrect because of the reasons explained above. The second of these, $\lbrace 8, 9 \rbrace$, would be a correct roster notation for the set $\lbrace n \in \{8,9,10,11\} : n^2 < 100  \rbrace$ -- that is, if the original set were written in correct set-builder notation. 
 
 
 ## C4
