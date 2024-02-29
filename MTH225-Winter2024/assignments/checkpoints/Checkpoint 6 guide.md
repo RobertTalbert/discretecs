@@ -135,7 +135,7 @@ The two propositions **are not** logically equivalent.
 
 ### Common mistakes: 
 
-- **Giving the final truth table without the intermediate columns:** Showing all intermediate columns is a requirement for success on this problem. [Please review the success criteria](https://shottr.cc/s/1i2S/SCR-20240229-jh6.png), printed below the problem, which states this. 
+- **Giving the final truth table without the intermediate columns:** Showing all intermediate columns is a requirement for success on this problem. [Please review the success criteria](https://shottr.cc/s/1i2S/SCR-20240229-jh6.png), printed below the problem, which state this. 
 
 
 ## S4
@@ -168,7 +168,14 @@ Given: $a_0 = 1$, $a_1 = 2$, and $a_n = 2a_{n-1} - 3a_{n-2}$ for $n \geq 2$.
    - A new right column, having $n-1$ blocks in it
    - One additional block in the top right corner. 
 
-To count the number of blocks in step $n$, $R(n-1)$ gives the number of blocks from the previous step. Then add $n$, $n-1$, and $1$ to make the new figure. The resulting recurrence relation is $R(n) = R(n-1) + n + n-1 + 1$ or $R(n) = R(n-1) + 2n$. 
+To count the number of blocks in step $n$, $R(n-1)$ gives the number of blocks from the previous step. Then add $n$, $n-1$, and $1$ to make the new figure. The resulting recurrence relation is $R(n) = R(n-1) + n + n-1 + 1$ or $R(n) = R(n-1) + 2n$. (*Other visual explanations are possible.*)
+
+### Common mistakes
+
+- **Giving a closed formula instead of a recurrence relation:** For example, giving $R(n) = n(n+1)$ as the answer. This is not a recurrence relation. [Go review the vault article](https://publish.obsidian.md/mth225/Recursion+and+Induction/Recurrence+relation) if you need a refresher on this concept. 
+- **Giving a recurrence relation but it doesn't produce the right numbers:** For example $R(n) = R(n-1) + n^3$ is a recurrence relation, but it's not a correct one for this situaton because $R(2) = R(1) + 2^3 = 2 + 8 = 10$ but it's supposed to be $6$ according to item 1. **Always double check your recurrence relations to make sure they produce correct data before submitting your work.** You can save yourself a lot of time later with 2 minutes of BS-detection. 
+- **Giving a recurrence relation that is correct but the explanation does not clearly indicate how it was obtained from the visual pattern**: For example, giving $R(n) = R(n-1) + 2n$ as the recurrence relation, but the explanation is just "Because each step adds $2n$ to the previous one." This does not explain how you know it's supposed to be $2n$ that's added, it is merely restating in English what your recurrence relation says. There are a lot of way to explain the recurrence relation and they all need to explain why the recurrence relation formula faithfully represents what the visual pattern is doing. 
+
 
 ## S7
 
