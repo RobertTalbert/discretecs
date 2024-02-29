@@ -185,7 +185,7 @@ Note: Explanations are not necessary for this problem, but some explanations are
 2. Not a function (*because 4 has no output*)
 3. **Function**. Domain = $\lbrace 1,9,7,3,6 \rbrace$. Codomain = $\lbrace 4,7,3,8 \rbrace$. Range = $\lbrace 4,7,3,8 \rbrace$. 
 4. Not a function (*because 8 is mapped to two outputs*)
-5. Not a function (*because 5 is mapped to two outputs*)
+5. Not a function (*because 7 is mapped to two outputs*)
 6. **Function.** Domain = $\lbrace 2,1,0 \rbrace$. Codomain = $\lbrace 3,8,9,4 \rbrace$. Range = $\lbrace 8,9,4 \rbrace$. 
 
 ### Common mistakes
