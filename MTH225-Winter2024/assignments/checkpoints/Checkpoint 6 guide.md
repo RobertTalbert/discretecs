@@ -158,10 +158,11 @@ Given: $a_0 = 1$, $a_1 = 2$, and $a_n = 2a_{n-1} - 3a_{n-2}$ for $n \geq 2$.
 ## S6
 
 1. $R(1) = 2, R(2) = 6, R(3) = 12$. 
-2. In the visual pattern, first note that in step $n$ the figure is a grid of blocks with $n$ rows and $n+1$ columns. Each step takes the figure in the previous step and adds the following to it: 
+2. In the visual pattern, each step takes the figure in the previous step and adds the following to it: 
    - A new top row of blocks, having $n$ blocks in it 
    - A new right column, having $n-1$ blocks in it
    - One additional block in the top right corner. 
+
 To count the number of blocks in step $n$, $R(n-1)$ gives the number of blocks from the previous step. Then add $n$, $n-1$, and $1$ to make the new figure. The resulting recurrence relation is $R(n) = R(n-1) + n + n-1 + 1$ or $R(n) = R(n-1) + 2n$. 
 
 ## S7
