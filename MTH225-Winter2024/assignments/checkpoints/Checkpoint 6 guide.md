@@ -117,7 +117,7 @@ These are the same common mistakes that have cropped up before; please see the g
 | T   | T   | T   | F        | T                 | T                                 |
 | T   | T   | F   | T        | T                 | T                                 |
 | T   | F   | T   | F        | F                 | F                                 |
-| T   | F   | F   | T        | R                 | T                                 |
+| T   | F   | F   | T        | T                 | T                                 |
 | F   | T   | T   | F        | T                 | T                                 |
 | F   | T   | F   | T        | T                 | T                                 |
 | F   | F   | T   | F        | F                 | T                                 |
