@@ -133,6 +133,11 @@ These are the same common mistakes that have cropped up before; please see the g
 
 The two propositions **are not** logically equivalent. 
 
+### Common mistakes: 
+
+- **Giving the final truth table without the intermediate columns:** Showing all intermediate columns is a requirement for success on this problem. [Please review the success criteria](https://shottr.cc/s/1i2S/SCR-20240229-jh6.png), printed below the problem, which states this. 
+
+
 ## S4
 
 1. (a) False (because $12^2 = 144$ which is bigger than 100)
