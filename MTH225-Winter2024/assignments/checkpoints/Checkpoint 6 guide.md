@@ -94,4 +94,83 @@ These are the same common mistakes that have cropped up before; please see the g
 
 --- 
 
-*Supplemental Skills coming later*
+## Supplemental skills
+
+## S1
+
+1. $370$
+2. $(338)_{16}$
+3. $(10100010)_2$
+4. `1100 1001`
+
+## S2
+
+1. `01011100` 
+2. `01110`
+3. `010011111`
+4. `011010`, Remainder : 1
+
+## S3
+
+| $p$ | $q$ | $r$ | $\neg r$ | $q \vee (\neg r)$ | $p \rightarrow (q \vee (\neg r))$ |
+| --- | --- | --- | -------- | ----------------- | --------------------------------- |
+| T   | T   | T   | F        | T                 | T                                 |
+| T   | T   | F   | T        | T                 | T                                 |
+| T   | F   | T   | F        | F                 | F                                 |
+| T   | F   | F   | T        | R                 | T                                 |
+| F   | T   | T   | F        | T                 | T                                 |
+| F   | T   | F   | T        | T                 | T                                 |
+| F   | F   | T   | F        | F                 | T                                 |
+| F   | F   | F   | T        | T                 | T                                 |
+
+
+| $p$ | $q$ | $p \rightarrow q$ | $\neg(p \rightarrow q)$ | $\neg p$ | $(\neg p) \vee q$ |
+| --- | --- | ----------------- | ----------------------- | -------- | ----------------- |
+| T   | T   | T                 | F                       | F        | T                 |
+| T   | F   | F                 | T                       | F        | F                 |
+| F   | T   | T                 | F                       | T        | T                 |
+| F   | F   | T                 | F                       | T        | T                 |
+
+The two propositions **are not** logically equivalent. 
+
+## S4
+
+1. (a) False (because $12^2 = 144$ which is bigger than 100)
+
+   (b) True (because $9^2 = 81$ which is odd)
+
+   (c) False (because $12$ is a counterexample)
+
+   (d) True (because $2$ is an example -- $2^2 = 4$ which is not odd)
+
+2. There are at least two questions on this quiz that do not have the same answer. (*Other correct responses, differently phrased but equivalent to this one, are possible*)
+
+## S5
+
+Given: $a_0 = 1$, $a_1 = 2$, and $a_n = 2a_{n-1} - 3a_{n-2}$ for $n \geq 2$. 
+
+- $a_2 = 2a_1 - 3a_0 = 2(2) - 3(1) = 1$
+- $a_3 = 2a_2 - 3a_1 = 2(1) - 3(2) = -4$
+- $a_4 = 2a_3 - 3a_2 = 2(-4) - 3(1) = -11$
+- $a_5 = 2a_4 - 3a_3 = 2(-11) - 3(-4) = -22 + 12 = -10$
+- $a_6 = 2a_5 - 3a_4 = 2(-10) - 3(-11) = -20 + 33 = 13$
+
+## S6
+
+1. $R(1) = 2, R(2) = 6, R(3) = 12$. 
+2. In the visual pattern, first note that in step $n$ the figure is a grid of blocks with $n$ rows and $n+1$ columns. Each step takes the figure in the previous step and adds the following to it: 
+   - A new top row of blocks, having $n$ blocks in it 
+   - A new right column, having $n-1$ blocks in it
+   - One additional block in the top right corner. 
+To count the number of blocks in step $n$, $R(n-1)$ gives the number of blocks from the previous step. Then add $n$, $n-1$, and $1$ to make the new figure. The resulting recurrence relation is $R(n) = R(n-1) + n + n-1 + 1$ or $R(n) = R(n-1) + 2n$. 
+
+## S7
+
+Note: Explanations are not necessary for this problem, but some explanations are provided in italics to help you understand the correct answers. 
+
+1. Not a function (*because 3 has no output*) 
+2. Not a function (*because 4 has no output*)
+3. **Function**. Domain = $\lbrace 1,9,7,3,6 \rbrace$. Codomain = $\lbrace 4,7,3,8 \rbrace$. Range = $\lbrace 4,7,3,8 \rbrace$. 
+4. Not a function (*because 8 is mapped to two outputs*)
+5. Not a function (*because 5 is mapped to two outputs*)
+6. **Function.** Domain = $\lbrace 2,1,0 \rbrace$. Codomain = $\lbrace 3,8,9,4 \rbrace$. Range = $\lbrace 8,9,4 \rbrace$. 
