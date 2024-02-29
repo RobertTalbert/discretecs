@@ -187,3 +187,7 @@ Note: Explanations are not necessary for this problem, but some explanations are
 4. Not a function (*because 8 is mapped to two outputs*)
 5. Not a function (*because 5 is mapped to two outputs*)
 6. **Function.** Domain = $\lbrace 2,1,0 \rbrace$. Codomain = $\lbrace 3,8,9,4 \rbrace$. Range = $\lbrace 8,9,4 \rbrace$. 
+
+### Common mistakes
+
+- **Misidentifying one of the non-functions (1,2,4, or 5) as a function:** See the explanations above for why these are not functions. There are only two ways for a mapping to fail being a function. 
