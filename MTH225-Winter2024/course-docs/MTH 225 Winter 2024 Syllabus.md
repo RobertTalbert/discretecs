@@ -180,10 +180,12 @@ You will work out individual Skill exercises separately, and each attempt on a S
 
 Your course grade is assigned using the table below. It shows the *minimum* requirements for the "base grades" of A, B, C, and D. Plus/minus modifiers are applied using the rules below the table. **To earn a grade in the course, you need to meet or exceed *all* the requirements for that grade.**
 
+**Updated 2024-03-07**
+
 | Grade | CORE skills mastered | SUPPLEMENTAL skills mastered | Challenge Problems | Engagement Credits |
 | :-----: | :--------------------: | :----------------------------: | :------------------: | :------------------: |
-| A     |  6                    |                 8             |      10              |       90             |
-| B     |  6                   |                   6           |        6            |         80           |
+| A     |  6                    |                 8             |      8              |       90             |
+| B     |  6                   |                   6           |        5            |         80           |
 | C     |  6                    |               4               |       2             |        70            |
 | D      | 3                    |                2              |        0            |        50            |
 
