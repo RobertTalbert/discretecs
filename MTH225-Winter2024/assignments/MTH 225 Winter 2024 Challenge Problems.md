@@ -2,7 +2,7 @@
 
 ## General notes about these problems 
 
-- You do not need to work every single one of these problems. A grade of "A" in the course requires ten (10)  Successful solutions; a "B" requires six (6); a "C" requires two (2). Choose problems that appeal to your curiosity and interest. 
+- You do not need to work every single one of these problems. A grade of "A" in the course requires eight (8)  Successful solutions; a "B" requires five (5); a "C" requires two (2). Choose problems that appeal to your curiosity and interest. 
 - You are to submit **typewritten** solutions that are **clear, correct, and complete**. Please see the Standards for Student Work document for details on the criteria on what these mean. 
 - Your solution **must represent your ideas, that you yourself generated, and must be given in your own voice**. They cannot significantly consist of ideas from another person or from an artificial intelligence tool, and they must be given in your own words. Violations of this policy will be investigated as academic misconduct. See the syllabus for the full policy. 
 - Challenge Problem submissions are graded "Success" or "Retry". Perfection is not required for "Success", but your solutions need to be free of major errors, and consist of complete good-faith efforts that are clearly communicated. Again, see the Standards for Student Work document for details on the criteria used to determine "Success". 
