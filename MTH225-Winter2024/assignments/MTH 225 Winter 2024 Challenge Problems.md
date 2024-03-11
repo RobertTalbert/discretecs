@@ -197,6 +197,7 @@ This problem has two parts:
 
 You will need to play with this function first to get a sense of what it does and what its outputs are. **You do not need to include the experimentations in your writeup** -- this will consist only of your conjecture, and the proof of your conjecture. 
 
+**UPDATE 2024-03-11**: To clarify -- there is a distinct pattern in the outputs of this function that your conjecture needs to capture and make precise. Your conjecture needs to be true, of course, but it cannot be just any true statement, like "$f(n)$ is a number for all $n$". To discover this pattern, again, requires experimentation. For example make a table of outputs for $n = 0$ to $n=10$. 
 
 ### Problem 10
 
