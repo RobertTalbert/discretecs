@@ -218,3 +218,21 @@ This problem has two parts:
 - And $g(13) = g(g(19))$, so $g(1) = g(g(g(g(19))))$.
 
 And so on, which creates an insanely long chain of function compositions involving a lot of separate steps. Don't give your explanation *entirely* this way. You can use the idea of function composition and perhaps some of these steps, but at some point your explanation must involve some mathematical insight to make the process of computation shorter than this will be. 
+
+
+### Problem 11
+
+The **floor function**, denoted $\lfloor x \rfloor$, is a mathematical function that takes in a real number as its input, then rounds it down to the next integer. For example, $\lfloor 3.8 \rfloor = 3$ and $\lfloor -8.7 \rfloor = -9$. In Python you can implement the floor function from the `math` library: First enter `import math` to load the library, then use `math.floor`. For example: 
+
+```python
+import math
+math.floor(-8.7)
+
+# Returns -9 as output
+```
+
+Over Spring Break, one of the people Prof. Talbert follows on Twitter/X posted this: 
+
+![](https://i.ibb.co/khY2cCC/SCR-20240303-ppnc.png)
+
+**Prove or disprove that this claim is correct.** If you think that the claim in the tweet is *false*, provide a counterexample. If you think that the claim is *true*, give a proof. (Remember a proof is just a complete, clear, correct explanation for why the claim is always true. It's not an example or a list of examples, although you'll want to look at several examples to understand the problem. It also doesn't have to be an induction proof, in fact induction is not well-suited for this problem because the inputs to the function are real numbers, not just natural numbers.)
