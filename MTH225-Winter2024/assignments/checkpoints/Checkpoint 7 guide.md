@@ -11,6 +11,13 @@
 5. If it is not rainig outside, then I will not bring an umbrella. 
 6. It is raining outside but I don't bring an umbrella. 
 
+### Common mistakes
+
+These are the same common mistakes that have appeared on past Checkpoints, so please refer to past Checkpoint guides for details. **If you are making these common mistakes repeatedly, please speak with me (Talbert) about it.**
+
+- **Writing the converse by simply switching the locations in the sentence without actually changing the hypothesis or conclusion**: "I will bring an umbrella if it is raining outside." Again, this is the same statement as the original. 
+- **Not using the correct form of the negation:** It's not an if-then statement. 
+
 ## C2
 
 For every integer $n \geq 5$ , $4n < 2^n$.
