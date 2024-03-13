@@ -37,7 +37,7 @@ Explanations are provided for study/review purposes; they aren't necessary in yo
 
 2. (a) $\lbrace    3/2, 2, 5/2 \rbrace$ or $\lbrace  1.5, 2, 2.5 \rbrace$. This is mapping the "$n/2$" function over the set. 
 
-   (b) $\lbrace  8,9 \rbrace$. This is taking the set $\lbrace  8,9,10,11 \rbrace$ and filtering it using the predicate. 
+   (b) $\lbrace  8,9, 10 \rbrace$. This is taking the set $\lbrace  8,9,10,11 \rbrace$ and filtering it using the predicate. 
 
    (c) $\lbrace  2, 4, 6, 8, 10 \rbrace$. This is taking the set $\lbrace  1, 2,\dots, 10 \rbrace$ and filtering it using the predicate. 
 
