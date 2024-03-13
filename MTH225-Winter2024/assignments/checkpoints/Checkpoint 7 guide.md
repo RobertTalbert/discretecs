@@ -13,7 +13,7 @@
 
 ## C2
 
-*For every integer $n \geq 5$ , $4n < 2^n$.* 
+For every integer $n \geq 5$ , $4n < 2^n$.
 
 1. The predicate is $P(n): 4n < 2^n$. 
 2. The base case is at $n = 5$. 
