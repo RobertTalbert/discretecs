@@ -28,6 +28,12 @@ For every integer $n \geq 5$ , $4n < 2^n$.
 4. Assume that for some $k > 5$, that $4k < 2^k$. 
 5. Now prove that $4(k+1) < 2^{k+1}$. 
 
+### Common mistakes
+
+- **Putting a quantifier on the predicate:** The phrase "For every integer $n \geq 5$ " *is not* part of the predicate. Quantifying a predicate in this way makes it no longer a predicate. Leave it off. 
+- **Using "for all" instead of "for some" in the inductive hypothesis**: We are not assuming the predicate is true "for all" values of $n$ because then there would be no reason to prove anything. It's an existential quantifier, not a universal one. 
+- **Not putting parentheses around $k+1$ in the inductive step:** That is, saying that we are going to prove that $4k+1$ is less than $2^{k+1}$. Those parentheses are necessary because $4(k+1)$ and $4k + 1$ aren't equal. 
+
 ## C3
 
 Explanations are provided for study/review purposes; they aren't necessary in your submissions.
