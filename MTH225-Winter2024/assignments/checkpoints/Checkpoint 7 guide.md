@@ -80,4 +80,18 @@ Explanations are provided for study/review purposes; they aren't necessary in yo
 
 ---
 
-*Supplemental Skills coming after Thursday* 
+## S1 and S2
+
+There were no attempts on S1 and only one attempt on S2. If you attempted S2, please [use a calculator](https://www.calculator.net/binary-calculator.html) to check your work. 
+
+## S3
+
+## S4
+
+## S5
+
+## S6
+
+## S7
+
+## S8
