@@ -122,6 +122,10 @@ Explanations for the non-functions are provided, but not necessary in your submi
 5. Function. Domain = $\lbrace 1,2,9,6,4 \rbrace$. Codomain = $\lbrace 7,9,4 \rbrace$. Range = $\lbrace 9,4 \rbrace$. 
 6. Not a function. ($a$ maps to two things)
 
+### Common mistakes: 
+
+- **Labelling mapping 2 as a function:** It's not a function because $9$ has no output. This is one of two ways that a mapping can fail to be a function. 
+
 ## S8
 
 1. The function is bijective. 
