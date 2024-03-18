@@ -113,12 +113,14 @@ $a_0 = 2$ and $a_1 = 3$.
 
 ## S7
 
+Explanations for the non-functions are provided, but not necessary in your submissions.
+
 1. Function. Domain = $\lbrace c,u,v,z\rbrace$. Codomain = $\lbrace e,m,q,g,x \rbrace$. Range = $\lbrace e,m,g \rbrace$. 
-2. Not a function. 
+2. Not a function. ($9$ has no output)
 3. Function. Domain = $\lbrace k,d,n,y \rbrace$. Codomain = $\lbrace r,p,o,m,c \rbrace$. Range = $\lbrace r,p,m,c \rbrace$. 
-4. Not a function. 
+4. Not a function. ($4$ maps to two things)
 5. Function. Domain = $\lbrace 1,2,9,6,4 \rbrace$. Codomain = $\lbrace 7,9,4 \rbrace$. Range = $\lbrace 9,4 \rbrace$. 
-6. Not a function. 
+6. Not a function. ($a$ maps to two things)
 
 ## S8
 
