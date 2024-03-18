@@ -219,6 +219,7 @@ This problem has two parts:
 
 And so on, which creates an insanely long chain of function compositions involving a lot of separate steps. Don't give your explanation *entirely* this way. You can use the idea of function composition and perhaps some of these steps, but at some point your explanation must involve some mathematical insight to make the process of computation shorter than this will be. 
 
+**UPDATE 2024-03-18**: Writing computer code to implement the function above is a good idea, for BS-checking purposes. *But your solution cannot just be a computer program* because having a computer work through all the computations is still a brute-force approach. Your solution, as mentioned, must involve some kind of mathematical insight to explain why your answer is correct, and we shouldn't be left to trust a computer. 
 
 ### Problem 11
 
