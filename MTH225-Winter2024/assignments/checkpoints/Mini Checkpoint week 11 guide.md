@@ -24,7 +24,7 @@
 2. $\lbrace 1,2,3,4,5,6 \rbrace$
 3. $\lbrace 5 \rbrace$
 4. $\lbrace 7,8,9,10 \rbrace$ 
-5. $\lbrace (5,6), (5,7), (5,8), (6,6), (6,7), (6,8) \rbrace}$
+5. $\lbrace (5,6), (5,7), (5,8), (6,6), (6,7), (6,8) \rbrace$
 6. 16 
 
 ## Skill C5 (Wednesday March 27)
