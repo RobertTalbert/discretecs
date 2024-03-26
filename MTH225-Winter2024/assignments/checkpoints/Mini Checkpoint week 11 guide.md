@@ -18,6 +18,13 @@
 
    (c) Incorrect syntax; or $\lbrace True, False \rbrace$
 
+### Common mistakes
+
+- **Stating that 1(d) is False:** That is, that $\mathbb{N}$ is not a subset of $\mathbb{Z}$. But $\mathbb{N}$ *is* a subset of $\mathbb{Z}$ because $\mathbb{N}$ consists of all integers greater than or equal to $0$, so by definition every element of $\mathbb{N}$ is an element of $\mathbb{Z}$. 
+- **Stating that 1(e) is True:** That is, that $\emptyset \in \lbrace 1,2,3 \rbrace$. This would say that $\emptyset$ is an *element* of the set $\lbrace 1,2,3 \rbrace$, but this is not so --- the only elements of this set are the numbers 1, 2, and 3. It's possible there was confusion between the concept of "subset" and the concept of "element". The empty set $\emptyset$ is a subset of $\lbrace 1,2,3 \rbrace$ but is not one of its elements. 
+- **Stating that the set in 2(c) is correct syntax and is equal to $\lbrace -4, 4 \rbrace$**: This would be the case if the predicate $x^2 = 16$ were at the *end* of the set, so we'd have a set followed by a filter. But here the predicate is first, which as we discussed in the class meeting is incorrect. 
+
+
 ## Skill C4 (Monday March 25)
 
 1. $\emptyset$
