@@ -250,3 +250,45 @@ This problem was copied and pasted into three different generative AI tools: Cha
 1. First, solve the original problem from the textbook by brute force. That is, actually write down, or draw pictures of, every possible row of six pennies and nickels in which there are an equal number of both pennies and nickels, then count up the number of coins that were needed. You can do this in Python code if you don't want to do it by hand; I suggest trying it by hand first, on a whiteboard or a piece of paper. Explain your procedure, and especially how you know that you've successfully written down all the rows and not left any possible ones out. 
 2. Go through each AI solution one at a time. For each one, first determine if the AI produced the right answer (which you now have from the first part). If the AI's answer is right, just say so; no further work is needed. But if the AI's answer is wrong, then something is wrong with its solution, not just the answer: So critique the AI's solution, and in particular point out any logical, computational, factual, or semantic mistakes that the AI is making. (For a review of those four kinds of mistakes and what they mean, review the [Standards for Student Work document](https://github.com/RobertTalbert/discretecs/blob/master/MTH225-Winter2024/course-docs/Standards%20for%20Student%20Work%20W24.md#standards-for-challege-problems).)
 3. Now give a solution for the problem that is neither brute force nor a direct copy of any of the AI solutions, but which uses the concepts of counting we've learned in the class. The answer should agree with the count you got by brute force in the first part. Note: In the exercise in the textbook, there is a helpful hint for thinking through this problem. The "Solution" that's given is not really sufficient because it doesn't explain where all the numbers came from, so use it to check your answer but your own solution should go into more detail. 
+
+## Problem 13 
+
+In class when we were learning about [Pascal's Triangle](https://byjus.com/maths/pascals-triangle/), we pointed out that when we sum up the numbers in the $n$th of the triangle, we get $2^n$. Give a formal proof of this fact. That is, prove that for any natural number $n$, 
+
+$$\binom{n}{0} + \binom{n}{1} + \binom{n}{2} + \cdots + \binom{n}{n} = 2^n$$
+
+Some notes on this problem:
+- The uppermost "tip" at the very top of Pascal's Triangle is considered to be "row 0". 
+- For your own good, *do not* try to prove this by applying the closed formula for the binomial coefficients on the left side. It creates a sum of fractions that's really just impossible to work with. 
+- You might consider mathematical induction for this proof. 
+- You might also consider *not* using induction but instead thinking about what the binomial coefficients on the left mean, in terms of how we've interpreted them in class.
+- You are *not* allowed to use a mathematical result called the "binomial theorem". This is a topic we haven't studied here, and you don't need it anyway. 
+- You can use the fact that a set with $n$ elements has $2^n$ subsets in all. This is a fact that's [proven (by mathematical induction) in the vault](https://publish.obsidian.md/mth225/Recursion+and+Induction/Mathematical+induction). 
+
+## Problem 14
+
+Think about all the permutations of the set $\lbrace 0,1,2,3 \rbrace$. As we studied in class, there are $4! = 24$ of these. To make notation easier, write a permutation of this set by simply writing the digits back-to-back in a particular order. For example $1230$ is one permutation; $2130$ is another; $0132$ is another. If we write permutations like this, we can put them in numerical or "alphabetical" order by comparing digits from left to right. For example $1230$ would come before $2130$, but would come after $0123$ and also after $1203$. In fact the 24 permutations of these four digits, "in order", are: 
+
+$$0123, 0132, 0213, 0231, 0312, 0321, 1023, 1032, 1203, 1230, 1302, 1320, 2013, 2031, 2103, 2130, 2301, 2310, 3012, 3021, 3102, 3120, 3201, 3210$$
+
+We can now refer to specific permutations by their position in this ordered list. For example the 8th permutation of $0,1,2,3$ is $1032$, and $1320$ is the 12th permutation. 
+
+**Problem:** What is the 900,000th permutation of the digits 0,1,2,3,4,5,6,7,8,9? 
+
+Notes on this problem:
+- The answer is a permutation of the ten digits above, like $8675309124$, followed by a detailed, clear, correct, complete explanation how you got it that would convince another MTH 225 student that you are right without that person having to do a lot of extra work.  
+- You are not allowed to solve this one by brute force, that is, by creating a list of all the permutations and then somehow putting them in order and finding the 900,00th one. This turns out to be impractical anyway, because of the sheer number of permutations of this set. 
+- Writing code that will compute the answer by brute force, is considered a brute-force answer. 
+- So your solution needs to involve some mathematical insights about these permutations. Using code to help you make small-scale calculations is OK, though, as long as you are using your human brain to solve the problem. 
+- Any code you do write must be entirely from the standard Python library. No other languages are allowed, and no `import` statements are allowed. 
+
+## Problem 15 
+
+This one is a pair of counting problems: 
+
+1. How many positive integers less than 1000000 have exactly one digit equal to 9? (Once such integer would be 109. But 199 would not be an example because there are two 9's, not exactly one.)
+2. How many positive integers less than 1000000 have exactly one digit equal to 9, and have a sum of digits equal to 13? (For example, the sum of the digits of the number 793 is 19, so this would not be counted even though it has exactly one 9.)
+
+Notes on this problem: 
+- You may not solve either of these with brute force, for example by having a computer find all of the integers in question. (However, a brute force solution could be very useful as a first step in understanding the problem, as long as you don't submit it in your final submission.)
+- As always, your answers must come with detailed, clear, correct, complete explanations how you got them that would convince another MTH 225 student that you are right without that person having to do a lot of extra work.  
