@@ -1,5 +1,10 @@
 # Mini-Checkpoints from Week 11
 
+Click below for the Mini Checkpoints: 
+- [C3 and C4](https://docs.google.com/document/d/1os1cKeSy091qydib4d9XhU5zBFOBXThsTKnPfZrzl-Q/edit?usp=sharing)
+- C5 and C6
+- C1 and C2
+
 ## Skill C3 (Monday March 25)
 
 1. (a) False
