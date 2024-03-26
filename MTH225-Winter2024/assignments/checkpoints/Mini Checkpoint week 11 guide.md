@@ -34,6 +34,14 @@
 5. $\lbrace (5,6), (5,7), (5,8), (6,6), (6,7), (6,8) \rbrace$
 6. 16 
 
+### Common mistakes
+
+- **Writing the first response as $\lbrace \emptyset \rbrace$:** The correct answer is $\emptyset$. This is not the same as $\lbrace \emptyset \rbrace$. Whereas $\emptyset$ has zero elements, the set $\lbrace \emptyset \rbrace$ has one element. *This is counted as a "simple" error".* 
+- **Not giving the complement of the set in item 4:** Instead, giving a response that is identical to item 2. It says on the form that the superscript "c" means [complement](https://publish.obsidian.md/mth225/Sets+and+Functions/Complement). 
+- **Using incorrect set notation in item 5:** The Cartesian product is a *set*, whose elements are *pairs* (or tuples). Some responses did not include the set braces on the outside but just gave a comma-separated list of tuples. Some responses gave the pairs as two-element sets, like $\lbrace 5, 6 \rbrace$ instead of $(5,6)$. Some did both; none of these is fully correct. You'll need set braces around the outside, and the elements of the set must be pairs, enclosed in parentheses not set braces. *This is counted as a "simple" error.*
+- **Giving the full power set in item 6 instead of its cardinality:** The vertical bars around a set mean [cardinality](https://publish.obsidian.md/mth225/Sets+and+Functions/Cardinality). Having both the full power set and the cardinality is OK; but not having the cardinality is not OK. 
+
+
 ## Skill C5 (Wednesday March 27)
 
 ## Skill C6 (Wednesday March 27)
