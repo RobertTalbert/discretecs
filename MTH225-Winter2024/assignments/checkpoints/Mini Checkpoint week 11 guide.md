@@ -50,7 +50,7 @@ Click below for the Mini Checkpoints:
 ## Skill C5 (Wednesday March 27)
 
 1. This is a sequence of choices so we will use the Multiplicative Principle (a.k.a. treating it like a license plate problem). There are 5 shirts to choose, then 3 pairs of pants, then 17 bowties so the total count is $5 \cdot 3 \cdot 17 = 255$. 
-2. There are 20 integers in the set that are multiples of 5 (5, 10, 15, 20, ..., 95) and 14 that are multiples of 7 (7, 14, 21, 28, 35, 42, 49, 56, 63, 70, 77, 84, 91, 98). There are two numbers -- 35 and 70 -- that are multiples of both 5 and 7. So by the Principle of Inclusion and Exclusion, the count we seek is $20 + 14 - 2 = 32$. (This can be checked fairly quickly by brute force, for example in Python run `print([n for n in range(1, 101) if n % 5 == 0 or n % 7 == 0])`.)
+2. There are 20 integers in the set that are multiples of 5 (5, 10, 15, 20, ..., 95) and 14 that are multiples of 7 (7, 14, 21, 28, 35, 42, 49, 56, 63, 70, 77, 84, 91, 98). There are two numbers -- 35 and 70 -- that are multiples of both 5 and 7. So by the Principle of Inclusion and Exclusion, the count we seek is $20 + 14 - 2 = 32$. (This can be checked fairly quickly by brute force, for example in Python run `len([n for n in range(1, 101) if n % 5 == 0 or n % 7 == 0])` or just write them all out. However a brute force solution is not considered a successful demonstration of the skill, because it does not use the counting concepts of the class.)
 
 ## Skill C6 (Wednesday March 27)
 
