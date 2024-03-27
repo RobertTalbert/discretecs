@@ -2,7 +2,7 @@
 
 Click below for the Mini Checkpoints: 
 - [C3 and C4](https://docs.google.com/document/d/1os1cKeSy091qydib4d9XhU5zBFOBXThsTKnPfZrzl-Q/edit?usp=sharing)
-- C5 and C6
+- [C5 and C6](https://drive.google.com/file/d/1fzGn8x4pNvaBFf9mrcKXr8BJ77pf0RjZ/view?usp=sharing)
 - C1 and C2
 
 ## Skill C3 (Monday March 25)
@@ -56,7 +56,7 @@ Click below for the Mini Checkpoints:
 
 1. (a) $6! = 6 \cdot 5 \cdot 4 \cdot 3 \cdot 2 \cdot 1 = 720$. 
 
-   (b) $\displaystyle{\binom{99}{96} = \frac{99!}{96! \cdot 3!} = \frac{99 \cdot 98 \cdot 97}{3 \cdot 2 \cdot 1} = 156849}. 
+   (b) $\displaystyle{\binom{99}{96} = \frac{99!}{96! \cdot 3!} = \frac{99 \cdot 98 \cdot 97}{3 \cdot 2 \cdot 1} = 156849}$. 
 
 2. This is a license plate problem where we pick the President first, the Vice President second, then the Treasurer. There are 6 choices for the first office, then 5 for the second, then 4 for the third: $6 \cdot 5 \cdot 4 = 120$. Or, recognize that this is a $3$-permutation and compute $\frac{6!}{3!} = 120$. 
 
