@@ -253,7 +253,7 @@ This problem was copied and pasted into three different generative AI tools: Cha
 
 ## Problem 13 
 
-In class when we were learning about [Pascal's Triangle](https://byjus.com/maths/pascals-triangle/), we pointed out that when we sum up the numbers in the $n$th of the triangle, we get $2^n$. Give a formal proof of this fact. That is, prove that for any natural number $n$, 
+In class when we were learning about [Pascal's Triangle](https://byjus.com/maths/pascals-triangle/), we pointed out that when we sum up the numbers in the $n$-th row of the triangle, we get $2^n$. Give a formal proof of this fact. That is, prove that for any natural number $n$, 
 
 $$\binom{n}{0} + \binom{n}{1} + \binom{n}{2} + \cdots + \binom{n}{n} = 2^n$$
 
