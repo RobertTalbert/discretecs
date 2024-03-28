@@ -65,6 +65,12 @@ Click below for the Mini Checkpoints:
 
 2. This is a license plate problem where we pick the President first, the Vice President second, then the Treasurer. There are 6 choices for the first office, then 5 for the second, then 4 for the third: $6 \cdot 5 \cdot 4 = 120$. Or, recognize that this is a $3$-permutation and compute $\frac{6!}{3!} = 120$. 
 
+### Common mistakes
+
+- **Not knowing/misremembering the formula for the binomial coefficient:** [Memorize it!](https://publish.obsidian.md/mth225/Combinatorics/Binomial+coefficient) 
+- **Having the right formula for the binomial coefficient but not simplifying the factorials:** If you try to compute $99!$, then $96!$, then $3!$ and plug the results into the formula, you will either get a calculator error because the numbers are so large, or an answer that is not an integer due to roundoff errors. Both are incorrect. 
+- **Using the binomial coefficient to find the count in part 2:** The answer is not $\binom{6}{3}$ because this ignores the ordering of the selection. Sometimes this is appropriate, but not here, since it says in the problems statement that "committee positions have specific roles" so reordering a selection results in a truly different selection. (Imagine if Kamala Harris were president of the USA and Joe Biden were vice-president.)
+
 ## Skill C1 (Friday March 29)
 
 ## Skill C2 (Friday March 29)
