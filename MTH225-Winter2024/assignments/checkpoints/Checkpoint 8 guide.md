@@ -24,3 +24,8 @@
 1. This function is a bijection. 
 2. This function is neither injective nor surjective. It's not injective because for example, `1011` and `0011` both map to `0011`. It's not surjective because none of the bits that start with a `1`, such as `1111`, can be hit. 
 3. This function is injective, but not surjective. It's not surjective because $-1$ has no corresponding input, in fact none of the negative integers do. 
+
+### Common mistakes
+
+- **Stating that the function in item 2 is surjective:** It's not, see above for the reasons. 
+- - **Stating that the function in item 2 is injective:** It's not, see above for the reasons. 
