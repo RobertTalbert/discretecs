@@ -52,6 +52,11 @@ Click below for the Mini Checkpoints:
 1. This is a sequence of choices so we will use the Multiplicative Principle (a.k.a. treating it like a license plate problem). There are 5 shirts to choose, then 3 pairs of pants, then 17 bowties so the total count is $5 \cdot 3 \cdot 17 = 255$. 
 2. There are 20 integers in the set that are multiples of 5 (5, 10, 15, 20, ..., 95) and 14 that are multiples of 7 (7, 14, 21, 28, 35, 42, 49, 56, 63, 70, 77, 84, 91, 98). There are two numbers -- 35 and 70 -- that are multiples of both 5 and 7. So by the Principle of Inclusion and Exclusion, the count we seek is $20 + 14 - 2 = 32$. (This can be checked fairly quickly by brute force, for example in Python run `len([n for n in range(1, 101) if n % 5 == 0 or n % 7 == 0])` or just write them all out. However a brute force solution is not considered a successful demonstration of the skill, because it does not use the counting concepts of the class.)
 
+### Common mistakes
+
+- **Not subtracting out the double-counted numbers in part 2:** That is, just adding $20+14$ and saying the answer is 34. Again this double counts any number that falls into both categories, of which there are two (35 and 70). 
+- **A bunch of simple errors resulting from carelessness:** For example skipping numbers in the individual lists in part 2; or making arithmetic mistakes like $100/5 = 25$; or mis-copying numbers in the problem statement. You are allowed two simple errors without penalty but please be careful! 
+
 ## Skill C6 (Wednesday March 27)
 
 1. (a) $6! = 6 \cdot 5 \cdot 4 \cdot 3 \cdot 2 \cdot 1 = 720$. 
