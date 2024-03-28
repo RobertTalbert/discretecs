@@ -13,8 +13,11 @@
 1. $R(1) = 4$, $R(2) = 10$, $R(3) = 20$, $R(4) = 34$. 
 2. (There are multiple correct ways to think about the visual pattern; here is one.) In each step of the pattern there is a small column of two flowers that always appears on the right, next to a rectangle that's growing. In step 1, the rectangle is $2 \times 1$. Step 2 can be visualized by taking the rectangle from step 1 and first adding a new column of flowers on the left side whose height is double the step number: 
 
+![](https://i.ibb.co/k0W43sD/Document-154-2.jpg)
+
 And then adding a single layer of flowers that's 2 levels tall and has a width equal to one less than the step number: 
 
+![](https://i.ibb.co/njWGWSB/Document-154-3.jpg)
 
 The addition of the column adds $2n$ flowers to the picture; the addition of the extra layer on top adds $2(n-1)$. Therefore the recurrence relation would be: 
 
