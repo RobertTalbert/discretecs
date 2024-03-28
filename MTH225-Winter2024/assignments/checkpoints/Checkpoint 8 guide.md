@@ -10,6 +10,18 @@
 
 ## Skill S6
 
+1. $R(1) = 4$, $R(2) = 10$, $R(3) = 20$, $R(4) = 34$. 
+2. (There are multiple correct ways to think about the visual pattern; here is one.) In each step of the pattern there is a small column of two flowers that always appears on the right, next to a rectangle that's growing. In step 1, the rectangle is $2 \times 1$. Step 2 can be visualized by taking the rectangle from step 1 and first adding a new column of flowers on the left side whose height is double the step number: 
+
+And then adding a single layer of flowers that's 2 levels tall and has a width equal to one less than the step number: 
+
+
+The addition of the column adds $2n$ flowers to the picture; the addition of the extra layer on top adds $2(n-1)$. Therefore the recurrence relation would be: 
+
+$$R(n) = R(n-1) + 2n + 2(n-1) \ \text{or} \ R(n) = R(n-1) + 4n -2$$
+
+
+
 ## Skill S7
 
 1. Not a function (because $o$ maps to two things)
@@ -28,4 +40,4 @@
 ### Common mistakes
 
 - **Stating that the function in item 2 is surjective:** It's not, see above for the reasons. 
-- - **Stating that the function in item 2 is injective:** It's not, see above for the reasons. 
+- **Stating that the function in item 2 is injective:** It's not, see above for the reasons. 
