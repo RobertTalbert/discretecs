@@ -3,7 +3,30 @@
 Click below for the Mini Checkpoints: 
 - [C3 and C4](https://docs.google.com/document/d/1os1cKeSy091qydib4d9XhU5zBFOBXThsTKnPfZrzl-Q/edit?usp=sharing)
 - [C5 and C6](https://drive.google.com/file/d/1fzGn8x4pNvaBFf9mrcKXr8BJ77pf0RjZ/view?usp=sharing)
-- C1 and C2
+- [C1 and C2](https://drive.google.com/file/d/1LD1ru5pwyqf0g_0ebFmUjGaxi0214wRn/view?usp=sharing)
+
+## Skill C1 (Friday March 29)
+
+1. The water is boiling
+2. The temperature is over 200 degrees
+3. If the temperature is over 200 degrees then the water is boiling
+4. If the temperature is not over 200 degrees then the water is not boiling
+5. If the water is not boiling then its temperature is not over 200 degrees
+6. The water is boiling but its temperature is not over 200 degrees
+
+## Skill C2 (Friday March 29)
+
+1. The predicate $P(n)$ is the statement that $9^n - 1$ is divisible by $8$. 
+2. $n = 0$ is the base case
+3. If $n = 0$ then $9^n - 1 = 9^0 - 1 = 1 - 1 = 0$, and $0$ is divisible by $8$. So the base case holds. 
+4. Assume $9^k - 1$ is divisible by $8$ for some nonnegative integer $k$. 
+5. Prove that $9^{k+1} - 1$ is divisible by $8$. 
+
+### Common mistakes: 
+
+- **Saying $n=1$ is the base case:** The smallest nonnegative integer is $0$, not $1$. 
+- **Using $k-1$ instead of $k+1$ in the inductive step**: That is, saying that we will prove that $9^{k-1} - 1$ is divisible by $8$. This *has* to be $k+1$ since the way induction works is to assume that the proposition is true at a certain level $k$ and then prove that the proposition is true at **the next level**. That "next level" is $k+1$ not $k-1$. 
+
 
 ## Skill C3 (Monday March 25)
 
@@ -70,7 +93,3 @@ Click below for the Mini Checkpoints:
 - **Not knowing/misremembering the formula for the binomial coefficient:** [Memorize it!](https://publish.obsidian.md/mth225/Combinatorics/Binomial+coefficient) 
 - **Having the right formula for the binomial coefficient but not simplifying the factorials:** If you try to compute $99!$, then $96!$, then $3!$ and plug the results into the formula, you will either get a calculator error because the numbers are so large, or an answer that is not an integer due to roundoff errors. Both are incorrect. 
 - **Using the binomial coefficient to find the count in part 2:** The answer is not $\binom{6}{3}$ because this ignores the ordering of the selection. Sometimes this is appropriate, but not here, since it says in the problems statement that "committee positions have specific roles" so reordering a selection results in a truly different selection. (Imagine if Kamala Harris were president of the USA and Joe Biden were vice-president.)
-
-## Skill C1 (Friday March 29)
-
-## Skill C2 (Friday March 29)
