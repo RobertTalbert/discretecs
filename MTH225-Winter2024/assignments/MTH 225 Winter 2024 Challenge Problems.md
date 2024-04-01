@@ -292,3 +292,22 @@ This one is a pair of counting problems:
 Notes on this problem: 
 - You may not solve either of these with brute force, for example by having a computer find all of the integers in question. (However, a brute force solution could be very useful as a first step in understanding the problem, as long as you don't submit it in your final submission.)
 - As always, your answers must come with detailed, clear, correct, complete explanations how you got them that would convince another MTH 225 student that you are right without that person having to do a lot of extra work.  
+
+**UPDATE 2024-04-01:** Here is some Python code that you can use to check your work. Note, as mentioned above, you cannot just use Python code in your solution -- you'll need to get the results through mathematical concepts from the class. If you're not sure how the code below is working (for example you're not sure what the `count` method does) you are free to look up the specifications, or ask a question. 
+
+```python
+# Part 1
+part_1 = [n for n in range(1,1000000) if str(n).count("9") == 1]
+len(part_1)
+```
+
+```python
+# Part 2
+## First make a helper function to sum up digits 
+def digit_sum(n):
+    return sum([int(a) for a in str(n)])
+
+## I promise I did not plan for the answer to by what it is :) 
+part_2 = [n for n in part_1 if digit_sum(n) == 13]
+len(part_2)
+```
