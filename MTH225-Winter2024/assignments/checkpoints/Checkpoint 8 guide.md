@@ -4,6 +4,16 @@
 
 ## Skill S3
 
+1. (a) False 
+
+   (b) True
+
+   (c) True
+
+   (d) False
+
+2. No smartphones are made by Apple. (*Other correct formulations are possible*)
+
 ## Skill S4
 
 ## Skill S5
