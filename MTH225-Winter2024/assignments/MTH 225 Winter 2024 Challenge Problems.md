@@ -307,7 +307,7 @@ len(part_1)
 def digit_sum(n):
     return sum([int(a) for a in str(n)])
 
-## I promise I did not plan for the answer to by what it is :) 
+## I promise I did not plan for the answer to be what it is :) 
 part_2 = [n for n in part_1 if digit_sum(n) == 13]
 len(part_2)
 ```
