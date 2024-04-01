@@ -4,6 +4,10 @@
 
 ## Skill S3
 
+
+
+## Skill S4
+
 1. (a) False 
 
    (b) True
@@ -14,9 +18,13 @@
 
 2. No smartphones are made by Apple. (*Other correct formulations are possible*)
 
-## Skill S4
-
 ## Skill S5
+
+- $a_2 = 2a_1 + a_0 = 2(2) + 3 = 7$
+- $a_3 = 2a_2 + a_1 = 2(7) + 2 = 16$
+- $a_4 = 2a_3 + a_2 = 2(16) + 7 = 39$
+- $a_5 = 2a_4 + a_3 = 2(39) + 16 = 94$
+- $a_6 = 2a_5 + a_4 = 2(94) + 39 = 227$
 
 ## Skill S6
 
