@@ -4,7 +4,27 @@
 
 ## Skill S3
 
+1.
+| $p$ | $q$ | $r$ | $\neg p$ | $q \vee r$ | $(\neg p) \rightarrow (q \vee r)$ |
+| --- | --- | --- | -------- | ---------- | --------------------------------- |
+| T   | T   | T   | F        | T          | T                                 |
+| T   | T   | F   | F        | T          | T                                 |
+| T   | F   | T   | F        | T          | T                                 |
+| T   | F   | F   | F        | F          | T                                 |
+| F   | T   | T   | T        | T          | T                                 |
+| F   | T   | F   | T        | T          | T                                 |
+| F   | F   | T   | T        | T          | T                                 |
+| F   | F   | F   | T        | F          | F                                 |
 
+2. 
+| $p$ | $q$ | $p \rightarrow q$ | $\neg(p \rightarrow q)$ | $\neg p$ | $(\neg p) \wedge q$ |
+| --- | --- | ----------------- | ----------------------- | -------- | ------------------- |
+| T   | T   | T                 | F                       | F        | F                   |
+| T   | F   | F                 | T                       | F        | F                   |
+| F   | T   | T                 | F                       | T        | T                   |
+| F   | F   | T                 | F                       | T        | F                   |
+
+The two statements are not logically equivalent
 
 ## Skill S4
 
