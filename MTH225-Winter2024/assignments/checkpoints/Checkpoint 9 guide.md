@@ -83,6 +83,12 @@ Explanations are provided for study/review purposes; they aren't necessary in yo
 
 2. This is a dots-and-dividers problem where there are 20 "dots" and 4 "dividers" (five people, so four changes between the people). The diagrams for this distribution would correspond to a binary string of length 24 and weight 4. Therefore the count is $\displaystyle{\binom{24}{4} = \frac{24!}{4! \cdot 20!} = \frac{24 \cdot 23 \cdot 22 \cdot 21}{4 \cdot 3 \cdot 2 \cdot 1} = 10626}$. 
 
+### Common mistakes
+
+Some of these are not "common" because they only happened 1-2 times, but it's instructive to see some plausible wrong answers and understand why they are wrong. 
+
+- **Giving an answer of $5^{20}$ for part 2:** THe reasoning here is that we treat it like a license plate problem where there are twenty slots (one per card) and 5 choices per slot -- basically look at each card and saying there are five possible people to give it to. The reason this doesn't work is that it overcounts: For example if I put "Alice" in the blank for the first 10 cards and "Bob" in the blank for the last 10 cards, that's one selection. If I put "Alice" in the blanks for the even numbered cards and "Bob" in the blanks for the odd numbered cards, that's considered to be a different distribution... but it's not, because Alice and Bob still end up with 10 cards each, and the cards are identical. All the possible ways to give Alice 10 cards and Bob 10 cards are going to be counted separately, which is produces a massive overcount. 
+
 ---
 
 [Remember from the last Checkpoint guide](https://github.com/RobertTalbert/discretecs/blob/master/MTH225-Winter2024/assignments/checkpoints/Checkpoint%208%20guide.md) that we are no longer putting solutions for S1 and S2 on the guides. If you attempted these, just check your work using technology.
