@@ -67,6 +67,14 @@ Explanations are provided for study/review purposes; they aren't necessary in yo
    - The plates that **both** start with an odd number **and** end in an even number have been counted twice. There are $5^2 \cdot 10^2 \cdot 26^3= 43940000$ of those. (You can also reason that it's exactly half the plates that begin with an odd number; or one-quarter of all the plates you counted in the first part).
    - Therefore the full count is the first number plus the second, minus the third to correct for the overcount: $87880000 + 87880000 - 43940000 = 131820000$. 
 
+
+### Common mistakes 
+
+- **Thinking that there are 9 digits in the range 0 through 9**: It's 10, not 9. 
+- **Misinterpreting the word "or" in part 2:** The word "or" means -- and has always meant -- *one or the other condition, **or both***. Again, we have always taken this "inclusive" interpretation of the word "or" dating all the way back to the unit on logic (see the truth table for a [disjunction](https://publish.obsidian.md/mth225/Logic/Disjunction)). Some students misinterpreted this as an "exclusive" or ("one or the othe r*but not both*", which again is incorrect) or got it mixed up with "and". 
+- **Not subtracting out the double-counted plates in part 2:** See above for why. Some of the instances of this mistake stemmed from misinterpreting "or" as described above. 
+- 
+
 ## C6
 
 1. (a) $5! = 5 \cdot 4 \cdot 3 \cdot 2 \cdot 1 = 120$. 
