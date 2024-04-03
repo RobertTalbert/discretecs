@@ -16,7 +16,7 @@
 
 Let $x$ be a positive real number. Then for any $n \in \mathbb{N}$, we have $(1+x)^n \leq 1 + nx$.
 
-1. The predicate is $P(n): (1+x)^n \leq 1 + nx$. (Side note, $x$ is *not* part of the predicate.) 
+1. The predicate is $P(n): (1+x)^n \leq 1 + nx$.
 2. The base case is at $n = 0$. 
 3. If $n = 0$, then the left side of the inequality is $(1+x)^0$ which equals $1$, and the right side is $1 + (0)(x)$ which also equals $1$. Since the left side is indeed less than or equal to the right side, the base case holds. 
 4. Assume that for some $k \geq 1$, that $(1+x)^k \leq 1 + kx$. 
