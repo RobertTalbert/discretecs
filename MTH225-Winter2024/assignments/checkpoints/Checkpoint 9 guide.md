@@ -53,6 +53,11 @@ Explanations are provided for study/review purposes; they aren't necessary in yo
 6. $\lbrace (1,7), (3,7), (5,7), (7,7) \rbrace$ 
 
 
+### Common mistakes
+
+- **Answering "4" for part 6:** The question does not ask for the cardinality of the set, it asks for the set itself. Had it asked for cardinality it would have said $|A \times D|$. 
+- **Wrong data type in part 6:** The elements of the [cartesian product](https://publish.obsidian.md/mth225/Sets+and+Functions/Cartesian+product) $A \times D$ are *tuples*, not two-element sets. Therefore $(3,7)$ is a valid element but not $\lbrace 3, 7 \rbrace$. Another valid element that needs to appear here is the tuple $(7,7)$ which is not the same as the set $\lbrace 7 \rbrace$. In the past, getting the wrong data type on a cartesian product was a "simple" error but this time it's not simple because it ends up excluding one of the elements. 
+
 ## C5 
 
 1. It's literally a license plate problem. There are 10 choices for the four places that digits go, and 26 choices for the three letters. So the full count is $10^4 \cdot 26^3 = 175760000$. 
