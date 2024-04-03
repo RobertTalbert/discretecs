@@ -47,7 +47,7 @@ Explanations are provided for study/review purposes; they aren't necessary in yo
 
 1. $\lbrace  5 \rbrace$
 2. $\lbrace  1,2,3,5,7 \rbrace$
-3. $\lbrace  5 \rbrace$
+3. $\lbrace  0, 10 \rbrace$
 4. $\lbrace  3,5 \rbrace$ 
 5. $\lbrace  0,3,5,10 \rbrace$
 6. $\lbrace (1,7), (3,7), (5,7), (7,7) \rbrace$ 
