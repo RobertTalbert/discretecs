@@ -73,7 +73,6 @@ Explanations are provided for study/review purposes; they aren't necessary in yo
 - **Thinking that there are 9 digits in the range 0 through 9**: It's 10, not 9. 
 - **Misinterpreting the word "or" in part 2:** The word "or" means -- and has always meant -- *one or the other condition, **or both***. Again, we have always taken this "inclusive" interpretation of the word "or" dating all the way back to the unit on logic (see the truth table for a [disjunction](https://publish.obsidian.md/mth225/Logic/Disjunction)). Some students misinterpreted this as an "exclusive" or ("one or the othe r*but not both*", which again is incorrect) or got it mixed up with "and". 
 - **Not subtracting out the double-counted plates in part 2:** See above for why. Some of the instances of this mistake stemmed from misinterpreting "or" as described above. 
-- 
 
 ## C6
 
