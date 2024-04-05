@@ -96,15 +96,41 @@ Some of these are not "common" because they only happened 1-2 times, but it's in
 
 ## S3 
 
+
+
 ## S4
 
+1. (a) False
+
+   (b) False ($11^2 = 121$ and this does not end in a 3)
+
+   (c) False (counterexample: $x = 10$)
+
+   (d) True (example: $x = 11$)
+   
+2. *Some trucks are inexpensive*. (Other correct formulations are possible)
+
+ 
 ## S5
 
 
 ## S6
 
+1. $R(1) = 6$, $R(2) = 11$, $R(3) = 16$. 
+2. In each step, the new step takes the figure in the old step and does two things to it: Adds one block to the upward-pointing part, and adds two blocks to each of the downward-pointing parts. That's 5 blocks total added on to the previous figure (and this doesn't vary with the step, it's always just 5). So the recurrence relation is $R(n) = R(n-1) + 5$. 
 
 ## S7
 
+1. Function. Domain = $\lbrace 4,3,9,6,5 \rbrace$. Codomain = $\lbrace 5,0,4,1,6 \rbrace$. Range = $\lbrace 5,0,4,6 \rbrace$. 
+2. Not a function ($q$ has no output)
+3. Not a function ($g$ has two outputs)
+4. Function. Domain = $\lbrace o,p,j,x \rbrace$. Comdomain and range = $\lbrace s,q,i,h \rbrace$. 
+5. Function. Domain = $\lbrace n,s,e,o \rbrace$. Comdomain and range = $\lbrace 3,5,6 \rbrace$. 
+6. Function. Domain = $\lbrace 0,4,6,8 \rbrace$. Comdomain and range = $\lbrace 2,8,1 \rbrace$. 
+
 
 ## S8
+
+1. This function is surjective but not injective, because for example Albert Einstein and Angelina Jolie both map to "A". 
+2. This function is injective but not surejective, because for example the bit string `1111111100000000` never appears as an output (since the outputs never contain a `1` in their first 8 bits). 
+3. This is a bijection. 
