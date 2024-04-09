@@ -97,6 +97,26 @@ Some of these are not "common" because they only happened 1-2 times, but it's in
 ## S3 
 
 
+| $p$ | $q$ | $r$ | $\neg q$ | $p \wedge (\neg q)$ | $\neg r$ | $(p \wedge (\neg q)) \vee (\neg r)$ |
+| --- | --- | --- | -------- | ------------------- | -------- | ----------------------------------- |
+| T   | T   | T   | F        | F                   | F        | F                                   |
+| T   | T   | F   | F        | F                   | T        | T                                   |
+| T   | F   | T   | T        | T                   | F        | T                                   |
+| T   | F   | F   | T        | T                   | T        | T                                   |
+| F   | T   | T   | F        | F                   | F        | F                                   |
+| F   | T   | F   | F        | F                   | T        | T                                   |
+| F   | F   | T   | T        | F                   | F        | F                                   |
+| F   | F   | F   | T        | F                   | T        | T                                   |
+
+
+| $p$ | $q$ | $p \rightarrow q$ | $\neg(p \rightarrow q)$ | $\neg p$ | $(\neg p) \vee q$ |
+| --- | --- | ----------------- | ----------------------- | -------- | ----------------- |
+| T   | T   | T                 | F                       | F        | T                 |
+| T   | F   | F                 | T                       | F        | F                 |
+| F   | T   | T                 | F                       | T        | T                 |
+| F   | F   | T                 | F                       | T        | T                 |
+
+The statements are not logically equivalent (in fact they are negations of each other). 
 
 ## S4
 
@@ -113,6 +133,10 @@ Some of these are not "common" because they only happened 1-2 times, but it's in
  
 ## S5
 
+- $a_3 = 2a_2 + 4a_1 = 2(5) + 4(1) = 14$
+- $a_4 = 2a_3 + 4a_2 = 2(14) + 4(5) = 48$
+- $a_5 = 2a_4 + 4a_3 = 2(48) + 4(14) = 152$
+- $a_6 = 2a_5 + 4a_4 = 2(152) + 4(48) = 496$
 
 ## S6
 
