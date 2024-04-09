@@ -120,7 +120,7 @@ The statements are not logically equivalent (in fact they are negations of each 
 
 ## S4
 
-1. (a) False
+1. (a) True
 
    (b) False ($11^2 = 121$ and this does not end in a 3)
 
