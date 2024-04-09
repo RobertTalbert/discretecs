@@ -132,5 +132,5 @@ Some of these are not "common" because they only happened 1-2 times, but it's in
 ## S8
 
 1. This function is surjective but not injective, because for example Albert Einstein and Angelina Jolie both map to "A". 
-2. This function is injective but not surejective, because for example the bit string `1111111100000000` never appears as an output (since the outputs never contain a `1` in their first 8 bits). 
+2. This function is injective but not surjective, because for example the bit string `1111111100000000` never appears as an output (since the outputs never contain a `1` in their first 8 bits). 
 3. This is a bijection. 
