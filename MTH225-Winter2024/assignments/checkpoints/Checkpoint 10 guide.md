@@ -69,7 +69,7 @@ Some explanations have been added; these are not necessary in your solutions.
 
 2. (a) License plate problem with four people who could fill the first role, then three who could fill the second, then two for the third role, then just one for the last: $4 \cdot 3 \cdot 2 \cdot 1 = 24$. 
 
-   (b) This is also a license plate problem, basically the same as part (a) only there are more people involved: 20 who could be elected into the first role, then 19 who could fill the second, then 18 for the third role, then 17 for the last: $20 \cdot 19 \cdot 18 \cdot 17 = 116280$. 
+   (b) This is also a license plate problem, basically the same as part (a) only there are more people involved: 20 who could be elected into the first role, then 19 who could fill the second, then 18 for the third role, then 17 for the last: $20 \cdot 19 \cdot 18 \cdot 17 = 116280$. You can also think of this as the permutation $P(20,4) = \frac{20!}{16!}$. 
 
 
 
