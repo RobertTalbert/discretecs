@@ -13,7 +13,7 @@
 
 ## C2
 
-*For every integer $n \geq 1$, a set with $n$ elements has $2^n$ subsets* 
+"For every integer $n \geq 1$, a set with $n$ elements has $2^n$ subsets"
 
 1. The predicate is "a set with $n$ elements has $2^n$ subsets". 
 2. $n = 1$ (The proposition is also true for $n=0$ but $n=1$ us the stated base case)
@@ -34,7 +34,7 @@ Some explanations have been added; these are not necessary in your solutions.
    
    (c) False (There are no elements in the empty set)
    
-   (d) True ([$\emptyset$ is a subset of every set](https://publish.obsidian.md/mth225/Sets+and+Functions/Empty+set))
+   (d) True ([ $\emptyset$ is a subset of every set](https://publish.obsidian.md/mth225/Sets+and+Functions/Empty+set))
 
    (e) False (For example, $-1 \in \mathbb{Z}$ but $-1 \not \in \mathbb{N}$)
 
@@ -65,7 +65,7 @@ Some explanations have been added; these are not necessary in your solutions.
 
 1. (a) $7! = 7 \cdot 6 \cdot 5 \cdot 4 \cdot 3 \cdot 2 \cdot 1 = 5040$
 
-   (b) $\displaystyle{\binom{500}{495} = \frac{500!}{495! \cdot 5!} = \frac{500 \cdot 499 \cdot 498 \cdot 497 \cdot 496}{5 \cdot 4 \cdot 3 \cdot 2 \cdot 1}=  255244687600$
+   (b) $\displaystyle{\binom{500}{495} = \frac{500!}{495! \cdot 5!} = \frac{500 \cdot 499 \cdot 498 \cdot 497 \cdot 496}{5 \cdot 4 \cdot 3 \cdot 2 \cdot 1}=  255244687600}$
 
 2. (a) License plate problem with four people who could fill the first role, then three who could fill the second, then two for the third role, then just one for the last: $4 \cdot 3 \cdot 2 \cdot 1 = 24$. 
 
