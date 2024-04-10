@@ -58,7 +58,7 @@ Some explanations have been added; these are not necessary in your solutions.
 
 1. License plate problem with six slots to fill, 26 choices for each of the first two slots and 10 choices for each of the remaining four. So the total count is $26^2 \cdot 10^4 = 6760000$. 
 2. License plate problem again, with restricted choices: We can only choose a letter for the second slot or digits for the first three of the four number slots. So the total count is $26 \cdot 10^3 = 26000$. 
-3. Use the [Principle of Inclusion and Exclusion](https://publish.obsidian.md/mth225/Combinatorics/Principle+of+Inclusion+and+Exclusion): The number of ID's that start with a `Z` is $26 \cdot 10^4 = 260000$. The number of ID's that end in `69` is $26^2 \cdot 10^2 = 67600$. The number of ID's that do both, is $26 \cdot 10^2 = 260$; these have been double counted and so we need to subtract this from the sum, giving a total count of $260000 + 67600 - 260 = 327340$. 
+3. Use the [Principle of Inclusion and Exclusion](https://publish.obsidian.md/mth225/Combinatorics/Principle+of+Inclusion+and+Exclusion): The number of ID's that start with a `Z` is $26 \cdot 10^4 = 260000$. The number of ID's that end in `69` is $26^2 \cdot 10^2 = 67600$. The number of ID's that do both, is $26 \cdot 10^2 = 2600$; these have been double counted and so we need to subtract this from the sum, giving a total count of $260000 + 67600 - 2600 = 325000$. 
 
 
 ## C6
