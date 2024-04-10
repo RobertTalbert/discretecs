@@ -97,10 +97,30 @@ Some of these are not "common" because they only happened 1-2 times, but it's in
 ## S3 
 
 
+| $p$ | $q$ | $r$ | $\neg q$ | $p \wedge (\neg q)$ | $\neg r$ | $(p \wedge (\neg q)) \vee (\neg r)$ |
+| --- | --- | --- | -------- | ------------------- | -------- | ----------------------------------- |
+| T   | T   | T   | F        | F                   | F        | F                                   |
+| T   | T   | F   | F        | F                   | T        | T                                   |
+| T   | F   | T   | T        | T                   | F        | T                                   |
+| T   | F   | F   | T        | T                   | T        | T                                   |
+| F   | T   | T   | F        | F                   | F        | F                                   |
+| F   | T   | F   | F        | F                   | T        | T                                   |
+| F   | F   | T   | T        | F                   | F        | F                                   |
+| F   | F   | F   | T        | F                   | T        | T                                   |
+
+
+| $p$ | $q$ | $p \rightarrow q$ | $\neg(p \rightarrow q)$ | $\neg p$ | $(\neg p) \vee q$ |
+| --- | --- | ----------------- | ----------------------- | -------- | ----------------- |
+| T   | T   | T                 | F                       | F        | T                 |
+| T   | F   | F                 | T                       | F        | F                 |
+| F   | T   | T                 | F                       | T        | T                 |
+| F   | F   | T                 | F                       | T        | T                 |
+
+The statements are not logically equivalent (in fact they are negations of each other). 
 
 ## S4
 
-1. (a) False
+1. (a) True
 
    (b) False ($11^2 = 121$ and this does not end in a 3)
 
@@ -112,6 +132,12 @@ Some of these are not "common" because they only happened 1-2 times, but it's in
 
  
 ## S5
+
+- $a_2 = 2a_1 + 4a_0 = 2(5) + 4(1) = 14$
+- $a_3 = 2a_2 + 4a_1 = 2(14) + 4(5) = 48$
+- $a_4 = 2a_3 + 4a_2 = 2(48) + 4(14) = 152$
+- $a_5 = 2a_4 + 4a_3 = 2(152) + 4(48) = 496$
+- $a_6 = 2a_5 + 4a_4 = 2(496) + 4(152) = 1600$
 
 
 ## S6
@@ -132,5 +158,5 @@ Some of these are not "common" because they only happened 1-2 times, but it's in
 ## S8
 
 1. This function is surjective but not injective, because for example Albert Einstein and Angelina Jolie both map to "A". 
-2. This function is injective but not surejective, because for example the bit string `1111111100000000` never appears as an output (since the outputs never contain a `1` in their first 8 bits). 
+2. This function is injective but not surjective, because for example the bit string `1111111100000000` never appears as an output (since the outputs never contain a `1` in their first 8 bits). 
 3. This is a bijection. 
