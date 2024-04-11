@@ -63,6 +63,11 @@ Some explanations have been added; these are not necessary in your solutions.
 5. $\lbrace o,p,q,r,s,t,u,v,w,x,y,z \rbrace$
 6. $4$
 
+### Common mistakes
+
+- **Not finding the cardinality of the power set in part 6:** The power set itself is $\lbrace \emptyset, \lbrace x \rbrace, \lbrace y \rbrace, \lbrace x,y \rbrace \rbrace$. But it's asking for the cardinality, note the $| |$ signs. So it's 4. 
+- ***Answering "3" for part 6:** The most likely explanation is forgetting that the empty set is a subset of $A$ and has to be included in the list of subsets. 
+
 ## C5 
 
 1. License plate problem with six slots to fill, 26 choices for each of the first two slots and 10 choices for each of the remaining four. So the total count is $26^2 \cdot 10^4 = 6760000$. 
