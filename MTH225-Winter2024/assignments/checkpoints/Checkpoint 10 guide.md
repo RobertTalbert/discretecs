@@ -122,11 +122,27 @@ If this happens again there are simple computational workarounds:
 
 ## S6
 
+1. $R(1) = 5$, $R(2) = 7$, $R(3) = 9$
+2. The figure in any given step is obtained by taking the figure from the previous step and inserting a single column of two blocks between column 1 (which has three blocks) and column 2. The number of blocks inserted appears to always be 2. So the recurrence relation should be $R(n) = R(n-1) + 2$. 
 
 ## S7
 
+1. Function. Domain = $\lbrace b,p,s,q \rbrace$. Codomain = $\lbrace 7,2,9,6,8 \rbrace$. Range = $\lbrace 9,6,8 \rbrace$.   
+2. Function. Domain = $\lbrace 2,9 \rbrace$. Codomain = $\lbrace m,t,r,i,v \rbrace$. Range = $\lbrace m,r \rbrace$.
+3. Not a function. 
+4. Function. Domain = $\lbrace 5,1,3,0 \rbrace$. Codomain = $\lbrace z,i,y,b,j \rbrace$. Range = $\lbrace z,y,b,j \rbrace$.
+5. Function. Domain = $\lbrace 3,2,1,6 \rbrace$. Codomain = $\lbrace 8,6,0 \rbrace$. Range = $\lbrace 8,6,0 \rbrace$.
+6. Function. Domain = $\lbrace s,g \rbrace$. Codomain = $\lbrace 6,0,2,1 \rbrace$. Range = $\lbrace 0,1 \rbrace$.
+
+
 ## S8
 
+1. Bijection. 
+2. The function is not injective because, for example, $f(-1)$ and $f(1)$ are equal to $1$. The function is also not surjective because the square of an integer is always nonnegative, so for example $-2$ will never be output. 
+3. The function is injective. (There are no negative numbers this time to cause a collision.) However the function is not surjective because only perfect squares are output, which excludes numbers like $2$. 
+
 ## S9
+
+
 
 ## S10
