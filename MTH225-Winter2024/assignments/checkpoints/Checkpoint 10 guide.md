@@ -23,6 +23,11 @@
 
 (Bonus: A completed proof of this is [in the vault](https://publish.obsidian.md/mth225/Recursion+and+Induction/Mathematical+induction).) 
 
+### Common mistakes: 
+
+- **Not providing a complete and correct proof in the base case:** A complete and correct proof of the base case is required. Several responses *stated* that a one-element set has two subsets, but did not explain why. Merely asserting that the base case holds is not enough -- there needs to be an explanation, in the form of a direct demonstration, that proves the base case truly holds when $n=1$. 
+- **Assuming in the inductive hypothesis that the predicate is true *for all* values of $k$**: As we've mentioned in class several times and in the class prep videos on this topic, assuming that the predicate holds "for all" values of $k$ is assuming the statement that you intend to prove, which is an invalid form of argumentation. 
+
 
 ## C3
 
