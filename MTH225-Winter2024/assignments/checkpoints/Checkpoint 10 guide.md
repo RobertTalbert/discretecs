@@ -103,7 +103,7 @@ But here, even if you do simplify, it turns out that many hand calculators canno
 If this happens again there are simple computational workarounds: 
 - *You can simpify term by term*: For example there is a 500 in the numerator and a 5 in the denominator; this simplifies to 100. Likewise 496 divided by 4 is 124, and 498 divided by 3 is 166. So the answer would simplify to $100 \cdot 499 \cdot 166 \cdot 497 \cdot 124$ which is something most calculators should handle. 
 - *You can recognize that the last two digits of the answer must be "00"* because of the factor of 500 on the numerator. Taking the scientific notation answer from a calculator and dividing by 100 should yield a plain integer. 
-- *You can just switch technologies and use a smartphone app*. These are allowed, and the vast majority handle large numbers better than hand calculators. 
+- *You can just switch technologies and use a smartphone app*. These are allowed, if the phone is in airplane mode, and the vast majority handle large numbers better than hand calculators. 
 
 
 ---
