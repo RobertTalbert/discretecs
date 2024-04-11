@@ -49,6 +49,10 @@ Some explanations have been added; these are not necessary in your solutions.
 
    (c) $\lbrace 1, 3, 5, 7, 9 \rbrace$ 
 
+### Common mistakes
+
+- **Having TRUE for 1(b):** See the guide above for an explanation. *However if this was the only thing wrong on the attempt, I counted it as a simple error* on the possibility that you confused squares with powers of 2. Don't do that again please! 
+
 
 ## C4 
 
