@@ -125,6 +125,10 @@ If this happens again there are simple computational workarounds:
 1. $R(1) = 5$, $R(2) = 7$, $R(3) = 9$
 2. The figure in any given step is obtained by taking the figure from the previous step and inserting a single column of two blocks between column 1 (which has three blocks) and column 2. The number of blocks inserted appears to always be 2. So the recurrence relation should be $R(n) = R(n-1) + 2$. 
 
+### Common mistakes: 
+
+- **Giving a numerical, not visual explanation:** As the success criteria state, the explanation has to be based on the visual pattern and not on a guess at a numerical pattern. Computing $R(1) = 5$, $R(2) = 7$,and $R(3) = 9$ and then stating something like "Clearly the pattern is that the outputs go up by two each time" is not a visual explanation, it is a guess at the numerical pattern. 
+
 ## S7
 
 1. Function. Domain = $\lbrace b,p,s,q \rbrace$. Codomain = $\lbrace 7,2,9,6,8 \rbrace$. Range = $\lbrace 9,6,8 \rbrace$.   
