@@ -173,3 +173,21 @@ If this happens again there are simple computational workarounds:
 
 
 ## S10
+
+The characteristic equation for the recurrence relation is
+$$r^2 = 3r + 4$$
+Getting all the terms on the left gives $r^2 - 3r - 4 = 0$. This factors into $(r-4)(r+1) = 0$ on the left, so the characteristic roots are $r = 4$ and $r=-1$. 
+
+The framework for the solution using those roots is: 
+$$a(n) = c_1 (4)^n + c_2 (-1)^n$$
+
+Plugging in $n=0$ gives the equation $5 = c_1 (4)^0 + c2(-1)^0$ which simplifies to $c_1 + c_2 = 5$. 
+
+Plugging in $n=1$ gives the equation $8 = c_1 (4)^1 + c2(-1)^1$ which simplifies to $4c_1 - c_2 = 8$. 
+
+Using the "elimination" method for solving the system of equations, we add the left and right sides of the first equation to the left and right sides of the second. The $c_2$ term cancels, leaving us with $5c_1 = 13$. Therefore $c_1 = 13/5$. 
+
+To find $c_2$, plug $c_1 = 13/5$ in to $c_1 + c_2 = 5$ to get $13/5 + c2 = 5$. Now solve for $c_2$ to get $c_2 = 5 - 13/5 = 12/5$. 
+
+So the final solution is
+$$a(n) = \frac{13}{5} (4)^n + \frac{12}{5} (-1)^n$$
