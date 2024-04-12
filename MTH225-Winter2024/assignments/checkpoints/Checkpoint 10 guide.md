@@ -166,7 +166,7 @@ If this happens again there are simple computational workarounds:
 
 | Part | Type of sequence | Closed formula | Recursive definition | 
 | --- | ---- | ---- | --- | 
-| 1 | Arithmetic | $a(n) = 4 - 2n$ | $a_0 = 4, a_n = a_{n-1} - 4$ | 
+| 1 | Arithmetic | $a(n) = 4 - 2n$ | $a_0 = 4, a_n = a_{n-1} - 2$ | 
 | 2 | Geometric | $a(n) = 5^n$ | $a_0 = 1, a_n = 5a_{n-1}$ | 
 | 3 | Neither | n/a | n/a | 
 | 4 | Arithmetic | $a(n) = 4 - 0.1n$ | $a_0 = 4, a_n = a_{n-1} - 0.1$ | 
