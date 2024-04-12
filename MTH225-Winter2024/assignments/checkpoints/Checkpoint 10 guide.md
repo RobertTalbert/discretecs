@@ -191,3 +191,5 @@ To find $c_2$, plug $c_1 = 13/5$ in to $c_1 + c_2 = 5$ to get $13/5 + c_2 = 5$. 
 
 So the final solution is
 $$a(n) = \frac{13}{5} (4)^n + \frac{12}{5} (-1)^n$$
+
+(Note: Using decimals, $13/5 = 2.6$ and $12/5 = 2.4$. These are OK to use here.)
