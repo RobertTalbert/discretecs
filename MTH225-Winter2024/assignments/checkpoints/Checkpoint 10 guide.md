@@ -116,8 +116,25 @@ If this happens again there are simple computational workarounds:
 
 ## S4
 
+1. (a) False
+
+   (b) False 
+
+   (c) False (The statement is saying that "All integers have something other than three digits", i.e. "three digit integers do not exist" which is plainly false) 
+
+   (d) False (In fact there are no integers whose squares end in a 3! An explanation is below.)
+
+2. (*Several different correct formulations are possible, here is one*) "At least one of the times I answered this question, it was correct" 
+
+*Bonus explanation for why there is no integer whose square ends in a 3*: When you square an integer you are multiplying it by itself. The ones digit of the result, is the same as  when you take just the ones digit of the original and square that. (Example: The ones digit of $8919234^2$ is the ones digit of $4^2$ which is $6$.) That ones digit can only be one of the integers 0 through 9 and when squared, the only outcomes in the ones digit are 0, 1, 4, 5, 6, or 9.  
  
 ## S5
+
+- $a_2 = 2a_1 - 3a_0 = 2(6) - 3(3) = 3$
+- $a_3 = 2a_2 - 3a_1 = 2(3) - 3(6) = -12$
+- $a_4 = 2a_3 - 3a_2 = 2(-12) - 3(3) = -33$
+- $a_5 = 2a_4 - 3a_3 = 2(-33) - 3(-12) = -30$
+- $a_6 = 2a_5 - 3a_4 = 2(-30) - 3(-33) = 39$
 
 
 ## S6
