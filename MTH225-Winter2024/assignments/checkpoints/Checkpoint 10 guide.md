@@ -181,9 +181,9 @@ Getting all the terms on the left gives $r^2 - 3r - 4 = 0$. This factors into $(
 The framework for the solution using those roots is: 
 $$a(n) = c_1 (4)^n + c_2 (-1)^n$$
 
-Plugging in $n=0$ gives the equation $5 = c_1 (4)^0 + c2(-1)^0$ which simplifies to $c_1 + c_2 = 5$. 
+Plugging in $n=0$ gives the equation $5 = c_1 (4)^0 + c_2(-1)^0$ which simplifies to $c_1 + c_2 = 5$. 
 
-Plugging in $n=1$ gives the equation $8 = c_1 (4)^1 + c2(-1)^1$ which simplifies to $4c_1 - c_2 = 8$. 
+Plugging in $n=1$ gives the equation $8 = c_1 (4)^1 + c_2(-1)^1$ which simplifies to $4c_1 - c_2 = 8$. 
 
 Using the "elimination" method for solving the system of equations, we add the left and right sides of the first equation to the left and right sides of the second. The $c_2$ term cancels, leaving us with $5c_1 = 13$. Therefore $c_1 = 13/5$. 
 
