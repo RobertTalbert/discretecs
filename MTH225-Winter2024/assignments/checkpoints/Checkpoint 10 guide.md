@@ -112,7 +112,27 @@ If this happens again there are simple computational workarounds:
 
 ## S3 
 
+| $p$ | $r$ | $q$ | $\neg p$ | $\neg r$ | $q \vee (\neg r)$ | $(\neg p) \rightarrow (q \vee (\neg r))$ |
+| --- | --- | --- | -------- | -------- | ----------------- | ---------------------------------------- |
+| T   | T   | T   | F        | F        | T                 | T                                        |
+| T   | F   | T   | F        | T        | T                 | T                                        |
+| T   | T   | F   | F        | F        | F                 | T                                        |
+| T   | F   | F   | F        | T        | T                 | T                                        |
+| F   | T   | T   | T        | F        | T                 | T                                        |
+| F   | F   | T   | T        | T        | T                 | T                                        |
+| F   | T   | F   | T        | F        | F                 | F                                        |
+| F   | F   | F   | T        | T        | T                 | T                                        |
 
+
+
+| $p$ | $q$ | $p \wedge q$ | $\neg(p \wedge q)$ | $\neg p$ | $(\neg p) \vee q$ |
+| --- | --- | ------------ | ------------------ | -------- | ----------------- |
+| T   | T   | T            | F                  | F        | T                 |
+| T   | F   | F            | T                  | F        | F                 |
+| F   | T   | F            | T                  | T        | T                 |
+| F   | F   | T            | T                  | T        | T                 |
+
+So these two propositions are not logically equivalent. 
 
 ## S4
 
