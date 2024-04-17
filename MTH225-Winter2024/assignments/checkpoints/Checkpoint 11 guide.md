@@ -38,7 +38,7 @@
 ### Common mistakes 
 
 - **Answering "True" on 1(c):** That is, stating that $1/2$ is an integer. I'm not sure why this happened more than once but please review [what an integer is](https://publish.obsidian.md/mth225/Computer+Arithmetic/Integers). 
-= **Giving duplicate elements in 2(c):** For example saying that the set is $\lbrace 0, 1, 2, 0, 1, 2, 0, 1, 2, \dots \rbrace$. This is incorrect set notation because sets cannot contain duplicate elements. 
+- **Giving duplicate elements in 2(c):** For example saying that the set is $\lbrace 0, 1, 2, 0, 1, 2, 0, 1, 2, \dots \rbrace$. This is incorrect set notation because sets cannot contain duplicate elements. 
 
 ## C4 
 
