@@ -37,7 +37,7 @@
 
 ### Common mistakes 
 
-- **Answering "True" on 1(c):** That is, stating that $1/2$ is an integer. I'm not sure why this happened more than once but please review [what an integer is](https://publish.obsidian.md/mth225/Computer+Arithmetic/Integers). 
+- **Answering "True" on 1(c):** That is, stating that $1/2$ is an integer. I'm not sure why this happened but please review [what an integer is](https://publish.obsidian.md/mth225/Computer+Arithmetic/Integers). 
 - **Giving duplicate elements in 2(c):** For example saying that the set is $\lbrace 0, 1, 2, 0, 1, 2, 0, 1, 2, \dots \rbrace$. This is incorrect set notation because sets cannot contain duplicate elements. 
 
 ## C4 
@@ -48,6 +48,12 @@
 4. $\lbrace 3 \rbrace$
 5. $\lbrace \emptyset, \lbrace 7 \rbrace \rbrace$
 6. $12$
+
+### Common mistakes
+
+- **Giving the cardinality on part 5 when it was asking for the set:** If this were asking for the cardinality, there would have been vertical bars around the set: $|{\cal{P}}(D)|$. But there were no such symbols. 
+- **Giving the set on part 6 when it was asking for the cardinality:** Those vertical bar symbols *were* around $A \times C$ though. 
+
 
 ## C5 
 
