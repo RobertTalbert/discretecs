@@ -57,7 +57,7 @@
 
 ## C5 
 
-(The parts here were mistakenly labeled "3" and "4", instead of "1" and "2". They are renumbered below.)
+(The parts here were mistakenly labeled "3" and "4" on the Checkpoint form, instead of "1" and "2". They are renumbered below.)
 
 1. This is a license plate problem with eight slots to fill and two choices per slot, so the count is $2^8 = 256$. 
 2. Use the Principle of Inclusion and Exclusion. The number of 10-"bit" ternary strings that start with a 2 is $3^9 = 19683$ (fix a "2" in the leftmost slot and then choose freely from 0, 1, or 2 for the other 9). This is also the number of ternary strings that end in a 2 for the same reason. But this counts the ternary strings that *both* start *and* end in a 2 twice, so that number has to be subtracted out of the total. This number is $3^8 = 6561$. Therefore the complete count is $19683 + 19683 - 6561 = 32805$. 
@@ -80,6 +80,16 @@
 
 
 **Note**: If you interpreted the problem in 2(b) as saying "exactly one A", as the examples show, then this will be counted as a "simple" error and you'll get credit for this as long as the solution is correct and consistent with that interpretation. Here is what this would look like. If there is to be exactly one "A", then there are four positions where it could go in a four-letter word. For the other three positions, treat it as a license plate problem with three slots and six possible ways to fill each. This would give $6^3 = 216$ words; since there are four positions where the "A" could go, the total count is $4 \cdot 6^3 = 864$. 
+
+### Common mistakes
+
+All of the common mistakes were concentrated on part 2(b). 
+
+- **Assuming that the words *start* with an "A"**: It doesn't say that the *first* letter is "A", just that "A" has to be in the word somewhere. 
+- **Assuming repetitions aren't allowed:** For example, saying that the count is $6 \cdot 5 \cdot 4$ because if "A" has to be in the word, then there are three letters remaining and six choices for the first letter, five for the second, then 4 for the third/last. But that's not the case -- it says repetitions are allowed and so the number of choices wouldn't drop. (There are other issues as well with this approach.)
+- **Treating it like a simple license plate problem:** For example, saying the count is $7^4$ because there are four letters in the word and 7 choices each. The problem with this, is that it doesn't account for the fact that "A" must be one, possibly more than one, of the letters. That number $7^4$ counts *all possible* words, including ones like `BCDE` with no "A"s in them. 
+- **Using a binomial coefficient (and nothing else):** For example, saying the count is $\binom{7}{3}$, which is incorrect because this is the total number of all *three* letter words from the entire set, so the length of the word is incorrect and also it allows for words that don't have "A" in them. Also incorrect is $\binom{7}{4}$ because although this chooses four-letter words, it does not take ordering into account (it would treat `BCDE` as the same selection as `DCBE`) and also allows for words with no "A"s. 
+
 
 ---
 
