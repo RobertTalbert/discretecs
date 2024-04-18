@@ -97,48 +97,98 @@ All of the common mistakes were concentrated on part 2(b).
 
 ## S3 
 
+| $p$ | $q$ | $r$ | $\neg p$ | $(\neg p) \vee r$ | $((\neg p) \vee r) \rightarrow q$ |
+| --- | --- | --- | -------- | ----------------- | --------------------------------- |
+| T   | T   | T   | F        | T                 | T                                 |
+| T   | T   | F   | F        | F                 | T                                 |
+| T   | F   | T   | F        | T                 | F                                 |
+| T   | F   | F   | F        | F                 | T                                 |
+| F   | T   | T   | T        | T                 | T                                 |
+| F   | T   | F   | T        | T                 | T                                 |
+| F   | F   | T   | T        | F                 | T                                 |
+| F   | F   | F   | T        | T                 | F                                 |
+
+| $p$ | $q$ | $p \wedge q$ | $\neg(p \wedge q)$ | $\neg p$ | $\neg q$ | $(\neg p) \wedge q$ |
+| --- | --- | ------------ | ------------------ | -------- | -------- | ------------------- |
+| T   | T   | T            | F                  | F        | F        | F                   |
+| T   | F   | F            | T                  | F        | T        | F                   |
+| F   | T   | F            | T                  | T        | F        | F                   |
+| F   | F   | F            | T                  | T        | T        | T                   |
+
+The statements are not logically equivalent. 
+
+
+
 ## S4
 
+1. (a) False
+
+   (b) False
+
+   (c) False (There are some integers with two digits)
+
+   (d) True (for example, $x=8$, because $8^2$ ends in a 4)
+
+2. All prime numbers are odd. (Or, "not even")
+ 
  
 ## S5
 
-
+- $a_2 = 3a_1 + 4a_0 = 3(8) + 4(5) = 44$
+- $a_3 = 3a_2 + 4a_1 = 3(44) + 4(8) = 164$
+- $a_4 = 3a_3 + 4a_2 = 3(164) + 4(44) = 668$
+- $a_5 = 3a_4 + 4a_3 = 3(668) + 4(164) = 2660$
+- $a_6 = 3a_5 + 4a_4 = 3(2660) + 4(668) = 10652$
+ 
 
 ## S6
 
+1. $R(1) = 5$, $R(2) = 10$, $R(3) = 17$. 
+2. The two squares that stick off to the bottom-left and top-right are always present, so focus on how the recursion uses the "middle" part of each figure. In each step, the middle portion from the previous figure is included, and adds a new column to the figure and then a new row across the top. The height of the column in any step appears to be the step number plus 1, and the row across the top has width equal to the step number. So the recurrence relation should be $R(n) = R(n-1) + (n+1) + n$ which simplifies to $R(n) = R(n-1) + 2n + 1$. 
 
 ## S7
 
+1. Not a function. 
+2. Not a function. 
+3. Function. Domain = $\lbrace t,h \rbrace$. Range and codomain = $\lbrace v,u \rbrace$. 
+4. Function. Domain = $\lbrace 0,6 \rbrace$. Codomain = $\lbrace 2, 9 \rbrace$. Range = $\lbrace 9 \rbrace$. 
+5. Function. Domain = $\lbrace f,w,u,a \rbrace$. Codomain and range = $\lbrace l,t,d,b \rbrace$.
+6. Function. Domain = $\lbrace o,m,d,n,y \rbrace$. Codomain and range = $\lbrace o,p,d,l \rbrace$. 
 
 
 ## S8
 
+1. Bijective. 
+2. Injective but not surjective, because for example the number 500 can never be output since its binary representation (`111110100`) has more than 8 bits.
+3. Not injective, since `00000000` and `1000000` both map to `00000000`. Also not surjective because no bitstring with a `1` in either the first or last position can be output (for example `11111111`).  
 
 ## S9
 
 | Part | Type of sequence | Closed formula | Recursive definition | 
 | --- | ---- | ---- | --- | 
+| 1 | Geometric | $a(n) = 4 \cdot \left( \frac{1}{2} \right)^n$ | $a_0 = 4$ and $a_n = \frac{1}{2}a_{n-1}$ |
+| 2 | Neither | n/a | n/a |  
+| 3 | Arithmetic | $a(n) = 4 + 4n$ | $a_0 = 4$ and $a_n = a_{n-1} + 4$ | 
+| 4 | Neither | n/a | n/a | 
 
 
 
 ## S10
 
-<!-- The characteristic equation for the recurrence relation is
-$$r^2 = 3r + 4$$
-Getting all the terms on the left gives $r^2 - 3r - 4 = 0$. This factors into $(r-4)(r+1) = 0$ on the left, so the characteristic roots are $r = 4$ and $r=-1$. 
+The characteristic equation for the recurrence relation is
+$$r^2 = 7r -12$$
+Getting all the terms on the left gives $r^2 - 7r + 12 = 0$. This factors into $(r-4)(r-3) = 0$ on the left, so the characteristic roots are $r = 4$ and $r=3$. 
 
 The framework for the solution using those roots is: 
-$$a(n) = c_1 (4)^n + c_2 (-1)^n$$
+$$a(n) = c_1 (4)^n + c_2 (3)^n$$
 
-Plugging in $n=0$ gives the equation $5 = c_1 (4)^0 + c_2(-1)^0$ which simplifies to $c_1 + c_2 = 5$. 
+Plugging in $n=0$ gives the equation $4 = c_1 (4)^0 + c_2(3)^0$ which simplifies to $c_1 + c_2 = 4$. 
 
-Plugging in $n=1$ gives the equation $8 = c_1 (4)^1 + c_2(-1)^1$ which simplifies to $4c_1 - c_2 = 8$. 
+Plugging in $n=1$ gives the equation $7 = c_1 (4)^1 + c_2(3)^1$ which simplifies to $4c_1 + 3c_2 = 7$. 
 
-Using the "elimination" method for solving the system of equations, we add the left and right sides of the first equation to the left and right sides of the second. The $c_2$ term cancels, leaving us with $5c_1 = 13$. Therefore $c_1 = 13/5$. 
+Let's use the "elimination" method for solving the system of equations. We first multiply both sides of the first equation by $-3$ to get $-3c_1 - 3c_2 = -12$. Now add both sides to the corresponding sides of the second equation to get $c_1 = -5$. 
 
-To find $c_2$, plug $c_1 = 13/5$ in to $c_1 + c_2 = 5$ to get $13/5 + c_2 = 5$. Now solve for $c_2$ to get $c_2 = 5 - 13/5 = 12/5$. 
+To find $c_2$, plug $c_1 = -5$ in to $c_1 + c_2 = 4$ to get $-5 + c_2 = 4$. Now solve for $c_2$ to get $c_2 = 9$. 
 
 So the final solution is
-$$a(n) = \frac{13}{5} (4)^n + \frac{12}{5} (-1)^n$$
-
-(Note: Using decimals, $13/5 = 2.6$ and $12/5 = 2.4$. These are OK to use here.) -->
+$$a(n) = -5 (4)^n + 9 (3)^n$$
