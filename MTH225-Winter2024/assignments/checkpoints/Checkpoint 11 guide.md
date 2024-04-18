@@ -105,7 +105,7 @@ All of the common mistakes were concentrated on part 2(b).
 | T   | F   | F   | F        | F                 | T                                 |
 | F   | T   | T   | T        | T                 | T                                 |
 | F   | T   | F   | T        | T                 | T                                 |
-| F   | F   | T   | T        | F                 | T                                 |
+| F   | F   | T   | T        | T                 | T                                 |
 | F   | F   | F   | T        | T                 | F                                 |
 
 | $p$ | $q$ | $p \wedge q$ | $\neg(p \wedge q)$ | $\neg p$ | $\neg q$ | $(\neg p) \wedge q$ |
