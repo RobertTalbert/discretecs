@@ -17,7 +17,7 @@
 11. A
 12. A
 13. A
-14. D
+14. E
 15. B
 
 ### Section 2: Computation
