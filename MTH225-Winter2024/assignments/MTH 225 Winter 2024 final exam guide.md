@@ -58,7 +58,7 @@ So $(202)_{10} = (11001010)_2$. For base 16:
 
 So $(202)_{10} = (CA)_{16}$.
 
-5. (a) $\lbrace \emptyset, \lbrace a \rbrace, \lbrace b \rbrace, \lbrace c \rbrace, \lbrace a,b \rbrace. \lbrace a,c \rbrace, \lbrace b,c \rbrace. \lbrace a,b,c \rbrace \rbrace$
+5. (a) $\lbrace \emptyset, \lbrace a \rbrace, \lbrace b \rbrace, \lbrace c \rbrace, \lbrace a,b \rbrace. \lbrace a,c \rbrace, \lbrace b,c \rbrace , \lbrace a,b,c \rbrace \rbrace$
 
    (b) $\lbrace (a,1), (a,2), (b,1), (b,2), (c,1), (c,2) \rbrace$
 
@@ -81,7 +81,7 @@ Therefore $4(k+1) < 2^{k+1}$ which is what we said we would prove.
 
 4. This is a dots-and-dividers problem, like the problem from class about putting copies of files into folders. Each type of donut is a "folder" and you have six "files" that you can put into each (think of a "file" as a choice to get that kind of donut). For example the diagram `**|*|***` would represent a choice of two plain, one chocolate, and three jelly donuts. Each such diagram corresponds to a bitstring of length 8 and weight 2, so there are $\displaystyle{\binom{8}{2} = 28}$ possible selections. 
 
-5. (a) Use the Principle of Inclusion and Exclusion. The number of strings that start with `01` is $2^6$ because the first two bits are fixed but there's a free choice of two bits for the remaining 6. The number ending in a `0` is $2^7$ for similar reasons. The number that both start with `01` and end in `0` is $2^5$ again for similar reasons, and those are double counted so suubtract this from the sum: $2^6 + 2^7 - 2^5 = 160$. 
+5. (a) Use the Principle of Inclusion and Exclusion. The number of strings that start with `01` is $2^6$ because the first two bits are fixed but there's a free choice of two bits for the remaining 6. The number ending in a `0` is $2^7$ for similar reasons. The number that both start with `01` and end in `0` is $2^5$ again for similar reasons, and those are double counted so subtract this from the sum: $2^6 + 2^7 - 2^5 = 160$. 
 
    (b) The number of 8-bit strings with exactly three `1` bits is, by definition, the binomial coefficient $\displaystyle{\binom{8}{3} = 56}$. 
 
