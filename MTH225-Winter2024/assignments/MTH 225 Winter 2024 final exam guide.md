@@ -173,7 +173,7 @@ Check your work using a [truth table tool](https://web.stanford.edu/class/cs103/
 
    (c) False
 
-   (d) True 
+   (d) False 
 
 2. "All final exams are hard" 
 
