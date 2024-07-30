@@ -50,12 +50,37 @@ After successful completion of MTH 325, you will be able to...
 - Employ effective problem-solving skills in solving computational problems.
 - Explain methods and solutions of computational problems in a clear way to a specified target audience.
 - Demonstrate fluency in applying algorithms in the formulation and solutions of mathematical problems.
-- Assess one's own work in mathematical problem solving and apply feedback to make improvements to one's own work.
+- Assess your own work in mathematical problem solving and apply feedback to make improvements to your own work.
 
 
 ## What the class will be doing
 
-## How grades are determined
+**During class meetings**, active participation is essential. There will often be a brief (20 minutes or less) lecture over new concepts, followed by 20-30 minutes of activities of different types: problem solving sessions, computer-based lab work, electronic polling with discussion, and more. Your attendance and effort will be needed during every meeting of the class; without attendance and effort, it will be hard to succeed. Some class meetings are set aside for four **Exams** and makeup dates for those exams; see below for more information on that. 
+
+**Before and after class meetings**, the main activity is **Homework**. This is a combination of practice from the topics discussed in class *and* preview activities for the next class. Those preview activities will typically involve experimenting with an idea, and perhaps learning some basic content through video or reading. You are not expected to "teach yourself the material" -- these are just activities to introduce you to a new concept. But, **the lectures in class will assume you have completed the preview activities** so a good-faith effort to complete these each time is essential for your success in the course. 
+
+**Outside of class meetings**, other than Homework, you'll be given occasional **Advanced Homework** sets, typically every other week. These will contain more advanced problems involving applications of basic material learned in class. Since mathematical proof is a critical focus of MTH 325, you will also be completing a **Proof Portfolio** during the semester; problems involving proof will be posted and you will complete a selection of these. 
+
+**Staying engaged** in the course both in and outside of class meetings is crucial for success. You'll occasionally be given activities that promote positive engagement with the course, for example the Startup activities at the beginning of the semester. These and other engagement-focused activities earn **Engagement Credits** (like "experience points" in a game) and you'll be accumulating engagement credits throughout the semester. 
+
+
+**You can ask a question about anything at any time.** I am typically on campus MWF the entire working day with drop-in hours set aside especially for MTH 325 students from ?? to ??. Each of you is invited to drop in during those times, with any items you want to discuss, no appointment necessary. If you have a question outside those times, you can email those to me (talbertr@gvsu.edu) or set up an appointment at another time by clicking here: https://calendly.com/robert-talbert Then select "MTH 325 student appointment".
+
+
+## How course grades are determined
+
+There are three main areas that contribute to your course grade: 
+
+- Mastery of basic skills
+- Application of those basic skills
+- Engagement, effort, and participation 
+
+**Mastery of basic skills:** The basic skills of MTH 325 can be broken down into 14 sorts of tasks, which we'll refer to as **Skills**. A list of those 14 Skills is in [Appendix A of this syllabus](https://github.com/RobertTalbert/discretecs/blob/master/MTH325-Fall2024/course-docs/MTH%20325%20Fall%202024%20syllabus.md#appendix-a-list-of-mth-325-skills). Your ability to perform these tasks is measured by completing **problems** that demonstrate those skills. A sample of these 14 kinds of problems is given in **this document**. Five (5) of these are designated as **Core** skills. Part of your course grade is determined by how well you display mastery of these problems/skills. For each problem/skill, I identify three levels of performance: **Master**, **Proficient**, and **Beginner** level. These problems appear on **Exams** that occur during the semester; four of these are planned and can be found on the course calendar. Each exam is cumulative: Exam 1 will contain problems for Skills 1-4; Exam 2 will contain problems for Skills 1-8 (with the first four problems being new variants of the ones from Exam 1); Exam 3 will have Skills 1-12; and Exam 4 skills 1-14. There will also be occasional short quizzes where you can attempt 1-2 problems of your choice; and the final exam in the course consists of new variants of all 14 problems. 
+
+I will record how well you do on each problem: "**M**" for mastery, "**P**" for proficient, and "**B**" for beginner and record the letter in Blackboard. Detailed rubrics for how those grades are determined can be found in the Standards for Student Work document. Your best attempt on a problem is kept, so if you earn an M on a problem on the first try, you do not need to reattempt it again at any point in the semester; but if you earn a P, you can try again at a subsequent exam or quiz, or on the final. 
+
+**Application of basic skills:** There are two categories to this -
+
 
 ## How to revise or reattempt an assignment
 
