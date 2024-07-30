@@ -19,7 +19,7 @@ This course is subject to the GVSU policies listed at http://www.gvsu.edu/course
 
 ## Key Information
 
-**Class meetings:** Section 03 meets from 11:00-11:50am, in MAK A1161 on Monday and in MAKD2123 on Wednesday and Friday. Section 04 meets from 12:00-12:50pm MWF in MAK D2329. 
+**Class meetings:** Section 03 meets from 11:00-11:50am, in MAK A1161 on Monday and in MAK D2123 on Wednesday and Friday. Section 04 meets from 12:00-12:50pm MWF in MAK D2329. 
 
 **Instructor:** Robert Talbert, Ph.D., Professor of Mathematics. Office: MAK C2513. Email: talbertr@gvsu.edu. Phone: (616)331-8968. **Be sure to read my availability notice.**
 
@@ -27,7 +27,7 @@ This course is subject to the GVSU policies listed at http://www.gvsu.edu/course
 
 **Webpage:** The course Blackboard site is at http://lms.gvsu.edu. A Course Page, containing a summary of links to important documents and a record of class activities, is [at this link](https://docs.google.com/document/d/1HAZgvPWV7PeU774Ou-lfoNLWRDSsH9HBjf0ftqW1lus/edit?usp=sharing). 
 
-**Resources:** The **Class Vault** is a wiki containing articles for each of the major concepts of MTH 325 (and MTH 225) and will serve as our primary "textbook": https://publish.obsidian.md/discretecs Other resources, such as video content and instructional websites, will be provided as needed. There is no required textbook, but the online text [Discrete Mathematics: An Open Introduction](https://discrete.openmathbooks.org/dmoi3.html) is available for free as an optional supplement. 
+**Resources:** The **Course Vault** is a wiki containing articles for each of the major concepts of MTH 325 (and MTH 225) and will serve as our primary "textbook": https://publish.obsidian.md/discretecs Other resources, such as video content and instructional websites, will be provided as needed. There is no required textbook, but the online text [Discrete Mathematics: An Open Introduction](https://discrete.openmathbooks.org/dmoi3.html) is available for free as an optional supplement. 
 
 **Technology requirements:** It's highly recommended to have a laptop and access to a high-speed internet connection for work outside of class. You will need access to a basic handheld calculator for Checkpoint assessments in class. There is no preferred model of device. For in-class technology use, please see the policies in the "How we will use technology" section below. 
 
@@ -46,6 +46,9 @@ This course is subject to the GVSU policies listed at http://www.gvsu.edu/course
 ## Academic integrity policy
 
 ## Other class policies 
+
+**Instructor availability:** Email (talbertr@gvsu.edu) is the best way to reach me with a message outside of class meetings. **All messages needing a response will receive one within one (1) working day** (that is, Monday through Friday). I typically check email **twice during the working day** (early morning and late afternoon) and **do not check email after 5:00pm, before 7:00am, or at any time on weekends**. If you send a message during those times and your message needs a response, you will get one promptly when I am back at work. 
+
 
 ## How to get help
 
