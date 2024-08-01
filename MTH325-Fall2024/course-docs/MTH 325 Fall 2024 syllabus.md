@@ -144,13 +144,31 @@ To keep the grading process operating efficiently we will place the following re
 - As mentioned above, Advanced Homework sets can be revised only once; proof problems can be revised as needed but there is a limit of three total submissions per week. 
 - Advanced Homework and some proof problems will come with a deadline for initial submissions. **You must submit a complete, good-faith effort on the assignment prior to the deadline in order to be eligible to revise or resubmit it**. Examples of situations where revision would *not* be allowed include the following: 
   - The assignment is not submitted at all before the deadline (In other words you cannot "revise" an assignment you did not turn in)
-  - The assignment is submitted but some problems are skipped or omitted either partially or entirely, or includes responses saying something like "I didn't know how to do this part" 
+  - The assignment is submitted but some problems are skipped or omitted either partially or entirely, or includes responses saying something like "I didn't know how to do this part" but no signficant attempt at a solution 
   - The assignment is submitted but the work has significant issues or errors throughout -- so much so that it is impossible to tell if there is any understanding of the concepts.  
+- Revisions of Advanced Homework sets also have a deadline. No revisions are accepted past that deadline. 
 - No revisions or reattempts on any item are allowed after **11:59pm ET on Sunday, December 8**. This is the beginning of the last week of classes, and no revisions or reattempts are allowed after that point so that the queue of items to grade can be cleared prior to the final exam. 
 
-
-
 ## How we will use technology
+
+We will use digital tools, including computer software and artificial intelligence tools, regularly in MTH 325 as tools for learning. MTH 325 students are not only encouraged to use technology in this way, but are expected to do so. However, these tools can also be a strong distraction to your engagement, so we'll use them with limits. 
+
+**During class meetings that are not Exams, please have all technology including laptops and phones put away, in your bags and not out on the desks**, unless specifically instructed otherwise or unless you have given me a memo from Disability Support Resources (DSR) stating that you need to use technology during class meetings. Having your technology out during a class meeting at any other time or under any other condition will result in a request to put it away first, then a loss of engagement credits if that request is not satisfied. 
+
+**During Exams, you are allowed the use of a scientific or graphing calculator, or a smartphone calculator app if the phone is in airplane mode.** No other technology will be allowed (or necessary) on exams. 
+
+Outside of class, you are generally free to use technology without restrictions, unless restricted in the instructions on an assignment. In particular, the use of generative AI tools (ChatGPT, etc.) can be highly beneficial but also highly disruptive to learning; see "Academic Integrity Poloicy" below for more. 
+
+You should be proficient in the basic technology skills listed at [this GVSU policy page](https://www.gvsu.edu/online/technology-requirements-for-onlinehybrid-courses-8.htm). This list is for online and hybrid courses, but it applies to our class as well. If you need help at any time with those skills, please ask me or a classmate. **You will also need basic proficiency in the Python programming language**; completion of CIS 162 is sufficient. If you need tutorials on Python, please let me know.
+
+**Tech support**: I (Talbert) am not able to provide tech support since I lack the skill and permissions to fix all possible problems. *Do not contact me first when tech problems arise*. Instead, contact the appropriate person or office listed below, then let me know the situation:
+
+- For help with Blackboard: Email the Blackboard Help Desk at bbadmin@gvsu.edu or call (616)331-8526. For hours of operation and more information see http://www.gvsu.edu/elearn/help.
+- For help with the GVSU network, email, or printing: Email the GVSU IT Help Desk at helpdesk@gvsu.edu; or call (616)331-2101 or toll free (855)435-7488. For hours of operation and more information see https://www.gvsu.edu/it.
+- For help with your computer: Try the GVSU IT Help Desk (above) or contact your device's manufacturer or a computer store.
+- For help with any other technology: Seek out the help documentation in the tool you are using, or do a targeted Google search. Ask a classmate or me if you are unable to resolve the issue.
+- 
+**If technology issues prevent submitting work**: If you have contacted an appropriate source of help and an issue still persists that prevents you from turning in work in the usual way (for example on Blackboard), you are expected to take alternative measures to get your work turned in on time. For example, if Blackboard is offline, send an email with an attachment. Then, submit the work using the normal means later.
 
 ## Academic integrity policy
 
