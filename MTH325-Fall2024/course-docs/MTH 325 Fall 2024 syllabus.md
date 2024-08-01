@@ -282,7 +282,7 @@ It is also embedded on Blackboard in the *Course Documents* folder. Please note,
   - Section 03: 10:00-11:50am
   - Section 04: 12:00-1:50pm
 
-Please note: Makeup days are only for students who were absent from the initial offering of the exam with an excused absence. It is not an additional attempt open for all students. Students not needing a makeup are not required or expected to come to class on makeup days. 
+Please note: Makeup days are only for students who were absent from the initial offering of the exam with an excused absence. They are not additional attempts open for all students. Students not needing a makeup are not required or expected to come to class on makeup days. 
 
 **University dates**: 
 - August 30: 100% tuition refund deadline
