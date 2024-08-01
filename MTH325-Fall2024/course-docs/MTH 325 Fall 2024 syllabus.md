@@ -67,7 +67,7 @@ After successful completion of MTH 325, you will be able to...
 **You can ask a question about anything at any time.** I am typically on campus MWF the entire working day with drop-in hours set aside especially for MTH 325 students from ?? to ??. Each of you is invited to drop in during those times, with any items you want to discuss, no appointment necessary. If you have a question outside those times, you can email those to me (talbertr@gvsu.edu) or set up an appointment at another time by clicking here: https://calendly.com/robert-talbert Then select "MTH 325 student appointment".
 
 
-## How course grades are determined
+## Assignments and how these are graded 
 
 There are three main areas that contribute to your course grade: 
 
@@ -79,8 +79,23 @@ There are three main areas that contribute to your course grade:
 
 I will record how well you do on each problem: "**M**" for mastery, "**P**" for proficient, and "**B**" for beginner and record the letter in Blackboard. Detailed rubrics for how those grades are determined can be found in the Standards for Student Work document. Your best attempt on a problem is kept, so if you earn an M on a problem on the first try, you do not need to reattempt it again at any point in the semester; but if you earn a P, you can try again at a subsequent exam or quiz, or on the final. 
 
-**Application of basic skills:** There are two categories to this -
+**Application of basic skills:** The basic skills can be applied in two different ways: *real world applications* and *mathematical proofs*. 
 
+Real-world applications appear on **Advanced Homework** sets which you'll receive roughly every other week. These include some basic and extended practice problems, and harder problems that involve applications. Each Advanced Homework is graded as a whole using a rubric found in the Standards for Student Work document, and in Blackboard we record either **Success** if the work meets the standards, or **Retry** if it does not. 
+
+We will maintain a running list of **proof problems**, added to on a regular basis as we learn more material, from which you can select a few to demonstrate skill with writing proofs. You'll take the ones you select, solve them, give them a nice writeup, and submit them on Blackboard for grading. Like Advanced Homework, proof problems are graded using a rubric found in the Standards for Student Work document, and in Blackboard we record either **Success** if the work meets the standards, or **Retry** if it does not. 
+
+The process of revising or resubmitting Advanced Homework or proof problems is given in detail below, in "How to revise or reattempt an assignment". 
+
+**Engagement, effort, and participation:** There are several ways to demonstrate engagement with the class. 
+
+- The foremost is **Homework**, which as described above is a brief assignment given after a class meeting that contains a review of the lesson and a preview of the next lesson. *Completing Homework regularly is critically important for success in MTH 325*. 
+- Other activities will appear in the class that will let you earn **engagement credits**. Attending a class meeting earns one engagement credit. Other activities will have different engagement credit values. By completing these activities, you'll accumulate engagement credits through the semester. 
+
+
+## How course grades are determined 
+
+Your basic course grade in the class -- A, B, C, D, or F without plus/minus modifiers -- is earned by meeting 
 
 ## How to revise or reattempt an assignment
 
