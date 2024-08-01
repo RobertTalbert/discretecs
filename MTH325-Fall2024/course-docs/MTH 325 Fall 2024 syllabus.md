@@ -89,7 +89,7 @@ The process of revising or resubmitting Advanced Homework or proof problems is g
 
 **Engagement, effort, and participation:** There are several ways to demonstrate engagement with the class. 
 
-- The foremost is **Homework**, which as described above is a brief assignment given after a class meeting that contains a review of the lesson and a preview of the next lesson. *Completing Homework regularly is critically important for success in MTH 325*. 
+- The foremost is **Homework**, which as described above is a brief assignment given after a class meeting that contains a review of the lesson and a preview of the next lesson. *Completing Homework regularly is critically important for success in MTH 325*. Homework is graded either **Success** or **Incomplete** on the basis of completeness, effort, and timeliness. See the Standards for Student Work document for details. 
 - Other activities will appear in the class that will let you earn **engagement credits**. Attending a class meeting earns one engagement credit. Other activities will have different engagement credit values. By completing these activities, you'll accumulate engagement credits through the semester. 
 
 
@@ -103,6 +103,8 @@ Your basic course grade -- A, B, C, D, or F without plus/minus modifiers -- is e
 | B | All 5 core + 4 others | 4 | 3 | 16 | 50 | 
 | C | All 5 core + 2 others | 2 | N/A | 14 | 40 |
 | D | Any 5 | N/A | N/A | 10 | 20 | 
+
+The numbers in the "Skills" column refer to the number of **Master** ratings you earn; **Skilled** and **Beginner** do not count in this total. The numbers in Advanced Homework,  Proof problems, and Homework refer to the number of **Success** marks earned. We are initially planning on a total of 8 Advanced Homework sets, between 8 and 12 Proof problems, 20 regular Homeworks, and a total of 70 engagement credits; if these numbers should change during the semester, the table will be updated accordingly. 
 
 
 
