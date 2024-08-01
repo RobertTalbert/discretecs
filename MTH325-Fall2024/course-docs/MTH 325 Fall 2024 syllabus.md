@@ -120,14 +120,35 @@ What this way of determining grades says, in regular language, is that:
 
 This way of doing grades is unusual, but it has some advantages: 
 
-- Almost every assignment can be revised or reattempted if you need to improve your work (see the next section below), and one you have demonstrated Mastery on a problem, homework, or proof you do not have to revisit it again in the course (except skills, at the final exam). It's possible that if you do well on the Exams, you will only need to work a fraction of the final exam. Many times, students just opt out of the final altogether. 
+- Almost every assignment can be revised or reattempted if you need to improve your work (see the next section below), and once you have demonstrated Mastery on a problem, homework, or proof you do not have to revisit it again in the course (except skills, at the final exam). It's possible that if you do well on the Exams, you will only need to work a fraction of the final exam. Many times, students just opt out of the final altogether if they have strong Exam performances (and don't care about having a minus). 
 - If you have a shaky performance on an assignment early in the semester, you have time to practice and improve, and those early performances don't hurt you. 
 - Because your grade is earned by accumulating successes, your grade in the course never goes down -- it only stays the same or goes up. 
 - It is easy to track your grade and find where you stand since there's no math involved other than adding up successes. 
 
-The main downside of this way of doing grades is that it can be complicated and weird. We will take time to practice with the system; most students "get it" after a couple of weeks of use. But, if at any time you are uncertain about how you are doing in the class, please ask me and I'll be happy to clarify your situation.
+The main downside of this way of doing grades is that it can be complicated, and it can seem weird at first. We will take time to practice with the system; most students "get it" after a couple of weeks of use. But, if at any time you are uncertain about how you are doing in the class, please ask me and I'll be happy to clarify your situation.
 
 ## How to revise or reattempt an assignment
+
+**Almost every assignment in the class can be revised or reattempted if you are not happy with the results, and you are not penalized for any reattempt or revision.** The exception to this rule is Homework and items earning engagement credits; there are no reattempts or revisions allowed on Homework since it is partially a preview of an upcoming class, and since it's graded only on completeness, effort, and timeliness it is very easy to get a **Success** mark every time. Likewise, engagement credit items are typically one-off items that you either complete or don't complete, so revision doesn't apply. 
+
+For the other assignments in the class, here are the details for how this works: 
+
+- **Skills/Exam problems**: Exams are cumulative, so each exam contains new skills/problems as well as new variants of older ones. If you attempt a skill/problem and do not earn **Master** on it, you can reattempt it at the next exam or at a quiz given in between exams. 
+- **Advanced Homework**: You can revise and resubmit each Advanced Homework set **once** (for a total of two attempts). Your initial attempt will get verbal feedback on it, and you can use the feedback to make any corrections or improvements that are called for. Advanced Homework is submitted on Blackboard in an assignment area; revisions are simply submitted to the same assignment area. 
+- **Proof problems**: You can revise and resubmit attempts at proof problems **as many times as needed but no more than three total submissions per week** including initial submissions. So for example, in a given week you can submit two new proofs and a revision of a previous one; or three revisions; or three new proofs; and so on. Like Advanced Homework, revisions of proofs are uploaded to Blackboard in the same assignment area as the original submission. 
+
+For the purposes of revision, a "week" is defined to run from Sunday through Saturday, like on a calendar. 
+
+To keep the grading process operating efficiently we will place the following restrictions on revision and reattempts: 
+
+- As mentioned above, Advanced Homework sets can be revised only once; proof problems can be revised as needed but there is a limit of three total submissions per week. 
+- Advanced Homework and some proof problems will come with a deadline for initial submissions. **You must submit a complete, good-faith effort on the assignment prior to the deadline in order to be eligible to revise or resubmit it**. Examples of situations where revision would *not* be allowed include the following: 
+  - The assignment is not submitted at all before the deadline (In other words you cannot "revise" an assignment you did not turn in)
+  - The assignment is submitted but some problems are skipped or omitted either partially or entirely, or includes responses saying something like "I didn't know how to do this part" 
+  - The assignment is submitted but the work has significant issues or errors throughout -- so much so that it is impossible to tell if there is any understanding of the concepts.  
+- No revisions or reattempts on any item are allowed after **11:59pm ET on Sunday, December 8**. This is the beginning of the last week of classes, and no revisions or reattempts are allowed after that point so that the queue of items to grade can be cleared prior to the final exam. 
+
+
 
 ## How we will use technology
 
