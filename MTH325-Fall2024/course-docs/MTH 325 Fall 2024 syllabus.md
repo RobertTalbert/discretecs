@@ -95,18 +95,37 @@ The process of revising or resubmitting Advanced Homework or proof problems is g
 
 ## How course grades are determined 
 
-Your basic course grade -- A, B, C, D, or F without plus/minus modifiers -- is earned by completing a minimum number of requirements in each of the main types of assignments in the class:
+Your basic course grade -- A, B, C, D, or F without plus/minus modifiers -- is earned by completing a minimum number of requirements in each of the main types of assignments in the class, using the table below. The numbers in the "Skills" column refer to the number of **Master** ratings you earn; **Skilled** and **Beginner** do not count in this total. The numbers in Advanced Homework,  Proof problems, and Homework refer to the number of **Success** marks earned. We are initially planning on a total of 8 Advanced Homework sets, between 8 and 12 Proof problems, 20 regular Homeworks, and a total of 70 engagement credits; if these numbers should change during the semester, the table will be updated accordingly. 
 
 | Grade | Skills | Advanced Homework | Proof problems | Homework | Engagement Credits | 
 | :---: | :----: | :---------------: | :------------: | :------: | :----------------: | 
-| A | All 5 core + 8 others | 6 | 6 | 18 | 60 | 
-| B | All 5 core + 4 others | 4 | 3 | 16 | 50 | 
-| C | All 5 core + 2 others | 2 | N/A | 14 | 40 |
-| D | Any 5 | N/A | N/A | 10 | 20 | 
+| A | 13 | 6 | 6 | 18 | 60 | 
+| B | 10 | 4 | 3 | 16 | 50 | 
+| C | 7 | 2 | N/A | 14 | 40 |
+| D | 5 | N/A | N/A | 10 | 20 | 
 
-The numbers in the "Skills" column refer to the number of **Master** ratings you earn; **Skilled** and **Beginner** do not count in this total. The numbers in Advanced Homework,  Proof problems, and Homework refer to the number of **Success** marks earned. We are initially planning on a total of 8 Advanced Homework sets, between 8 and 12 Proof problems, 20 regular Homeworks, and a total of 70 engagement credits; if these numbers should change during the semester, the table will be updated accordingly. 
+Your course grade is the *highest* grade for which *all* the requirements in its row are met. A grade of "F" is given if not all of the requirements for a "D" are met. 
+
+**Mastering the core:** Failing to earn Master rating on all five Core skills will result in a one-letter grade penalty (for example B- to C-). 
 
 
+**Final exam and plus/minus modifiers:** The final exam in the course will be one more exam where all 14 skills are present (that is, a duplicate of Exam 4 with new variants of each problem). A "plus" is added to your basic grade by taking the final exam and doing Master-level work on all 5 Core skills plus any 2 others. A "minus" grade is given if either you don't take the final exam, or you take it but fail to do "Master" level work on all 5 Core skills. (So, the final exam's impact on the course grade is only to determine plus/minus modifiers.)
+
+
+**Borderline cases:** Borderline cases in the grade table (for example, completing all requirements for a grade except for one) will be decided using Homework completion and engagement credits. So it's to your advantage to complete all Homeworks and earn as many engagement credits as you can. You may be assigned a course grade higher than what the syllabus indicates if I believe it's warranted by your Homework and engagement; you will never be assigned a course grade lower than what the syllabus indicates.
+
+What this way of determining grades says, in regular language, is that: 
+- If you master half the skills in the class including the five Core skills, provide minimal but nonzero evidence of being able to apply those to real world problems, and stay reasonably engaged in the class, you can expect a grade of "C". 
+- Earning an "A" on the other hand means you have mastered all, or all but one, of the skills in the course including the five Core skills, provided consistent evidence that you can apply those basics, written several good mathematical proofs, and have stayed consistently engaged and prepared for class. 
+
+This way of doing grades is unusual, but it has some advantages: 
+
+- Almost every assignment can be revised or reattempted if you need to improve your work (see the next section below), and one you have demonstrated Mastery on a problem, homework, or proof you do not have to revisit it again in the course (except skills, at the final exam). It's possible that if you do well on the Exams, you will only need to work a fraction of the final exam. Many times, students just opt out of the final altogether. 
+- If you have a shaky performance on an assignment early in the semester, you have time to practice and improve, and those early performances don't hurt you. 
+- Because your grade is earned by accumulating successes, your grade in the course never goes down -- it only stays the same or goes up. 
+- It is easy to track your grade and find where you stand since there's no math involved other than adding up successes. 
+
+The main downside of this way of doing grades is that it can be complicated and weird. We will take time to practice with the system; most students "get it" after a couple of weeks of use. But, if at any time you are uncertain about how you are doing in the class, please ask me and I'll be happy to clarify your situation.
 
 ## How to revise or reattempt an assignment
 
