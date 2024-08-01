@@ -249,4 +249,43 @@ I live in Allendale with my wife and 15-year old son (who wants to be a software
 
 ### Appendix A: List of MTH 325 skills
 
+1. **(CORE)** I can outline a proof by mathematical induction. 
+2. **(CORE)** I can outline a proof using direct, contrapositive, and indirect approaches. 
+3. **(CORE)** I can represent a graph in different ways, determine information (degree, degree sequence, paths of given length, etc.) about a graph using different representations, and give examples of graphs with specified properties. 
+4. I can determine whether a graph has an Euler path or Euler circuit, and whether a graph has a Hamiltonian path or circuit.
+5. I can use a greedy algorithm to find a vertex or edge coloring for a graph, and I can determine a graph's chromatic number or chromatic index.
+6. I can determine whether two graphs are isomorphic; I can give an explicit isomorphism if they are, and an explanation if they are not.
+7. **(CORE)** I can determine whether a graph is a tree and state information about it. 
+8. I can use Prim's Algorithm and Kruskal's Algorithm to construct a minimum spanning tree for a weighted graph.
+9. I can use Dijkstra's Algorithm to find a minimum distance spanning tree for a weighted graph. 
+10. I can execute a breadth-first and depth-first search in a graph.
+11. **(CORE)** I can represent a directed graph in different ways, and determine information about a graph using different representations. 
+12. I can use the Floyd-Warshall algorithm to construct the transitive closure of a directed graph. 
+13. I can determine whether a relation is reflexive, symmetric, antisymmetric, and/or transitive, and whether it is an equivalence relation; and if so, I can determine the equivalence class of a point. 
+14. I can determine whether a relation is a partial ordering; if so, I can draw its Hasse diagram and identify maximal/minimal elements and/or greatest/least elements, if they exist.
+
 ### Appendix B: Calendar and important dates 
+
+A Google calendar for the class can be found at this link: https://calendar.google.com/calendar/u/0?cid=MWZiNGVmOTdkNmExOGQ1ZmFjNmQ2MTkwZjk1ZWZkMmFlN2FmZTIxMDViNTA3MjEyMDc1NWYyYTYzZDUyYmUzNUBncm91cC5jYWxlbmRhci5nb29nbGUuY29t  
+
+It is also embedded on Blackboard in the *Course Documents* folder. Please note, the calendar found on Blackboard in the "Calendar" tab at the top of the page is not the same as the Google Calendar and does not contain all the date-sensitive items in the course. **Please use this Google Calendar as your official reference**.
+
+**Exam and makeup dates**: 
+- Friday, September 27: Exam 1 (Skills 1-4)
+- Wednesday, October 16: Exam 2 (Skills 1-8) 
+- Friday, November 1: Makeup day for Exams 1 and 2 (Skills 1-8), no class otherwise 
+- Monday, November 18: Mini-Exam (Skills 9-14) 
+- Monday, November 25: Makeup day for Exam 3 and Mini-Exam (Skills 1-14) 
+- Monday, December 2: Exam 4 (Skills 1-14) 
+- Friday, December 6: Makeup day for Exam 4 and any other exam for which previous makeup days didn't work 
+- Wednesday, December 11: Final Exam
+  - Section 03: 10:00-11:50am
+  - Section 04: 12:00-1:50pm
+
+**University dates**: 
+- August 30: 100% tuition refund deadline
+- September 1-2: Labor Day recess, no class
+- September 20: 75% tuition refund deadline
+- October 20-21: Fall Break, no class
+- November 8: Deadline to withdraw from class with a grade of "W" 
+- November 27-December 1: Thanksgiving Day recess, no class
