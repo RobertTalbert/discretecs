@@ -95,7 +95,16 @@ The process of revising or resubmitting Advanced Homework or proof problems is g
 
 ## How course grades are determined 
 
-Your basic course grade in the class -- A, B, C, D, or F without plus/minus modifiers -- is earned by meeting 
+Your basic course grade -- A, B, C, D, or F without plus/minus modifiers -- is earned by completing a minimum number of requirements in each of the main types of assignments in the class:
+
+| Grade | Skills | Advanced Homework | Proof problems | Homework | Engagement Credits | 
+| :---: | :----: | :---------------: | :------------: | :------: | :----------------: | 
+| A | All 5 core + 8 others | 6 | 6 | 18 | 60 | 
+| B | All 5 core + 4 others | 4 | 3 | 16 | 50 | 
+| C | All 5 core + 2 others | 2 | N/A | 14 | 40 |
+| D | Any 5 | N/A | N/A | 10 | 20 | 
+
+
 
 ## How to revise or reattempt an assignment
 
