@@ -273,7 +273,7 @@ It is also embedded on Blackboard in the *Course Documents* folder. Please note,
 **Exam and makeup dates**: 
 - Friday, September 27: Exam 1 (Skills 1-4)
 - Wednesday, October 16: Exam 2 (Skills 1-8) 
-- Friday, November 1: Makeup day for Exams 1 and 2 (Skills 1-8), no class otherwise 
+- Friday, November 1: Makeup day for Exams 1 and 2 (Skills 1-8)
 - Monday, November 18: Mini-Exam (Skills 9-14) 
 - Monday, November 25: Makeup day for Exam 3 and Mini-Exam (Skills 1-14) 
 - Monday, December 2: Exam 4 (Skills 1-14) 
@@ -281,6 +281,8 @@ It is also embedded on Blackboard in the *Course Documents* folder. Please note,
 - Wednesday, December 11: Final Exam
   - Section 03: 10:00-11:50am
   - Section 04: 12:00-1:50pm
+
+Please note: Makeup days are only for students who were absent from the initial offering of the exam with an excused absence. It is not an additional attempt open for all students. Students not needing a makeup are not required or expected to come to class on makeup days. 
 
 **University dates**: 
 - August 30: 100% tuition refund deadline
