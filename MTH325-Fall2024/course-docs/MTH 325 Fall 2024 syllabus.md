@@ -244,6 +244,9 @@ I've been a bass guitar player for over 25 years and play live regularly in the 
 
 I live in Allendale with my wife and 15-year old son (who wants to be a software engineer). I have an 18-year daughter who is a freshman at [Wayne State University](https://wayne.edu/) and a 20-year old daughter who lives on her own. I also love the outdoors and get out to run, walk, or hike when I can. You can read more about what I'm thinking and doing at my website, [rtalbert.org](http://rtalbert.org), or [Grading for Growth](https://gradingforgrowth.com/) about alternative grading practices which I co-author with my GVSU colleague Prof. David Clark. I'm also on Twitter at [@RobertTalbert](http://twitter.com/RobertTalbert) and on [LinkedIn](https://www.linkedin.com/in/roberttalbert/). I will accept any connection request on LinkedIn from a student!
 
+## Acknowledgement
+
+The spirit of this syllabus, and some of the wording, is taken from the syllabi of [Prof. George McNulty](https://people.math.sc.edu/mcnulty/) who was a Mathematics professor at the University of South Carolina until [his passing](https://www.templeshalloranfuneralhome.com/obituary/george-mcnulty) in 2023. 
 
 ## Appendices
 
