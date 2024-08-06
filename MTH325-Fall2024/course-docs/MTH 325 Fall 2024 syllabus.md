@@ -16,6 +16,8 @@ Course materials for MTH 325 are available on GitHub at https://github.com/Rober
 
 This course is subject to the GVSU policies listed at http://www.gvsu.edu/coursepolicies/. 
 
+I (Prof. Talbert) reserve the right to adjust this syllabus as needed and will notify you of any changes through Blackboard.
+
 
 ## Key Information
 
@@ -85,7 +87,7 @@ Real-world applications appear on **Advanced Homework** sets which you'll receiv
 
 We will maintain a running list of **proof problems**, added to on a regular basis as we learn more material, from which you can select a few to demonstrate skill with writing proofs. You'll take the ones you select, solve them, give them a nice writeup, and submit them on Blackboard for grading. Like Advanced Homework, proof problems are graded using a rubric found in the [Standards for Student Work](https://github.com/RobertTalbert/discretecs/blob/master/MTH325-Fall2024/course-docs/Standards%20for%20student%20work.md) document, and in Blackboard we record either **Success** if the work meets the standards, or **Retry** if it does not. 
 
-The process of revising or resubmitting Advanced Homework or proof problems is given in detail below, in "How to revise or reattempt an assignment". 
+The process of revising or resubmitting Advanced Homework or proof problems is given in detail below, in "[How to revise or reattempt an assignment](https://github.com/RobertTalbert/discretecs/blob/master/MTH325-Fall2024/course-docs/MTH%20325%20Fall%202024%20syllabus.md#how-to-revise-or-reattempt-an-assignment)". 
 
 **Engagement, effort, and participation:** There are several ways to demonstrate engagement with the class. 
 
@@ -95,7 +97,7 @@ The process of revising or resubmitting Advanced Homework or proof problems is g
 
 ## How course grades are determined 
 
-Your basic course grade -- A, B, C, D, or F without plus/minus modifiers -- is earned by completing a minimum number of requirements in each of the main types of assignments in the class, using the table below. The numbers in the "Skills" column refer to the number of **Master** ratings you earn; **Skilled** and **Beginner** do not count in this total. The numbers in Advanced Homework,  Proof problems, and Homework refer to the number of **Success** marks earned. We are initially planning on a total of 8 Advanced Homework sets, between 8 and 12 Proof problems, 20 regular Homeworks, and a total of 70 engagement credits; if these numbers should change during the semester, the table will be updated accordingly. 
+Your basic course grade -- A, B, C, D, or F without plus/minus modifiers -- is earned by completing a minimum number of requirements in each of the main types of assignments in the class, using the table below. The numbers in the "Skills" column refer to the number of **Master** ratings you earn; **Proficient** and **Beginner** do not count in this total. The numbers in Advanced Homework,  Proof problems, and Homework refer to the number of **Success** marks earned. We are initially planning on a total of 8 Advanced Homework sets, between 8 and 12 Proof problems, 20 regular Homeworks, and a total of 70 engagement credits; if these numbers should change during the semester, the table will be updated accordingly. 
 
 | Grade | Skills | Advanced Homework | Proof problems | Homework | Engagement Credits | 
 | :---: | :----: | :---------------: | :------------: | :------: | :----------------: | 
@@ -120,8 +122,8 @@ What this way of determining grades says, in regular language, is that:
 
 This way of doing grades is unusual, but it has some advantages: 
 
-- Almost every assignment can be revised or reattempted if you need to improve your work (see the next section below), and once you have demonstrated Mastery on a problem, homework, or proof you do not have to revisit it again in the course (except skills, at the final exam). It's possible that if you do well on the Exams, you will only need to work a fraction of the final exam. Many times, students just opt out of the final altogether if they have strong Exam performances (and don't care about having a minus). 
-- If you have a shaky performance on an assignment early in the semester, you have time to practice and improve, and those early performances don't hurt you. 
+- Almost every assignment can be revised or reattempted if you need to improve your work ([see the next section below](https://github.com/RobertTalbert/discretecs/blob/master/MTH325-Fall2024/course-docs/MTH%20325%20Fall%202024%20syllabus.md#how-to-revise-or-reattempt-an-assignment)), and once you have demonstrated Mastery on a problem, homework, or proof you do not have to revisit it again in the course (except skills, at the final exam). It's possible that if you do well on the Exams, you will only need to work a fraction of the final exam. Many times, students just opt out of the final altogether if they have strong Exam performances (and don't care about having a minus). 
+- If you have a shaky performance on an assignment early in the semester, you have time to [practice and improve](https://github.com/RobertTalbert/discretecs/blob/master/MTH325-Fall2024/course-docs/MTH%20325%20Fall%202024%20syllabus.md#how-to-revise-or-reattempt-an-assignment), and those early performances don't hurt you. 
 - Because your grade is earned by accumulating successes, your grade in the course never goes down -- it only stays the same or goes up. 
 - It is easy to track your grade and find where you stand since there's no math involved other than adding up successes. 
 
@@ -153,11 +155,11 @@ To keep the grading process operating efficiently we will place the following re
 
 We will use digital tools, including computer software and artificial intelligence tools, regularly in MTH 325 as tools for learning. MTH 325 students are not only encouraged to use technology in this way, but are expected to do so. However, these tools can also be a strong distraction to your engagement, so we'll use them with limits. 
 
-**During class meetings that are not Exams, please have all technology including laptops and phones put away, in your bags and not out on the desks**, unless specifically instructed otherwise or unless you have given me a memo from Disability Support Resources (DSR) stating that you need to use technology during class meetings. Having your technology out during a class meeting at any other time or under any other condition will result in a request to put it away first, then a loss of engagement credits if that request is not satisfied. 
+**During class meetings that are not Exams, please have all technology including laptops and phones put away, in your bags and not out on the desks**. Having  technology out during a class meeting at any other time or under any other condition will result in a request to put it away first, then a loss of engagement credits if that request is not satisfied. There are three exceptions to this rule: (1) you can have technology out if specifically instructed to; (2) you can have technology out if you have given me a memo from [Student Accessibility Resources](https://www.gvsu.edu/accessibility/) (SAR, formerly known as Disability Support Resources (DSR)) that says you can use it in class; and (3) the technology is an e-ink notebook device (for example, the [Remarkable tablet](https://remarkable.com/)) that has no web browser or communication capabilities. 
 
 **During Exams, you are allowed the use of a scientific or graphing calculator, or a smartphone calculator app if the phone is in airplane mode.** No other technology will be allowed (or necessary) on exams. 
 
-Outside of class, you are generally free to use technology without restrictions, unless restricted in the instructions on an assignment. In particular, the use of generative AI tools (ChatGPT, etc.) can be highly beneficial but also highly disruptive to learning; see "Academic Integrity Poloicy" below for more. 
+Outside of class, you are generally free to use technology without restrictions, unless restricted in the instructions on an assignment. In particular, the use of generative AI tools (ChatGPT, etc.) can be highly beneficial but also highly disruptive to learning; see "[Academic Integrity Policy](https://github.com/RobertTalbert/discretecs/blob/master/MTH325-Fall2024/course-docs/MTH%20325%20Fall%202024%20syllabus.md#academic-integrity-policy)" below for more. 
 
 You should be proficient in the basic technology skills listed at [this GVSU policy page](https://www.gvsu.edu/online/technology-requirements-for-onlinehybrid-courses-8.htm). This list is for online and hybrid courses, but it applies to our class as well. If you need help at any time with those skills, please ask me or a classmate. **You will also need basic proficiency in the Python programming language**; completion of CIS 162 is sufficient. If you need tutorials on Python, please let me know.
 
@@ -167,7 +169,7 @@ You should be proficient in the basic technology skills listed at [this GVSU pol
 - For help with the GVSU network, email, or printing: Email the GVSU IT Help Desk at helpdesk@gvsu.edu; or call (616)331-2101 or toll free (855)435-7488. For hours of operation and more information see https://www.gvsu.edu/it.
 - For help with your computer: Try the GVSU IT Help Desk (above) or contact your device's manufacturer or a computer store.
 - For help with any other technology: Seek out the help documentation in the tool you are using, or do a targeted Google search. Ask a classmate or me if you are unable to resolve the issue.
-- 
+
 **If technology issues prevent submitting work**: If you have contacted an appropriate source of help and an issue still persists that prevents you from turning in work in the usual way (for example on Blackboard), you are expected to take alternative measures to get your work turned in on time. For example, if Blackboard is offline, send an email with an attachment. Then, submit the work using the normal means later.
 
 ## Academic integrity policy
@@ -199,15 +201,15 @@ Fortunately, however, **our grading system makes academic dishonesty unnecessary
 
 ## Other class policies 
 
-**Instructor availability:** Email (talbertr@gvsu.edu) is the best way to reach me with a message outside of class meetings. **All messages needing a response will receive one within one (1) working day** (that is, Monday through Friday). I typically check email **twice during the working day** (early morning and late afternoon) and **do not check email after 5:00pm, before 7:00am, or at any time on weekends**. If you send a message during those times and your message needs a response, you will get one promptly when I am back at work. But in particular, please note that **messages in the evenings and on weekends will not typically get an immediate response**. 
+**Instructor availability:** Email (talbertr@gvsu.edu) is the best way to reach me with a message outside of class meetings. **All messages needing a response will receive one within one (1) working day** (that is, Monday through Friday). Emails sent on Fridays will get a response by the end of the following Monday. I typically check email **twice during the working day** (early morning and late afternoon) and **do not check email after 5:00pm, before 7:00am, or at any time on weekends**. If you send a message during those times and your message needs a response, you will get one promptly when I am back at work. But in particular, please note that **messages in the evenings and on weekends will not typically get an immediate response**. 
 
-**Announcements and email**: You'll receive an announcement packet each week on Sunday, with an overview of the due dates and plans for the week. Announcements may appear in between Sundays if there is something time-sensitive that needs your attention. Announcements are posted on Blackboard and copied to your GVSU email. **Please check your GVSU email at least once a day, 7 days a week** in order to stay up to speed with course happenings. 
+**Announcements and email**: You'll receive an announcement packet on Blackboard, each week on Sunday, with plans for the week, a list of due dates, and other announcements. Announcements may appear in between Sundays if there is something time-sensitive that needs your attention. Announcements are posted on Blackboard and copied to your GVSU email. **Please check your GVSU email at least once a day, 7 days a week** in order to stay up to speed with course happenings. 
 
 **Attendance:** Regular class attendance has been shown to correlate more strongly with student success in the class than any other variable. You are urged, and expected, to attend every class meeting unless it is physically impossible or inadvisable. Attendance at each class meeting earns 1 engagement credit, so by simply attending class you will earn most of the credits needed for an "A" in the course. Students who do not attend class consistently will be contacted to discuss their situations further. If you have a life situation that makes consistent attendance difficult, please bring it to my attention immediately so we can discuss your options.
 
 **Late work and makeups:** The policies for late work and makeup work are indicated below. If you have a particular life situation that makes it difficult to meet deadlines consistently, please let me know and we'll talk about it. 
 
-- *Exams*: These are done on paper in class meetings. If you miss an exam day, there are designated makeup days set aside on the calendar for makeups. Please see the Calendar for those. No other makeups are allowed. 
+- *Exams*: These are done on paper in class meetings. If you miss an exam day, there are designated makeup days set aside on the calendar for makeups. No other makeups are allowed. 
 - *Advanced Homework*: These come with a deadline both for the initial submission and for revisions. Initial submissions are not allowed after the initial deadline; revisions are allowed at any point up to, but not beyond, the revision deadline. 
 - *Proof problems* sometimes have a deadline for initial submissions. Like Advanced Homework, no initial submissions are allowed past that deadline. But, some proof problems will be deadline-free; and there is no deadline on revisions for any proof problem other than the last-call deadline of Sunday December 8. 
 - *Homework and engagement credit* items may not be submitted after their deadlines. (Some engagement credit items may not have deadlines in the first place.)
@@ -288,9 +290,15 @@ It is also embedded on Blackboard in the *Course Documents* folder. Please note,
 Please note: Makeup days are only for students who were absent from the initial offering of the exam with an excused absence. They are not additional attempts open for all students. Students not needing a makeup are not required or expected to come to class on makeup days. 
 
 **University dates**: 
+- August 26: First day of classes
 - August 30: 100% tuition refund deadline
 - September 1-2: Labor Day recess, no class
-- September 20: 75% tuition refund deadline
-- October 20-21: Fall Break, no class
+- September 20: 75% tuition refund deadline, last day for CR/NC changes (5pm) 
+- October 15: Mid-term grades submitted
+- October 21-22: Fall Break, no class
 - November 8: Deadline to withdraw from class with a grade of "W" 
-- November 27-December 1: Thanksgiving Day recess, no class
+- November 27-29: Thanksgiving Day recess, no class
+- December 5: Classes end
+- December 9-14: Final exams 
+- December 14: Semester ends
+- December 16: Grades due (midnight) 
