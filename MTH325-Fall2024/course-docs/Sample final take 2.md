@@ -39,6 +39,8 @@ Suppose $G = (V,E)$ is a graph whose vertex set is $V = \{1,2,3,4\}$ and whose e
 
 Consider the graph below: 
 
+![skill 4](/Users/roberttalbert/Documents/GitHub/discretecs/MTH325-Fall2024/course-docs/sample-final-4.png)
+
 ![Graph for Skill 4](MTH325-Fall2024/course-docs/sample-final-4.png)
 
 1. Determine whether this graph has an Euler path. If so, state it as a list of vertices. If not, say so. 
@@ -50,7 +52,7 @@ Consider the graph below:
 
 Consider the graph below: 
 
-![Graph for Skill 4](sample-final-4.png)
+![Graph for Skill 4](MTH325-Fall2024/course-docs/sample-final-4.png)
 
 1. Use a greedy algorithm to find a proper vertex coloring for the graph. Show all your steps. 
 2. Determine the chromatic number for this graph and explain your reasoning. (Explanations consisting only of "You can't use fewer colors" are not valid.)
@@ -105,7 +107,7 @@ Consider the graph $G$ below:
 
 1. Starting at vertex 0, implement a breadth-first search to find the shortest route between vertex 0 and vertex 6. Show all your steps. 
 2. Repeat the previous item but use a depth-first search. Show all your steps.
- 
+
 ## Skill 11
 
 Consider the directed graph $G$: 
@@ -142,4 +144,3 @@ Consider the relation $\sim$ on the set of all natural numbers ($\mathbb{N} = \{
 1. Consider the relation $\sim$ on the set of all natural numbers ($\mathbb{N} = \{0,1,2,3,\dots\}$) given as follows: For all natural numbers $a$ and $b$, say that $a \sim b$ if $a-b > 0$. Is this relation a partial ordering? If so, explain why; if not, explain why not. 
 
 2. Consider the relation $\sim$ on the set $\{1,2,3,\dots, 9\}$ given as follows: For all natural numbers $a$ and $b$, say that $a \sim b$ if $b$ is a multiple of $a$. For example $2 \sim 8$ but $2 \not \sim 5$. This relation is in fact a partial ordering. Draw the Hasse diagram of the ground set and identify the minimal elements, maximal elements, least elements, and greatest elements. 
-
