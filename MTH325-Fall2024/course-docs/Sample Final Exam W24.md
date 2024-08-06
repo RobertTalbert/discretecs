@@ -62,7 +62,7 @@ Consider graphs $G$ and $H$ below. Each has the same number of vertices and edge
 ![Skill 6](sample-final-5g.png)
 ![Skill 6 second graph](sample-final-5h.png)
 
-Are $G$ and $H$ isomorphic? State your answer ("yes" or "no"). Then, if they are isomorphic, give an explicit isomorphism that maps the vertex set of $G$ onto that of $H$. If they are not isomorphic, give a brief but complete explanation why. (Explanations consisting of "You can't rearrange one into the other" are not valid.)
+Are $G$ and $H$ isomorphic? State your answer ("yes" or "no"). Then, if they are isomorphic, give an explicit isomorphism that maps the vertex set of $G$ onto that of $H$. If they are not isomorphic, give a brief but complete explanation why that uses a particular isomorphism invariant. (Informal explanations are not valid.)
 
 
 
