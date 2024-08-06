@@ -39,7 +39,7 @@ Suppose $G = (V,E)$ is a graph whose vertex set is $V = \{1,2,3,4\}$ and whose e
 
 Consider the graph below: 
 
-![Graph for Skill 4](MTH325-Fall2024/course-docs/sample-final-4.png)
+![Graph for Skill 4](sample-final-4.png)
 
 1. Determine whether this graph has an Euler path. If so, state it as a list of vertices. If not, say so. 
 2. Determine whether this graph has an Euler cycle. If so, state it as a list of vertices. If not, say so. 
@@ -59,8 +59,8 @@ Consider the graph below:
 
 Consider graphs $G$ and $H$ below. Each has the same number of vertices and edges; $G$ the first one shown. 
 
-![Skill 6](MTH325-Fall2024/course-docs/sample-final-5g.png)
-![Skill 6 second graph](MTH325-Fall2024/course-docs/sample-final-5h.png)
+![Skill 6](sample-final-5g.png)
+![Skill 6 second graph](sample-final-5h.png)
 
 Are $G$ and $H$ isomorphic? State your answer ("yes" or "no"). Then, if they are isomorphic, give an explicit isomorphism that maps the vertex set of $G$ onto that of $H$. If they are not isomorphic, give a brief but complete explanation why. (Explanations consisting of "You can't rearrange one into the other" are not valid.)
 
@@ -71,7 +71,7 @@ Are $G$ and $H$ isomorphic? State your answer ("yes" or "no"). Then, if they are
 1. Draw an example of a graph that has 5 vertices and 4 edges but which is *not* a tree. If no such example exists, explain why.
 2. Consider the tree shown below: 
 
-![Skill 7](MTH325-Fall2024/course-docs/sample-final-7.png)
+![Skill 7](sample-final-7.png)
 
 Assume that vertex 7 is the root. State the following: 
    (a) The leaves of the tree
@@ -83,7 +83,7 @@ Assume that vertex 7 is the root. State the following:
 
 Consider the weighted graph $G$:
 
-![Skill 8](MTH325-Fall2024/course-docs/sample-final-8.png)
+![Skill 8](sample-final-8.png)
 
 1. Use Prim's algorithm to find a minimum spanning tree in $G$. Show all your steps. 
 2. Repeat the first item but use Kruskal's algorithm. 
@@ -92,7 +92,7 @@ Consider the weighted graph $G$:
 
 Consider the weighted graph $G$:
 
-![Skill 8](MTH325-Fall2024/course-docs/sample-final-8.png)
+![Skill 8](sample-final-8.png)
 
 Use Dijkstra's Algorithm to find a minimum-weight path from vertex 0 to vertex 4. Show all steps and clearly state the weight of the minimum path. 
 
@@ -101,7 +101,7 @@ Use Dijkstra's Algorithm to find a minimum-weight path from vertex 0 to vertex 4
 
 Consider the graph $G$ below: 
 
-![Skill 10](MTH325-Fall2024/course-docs/sample-final-10.png)
+![Skill 10](sample-final-10.png)
 
 1. Starting at vertex 0, implement a breadth-first search to find the shortest route between vertex 0 and vertex 6. Show all your steps. 
 2. Repeat the previous item but use a depth-first search. Show all your steps.
@@ -110,7 +110,7 @@ Consider the graph $G$ below:
 
 Consider the directed graph $G$: 
 
-![Skill 11](MTH325-Fall2024/course-docs/sample-final-11.png)
+![Skill 11](sample-final-11.png)
 
 1. Give a Python dictionary that represents this graph. 
 2. State the adjacency matrix for this graph. 
@@ -121,7 +121,7 @@ Consider the directed graph $G$:
 
 Consider the direced graph $G$: 
 
-![Skill 12](MTH325-Fall2024/course-docs/sample-final-12.png)
+![Skill 12](sample-final-12.png)
 
 1. Write the adjacency matrix for $G$. 
 2. Use the Floyd-Warshall algorithm to find the transitive closure of $G$. Show all steps and give your result as a matrix and as a visual diagram. 
