@@ -48,8 +48,10 @@ $$\binom{n}{0}2^0 + \binom{n}{1}2^1 + \binom{n}{2}2^2 + \cdots + \binom{n}{n}2^n
 
 ## Proof Problem 2
 
-See Problem 1 for some background on the binomial coefficient. Prove that for all integers $n \geq 0$ and $i \geq 0$, that 
+See Problem 1 for some background on the binomial coefficient. **Prove** that for all integers $n \geq 0$ and $i \geq 0$, 
+ 
 $$\binom{0}{i} + \binom{1}{i} + \binom{2}{i} + \cdots + \binom{n}{i} = \binom{n+1}{i+1}$$
+
 Note: If $a < b$ then $\binom{a}{b} = 0$. For example $\binom{1}{3} = 0$. 
 
 
