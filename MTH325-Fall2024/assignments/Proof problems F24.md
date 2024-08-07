@@ -35,7 +35,9 @@ Proof problems are graded periodically through the week, often in batches on Mon
 Recall from MTH 225 that the [binomial coefficient](https://publish.obsidian.md/discretecs/Combinatorics/Binomial+coefficient) $\binom{n}{k}$ is the number of ways to select $k$ elements from an $n$-element set (irrespective of ordering). It can also be interpreted as the number of $k$-element subsets of an $n$-element set; or as the number of bitstrings of length $n$ that have exactly $k$ `1` bits. 
 
 A fundamental identity for the binomial coefficient is this, which you also learned in MTH 225: 
+
 $$\binom{n}{k} = \binom{n-1}{k} + \binom{n-1}{k-1}$$
+
 For an explanation why this recurrence relation holds, [click here](https://vimeo.com/714228899).
 
 **Prove** that, for all positive integers $n$, the following equality holds for the binomial coefficient: 
