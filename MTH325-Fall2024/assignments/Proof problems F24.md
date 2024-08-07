@@ -58,4 +58,4 @@ Note: If $a < b$ then $\binom{a}{b} = 0$. For example $\binom{1}{3} = 0$.
 Example of what this equality is saying: Suppose $i = 3$ and $n=4$. Then on the left we have
 $\binom{0}{3} + \binom{1}{3} + \binom{2}{3} + \binom{3}{3} + \binom{4}{3}$ which you can verify equals $0 + 0 + 0 + 1 + 4 = 5$. On the other hand, on the right of the equation we would have $\binom{5}{4}$, and this also equals $5$. 
 
-*Pro tip:* Induction might be a good option on this one. 
+*Pro tip:* Induction might be a good option on this one. But what is the correct variable to use for the induction? 
