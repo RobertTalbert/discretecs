@@ -6,7 +6,7 @@
 
 **Problems will be added regularly throughout the semester** as we explore more content. It is expected that we will end with about 10-14 problems in all. 
 
-Your job is to **find problems that look interesting to you and then solve solve**. "Solve" here means **write a complete, correct, and polished proof** for the statement that's given in the problem. [Please see the Standards for Students Work document](https://github.com/RobertTalbert/discretecs/blob/master/MTH325-Fall2024/course-docs/Standards%20for%20Student%20Work%20W24.md) for details of what this involves. Among the criteria for acceptable work are these important points: 
+Your job is to **find problems that look interesting to you and then solve them**. "Solve" here means **write a complete, correct, and polished proof** for the statement that's given in the problem. [Please see the Standards for Students Work document](https://github.com/RobertTalbert/discretecs/blob/master/MTH325-Fall2024/course-docs/Standards%20for%20Student%20Work%20W24.md) for details of what this involves. Among the criteria for acceptable work are these important points: 
 
 - Your work must constitute a **good-faith effort at a completed proof**. You may not write up part of a proof and leave other parts of it incomplete or blank. 
 - Your work must be **free from serious errors** in computation, logic, factual knowledge, and semantics. 
