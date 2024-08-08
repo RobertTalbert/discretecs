@@ -2,6 +2,7 @@
 
 ## Instructions for all Proof Problems 
 
+
 **You do not have to do all of the problems below.** You only need to complete **six (6) successful Proofs** for an A in the class, and **three (3) successful proofs** for a B. No proofs are required for a C or below. 
 
 **Problems will be added regularly throughout the semester** as we explore more content. It is expected that we will end with about 10-14 problems in all. 
@@ -13,6 +14,9 @@ Your job is to **find problems that look interesting to you and then solve them*
 - Your work must **look professional** and **explain your reasoning clearly**. Proofs that are just computations (a "wall of math") will need to be revised. 
 
 There is no one right way to write a proof! **Proofs are highly personalized, and the same statement can be proven many different ways**. A proof is just a clear, correct, and convincing explanation why a statement is always true. It does not have to conform to any particular method like induction, contradiction, etc. If you feel you can give an argument for why a statement below is true that is clear, correct, and convincing and it doesn't look like one of the basic arguments we explored in class, give it a try. 
+
+To see several examples of proofs that would be marked **Success**, proofs that would be marked **Revise**, and proofs that would not be considered good-faith attempts, please see [this document](https://docs.google.com/document/d/111EUAtMIBdRJao1J_g18G_adQrfviHqCtY21Eda0dns/edit?usp=sharing). (https://docs.google.com/document/d/111EUAtMIBdRJao1J_g18G_adQrfviHqCtY21Eda0dns/edit?usp=sharing) 
+
 
 To submit a proof for grading, do the following: 
 
@@ -32,6 +36,8 @@ Proof problems are graded periodically through the week, often in batches on Mon
 
 ## Proof Problem 1
 
+**Initial deadline: 11:59pm ET, Saturday September 28** 
+
 Recall from MTH 225 that the [binomial coefficient](https://publish.obsidian.md/discretecs/Combinatorics/Binomial+coefficient) $\binom{n}{k}$ is the number of ways to select $k$ elements from an $n$-element set (irrespective of ordering). It can also be interpreted as the number of $k$-element subsets of an $n$-element set; or as the number of bitstrings of length $n$ that have exactly $k$ `1` bits. 
 
 A fundamental identity for the binomial coefficient is this, which you also learned in MTH 225: 
@@ -49,6 +55,9 @@ $$\binom{n}{0}2^0 + \binom{n}{1}2^1 + \binom{n}{2}2^2 + \cdots + \binom{n}{n}2^n
 
 
 ## Proof Problem 2
+
+**Initial deadline: 11:59pm ET, Saturday September 28** 
+
 
 See Problem 1 for some background on the binomial coefficient. **Prove** that for all integers $n \geq 0$ and $i \geq 0$, 
 
