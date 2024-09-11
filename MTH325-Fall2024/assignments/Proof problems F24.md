@@ -75,3 +75,15 @@ $\binom{0}{3} + \binom{1}{3} + \binom{2}{3} + \binom{3}{3} + \binom{4}{3}$ which
 **Important note (added 2024-09-11): You are not allowed to use a result called the Binomial Theorem on this problem** since it is not a standard topic in MTH 225 or in high school math, and therefore is not something that your target audience would know or understand. It's also not necessary for a proof here! 
 
 *Pro tip:* Induction might be a good option on this one. But what is the correct variable to use for the induction? 
+
+
+## Proof Problem 3
+
+**Initial deadline: 11:59pm ET, Saturday October 5** 
+
+Here are three propositions that are needed to complete the proof of the corollary to the Handshake Lemma discussed in class on September 16. Write complete, correct, and clear proofs of all three. 
+
+1. Prove that an odd integer plus an even integer is an odd integer. 
+2. Prove that the sum of an odd number of odd integers is an odd integer. 
+3. Prove that the sum of *any* number of even integers is an even integer. 
+
