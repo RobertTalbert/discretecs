@@ -50,6 +50,9 @@ For an explanation why this recurrence relation holds, [click here](https://vime
 
 $$\binom{n}{0}2^0 + \binom{n}{1}2^1 + \binom{n}{2}2^2 + \cdots + \binom{n}{n}2^n = 3^n$$
 
+**Important note (added 2024-09-11): You are not allowed to use a result called the Binomial Theorem on this problem** since it is not a standard topic in MTH 225 or in high school math, and therefore is not something that your target audience would know or understand. It's also not necessary for a proof here! 
+
+
 *Pro tip*: There is a closed formula for the binomial coefficient, namely $\binom{n}{k} = \frac{n!}{(n-k)! k!}$. You are highly advised *not* to use that formula in this problem -- the algebra that results is truly awful. 
 
 
@@ -68,5 +71,7 @@ Note: If $a < b$ then $\binom{a}{b} = 0$. For example $\binom{1}{3} = 0$.
 
 Example of what this equality is saying: Suppose $i = 3$ and $n=4$. Then on the left we have
 $\binom{0}{3} + \binom{1}{3} + \binom{2}{3} + \binom{3}{3} + \binom{4}{3}$ which you can verify equals $0 + 0 + 0 + 1 + 4 = 5$. On the other hand, on the right of the equation we would have $\binom{5}{4}$, and this also equals $5$. 
+
+**Important note (added 2024-09-11): You are not allowed to use a result called the Binomial Theorem on this problem** since it is not a standard topic in MTH 225 or in high school math, and therefore is not something that your target audience would know or understand. It's also not necessary for a proof here! 
 
 *Pro tip:* Induction might be a good option on this one. But what is the correct variable to use for the induction? 
