@@ -27,7 +27,7 @@ Consider the following proposition:
 
 ## Skill 3
 
-Suppose $G = (V,E)$ is a graph whose vertex set is $V = \lbrace 1,2,3,4\rbrace $ and whose edge set is $E = \lbrace \lbrace 1,2\rbrace , \lbrace 1,3\rbrace , \lbrace 2,3\rbrace , \lbrace 2,4\rbrace \rbrace $. 
+Suppose $G = (V,E)$ is a graph whose vertex set is $V = \lbrace 1,2,3,4 \rbrace $ and whose edge set is $E = \lbrace \lbrace 1,2\rbrace , \lbrace 1,3\rbrace , \lbrace 2,3\rbrace , \lbrace 2,4 \rbrace \rbrace $. 
 
 1. Draw a visual diagram for this graph. 
 2. Write a Python dictionary that represents this graph. 
