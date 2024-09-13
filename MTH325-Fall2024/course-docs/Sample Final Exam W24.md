@@ -27,7 +27,7 @@ Consider the following proposition:
 
 ## Skill 3
 
-Suppose $G = (V,E)$ is a graph whose vertex set is $V = \{1,2,3,4\}$ and whose edge set is $E = \{\{1,2\}, \{1,3\}, \{2,3\}, \{2,4\}\}$. 
+Suppose $G = (V,E)$ is a graph whose vertex set is $V = \lbrace 1,2,3,4\rbrace $ and whose edge set is $E = \lbrace \lbrace 1,2\rbrace , \lbrace 1,3\rbrace , \lbrace 2,3\rbrace , \lbrace 2,4\rbrace \rbrace $. 
 
 1. Draw a visual diagram for this graph. 
 2. Write a Python dictionary that represents this graph. 
@@ -128,7 +128,7 @@ Consider the direced graph $G$:
 
 ## Skill 13
 
-Consider the relation $\sim$ on the set of all natural numbers ($\mathbb{N} = \{0,1,2,3,\dots\}$) given as follows: For all natural numbers $a$ and $b$, say that $a \sim b$ if $a-b$ is a multiple of $3$. For example $10 \sim 13$ but $10 \not \sim 5$. 
+Consider the relation $\sim$ on the set of all natural numbers ($\mathbb{N} = \lbrace 0,1,2,3,\dots\rbrace $) given as follows: For all natural numbers $a$ and $b$, say that $a \sim b$ if $a-b$ is a multiple of $3$. For example $10 \sim 13$ but $10 \not \sim 5$. 
 
 1. Determine whether the relation is *reflexive*. If it is, just say so. If it is not, give a specific concrete example that explains why not. 
 2. Determine whether the relation is *symmetric*. If it is, just say so. If it is not, give a specific concrete example that explains why not. 
@@ -139,7 +139,7 @@ Consider the relation $\sim$ on the set of all natural numbers ($\mathbb{N} = \{
 
 ## Skill 14
 
-1. Consider the relation $\sim$ on the set of all natural numbers ($\mathbb{N} = \{0,1,2,3,\dots\}$) given as follows: For all natural numbers $a$ and $b$, say that $a \sim b$ if $a-b > 0$. Is this relation a partial ordering? If so, explain why; if not, explain why not. 
+1. Consider the relation $\sim$ on the set of all natural numbers ($\mathbb{N} = \lbrace 0,1,2,3,\dots\rbrace $) given as follows: For all natural numbers $a$ and $b$, say that $a \sim b$ if $a-b > 0$. Is this relation a partial ordering? If so, explain why; if not, explain why not. 
 
-2. Consider the relation $\sim$ on the set $\{1,2,3,\dots, 9\}$ given as follows: For all natural numbers $a$ and $b$, say that $a \sim b$ if $b$ is a multiple of $a$. For example $2 \sim 8$ but $2 \not \sim 5$. This relation is in fact a partial ordering. Draw the Hasse diagram of the ground set and identify the minimal elements, maximal elements, least elements, and greatest elements. 
+2. Consider the relation $\sim$ on the set $\lbrace 1,2,3,\dots, 9\rbrace $ given as follows: For all natural numbers $a$ and $b$, say that $a \sim b$ if $b$ is a multiple of $a$. For example $2 \sim 8$ but $2 \not \sim 5$. This relation is in fact a partial ordering. Draw the Hasse diagram of the ground set and identify the minimal elements, maximal elements, least elements, and greatest elements. 
 
