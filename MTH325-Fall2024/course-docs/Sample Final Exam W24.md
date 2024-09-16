@@ -139,7 +139,7 @@ Consider the relation $\sim$ on the set of all natural numbers ($\mathbb{N} = \l
 
 ## Skill 14
 
-1. Consider the relation $\sim$ on the set of all natural numbers ($\mathbb{N} = \lbrace 0,1,2,3,\dots\rbrace $) given as follows: For all natural numbers $a$ and $b$, say that $a \sim b$ if $a-b > 0$. Is this relation a partial ordering? If so, explain why; if not, explain why not. 
+1. Consider the relation $\sim$ on the set of all natural numbers ($\mathbb{N} = \lbrace 0,1,2,3,\dots \rbrace$) given as follows: For all natural numbers $a$ and $b$, say that $a \sim b$ if $a-b > 0$. Is this relation a partial ordering? If so, explain why; if not, explain why not. 
 
-2. Consider the relation $\sim$ on the set $\lbrace 1,2,3,\dots, 9\rbrace $ given as follows: For all natural numbers $a$ and $b$, say that $a \sim b$ if $b$ is a multiple of $a$. For example $2 \sim 8$ but $2 \not \sim 5$. This relation is in fact a partial ordering. Draw the Hasse diagram of the ground set and identify the minimal elements, maximal elements, least elements, and greatest elements. 
+2. Consider the relation $\sim$ on the set $\lbrace 1,2,3,\dots, 9 \rbrace$ given as follows: For all natural numbers $a$ and $b$, say that $a \sim b$ if $b$ is a multiple of $a$. For example $2 \sim 8$ but $2 \not \sim 5$. This relation is in fact a partial ordering. Draw the Hasse diagram of the ground set and identify the minimal elements, maximal elements, least elements, and greatest elements. 
 
