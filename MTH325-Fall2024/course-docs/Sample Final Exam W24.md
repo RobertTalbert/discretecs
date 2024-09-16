@@ -119,7 +119,7 @@ Consider the directed graph $G$:
 
 ## Skill 12 
 
-Consider the direced graph $G$: 
+Consider the directed graph $G$: 
 
 ![Skill 12](sample-final-12.png)
 
