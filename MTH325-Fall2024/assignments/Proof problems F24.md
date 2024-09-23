@@ -87,3 +87,40 @@ Here are three propositions that are needed to complete the proof of the corolla
 2. Prove that the sum of an odd number of odd integers is an odd integer. 
 3. Prove that the sum of *any* number of even integers is an even integer. 
 
+## Proof Problem 4
+
+**Initial deadline: 11:59pm ET, Saturday October 19**
+
+Prove that a connected graph has an Euler trail, if and only if there are at most two vertices with odd degree. 
+
+Notes on this problem: 
+
+- You are allowed to use, as a proven fact, the theorem we proved in class which says **A connected graph has an Euler circuit if and only if every vertex has even degree.**
+- This is a biconditional statement, which means there are two conditional statements to prove in this problem. You can see those by reviewing [the class slides from Monday, September 23](https://docs.google.com/presentation/d/1JRz1lP1MWWl954rIJwWY3FGD3wpQkiO9iM7l6pmNbEo/edit?usp=sharing). 
+
+## Proof Problem 5
+
+**Initial deadline: 11:59pm ET, Saturday October 19**
+
+The **hypercube graph** $Q_n$ is defined as follows: 
+
+- The vertices of $Q_n$ are all the $n$-bit binary strings. So, $Q_2$ has four vertices (00, 01, 10, 11), $Q_3$ has eight, $Q_4$ has sixteen, and so on. 
+- Two vertices of $Q_n$ are connected by an edge, if the bitstrings differ in exactly one place. For example in $Q_4$, the vertices for `0011` and `0111` would be adjacent; so would `0111` and `1111`. But `0011` and `1111` would not be adjacent because they differ in two places, not one. 
+
+You can generate the hypercube graph $Q_n$ and visualize it in networkX using the command `nx.hypercube_graph(n)`. For example the following code will generate $Q_3$, assign it to a variable that you can use, and visualize it: 
+
+```python
+Q = nx.hypercube_graph(3)
+nx.draw(Q, with_labels=True, font_weight='bold', node_color='lightgreen')
+plt.show()
+```
+
+Explore each of the following questions, then give an answer and prove (mathematically) that your answer is correct: 
+
+1. For any integer $n$, how many edges are in $Q_n$? 
+2. Under what conditions on $n$ will $Q_n$ have an Euler circuit? 
+3. Under what conditions on $n$ will $Q_n$ have a Hamilton circuit?
+
+For the second and third questions, your answers must be one of the following: "Never", "Always", or "Sometimes". If "sometimes", you will need to give precise conditions on the variable $n$ where the question is answered affirmatively. (For example, "$Q_n$ has an Euler circuit whenever $n$ is a prime number" or "$Q_n$ has a Hamilton circuit whenever $n \geq 10$".) And in each case, as indicated, give not only a clear answer but a clear, correct, complete mathematical proof that your answer is right. 
+
+
