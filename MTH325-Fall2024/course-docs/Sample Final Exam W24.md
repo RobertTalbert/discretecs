@@ -4,7 +4,7 @@
 
 Consider the following proposition: 
 
->For all natural numbers $n$, $1+ 2 + 3 + \cdots + n = \dfrac{n(n-1)}{2}$. 
+>For all natural numbers $n$, $1+ 2 + 3 + \cdots + n = \dfrac{n(n+1)}{2}$. 
 
 Suppose you were to write a proof of this proposition using mathematical induction. 
 
