@@ -97,7 +97,7 @@ The process of revising or resubmitting Advanced Homework or proof problems is g
 
 ## How course grades are determined 
 
-Your basic course grade -- A, B, C, D, or F without plus/minus modifiers -- is earned by completing a minimum number of requirements in each of the main types of assignments in the class, using the table below. The numbers in the "Skills" column refer to the number of **Master** ratings you earn; **Proficient** and **Beginner** do not count in this total. The numbers in Advanced Homework,  Proof problems, and Homework refer to the number of **Success** marks earned. We are initially planning on a total of 8 Advanced Homework sets, between 8 and 12 Proof problems, 20 regular Homeworks, and a total of 70 engagement credits; if these numbers should change during the semester, the table will be updated accordingly. 
+Your basic course grade -- A, B, C, D, or F without plus/minus modifiers -- is earned by completing a minimum number of requirements in each of the main types of assignments in the class, using the table below. The numbers in the "Skills" column refer to the number of **Master** ratings you earn; **Proficient** and **Beginner** do not count in this total. The numbers in Advanced Homework,  Proof problems, and Homework refer to the number of **Success** marks earned. We are planning on a total of 8 Advanced Homework sets, between 8 and 12 Proof problems, between 22 and 25 regular Homeworks, and a total of 70 engagement credits; if these numbers should change during the semester, the table will be updated accordingly. 
 
 | Grade | Skills | Advanced Homework | Proof problems | Homework | Engagement Credits | 
 | :---: | :----: | :---------------: | :------------: | :------: | :----------------: | 
