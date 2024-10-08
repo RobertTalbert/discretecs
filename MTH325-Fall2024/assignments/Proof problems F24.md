@@ -124,3 +124,28 @@ Explore each of the following questions, then give an answer and prove (mathemat
 For the second and third questions, your answers must be one of the following: "Never", "Always", or "Sometimes". If "sometimes", you will need to give precise conditions on the variable $n$ where the question is answered affirmatively. (For example, "$Q_n$ has an Euler circuit whenever $n$ is a prime number" or "$Q_n$ has a Hamilton circuit whenever $n \geq 10$".) And in each case, as indicated, give not only a clear answer but a clear, correct, complete mathematical proof that your answer is right. 
 
 
+## Proof Problem 6
+
+1. Prove that the property of having a cycle of length 3 is an isomorphism invariant property of graphs. That is, if $G$ and $H$ are isomorphic graphs and $G$ has a cycle of length 3, then $H$ also has a cycle of length 3. 
+2. Explain how you might extend your proof in part 1 (but don't give a full proof, unless you want to) to show that having a cycle of length $n$, where $n$ is any positive integer, is isomorphism invariant. 
+
+## Proof Problem 7
+
+Prove the following pair of propositions, which are converses to the tree theorems we did in class: 
+
+1. Prove that any connected graph that has $n$ vertices and $n-1$ edges, is a tree. 
+2. Prove that any graph that has $n$ vertices and $n-1$ edges and has no cycles, is connected. 
+
+## Proof Problem 8
+
+Here are two useful definitions: 
+
+- A *binary tree* is a tree is a tree in which every vertex has at most two children. 
+- Given any $n \geq 0$, the $n$th level of a binary tree is the set of all vertices that have a [depth](https://publish.obsidian.md/discretecs/Trees/Rooted+tree) of $n$. 
+
+For example, the tree below is binary (because every vertex has no more than two children), and the vertices at level 2 are 2, 6, and 9. (The root,1, is at level 0.)
+
+
+**Prove:** In a binary tree, the number of vertices at level $n$ is less than or equal to $2^n$ for all $n \geq 0$. 
+
+Pro tip: There are a lot of unclear ways to "prove" this. To make a clean, convincing argument -- consider using induction. 
