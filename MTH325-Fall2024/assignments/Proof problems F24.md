@@ -145,7 +145,7 @@ Here are two useful definitions:
 
 For example, the tree below is binary (because every vertex has no more than two children), and the vertices at level 2 are 2, 6, and 9. (The root,1, is at level 0.)
 
-![](Binary_tree_v2.png)
+![](btree.png)
 
 **Prove:** In a binary tree, the number of vertices at level $n$ is less than or equal to $2^n$ for all $n \geq 0$. 
 
