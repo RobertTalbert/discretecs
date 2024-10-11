@@ -126,10 +126,15 @@ For the second and third questions, your answers must be one of the following: "
 
 ## Proof Problem 6
 
+**Initial deadline: 11:59pm ET, Saturday November 2**
+
+
 1. Prove that the property of having a cycle of length 3 is an isomorphism invariant property of graphs. That is, if $G$ and $H$ are isomorphic graphs and $G$ has a cycle of length 3, then $H$ also has a cycle of length 3. 
 2. Explain how you might extend your proof in part 1 (but don't give a full proof, unless you want to) to show that having a cycle of length $n$, where $n$ is any positive integer, is isomorphism invariant. 
 
 ## Proof Problem 7
+
+**Initial deadline: 11:59pm ET, Saturday November 2**
 
 Prove the following pair of propositions, which are converses to the tree theorems we did in class: 
 
@@ -139,6 +144,8 @@ Prove the following pair of propositions, which are converses to the tree theore
 ## Proof Problem 8
 
 Here are two useful definitions: 
+
+**Initial deadline: 11:59pm ET, Saturday November 2**
 
 - A *binary tree* is a tree is a tree in which every vertex has at most two children. 
 - Given any $n \geq 0$, the $n$th level of a binary tree is the set of all vertices that have a [depth](https://publish.obsidian.md/discretecs/Trees/Rooted+tree) of $n$. 
