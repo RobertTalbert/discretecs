@@ -143,9 +143,10 @@ Prove the following pair of propositions, which are converses to the tree theore
 
 ## Proof Problem 8
 
-Here are two useful definitions: 
 
 **Initial deadline: 11:59pm ET, Saturday November 2**
+
+Here are two useful definitions: 
 
 - A *binary tree* is a tree is a tree in which every vertex has at most two children. 
 - Given any $n \geq 0$, the $n$th level of a binary tree is the set of all vertices that have a [depth](https://publish.obsidian.md/discretecs/Trees/Rooted+tree) of $n$. 
