@@ -258,7 +258,7 @@ The spirit of this syllabus, and some of the wording, is taken from the syllabi 
 2. **(CORE)** I can outline a proof using direct, contrapositive, and indirect approaches. 
 3. **(CORE)** I can represent a graph in different ways, determine information (degree, degree sequence, paths of given length, etc.) about a graph using different representations, and give examples of graphs with specified properties. 
 4. I can determine whether a graph has an Euler path or Euler circuit, and whether a graph has a Hamiltonian path or circuit.
-5. I can use a greedy algorithm to find a vertex or edge coloring for a graph, and I can determine a graph's chromatic number or chromatic index.
+5. I can use a greedy algorithm to find a vertex coloring for a graph, and I can determine a graph's chromatic number. 
 6. I can determine whether two graphs are isomorphic; I can give an explicit isomorphism if they are, and an explanation if they are not.
 7. **(CORE)** I can determine whether a graph is a tree and state information about it. 
 8. I can use Prim's Algorithm and Kruskal's Algorithm to construct a minimum spanning tree for a weighted graph.
