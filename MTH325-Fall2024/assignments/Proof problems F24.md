@@ -89,7 +89,7 @@ Here are three propositions that are needed to complete the proof of the corolla
 
 ## Proof Problem 4
 
-**Initial deadline: 11:59pm ET, Saturday October 19**
+**Initial deadline: 11:59pm ET, Saturday October 26**
 
 Prove that a connected graph has an Euler trail, if and only if there are at most two vertices with odd degree. 
 
@@ -100,7 +100,7 @@ Notes on this problem:
 
 ## Proof Problem 5
 
-**Initial deadline: 11:59pm ET, Saturday October 19**
+**Initial deadline: 11:59pm ET, Saturday October 26**
 
 The **hypercube graph** $Q_n$ is defined as follows: 
 
