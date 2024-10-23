@@ -172,7 +172,7 @@ If $G$ is a *directed* graph and $v$ is a vertex in $G$, then recall that...
 
 Prove two things about any directed graph $G$: 
 
-1. That the sum of the in-degrees of the vertices of $G$ equals the number of edges. That is, $\bigsum_{v \in G} d^{-}(v) = |E|$. And, 
-2. That the sum of the in-degrees of the vertices of $G$ equals the sum of the out-degrees. That is, $\bigsum_{v \in G} d^{-}(v) = \bigsum_{v \in G} d^{+}(v)$.
+1. That the sum of the in-degrees of the vertices of $G$ equals the number of edges. That is, $\sum_{v \in G} d^{-}(v) = |E|$. And, 
+2. That the sum of the in-degrees of the vertices of $G$ equals the sum of the out-degrees. That is, $\sum_{v \in G} d^{-}(v) = \sum_{v \in G} d^{+}(v)$.
 
 These two facts together will be known as the **directed Handshake Lemma** from here on out, since these are the directed version of the Handshake Lemma we proved earlier in the semester. You might benefit from studying the proof of the undirected Handshake Lemma. 
