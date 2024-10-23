@@ -158,3 +158,21 @@ For example, the tree below is binary (because every vertex has no more than two
 **Prove:** In a binary tree, the number of vertices at level $n$ is less than or equal to $2^n$ for all $n \geq 0$. 
 
 Pro tip: There are a lot of unclear ways to "prove" this. To make a clean, convincing argument -- consider using induction. 
+
+
+
+## Proof Problem 9
+
+**Initial deadline: 11:59pm ET, Saturday November 16**
+
+If $G$ is a *directed* graph and $v$ is a vertex in $G$, then recall that...
+- $d^{-}(v)$ is the [in-degree](https://publish.obsidian.md/discretecs/Directed+Graphs+and+Relations/In-degree+and+out-degree) of $v$, 
+- $d^{+}(v)$ is the [out-degree](https://publish.obsidian.md/discretecs/Directed+Graphs+and+Relations/In-degree+and+out-degree) of $v$, and 
+- $|E|$ is the number of edges in $G$. 
+
+Prove two things about any directed graph $G$: 
+
+1. That the sum of the in-degrees of the vertices of $G$ equals the number of edges. That is, $\bigsum_{v \in G} d^{-}(v) = |E|$. And, 
+2. That the sum of the in-degrees of the vertices of $G$ equals the sum of the out-degrees. That is, $\bigsum_{v \in G} d^{-}(v) = \bigsum_{v \in G} d^{+}(v)$.
+
+These two facts together will be known as the **directed Handshake Lemma** from here on out, since these are the directed version of the Handshake Lemma we proved earlier in the semester. You might benefit from studying the proof of the undirected Handshake Lemma. 
