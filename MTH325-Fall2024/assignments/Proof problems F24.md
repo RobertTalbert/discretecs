@@ -126,7 +126,6 @@ For the second and third questions, your answers must be one of the following: "
 
 ## Proof Problem 6
 
-**Initial deadline: 11:59pm ET, Saturday November 2**
 
 
 1. Prove that the property of having a cycle of length 3 is an isomorphism invariant property of graphs. That is, if $G$ and $H$ are isomorphic graphs and $G$ has a cycle of length 3, then $H$ also has a cycle of length 3. 
@@ -134,7 +133,6 @@ For the second and third questions, your answers must be one of the following: "
 
 ## Proof Problem 7
 
-**Initial deadline: 11:59pm ET, Saturday November 2**
 
 Prove the following pair of propositions, which are converses to the tree theorems we did in class: 
 
@@ -144,7 +142,6 @@ Prove the following pair of propositions, which are converses to the tree theore
 ## Proof Problem 8
 
 
-**Initial deadline: 11:59pm ET, Saturday November 2**
 
 Here are two useful definitions: 
 
@@ -163,7 +160,6 @@ Pro tip: There are a lot of unclear ways to "prove" this. To make a clean, convi
 
 ## Proof Problem 9
 
-**Initial deadline: 11:59pm ET, Saturday November 16**
 
 If $G$ is a *directed* graph and $v$ is a vertex in $G$, then recall that...
 - $d^{-}(v)$ is the [in-degree](https://publish.obsidian.md/discretecs/Directed+Graphs+and+Relations/In-degree+and+out-degree) of $v$, 
