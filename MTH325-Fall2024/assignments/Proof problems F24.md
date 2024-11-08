@@ -172,3 +172,10 @@ Prove two things about any directed graph $G$:
 2. That the sum of the in-degrees of the vertices of $G$ equals the sum of the out-degrees. That is, $\sum_{v \in G} d^{-}(v) = \sum_{v \in G} d^{+}(v)$.
 
 These two facts together will be known as the **directed Handshake Lemma** from here on out, since these are the directed version of the Handshake Lemma we proved earlier in the semester. You might benefit from studying the proof of the undirected Handshake Lemma. 
+
+
+## Proof Problem 10 
+
+Suppose $T$ is a [rooted tree](https://publish.obsidian.md/discretecs/Trees/Rooted+tree) which has $n \geq 3$ vertices, and in which any vertex that is not a leaf has exactly two children. Prove that the number of leaves is $\dfrac{n+1}{2}$. 
+
+**Pro tip:** You probably need to draw several examples first before you're able to prove this. But, remember not to include any examples in your submission. 
