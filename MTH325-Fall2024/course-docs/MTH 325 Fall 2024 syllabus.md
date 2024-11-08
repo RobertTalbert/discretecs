@@ -101,8 +101,8 @@ Your basic course grade -- A, B, C, D, or F without plus/minus modifiers -- is e
 
 | Grade | Skills | Advanced Homework | Proof problems | Homework | Engagement Credits | 
 | :---: | :----: | :---------------: | :------------: | :------: | :----------------: | 
-| A | 13 | 6 | 6 | 18 | 60 | 
-| B | 10 | 4 | 3 | 16 | 50 | 
+| A | 13 | 6 | 5 | 18 | 60 | 
+| B | 10 | 4 | 2 | 16 | 50 | 
 | C | 7 | 2 | N/A | 14 | 40 |
 | D | 5 | N/A | N/A | 10 | 20 | 
 
