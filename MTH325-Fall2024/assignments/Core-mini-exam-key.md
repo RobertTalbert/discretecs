@@ -2,7 +2,7 @@
 
 ## Skill 1
 
-1. $n=1$ is the base case. If a set has 1 element, let's call that set $X = \{x\}$. Then there are 2 subsets: $\emptyset$, and the entire set $X$. So the base case holds. 
+1. $n=1$ is the base case. If a set has 1 element, let's call that set $X = \lbrace x \rbrace$. Then there are 2 subsets: $\emptyset$, and the entire set $X$. So the base case holds. 
 2. Assume that every set with $k$ elements has $2^k$ subsets. 
 3. Now prove that a set with $k+1$ elements has $2^{k+1}$ subsets. 
 
@@ -15,7 +15,9 @@
 
 ## Skill 3
 
-1. $$\begin{pmatrix}
+1. 
+
+$$\begin{pmatrix}
 0 & 1 & 1 & 1 & 0 & 0 & 0 & 0 \
 1 & 0 & 0 & 1 & 1 & 0 & 0 & 1 \
 1 & 0 & 0 & 0 & 0 & 1 & 0 & 0 \
@@ -43,7 +45,7 @@ graph TD
     6 --- 7
 ```
 
-3. 
+1. 
 
 | Vertex | Degree |
 |--------|--------|
