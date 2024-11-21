@@ -10,8 +10,9 @@
 ## Skill 2
 
 1. Assume that $x \geq 10$. Prove that $x^2 \geq 25$. 
-2. Assume that $x^2 < 25$. Prove that $x < 10$. 
-3. Assume that $x \geq 10$ but also that $x^2 < 25$. 
+2. Assume that $x \geq 10$ and that $x^2 < 25$. (*Note: You are asked to set up a proof by contradiction in part 2 this time, and a proof by contrapositive in part 3.*)
+3. Assume that $x^2 < 25$. Prove that $x < 10$. 
+
 
 ## Skill 3
 
