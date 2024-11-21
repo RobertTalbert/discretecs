@@ -28,7 +28,8 @@ $$\begin{pmatrix}
 0 & 1 & 0 & 0 & 0 & 0 & 1 & 0
 \end{pmatrix}$$
 
-2.
+2. (Please note, the graph should not have directed edges; GitHub has a formatting glitch. These should be undirected edges.)
+
 ```mermaid
 graph TD
     0 --- 1
@@ -45,7 +46,7 @@ graph TD
     6 --- 7
 ```
 
-1. 
+3.
 
 | Vertex | Degree |
 |--------|--------|
@@ -58,7 +59,7 @@ graph TD
 | 6 | 3 |
 | 7 | 2 | 
 
-4. The sum of the degrees is $3+4+2+5+3+2+3+2 = 24$. The Handshake Lemma says this is twice the number of edges, so there are 12 edges. 
+1. The sum of the degrees is $3+4+2+5+3+2+3+2 = 24$. The Handshake Lemma says this is twice the number of edges, so there are 12 edges. 
 
 
 ## Skill 7
