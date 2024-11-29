@@ -3,7 +3,7 @@
 ## Instructions for all Proof Problems 
 
 
-**You do not have to do all of the problems below.** You only need to complete **six (6) successful Proofs** for an A in the class, and **three (3) successful proofs** for a B. No proofs are required for a C or below. 
+**You do not have to do all of the problems below.** You only need to complete **five (5) successful Proofs** for an A in the class, and **two (2) successful proofs** for a B. No proofs are required for a C or below. 
 
 **Problems will be added regularly throughout the semester** as we explore more content. It is expected that we will end with about 10-14 problems in all. 
 
