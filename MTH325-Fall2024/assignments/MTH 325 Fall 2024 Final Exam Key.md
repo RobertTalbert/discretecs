@@ -152,7 +152,7 @@ Answer: These two graphs **are not isomorphic** because the graph $G_2$ has a cy
 
 - *Saying that the graphs are not isomorphic because $\lbrace v_1, v_4 \rbrace$ is an edge in $G_1$ but not in $G_2$*. Isomorphisms allow for relabelling vertices, in fact that's what an isomorphism is by definition; so just because there's an edge in one graph and the vertices with those labels aren't adjacent in the other, doesn't mean that the graphs aren't isomorphic --- relabelling the vertices could create the edge. 
 - *Saying that the graphs are not isomorphic because $v_2$ has degree 3 in $G_1$ but degree 2 in $G_2$*. Again, relabeling is the key here, see above. 
-- *Saying that the graphs are not isomorphic because their degree sequences are the same.* We saw examples in class, and this problem is another, where having the same degree sequence does not guarantee isomorphism. 
+- *Saying that the graphs **are** isomorphic because their degree sequences are the same.* We saw examples in class, and this problem is another, where having the same degree sequence does not guarantee isomorphism. 
 
 
 ---
