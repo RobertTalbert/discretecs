@@ -310,6 +310,7 @@ Let $G$ be a directed graph with this dictionary representation: `{0: [0, 1], 1:
 Answers: 
 1. `[(0, 0), (0, 1), (1,0), (2,0), (2,1), (3,2), (5,0), (5,1), (5,4), (5,5)]` 
 2. Below:
+
 $$\begin{bmatrix}
 1 & 1 & 0 & 0 & 0 & 0\\
 1 & 0 & 0 & 0 & 0 & 0 \\
@@ -318,6 +319,7 @@ $$\begin{bmatrix}
 0 & 0 & 0 & 0 & 0 & 0 \\
 1 & 1 & 0 & 0 & 1 & 1
 \end{bmatrix}$$
+
 3. Below:
 
 | Vertex | 0 | 1 | 2 | 3 | 4 | 5 |
