@@ -118,7 +118,7 @@ Answers:
 | --- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | 
 | Color | 0 | 0 | 1 | 1 | 2 | 2 | 3 | 3 | 4 | 4 | 
 
-2. The chromatic number of the graph is **2**. This is because we can do a coloring directly with just 2 colors: Use one color for vertices 0, 1, 2, 3, and 4 and another color for vertices 5, 6, 7, and 8. And a coloring with 1 color is impossible because that would require the graph to have no edges. 
+1. The chromatic number of the graph is **2**. This is because we can do a coloring directly with just 2 colors: Use one color for vertices 0, 1, 2, 3, and 4 and another color for vertices 5, 6, 7, 8, and 9. And a coloring with 1 color is impossible because that would require the graph to have no edges. 
 
 
 **Common mistakes:**
