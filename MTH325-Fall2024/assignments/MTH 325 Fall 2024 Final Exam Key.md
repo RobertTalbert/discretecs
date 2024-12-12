@@ -54,7 +54,8 @@ Suppose $G$ is a graph with this Python dictionary: `{0: [1, 4, 6], 1: [0, 3, 4]
 4. Give an example of a cycle of of length 4 in $G$. If no such cycle exists, say so. 
 
 Answers: 
-1. Below: 
+1. Below:
+ 
 $$\begin{bmatrix}
 0 & 1 & 0 & 0 & 1 & 0 & 1 \\
 1 & 0 & 0 & 1 & 1 & 0 & 0 \\
