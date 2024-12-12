@@ -389,7 +389,7 @@ Answers:
 
 2. Let $S = \lbrace (a,b) \, : \, a,b \, \text{are positive integers} \rbrace$ be the set of all pairs (or tuples) of positive integers. Examples of elements of this set include $(2,3)$ and $(100,200)$, but not $(0,1)$ (because $0$ is not positive) or $(1.1, 2.4)$ (because the entries aren't integers). Define a relation on $S$ by $(a,b) \sim (c,d)$ if $\frac{a}{b} = \frac{c}{d}$. This is an equivalence relation; state at least three elements of $[(1,2)]$. 
 
-Answer: Samples include $[(2,4)]$, $[(3,6)]$, and $[(10,20)]$. 
+Answer: Samples include $(2,4)$, $(3,6)$, and $(10,20)$. 
 
 ## Skill 14
 
