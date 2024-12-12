@@ -374,6 +374,11 @@ Assume that the vertices are 0, 1, 2 and that the rows and columns correspond to
 | 1    | 2    | 2    |    0      |     0     |    0      |  0      |
 
 
+**Common mistakes:**
+
+- Not knowing where the various entries of the matrix were located, for example looking for $W[1,2]$ in the row for 2 and the column for 1. 
+- Going through the `FOR` loop incorrectly which leads to incorrect entries in the first three columns. The counter `k` is in the outermost loop, `i` is in the middle, and `j` is innermost; so `j` goes from 0 to 2, then `i` increments to 1 and the counting for `j` starts over. 
+
 ---
 
 ## Skill 13
