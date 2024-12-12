@@ -92,7 +92,7 @@ Consider the graph below:
 
 Answers: 
 1. This graph has an Euler trail because all of its vertices are of even degree. An example is  1, 2, 3, 4, 5, 3, 6, 7, 3, 1. 
-2. This graph has an Euler trail because all of its vertices are of even degree. An example is  1, 2, 3, 4, 5, 3, 6, 7, 3, 1. 
+2. This graph has an Euler circuit because all of its vertices are of even degree. An example is  1, 2, 3, 4, 5, 3, 6, 7, 3, 1. 
 3. This graph *does not* have a Hamitlon path. Here is a "proof": Suppose for a contradiction that it did have a Hamilton path. That path either starts at 3, or does not start at 3. If it did start at 3, Then it must go to a vertex in one of the 3-cycles that are shown, then to the other vertex in that 3-cycle -- but then it must return to 3, and this is not the end of the path because there are still four vertices remaining to visit. Therefore vertex 3 would be visited multiple times, making it not a Hamilton path. If the Hamilton path started somewhere else, it would be in one of the 3-cyles; to visit all vertices, the path would eventually go through 3; but then it would go through 3 again after visiting the vertices in the other 3-cycles. 
 4. This graph *does not* have a Hamilton cycle because there's no Hamilton path, as described. 
 
