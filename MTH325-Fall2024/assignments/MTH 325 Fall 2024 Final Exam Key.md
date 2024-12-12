@@ -264,7 +264,7 @@ Using the graph above:
 1. Execute a depth-first search starting with node $0$. Your final submission should consist of two things: a list of visited vertices in the order in which they are visited, and a history of the stack or queue used to implement the search. Use numerical ordering (low to high) to add vertices into the stack or queue.
 2. Repeat the first question but use a breadth-first search. 
 
-DFS: Visited list is `[0, 7, 6, 1, 5, 3, 2, 4]`. Stack history below:
+DFS: Visited list is `[0, 7, 6, 1, 5, 4, 3, 2]`. Stack history below:
 
 | Step | Stack contents | 
 | --- | --- | 
@@ -272,10 +272,10 @@ DFS: Visited list is `[0, 7, 6, 1, 5, 3, 2, 4]`. Stack history below:
 | 2 | 2, 6, 7 | 
 | 3 | 2, 6 | 
 | 4 | 2, 1 | 
-| 5 | 2, 3, 5 | 
-| 6 | 2, 3 | 
-| 7 | 2 | 
-| 8 | 4 | 
+| 5 | 2, 3, 4, 5 | 
+| 6 | 2, 3, 4 | 
+| 7 | 2, 3 | 
+| 8 | 2 | 
 | 9 | (empty) | 
 
 BFS: Visited list is `[0, 2, 6, 7, 1, 3, 4, 5]`. Queue history below: 
