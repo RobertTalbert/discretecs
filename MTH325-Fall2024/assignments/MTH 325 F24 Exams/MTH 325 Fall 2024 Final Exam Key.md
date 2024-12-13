@@ -54,8 +54,7 @@ Suppose $G$ is a graph with this Python dictionary: `{0: [1, 4, 6], 1: [0, 3, 4]
 4. Give an example of a cycle of of length 4 in $G$. If no such cycle exists, say so. 
 
 Answers: 
-1. Below:
- 
+1. Below: 
 $$\begin{bmatrix}
 0 & 1 & 0 & 0 & 1 & 0 & 1 \\
 1 & 0 & 0 & 1 & 1 & 0 & 0 \\
@@ -92,7 +91,7 @@ Consider the graph below:
 
 Answers: 
 1. This graph has an Euler trail because all of its vertices are of even degree. An example is  1, 2, 3, 4, 5, 3, 6, 7, 3, 1. 
-2. This graph has an Euler circuit because all of its vertices are of even degree. An example is  1, 2, 3, 4, 5, 3, 6, 7, 3, 1. 
+2. This graph has an Euler trail because all of its vertices are of even degree. An example is  1, 2, 3, 4, 5, 3, 6, 7, 3, 1. 
 3. This graph *does not* have a Hamitlon path. Here is a "proof": Suppose for a contradiction that it did have a Hamilton path. That path either starts at 3, or does not start at 3. If it did start at 3, Then it must go to a vertex in one of the 3-cycles that are shown, then to the other vertex in that 3-cycle -- but then it must return to 3, and this is not the end of the path because there are still four vertices remaining to visit. Therefore vertex 3 would be visited multiple times, making it not a Hamilton path. If the Hamilton path started somewhere else, it would be in one of the 3-cyles; to visit all vertices, the path would eventually go through 3; but then it would go through 3 again after visiting the vertices in the other 3-cycles. 
 4. This graph *does not* have a Hamilton cycle because there's no Hamilton path, as described. 
 
@@ -118,7 +117,7 @@ Answers:
 | --- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | 
 | Color | 0 | 0 | 1 | 1 | 2 | 2 | 3 | 3 | 4 | 4 | 
 
-1. The chromatic number of the graph is **2**. This is because we can do a coloring directly with just 2 colors: Use one color for vertices 0, 1, 2, 3, and 4 and another color for vertices 5, 6, 7, 8, and 9. And a coloring with 1 color is impossible because that would require the graph to have no edges. 
+2. The chromatic number of the graph is **2**. This is because we can do a coloring directly with just 2 colors: Use one color for vertices 0, 1, 2, 3, and 4 and another color for vertices 5, 6, 7, and 8. And a coloring with 1 color is impossible because that would require the graph to have no edges. 
 
 
 **Common mistakes:**
@@ -152,7 +151,7 @@ Answer: These two graphs **are not isomorphic** because the graph $G_2$ has a cy
 
 - *Saying that the graphs are not isomorphic because $\lbrace v_1, v_4 \rbrace$ is an edge in $G_1$ but not in $G_2$*. Isomorphisms allow for relabelling vertices, in fact that's what an isomorphism is by definition; so just because there's an edge in one graph and the vertices with those labels aren't adjacent in the other, doesn't mean that the graphs aren't isomorphic --- relabelling the vertices could create the edge. 
 - *Saying that the graphs are not isomorphic because $v_2$ has degree 3 in $G_1$ but degree 2 in $G_2$*. Again, relabeling is the key here, see above. 
-- *Saying that the graphs **are** isomorphic because their degree sequences are the same.* We saw examples in class, and this problem is another, where having the same degree sequence does not guarantee isomorphism. 
+- *Saying that the graphs are not isomorphic because their degree sequences are the same.* We saw examples in class, and this problem is another, where having the same degree sequence does not guarantee isomorphism. 
 
 
 ---
@@ -264,7 +263,7 @@ Using the graph above:
 1. Execute a depth-first search starting with node $0$. Your final submission should consist of two things: a list of visited vertices in the order in which they are visited, and a history of the stack or queue used to implement the search. Use numerical ordering (low to high) to add vertices into the stack or queue.
 2. Repeat the first question but use a breadth-first search. 
 
-DFS: Visited list is `[0, 7, 6, 1, 5, 4, 3, 2]`. Stack history below:
+DFS: Visited list is `[0, 7, 6, 1, 5, 3, 2, 4]`. Stack history below:
 
 | Step | Stack contents | 
 | --- | --- | 
@@ -272,10 +271,10 @@ DFS: Visited list is `[0, 7, 6, 1, 5, 4, 3, 2]`. Stack history below:
 | 2 | 2, 6, 7 | 
 | 3 | 2, 6 | 
 | 4 | 2, 1 | 
-| 5 | 2, 3, 4, 5 | 
-| 6 | 2, 3, 4 | 
-| 7 | 2, 3 | 
-| 8 | 2 | 
+| 5 | 2, 3, 5 | 
+| 6 | 2, 3 | 
+| 7 | 2 | 
+| 8 | 4 | 
 | 9 | (empty) | 
 
 BFS: Visited list is `[0, 2, 6, 7, 1, 3, 4, 5]`. Queue history below: 
@@ -292,10 +291,6 @@ BFS: Visited list is `[0, 2, 6, 7, 1, 3, 4, 5]`. Queue history below:
 | 8 | 5 | 
 | 9 | (empty) | 
 
-
-**Common mistakes:**
-
-- Mixing up queues and stacks. 
 
 ---
 
@@ -314,7 +309,6 @@ Let $G$ be a directed graph with this dictionary representation: `{0: [0, 1], 1:
 Answers: 
 1. `[(0, 0), (0, 1), (1,0), (2,0), (2,1), (3,2), (5,0), (5,1), (5,4), (5,5)]` 
 2. Below:
-
 $$\begin{bmatrix}
 1 & 1 & 0 & 0 & 0 & 0\\
 1 & 0 & 0 & 0 & 0 & 0 \\
@@ -323,7 +317,6 @@ $$\begin{bmatrix}
 0 & 0 & 0 & 0 & 0 & 0 \\
 1 & 1 & 0 & 0 & 1 & 1
 \end{bmatrix}$$
-
 3. Below:
 
 | Vertex | 0 | 1 | 2 | 3 | 4 | 5 |
@@ -374,11 +367,6 @@ Assume that the vertices are 0, 1, 2 and that the rows and columns correspond to
 | 1    | 2    | 2    |    0      |     0     |    0      |  0      |
 
 
-**Common mistakes:**
-
-- Not knowing where the various entries of the matrix were located, for example looking for $W[1,2]$ in the row for 2 and the column for 1. 
-- Going through the `FOR` loop incorrectly which leads to incorrect entries in the first three columns. The counter `k` is in the outermost loop, `i` is in the middle, and `j` is innermost; so `j` goes from 0 to 2, then `i` increments to 1 and the counting for `j` starts over. 
-
 ---
 
 ## Skill 13
@@ -396,15 +384,15 @@ Answers:
 - Relation 2 **is** reflexive and symmetric. It **is not** antisymmetric or transitive, and not an equivalence relation. 
 
 
-2. Let $S = \lbrace (a,b) \, : \, a,b \, \text{are positive integers} \rbrace$ be the set of all pairs (or tuples) of positive integers. Examples of elements of this set include $(2,3)$ and $(100,200)$, but not $(0,1)$ (because $0$ is not positive) or $(1.1, 2.4)$ (because the entries aren't integers). Define a relation on $S$ by $(a,b) \sim (c,d)$ if $\frac{a}{b} = \frac{c}{d}$. This is an equivalence relation; state at least three elements of $[(1,2)]$. 
+2. Let $S = \{ (a,b) \, : \, a,b \, \text{are positive integers} \}$ be the set of all pairs (or tuples) of positive integers. Examples of elements of this set include $(2,3)$ and $(100,200)$, but not $(0,1)$ (because $0$ is not positive) or $(1.1, 2.4)$ (because the entries aren't integers). Define a relation on $S$ by $(a,b) \sim (c,d)$ if $\frac{a}{b} = \frac{c}{d}$. This is an equivalence relation; state at least three elements of $[(1,2)]$. 
 
-Answer: Samples include $(2,4)$, $(3,6)$, and $(10,20)$. 
+Answer: Samples include $[(2,4)]$, $[(3,6)]$, and $[(10,20)]$. 
 
 ## Skill 14
 
 > I can determine whether a relation is a partial ordering; if so, I can draw its Hasse diagram and identify maximal/minimal elements and/or greatest/least elements, if they exist.
 
-1. Let $S = \lbrace (a,b) \, : \, a,b \, \text{are positive integers} \rbrace$ be the set of all pairs (or tuples) of positive integers. Examples of elements of this set include $(2,3)$ and $(100,200)$, but not $(0,1)$ (because $0$ is not positive) or $(1.1, 2.4)$ (because the entries aren't integers). For each, state whether the relation is a partial ordering. If a relation *is* a partial order, you do not need to explain why; just state that it is a partial ordering. But, if a relation is *not* a partial ordering, state at least one property of partial orderings that is not satisfied. 
+1. Let $S = \{ (a,b) \, : \, a,b \, \text{are positive integers} \}$ be the set of all pairs (or tuples) of positive integers. Examples of elements of this set include $(2,3)$ and $(100,200)$, but not $(0,1)$ (because $0$ is not positive) or $(1.1, 2.4)$ (because the entries aren't integers). For each, state whether the relation is a partial ordering. If a relation *is* a partial order, you do not need to explain why; just state that it is a partial ordering. But, if a relation is *not* a partial ordering, state at least one property of partial orderings that is not satisfied. 
    
    (a) $(a,b) \sim (c,d)$ if $a = c$ 
 
@@ -419,6 +407,6 @@ Answers:
 
 
 
-2. Let $S = \lbrace 65, 26, 10, 130, 13, 5, 1, 2 \rbrace$. Let $\sim$ be the relation on $S$ defined by $a \sim b$ if $b$ is an integer multiple of $a$. (For example, $35$ is an integer multiple of $7$, but $200$ is not.)  This is a partial ordering; draw its Hasse diagram. 
+2. Let $S = \{65, 26, 10, 130, 13, 5, 1, 2\}$. Let $\sim$ be the relation on $S$ defined by $a \sim b$ if $b$ is an integer multiple of $a$. (For example, $35$ is an integer multiple of $7$, but $200$ is not.)  This is a partial ordering; draw its Hasse diagram. 
 
 <img src="final-s14-answer.png" alt="Image description" width="400">
