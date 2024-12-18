@@ -121,7 +121,7 @@ To give you practice on applying the Learning Targets to more complicated proble
 Twice during the semester, you'll take an **Application/Analysis Exam**. Both of these two exams will consist of a selection of items *taken directly from the Application/Analysis assignments*. So, if you have done mindful work in doing the assignment questions correctly, or correcting your mistakes, the exam will give you the chance to demonstrate this. Information on how the Application/Analysis Exams are graded is given here, and information on revision and reattempts is given here. 
 
 
-### Engagement 
+### Engagement credits
 
 As mentioned above, success in the course really depends on consistent engagement both in and outside of class. Opportunities to do so are plentiful, and many will have a point value attached, which we call **engagement credits**. Your course grade will depend partially on how many engagement credits you accumulate. Some engagement credit opportunities are recurring (successful completion of Class Prep and Application/Analysis assignments, attending class meetings, etc.) while some are one-time opportunities that encourage going above and beyond basic engagement (for example, the Startup Assignment given in week 1, or reading an article and writing a summary). All such opportunities to earn engagement credits will be clearly announced; more details on some of these are below. 
 
@@ -169,11 +169,11 @@ The _Standards for Student Work_ document describes each mark possible for every
 
 **Engagement credits:** These are awarded for successful completion of a variety of items: 
 
-| Item | Successful completion earns this many engagement credits: | 
+| Item | Successful completion earns: | 
 | --- | -------- | 
-| Class attendance (25 minute minimum) | 1 | 
-| Class prep | 2 | 
-| Application/Analysis assignment | 4 | 
+| Class attendance (25 minute minimum) | 1 engagement credit | 
+| Class prep | 2 engagement credits | 
+| Application/Analysis assignment | 4 engagement credits | 
 
 Other one-time items that carry engagement credits will have their values clearly indicated. 
 
@@ -187,19 +187,23 @@ Your latter grade is assigned using the table below. It shows the *minimum* requ
 **To earn a grade in the course, you need to meet or exceed *all* the requirements for that grade.** A grade of "F" is assigned if not all of the requirements for a "D" are met.
 
 | Grade | Learning Targets | Application/Analysis  Exams                               | Engagement credits |
-| ----- | ---------------- | -------------------------------------- | ------------------ |
-| A     | 14               | Excellent on both                      | 90                 |
-| B     | 12               | Excellent on one, Success on the other | 80                 |
-| C     | 10               | Success on both                        | 70                 |
-| D     | 6                | Success on one                         | 35                 |
+| ----- | :----------------: | :--------------------------------------: | :------------------: |
+| A     | 14               | *Excellent* on both                      | 90                 |
+| B     | 12               | *Excellent* on one, *Success* on the other | 80                 |
+| C     | 10               | *Success* on both                        | 70                 |
+| D     | 6                | *Success* on one                         | 35                 |
 
-The final column assumes a total of 100 engagement credits possible in the course. If we end up with more possible engagement credits, the numbers above will stay the same and it will be easier to meet the grade requirements. If it appears we will fall short of that 100 minimum, the numbers in the last column above will be updated so that they represent 90%, 80%, 70%, and 35% of whatever the total might be. 
+Additionally, **each student must earn a Success mark on all six Core Learning Targets**. Failing to do so will incur a one-letter grade penalty. 
+
+**The final column assumes a total of 100 engagement credits possible in the course**. If we end up with more than 100 possible engagement credits, the numbers above will stay the same and it will be easier to meet the grade requirements. If it appears we will fall short of that 100 total, the numbers in the last column above will be updated so that they represent 90%, 80%, 70%, and 35% of whatever the total might be. 
+
+**Please note: A grade of "C" or higher is required in MTH 225 for secondary admission into the Computer Science, Cybersecurity, Information Systems, or Information Technology majors.** A grade of C- or lower is insufficient. [Please click here for more details](https://www.gvsu.edu/computing/secondary-admission-40.htm). 
 
 ### Determining plus/minus modifiers 
 
 **To earn a "plus" on your base grade:** Do one of the following. 
 
-- Earn a Success mark on the six Core Learning Targets twice --- once on a Learning Target exam during the semester, and a second time on the final exam; *or*,
+- Earn a *Success* mark on the six Core Learning Targets, twice --- once on a Learning Target exam during the semester, and a second time on the final exam; *or*,
 - Satisfy all the requirements for a grade in the table above but go one level higher on either Learning Targets or Application/Analysis exams. 
 
 **To earn a "minus" on your base grade:** Do one of the following. 
@@ -211,29 +215,53 @@ Earning both a plus and a minus by doing combinations of the above, results in n
 
 ### Borderline cases 
 
-To earn a grade in the course, you need to meet or exceed *all* the requirements for that grade. **The results from different kinds of assignments do not "average together" or "cancel out".** For example, having 14 Success marks on Learning Targets but only one Successful Application/Analysis exam would result in a base grade of D. **You will need to show consistent competence across the board** since you cannot use one type of assignment to "pull up" another. 
-
-Instead, typically you will be given the base grade where *all* the requirements are met and a plus or minus modifier. 
+To earn a grade in the course, you need to meet or exceed *all* the requirements for that grade. **The results from different kinds of assignments do not "average together" or "cancel out".** For example, having 14 Success marks on Learning Targets but only one Successful Application/Analysis exam would result in a base grade of D. **You will need to show consistent competence across the board** since you cannot use one type of assignment to "pull up" another. Instead, typically you will be given the base grade where *all* the requirements are met and a plus or minus modifier. 
 
 If you are close to satisfying the requirements for a grade, but not quite satisfying it, I will consider such borderline cases on a case-by-case basis, using engagement credits as the primary means of deciding. Please note that having only one *Success* on an Application/Analysis exam is not considered "close to" having two of them. 
 
 ### The Grade Tracking Checklist 
 
-**Finding where you stand with your grade:** A **Grade tracking checklist** is provided for you on Blackboard (also linked on the Class Page). This is a simple PDF checklist that lets you track your progress through the accomplishments needed for different grades in the class. Make sure to keep that checklist up to date each week or more often. You will be asked to show me your updated checklist a few times through the semester for engagement credit, to make sure we are both clear on your progress. 
+A **Grade tracking checklist** is provided for you on Blackboard (also linked on the Class Page) to help you stay current with where you stand with your grade. Make sure to keep that checklist up to date each week or more often. You will be asked to show me your updated checklist a few times through the semester for engagement credit, to make sure we are both clear on your progress. 
 
 ---
 
-## How to revise and retry your assignments 
+## How to retry your assignments 
 
-### General guidelines for revision and reattempts
+A feature of this course is that **you can redo many assignments and exams** to take feedback into account and make improvements to your understanding. Here are the details. 
 
-### Revision and reattempts of Learning Targets
+
+### Reattempts of Learning Targets
+
+Learning Target exams are cumulative. The plan for coverage of Learning Targets on each is shown below: 
+
+| Learning Target Exam | Date | Learning Targets covered | 
+| :--: | :----: | :-----:| 
+| 1 | January 27 | 1--4 | 
+| 2 | February 17 | 1--8 | 
+| 3 | March 10 | 1--12 | 
+| 4 | March 31 | 1--15 | 
+| (Final exam) | Depends on section | 1--15 | 
+
+If you attempt a problem for a Learning Target and don't earn *Success* on it, **you can try it again at the next exam and on the final exam**. This way, you'll have at least two and up to five different attempts possible on each Learning Target. 
+
+The last two weeks of class are set aside for reassessments as well, and during those times we may have smaller, targeted quizzes on specific Learning Targets, especially the Core Learning Targets. 
+
 
 ### Revision and reattempts of Application/Analysis 
 
+Application/Analysis exams are graded as a whole, with marks of *Excellent*, *Success*, or *Retry*. Two days during the semester are set aside for reattempting Application/Analysis exams: **Friday March 14**, and **Wednesday April 9**. If you are happy with your grades on these exams, you are not required to attend the sessions. But if you want to reattempt an Application/Analysis exam --- to raise your grade from *Retry* to *Success* or from *Success* to *Excellent* --- those are the sessions where this happens. You'll have an additional chance to do so at the final exam, if needed. 
+
+The last two weeks of class are set aside for reassessments as well, and during those times we may, time and meed permitting, schedule another reattempt session. 
+
+
+
 ### Other assignments 
 
----
+**Class Prep and Application/Analysis assignments do not have the possibility of reattempts.** These are only graded on the basis of completeness and effort, and you're expected to meet those very minimal requirements the first time. If you don't, then you can make up for the lost engagement credits through other means. 
+
+**Most other engagement credits items are one-time only** and will not have a means of reattempting. 
+
+
 
 ## Academic integrity and technology use 
 
