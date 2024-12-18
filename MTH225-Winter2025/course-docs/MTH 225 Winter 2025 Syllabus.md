@@ -1,4 +1,4 @@
-![alt text](MTH225-Winter2025/course-docs/225-w25-logo.jpg)
+![alt text](225-w25-logo.jpg)
 
 # MTH 225: Discrete Structures for Computer Science 1, Winter 2025 Syllabus
 
@@ -17,6 +17,7 @@ This course is subject to the GVSU policies listed at http://www.gvsu.edu/course
 - **Meetings**: Section 02 -- Mackinac Hall B-1-128, MWF 9:00-9:50. Section 03 -- Mackinac Hall D-1-123, MWF 10:00-10:50. 
 - **Required text**: None. 
 - **Optional text**: _Discrete Mathematics: An Open Introduction_, 4th edition by Oscar Levin. Available in HTML and PDF format here: https://discrete.openmathbooks.org/dmoi4.html We also use the Course Vault found here: https://publish.obsidian.md/discretecs/ 
+- Other resources: The course Blackboard site is at http://lms.gvsu.edu. We also use the Class Page, a Google Doc of notes and links, [found at this link](https://docs.google.com/document/d/1pCxYpwLsHa9ciZv4zrtCH2P3aEM6g6Za2onQsOJCung/edit?usp=sharing). This link is also on the Blackboard site. **We will use the Class Page for most things, and reserve Blackboard for announcements and gradebook only.** 
 
 
 ---
