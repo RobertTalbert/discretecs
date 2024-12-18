@@ -19,7 +19,7 @@ This course is subject to the GVSU policies listed at http://www.gvsu.edu/course
 
 ## Essential information
 
-- **Instructor**: Robert Talbert, Ph.D., Professor of Mathematics. Email: [talbertr@gvsu.edu](mailto:talbertr@gvsu.edu). Voice: (616)331-8968. Be sure to read my availability and communication policy. 
+- **Instructor**: Robert Talbert, Ph.D., Professor of Mathematics. Email: [talbertr@gvsu.edu](mailto:talbertr@gvsu.edu). Voice: (616)331-8968. Be sure to read my [availability and communication policy](https://github.com/RobertTalbert/discretecs/blob/master/MTH225-Winter2025/course-docs/MTH%20225%20Winter%202025%20Syllabus.md#instructor-availability-and-communication). 
 - **Office and drop-in hours**: Mackinac Hall C-2-513, drop-in hours TBA
 - **Appointments:** To schedule an appointment, go to https://calendly.com/robert-talbert and select either "20-minute phone call" or "20-minute online meeting" then choose any open time slot. Note, you must schedule these at least 24 hours in advance and no more than two weeks in advance. 
 - **Meetings**: Section 02 -- Mackinac Hall B-1-128, MWF 9:00-9:50. Section 03 -- Mackinac Hall D-1-123, MWF 10:00-10:50. 
@@ -301,7 +301,7 @@ You are allowed, in fact encouraged, to use generative AI tools to help you lear
 
 We will typically not use technology during class except for occasional activities. **Unless otherwise announced, you are to keep all computing technology --- smartphones, tablets, laptops, etc. --- stowed in your bag at all times during class, or otherwise made inaccessible**. Having such technology available and using it, may result in a loss of engagement credits. This policy is in place to ensure that you are fully present during class and not distracted by websites, games, or other affordances of technology. 
 
-**Exceptions:** There are two exceptions to this policy: 
+There are two exceptions to this policy: 
 
 - If you have special accommodations from the Student Accessiblility Resources office (SAR, formerly known as DSR) for the use of technology during class, and you present me with an official SAR memo saying so, I am happy to discuss how you might use technology during class meetings to help you learn. 
 - If you are taking notes using a device that has no web browsing capabilities (for example the [Remarkable tablet](https://remarkable.com/)), you may be allowed to use it once you've discussed this with me. 
@@ -331,8 +331,9 @@ The [Class Page](https://docs.google.com/document/d/1pCxYpwLsHa9ciZv4zrtCH2P3aEM
 
 Email ([talbertr@gvsu.edu](mailto:talbertr@gvsu.edu)) is the best way to reach me with a message outside of class meetings. Please **do not use Blackboard messaging to contact me** but use regular email instead. Messages sent through Blackboard do not give me a way of replying to the message. 
 
-I typically check email twice per day, once in the morning and again in the afternoon. **If your message needs a response, it will receive one within 24 hours**. Please note **I do not typically check email outside of normal working hours (8am-5pm) or on weekends.** If you send an email during those times, it might be longer than 24 hours before you get a response. In particular, **emails sent after 5pm Friday and on weekends will not get a response until the following Monday.** 
+I typically check email twice per day, once in the morning and again in the afternoon. **If your message needs a response, it will receive one within 24 hours**, but it may not be immediate. Please note **I do not typically check email outside of normal working hours (8am-5pm) or on weekends.** If you send an email during those times, it might be longer than 24 hours before you get a response. In particular, **emails sent after 5pm Friday and on weekends will not get a response until the following Monday.** 
 
+I work on campus Monday, Wednesday, and Friday but typically work from home on Tuesdays and Thursdays. 
 
 
 
