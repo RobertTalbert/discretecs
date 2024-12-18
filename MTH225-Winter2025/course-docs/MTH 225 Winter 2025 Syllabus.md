@@ -21,6 +21,7 @@ This course is subject to the GVSU policies listed at http://www.gvsu.edu/course
 
 - **Instructor**: Robert Talbert, Ph.D., Professor of Mathematics. Email: [talbertr@gvsu.edu](mailto:talbertr@gvsu.edu). Voice: (616)331-8968. Be sure to read my availability and communication policy. 
 - **Office and drop-in hours**: Mackinac Hall C-2-513, drop-in hours TBA
+- **Appointments:** To schedule an appointment, go to https://calendly.com/robert-talbert and select either "20-minute phone call" or "20-minute online meeting" then choose any open time slot. Note, you must schedule these at least 24 hours in advance and no more than two weeks in advance. 
 - **Meetings**: Section 02 -- Mackinac Hall B-1-128, MWF 9:00-9:50. Section 03 -- Mackinac Hall D-1-123, MWF 10:00-10:50. 
 - **Required text**: None. 
 - **Optional text**: _Discrete Mathematics: An Open Introduction_, 4th edition by Oscar Levin. Available in HTML and PDF format here: https://discrete.openmathbooks.org/dmoi4.html We also use the Course Vault found here: https://publish.obsidian.md/discretecs/ 
@@ -265,15 +266,56 @@ The last two weeks of class are set aside for reassessments as well, and during 
 
 ## Academic integrity and technology use 
 
+**TL;DR: When you submit work on an assignment in this class, it must be your ideas and your voice, and not someone else's or those of an AI. Anything else is subject to strong penalties that are required by the university.** Please keep reading for specifics. You are expected to know and abide by these policies. 
+
 ### Academic integrity policy for the course 
+
+This course is subject to [GVSU course policies](http://www.gvsu.edu/coursepolicies/) and the [GVSU student code](https://www.gvsu.edu/cms4/asset/7B58A5E7-F4C2-114C-CCDA36F96BD2AF73/the_statement_final_fa2020(2).pdf). This document establishes guidelines and expands and clarifies these policies with respect to all work done in MTH 325 this semester. Every student is required to be familiar with these policies and the consequences of violating them.
+
+The student code defines *academic misconduct* as "any action or behavior that misrepresents one’s contributions to or the results of any scholarly product submitted for credit, evaluation, or dissemination". These include:
+
+- *Cheating*: Attempting to use materials, information, or aids that have not been authorized by the instructor for academic work.
+- *Collusion*: Unauthorized collaboration with another person in preparing academic assignments offered for credit, and collaboration with another person to commit a violation of any section of the rules on academic misconduct. **Please note: In MTH 225, generative AI tools such as ChatGPT are included in the definition of "person".**
+- *Dual submission*: Submitting work that has been previously graded, or is being submitted concurrently to more than one course, without authorization from the instructor of the class to which the student wishes to submit. (This especially applies to those who are repeating MTH 225.)
+- *Plagiarism*: Appropriation of, buying, receiving as a gift, or obtaining by any means material that is attributable in whole or in part to another source without any indication or citation of the original source, including words, sentences, ideas, illustrations, structure, computer code, and other expression or media, and presenting that material as one’s own academic work being offered for credit or in conjunction with a program, course, or degree requirements.
+
+Please note that this is not a complete list; and note that the Student Code considers **enabling others** to engage in academic misconduct to be another form of academic misconduct.
+
+**In MTH 225, when you submit an item for grading, it must represent *your* ideas and be written in *your* voice**, however flawed those may be. Your work cannot significantly consist of ideas or wording from another person, website, book, or AI tool. 
+
+The way that MTH 225 is designed around in-class examinations and around engagement credit items that are graded on completeness and effort only, helps to minimize the occurrences and impact of academic dishonesty. But, here are specific guidlines: 
+
+- On **in-class exams** (Learning Target and Application/Analysis exams): No collaboration with a person or technological resource is allowed, and no notes are allowed. You are allowed to use a basic, non-networked graphing or scientific calculator but smartphone use is not allowed, including using a calculator app on a smartphone. 
+- On **Class Prep and Application/Analysis assignments**: These are done outside of class. Your work must reflect your ideas and must be written in your voice. Significant copying from another student or from an electronic resource will be investigated as academic dishonesty. Otherwise you are allowed to use other people and tech tools as long as the purpose is learning. 
+- Other assignments (for example, for engagement credits) may have additional guidelines. 
+
+Academic misconduct is a serious matter that carries stiff penalties from the university. If I suspect that an item of work breaks the "your ideas/your voice" rule, I will first discuss it with the student turning the work in. If I determine that there was academic misconduct, the matter will go to the [Office of Student Conduct and Conflict Resolution](https://www.gvsu.edu/osccr/) which has a process for handling these issues. The penalties can be quite severe, in some cases resulting in failure of the course or even suspension from the university. 
+
+Please note **the reassessment opportunities built in to your work make cheating unnecessary**. Simply turn in work that is a good-faith effort at a complete and correct solution to the problems on the assignment, and you will get the chance to redo it later if you need. 
 
 ### Using artificial intelligence tools 
 
+You are allowed, in fact encouraged, to use generative AI tools to help you learn. Some class activities will be focused on how best to leverage generative AI to study and learn. The use of generative AI tools is *not* allowed if it crosses a line where the substance of your work is no longer your own ideas or your own voice but those of someone else. Paraphrasing or citing others' work is not sufficient and will still be considered academic dishonesty. 
+
 ### Using technology during class meetings 
+
+We will typically not use technology during class except for occasional activities. **Unless otherwise announced, you are to keep all computing technology --- smartphones, tablets, laptops, etc. --- stowed in your bag at all times during class, or otherwise made inaccessible**. Having such technology available and using it, may result in a loss of engagement credits. This policy is in place to ensure that you are fully present during class and not distracted by websites, games, or other affordances of technology. 
+
+**Exceptions:** There are two exceptions to this policy: 
+
+- If you have special accommodations from the Student Accessiblility Resources office (SAR, formerly known as DSR) for the use of technology during class, and you present me with an official SAR memo saying so, I am happy to discuss how you might use technology during class meetings to help you learn. 
+- If you are taking notes using a device that has no web browsing capabilities (for example the [Remarkable tablet](https://remarkable.com/)), you may be allowed to use it once you've discussed this with me. 
+
 
 ## How to get help in MTH 225
 
-Math help, drop in hours; basic needs; SAR
+**Having issues or questions in MTH 225 is totally normal, and the smart thing to do if you're stuck is get help.** There are a few ways to do this: 
+
+- The best way to get help is to **prepare for class and participate in class meetings actively**. This way you will get help from your classmates and also have the chance to ask me (Talbert) questions; plus, you already have the time blocked off on your calendar. 
+- You can also come to **drop-in hours** where you can ask anything you need to, without needing an appointment, and get 1-on-1 assistance. 
+- If you cannot make drop-in hours, you can **schedule an appointment** for a Zoom call. The link for appointment scheduling is at the beginning of this syllabus. 
+
+For help with prerequisite concepts from MTH 225 or high school, consider visiting the Math Tutoring Center (http://gvsu.edu/tutoring/math/). Bring questions to any location about using technology, on methods and concepts, or on specific problems. All Math Center tutoring is free and available in person on both the Allendale and Pew campuses as well as on Discord. 
 
 ---
 
@@ -281,17 +323,41 @@ Math help, drop in hours; basic needs; SAR
 
 ### Staying current with course updates 
 
-Class page, announcements, email
+Course announcements are sent out every Sunday morning via Blackboard, and contain an overview of the classes for the week, a list of assignments and due dates, and specific items to note. Other announcements might be sent during the week if needed. All Blackboard announcements will also be sent to your GVSU email. It is your responsibility to check and read these emails carefully each week and manage the information contained in them. 
+
+The [Class Page](https://docs.google.com/document/d/1pCxYpwLsHa9ciZv4zrtCH2P3aEM6g6Za2onQsOJCung/edit?usp=sharing) contains a summary of each class meeting, including links to slides and other materials, given in reverse chronological order (newest first). 
 
 ### Instructor availability and communication
 
+Email ([talbertr@gvsu.edu](mailto:talbertr@gvsu.edu)) is the best way to reach me with a message outside of class meetings. Please **do not use Blackboard messaging to contact me** but use regular email instead. Messages sent through Blackboard do not give me a way of replying to the message. 
+
+I typically check email twice per day, once in the morning and again in the afternoon. **If your message needs a response, it will receive one within 24 hours**. Please note **I do not typically check email outside of normal working hours (8am-5pm) or on weekends.** If you send an email during those times, it might be longer than 24 hours before you get a response. In particular, **emails sent after 5pm Friday and on weekends will not get a response until the following Monday.** 
+
+
+
+
 ### Attendance, late work, makeups, and remote instruction
 
-Attendance policy; late work; makeup dates; remote instruction
+**Attendance:** Regular class attendance has been shown to correlate more strongly with student success in the class than any other variable. You are urged, and expected, to attend every class meeting unless it is physically impossible or inadvisable. Attendance at each class meeting not set aside for am exam, earns 1 engagement credit. 
+
+**Absences from non-exam days:** You do not need an excuse or prior approval to miss a class unless it's an exam. A heads-up is appreciated but not necessary. You will not earn the engagement credit, but those can be made up in other ways. 
+
+**Absences from exams:** If you are absent from an exam, there are two days set aside for makeups: **Friday February 28**, and **Friday April 11**. Makeups on other days are not typically allowed, but I am open to discussing such situations. Please note, these makeup days are not simply for reattempting the exam but for making up missed exams. 
+
+**Making up other assignments:** There are no makeups allowed for other assignments unless you discuss your situation with me first. 
+
+**Contingency plans for remote instruction:** In the event that we need to switch to remote instruction, class meetings will take place on Zoom, and the link will be shared in a course announcement and on the Class Page. If that day happens to be an exam day, we'll reschedule the exam and the focus of the class meeting will be determined at that time. [Click here for the official university policy on remote instruction](https://www.gvsu.edu/provost/guidelines-for-course-delivery-in-the-event-of-253.htm). 
+
+
 
 ### Gender identity
 
+If, for purposes of gender identity and expression, your official name (in Banner) does not match your preferred name, your name can be updated in Blackboard. Please contact the registrar's office to submit this request. The registrar's office will contact the Blackboard administrator to make the change and will also contact your professors to inform them that your name in Banner will not match the name in Blackboard.
+
 ### Classrom and campus safety
+
+I consider classroom and campus safety our shared responsibility. Please familiarize yourself with the classroom emergency placard, which contains important information that could prove useful should an emergency arise. Emergency situations could include a fire alarm, tornado warning, medical emergency, or hostile intruder, and our response might consist of evacuating MAK Hall in an orderly manner, moving as a group to a different location in the building, rendering assistance to a class member, or staying put and locking the classroom door. In all cases, I will provide clear instructions as to what you should do. Please make sure to have your primary mobile number listed in Banner so that you will automatically receive any campus alerts. Should you receive an emergency notification in class, notify me immediately.
+
 
 >The professor reserves the right to adjust this syllabus as needed and will notify you of any changes through Blackboard announcements. 
 
@@ -300,11 +366,48 @@ Attendance policy; late work; makeup dates; remote instruction
 
 ## About the instructor 
 
+I'm Robert Talbert, the professor for this course. I'm a Professor in the Mathematics Department and also hold an appointment in the GVSU President's Office. I have been teaching college math courses in different places for 32 years, and at GVSU since 2011. I have a Ph.D. in Mathematics from [Vanderbilt University](http://vanderbilt.edu/) and a B.S. degree from [Tennessee Technological University](http://www.tntech.edu/). 
+
+I was, at best, a thoroughly mediocre math student in school until my senior year of high school, when I had a teacher for Calculus who stopped trying to cram things into my head and instead showed me the basics, then backed off and let me work things out on my own, with support if I got stuck. (Basically, this is how I teach today.)
+
+After spending my first two years of college as a Psychology major, I changed my major to math after a late-night dare from my roommate (long story) and, to my great surprise, I fell in love with the subject. I ended up going to graduate school to work in an obscure area at the intersection of abstract algebra and geometry, which seemed like pointless fun at the time but now turns out to have [serious applications to data science](https://www.frontiersin.org/journals/artificial-intelligence/articles/10.3389/frai.2021.667963/full) and to [the design of programming languages](https://en.wikipedia.org/wiki/Homotopy_type_theory). I also discovered I loved teaching math to college students. So I went on to spend 14 years teaching in small liberal arts colleges before coming to GVSU in 2011.
+
+Currently I teach a lot of MTH 225 and MTH 325, getting engineers and computer scientists to think like mathematicians. I also do research on making college teaching better and recently [wrote a book](https://www.routledge.com/Grading-for-Growth-A-Guide-to-Alternative-Grading-Practices-that-Promote/Clark-Talbert/p/book/9781642673814) about the kinds of grading systems you see in this syllabus. When nobody is looking, I am working on my data science skills and learning languages like [R](https://www.r-project.org/) and [Julia](https://julialang.org/). 
+
+I've been a bass guitar player for over 25 years and play live regularly in the area with four different bands. You can learn more about my music activities at [my Bandmix page](https://www.bandmix.com/rtbass/) or [my music Instagram account](https://www.instagram.com/rtgrooves/). 
+
+I live in Allendale with my wife and 16-year old son (who wants to be a software engineer). I have a 19-year daughter who is a freshman at [Wayne State University](https://wayne.edu/) and a 21-year old daughter who lives on her own. I also love the outdoors and get out to run, walk, or hike when I can. You can read more about what I'm thinking and doing at my website, [rtalbert.org](http://rtalbert.org), or [Grading for Growth](https://gradingforgrowth.com/) about alternative grading practices which I co-author with my GVSU colleague Prof. David Clark. I'm also on Twitter at [@RobertTalbert](http://twitter.com/RobertTalbert) and on [LinkedIn](https://www.linkedin.com/in/roberttalbert/). I will accept any connection request on LinkedIn from a student!
+
+
+
 ---
 
-## Appendix A: Learning Targets and exam schedule
+## Appendix A: Learning Targets 
+
+1. (**CORE**) Given two integers a and b, I can find the quotient and remainder when dividing a by b, the greatest common divisor of a and b using the Euclidean Algorithm, and the value of a % b.
+2. I can convert a positive integer between bases 2, 8, 10, and 16; and I can represent a negative integer in binary using twos complement.
+3. I can perform arithmetic operations on binary numbers. 
+4. (**CORE**) I can identify the hypothesis and conclusion of a conditional statement and state its converse, contrapositive, and negation.
+5. I can write the truth table for a statement containing two or three variables.
+6. Given a predicate, I can state the free variable(s); determine whether quantified forms are true or false; and state its negation.
+7. I can determine whether a sequence of statements is a valid rule of deduction and determine if two statements are logically equivalent. 
+8. Given a recurrence relation for a sequence or other structure, I can find several instances of the sequence or structure.
+9. (**CORE**) Given a statement to prove by mathematical induction, I can set up the framework for its proof.
+10. Given a set in roster notation, I can rewrite it in set-builder notation and vice versa, and I can determine its elements and subsets.
+11. (**CORE**) I can find the union, intersection, and difference of two sets; the complement of a set; and the cardinality of a finite set.
+12. I can determine if a mapping between two sets is a function; if it is, I can determine if it is injective, surjective, and/or bijective.
+13. (**CORE**) I can solve simple counting problems that involve a combination of the Additive Rule, Multiplicative Rule, and Principle of Inclusion/Exclusion.
+14. (**CORE**) I can compute a binomial coefficient and solve simple counting problems that involve combinations, permutations, or k-permutations.
+15. I can determine if a sequence is arithmetic or geometric; and I can state closed-form and recursive formulas for arithmetic and geometric sequences.
+
+  
 
 ## Appendix B: Course calendar and important dates 
+
+A Google calendar for the class can be found at this link: 
+
+It is also embedded on Blackboard in the *Course Documents* folder. Please note, the calendar found on Blackboard in the "Calendar" tab at the top of the page is not the same as the Google Calendar and does not contain all the date-sensitive items in the course. **Please use this Google Calendar as your official reference**.
+
 
 **Important dates:**
 - January 6: Classes begin
