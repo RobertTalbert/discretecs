@@ -333,7 +333,7 @@ Email ([talbertr@gvsu.edu](mailto:talbertr@gvsu.edu)) is the best way to reach m
 
 I typically check email twice per day, once in the morning and again in the afternoon. **If your message needs a response, it will receive one within 24 hours**, but it may not be immediate. Please note **I do not typically check email outside of normal working hours (8am-5pm) or on weekends.** If you send an email during those times, it might be longer than 24 hours before you get a response. In particular, **emails sent after 5pm Friday and on weekends will not get a response until the following Monday.** 
 
-I work on campus Monday, Wednesday, and Friday but typically work from home on Tuesdays and Thursdays. 
+I work on campus Monday, Wednesday, and Friday but typically work from home on Tuesday and Thursday. 
 
 
 
