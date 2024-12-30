@@ -1,6 +1,6 @@
 <!-- ![alt text](225-w25-logo.jpg) -->
 
-<img src="225-w25-logo.jpg" alt="MTH 225 Logo" width="200">
+<img src="225-w25-logo.jpg" alt="MTH 225 Logo" width="300">
 
 # MTH 225: Discrete Structures for Computer Science 1, Winter 2025 Syllabus
 
@@ -158,14 +158,14 @@ The main drawback of this approach to grading is that it's different and might t
 
 ### The _Standards for Student Work_ document 
 
-The Standards for Student Work in MTH 225 document is a complete one-stop visit for all information about what "success" specifically looks like for each of the assignment types in the course. **It is critically important that you read this document carefully and keep it close at hand**. A link is to it is found in several places in the syllabus, also on the Class Page and on Blackboard; you should also bookmark it in your web browser. 
+The Standards for Student Work in MTH 225 document is a complete one-stop visit for all information about what "success" specifically looks like for each of the assignment types in the course. **It is critically important that you read this document carefully and keep it close at hand**. A link is to it is found in several places in the syllabus, also on the [Class Page](https://docs.google.com/document/d/1pCxYpwLsHa9ciZv4zrtCH2P3aEM6g6Za2onQsOJCung/edit?tab=t.0) and on Blackboard; you should also bookmark it in your web browser. 
 
 ### How assignments are graded and recorded 
 
 [The _Standards for Student Work_ document](https://github.com/RobertTalbert/discretecs/blob/master/MTH225-Winter2025/course-docs/Standards%20for%20Student%20Work%20MTH%20225%20W25.md) describes each mark possible for every assignment and what it takes to earn that mark. Here are some more targeted details: 
 
-- **Learning Target Exam problems**: Each problem on a Learning Target exam is graded either *Success* or *Retry* based on whether it meets the standards for success. The exam itself does not receive a grade, only the individual problems. Each problem corresponds to exactly one Learning Target. In the Blackboard gradebook, each Learning Target has a separate entry that will be blank (if the Learning Target has never been attempted on an exam) or will say *Success* or *Retry*. 
-- **Application/Analysis exams**: Unlike Learning Target exams, Application/Analysis exams are structured with different sections that contain groups of problems, and you will typically be asked to choose 1-2 items from each group to complete. Then, **the exam is graded as a whole**; individual problems may receive feedback but are not individually graded. The marks possible are *Excellent*, *Success*, and *Retry*; see the Standards for Student Work document for details. Each of the two Application/Analysis exams has a separate Blackboard gradebook entry that will be blank or show one of those three marks. 
+- **Learning Target Exam problems**: On Learning Target exams, **each problem is graded separately**. Each problem on a Learning Target exam is graded either *Success* or *Retry* based on whether it meets the standards for success. The exam itself does not receive a grade, only the individual problems. Each problem corresponds to exactly one Learning Target. In the Blackboard gradebook, each Learning Target has a separate entry that will be blank (if the Learning Target has never been attempted on an exam) or will say *Success* or *Retry*. 
+- **Application/Analysis exams**: On Application/Analysis exams, **the entire exam is graded as a whole** rather than each problem being graded separately. Application/Analysis exams are structured with different sections that contain groups of problems, and you will typically be asked to choose 1-2 items from each group to complete. Individual problems may receive feedback but are not individually graded. The marks possible are *Excellent*, *Success*, and *Retry*; see the [Standards for Student Work document](https://github.com/RobertTalbert/discretecs/blob/master/MTH225-Winter2025/course-docs/Standards%20for%20Student%20Work%20MTH%20225%20W25.md) for details. Each of the two Application/Analysis exams has a separate Blackboard gradebook entry that will be blank or show one of those three marks. 
 - **Class Preps and Application/Analysis assignments**: Both of these are graded on the basis of completeness and effort only, not on correctness. Successful completion earns engagement credits; see below. 
 
 **Engagement credits:** These are awarded for successful completion of a variety of items: 
@@ -184,8 +184,8 @@ Other one-time items that carry engagement credits will have their values clearl
 
 ### Determining the base grade
 
-Your latter grade is assigned using the table below. It shows the *minimum* requirements for the "base grades" of A, B, C, and D.  Plus/minus modifiers are applied using the rules below the table. 
-**To earn a grade in the course, you need to meet or exceed *all* the requirements for that grade.** A grade of "F" is assigned if not all of the requirements for a "D" are met.
+Your letter grade for the course is assigned using the table below. It shows the *minimum* requirements for the "base grades" of A, B, C, and D. **To earn a grade in the course, you need to meet or exceed *all* the requirements for that grade.** Plus/minus modifiers are applied using the rules below the table. 
+ A grade of "F" is assigned if not all of the requirements for a "D" are met.
 
 | Grade | Learning Targets | Application/Analysis  Exams                               | Engagement credits |
 | ----- | :----------------: | :--------------------------------------: | :------------------: |
@@ -196,23 +196,20 @@ Your latter grade is assigned using the table below. It shows the *minimum* requ
 
 Additionally, **each student must earn a Success mark on all six Core Learning Targets**. Failing to do so will incur a one-letter grade penalty. 
 
-**The final column assumes a total of 100 engagement credits possible in the course**. If we end up with more than 100 possible engagement credits, the numbers above will stay the same and it will be easier to meet the grade requirements. If it appears we will fall short of that 100 total, the numbers in the last column above will be updated so that they represent 90%, 80%, 70%, and 35% of whatever the total might be. 
+**The final column assumes a total of 100 engagement credits possible in the course**. If we end up with more than 100 possible engagement credits, the numbers above will stay the same, and it will be easier to meet the grade requirements. If it appears we will fall short of that 100 total, the numbers in the last column above will be updated so that they represent 90%, 80%, 70%, and 35% of whatever the total might be. 
 
-**Please note: A grade of "C" or higher is required in MTH 225 for secondary admission into the Computer Science, Cybersecurity, Information Systems, or Information Technology majors.** A grade of C- or lower is insufficient. [Please click here for more details](https://www.gvsu.edu/computing/secondary-admission-40.htm). 
+**Please note: A grade of "C" or higher is required in MTH 225 for secondary admission into the Computer Science, Cybersecurity, Information Systems, or Information Technology majors.** A grade of C- or lower will require retaking the course. [Please click here for more details](https://www.gvsu.edu/computing/secondary-admission-40.htm). 
 
 ### Determining plus/minus modifiers 
 
-**To earn a "plus" on your base grade:** Do one of the following. 
+**To earn a "plus" on your base grade:** Satisfy all the requirements for a grade in the table above but go one level higher on either Learning Targets or Application/Analysis exams. 
 
-- Earn a *Success* mark on the six Core Learning Targets, twice --- once on a Learning Target exam during the semester, and a second time on the final exam; *or*,
-- Satisfy all the requirements for a grade in the table above but go one level higher on either Learning Targets or Application/Analysis exams. 
-
-**To earn a "minus" on your base grade:** Do one of the following. 
+**To earn a "minus" on your base grade:** Do *one* of the following. 
 
 - Satisfy all the requirements for a base grade except engagement credits; *or*, 
 - Fail to earn a *Success* mark on one or more of the Core Learning Targets on the final exam. 
 
-Earning both a plus and a minus by doing combinations of the above, results in no modification of the base grade (they "cancel out"). Satisfying *both* requirements for any one of the above does not result in any additional modification (for example doing both of the "plus" items does not result in two half-grade increases). 
+Earning both a plus and a minus by doing combinations of the above, results in no modification of the base grade (they "cancel out"). Doing *both* requirements for the "minus" does not result in any additional modification (i.e. it does not result in a one-letter grade penalty, just a minus).  
 
 ### Borderline cases 
 
@@ -222,13 +219,13 @@ If you are close to satisfying the requirements for a grade, but not quite satis
 
 ### The Grade Tracking Checklist 
 
-A **Grade tracking checklist** is provided for you on Blackboard (also linked on the Class Page) to help you stay current with where you stand with your grade. Make sure to keep that checklist up to date each week or more often. You will be asked to show me your updated checklist a few times through the semester for engagement credit, to make sure we are both clear on your progress. 
+A **Grade tracking checklist** is provided for you on Blackboard (also linked on the [Class Page](https://docs.google.com/document/d/1pCxYpwLsHa9ciZv4zrtCH2P3aEM6g6Za2onQsOJCung/edit?tab=t.0)) to help you stay current with where you stand with your grade. Make sure to keep that checklist up to date each week or more often. You will be asked to show me your updated checklist a few times through the semester for engagement credit, to make sure we are both clear on your progress. 
 
 ---
 
 ## How to retry your assignments 
 
-A feature of this course is that **you can redo many assignments and exams** to take feedback into account and make improvements to your understanding. Here are the details. 
+A feature of this course is that **you can redo many assignments and exams** to take feedback into account and make improvements to your understanding. This is what is offered instead of partial credit, and it's expected that you will make use of this opportunity and learn through it. Here are the details. 
 
 
 ### Reattempts of Learning Targets
@@ -243,14 +240,14 @@ Learning Target exams are cumulative. The plan for coverage of Learning Targets 
 | 4 | March 31 | 1--15 | 
 | (Final exam) | Depends on section | 1--15 | 
 
-If you attempt a problem for a Learning Target and don't earn *Success* on it, **you can try it again at the next exam and on the final exam**. This way, you'll have at least two and up to five different attempts possible on each Learning Target. 
-
-The last two weeks of class are set aside for reassessments as well, and during those times we may have smaller, targeted quizzes on specific Learning Targets, especially the Core Learning Targets. 
+If you attempt a problem for a Learning Target on an exam and don't earn *Success* on it, **you can try it again at the next exam and on the final exam**. This way, you'll have at least two and up to five different attempts possible on each Learning Target. The last two weeks of class are set aside for reassessments as well, and during those times we may have smaller, targeted "mini-exams" on specific Learning Targets, especially the Core Learning Targets and Learning Targets introduced later in the course. 
 
 
 ### Revision and reattempts of Application/Analysis 
 
-Application/Analysis exams are graded as a whole, with marks of *Excellent*, *Success*, or *Retry*. Two days during the semester are set aside for reattempting Application/Analysis exams: **Friday March 14**, and **Wednesday April 9**. If you are happy with your grades on these exams, you are not required to attend the sessions. But if you want to reattempt an Application/Analysis exam --- to raise your grade from *Retry* to *Success* or from *Success* to *Excellent* --- those are the sessions where this happens. You'll have an additional chance to do so at the final exam, if needed. 
+Application/Analysis *assignments* are graded only on completeness and effort, so revision is not necessary or possible. Application/Analysis *exams* on the other hand do have a revision/reattempt procedure. 
+
+Application/Analysis exams are graded as a whole, with marks of *Excellent*, *Success*, or *Retry*. Two days during the semester are set aside for reattempting Application/Analysis exams: **Friday March 14**, and **Wednesday April 9**. If you are happy with your grades on these exams, you are not required to attend the sessions. But if you want to reattempt an Application/Analysis exam --- to raise your grade from *Retry* to *Success* or from *Success* to *Excellent* --- those are the sessions where this happens. You'll have an additional chance to do so at the final exam, if needed. The retakes of these exams will consist of problems that are similar to, but not necessarily identical to, the ones seen on the Application/Analysis assignments. (This is unlike the first attempt of these exams, which will be drawn directly from assigned problems.) 
 
 The last two weeks of class are set aside for reassessments as well, and during those times we may, time and meed permitting, schedule another reattempt session. 
 
@@ -258,7 +255,7 @@ The last two weeks of class are set aside for reassessments as well, and during 
 
 ### Other assignments 
 
-**Class Prep and Application/Analysis assignments do not have the possibility of reattempts.** These are only graded on the basis of completeness and effort, and you're expected to meet those very minimal requirements the first time. If you don't, then you can make up for the lost engagement credits through other means. 
+**There are no reattempts offered for Class Prep and Application/Analysis assignments** since those are only graded on the basis of completeness and effort, and you're expected to meet those very minimal requirements the first time. If you don't, then you can make up for the lost engagement credits through other means. 
 
 **Most other engagement credits items are one-time only** and will not have a means of reattempting. 
 
@@ -347,7 +344,7 @@ I work on campus Monday, Wednesday, and Friday but typically work from home on T
 
 **Making up other assignments:** There are no makeups allowed for other assignments unless you discuss your situation with me first. 
 
-**Contingency plans for remote instruction:** In the event that we need to switch to remote instruction, class meetings will take place on Zoom, and the link will be shared in a course announcement and on the Class Page. If that day happens to be an exam day, we'll reschedule the exam and the focus of the class meeting will be determined at that time. [Click here for the official university policy on remote instruction](https://www.gvsu.edu/provost/guidelines-for-course-delivery-in-the-event-of-253.htm). 
+**Contingency plans for remote instruction:** In the event that we need to switch to remote instruction, class meetings will take place on Zoom, and the link will be shared in a course announcement and on the [Class Page](https://docs.google.com/document/d/1pCxYpwLsHa9ciZv4zrtCH2P3aEM6g6Za2onQsOJCung/edit?tab=t.0). If that day happens to be an exam day, we'll reschedule the exam and the focus of the class meeting will be determined at that time. [Click here for the official university policy on remote instruction](https://www.gvsu.edu/provost/guidelines-for-course-delivery-in-the-event-of-253.htm). 
 
 
 
