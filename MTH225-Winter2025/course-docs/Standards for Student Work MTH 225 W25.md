@@ -57,11 +57,17 @@ Here are some examples of both significant and minor errors in each of the four 
 | Factual       | **Getting the remainder wrong in part (a) but using that remainder as the answer in part (c).** The core concept of part (c) is knowing that `1000 % 13` is the remainder when dividing 1000 by 13. If the answer in (a) is wrong, demonstrating understanding of this concept in (c) is still possible. The answer is wrong, in other words, but it's because of another error "upstream" from it and there is actually no factual error at all here.                                      | Having the quotient and remainder right in part (a) but then **using the quotient (78) as the answer in part (c) instead of the remainder**. (That is, stating `1000 % 13 = 78`.) This is significant because it shows misunderstanding of the definition of `a % b`.                                                                                                                                   |
 | Semantic      | In part (b), **stating: "The GCD of the two numbers is either GCD(1000) or GCD(13), whichever is greater" but then going on to use the Euclidean Algorithm correctly and getting a correct answer**. The statement in quotes is nonsense; but it does not impact the main idea of the solution so it's considered "minor" (since it can just be ignored).                                                                                                                                   | In part (b), **stating that the GCD of the two numbers is both 500 and 1**, with the reasoning that the largest number that divides 1000 is 500 and the largest number that divides 13 is 1. It doesn't make semantic sense for the GCD of two integers to be anything other than a single number. Not only is the answer wrong, it's not clear that the student really understands the concept of GCD. |
 
+Please note, **an error that results in an oversimplified version of the problem is considered "significant"**. For example, if a student mis-copied the problem above to have $y=1$ instead of $y = 13$, then this copy error drastically oversimplifies the problem, to the extent that it's no longer evident from correct work that the concepts and processes have been mastered. On the other hand, mis-copying the problem to have $y=31$ of $y=13$, is an error, but it does not make the rest of the problem any easier, so *Success*-ful work is still possible. 
+
+
 
 ---
 
 
 ## Standards for Class Prep and Application/Analysis homework assignments
+
+Class Prep and Application/Analysis Homework assignments (not to be confused with Application/Analysis exams) are graded solely on the basis of **completeness and effort**. Errors of any type or any level of severity are not taken into account. Instead, to earn a *Success* mark
+
 
 ## Standards for Application/Analysis exams
 
