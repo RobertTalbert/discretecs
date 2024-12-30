@@ -426,7 +426,9 @@ I live in Allendale with my wife and 16-year old son (who wants to be a software
 
 A Google calendar for the class can be found at this link: 
 
-It is also embedded on Blackboard in the *Course Documents* folder. Please note, the calendar found on Blackboard in the "Calendar" tab at the top of the page is not the same as the Google Calendar and does not contain all the date-sensitive items in the course. **Please use this Google Calendar as your official reference**.
+https://calendar.google.com/calendar/embed?src=00101de093246cb4a426b788997bab104cf4fd5a056846f4df83532449b477dc%40group.calendar.google.com&ctz=America%2FDetroitt
+
+It is also embedded on Blackboard in the *Course Documents* folder. Please note, the calendar found on Blackboard in the "Calendar" tab at the top of the page is not the same as the Google Calendar and does not contain all the date-sensitive items in the course. **Please use [this Google Calendar](https://calendar.google.com/calendar/embed?src=00101de093246cb4a426b788997bab104cf4fd5a056846f4df83532449b477dc%40group.calendar.google.com&ctz=America%2FDetroit) as your official reference**.
 
 
 **Important dates:**
