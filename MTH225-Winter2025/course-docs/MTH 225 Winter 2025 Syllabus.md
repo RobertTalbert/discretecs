@@ -1,4 +1,8 @@
-![alt text](225-w25-logo.jpg)
+<!-- ![alt text](225-w25-logo.jpg) -->
+
+<img src="225-w25-logo.jpg" alt="MTH 225 Logo" width="400">
+
+
 Fix the size of this
 
 # MTH 225: Discrete Structures for Computer Science 1, Winter 2025 Syllabus
@@ -13,7 +17,7 @@ Fix the size of this
 
 **This document is meant to be read once, then searched as needed.** If you need to find something, the easiest way is to pull up this  document, hit `Control-F` (Windows) or `Command-F` (Mac), and then do a search for the text you're looking for. 
 
-All course materials for MTH 225, as well as past versions of MTH 225 and MTH 325, are available on GitHub at https://github.com/RobertTalbert/discretecs. Your course is in [the folder `MTH225-Winter2025`](https://github.com/RobertTalbert/discretecs/tree/master/MTH225-Winter2025). Critically important documents (syllabus, etc.) will also be on Blackboard and [the Class Page](https://docs.google.com/document/d/1pCxYpwLsHa9ciZv4zrtCH2P3aEM6g6Za2onQsOJCung/edit?usp=sharing).
+All course materials for MTH 225, as well as past versions of MTH 225 and MTH 325, are available on GitHub at https://github.com/RobertTalbert/discretecs. Your course is in the folder [`MTH225-Winter2025`](https://github.com/RobertTalbert/discretecs/tree/master/MTH225-Winter2025). Critically important documents (syllabus, etc.) will also be on Blackboard and [the Class Page](https://docs.google.com/document/d/1pCxYpwLsHa9ciZv4zrtCH2P3aEM6g6Za2onQsOJCung/edit?usp=sharing).
 
 This course is subject to the GVSU policies listed at http://www.gvsu.edu/coursepolicies/. 
 
@@ -26,7 +30,7 @@ This course is subject to the GVSU policies listed at http://www.gvsu.edu/course
 - **Required text**: None. 
 - **Optional text**: _Discrete Mathematics: An Open Introduction_, 4th edition by Oscar Levin. Available in HTML and PDF format here: https://discrete.openmathbooks.org/dmoi4.html We also use the Course Vault found here: https://publish.obsidian.md/discretecs/ 
 - **Other resources**: The course Blackboard site is at http://lms.gvsu.edu. We also use the Class Page, a Google Doc of notes and links, [found at this link](https://docs.google.com/document/d/1pCxYpwLsHa9ciZv4zrtCH2P3aEM6g6Za2onQsOJCung/edit?usp=sharing). This link is also on the Blackboard site. **We will use the Class Page for most things, and reserve Blackboard for announcements and gradebook only.** 
-- **Technology requirements:** It's highly recommended to have a laptop and access to a high-speed internet connection for work outside of class. You will need a basic handheld scientific or graphing calculator for exams in class. There is no preferred model of device. For in-class technology use, please see the "Using technology during class meetings" section below. 
+- **Technology requirements:** It's highly recommended to have a laptop and access to a high-speed internet connection for work outside of class. You will need a basic handheld scientific or graphing calculator for exams in class. There is no preferred model of device. For in-class technology use, [please see the "Using technology during class meetings" section](https://github.com/RobertTalbert/discretecs/blob/master/MTH225-Winter2025/course-docs/MTH%20225%20Winter%202025%20Syllabus.md#using-technology-during-class-meetings) below. 
 
 ---
 
@@ -36,7 +40,7 @@ This course is subject to the GVSU policies listed at http://www.gvsu.edu/course
 
 **All of computer science, and all of the fields that come out of computer science such as cybersecurity, are based on mathematics**. In this course and in its sequel MTH 325, you'll get a broad and deep introduction to all of the essential foundational math knowledge you need to be a successful computing professional. 
 
-The topics you'll learn are collectively called **discrete mathematics** because they deal with mathematical objects ("structures") that can be separated and counted ("discrete"). These include: 
+This course is called **discrete structures** because it deals with mathematical objects ("structures") that can be separated and counted ("discrete"). These include: 
 
 - *Computer arithmetic*: Integer division; the Euclidean algorithm; the modulus (`%`) operator and modular arithmetic; integer representation and arithmetic in binary, octal, and hexadecimal. 
 - *Logic*: Logical propositions; conditional statements; truth tables; predicates and quantifiers; logical equivalence and valid rules of deduction. 
@@ -84,9 +88,9 @@ You'll get the most out of the class if you attend class meetings every day and 
 - **Preparing for class** (by completing Class Preps) and **attending class meetings**. 
 - **Participating actively and openly** during class meetings. 
 - **Blocking off daily times** for working on the class outside of class meetings.
-- **Mindful practice and work on assignments** during those daily work times. 
-- **Careful understanding of feedback** on your work so that you can incorporate it into later attempts intelligently. 
-- **Consistent submission of attempts** on class work, described later. 
+- **Working and practicing mindfully** during those daily work times. 
+- **Carefully understanding feedback** on your work so that you can incorporate it into later attempts intelligently. 
+- **Consistently submitting attempts** on class work, described later. 
 - **Asking questions about math** in drop-in hours, class meetings, or emails when there's anything you're not sure about.  
 
 Successful MTH 225 students have one thing in common: *They all engage in these behaviors and do these actions consistently, every day throughout the course*. Unsuccessful students typically fail to be consistent in one or more of these. **The common denominator is focus and consistency** -- you do not have to be a "math genius" to do well in MTH 225! You just have to **consistently engage with the feedback loops** that are there for you. 
@@ -102,29 +106,29 @@ Successful MTH 225 students have one thing in common: *They all engage in these 
 
 In MTH 225, your learning will take place in three different, complementary categories: 
 
-- *Mastery of basic building-block skills*, which in the course we call **Learning Targets**. 
-- *Application of basic skills*, which happen through assignments labeled **Application/Analysis**. 
+- *Mastery of basic building-block skills*, which in the course we call **Learning Targets**.
+- *Application of basic skills*, which happen through assignments and exams labeled **Application/Analysis**. 
 - *Engagement in the course*, by earning **engagement credits**. 
 
 Here are the details on each of these. 
 
 ### Learning Targets
 
-The basic, foundational building blocks of the course are summarized in a list of 15 **Learning Targets**. The complete list appears in Appendix A of this syllabus. Six (6) of these are highlighted as **Core Learning Targets** because they are specifically marked by the Association of Computing Machinery (ACM) as essential skills for all computing professionals. 
+The basic, foundational building blocks of the course are summarized in a list of 15 **Learning Targets**. The complete list appears in Appendix A of this syllabus. Six (6) of these are highlighted as **Core Learning Targets** because they are [specifically highlighted by the Association of Computing Machinery (ACM)](http://ccecc.acm.org/pdfs/discrete-structures-course.pdf) as essential skills for all computing professionals. 
 
-Our class is organized around the 15 Learning Targets, and we will be covering one Learning Target per week on average. Class meetings will center on practicing these Learning Targets. Four times during the semester, you will take a **Learning Target Exam** that consists of problems, one problem per Learning Target that is being covered. Each exam is cumulative: The first exam will cover Learning Targets 1--4, the second Learning Targets 1--8, and so on. For how these exams and problems are graded, see "How assignments are graded and recorded" below. 
+Our class is organized around those 15 Learning Targets, and we will be covering one Learning Target per week on average. Class meetings will center on practicing these Learning Targets. Four times during the semester, you will take a **Learning Target Exam** that consists of problems, one problem per Learning Target that is being covered. Each exam is cumulative: The first exam will cover Learning Targets 1--4, the second Learning Targets 1--8, and so on. For how these exams and problems are graded, see "How assignments are graded and recorded" below. 
 
 
 ### Application/Analysis 
 
 To give you practice on applying the Learning Targets to more complicated problems, roughly weekly you will work through an **Application/Analysis assignment**. These are take-home assignments that include multiple choice items on terminology and concepts as well as open-ended problems involving the topics from the past week. *These are graded only on the basis of completeness and effort*, so you receive full credit if you simply respond to all of the items with a good-faith effort at being correct. You'll get a key and a video walkthrough of selections of the assignment items each time. 
 
-Twice during the semester, you'll take an **Application/Analysis Exam**. Both of these two exams will consist of a selection of items *taken directly from the Application/Analysis assignments*. So, if you have done mindful work in doing the assignment questions correctly, or correcting your mistakes, the exam will give you the chance to demonstrate this. Information on how the Application/Analysis Exams are graded is given here, and information on revision and reattempts is given here. 
+Twice during the semester, you'll take an **Application/Analysis Exam**. Both of these will consist of a selection of items *taken directly from the Application/Analysis assignments*. So, if you have done mindful work in doing the assignment questions correctly, or correcting your mistakes, the exam will give you the chance to demonstrate this. Information on how the Application/Analysis Exams are graded is [given here](https://github.com/RobertTalbert/discretecs/blob/master/MTH225-Winter2025/course-docs/MTH%20225%20Winter%202025%20Syllabus.md#how-assignments-are-graded-and-recorded), and information on revision and reattempts is [given here](https://github.com/RobertTalbert/discretecs/blob/master/MTH225-Winter2025/course-docs/MTH%20225%20Winter%202025%20Syllabus.md#revision-and-reattempts-of-applicationanalysis). 
 
 
 ### Engagement credits
 
-As mentioned above, success in the course really depends on consistent engagement both in and outside of class. Opportunities to do so are plentiful, and many will have a point value attached, which we call **engagement credits**. Your course grade will depend partially on how many engagement credits you accumulate. Some engagement credit opportunities are recurring (successful completion of Class Prep and Application/Analysis assignments, attending class meetings, etc.) while some are one-time opportunities that encourage going above and beyond basic engagement (for example, the Startup Assignment given in week 1, or reading an article and writing a summary). All such opportunities to earn engagement credits will be clearly announced; more details on some of these are below. 
+As mentioned above, success in the course depends on consistent engagement both in and outside of class. Opportunities to do so are plentiful, and many will have a point value attached, which we call **engagement credits**. Your course grade will depend partially on how many engagement credits you accumulate. Some engagement credit opportunities are recurring (successful completion of Class Prep and Application/Analysis assignments, attending class meetings, etc.) while some are one-time opportunities that encourage going above and beyond basic engagement (for example, the Startup Assignment given in week 1). All such opportunities to earn engagement credits will be clearly announced; more details on some of these are below. 
 
 ### Final exam
 
@@ -143,16 +147,15 @@ The final exam is planned to have two parts. Part A will consist of a reassessme
 Grading in MTH 225 works differently than it possibly does in your other courses and in high school. In MTH 225: 
 
 - **Almost none of your assignments have point values**. (The exception is engagement credit items.) Therefore there is **no partial credit and no averaging** because there are no points. 
-- Instead, assignments have **standards** which are descriptions of what constitutes "successful" work. These are given in detail in the document Standards for Student Work in MTH 225, described in more detail below. 
-- Rather than grading individual items on assignments (for example individual exam questions), **each assignment** (or, each problem on a Learning Target exam) **is graded as a whole**, and I use the Standards for Student Work document to see if the entire piece of work meets the standard for "success".
-- If the item is "successful" according to the standards, it is marked *Success*. Otherwise it is marked either *Retry* or *Incomplete* depending on the assignment. (A mark of *Excellent* is also possible for exams.)
+- Instead, assignments have **standards** which are descriptions of what constitutes "successful" work. These are given in detail in the document ***Standards for Student Work in MTH 225***, described in more detail below. 
+- Rather than attaching point values to items, I use the *Standards for Student Work* document to see if the work meets the standard for "success". If the item is "successful" according to the standards, it is marked *Success*. Otherwise it is marked either *Retry* or *Incomplete* depending on the assignment. (A mark of *Excellent* is also possible for exams.)
 - After I grade your work, in most cases you will receive **detailed feedback** that will tell you whether your work meets the standards, and if not, the feedback will tell you what was missing and how you might go about fixing it. 
-- On Exams (both Learning Target and Application/Analysis), you will have the chance to **retry** the exam if needed so you can put the feedback you received to work and improve on the second attempt. 
+- On Exams (both Learning Target and Application/Analysis), you will have the chance to **retry** the exam or individual items on the exam if needed so you can put the feedback you received to work and improve on the second attempt. 
 - Your course grade is not based on point totals or averages (because there are no point values). Instead, the course grade is based on **how many learning tasks you've successfully accomplished** by the end of the semester, using a simple table that's given below. 
 
 Therefore grades in MTH 225 are based not on your ability to do good work at a single point in time, but rather on your ability to **eventually learn the material** by acting on feedback from previous attempts. 
 
-This process, using standards and feedback loops rather than points and averages, is how evaluation of work happens in most situations outside of college. In your future jobs, for example, you'll be reviewed regularly by your manager; it's not a "one and done" situation where you get a point score and then the process is over. Instead, in a real job, you get feedback and coaching on how to improve, and then you act on the feedback and show the boss that you have improved. 
+This process, using standards and feedback loops rather than points and averages, is how learning naturally works and how evaluation of work happens in most situations outside of college. In your future jobs, for example, you'll be reviewed regularly by your manager; it's not a "one and done" situation where you get a point score and then the process is over. Instead, in a real job, you get feedback and coaching on how to improve, and then you act on the feedback and show the boss that you have improved. 
 
 The main drawback of this approach to grading is that it's different and might take getting used to. I've done grading this way for over 10 years now, and I find that most students need no more than a week before they are fully comfortable with this. I encourage you to ask questions at any time so I can help you. 
 
