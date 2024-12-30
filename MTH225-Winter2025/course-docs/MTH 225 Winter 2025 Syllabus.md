@@ -1,9 +1,6 @@
 <!-- ![alt text](225-w25-logo.jpg) -->
 
-<img src="225-w25-logo.jpg" alt="MTH 225 Logo" width="400">
-
-
-Fix the size of this
+<img src="225-w25-logo.jpg" alt="MTH 225 Logo" width="200">
 
 # MTH 225: Discrete Structures for Computer Science 1, Winter 2025 Syllabus
 
@@ -165,7 +162,7 @@ The Standards for Student Work in MTH 225 document is a complete one-stop visit 
 
 ### How assignments are graded and recorded 
 
-The _Standards for Student Work_ document describes each mark possible for every assignment and what it takes to earn that mark. Here are some more targeted details: 
+[The _Standards for Student Work_ document](https://github.com/RobertTalbert/discretecs/blob/master/MTH225-Winter2025/course-docs/Standards%20for%20Student%20Work%20MTH%20225%20W25.md) describes each mark possible for every assignment and what it takes to earn that mark. Here are some more targeted details: 
 
 - **Learning Target Exam problems**: Each problem on a Learning Target exam is graded either *Success* or *Retry* based on whether it meets the standards for success. The exam itself does not receive a grade, only the individual problems. Each problem corresponds to exactly one Learning Target. In the Blackboard gradebook, each Learning Target has a separate entry that will be blank (if the Learning Target has never been attempted on an exam) or will say *Success* or *Retry*. 
 - **Application/Analysis exams**: Unlike Learning Target exams, Application/Analysis exams are structured with different sections that contain groups of problems, and you will typically be asked to choose 1-2 items from each group to complete. Then, **the exam is graded as a whole**; individual problems may receive feedback but are not individually graded. The marks possible are *Excellent*, *Success*, and *Retry*; see the Standards for Student Work document for details. Each of the two Application/Analysis exams has a separate Blackboard gradebook entry that will be blank or show one of those three marks. 
