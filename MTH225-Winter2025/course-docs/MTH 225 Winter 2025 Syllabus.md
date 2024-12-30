@@ -292,7 +292,24 @@ Please note **the reassessment opportunities built in to your work make cheating
 
 ### Using artificial intelligence tools 
 
-You are allowed, in fact encouraged, to use generative AI tools to help you learn. Some class activities will be focused on how best to leverage generative AI to study and learn. The use of generative AI tools is *not* allowed if it crosses a line where the substance of your work is no longer your own ideas or your own voice but those of someone else. Paraphrasing or citing others' work is not sufficient and will still be considered academic dishonesty. 
+You are allowed, in fact encouraged, to use generative AI tools to help you learn **as long as it does not replace your ideas and your voice**. Some class activities will be focused on how best to leverage generative AI to study and learn, as well as focus on the limitations of these tools. 
+
+The use of generative AI tools is *not* allowed if it crosses a line where the substance of your work is no longer your own ideas or your own voice but those of someone else. Examples include but are not limited to: 
+
+- Using an AI tool to give you an idea of how to start the solution to a problem. 
+- Using an AI tool to "organize" ideas for a solution to a problem. 
+- Using an AI tool to rephrase an explanation of a concept when that explanation is central to the problem. 
+- Using an AI tool to generate or refactor code that is used in the solution to a problem. 
+
+These are all situations where the solution hinges on *your* voice and ideas, however flawed they may be. Do not use AI in those situations; instead give your best effort, and if it's not sufficient then you will typically get feedback and a chance to redo the work. However, any evidence that AI tools have been used for these purposes in violation of the course policy, knowingly or otherwise, will be investigated as academic dishonesty, even on small assignments. 
+
+Generative AI tools *are* encouraged in situations where your voice or ideas are not being evaluated, such as: 
+
+- Using an AI tool to give an alternative explanation of a concept covered in class. 
+- Using an AI tool to help you generate examples and non-examples of concepts covered in class. 
+- Using an AI tool to generate exercises for use in practicing Learning Target skills. 
+
+In short, AI tools are encouraged as *learning* tools but you would be well-served by avoiding them when doing graded work. 
 
 ### Using technology during class meetings 
 
@@ -301,7 +318,7 @@ We will typically not use technology during class except for occasional activiti
 There are two exceptions to this policy: 
 
 - If you have special accommodations from the Student Accessiblility Resources office (SAR, formerly known as DSR) for the use of technology during class, and you present me with an official SAR memo saying so, I am happy to discuss how you might use technology during class meetings to help you learn. 
-- If you are taking notes using a device that has no web browsing capabilities (for example the [Remarkable tablet](https://remarkable.com/)), you may be allowed to use it once you've discussed this with me. 
+- If you are taking notes using a device that has no web browsing capabilities (for example the [Remarkable tablet](https://remarkable.com/)), you may be allowed to use it -- but discuss it with me first. 
 
 
 ## How to get help in MTH 225
@@ -326,21 +343,26 @@ The [Class Page](https://docs.google.com/document/d/1pCxYpwLsHa9ciZv4zrtCH2P3aEM
 
 ### Instructor availability and communication
 
-Email ([talbertr@gvsu.edu](mailto:talbertr@gvsu.edu)) is the best way to reach me with a message outside of class meetings. Please **do not use Blackboard messaging to contact me** but use regular email instead. Messages sent through Blackboard do not give me a way of replying to the message. 
+Email ([talbertr@gvsu.edu](mailto:talbertr@gvsu.edu)) is the best way to reach me with a message outside of class meetings. Please **do not use Blackboard messaging to contact me** but use regular email instead. Messages sent through Blackboard do not notify me or give me a way of replying to the message; if you send a message through Blackboard it could be several days before I see it. 
 
-I typically check email twice per day, once in the morning and again in the afternoon. **If your message needs a response, it will receive one within 24 hours**, but it may not be immediate. Please note **I do not typically check email outside of normal working hours (8am-5pm) or on weekends.** If you send an email during those times, it might be longer than 24 hours before you get a response. In particular, **emails sent after 5pm Friday and on weekends will not get a response until the following Monday.** 
+When you send an email, please note: 
 
-I work on campus Monday, Wednesday, and Friday but typically work from home on Tuesday and Thursday. 
+- I typically check email **twice per day**, once in the early morning and again in the late afternoon and leave email closed otherwise. 
+- **If your message is sent during normal working hours and needs a response, it will receive one within 24 hours**, but it may not be immediate. If your message does not require a response, I will typically not reply to it; if you want a response, be sure to make this clear. 
+- **I do not typically check email outside of normal working hours (8am-5pm) or on weekends.** If you send an email during those times, it might be longer than 24 hours before you get a response. 
+- In particular, **emails sent after 5pm Friday and on weekends will not get a response until the following Monday.** If you have an assignment due on Monday, please take this into account and ask questions early.
+
+Also please note that I work on campus Monday, Wednesday, and Friday but typically work from home on Tuesday and Thursday. 
 
 
 
 ### Attendance, late work, makeups, and remote instruction
 
-**Attendance:** Regular class attendance has been shown to correlate more strongly with student success in the class than any other variable. You are urged, and expected, to attend every class meeting unless it is physically impossible or inadvisable. Attendance at each class meeting not set aside for am exam, earns 1 engagement credit. 
+**Attendance:** Regular class attendance has been shown to correlate more strongly with student success in the class than any other variable. You are urged, and expected, to attend every class meeting unless it is physically impossible or inadvisable. **Attendance at each class meeting not set aside for am exam, earns 1 engagement credit.**
 
 **Absences from non-exam days:** You do not need an excuse or prior approval to miss a class unless it's an exam. A heads-up is appreciated but not necessary. You will not earn the engagement credit, but those can be made up in other ways. 
 
-**Absences from exams:** If you are absent from an exam, there are two days set aside for makeups: **Friday February 28**, and **Friday April 11**. Makeups on other days are not typically allowed, but I am open to discussing such situations. Please note, these makeup days are not simply for reattempting the exam but for making up missed exams. 
+**Absences from exams:** If you are absent from an exam (either a Learning Target exam or an Application/Analysis exam), there are two days set aside for makeups: **Friday February 28**, and **Friday April 11**. Makeups on other days are not typically allowed, but I am open to discussing such situations. Please note, these makeup days are not simply for reattempting the exam but for making up missed exams. 
 
 **Making up other assignments:** There are no makeups allowed for other assignments unless you discuss your situation with me first. 
 
@@ -356,9 +378,9 @@ If, for purposes of gender identity and expression, your official name (in Banne
 
 I consider classroom and campus safety our shared responsibility. Please familiarize yourself with the classroom emergency placard, which contains important information that could prove useful should an emergency arise. Emergency situations could include a fire alarm, tornado warning, medical emergency, or hostile intruder, and our response might consist of evacuating MAK Hall in an orderly manner, moving as a group to a different location in the building, rendering assistance to a class member, or staying put and locking the classroom door. In all cases, I will provide clear instructions as to what you should do. Please make sure to have your primary mobile number listed in Banner so that you will automatically receive any campus alerts. Should you receive an emergency notification in class, notify me immediately.
 
+--- 
 
->The professor reserves the right to adjust this syllabus as needed and will notify you of any changes through Blackboard announcements. 
-
+**The professor reserves the right to adjust this syllabus as needed and will notify you of any changes through Blackboard announcements.**
 
 ---
 
@@ -374,7 +396,7 @@ Currently I teach a lot of MTH 225 and MTH 325, getting engineers and computer s
 
 I've been a bass guitar player for over 25 years and play live regularly in the area with four different bands. You can learn more about my music activities at [my Bandmix page](https://www.bandmix.com/rtbass/) or [my music Instagram account](https://www.instagram.com/rtgrooves/). 
 
-I live in Allendale with my wife and 16-year old son (who wants to be a software engineer). I have a 19-year daughter who is a freshman at [Wayne State University](https://wayne.edu/) and a 21-year old daughter who lives on her own. I also love the outdoors and get out to run, walk, or hike when I can. You can read more about what I'm thinking and doing at my website, [rtalbert.org](http://rtalbert.org), or [Grading for Growth](https://gradingforgrowth.com/) about alternative grading practices which I co-author with my GVSU colleague Prof. David Clark. I'm also on Twitter at [@RobertTalbert](http://twitter.com/RobertTalbert) and on [LinkedIn](https://www.linkedin.com/in/roberttalbert/). I will accept any connection request on LinkedIn from a student!
+I live in Allendale with my wife and 16-year old son (who wants to be a software engineer). I have a 19-year daughter who is a freshman at [Wayne State University](https://wayne.edu/) and a 21-year old daughter who lives on her own. I love the outdoors and get out to run, walk, or hike when I can. You can read more about what I'm thinking and doing at my website, [rtalbert.org](http://rtalbert.org), or [Grading for Growth](https://gradingforgrowth.com/) about alternative grading practices which I co-author with my GVSU colleague Prof. David Clark. I'm also on Twitter at [@RobertTalbert](http://twitter.com/RobertTalbert) and on [LinkedIn](https://www.linkedin.com/in/roberttalbert/). I will accept any connection request on LinkedIn from a student!
 
 
 
@@ -382,7 +404,7 @@ I live in Allendale with my wife and 16-year old son (who wants to be a software
 
 ## Appendix A: Learning Targets 
 
-1. (**CORE**) Given two integers a and b, I can find the quotient and remainder when dividing a by b, the greatest common divisor of a and b using the Euclidean Algorithm, and the value of a % b.
+1. (**CORE**) Given two integers $a$ and $b$, I can find the quotient and remainder when dividing $a$ by $b$, the greatest common divisor of $a$ and $b$ using the Euclidean Algorithm, and the value of `a % b`.
 2. I can convert a positive integer between bases 2, 8, 10, and 16; and I can represent a negative integer in binary using twos complement.
 3. I can perform arithmetic operations on binary numbers. 
 4. (**CORE**) I can identify the hypothesis and conclusion of a conditional statement and state its converse, contrapositive, and negation.
@@ -420,3 +442,4 @@ It is also embedded on Blackboard in the *Course Documents* folder. Please note,
 - April 21--25: Final exams
 - April 25: Last day of Winter 2025 semester
 - April 29: Grades due (8am) 
+
