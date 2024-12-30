@@ -129,7 +129,7 @@ As mentioned above, success in the course depends on consistent engagement both 
 
 ### Final exam
 
-We will have a final exam in the course, given at these times: 
+We will have a final exam in the course, given at these times (in your usual classroom unless otherwise announced): 
 
 - Section 02: Wednesday, April 23 from 8:00-9:50am
 - Section 03: Monday, April 21 from 10:00-11:50am 
@@ -236,9 +236,11 @@ Learning Target exams are cumulative. The plan for coverage of Learning Targets 
 | :--: | :----: | :-----:| 
 | 1 | January 27 | 1--4 | 
 | 2 | February 17 | 1--8 | 
-| 3 | March 10 | 1--12 | 
-| 4 | March 31 | 1--15 | 
-| (Final exam) | Depends on section | 1--15 | 
+| 3 | March 19 | 1--12 | 
+| 4 | April 4 | 1--15 | 
+| (Final exam) | See above for section times | 1--15 | 
+
+(Note, these dates may change; always [check the official course calendar](https://calendar.google.com/calendar/embed?src=00101de093246cb4a426b788997bab104cf4fd5a056846f4df83532449b477dc%40group.calendar.google.com&ctz=America%2FDetroit) for finalized dates.)
 
 If you attempt a problem for a Learning Target on an exam and don't earn *Success* on it, **you can try it again at the next exam and on the final exam**. This way, you'll have at least two and up to five different attempts possible on each Learning Target. The last two weeks of class are set aside for reassessments as well, and during those times we may have smaller, targeted "mini-exams" on specific Learning Targets, especially the Core Learning Targets and Learning Targets introduced later in the course. 
 
@@ -247,7 +249,7 @@ If you attempt a problem for a Learning Target on an exam and don't earn *Succes
 
 Application/Analysis *assignments* are graded only on completeness and effort, so revision is not necessary or possible. Application/Analysis *exams* on the other hand do have a revision/reattempt procedure. 
 
-Application/Analysis exams are graded as a whole, with marks of *Excellent*, *Success*, or *Retry*. Two days during the semester are set aside for reattempting Application/Analysis exams: **Friday March 14**, and **Wednesday April 9**. If you are happy with your grades on these exams, you are not required to attend the sessions. But if you want to reattempt an Application/Analysis exam --- to raise your grade from *Retry* to *Success* or from *Success* to *Excellent* --- those are the sessions where this happens. You'll have an additional chance to do so at the final exam, if needed. The retakes of these exams will consist of problems that are similar to, but not necessarily identical to, the ones seen on the Application/Analysis assignments. (This is unlike the first attempt of these exams, which will be drawn directly from assigned problems.) 
+Application/Analysis exams are graded as a whole, with marks of *Excellent*, *Success*, or *Retry*. Two days during the semester are set aside for reattempting Application/Analysis exams: **Friday March 14**, and **Wednesday April 16**. If you are happy with your grades on these exams, you are not required to attend the sessions. But if you want to reattempt an Application/Analysis exam --- to raise your grade from *Retry* to *Success* or from *Success* to *Excellent* --- those are the sessions where this happens. You'll have an additional chance to do so at the final exam, if needed. The retakes of these exams will consist of problems that are similar to, but not necessarily identical to, the ones seen on the Application/Analysis assignments. (This is unlike the first attempt of these exams, which will be drawn directly from assigned problems.) 
 
 The last two weeks of class are set aside for reassessments as well, and during those times we may, time and meed permitting, schedule another reattempt session. 
 
