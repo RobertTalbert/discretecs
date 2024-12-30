@@ -1,6 +1,6 @@
 <!-- ![alt text](225-w25-logo.jpg) -->
 
-<img src="225-w25-logo.jpg" alt="MTH 225 Logo" width="300">
+<img src="225-w25-logo.jpg" alt="MTH 225 Logo" width="400">
 
 # MTH 225: Discrete Structures for Computer Science 1, Winter 2025 Syllabus
 
