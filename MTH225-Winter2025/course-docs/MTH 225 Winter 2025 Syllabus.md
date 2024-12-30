@@ -416,7 +416,7 @@ I live in Allendale with my wife and 16-year old son (who wants to be a software
 8. Given a recurrence relation for a sequence or other structure, I can find several instances of the sequence or structure.
 9. (**CORE**) Given a statement to prove by mathematical induction, I can set up the framework for its proof.
 10. Given a set in roster notation, I can rewrite it in set-builder notation and vice versa, and I can determine its elements and subsets.
-11. (**CORE**) I can find the union, intersection, and difference of two sets; the complement of a set; and the cardinality of a finite set.
+11. (**CORE**) I can find the union, intersection, Cartesian product, and difference of two sets; the complement of a set; and the cardinality of a finite set.
 12. I can determine if a mapping between two sets is a function; if it is, I can determine if it is injective, surjective, and/or bijective.
 13. (**CORE**) I can solve simple counting problems that involve a combination of the Additive Rule, Multiplicative Rule, and Principle of Inclusion/Exclusion.
 14. (**CORE**) I can compute a binomial coefficient and solve simple counting problems that involve combinations, permutations, or k-permutations.
