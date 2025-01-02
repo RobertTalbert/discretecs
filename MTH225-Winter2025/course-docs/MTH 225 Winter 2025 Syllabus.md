@@ -221,6 +221,10 @@ If you are close to satisfying the requirements for a grade, but not quite satis
 
 A **Grade tracking checklist** is provided for you on Blackboard (also linked on the [Class Page](https://docs.google.com/document/d/1pCxYpwLsHa9ciZv4zrtCH2P3aEM6g6Za2onQsOJCung/edit?tab=t.0)) to help you stay current with where you stand with your grade. Make sure to keep that checklist up to date each week or more often. You will be asked to show me your updated checklist a few times through the semester for engagement credit, to make sure we are both clear on your progress. 
 
+## The Grade Discrepancy form
+
+**Students are expected to keep records of their own grade results**. These results will be housed in the Blackboard gradebook, but it's not unusual for there to be data entry errors in Blackboard. If you believe there is an error in the entry of a grade into Blackboard (for example you have *Success* marked on a Learning Target problem on an exam, but Blackboard says *Retry*), use the [Grade Discrepancy Form](https://docs.google.com/forms/d/e/1FAIpQLScTnCBZ1B1AC_T0kILKH3b0lfMMgs-BiLeb7F1HNKxECRdcKQ/viewform) to submit a "ticket". These tickets will be checked every Monday morning and you will get a resolution to your issue promptly. 
+
 ---
 
 ## How to retry your assignments 
