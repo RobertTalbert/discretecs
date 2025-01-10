@@ -21,7 +21,7 @@ This course is subject to the GVSU policies listed at http://www.gvsu.edu/course
 ## Essential information
 
 - **Instructor**: Robert Talbert, Ph.D., Professor of Mathematics. Email: [talbertr@gvsu.edu](mailto:talbertr@gvsu.edu). Voice: (616)331-8968. Be sure to read my [availability and communication policy](https://github.com/RobertTalbert/discretecs/blob/master/MTH225-Winter2025/course-docs/MTH%20225%20Winter%202025%20Syllabus.md#instructor-availability-and-communication). 
-- **Office and drop-in hours**: Mackinac Hall C-2-513, drop-in hours TBA
+- **Office and drop-in hours**: Mackinac Hall C-2-513, drop-in hours 11:00-11:50am on Monday, Wednesday, and Friday unless otherwise noted. 
 - **Appointments:** To schedule an appointment, go to https://calendly.com/robert-talbert and select either "20-minute phone call" or "20-minute online meeting" then choose any open time slot. Note, you must schedule these at least 24 hours in advance and no more than two weeks in advance. 
 - **Meetings**: Section 02 -- Mackinac Hall B-1-128, MWF 9:00-9:50. Section 03 -- Mackinac Hall D-1-123, MWF 10:00-10:50. 
 - **Required text**: None. 
