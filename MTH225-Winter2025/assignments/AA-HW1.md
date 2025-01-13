@@ -1,10 +1,23 @@
 # Application/Analysis Homework 1
 
-MTH 225, Winter 2025 
+MTH 225, Winter 2025
+
+See the course calendar for due date
 
 ## Instructions
 
-Welcome to your first Application/Analysis Homework set. 
+Welcome to your first Application/Analysis Homework set. Each Application/Analysis homework set has three parts: 
+
+- *Optional practice exercises*, for you to use in getting practice with the Learning Targets involved in the homework; 
+- *Multiple choice questions*, which ask you to think about underlying concepts; and 
+- *Problems to solve*, where you are asked to apply or extend the basic ideas from class to new situations or questions. 
+
+You are to **work all problems on separate pages**. You can also type them up if you want to, or use a tablet and stylus to make a handwritten electronic submission. If you handwrite your work on paper or a whiteboard, **scan** it to a black-and-white PDF and upload the PDF to the folder on Blackboard labeled **Application/Analysis Homework 1**. You practiced this process in the Startup Activity, and there is a tutorial in the START HERE area about how to do it. 
+
+Application/Analysis Homework sets are graded on the basis of **completion and effort only** and you will earn 4 engagement credits for earning a *Success* mark. The standards for earning that mark are given in the [Standards for Student Work](https://github.com/RobertTalbert/discretecs/blob/master/MTH225-Winter2025/course-docs/Standards%20for%20Student%20Work%20MTH%20225%20W25.md) document. Make sure to review those standards before you turn in your work. 
+
+Application/Analysis Exam 1, scheduled for Friday February 21, will consist of problems taken verbatim from all the Application/Analysis Homework sets up to that point, including this one. So it is to your strong advantage to maximize your understanding of the problems and questions you find below --- you will see these on a test later.  
+
 
 ---
 
