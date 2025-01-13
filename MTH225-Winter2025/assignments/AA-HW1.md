@@ -54,16 +54,16 @@ The following practice exercises are OPTIONAL. If you turn these in, I will look
 The following multiple choice items are REQUIRED, that is NOT OPTIONAL. For each, give the letter for the response you believe is most correct. Explanations are not required; but if you give one and there's an issue with your reasoning, I'll give you feedback. 
 
 **1. Which of the following represents the Division Algorithm?**  
-- A. \( a = bq + r \), where \( 0 \leq r < b \)  
-- B. \( a = bq + r \), where \( 0 \leq r \leq b \)  
-- C. \( a = bq - r \), where \( 0 \leq r < b \)  
-- D. \( a = b + q \times r \)  
+- A. $a = bq + r$, where $0 \leq r < b$  
+- B. $a = bq + r$, where $0 \leq r \leq b$  
+- C. $a = bq - r$, where $0 \leq r < b$  
+- D. $a = b + q \times r$  
 
-**2. If \( a = 27 \), \( b = 5 \), what are the quotient \( q \) and remainder \( r \) based on the Division Algorithm?**  
-- A. \( q = 6, r = 1 \)  
-- B. \( q = 5, r = 2 \)  
-- C. \( q = 5, r = 0 \)  
-- D. \( q = 6, r = 2 \)  
+**2. If $a = 27$, $b = 5$, what are the quotient $q$ and remainder $r$ based on the Division Algorithm?**  
+- A. $q = 6, r = 1$  
+- B. $q = 5, r = 2$  
+- C. $q = 5, r = 0$  
+- D. $q = 6, r = 2$  
 
 **3. What is the primary purpose of the Euclidean Algorithm?**  
 - A. To find the product of two integers  
@@ -71,17 +71,17 @@ The following multiple choice items are REQUIRED, that is NOT OPTIONAL. For each
 - C. To compute the greatest common divisor (GCD)  
 - D. To solve linear equations  
 
-**4. In the Euclidean Algorithm, if \( a = 196 \) and \( b = 28 \), what is the first step?**  
-- A. Compute \( 196 - 28 \)  
-- B. Compute \( 196 \% 28 \)  
-- C. Compute \( 28 \% 196 \)  
+**4. In the Euclidean Algorithm, if $a = 196$ and $b = 28$, what is the first step?**  
+- A. Compute $196 - 28$  
+- B. Compute $196 \% 28$  
+- C. Compute $28 \% 196$  
 - D. Compute the quotient of 196 divided by 28 
 
-**5. What does \( a \% b \) represent?**  
-- A. The division of \( a \) by \( b \)  
-- B. The product of \( a \) and \( b \)  
-- C. The remainder when \( a \) is divided by \( b \)  
-- D. The sum of \( a \) and \( b \)  
+**5. What does $a \% b$ represent?**  
+- A. The division of $a$ by $b$  
+- B. The product of $a$ and $b$  
+- C. The remainder when $a$ is divided by $b$  
+- D. The sum of $a$ and $b$  
 
 **6. When converting the base 10 integer 2025 to octal, what is the first step?**
 - A. Compute $2025 \% 2$
