@@ -8,23 +8,9 @@ Do all your work in the spaces provided. For details on how these are graded, pl
 
 > (**CORE**) Given two integers $a$ and $b$, I can find the quotient and remainder when dividing $a$ by $b$, the greatest common divisor of $a$ and $b$ using the Euclidean Algorithm, and the value of `a % b`.
 
-1. Use long division to find the quotient and remainder obtained when dividing $75309$ by $86$. 
-
-
-
-
-
-
+1. Use long division to find the quotient and remainder obtained when dividing $75309$ by $86$.
 
 2. Use the Euclidean Algorithm to find $\gcd(96, 729)$. 
-
-
-
-
-
-
-
-
 
 3. State the values of each of the following: 
 
@@ -43,25 +29,7 @@ Do all your work in the spaces provided. For details on how these are graded, pl
 >I can convert a positive integer between bases 2, 8, 10, and 16; and I can represent a negative integer in binary using twos complement.
 
 1. Convert the integer `101101` from binary (base 2) to decimal (base 10). 
-
-   
-
-   
-
-   
-
-   
-
-   
-
 2. Convert the integer $771$ from octal (base 8) to decimal (base 10). 
-
-   
-
-   
-
-   
-
 3. Convert the integer 867 from decimal (base 10) to hexadecimal (base 16). 
 
 
@@ -74,7 +42,7 @@ Do all your work in the spaces provided. For details on how these are graded, pl
 
 > I can perform arithmetic operations on binary numbers. 
 
-1. Compute `1011011 + 10101`. 
+1. Compute `1011011 + 10101`.
 2. Compute `10101 - 111`. 
 3. Compute `11001` $\times$ `101`. 
 4. Compute `1100111` $\div$ `101`. 
