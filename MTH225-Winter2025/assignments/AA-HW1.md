@@ -77,7 +77,7 @@ The following multiple choice items are REQUIRED, that is NOT OPTIONAL. For each
 - C. Compute $28 \% 196$  
 - D. Compute the quotient of 196 divided by 28 
 
-**5. What does $a \% b$ represent?**  
+**5. What does `a % b` represent?**  
 - A. The division of $a$ by $b$  
 - B. The product of $a$ and $b$  
 - C. The remainder when $a$ is divided by $b$  
