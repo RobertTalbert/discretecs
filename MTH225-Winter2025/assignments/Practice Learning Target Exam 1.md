@@ -14,11 +14,11 @@ Do all your work in the spaces provided. For details on how these are graded, pl
 
 3. State the values of each of the following: 
 
-- (a) $227 \, \% \, 3$ 
+- (a) $227 \, \\% \, 3$ 
 
-- (b) $190823120 \, \% \, 2$
+- (b) $190823120 \, \\% \, 2$
 
-- (c) $5551 \, \% \, 5$
+- (c) $5551 \, \\% \, 5$
 
 
 
