@@ -22,7 +22,7 @@ Do all your work in the spaces provided. For details on how these are graded, pl
 
 
 
-
+<div style="page-break-after: always;"></div>
 
 ## Learning Target 2
 
@@ -36,7 +36,7 @@ Do all your work in the spaces provided. For details on how these are graded, pl
 
 
 
-
+<div style="page-break-after: always;"></div>
 
 ## Learning Target 3
 
@@ -51,7 +51,7 @@ Do all your work in the spaces provided. For details on how these are graded, pl
 
 
 
-
+<div style="page-break-after: always;"></div>
 
 ## Learning Target 4
 
