@@ -71,6 +71,7 @@ Class Prep and Application/Analysis Homework assignments (not to be confused wit
 Examples of where a response might fail to indicate a "good-faith effort to engage with the item" include but are not limited to: 
 
 - **Skipping or omitting the item**, even if unintentionally. 
+- **Giving just an answer without work or explanations, unless the item specifically says otherwise.** Unless there is a note saying that you do not need to explain your work, or unless the item asks you to "state" something, you need to give a clear, complete, and correct justification of your work through shown steps, verbal explanations, or both. Especially, if the item specifically asks for an explanation, you must give one, and in this case (the item specifically asks for an explanation) it must be a *verbal* explanation. 
 - **Giving responses of "I don't know", "I was confused about this", "I don't understand", etc.** You are not expected to fully understand everything on these assignments. You *are* expected to give an effort to provide a correct, clear, and complete response to the items. If there are errors or flaws in your understanding, that's OK. If you don't understand something and have questions, you are expected to ask those questions prior to submitting your work. 
 - **Otherwise giving responses that indicate only superficial attempts at the item**. For example, giving responses that are just guesswork. 
 
