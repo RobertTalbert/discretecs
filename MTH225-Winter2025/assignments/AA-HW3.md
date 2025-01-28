@@ -89,7 +89,7 @@ Here are a few more common rules for deduction. Use truth tables to show each on
 - (c) **Simplification:** Premise is $p \vee q$; conclusion is $p$. 
 - (d) **Resolution:** Premises are $p \vee q$ and $(\neg p) \vee r$; conclusion is $q \vee r$. 
 
-1. Logic also helps us to catch *invalid* reasoning and call it out by name. Forms of invalid reasoning are called **fallacies**. Use truth tables to show each one is invalid. Then, state an English example for each fallacy.  
+3. Logic also helps us to catch *invalid* reasoning and call it out by name. Forms of invalid reasoning are called **fallacies**. Use truth tables to show each one is invalid. Then, state an English example for each fallacy.  
 
 - (a) **Affirming the conclusion:** Premises are $p \rightarrow q$ and $q$; conclusion is $p$. 
 - (b) **Denying the hypothesis:** Premises are $p \rightarrow q$ and $\neg p$; conclusion is $\neg q$.   
