@@ -24,14 +24,36 @@ his key *does not* show the work that is required for some of the problems on th
 
 **Answers**: 2, 1, 0. 
 
+**Common errors:**
+- Not an error but an inefficient practice: Part 3 does not require 
+
+
 
 ## Learning Target 2
 
 >I can convert a positive integer between bases 2, 8, 10, and 16; and I can represent a negative integer in binary using twos complement.
 
 1. Convert the integer $42B$ from hexadecimal (base 16) to decimal (base 10). 
+
+**Solution**: 
+$$(42B)_{16} = 4 \times 16^2 + 2 \times 16^1 + 11 \times 16^0 = 1067$$
+
+
 2. Convert the integer `11101111` from binary (base 2) to decimal (base 10). 
+
+**Solution:** 
+$$(11101111)_2 = 1 \times 2^7 + 1 \times 2^6 + 1 \times 2^5 + 0 \times 2^4 + 1 \times 2^3 1 \times 2^2 1 \times 2^1 + 1 \times 2^0 = 239$$
+
 3. Convert the integer 445 from decimal (base 10) to binary (base 2). 
+
+**Solution**: Using the base conversion algorithm: 
+
+$$\begin{eqnarray*}
+445 &= 2(222) + 1 \\
+222 &= 2(111) + 0 \\
+111 &= 2(55) + 1 \\ 
+55 &= 2(27) + 1 \\
+\end{eqnarray*}$$
 
 **Answers**: 1067; 239; `110111101`. 
 
