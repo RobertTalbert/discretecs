@@ -9,10 +9,20 @@ his key *does not* show the work that is required for some of the problems on th
 
 1. Use long division to find the quotient and remainder obtained when dividing $78294$ by $22$.
 
-**Answer**: Quotient = 3558, Remainder = 22. 
+**Answer**: Quotient = 3558, Remainder = 22. Note: Work is not shown on this one due to math formatting limitations. For questions about your work, please bring those to drop-in hours, an [appointment](http://calendly.com/robert-talbert), or email. 
+
 
 
 2. Use the Euclidean Algorithm to find $\gcd(250, 8)$. 
+
+**Solution**: 
+$$\begin{eqnarray*}
+250 &= 8(31) + 2 \\
+8 &= 2(4) + 0
+\end{eqnarray*}$$
+
+The remainder is zero, so the algorithm halts and the GCD is the last nonzero remainder: $\gcd(250,8) = 2$. 
+
 
 **Answer**: 2
 
@@ -22,10 +32,8 @@ his key *does not* show the work that is required for some of the problems on th
 - (b) $123098091235 \, \% \, 2$
 - (c) $7890 \, \% \, 3$
 
-**Answers**: 2, 1, 0. 
+**Answers**: 2, 1, 0. (Note, no work needs to be shown here because it asks you to "state" the values.) 
 
-**Common errors:**
-- Not an error but an inefficient practice: Part 3 does not require 
 
 
 
@@ -53,13 +61,19 @@ $$\begin{eqnarray*}
 222 &= 2(111) + 0 \\
 111 &= 2(55) + 1 \\ 
 55 &= 2(27) + 1 \\
+27 &= 2(13) + 1 \\
+13 &= 2(6) + 1 \\
+6 &= 2(3) + 0 \\
+3 &= 2(1) + 1 \\
+1 &= 2(0) + 1
 \end{eqnarray*}$$
 
-**Answers**: 1067; 239; `110111101`. 
+The algorithm halts here since the quotient is $0$ and we read the remainders off in reverse order: `110111101`. 
 
 
 ## Learning Target 3
 
+Note: Work is not shown below due to math formatting limitations. For questions about your work, please bring those to drop-in hours, an [appointment](http://calendly.com/robert-talbert), or email. 
 
 1. Compute `101111 + 101011`.
 2. Compute `10101 - 10011`. 
@@ -83,3 +97,5 @@ Consider the implication: **Classes will be cancelled if the roads are bad.**
 2. If classes are cancelled, the roads are bad. 
 3. If classes are not cancelled, the roads are not bad. 
 4. The roads are bad, but class isn't cancelled. 
+
+Note: There is no "work" to show because it asks you to "state" the answers. For questions about your work, please bring those to drop-in hours, an [appointment](http://calendly.com/robert-talbert), or email. 
