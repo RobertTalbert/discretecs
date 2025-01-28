@@ -29,9 +29,9 @@ The remainder is zero, so the algorithm halts and the GCD is the last nonzero re
 
 3. State the values of each of the following: 
 
-- (a) $1234 \, \% \, 56$ 
-- (b) $123098091235 \, \% \, 2$
-- (c) $7890 \, \% \, 3$
+- (a) $1234  \\% 56$ 
+- (b) $123098091235 \\% 2$
+- (c) $7890 \\% 3$
 
 **Answers**: 2, 1, 0. (Note, no work needs to be shown here because it asks you to "state" the values.) 
 
