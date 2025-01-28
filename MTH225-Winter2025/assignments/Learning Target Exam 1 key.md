@@ -39,7 +39,7 @@ The remainder is zero, so the algorithm halts and the GCD is the last nonzero re
 - Also on this problem, some responses made other mistakes and came up with GCDs of 4, or 7. **A simple reality check can alert you to this error:** Neither 4 nor 7 divides 250, so these cannot possibly be the GCD because by definition, the GCD has to divide both numbers. 
 - On the third item, several responses gave the quotient of the two numbers being divided, or mistook the symbol `%` for the division symbol $\div$ and gave both the quotient and the remainder. Neither is correct, so make sure you know what `%` means. 
 - Also on the third item, some responses gave answers that were not possible, for example $123098091235 \\% 2 = 3$. Again, make sure you know what `%` means and how this affects the size of the answer. 
-- Also on the third item, not a mistake (and therefore does not necessary require reattempts), but some responses did the full long division process to determine the answer, and this is not necessary. For example $123098091235 \\% 2$ can be determined to equal 1 by merely noticing that $123098091235$ is odd --- no long division needed and no calculator activities needed. 
+- Also on the third item, not a mistake (and therefore does not necessarily require reattempts), but some responses did the full long division process to determine the answer, and this is not necessary. For example $123098091235 \\% 2$ can be determined to equal 1 by merely noticing that $123098091235$ is odd --- no long division needed and no calculator activities needed. 
 
 
 ## Learning Target 2
