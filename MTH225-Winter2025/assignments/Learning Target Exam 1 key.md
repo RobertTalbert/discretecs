@@ -16,6 +16,7 @@ his key *does not* show the work that is required for some of the problems on th
 2. Use the Euclidean Algorithm to find $\gcd(250, 8)$. 
 
 **Solution**: 
+
 $$\begin{eqnarray*}
 250 &= 8(31) + 2 \\
 8 &= 2(4) + 0
