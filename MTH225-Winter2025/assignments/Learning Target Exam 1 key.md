@@ -55,7 +55,7 @@ $$(42B)_{16} = 4 \times 16^2 + 2 \times 16^1 + 11 \times 16^0 = 1067$$
 2. Convert the integer `11101111` from binary (base 2) to decimal (base 10). 
 
 **Solution:** 
-$$(11101111)_2 = 1 \times 2^7 + 1 \times 2^6 + 1 \times 2^5 + 0 \times 2^4 + 1 \times 2^3 1 \times 2^2 1 \times 2^1 + 1 \times 2^0 = 239$$
+$$(11101111)_2 = 1 \times 2^7 + 1 \times 2^6 + 1 \times 2^5 + 0 \times 2^4 + 1 \times 2^3 + 1 \times 2^2 + 1 \times 2^1 + 1 \times 2^0 = 239$$
 
 3. Convert the integer 445 from decimal (base 10) to binary (base 2). 
 
