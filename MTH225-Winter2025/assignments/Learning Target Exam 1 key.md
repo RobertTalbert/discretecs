@@ -1,9 +1,6 @@
 # Answer key for Learning Target Exam 1
 
-Please note: This key does not give work or explanations for all of these problems. Some have explanations or notes where it might be helpful for you. Otherwise, especially for calculations, the work is not shown, although this work should appear in complete and 
-
-
-his key *does not* show the work that is required for some of the problems on the exam --- only the answers. Remember that unless the problem says otherwise or if it asks you to "state" something, your answer must be accompanied with work or an explanation that justifies the answer. For questions about that work or explanation, please bring those to drop-in hours, an [appointment](http://calendly.com/robert-talbert), or email. 
+Please review the course announcement from 2025-01-28 for details. Please bring questions to drop-in hours, an [appointment](http://calendly.com/robert-talbert), or email. 
 
 ## Learning Target 1
 
@@ -35,7 +32,14 @@ The remainder is zero, so the algorithm halts and the GCD is the last nonzero re
 
 **Answers**: 2, 1, 0. (Note, no work needs to be shown here because it asks you to "state" the values.) 
 
+### Notes 
 
+- **On the Euclidean Algorithm question, several responses mistakenly shifted the values in the second step to use the *quotient* from the previous step (31) instead of the divisor (8).** So the second step looked like: $31 = 2(15) + 1$ and then there was a third step, $15 = 1(15) + 0$. In this work, the algorithm terminates but the GCD it returns would be the last nonzero remainder which according to this work would be 1, not 2. So the answer was correct but it's inconsistent with the work, which is an incorrect implementation of the algorithm. This results in the Learning Target being marked *Proficient* or *Beginner* and this will need to be reattempted later. 
+- Also on this problem, some responses made the above mistake and stated that the GCD is 1. **A simple reality check can alert you to this error:** Notice that both 250 and 8 are even, so they are both divisible by 2; therefore the GCD can't possibly be 1 because the GCD is by definition the largest integer that divides both. This would have to be at least 2 this time. 
+- Also on this problem, some responses made other mistakes and came up with GCDs of 4, or 7. **A simple reality check can alert you to this error:** Neither 4 nor 7 divides 250, so these cannot possibly be the GCD because by definition, the GCD has to divide both numbers. 
+- On the third item, several responses gave the quotient of the two numbers being divided, or mistook the symbol `%` for the division symbol $\div$ and gave both the quotient and the remainder. Neither is correct, so make sure you know what `%` means. 
+- Also on the third item, some responses gave answers that were not possible, for example $123098091235 \\% 2 = 3$. Again, make sure you know what `%` means and how this affects the size of the answer. 
+- Also on the third item, not a mistake, but some responses did the full long division process to determine the answer, and this is not necessary. For example $123098091235 \\% 2$ can be determined to equal 1 by merely noticing that $123098091235$ is odd --- no long division needed and no calculator activities needed. 
 
 
 ## Learning Target 2
