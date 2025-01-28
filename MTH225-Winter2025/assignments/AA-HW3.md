@@ -25,8 +25,9 @@ The following practice exercises are OPTIONAL. If you turn these in, I will look
 - (c) $(p \rightarrow r) \wedge (q \rightarrow r)$ and $(p \wedge q) \rightarrow r$
 
 1. Use a truth table to show that the following argument is valid: 
-   - Premises: $p \rightarrrow q$ and $q \rightarrow r$
+   - Premises: $p \rightarrow q$ and $q \rightarrow r$
    - Conclusion: $p \rightarrow r$ 
+
 This rule of reasoning is called **hypothetical syllogism** in logic. 
 
 
@@ -81,14 +82,14 @@ The following multiple choice items are REQUIRED, that is NOT OPTIONAL. For each
 | *Modus tollens* | $\neg q$, and $p \rightarrow q$ | $\neg p$ | If it rains, I get wet. I'm not wet. So it's not raining. | 
 | Hypothetical syllogism (see practice exercises) | $p \rightarrow q$ and $q \rightarrow r$ | $p \rightarrow r$ | If it rains, I get wet. If I get wet, I'll need to change clothes. So, if it rains I'll need to change clothes. | 
 
-Here are a few more common rules for deduction. Use truth tables to show each one is valid. 
+Here are a few more common rules for deduction. Use truth tables to show each one is valid. Then, state an English example for each. 
 
 - (a) **Disjunctive syllogism**: Premises are $p \vee q$ and $\neg p$; conclusion is $q$. 
 - (b) **Addition:** Premise is $p$; conclusion is $p \vee q$. 
 - (c) **Simplification:** Premise is $p \vee q$; conclusion is $p$. 
 - (d) **Resolution:** Premises are $p \vee q$ and $(\neg p) \vee r$; conclusion is $q \vee r$. 
 
-3. Logic also helps us to catch *invalid* reasoning and call it out by name. Forms of invalid reasoning are called **fallacies**. Use truth tables to show each one is invalid. Then, come up with an English example for each fallacy.  
+1. Logic also helps us to catch *invalid* reasoning and call it out by name. Forms of invalid reasoning are called **fallacies**. Use truth tables to show each one is invalid. Then, state an English example for each fallacy.  
 
 - (a) **Affirming the conclusion:** Premises are $p \rightarrow q$ and $q$; conclusion is $p$. 
 - (b) **Denying the hypothesis:** Premises are $p \rightarrow q$ and $\neg p$; conclusion is $\neg q$.   
