@@ -86,7 +86,7 @@ Here are a few more common rules for deduction. Use truth tables to show each on
 
 - (a) **Disjunctive syllogism**: Premises are $p \vee q$ and $\neg p$; conclusion is $q$. 
 - (b) **Addition:** Premise is $p$; conclusion is $p \vee q$. 
-- (c) **Simplification:** Premise is $p \vee q$; conclusion is $p$. 
+- (c) **Simplification:** Premise is $p \wedge q$; conclusion is $p$. 
 - (d) **Resolution:** Premises are $p \vee q$ and $(\neg p) \vee r$; conclusion is $q \vee r$. 
 
 3. Logic also helps us to catch *invalid* reasoning and call it out by name. Forms of invalid reasoning are called **fallacies**. Use truth tables to show each one is invalid. Then, state an English example for each fallacy.  
