@@ -76,6 +76,11 @@ $$\begin{eqnarray*}
 The algorithm halts here since the quotient is $0$ and we read the remainders off in reverse order: `110111101`. 
 
 
+### Notes
+
+- Several submissions had correct answers but no work was shown -- for example it just said `110111101` for part 3 but there was no support given. **Remember that unless it says otherwise you are expected to give a clear, complete, correct justification for any answer you give.** [Here is a screenshot from the Standards for Student Work document](https://shottr.cc/s/1x7F/SCR-20250130-czr.png) that says this. Without the work, there is no way to know that you used an appropriate algorithm to get the answer vs. simply using a feature on a calculator. 
+- On part 3, some submissions had a correct answer but it was not obtained using the [base conversion algorithm](https://publish.obsidian.md/discretecs/Computer+Arithmetic/Base+conversion+algorithm). For example, the work used the "hard" approach from the videos of just figuring out how to add up powers of 2 to get the numberk often through finding the largest power of 2 and then subtracting, then finding the next largest power of 2 then subtracting, etc. While this is not  incorrect, the [Standards for Student Work document](https://github.com/RobertTalbert/discretecs/blob/master/MTH225-Winter2025/course-docs/Standards%20for%20Student%20Work%20MTH%20225%20W25.md) states that you are to use the base conversion algorithm as discussed in class for this one. [Here is a screenshot showing this](https://shottr.cc/s/1Mpe/SCR-20250130-d48.png). 
+
 ## Learning Target 3
 
 Note: Work is not shown below due to math formatting limitations. For questions about your work, please bring those to drop-in hours, an [appointment](http://calendly.com/robert-talbert), or email. 
