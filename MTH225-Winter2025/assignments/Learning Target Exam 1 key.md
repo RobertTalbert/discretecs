@@ -92,6 +92,11 @@ Note: Work is not shown below due to math formatting limitations. For questions 
 
 **Answers**: `1011010`; `10`; `10010110`; Quotient = `100010`, Remainder = `1`. 
 
+### Notes
+
+- Some responses **converted the binary numbers to base 10, did the arithmetic there, then converted back to binary. This is not considered sufficient evidence that you have mastered the learning target** because it does not actually address the learning target ("*I can perform arithmetic operations on binary numbers*") at all. We are assuming that everyone has already mastered arithmetic in base 10, this needs no evidence. 
+- A few responses stated the answers but gave no supporting work; or in the case of addition or subtraction did not indicate any carrying or borrowing. **Remember that unless it says otherwise you are expected to give a clear, complete, correct justification for any answer you give.** [Here is a screenshot from the Standards for Student Work document](https://shottr.cc/s/1x7F/SCR-20250130-czr.png) that says this. The Standards Document also states that on the addition and subtraction parts you must show carrying and borrowing ([see this screenshot](https://shottr.cc/s/1CDd/SCR-20250131-h99p.png)). 
+- A few responses for the division part listed only the quotient in the answer. Remember, **a division operation has two answers: A quotient, and a remainder, and both need to be indicated clearly**. 
 
 ## Learning Target 4
 
