@@ -53,9 +53,7 @@ It's a smart idea to double check this with a calculator before proceeding.
 
 Now replace the $19700710$ in $7^{19700710}$ with this sum: 
 
-$$
-7^{19700710} &= 7^{2 + 4 + 32 + 64 + 128 + 256 + 512 + 2048 + 4096 + 32768 + 262144 + 524288 + 2097152 + 16777216}
-$$
+$$7^{19700710} &= 7^{2 + 4 + 32 + 64 + 128 + 256 + 512 + 2048 + 4096 + 32768 + 262144 + 524288 + 2097152 + 16777216}$$
 
 
 Now split up the power into a product of smaller powers using high school algebra exponent rules:  
