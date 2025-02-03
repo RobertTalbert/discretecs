@@ -49,7 +49,7 @@ $$\begin{eqnarray*}
              &+ 32768 + 262144 + 524288 + 2097152 + 16777216 
 \end{eqnarray*}$$
 
-It's a smart idea to double check this with a calculator before proceeding. 
+(It's a smart idea to double check this with a calculator before proceeding.) 
 
 Now replace the $19700710$ in $7^{19700710}$ with this sum: 
 
@@ -59,6 +59,9 @@ $$7^{19700710} = 7^{2 + 4 + 32 + 64 + 128 + 256 + 512 + 2048 + 4096 + 32768 + 26
 Now split up the power into a product of smaller powers using high school algebra exponent rules:  
 
 We now just need to compute each of these powers of $7$ modulo 100, which we can do by repeated squaring: 
+
+$$7^{19700710} = 7^2 7^4 7^{32} 7^{64} 7^{128} 7^{256} 7^{512} 7^{2048} 7^{4096} 
+7^{32768} 7^{262144} 7^{524288} 7^{2097152} 7^{16777216}$$ 
 
 
 Now putting all this back together gives: 
