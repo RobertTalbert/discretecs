@@ -76,6 +76,13 @@ In fact we can stop here, because it's clear that all other powers of 7 where th
 
 Now putting all this back together gives: 
 
+$$\begin{eqnarray*}
+7^{19700710} \\% 100 &= (7^2 7^4 7^{32} 7^{64} \cdots  7^{16777216}) \\% 100 \\
+           &= (49 \cdot 1 \cdot 1 \cdot 1) \\% 100 \\
+           &= 49. 
+\end{eqnarray*}$$
 
-It's not easy to check work on this because the numbers are extremely, extremely large. But WolframAlpha has a "hidden" function called `PowerMod` that will do it: 
+So the last two digits of $7^{19700710}$ are $49$. 
+
+It's not easy to check work on this because the numbers are extremely, extremely large. But WolframAlpha has a "hidden" function called `PowerMod` that will do it. [Here is the calculation](https://www.wolframalpha.com/input?i=PowerMod%287%2C+19700710%2C+100%29). The function `PowerMod` takes three inputs: the base, the exponent, and the modulus and runs this repeated squaring algorithm to make the computation; try it out on your problem to check the answer. 
 
