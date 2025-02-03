@@ -34,9 +34,6 @@ We now want to find the last two digits of $7^{19700710}$. **Getting the last tw
 
 First, work on the exponent by itself to split it into a sum of powers of 2. We use the binary for that. Since $(19700710)_{10}$ in base 2 is `1001011001001101111100110`, it means: 
 
-1001 01100 10011  01111100110
-
-
 $$\begin{eqnarray*}
 19700710 &= 2^1 + 2^2 + 2^5 + 2^6 + 2^7 + 2^8 + 2^9 + 2^{11} + 2^{12} \\
              &+ 2^{15} + 2^{18} + 2^{19} + 2^{21} + 2^{24} 
