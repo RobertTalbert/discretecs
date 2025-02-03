@@ -19,8 +19,8 @@ To check your work on these exercises, please use the technological tools we've 
 | $P$ | $Q$ | $P \rightarrow Q$ | $Q \rightarrow P$ |  $(P \rightarrow Q) \wedge (Q \rightarrow P)$ | 
 | --- | ---- | ---- | ---  | ----- | 
 | T | T | T | T | T |
-| T | F | T | F | F |
-| F | T | F | T | F |
+| T | F | F | T | F |
+| F | T | T | F | F |
 | F | F | T | T | T |
 
 (Aside, this truth table says $P \leftrightarrow Q$ is true whenever $P$ and $Q$ share the same truth value, and is false otherwise.)
