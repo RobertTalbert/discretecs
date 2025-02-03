@@ -58,11 +58,21 @@ $$7^{19700710} = 7^{2 + 4 + 32 + 64 + 128 + 256 + 512 + 2048 + 4096 + 32768 + 26
 
 Now split up the power into a product of smaller powers using high school algebra exponent rules:  
 
-We now just need to compute each of these powers of $7$ modulo 100, which we can do by repeated squaring: 
 
 $$7^{19700710} = 7^2 7^4 7^{32} 7^{64} 7^{128} 7^{256} 7^{512} 7^{2048} 7^{4096} 
 7^{32768} 7^{262144} 7^{524288} 7^{2097152} 7^{16777216}$$ 
 
+We now just need to compute each of these powers of $7$ modulo 100, which we can do by repeated squaring: 
+
+$$\begin{eqnarray*} 
+7^2 \\% 100 &= 49 \\% 100 = 49 \\
+7^4 \\% 100 = (7^2)^2 \\% 100 &= (49)^2 \\% 100 = 2401 \\% 100 = 1 \\
+7^8 \\% 100 = (7^4)^2 \\% 100 &= 1 \\% 100 = 1 \\
+7^{16} \\% 100 = (7^8)^2 \\% 100 &= 1 \\% 100 = 1 \\
+7^{32} \\% 100 = (7^{16})^2 \\% 100 &= 1 \\% 100 = 1 
+\end{eqnarray*}$$
+
+In fact we can stop here, because it's clear that all other powers of 7 where the exponent is a power of 2, are just going to be 1 mod 100. 
 
 Now putting all this back together gives: 
 
