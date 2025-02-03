@@ -78,7 +78,7 @@ Now putting all this back together gives:
 
 $$\begin{eqnarray*}
 7^{19700710} \\% 100 &= (7^2 7^4 7^{32} 7^{64} \cdots  7^{16777216}) \\% 100 \\
-           &= (49 \cdot 1 \cdot 1 \cdot 1) \\% 100 \\
+           &= (49 \cdot 1 \cdot 1 \cdots 1) \\% 100 \\
            &= 49. 
 \end{eqnarray*}$$
 
