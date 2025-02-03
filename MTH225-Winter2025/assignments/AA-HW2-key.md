@@ -38,12 +38,23 @@ First, work on the exponent by itself to split it into a sum of powers of 2. We 
 
 
 $$\begin{eqnarray*}
-7^{19700710} &= 2^1 + 2^2 + 2^5 + 2^6 + 2^7 + 2^8 + 2^9 + 2^{11} + 2^{12} \\
-             &= + 2^{15} + 2^{18} + 2^{19} + 2^{20} + 2^{23} 
+19700710 &= 2^1 + 2^2 + 2^5 + 2^6 + 2^7 + 2^8 + 2^9 + 2^{11} + 2^{12} \\
+             &+ 2^{15} + 2^{18} + 2^{19} + 2^{21} + 2^{24} 
 \end{eqnarray*}$$
 
+Each of the powers of 2 can be computed separately: 
+$$\begin{eqnarray*}
+19700710 &= 2 + 4 + 32 + 64 + 128 + 256 + 512 + 2048 + 4096 \\
+             &+ 32768 + 262144 + 524288 + 2097152 + 16777216 
+\end{eqnarray*}$$
+
+It's a smart idea to double check this with a calculator before proceeding. 
 
 Now replace the $19700710$ in $7^{19700710}$ with this sum: 
+$$
+7^{19700710} &= 7^{2 + 4 + 32 + 64 + 128 + 256 + 512 + 2048 + 4096 + 32768 + 262144 + 524288 + 2097152 + 16777216}
+$$
+
 
 Now split up the power into a product of smaller powers using high school algebra exponent rules:  
 
