@@ -81,5 +81,5 @@ $$\begin{eqnarray*}
 
 So the last two digits of $7^{19700710}$ are $49$. 
 
-It's not easy to check work on this because the numbers are extremely, extremely large. But WolframAlpha has a "hidden" function called `PowerMod` that will do it. [Here is the calculation](https://www.wolframalpha.com/input?i=PowerMod%287%2C+19700710%2C+100%29). The function `PowerMod` takes three inputs: the base, the exponent, and the modulus and runs this repeated squaring algorithm to make the computation; try it out on your problem to check the answer. 
+It's not easy to check work on this because the numbers are extremely, extremely large. (The number $7^{19700710}$ has $16,649,032$ digits.) But WolframAlpha has a "hidden" function called `PowerMod` that will do it. [Here is the calculation](https://www.wolframalpha.com/input?i=PowerMod%287%2C+19700710%2C+100%29). The function `PowerMod` takes three inputs: the base, the exponent, and the modulus and runs this repeated squaring algorithm to make the computation; try it out on your problem to check the answer. 
 
