@@ -64,9 +64,9 @@ We now just need to compute each of these powers of $7$ modulo 100, which we can
 $$\begin{eqnarray*} 
 7^2 \\% 100 &= 49 \\% 100 = 49 \\
 7^4 \\% 100 = (7^2)^2 \\% 100 &= (49)^2 \\% 100 = 2401 \\% 100 = 1 \\
-7^8 \\% 100 = (7^4)^2 \\% 100 &= 1 \\% 100 = 1 \\
-7^{16} \\% 100 = (7^8)^2 \\% 100 &= 1 \\% 100 = 1 \\
-7^{32} \\% 100 = (7^{16})^2 \\% 100 &= 1 \\% 100 = 1 
+7^8 \\% 100 = (7^4)^2 \\% 100 &= 1^2 \\% 100 = 1 \\
+7^{16} \\% 100 = (7^8)^2 \\% 100 &= 1^2 \\% 100 = 1 \\
+7^{32} \\% 100 = (7^{16})^2 \\% 100 &= 1^2 \\% 100 = 1 
 \end{eqnarray*}$$
 
 In fact we can stop here, because it's clear that all other powers of 7 where the exponent is a power of 2, are just going to be 1 mod 100. 
