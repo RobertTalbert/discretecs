@@ -146,7 +146,7 @@ For those unfamiliar with Python or who need a refresher:
 
 - The `%` is the [modulus operator](https://publish.obsidian.md/discretecs/Computer+Arithmetic/Modulus+operator). 
 - The double-slash `//` means integer division or "floor division": It's like regular division except we only keep the quotient, and throw away the remainder. For example, `15//4` equals `3` and `100//7` equals `14`. 
-- The modulus operator `%` and multiplication `*` have the same level of precedence in the order of operations in Python, so evaluate from left to right: Compute the result of `mpower` first, multiply by `b`, then reduce the result of that mod `m`. 
+- The modulus operator `%` and multiplication `*` have the same level of precedence in the order of operations in Python. So in the final line, you would evaluate from left to right: Compute the result of `mpower` first, multiply by `b`, then reduce the result of that mod `m`. 
 - Finally, the `if-elif-else` structure is a chain of if/then statements; [see this page for a tutorial](https://www.datacamp.com/tutorial/python-if-elif-else) if you need it. 
 
 **In this problem:** Generate a random three-digit integer and call it $m$. Then **manually** work through the code above to find $7^n \\% 100$. [This video has been made](https://shottr.cc/s/1GiM/SCR-20250204-o23.png) to explain what I mean by "manually work through the code". Show all your steps and give simple, brief English explanations on each step as if you were teaching this algorithm to a CIS 162 class. 
