@@ -38,8 +38,11 @@ The following multiple choice items are REQUIRED, that is NOT OPTIONAL. For each
 1. Consider the predicate P(x,y): "x is a proper divisor of y". (This means that $x$ divides $y$ evenly, but $x$ is not equal to $y$.) The domain is all positive integers. Which of the following correctly expresses "Every number greater than 1 has at least one proper divisor"?
 
    a) ∀x > 1, ∃y(P(y,x))
+
    b) ∀x∀y(x > 1 → P(y,x))
+   
    c) ∃x > 1, ∀y(P(y,x))
+   
    d) ∀x∃y(x > 1 ∧ P(x,y))
 
 2. Given the recursive function defined as:
@@ -50,15 +53,21 @@ The following multiple choice items are REQUIRED, that is NOT OPTIONAL. For each
    What is the value of f(3)?
 
    a) 4
+
    b) 16
+
    c) 256
+
    d) 65536
 
 3. What is the negation of the statement "For all real numbers x, x > 0"?
 
    a) For all real numbers x, x ≤ 0. 
+
    b) For all real numbers x, x = 0. 
+
    c) There exists a real number x such that x ≤ 0. 
+
    d) There exists a real number x such that x > 0. 
 
 4. Consider the following Python function whose input `lst` is a nonempty list of numbers:
@@ -78,16 +87,22 @@ In the Python syntax, `len` gives the length of a list; `lst[0]` returns the fir
 This function returns: 
 
    a) The minimum element of `lst`
+
    b) The maximum element of `lst`
+
    c) The sum of the elements of `lst`
+
    d) The first element of `lst`
 
 
 5. If P(x): "x is a programmer" and Q(x): "x knows Python", which of the following statements is logically equivalent to ∀x(P(x) → Q(x))?
 
    a) ∀x(¬P(x) ∨ Q(x))
+
    b) ∀x(¬Q(x) → ¬P(x))
+
    c) ∃x(P(x) ∧ ¬Q(x))
+
    d) Both a and b are correct
 
 
@@ -113,7 +128,7 @@ As you can see, the function calls itself in line 4 using numbers that are small
 
 
 
-2. In Application/Analysis Homework 3, you explored the **repeated squaring** algorithm for finding the value of $b^n \\% m$. As you saw, this algorithm avoids finding $b^n$, resulting in huge savings of time and memory. Here is a recursive Python function that implements this algorithm: 
+2. In [Application/Analysis Homework 2](https://github.com/RobertTalbert/discretecs/blob/master/MTH225-Winter2025/assignments/AA-HW2.md), you explored the **repeated squaring** algorithm for finding the value of $(b^n) \\% m$. As you saw, this algorithm avoids finding $b^n$, resulting in huge savings of time and memory. Here is a recursive Python function that implements this algorithm: 
 
 ```python
 def mpower(b,n,m): 
@@ -125,8 +140,13 @@ def mpower(b,n,m):
     return mpower((b * b) % m, n // 2, m) * b % m
 ```
 
-The inputs are the base $b$, the exponent $n$, and the modulus $m$. We assume that all of these are integers. We also assume $b > 0$ and $n \geq 0$ (because a negative base or a negative exponent don't work in this algorithm) and that $m \geq 2$ (because if $m=1$ or $m=0$, reducing mod $m$ wouldn't make sense). For example, in the solution guide for Application/Analysis Homework 3 I did the computation for finding the last two digits of $7^{19700710}$. To find it with this function, you would enter `mpower(7, 19700710, 100)`. 
+The inputs are the base $b$, the exponent $n$, and the modulus $m$. We assume that all of these are integers. We also assume $b > 0$ and $n \geq 0$ (because a negative base or a negative exponent don't work in this algorithm) and that $m \geq 2$ (because if $m=1$ or $m=0$, reducing mod $m$ wouldn't make sense). For example, in the [solution guide for Application/Analysis Homework 2](https://github.com/RobertTalbert/discretecs/blob/master/MTH225-Winter2025/assignments/AA-HW2-key.md), I did the computation for finding the last two digits of $7^{19700710}$. To find it with this function, you would enter `mpower(7, 19700710, 100)`. 
 
-For those unfamiliar with Python or who need a refresher: The `%` is the [modulus operator](https://publish.obsidian.md/discretecs/Computer+Arithmetic/Modulus+operator). And the double-slash `//` means integer division or floor division: It's like regular division except we only keep the quotient, and throw away the remainder. For example, `15//4` equals `3` and `100//7` equals `14`. And, the `if-elif-else` structure is a chain of if/then statements; [see this page for a tutorial](https://www.datacamp.com/tutorial/python-if-elif-else) if you need it.
+For those unfamiliar with Python or who need a refresher: 
+
+- The `%` is the [modulus operator](https://publish.obsidian.md/discretecs/Computer+Arithmetic/Modulus+operator). 
+- The double-slash `//` means integer division or "floor division": It's like regular division except we only keep the quotient, and throw away the remainder. For example, `15//4` equals `3` and `100//7` equals `14`. 
+- The modulus operator `%` and multiplication `*` have the same level of precedence in the order of operations in Python, so evaluate from left to right: Compute the result of `mpower` first, multiply by `b`, then reduce the result of that mod `m`. 
+- Finally, the `if-elif-else` structure is a chain of if/then statements; [see this page for a tutorial](https://www.datacamp.com/tutorial/python-if-elif-else) if you need it. 
 
 **In this problem:** Generate a random three-digit integer and call it $m$. Then **manually** work through the code above to find $7^n \\% 100$. [This video has been made](https://shottr.cc/s/1GiM/SCR-20250204-o23.png) to explain what I mean by "manually work through the code". Show all your steps and give simple, brief English explanations on each step as if you were teaching this algorithm to a CIS 162 class. 
