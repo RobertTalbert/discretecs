@@ -63,10 +63,31 @@ Please note, **an error that results in an oversimplified version of the problem
 
 ## Standards for Class Prep and Application/Analysis homework assignments
 
-Class Prep and Application/Analysis Homework assignments (not to be confused with Application/Analysis exams) are graded solely on the basis of **completeness and effort**. Errors of any type or any level of severity are not taken into account. Instead, a *Success* mark is given if:
+**UPDATED 2025-02-05** 
 
-- *The work is submitted on time*. The dates when assignments are due are shown on the class calendar; the due time is typically 11:59pm Eastern; and 
-- *Every item* (except those specifically marked as "optional") *has a response that indicates a good-faith effort to engage with the item*. 
+### Class Prep assignments 
+
+Class Prep assignments are graded solely on the basis of **completeness and effort**. Mathematical correctness is not taken into account and you are not penalized for mistakes. The marks and their standards are: 
+
+| Mark | Criteria | 
+| ---- | ------ | 
+| *Success* | All items that are not marked "Optional" have a response, and the response form is submitted prior to the deadline. | 
+| *Incomplete* | One or more required items are left unanswered; or the form is submitted late. | 
+
+Class Preps marked *Success* are awarded two engagement credits. *Incomplete* Class Preps receive no credit. 
+
+
+### Application/Analysis Homework 
+
+Application/Analysis Homework assignments (not to be confused with Application/Analysis exams) are also graded solely on the basis of **completeness and effort**. Mathematical correctness is not taken into account and you are not penalized for mistakes. The marks and their standards are: 
+
+| Mark | Criteria | 
+| ----- | -------- | 
+| *Success* | Every item in the "Multiple Choice" and "Problems to Solve" section has a response. Each "problem to solve" has a good-faith effort to provide a clear, correct, and complete solution and not just an answer. | 
+| *Semi-Complete* | The work meets the standards for *Success* (above) except for one issue. This issue can either be a single omitted Multiple Choice item, or it can be one problem solution where there is significant work completed on the solution but also significant work that is not shown or not completed. 
+| *Incomplete* | The work fails to meet the standard for Semi-Complete (for example, more than one Multiple Choice item omitted; or a single solution that is omitted or is just an answer with no work, etc.) | 
+
+Application/Analysis Homework marked *Success* receives four (4) engagement credits. *Semi-Complete* receives two (2); *Incomplete* receives zero (0). 
 
 Examples of where a response might fail to indicate a "good-faith effort to engage with the item" include but are not limited to: 
 
@@ -74,6 +95,13 @@ Examples of where a response might fail to indicate a "good-faith effort to enga
 - **Giving just an answer without work or explanations, unless the item specifically says otherwise.** Unless there is a note saying that you do not need to explain your work, or unless the item asks you to "state" something, you need to give a clear, complete, and correct justification of your work through shown steps, verbal explanations, or both. Especially, if the item specifically asks for an explanation, you must give one, and in this case (the item specifically asks for an explanation) it must be a *verbal* explanation. 
 - **Giving responses of "I don't know", "I was confused about this", "I don't understand", etc.** You are not expected to fully understand everything on these assignments. You *are* expected to give an effort to provide a correct, clear, and complete response to the items. If there are errors or flaws in your understanding, that's OK. If you don't understand something and have questions, you are expected to ask those questions prior to submitting your work. 
 - **Otherwise giving responses that indicate only superficial attempts at the item**. For example, giving responses that are just guesswork. 
+
+Clarifying: The entire assignment receives an *Incomplete* if there is one instance of the above issues but no significant progress in demonstrating mastery of the concepts. 
+
+
+
+
+
 
 And please note, [generating responses to items using generative AI tools will be grounds for investigation of academic dishonesty](https://github.com/RobertTalbert/discretecs/blob/master/MTH225-Winter2025/course-docs/MTH%20225%20Winter%202025%20Syllabus.md#using-artificial-intelligence-tools). 
 
