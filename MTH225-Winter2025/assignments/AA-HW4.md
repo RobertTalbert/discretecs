@@ -123,7 +123,7 @@ def gcd(a,b):
 ```
 As you can see, the function calls itself in line 4 using numbers that are smaller than the original inputs, which is the essence of recursion. Please note, the `%` indicates the [modulus operator](https://publish.obsidian.md/discretecs/Computer+Arithmetic/Modulus+operator) as usual. If you are unfamiliar with Python, please ask a question or use the web for tutorials. 
 
-**In this problem:** Randomly generate two 3-digit positive integers and call them $a$ and $b$ (it doesn't matter which is which). Then **manually work through the code** above to find $\gcd(a,b)$. [This video has been made](https://shottr.cc/s/1GiM/SCR-20250204-o23.png) to explain what I mean by "manually work through the code". Show all your steps and give simple, brief English explanations on each step as if you were teaching this algorithm to a CIS 162 class. 
+**In this problem:** Randomly generate two 3-digit positive integers and call them $a$ and $b$ (it doesn't matter which is which). Then **manually work through the code** above to find $\gcd(a,b)$. [This video has been made](https://gvsu.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=f6a4469c-e418-4468-bb80-b27a01680811) to explain what I mean by "manually work through the code". Show all your steps and give simple, brief English explanations on each step as if you were teaching this algorithm to a CIS 162 class. 
 
 
 
@@ -149,4 +149,4 @@ For those unfamiliar with Python or who need a refresher:
 - The modulus operator `%` and multiplication `*` have the same level of precedence in the order of operations in Python. So in the final line, you would evaluate from left to right: Compute the result of `mpower` first, multiply by `b`, then reduce the result of that mod `m`. 
 - Finally, the `if-elif-else` structure is a chain of if/then statements; [see this page for a tutorial](https://www.datacamp.com/tutorial/python-if-elif-else) if you need it. 
 
-**In this problem:** Generate a random three-digit integer and call it $n$. Then **manually** work through the code above to find $7^n \\% 100$. [This video has been made](https://shottr.cc/s/1GiM/SCR-20250204-o23.png) to explain what I mean by "manually work through the code". Show all your steps and give simple, brief English explanations on each step as if you were teaching this algorithm to a CIS 162 class. 
+**In this problem:** Generate a random three-digit integer and call it $n$. Then **manually** work through the code above to find $7^n \\% 100$. [This video has been made](https://gvsu.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=f6a4469c-e418-4468-bb80-b27a01680811) to explain what I mean by "manually work through the code". Show all your steps and give simple, brief English explanations on each step as if you were teaching this algorithm to a CIS 162 class. 
