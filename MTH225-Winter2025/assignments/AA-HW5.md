@@ -19,6 +19,11 @@ Application/Analysis Exam 1, scheduled for Friday February 21, will consist of p
 
 The following practice exercises are OPTIONAL. If you turn these in, I will look over your work and give you feedback as needed. But they are not graded. 
 
+Set up the framework for a proof by mathematical induction for each of the following propositions. See your class notes for what this involves. 
+
+1. For all positive integers $n$, $11^n - 6$ is a multiple of $5$.
+2. For all positive integers $n$, $1^2 + 2^2 + 3^3 + \cdots + n^2 = \dfrac{n(n+1)(2n+1)}{6}$$. 
+
 
 
  
@@ -72,7 +77,7 @@ All of the multiple choice items refer to the following proposition that we migh
 
 As mentioned in class, your goal in MTH 225 isn't to *write* mathematical proofs but to *read* them for comprehension. These two problems will give you practice with that. They are completed proofs by induction, but there may be flaws in them, and those flaws might be minor or they might be serious. You're to read each and give a thorough critique. Specific instructions follow. 
 
-1. Consider the proposition: **For all positive integers $n$, $11^n - 6$ is a multiple of $5$. Here is a *proposed* proof by induction. (It's not a "real proof" until we verify that it's complete, clear, and correct.)
+1. Consider the proposition: **For all positive integers $n$, $11^n - 6$ is a multiple of $5$.** Here is a *proposed* proof by induction. (It's not a "real proof" until we verify that it's complete, clear, and correct.)
 
 >**Proof:** We prove this with mathematical induction. So assume that for some positive integer $k$, $11^k - 6$ is a mulitple of $5$. We want to show that $11^{k+1} - 6$ is a multiple of $5$. Looking at $11^{k+1} - 6$, we can factor out an $11$ to get $11(11^k - 6)$. But, in the inductive hypothesis we assumed that $11^k-6$ is a multiple of $5$. Since $11^{k+1} - 6 = 11(11^k - 6)$ and the expression in parentheses is a multiple of $5$, it means that $11^{k+1} - 6$ is $11$ times a multiple of $5$, so therefore $11^{k+1} - 6$ is also a multiple of $5$. This is what we wanted to show, so the proposition is proven. 
 
@@ -87,7 +92,12 @@ Possible responses include:
 1. Consider the proposition: *For all positive integers $n$, $1 + 2 + 3 + \cdots + n = n$.* Here is a *proposed* proof by induction. 
 
 >**Proof:** We will prove this with induction. The base case is when $n=1$, and in this case, on the left side of the equation we would just have the number $1$ because nothing else is being added; and on the right side we would have $1$ as well. Those are obviously equal so the base case holds. 
+>
+>Now assume that for some positive integer $k$, $1 + 2 + 3 + \cdots + k = k$. We want to show that $1 + 2 + 3 + \cdots + (k+1) = k+1$. Start from the induction hypothesis, where we have assumed that $1 + 2 + 3 + \cdots + k = k$. Add $k+1$ to both sides to get $1 + 2 + 3 + \cdots + k + (k+1) = k + (k+1)$. By the induction hypothesis, the first $k$ terms of the left side are just equal to $k$, so the left side becomes $k + (k+1)$. This equals the right hand side. Therefore we have proven that the sum holds when $n = k+1$, so the proposition is true. 
 
->Now assume that for some positive integer $k$, $1 + 2 + 3 + \cdots + k = k$. We want to show that $1 + 2 + 3 + \cdots + (k+1) = k+1$. Start from the induction hypothesis, where we have assumed that $1 + 2 + 3 + \cdots + k = k$. Add $k+1$ to both sides to get 
-$$1 + 2 + 3 + \cdots + k + (k+1) = k + (k+1)$$
-By the induction hypothesis, the first $k$ terms of the left side are just equal to $k$, so the left side becomes $k + (k+1)$. This clearly equals the right hand side. Therefore we have proven that the sum holds when $n = k+1$, so the proposition is true. 
+What, if anything, is wrong with this proof? 
+
+Possible responses include: 
+- Nothing is wrong with this proof. 
+- This proof has no major issues with being clear, correct, or complete but it does have one or more minor ones -- then you should list those and explain why they are issues, and why they are minor. 
+- This proof has one or more major issues with being clear, correct, or complete -- then you should list those and explain why they are issues, and why they are major.
