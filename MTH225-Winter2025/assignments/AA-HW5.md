@@ -89,7 +89,7 @@ Possible responses include:
 - This proof has one or more major issues with being clear, correct, or complete -- then you should list those and explain why they are issues, and why they are major.
 
 
-1. Consider the proposition: **For all positive integers $n$, $1 + 2 + 3 + \cdots + n = n$.** Here is a *proposed* proof by induction. 
+2. Consider the proposition: **For all positive integers $n$, $1 + 2 + 3 + \cdots + n = n$.** Here is a *proposed* proof by induction. 
 
 >**Proof:** We will prove this with induction. The base case is when $n=1$, and in this case, on the left side of the equation we would just have the number $1$ because nothing else is being added; and on the right side we would have $1$ as well. Those are obviously equal so the base case holds. 
 >
