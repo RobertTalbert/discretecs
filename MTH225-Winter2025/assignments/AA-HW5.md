@@ -70,3 +70,9 @@ All of the multiple choice items refer to the following proposition that we migh
 
 ## Problems to solve 
 
+As mentioned in class, your goal in MTH 225 isn't to *write* mathematical proofs but to *read* them for comprehension. These two problems will give you practice with that. They are completed proofs by induction, but there may be flaws in them, and those flaws might be minor or they might be serious. You're to read each and give a thorough critique. Specific instructions follow. 
+
+1. Consider the proposition: **For all positive integers $n$, $11^n - 6$ is a multiple of $5$. Here is a *proposed* proof by induction. (It's not a "real proof" until we verify that it's complete, clear, and correct.)
+
+>**Proof:** We prove this with mathematical induction. So assume that for some positive integer $k$, $11^k - 6$ is a mulitple of $5$. We want to show that $11^{k+1} - 6$ is a multiple of $5$. Looking at $11^{k+1} - 6$, we can factor out an $11$ to get $11(11^k - 6)$. But, in the inductive hypothesis we assumed that $11^k-6$ is a multiple of $5$. Since $11^{k+1} - 6 = 11(11^k - 6)$ and the expression in parentheses is a multiple of $5$, it means that $11^{k+1} - 6$ is $11$ times a multiple of $5$, so therefore $11^{k+1} - 6$ is also a multiple of $5$. This is what we wanted to show, so the proposition is proven. 
+
