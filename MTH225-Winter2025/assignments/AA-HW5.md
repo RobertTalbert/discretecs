@@ -22,7 +22,7 @@ The following practice exercises are OPTIONAL. If you turn these in, I will look
 Set up the framework for a proof by mathematical induction for each of the following propositions. See your class notes for what this involves. 
 
 1. For all positive integers $n$, $11^n - 6$ is a multiple of $5$.
-2. For all positive integers $n$, $1^2 + 2^2 + 3^3 + \cdots + n^2 = \dfrac{n(n+1)(2n+1)}{6}$. 
+2. For all positive integers $n$, $1^2 + 2^2 + 3^2 + \cdots + n^2 = \dfrac{n(n+1)(2n+1)}{6}$. 
 
 
 
