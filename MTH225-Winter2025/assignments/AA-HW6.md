@@ -20,7 +20,7 @@ Find the domain and the range (not the codomain) of the following functions:
 
 1. The function that assigns to each nonnegative integer its last digit. 
 2. The function that assigns the next largest integer to a positive integer. 
-3. The function That assigns to a bit string the number of `1` bits in the string
+3. The function that assigns to a bit string the number of `1` bits in the string
 
 For practice involving basic concepts of sets and set operations, you are referred to the WebWorK online homework set. 
 
@@ -40,9 +40,9 @@ The following multiple choice items are REQUIRED, that is NOT OPTIONAL. For each
 2. If $A$ and $B$ are any two sets, then the set $A \ B$ is equal to 
 
     - (a) $B \setminus A$ 
-    - (b) $\overline{B \setminus A}$
+    - (b) $\overbar{B \setminus A}$
     - (c) $A \cap \overline{B}$ 
-    - (d) $\overline{A} \cup B$
+    - (d) $\overbar{A} \cup B$
     - (e) None of these 
 
 3. The cardinality of the power set of $A = \lbrace 1,2,3,\dots 10\rbrace$ is 
