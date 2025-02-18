@@ -29,7 +29,7 @@ For practice involving basic concepts of sets and set operations, you are referr
 
 The following multiple choice items are REQUIRED, that is NOT OPTIONAL. For each, give the letter for the response you believe is most correct. Explanations are not required; but if you give one and there's an issue with your reasoning, I'll give you feedback. 
 
-1. Consider the function $f: \mathbb{N} \rightarrow \mathbb{N}$ that takes a natural number as input and returns the digit that is in the ones place. This function is 
+1. Consider the function $f: \mathbb{N} \rightarrow \mathbb{N}$ that takes a natural number as input and returns the digit that is in the ones place. Here, $\mathbb{N}$ is the set of natural numbers. This function is 
 
     - (a) Neither injective nor surjective 
     - (b) Injective, but not surjective 
