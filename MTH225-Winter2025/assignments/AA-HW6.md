@@ -86,7 +86,7 @@ The following multiple choice items are REQUIRED, that is NOT OPTIONAL. For each
 
 **In this problem**: Use a membership table to prove the following set identities. Just as with truth tables, be sure to show all the intermediate columns. 
 
-- (a) $A \cup (B \cap C)$ = (A \cup B) \cap (A \cup C)$ 
+- (a) $A \cup (B \cap C) = (A \cup B) \cap (A \cup C)$ 
 - (b) $\overline{A \cap B} = \overline{A} \cup \overline{B}$ 
 
 
