@@ -40,9 +40,9 @@ The following multiple choice items are REQUIRED, that is NOT OPTIONAL. For each
 2. If $A$ and $B$ are any two sets, then the set $A \ B$ is equal to 
 
     - (a) $B \setminus A$ 
-    - (b) $\overbar{B \setminus A}$
+    - (b) $\overline{B \setminus A}$
     - (c) $A \cap \overline{B}$ 
-    - (d) $\overbar{A} \cup B$
+    - (d) $\overline{A} \cup B$
     - (e) None of these 
 
 3. The cardinality of the power set of $A = \lbrace 1,2,3,\dots 10\rbrace$ is 
@@ -53,7 +53,7 @@ The following multiple choice items are REQUIRED, that is NOT OPTIONAL. For each
     - (d) $1024$
     - (e) None of these 
 
-4. If $A =\lbrace 1,2,3,\dots 10\rbrace $ and $B = \lbrace 1,2,3 \rbrace$ then the cardinality of $A \times B$ is 
+4. If $A = \lbrace 1,2,3,\dots 10\rbrace$ and $B = \lbrace 1,2,3 \rbrace$ then the cardinality of $A \times B$ is 
 
     - (a) $13$
     - (b) $30$
