@@ -40,7 +40,7 @@ The following multiple choice items are REQUIRED, that is NOT OPTIONAL. For each
 2. If $A$ and $B$ are any two sets, then the set $A \ B$ is equal to 
 
     - (a) $B \setminus A$ 
-    - (b) $\overline{B \setminus A}$
+    - (b) $\overline{B \setminus A}$ (Note: The bar should go over the entire set $B \setminus A$.)
     - (c) $A \cap \overline{B}$ 
     - (d) $\overline{A} \cup B$
     - (e) None of these 
@@ -87,7 +87,11 @@ The following multiple choice items are REQUIRED, that is NOT OPTIONAL. For each
 **In this problem**: Use a membership table to prove the following set identities. Just as with truth tables, be sure to show all the intermediate columns. 
 
 - (a) $A \cup (B \cap C) = (A \cup B) \cap (A \cup C)$ 
-- (b) $\overline{A \cap B} = \overline{A} \cup \overline{B}$ 
+- (b) $\overline{A \cap B} = \overline{A} \cup \overline{B}$ (Note: On the left the bar should go over the entire set $A \cap B$.) 
 
+2. Recall that $\mathbb{N} = \lbrace 0, 1, 2, 3, \dots \rbrace$. (Note, due to formatting limitations this may not look like the "N" we normally use for this set.)
+   - (a) Give an example of a function from $\mathbb{N}$ to $\mathbb{N}$ that is injective, but not surjective. State explicitly how your function works (through a formula, a verbal description, diagram, etc.) and then explain how you know that the function is injective and how you know that it is not surjective. 
+   - (b) Give an example of a function from $\mathbb{N}$ to $\mathbb{N}$ that is surjective, but not injective. State explicitly how your function works (through a formula, a verbal description, diagram, etc.) and then explain how you know that the function is surjective and how you know that it is not injective. 
+   - (c) Give an example of a function from $\mathbb{N}$ to $\mathbb{N}$ that is both injective and surjective, but not just the "identity" function that maps every number to itself. State explicitly how your function works (through a formula, a verbal description, diagram, etc.) and then explain how you know that the function both injective and surjective. 
+   - (c=d) Give an example of a function from $\mathbb{N}$ to $\mathbb{N}$ that is neither injective nor surjective. State explicitly how your function works (through a formula, a verbal description, diagram, etc.) and then explain how you know that the function is not injective and how you know that it is not surjective. 
 
-1. 
