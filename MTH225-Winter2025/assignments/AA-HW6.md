@@ -37,7 +37,7 @@ The following multiple choice items are REQUIRED, that is NOT OPTIONAL. For each
     - (d) Bijective
     - (e) None of these 
 
-2. If $A$ and $B$ are any two sets, then the set $A \ B$ is equal to 
+2. If $A$ and $B$ are any two sets, then the set $A \setminus B$ is equal to 
 
     - (a) $B \setminus A$ 
     - (b) $\overline{B \setminus A}$ (Note: The bar should go over the entire set $B \setminus A$.)
@@ -71,7 +71,7 @@ The following multiple choice items are REQUIRED, that is NOT OPTIONAL. For each
 
 ## Problems to solve 
 
-1. When we claim that two sets are equal, that equality is called a **set identity**. For example, one common set identity says that for any three sets $A, B$ and $C$, we have $A \cap (B \cup C) = (A \cap B) \cup (A \cap C)$. To establish that a set identity is true requires a **proof** and one simple way to prove an identity is through what's called a **membership table**. This is like a truth table, and it's constructed like this: Look at the identity and consider all the individual sets involved in it. Then, make a table with one row for each combination of sets that an element can belong to and verify that that the elements in the same combinations of sets belong in both the set on the left of the identity and the set on the right. To indicate that an element is in a set, use a `1`, and if an element is not in a set, use a `0`. Here is a membership table for the identity $A \cap (B \cup C) = (A \cap B) \cup (A \cap C)$; here is a video showing how it was made and why it proves that $A \cap (B \cup C)$ equals $(A \cap B) \cup (A \cap C)$. 
+1. When we claim that two sets are equal, that equality is called a **set identity**. For example, one common set identity says that for any three sets $A, B$ and $C$, we have $A \cap (B \cup C) = (A \cap B) \cup (A \cap C)$. To establish that a set identity is true requires a **proof** and one simple way to prove an identity is through what's called a **membership table**. This is like a truth table, and it's constructed like this: Look at the identity and consider all the individual sets involved in it. Then, make a table with one row for each combination of sets that an element can belong to and verify that that the elements in the same combinations of sets belong in both the set on the left of the identity and the set on the right. To indicate that an element is in a set, use a `1`, and if an element is not in a set, use a `0`. Here is a membership table for the identity $A \cap (B \cup C) = (A \cap B) \cup (A \cap C)$; [here is a video showing how it was made](https://gvsu.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=64e834e8-f769-4391-be25-b288015bb2a2) and why it proves that $A \cap (B \cup C)$ equals $(A \cap B) \cup (A \cap C)$. 
 
 | $A$ | $B$ | $C$ | $B \cup C$ | $A \cap (B \cup C)$ | $A \cap B$ | $A \cap C$ | $(A \cap B) \cup (A \cap C$) |
 | --- | --- | --- | ---------- | ------------------- | ---------- | ---------- | ---------------------------- |
