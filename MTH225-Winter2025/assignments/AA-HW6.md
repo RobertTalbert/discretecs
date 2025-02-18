@@ -53,7 +53,7 @@ The following multiple choice items are REQUIRED, that is NOT OPTIONAL. For each
     - (d) $1024$
     - (e) None of these 
 
-4. If $A = \lbrace 1,2,3,\dots 10\rbrace$ and $B = \lbrace 1,2,3 \rbrace$ then the cardinality of $A \times B$ is 
+4. If $A = \lbrace 1,2,3,\dots, 10\rbrace$ and $B = \lbrace 1,2,3 \rbrace$ then the cardinality of $A \times B$ is 
 
     - (a) $13$
     - (b) $30$
@@ -61,7 +61,7 @@ The following multiple choice items are REQUIRED, that is NOT OPTIONAL. For each
     - (d) $59049$
     - (e) None of these 
 
-5. If $A$ \cap B = \emptyset$ then we say that $A$ and $B$ are 
+5. If $A \cap B = \emptyset$ then we say that $A$ and $B$ are 
 
     - (a) Empty 
     - (b) Disjoint
@@ -71,29 +71,23 @@ The following multiple choice items are REQUIRED, that is NOT OPTIONAL. For each
 
 ## Problems to solve 
 
-As mentioned in class, your goal in MTH 225 isn't to *write* mathematical proofs but to *read* them for comprehension. These two problems will give you practice with that. They are completed proofs by induction, but there may be flaws in them, and those flaws might be minor or they might be serious. You're to read each and give a thorough critique. Specific instructions follow. 
+1. When we claim that two sets are equal, that equality is called a **set identity**. For example, one common set identity says that for any three sets $A, B$ and $C$, we have $A \cap (B \cup C) = (A \cap B) \cup (A \cap C)$. To establish that a set identity is true requires a **proof** and one simple way to prove an identity is through what's called a **membership table**. This is like a truth table, and it's constructed like this: Look at the identity and consider all the individual sets involved in it. Then, make a table with one row for each combination of sets that an element can belong to and verify that that the elements in the same combinations of sets belong in both the set on the left of the identity and the set on the right. To indicate that an element is in a set, use a `1`, and if an element is not in a set, use a `0`. Here is a membership table for the identity $A \cap (B \cup C) = (A \cap B) \cup (A \cap C)$; here is a video showing how it was made and why it proves that $A \cap (B \cup C)$ equals $(A \cap B) \cup (A \cap C)$. 
 
-1. Consider the proposition: **For all positive integers $n$, $11^n - 6$ is a multiple of $5$.** Here is a *proposed* proof by induction. (It's not a "real proof" until we verify that it's complete, clear, and correct.)
+| $A$ | $B$ | $C$ | $B \cup C$ | $A \cap (B \cup C)$ | $A \cap B$ | $A \cap C$ | $(A \cap B) \cup (A \cap C$) |
+| --- | --- | --- | ---------- | ------------------- | ---------- | ---------- | ---------------------------- |
+| 1   | 1   | 1   | 1          | 1                   | 1          | 1          | 1                            |
+| 1   | 1   | 0   | 1          | 1                   | 1          | 0          | 1                            |
+| 1   | 0   | 1   | 1          | 1                   | 0          | 1          | 1                            |
+| 1   | 0   | 0   | 0          | 0                   | 0          | 0          | 0                            |
+| 0   | 1   | 1   | 1          | 0                   | 0          | 0          | 0                            |
+| 0   | 1   | 0   | 1          | 0                   | 0          | 0          | 0                            |
+| 0   | 0   | 1   | 1          | 0                   | 0          | 0          | 0                            |
+| 0   | 0   | 0   | 0          | 0                   | 0          | 0          | 0                            |
 
->**Proof:** We prove this with mathematical induction. So assume that for some positive integer $k$, $11^k - 6$ is a mulitple of $5$. We want to show that $11^{k+1} - 6$ is a multiple of $5$. Looking at $11^{k+1} - 6$, we can factor out an $11$ to get $11(11^k - 6)$. But, in the inductive hypothesis we assumed that $11^k-6$ is a multiple of $5$. Since $11^{k+1} - 6 = 11(11^k - 6)$ and the expression in parentheses is a multiple of $5$, it means that $11^{k+1} - 6$ is $11$ times a multiple of $5$, so therefore $11^{k+1} - 6$ is also a multiple of $5$. This is what we wanted to show, so the proposition is proven. 
+**In this problem**: Use a membership table to prove the following set identities. Just as with truth tables, be sure to show all the intermediate columns. 
 
-What, if anything, is wrong with this proof? 
-
-Possible responses include: 
-- Nothing is wrong with this proof. 
-- This proof has no major issues with being clear, correct, or complete but it does have one or more minor ones -- then you should list those and explain why they are issues, and why they are minor. 
-- This proof has one or more major issues with being clear, correct, or complete -- then you should list those and explain why they are issues, and why they are major.
+    - (a) $A \cup (B \cap C)$ = (A \cup B) \cap (A \cup C)$ 
+    - (b) $\overline{A \cap B} = \overline{A} \cup \overline{B}$ 
 
 
-2. Consider the proposition: **For all positive integers $n$, $1 + 2 + 3 + \cdots + n = n$.** Here is a *proposed* proof by induction. 
-
->**Proof:** We will prove this with induction. The base case is when $n=1$, and in this case, on the left side of the equation we would just have the number $1$ because nothing else is being added; and on the right side we would have $1$ as well. Those are obviously equal so the base case holds. 
->
->Now assume that for some positive integer $k$, $1 + 2 + 3 + \cdots + k = k$. We want to show that $1 + 2 + 3 + \cdots + (k+1) = k+1$. Start from the induction hypothesis, where we have assumed that $1 + 2 + 3 + \cdots + k = k$. Add $k+1$ to both sides to get $1 + 2 + 3 + \cdots + k + (k+1) = k + (k+1)$. By the induction hypothesis, the first $k$ terms of the left side are just equal to $k$, so the left side becomes $k + (k+1)$. This equals the right hand side. Therefore we have proven that the sum holds when $n = k+1$, so the proposition is true. 
-
-What, if anything, is wrong with this proof? 
-
-Possible responses include: 
-- Nothing is wrong with this proof. 
-- This proof has no major issues with being clear, correct, or complete but it does have one or more minor ones -- then you should list those and explain why they are issues, and why they are minor. 
-- This proof has one or more major issues with being clear, correct, or complete -- then you should list those and explain why they are issues, and why they are major.
+2. 
