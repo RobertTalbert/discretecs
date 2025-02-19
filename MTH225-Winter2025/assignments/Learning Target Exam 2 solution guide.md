@@ -63,16 +63,15 @@ The algorithm stops since the quotient is zero and we read off the remainders in
 
 > I can perform arithmetic operations on binary numbers. 
 
+Note: Work is not shown below due to math formatting limitations. For questions about your work, please bring those to drop-in hours, an [appointment](http://calendly.com/robert-talbert), or email. 
+
 1. Compute `110011 + 101011`.
 2. Compute `110011 - 101011`. 
 3. Compute `11001` $\times$ `101`. 
 4. Compute `1000111` $\div$ `11`. 
 
+**Answers:** `1011110`; `1000`; `1111101`; Quotient: `10111`, Remainder : `10`
 
-
-
-
-<div style="page-break-after: always;"></div>
 
 ## Learning Target 4
 
@@ -84,6 +83,13 @@ Consider the implication: **If my final exam is on Monday, I will set my alarm.*
 2. State the converse. 
 3. State the contrapositive. 
 4. State the negation. 
+
+**Answers**: 
+
+1. Hypothesis: My final exam is on Monday. Conclusion: I will set my alarm. 
+2. If I set my alarm, then my final exam is on Monday. 
+3. If I do not set my alarm, then my final exam is not on Monday. 
+4. My final exam is on Monday, but I did not set my alarm. 
 
 ## Learning Target 5
 
