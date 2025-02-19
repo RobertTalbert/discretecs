@@ -1,0 +1,140 @@
+# Solution guide for Learning Target Exam 2
+
+
+## Learning Target 1
+
+> (**CORE**) Given two integers $a$ and $b$, I can find the quotient and remainder when dividing $a$ by $b$, the greatest common divisor of $a$ and $b$ using the Euclidean Algorithm, and the value of `a % b`.
+
+1. Use long division to find the quotient and remainder obtained when dividing $2893$ by $33$.
+
+**Answer**: Quotient = 87, Remainder = 22. Note: Work is not shown on this one due to math formatting limitations. For questions about your work, please bring those to drop-in hours, an [appointment](http://calendly.com/robert-talbert), or email. 
+
+2. Use the Euclidean Algorithm to find $\gcd(322, 16)$. 
+
+**Solution**: 
+
+$$\begin{eqnarray*}
+322 &= 16(20) + 2 \\
+16 &= 2(4) + 0
+\end{eqnarray*}$$
+
+Therefore $\gcd(322,16) = 2$ since $2$ is the last nonzero remainder. 
+
+3. State the values of each of the following: 
+
+- (a) $9876 \, \% \, 54$ 
+
+- (b) $123098091235 \, \% \, 5$
+
+- (c) $7890 \, \% \, 3$
+
+**Answers**: $48$, $0$, $0$. (Note, no work needs to be shown here because it asks you to "state" the values.) 
+
+
+## Learning Target 2
+
+>I can convert a positive integer between bases 2, 8, 10, and 16; and I can represent a negative integer in binary using twos complement.
+
+1. Convert the integer $3456$ from octal (base 8) to decimal (base 10). 
+
+**Solution**: 
+$$(3456)_{8} = 3 \times 8^3 + 4 \times 8^2 + 5 \times 8^1 + 6 \times 8^0 = 1838$$
+
+2. Convert the integer `10110111` from binary (base 2) to decimal (base 10). 
+
+$$(10110111)_2 = 1 \times 2^7 + 1 \times 2^5 + 1 \times 2^4 + 1 \times 2^2 + 1 \times 2^1 + 1 \times 2^0 = 128 + 32 + 16 + 4 + 2 + 1 = 183$$
+
+
+3. Convert the integer 86457 from decimal (base 10) to hexadecimal (base 16). 
+
+**Solution**: Using the base conversion algorithm: 
+
+$$\begin{eqnarray*}
+86457 &= 16(5403) + 9 \\
+5403 &= 16(337) + 11 \\
+337 &= 16(21) + 1 \\ 
+21 &= 16(1) + 5 \\
+1 &= 16(0) + 1 
+\end{eqnarray*}$$
+
+The algorithm stops since the quotient is zero and we read off the remainders in reverse order (changing to letters where appropriate): `151B9`. 
+
+## Learning Target 3
+
+> I can perform arithmetic operations on binary numbers. 
+
+1. Compute `110011 + 101011`.
+2. Compute `110011 - 101011`. 
+3. Compute `11001` $\times$ `101`. 
+4. Compute `1000111` $\div$ `11`. 
+
+
+
+
+
+<div style="page-break-after: always;"></div>
+
+## Learning Target 4
+
+>(**CORE**) I can identify the hypothesis and conclusion of a conditional statement and state its converse, contrapositive, and negation.
+
+Consider the implication: **If my final exam is on Monday, I will set my alarm.** 
+
+1. State the hypothesis and conclusion of this implication. Make sure to state which is which. 
+2. State the converse. 
+3. State the contrapositive. 
+4. State the negation. 
+
+## Learning Target 5
+
+>I can write the truth table for a statement containing two or three variables.
+
+Write the truth tables for the following statements. Remember to include *all* intermediate columns. 
+
+1. $\neg(P \wedge Q)$
+2. $P \rightarrow (Q \vee (\neg P))$
+3. $P \wedge (Q \vee R)$ 
+
+## Learning Target 6
+
+>Given a predicate, I can state the free variable(s); determine whether quantified forms are true or false; and state its negation.
+
+1. For each quantified predicate below, state whether it is True or whether it is False. The domain of each predicate is the set $\mathbb{N} = \{0,1,2,3,\dots\}$.
+    - (a) $\forall x (x \geq 0)$
+    - (b) $\exists x (x^2 < 4)$
+2. Below are some predicates that have quantifiers. For each, state which variables are free. If there are no free variables, say so. 
+    - (a) $\forall x \exists z P(x,y,z)$ 
+    - (b) $\exists x \exists y P(x,y)$ 
+3. State the negation of the statement: *Some planets in our solar system have rings.* Phrase the result in plain English and do not just put the word "Not" or "It is not the case that" in front of the original statement. 
+
+
+
+## Learning Target 7
+
+>I can determine whether a sequence of statements is a valid rule of deduction and determine if two statements are logically equivalent. 
+
+1. Determine whether these two statements are logically equivalent: $P \rightarrow Q$, and $(\neg P) \vee Q$. Show your work (which should involve a truth table) and clearly state whether the statements are logically equivalent or not. 
+2. Determine whether the following logical argument is valid or invalid: Premises are $p \rightarrow q$ and $\neg p$; conclusion is $\neg q$.   Show your work (which should involve a truth table) and clearly state whether the statements are logically equivalent or not. 
+
+
+## Learning Target 8
+
+>Given a recurrence relation for a sequence or other structure, I can find several instances of the sequence or structure.
+
+1. For each of the recurrence relations below, find the values of $a(1)$ through $a(5)$. Show all your work. 
+    - (a) $a(1) = 3$, and if $n > 1$ then $a(n) = 2a(n-1) + 4$. 
+    - (b) $a(1) = 5, a(2) = 6$, and if $n > 2$ then $a(n) = a(n-1) + a(n-2)$. 
+
+2. Consider the following set of strings defined recursively: The string `A` is in the set. And for any string in the set, the string formed by appending `B` on to the left side of the string is also in the set. State six elements of this set. 
+
+## Learning Target 9
+
+>(**CORE**) Given a statement to prove by mathematical induction, I can set up the framework for its proof.
+
+Consider this statement which we might want to prove using mathematical induction: For all positive integers $n$, the number $11^n - 6$ is a multiple of $5$. 
+
+1. State the predicate involved in this proposition. 
+2. State the value of the variable that corresponds to the base case. 
+3. Prove that the base case holds. 
+4. State the inductive hypothesis. 
+5. State the inductive step (what you would need to prove to complete the argument). Note, you do not need to provide a completed proof here. 
