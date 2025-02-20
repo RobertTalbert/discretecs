@@ -164,3 +164,12 @@ Consider this statement which we might want to prove using mathematical inductio
 3. When $n=1$ we have $11^1 - 6$ which is $11-6$ which equals $5$. This is a multiple of $5$. So the base case holds. 
 4. Assume that for some positive integer $k$, $11^k - 6$ is a multiple of $5$. 
 5. Prove that $11^{k+1} - 6$ is a multiple of $5$. 
+
+### Notes
+
+- Some submissions said the predicate involved was, "For all positive integers $n$, the number $11^n - 6$ is a multiple of $5$." That is, they included the quantifier "for all positive integers $n$". As we discussed in class this is incorrect because including the quantifier turns the predicate into a proposition -- it is no longer a predicate. 
+- Some submissions stated the base case was when $n = 0$. That's incorrect because the proposition says all **positive** integers, and $0$ is not positive. 
+- Some submissions did not include the words "Assume that..." in the inductive hypothesis. This is an error, somewhat minor but easy to avoid. The inductive hypothesis is not just "$11^k - 6$ is a multiple of $5$" -- it is the statement to the reader that we are going to assume that this statement is true. Be sure to tell the reader you are *assuming* something. 
+- Some submissions used the wrong quantifier on the induction hypothesis, saying "Assume that $11^k - 6$ is a multiple of $5$ **for every** positive integer $k$." This is incorrect because if we assume this, we are assuming that the entire proposition we are trying to prove. That's wrong; we are only assuming that the predicate is true in one step, not all of them. 
+
+**Special note:** I am making a change to the grading rubric for this item to categorize all of the above as "minor" errors and on this problem moving forward you are allowed *no more than one* of these errors. 
