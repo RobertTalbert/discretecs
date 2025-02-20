@@ -93,7 +93,7 @@ Consider the implication: **If my final exam is on Monday, I will set my alarm.*
 
 ### Notes
 
-**Many of the same common problems from Exam 1 are also common on Exam 2. THIS IS NOT A GOOD SITUATION. If you missed the same thing two exams in a row, you should get help immediately on this topic.**
+**Many of the same common problems from Exam 1 are also common on Exam 2.  If you missed the same thing two exams in a row, you should get help immediately on this topic.**
 
 - Many submissions stated the negation incorrectly, as some form of conditional statement such as *If my exam is not on Monday, then I will set my alarm*. **The negation of a conditional statement is NOT another conditional statement.** The negation of $P \rightarrow Q$ is $P \wedge (\neg Q)$ --- there should be no "if" or "then". 
 - Many submissions stated the converse as *I will set my alarm if my final exam is on Monday*. But **this is the same sentence as the original, using the same hypothesis and the same conclusion, only written in a different order.** Remember, the physical ordering of the words is irrelevant -- the only thing that matters is which statement is the hypothesis and which is the conclusion. 
@@ -163,4 +163,4 @@ Consider this statement which we might want to prove using mathematical inductio
 2. $n = 1$ (because 1 is the smallest positive integer) 
 3. When $n=1$ we have $11^1 - 6$ which is $11-6$ which equals $5$. This is a multiple of $5$. So the base case holds. 
 4. Assume that for some positive integer $k$, $11^k - 6$ is a multiple of $5$. 
-5. Prove that $1^{k+1} - 6$ is a multiple of $5$. 
+5. Prove that $11^{k+1} - 6$ is a multiple of $5$. 
