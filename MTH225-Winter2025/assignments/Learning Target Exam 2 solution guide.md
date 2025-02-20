@@ -155,3 +155,12 @@ Consider this statement which we might want to prove using mathematical inductio
 3. Prove that the base case holds. 
 4. State the inductive hypothesis. 
 5. State the inductive step (what you would need to prove to complete the argument). Note, you do not need to provide a completed proof here. 
+
+
+**Answers:**
+
+1. The predicate is $P(n):$ The number $11^n - 6$ is a multiple of $5$. 
+2. $n = 1$ (because 1 is the smallest positive integer) 
+3. When $n=1$ we have $11^1 - 6$ which is $11-6$ which equals $5$. This is a multiple of $5$. So the base case holds. 
+4. Assume that for some positive integer $k$, $11^k - 6$ is a multiple of $5$. 
+5. Prove that $1^{k+1} - 6$ is a multiple of $5$. 
