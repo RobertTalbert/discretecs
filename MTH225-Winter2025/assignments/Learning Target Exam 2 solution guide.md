@@ -166,7 +166,7 @@ Write the truth tables for the following statements. Remember to include *all* i
 
 ### Notes
 
-Here are some responses to the negation (third part), none of which are correct: 
+Here are some responses to the negation (third part), **none of which are correct**: 
 
 - "Some planets in our solar system do not have rings"
 - "All planets in our solar system have rings" 
