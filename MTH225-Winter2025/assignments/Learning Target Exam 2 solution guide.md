@@ -205,6 +205,11 @@ In the truth table below, the premises are marked with a checkmark and the concl
 In the third row, the premises are true but the conclusion is not. Therefore **the argument is invalid**. 
 
 
+### Notes
+
+- Several submissions on the first part had a correct truth table but did not "clearly state whether the statements are logically equivalent or not" --- either there was no such statement at all, or there were markings on the truth table that could not be interpreted. This is not a complete solution because it is not enough just to make a truth table (that's a different Learning Target), you also must show that you can draw the correct conclusions about logical equivalence from it. 
+- Several submissions on part (b) did not make the correction  that was written on the board and announced verbally before starting the exam, that the last part of the instructions should be changed to **"clearly state whether the argument is valid or not"**, and wrote "logically equivalent" or "not logically equivalent". As a result it was impossible to tell whether the correct conclusions were being drawn about the argument from the truth tables. In some cases, there was some explanation given that illustrated a correct thought process, for example the statement *"The statements are not logically equivalent because in row 3 the premises are true but the conclusion is false"*. In this case, I read through the explanation to see if the concept was correct even if the wording was wrong. 
+
 ## Learning Target 8
 
 >Given a recurrence relation for a sequence or other structure, I can find several instances of the sequence or structure.
