@@ -72,6 +72,11 @@ Note: Work is not shown below due to math formatting limitations. For questions 
 
 **Answers:** `1011110`; `1000`; `1111101`; Quotient: `10111`, Remainder : `10`
 
+### Notes
+
+- A few submissions converted the binary to base 10, performed the basic arithmetic in base 10, then converted back to binary. This is not allowed; all work has to be done "natively" in base 2. 
+- A few submissions of the division question gave the quotient but omitted the remainder. Both must be given. 
+
 
 ## Learning Target 4
 
@@ -109,8 +114,35 @@ Consider the implication: **If my final exam is on Monday, I will set my alarm.*
 Write the truth tables for the following statements. Remember to include *all* intermediate columns. 
 
 1. $\neg(P \wedge Q)$
+
+| $P$ | $Q$ | $P \wedge Q$ | $\neg(P \wedge Q)$ |
+| --- | --- | ------------ | ------------------ |
+| T   | T   | T            | F                  |
+| T   | F   | F            | T                  |
+| F   | T   | F            | T                  |
+| F   | F   | F            | T                  |
+
 2. $P \rightarrow (Q \vee (\neg P))$
+
+| $P$ | $Q$ | $\neg P$ | $Q \vee (\neg P)$ | $P \rightarrow (Q \vee (\neg P))$ |
+| --- | --- | -------- | ----------------- | --------------------------------- |
+| T   | T   | F        | T                 | T                                 |
+| T   | F   | F        | F                 | F                                 |
+| F   | T   | T        | T                 | T                                 |
+| F   | F   | T        | T                 | T                                 |
+
 3. $P \wedge (Q \vee R)$ 
+
+| $P$ | $Q$ | $R$ | $Q \vee R$ | $P \wedge (Q \vee R)$ |
+| --- | --- | --- | ---------- | --------------------- |
+| T   | T   | T   | T          | T                     |
+| T   | F   | T   | T          | T                     |
+| F   | T   | T   | T          | F                     |
+| F   | F   | T   | T          | F                     |
+| T   | T   | F   | T          | T                     |
+| T   | F   | F   | F          | F                     |
+| F   | T   | F   | T          | F                     |
+| F   | F   | F   | F          | F                     |
 
 ## Learning Target 6
 
