@@ -223,11 +223,11 @@ In the third row, the premises are true but the conclusion is not. Therefore **t
 **Solution:**
 
 $$\begin{eqnarray*}
-a(1) &= 5 \\
-a(2) &= 2a(1) = 2 \cdot 5 = 10 \\
-a(3) &= 2a(2) = 2 \cdot 10 = 20 \\
-a(4) &= 2a(3) = 2 \cdot 20 = 40 \\
-a(5) &= 2a(4) = 2 \cdot 40 = 80
+a(1) &= 3 \\
+a(2) &= 2a(1) +4  = 2 \cdot 3 +4 = 10 \\
+a(3) &= 2a(2) + 4= 2 \cdot 10 + 4= 24 \\
+a(4) &= 2a(3) + 4= 2 \cdot 24 + 4= 52 \\
+a(5) &= 2a(4) + 4= 2 \cdot 52 + 4= 108
 \end{eqnarray*}$$
 
 - (b) $a(1) = 5, a(2) = 6$, and if $n > 2$ then $a(n) = a(n-1) + a(n-2)$. 
