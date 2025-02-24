@@ -144,6 +144,12 @@ Write the truth tables for the following statements. Remember to include *all* i
 | F   | T   | F   | T          | F                     |
 | F   | F   | F   | F          | F                     |
 
+### Notes
+
+- Some submissions for the first truth table put `T` in the row where both $P$ and $Q$ are false. This is not how "and" works. 
+- A few submissions had the wrong number of rows: 8 rows for the second part and 4 rows for the third part. 
+
+
 ## Learning Target 6
 
 >Given a predicate, I can state the free variable(s); determine whether quantified forms are true or false; and state its negation.
