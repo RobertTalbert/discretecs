@@ -191,7 +191,7 @@ These are all incorrect negations for the same reason: **Both they and the origi
 
 The two statements **are logically equivalent**. 
 
-2. Determine whether the following logical argument is valid or invalid: Premises are $p \rightarrow q$ and $\neg p$; conclusion is $\neg q$.   Show your work (which should involve a truth table) and clearly state whether the statements are logically equivalent or not. 
+2. Determine whether the following logical argument is valid or invalid: Premises are $p \rightarrow q$ and $\neg p$; conclusion is $\neg q$.   Show your work (which should involve a truth table) and clearly state whether the ~statements are logically equivalent or not~. 
 
 In the truth table below, the premises are marked with a checkmark and the conclusion is marked with a star: 
 
