@@ -156,13 +156,13 @@ Write the truth tables for the following statements. Remember to include *all* i
 
 1. For each quantified predicate below, state whether it is True or whether it is False. The domain of each predicate is the set $\mathbb{N} = \{0,1,2,3,\dots\}$.
     - (a) $\forall x (x \geq 0)$ **Answer:** True. 
-    - (b) $\exists x (x^2 < 4)$ **Answer:** False. 
+    - (b) $\exists x (x^2 < 4)$ **Answer:** True. 
 2. Below are some predicates that have quantifiers. For each, state which variables are free. If there are no free variables, say so. 
     - (a) $\forall x \exists z P(x,y,z)$ **Answer:** $y$
     - (b) $\exists x \exists y P(x,y)$ **Answer:** None
 3. State the negation of the statement: *Some planets in our solar system have rings.* Phrase the result in plain English and do not just put the word "Not" or "It is not the case that" in front of the original statement. 
 
-**Answer:** No planet in the solar system has rings. (Or: For every planet in the solar system, that planet does not have rings.)
+**Answer:** No planet in the solar system has rings. (Or: For every planet in the solar system, that planet does not have rings. Or: All planets in the solar system don't have rings. Or: There are no planets in the solar system that have rings. Other phrasings are also possible.)
 
 
 
