@@ -207,6 +207,7 @@ In the third row, the premises are true but the conclusion is not. Therefore **t
 
 ### Notes
 
+- Some submissions on the first part concluded that the statements were not logically equivalent, but it was because there was a mistake or two in making the truth table that led to the outcome for one of the statements being different than for the other statement. The [Standards for Student Work](https://github.com/RobertTalbert/discretecs/blob/master/MTH225-Winter2025/course-docs/Standards%20for%20Student%20Work%20MTH%20225%20W25.md) document says that for this problem, you are allowed 2-3 mistakes in the truth table and as long as your conclusion about logical equivalence is consistent with the mistakes in the truth table, it's counted "right". 
 - Several submissions on the first part had a correct truth table but did not "clearly state whether the statements are logically equivalent or not" --- either there was no such statement at all, or there were markings on the truth table that could not be interpreted. This is not a complete solution because it is not enough just to make a truth table (that's a different Learning Target), you also must show that you can draw the correct conclusions about logical equivalence from it. 
 - Several submissions on the second part did not make the correction  that was written on the board and announced verbally before starting the exam, that the last part of the instructions should be changed to **"clearly state whether the argument is valid or not"**, and wrote "logically equivalent" or "not logically equivalent". As a result it was impossible to tell whether the correct conclusions were being drawn about the argument from the truth tables. 
   - In some cases, there was some explanation given that illustrated a correct thought process, for example the statement *"The statements are not logically equivalent because in row 3 the premises are true but the conclusion is false"*. In this case, I read through the explanation to see if the concept was correct even if the wording was wrong. 
@@ -218,9 +219,30 @@ In the third row, the premises are true but the conclusion is not. Therefore **t
 
 1. For each of the recurrence relations below, find the values of $a(1)$ through $a(5)$. Show all your work. 
     - (a) $a(1) = 3$, and if $n > 1$ then $a(n) = 2a(n-1) + 4$. 
+
+**Solution:**
+
+$$\begin{eqnarray*}
+a(1) &= 5 \\
+a(2) &= 2a(1) = 2 \cdot 5 = 10 \\
+a(3) &= 2a(2) = 2 \cdot 10 = 20 \\
+a(4) &= 2a(3) = 2 \cdot 20 = 40 \\
+a(5) &= 2a(4) = 2 \cdot 40 = 80
+\end{eqnarray*}$$
+
     - (b) $a(1) = 5, a(2) = 6$, and if $n > 2$ then $a(n) = a(n-1) + a(n-2)$. 
 
+$$\begin{eqnarray*}
+a(1) &= 5 \\
+a(2) &= 6 \\
+a(3) &= a(2) + a(1) = 6 + 5 = 11 \\
+a(4) &= a(3) + a(2) = 11 + 6 = 17 \\
+a(5) &= a(4) + a(3) = 17 + 11 = 28 
+\end{eqnarray*}$$
+
 2. Consider the following set of strings defined recursively: The string `A` is in the set. And for any string in the set, the string formed by appending `B` on to the left side of the string is also in the set. State six elements of this set. 
+
+**Answer:** We know `A` is in the set because this is directly stated. Therefore `BA` is also in the set; so is `BBA`, `BBBA`, `BBBBA`, and so on. 
 
 ## Learning Target 9
 
