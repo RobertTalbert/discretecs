@@ -181,7 +181,28 @@ These are all incorrect negations for the same reason: **Both they and the origi
 >I can determine whether a sequence of statements is a valid rule of deduction and determine if two statements are logically equivalent. 
 
 1. Determine whether these two statements are logically equivalent: $P \rightarrow Q$, and $(\neg P) \vee Q$. Show your work (which should involve a truth table) and clearly state whether the statements are logically equivalent or not. 
+
+| $P$ | $Q$ | $\neg P$ | $P \rightarrow Q$ | $(\neg P) \vee Q$ |
+| --- | --- | -------- | ----------------- | ----------------- |
+| T   | T   | F        | T                 | T                 |
+| T   | F   | F        | F                 | F                 |
+| F   | T   | T        | T                 | T                 |
+| F   | F   | T        | T                 | T                 |
+
+The two statements **are logically equivalent**. 
+
 2. Determine whether the following logical argument is valid or invalid: Premises are $p \rightarrow q$ and $\neg p$; conclusion is $\neg q$.   Show your work (which should involve a truth table) and clearly state whether the statements are logically equivalent or not. 
+
+In the truth table below, the premises are marked with a checkmark and the conclusion is marked with a star: 
+
+| $p$ | $q$ | $p \rightarrow q$ ✓ | $\neg p$ ✓ | $\neg q$ ☆ |              |
+| --- | --- | ------------------- | ---------- | ---------- | ------------ |
+| T   | T   | T                   | F          | F          |              |
+| T   | F   | F                   | F          | T          |              |
+| F   | T   | T                   | T          | F          | $\Leftarrow$ |
+| F   | F   | T                   | T          | T          |              |
+
+In the third row, the premises are true but the conclusion is not. Therefore **the argument is invalid**. 
 
 
 ## Learning Target 8
