@@ -246,7 +246,7 @@ a(5) &= a(4) + a(3) = 17 + 11 = 28
 
 ### Notes
 
-- Several submissions misunderstood the notation $a(n)$, $a(n-1)$, and so on. **This does not mean multiplying $a$ times $n$, or $a$ times $n-1$ -- it's not multiplication, it's function notation like you used in high school algebra and in Python.** Make sure you are clear on this** because it's standard usage and we will continue to use it. 
+- Several submissions misunderstood the notation $a(n)$, $a(n-1)$, and so on. **This does not mean multiplying $a$ times $n$, or $a$ times $n-1$ -- it's not multiplication, it's function notation like you used in high school algebra and in Python.** Make sure you are clear on this because it's standard usage and we will continue to use it. 
 
 
 ## Learning Target 9
