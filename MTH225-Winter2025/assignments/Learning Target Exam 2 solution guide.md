@@ -164,7 +164,10 @@ Write the truth tables for the following statements. Remember to include *all* i
 
 **Answer:** No planet in the solar system has rings. (Or: For every planet in the solar system, that planet does not have rings. Or: All planets in the solar system don't have rings. Or: There are no planets in the solar system that have rings. Other phrasings are also possible.)
 
+### Notes
 
+- Some submissions used the word "most" instead of "all" in the negation (third part). This is incorrect because both the original statement "Some planets in our solar system have rings" and this statement "Most planets in our solar system do not have rings" are both true at the same time. This fact means that the statements are not negations (logical opposites) of each other. 
+- Some submissions said the negation (third part) was "All planets in our solar system have rings". This is incorrect because, again, both this statement and the original can be true at the same time. If all planets had rings, then some of them do ("there exists" one that does). 
 
 ## Learning Target 7
 
