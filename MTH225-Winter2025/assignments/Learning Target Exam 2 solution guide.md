@@ -244,6 +244,11 @@ a(5) &= a(4) + a(3) = 17 + 11 = 28
 
 **Answer:** We know `A` is in the set because this is directly stated. Therefore `BA` is also in the set; so is `BBA`, `BBBA`, `BBBBA`, and so on. 
 
+### Notes
+
+- Several submissions misunderstood the notation $a(n)$, $a(n-1)$, and so on. **This does not mean multiplying $a$ times $n$, or $a$ times $n-1$ -- it's not multiplication, it's function notation like you used in high school algebra and in Python.** Make sure you are clear on this** because it's standard usage and we will continue to use it. 
+
+
 ## Learning Target 9
 
 >(**CORE**) Given a statement to prove by mathematical induction, I can set up the framework for its proof.
