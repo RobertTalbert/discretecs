@@ -230,7 +230,7 @@ a(4) &= 2a(3) = 2 \cdot 20 = 40 \\
 a(5) &= 2a(4) = 2 \cdot 40 = 80
 \end{eqnarray*}$$
 
-    - (b) $a(1) = 5, a(2) = 6$, and if $n > 2$ then $a(n) = a(n-1) + a(n-2)$. 
+- (b) $a(1) = 5, a(2) = 6$, and if $n > 2$ then $a(n) = a(n-1) + a(n-2)$. 
 
 $$\begin{eqnarray*}
 a(1) &= 5 \\
