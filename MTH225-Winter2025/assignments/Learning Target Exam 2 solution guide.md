@@ -166,8 +166,15 @@ Write the truth tables for the following statements. Remember to include *all* i
 
 ### Notes
 
-- Some submissions used the word "most" instead of "all" in the negation (third part). This is incorrect because both the original statement "Some planets in our solar system have rings" and this statement "Most planets in our solar system do not have rings" are both true at the same time. This fact means that the statements are not negations (logical opposites) of each other. 
-- Some submissions said the negation (third part) was "All planets in our solar system have rings". This is incorrect because, again, both this statement and the original can be true at the same time. If all planets had rings, then some of them do ("there exists" one that does). 
+Here are some responses to the negation (third part), none of which are correct: 
+
+- "Some planets in our solar system do not have rings"
+- "All planets in our solar system have rings" 
+- "Most planets in our solar system do not have rings"
+- "Some planets outside our solar system have rings" 
+
+These are all incorrect negations for the same reason: **Both they and the original statement are true at the same time.** For example it is true that some planets in our solar system have rings, and it is also true that most of them do not. **The fact that these statements are all true at the same time means that they are not negations of each other**. A statement and its negation must have exactly the opposite truth value in every situation. 
+
 
 ## Learning Target 7
 
