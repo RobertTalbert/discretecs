@@ -134,7 +134,7 @@ We will have a final exam in the course, given at these times (in your usual cla
 - Section 02: Wednesday, April 23 from 8:00-9:50am
 - Section 03: Monday, April 21 from 10:00-11:50am 
 
-The final exam is planned to have two parts. Part A will consist of a reassessment on all six of the Core Learning Targets and is required for everyone. Part B will consist of new versions of all Learning Target problems and both Application/Analysis exams, and is optional, intended only for those who need a last reattempt. (More on reattempts later.)
+The final exam is simply one last reattempt of all 15 Learning Targets. New versions of both Application/Analysis exams will also be available for those who need an additional reattempt on one or both of those. 
 
 
 ## How your work will be graded 
@@ -202,12 +202,12 @@ Additionally, **each student must earn a Success mark on all six Core Learning T
 
 ### Determining plus/minus modifiers 
 
-**To earn a "plus" on your base grade:** Satisfy all the requirements for a grade in the table above but go one level higher on either Learning Targets or Application/Analysis exams. 
+**To earn a "plus" on your base grade:** Do *one* of the following: 
 
-**To earn a "minus" on your base grade:** Do *one* of the following. 
+- Satisfy all the requirements for a grade in the table above but go one level higher on either Learning Targets or Application/Analysis exams; *or*
+- Earn *Master* on all of the Core Learning Targets twice: Once through Learning Target Exams during the regular semester, and a second time at the final exam. 
 
-- Satisfy all the requirements for a base grade except engagement credits; *or*, 
-- Fail to earn a *Success* mark on one or more of the Core Learning Targets on the final exam. 
+**To earn a "minus" on your base grade:** Satisfy all the requirements for a base grade except engagement credits.  
 
 Earning both a plus and a minus by doing combinations of the above, results in no modification of the base grade (they "cancel out"). Doing *both* requirements for the "minus" does not result in any additional modification (i.e. it does not result in a one-letter grade penalty, just a minus).  
 
