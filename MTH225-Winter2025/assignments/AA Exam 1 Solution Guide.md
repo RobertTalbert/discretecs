@@ -54,3 +54,7 @@ $$\begin{eqnarray*}
 Side note: Double checking with a computer shows that this is right, because here is $7^{69}$: 
 
 $$20500514515695490612229010908095867391439626248463723805607$$
+
+## Problem Group 2 (Algorithms and proofs)
+
+## Problem Group 3 (Logic)
