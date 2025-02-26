@@ -19,7 +19,7 @@
 
 **Solution:** Run the base conversion algorithm, dividing by 60 each time and recording the remainders: 
 
-$\begin{eqnarray*}
+$$\begin{eqnarray*}
 20259 &= 60(337) + 39 \\
 337 &= 60(5) + 37 \\
 5 &= 60(0) + 5
@@ -32,6 +32,7 @@ Here the algorithm stops because the quotient is $0$. Since this is base 60, the
 **Solution:** The binary for $69$ is `1000101` as stated. This means that 
 $$69 = 1 + 4 + 64$$
 So $7^{69} = 7^{1 + 4 + 64} = 7^1 \cdot 7^4 \cdot 7^{64}$. Now go through repeated squaring mod 100 to get these powers of $7$:
+
 $$\begin{eqnarray*}
 7^1 \\% 100 &= 7 \\
 7^2 \\% 100 &= \left( 7^1 \right)^2 \\% 100 = 49 \\% 100 = 49 \\
