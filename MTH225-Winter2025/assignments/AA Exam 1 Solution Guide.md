@@ -45,8 +45,12 @@ From here we can see that $7^{16}, 7^{32}$, and $7^{64}$ will all be 1 mod 100 b
 Therefore: 
 
 $$\begin{eqnarray*}
-7^{69} \\% 100 = \left(7^1 \cdot 7^4 \cdot 7^{64}\right) \\% 100 \\
-    &= (7 \cdot 1 \cdot 1) \\& 100 \\
+7^{69} \\% 100 &= \left(7^1 \cdot 7^4 \cdot 7^{64}\right) \\% 100 \\
+    &= (7 \cdot 1 \cdot 1) \\% 100 \\
     &= (7) \\% 100 \\
     &= 7
 \end{eqnarray*}$$
+
+Side note: Double checking with a computer shows that this is right, because here is $7^{69}$: 
+
+$$20500514515695490612229010908095867391439626248463723805607$$
