@@ -57,4 +57,40 @@ $$20500514515695490612229010908095867391439626248463723805607$$
 
 ## Problem Group 2 (Algorithms and proofs)
 
+1. Manually work through the following recursive algorithm to find $\gcd(456, 789)$: 
+
+```python
+def gcd(a,b):
+   if a == 0: return b
+   else: 
+      return gcd(b % a, a)
+```
+
+There are lots of ways to display the information when tracing through the code. Here is one way, using a table: 
+
+| $a$ | $b$ | Is $a = 0$? | $b \\% a$ | Return:          |
+| --- | --- | ----------- | ------- | ---------------- |
+| 456 | 789 | No          | $333$   | $\gcd(333, 456)$ |
+| 333 | 456 | No          | 123     | $\gcd(123,333)$  |
+| 123 | 333 | No          | 87      | $\gcd(87,123)$   |
+| 87  | 123 | No          | 36      | $\gcd(36,87)$    |
+| 36  | 87  | No          | 15      | $\gcd(15,36)$    |
+| 15  | 36  | No          | 6       | $\gcd(6,15)$     |
+| 6   | 15  | No          | 3       | $\gcd(3,6)$      |
+| 3   | 6   | No          | 0       | $\gcd(0,3)$      |
+| 0   | 3   | YES -- STOP |         |          3        |
+
+
+So $\gcd(456,789) = 3$. 
+
+2. Critique the following proof of the proposition **For all positive integers $n$, $11^n - 6$ is a multiple of $5$. 
+
+>**Proof:** We prove this with mathematical induction. So assume that for some positive integer $k$, $11^k - 6$ is a mulitple of $5$. We want to show that $11^{k+1} - 6$ is a multiple of $5$. Looking at $11^{k+1} - 6$, we can factor out an $11$ to get $11(11^k - 6)$. But, in the inductive hypothesis we assumed that $11^k-6$ is a multiple of $5$. Since $11^{k+1} - 6 = 11(11^k - 6)$ and the expression in parentheses is a multiple of $5$, it means that $11^{k+1} - 6$ is $11$ times a multiple of $5$, so therefore $11^{k+1} - 6$ is also a multiple of $5$. This is what we wanted to show, so the proposition is proven. 
+
+Here is a list of the major errors in this proof: 
+
+- **There is no base case**. This is a major error because without the base case, we have not established that the proposition is true in any case, so the inductive hypothesis might be false. 
+- **The "factoring" step going from $11^{k+1} - 6$ to $11(11^k - 6)$ is incorrect.** There is no factor of $11$ on the second term, so an $11$ cannot be factored out. This is a major error because the rest of the proof is built on the idea that $11^k - 6$ is a multiple of $5$ and the expression $11^{k+1} - 6$ is $11$ times a multiple of $5$. 
+
+
 ## Problem Group 3 (Logic)
