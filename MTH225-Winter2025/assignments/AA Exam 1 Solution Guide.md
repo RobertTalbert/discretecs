@@ -107,7 +107,7 @@ Here is a list of the major errors in this proof:
 | F   | F   | T   | F            | T        | T                   | T            |              |
 | T   | T   | F   | T            | F        | F                   | T            |              |
 | T   | F   | F   | T            | F        | F                   | F            |              |
-| F   | T   | F   | T            | T        | F                   | T            |  $\Leftarrow$            |
+| F   | T   | F   | T            | T        | T                   | T            |  $\Leftarrow$            |
 | F   | F   | F   | F            | T        | T                   | F            |              |
 
 You can see from the truth table that there are four instances where all the premises are true; and in those cases the conclusion is also true. Therefore the argument is valid. 
