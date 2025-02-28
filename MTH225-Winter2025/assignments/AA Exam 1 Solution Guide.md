@@ -94,3 +94,45 @@ Here is a list of the major errors in this proof:
 
 
 ## Problem Group 3 (Logic)
+
+1. Use a truth table to determine whether the following argument is valid or invalid. The premises are $p \vee q$ and $(\neg p) \vee r$, and the conclusion is $q \vee r$. 
+
+**Solution:** Here is a truth table comtaining all the statements. The premises are indicated with a check mark; the conclusion has a star. 
+
+| $p$ | $q$ | $r$ | $p \vee q$ ✓ | $\neg p$ | $(\neg p) \vee r$ ✓ | $q \vee r$ ☆ |              |
+| --- | --- | --- | ------------ | -------- | ------------------- | ------------ | ------------ |
+| T   | T   | T   | T            | F        | T                   | T            | $\Leftarrow$ |
+| T   | F   | T   | T            | F        | T                   | T            | $\Leftarrow$ |
+| F   | T   | T   | T            | F        | T                   | T            | $\Leftarrow$ |
+| F   | F   | T   | F            | T        | T                   | T            |              |
+| T   | T   | F   | T            | F        | F                   | T            |              |
+| T   | F   | F   | T            | F        | F                   | F            |              |
+| F   | T   | F   | T            | F        | F                   | T            |              |
+| F   | F   | F   | F            | T        | T                   | F            |              |
+
+You can see from the truth table that there are three instances where all the premises are true; and in those cases the conclusion is also true. Therefore the argument is valid. 
+
+2. 
+(a) Write a truth table for $P \leftrightarrow Q$.
+
+| $P$ | $Q$ | $P \rightarrow Q$ | $Q \rightarrow P$ | $(P \rightarrow Q) \wedge (Q \rightarrow P)$ |
+| --- | --- | ----------------- | ----------------- | -------------------------------------------- |
+| T   | T   | T                 | T                 | T                                            |
+| T   | F   | F                 | T                 | F                                            |
+| F   | T   | T                 | F                 | F                                            |
+| F   | F   | T                 | T                 | T                                            |
+
+(Remember $P \rightarrow Q$ is defined as $(P \rightarrow Q) \wedge (Q \rightarrow P)$ so the last column here is the one we want. 
+
+(b) Use a truth table to determine if $P \leftrightarrow Q$ is logically equivalent to $(P \wedge Q) \vee ((\neg P) \wedge (\neg Q))$. 
+
+We already made the truth table for the biconditional in part (a), so here is the true table for the second statement: 
+
+| $P$ | $Q$ | $P \wedge Q$ | $\neg P$ | $\neg Q$ | $(\neg P) \wedge (\neg Q)$ | $(P \wedge Q) \vee ((\neg P) \wedge (\neg Q))$ |
+| --- | --- | ------------ | -------- | -------- | -------------------------- | ---------------------------------------------- |
+| T   | T   | T            | F        | F        | F                          | T                                              |
+| T   | F   | F            | F        | T        | F                          | F                                              |
+| F   | T   | F            | T        | F        | F                          | F                                              |
+| F   | F   | F            | T        | T        | T                          | T                                              |
+
+The final column is the same as that for the biconditional, so they are logically equivalent. 
