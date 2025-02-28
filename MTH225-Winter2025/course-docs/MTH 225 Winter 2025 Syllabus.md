@@ -209,7 +209,7 @@ Additionally, **each student must earn a Success mark on all six Core Learning T
 
 **To earn a "minus" on your base grade:** Satisfy all the requirements for a base grade except engagement credits.  
 
-Earning both a plus and a minus by doing combinations of the above, results in no modification of the base grade (they "cancel out"). Doing *both* requirements for the "minus" does not result in any additional modification (i.e. it does not result in a one-letter grade penalty, just a minus).  
+Earning both a plus and a minus by doing combinations of the above, results in no modification of the base grade (they "cancel out"). Doing *both* requirements for the "plus" does not result in any additional modification (i.e. it does not result in a one-letter grade bonus, just a plus).  
 
 ### Borderline cases 
 

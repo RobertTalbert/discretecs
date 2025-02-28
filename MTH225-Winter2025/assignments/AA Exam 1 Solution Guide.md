@@ -83,7 +83,7 @@ There are lots of ways to display the information when tracing through the code.
 
 So $\gcd(456,789) = 3$. 
 
-2. Critique the following proof of the proposition **For all positive integers $n$, $11^n - 6$ is a multiple of $5$. 
+2. Critique the following proof of the proposition **For all positive integers $n$, $11^n - 6$ is a multiple of $5$.** 
 
 >**Proof:** We prove this with mathematical induction. So assume that for some positive integer $k$, $11^k - 6$ is a mulitple of $5$. We want to show that $11^{k+1} - 6$ is a multiple of $5$. Looking at $11^{k+1} - 6$, we can factor out an $11$ to get $11(11^k - 6)$. But, in the inductive hypothesis we assumed that $11^k-6$ is a multiple of $5$. Since $11^{k+1} - 6 = 11(11^k - 6)$ and the expression in parentheses is a multiple of $5$, it means that $11^{k+1} - 6$ is $11$ times a multiple of $5$, so therefore $11^{k+1} - 6$ is also a multiple of $5$. This is what we wanted to show, so the proposition is proven. 
 
