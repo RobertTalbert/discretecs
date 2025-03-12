@@ -116,7 +116,7 @@ Application/Analysis Exams are graded **holistically**, which means that while i
 | --- | ------ | 
 | *Excellent* | Roughly 9/10 of the multiple choice items are correctly answered. The work from problem groups is done with no "significant" errors and no more than 3-5 "minor" errors overall | 
 | *Success* | Roughly 7/10 of the multiple choice items are correctly answered. The work from problem groups contains no more than 3-5 "minor" errors overall, and no more than one of the problem groups can contain a "significant" error. | 
-| *Retry* | The criteria for *Success* are not met. | 
+| *Retry* | The criteria for *Success* are not met; or, if one or more Problem Groups have no signficiant attempts at a solution. | 
 
 The exact number of multiple choice correct items required may vary depending on how many such items are included; that number will be clearly stated on the exam. 
 
