@@ -103,3 +103,5 @@ Possible responses include:
 - Nothing is wrong with this proof. 
 - This proof has no major issues with being clear, correct, or complete but it does have one or more minor ones -- then you should list those and explain why they are issues, and why they are minor. 
 - This proof has one or more major issues with being clear, correct, or complete -- then you should list those and explain why they are issues, and why they are major.
+
+To repeat: This proposed proof does not attempt to use induction, so there is nothing wrong with the fact that there is no base case, no inductive hypothesis, etc. Judge the proof on its own merits and whether it is complete, correct, and convincing. 
