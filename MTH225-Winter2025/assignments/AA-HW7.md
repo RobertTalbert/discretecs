@@ -93,7 +93,7 @@ Set up the framework for a proof of this conjecture that uses mathematical induc
 
 >Consider the set $B_n$ of all bitstrings having length $n$. We can split this set into the set of all bistrings of length $n$ having weight $0$, the set of all bitstrings of length $n$ having weight $1$, the set of all bitstrings of length $n$ having weight $2$, and so on, up to the set of all bitstrings of length $n$ having weight $n$. Note that the cardinality of each individual set is a binomial coefficient: The cardinality of the set of all bitstrings with length $n$ and weight $k$ is $\binom{n}{k}$ by definition. And notice that the union of all of these sets is the set $B_n$ of all bitstrings having length $n$, because each bitstring of length $n$ has weight 0, or weight 1, or weight 2, etc., or weight $n$. Furthermore, all of these sets are disjoint, since any given bitstring can have only one weight (so it cannot belong to two of them). Therefore because of the Additive Principle, the sum $\binom{n}{0}  + \binom{n}{1} + \binom{n}{2} + \cdots + \binom{n}{n}$ gives the total number of bitstrings of length $n$. 
 >
-> But on the other hand, we know that this total number is also $2^n$ since each bitstring of length $n$ has $n$ bits and each bit has two choices, so there are $2^n$ of these by the Multiplicative Principle. 
+> But on the other hand, we know the total number of bitstrings of length $n$ is  $2^n$ since each bitstring of length $n$ has $n$ bits and each bit has two choices, so there are $2^n$ of these by the Multiplicative Principle. 
 >
 > Therefore since $\binom{n}{0}  + \binom{n}{1} + \binom{n}{2} + \cdots + \binom{n}{n}$ and $2^n$ count the same thing, they are equal. 
 
