@@ -74,14 +74,18 @@ The following multiple choice items are REQUIRED, that is NOT OPTIONAL. For each
 - (f) That either start or end with `X`, if letters can be repeated? 
 - (g) That do not contain any vowels (A, E, I, O, or U) and letters cannot be repeated? 
 - (h) That contain exactly one vowel, and letters cannot be repeated? 
+
+
 Note, in this problem -- as always -- you must show your work clearly and explain your reasoning process. Simply putting down an answer without explanation, or with insufficient or unclear explanation, will result in a *Semi-Complete* or *Incomplete* mark. 
 
 2. An observation we made in class is that if you look at Pascal's Triangle and add up all the binomial coefficients in a single row of the triangle, you get a power of 2: 
 
 ![Pascal triangle row sums](pascal3.png)
 
-We can state this as a formal conjecture: If $n$ is any natural number, then 
+(Note, the last row above adds to $32 = 2^5$, but the image cuts off part of the number.) We can state this as a formal conjecture: If $n$ is any natural number, then 
+
 $$\binom{n}{0}  + \binom{n}{1} + \binom{n}{2} + \cdots + \binom{n}{n} = 2^n$$
+
 Set up the framework for a proof of this conjecture that uses mathematical induction. That is: State and prove the base case, state the inductive hypothesis, and then state the inductive step. You do not need to provide a completed proof. (But if you want to try it, I'll give feedback on the attempt.) 
 
 
