@@ -35,6 +35,8 @@ Generate several binary (base 2) integers. For addition, the integers should be 
 
 Make up a conditional statement in English: *If* (condition), *then* (conclusion). Then write the converse, contrapositive, and negation of the statement. Use an AI tool to check your work: Prompt the AI with the original statement and ask it to provide the converse, contrapositive, and negation.
 
+**But beware of using AI too much:** [As this example chat shows](https://chatgpt.com/share/67d8471f-3110-8005-b1da-fbd345b19c9f), the AI can sometimes get it wrong (read to the end). 
+
 ## Learning Target 5 
 
 Make up, or look up, a logical proposition in symbolic form, using either two variables or three. Then write the truth table by hand. [Then check your work here](https://web.stanford.edu/class/cs103/tools/truth-table-tool/). Remember to show all the intermediate columns, which this tool does not do. 
