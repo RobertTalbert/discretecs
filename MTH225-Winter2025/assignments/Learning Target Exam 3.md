@@ -15,9 +15,9 @@
 1. Use long division to find the quotient and remainder when dividing 44667 by 123.
 2. Use the Euclidean Algorithm to find the greatest common divisor of 44667 and 123.
 3. Find the value of the following: 
-   a. `44667 % 123`.
-   b. `123 % 44667`.
-   c. `44667 % 44667`.
+   - a. `44667 % 123`.
+   - b. `123 % 44667`.
+   - c. `44667 % 44667`.
 
 
 
@@ -68,12 +68,12 @@ Write the truth tables for the following statements. Be sure to include all inte
 >Given a predicate, I can state the free variable(s); determine whether quantified forms are true or false; and state its negation.
 
 1. For each quantified predicate below, state whether it is True or whether it is false. The domain of each predicate is $\mathbb{N} = \lbrace 0, 1, 2, 3, \dots \rbrace$. 
-   a. $\forall n, n^2 \geq n$
-   b. $\exists n, n^2 = 2n$
+   - a. $\forall n, n^2 \geq n$
+   - b. $\exists n, n^2 = 2n$
 2. State the free variable(s) in each predicate. If there are no free variables, say so. 
-   a. $\forall n, n^2 \geq n$
-   b. $\exists x \exists y, x + y = 0$
-   c. $\forall x, x + y = 0$
+   - a. $\forall n, n^2 \geq n$
+   - b. $\exists x \exists y, x + y = 0$
+   - c. $\forall x, x + y = 0$
 3. State the negation of the statement: *Every natural number is either even or odd.* Phrase the result in clear English and do not just put the word "not" or "it is not the case that" in front of the original statement. 
 
 
@@ -112,7 +112,7 @@ Consider the statement: *For all positive integers $n$, $1 + 2 + 3 + \dots + n =
 
 1. Given the set $A = \lbrace 1, 2, 3 \rbrace$, list all the subsets of $A$.
 2. Given the set $B = \lbrace x \in \mathbb{N} \, | \, 1 \leq x \leq 5 \rbrace$, list all the elements of $B$. If you believe this is incorrect set syntax, state why.
-3. Given the set $C = \lbrace x \, | \, x \in \mathbb{Z} \, \text{and} \, x \, \text{is even} \}$, write $C$ in roster notation. If you believe this is incorrect set syntax, state why.
+3. Given the set $C = \lbrace x \, | \, x \in \mathbb{Z} \, \text{and} \, x \, \text{is even} \rbrace$, write $C$ in roster notation. If you believe this is incorrect set syntax, state why.
 4. Given the set $D = \lbrace x \, \% 10 \, | \, x \in \mathbb{N} \rbrace$, write $D$ in set-builder notation. If you believe this is incorrect set syntax, state why.
 
 ## Learning Target 11
@@ -134,9 +134,9 @@ Consider the sets $A = \lbrace 1, 2, 3 \rbrace$ and $B = \lbrace 2, 3, 4 \rbrace
 
 >I can determine if a mapping between two sets is a function; if it is, I can determine if it is injective, surjective, and/or bijective.
 
-Below are eight mappings between sets. For each mapping, state if it is a function, and if it is a function, also state if it is injective, surjective, and/or bijective or none of these. 
+Below are six mappings between sets, numbered 1 through 6. For each mapping, state if it is a function, and if it is a function, also state if it is injective, surjective, and/or bijective or none of these. 
 
-
+![alt text](lt12-exam3.png)
 
 ## Learning Target 13
 
