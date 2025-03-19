@@ -199,9 +199,9 @@ Suppose we want to prove this statement by induction.
 >Given a set in roster notation, I can rewrite it in set-builder notation and vice versa, and I can determine its elements and subsets.
 
 1. Given the set $A = \lbrace 1, 2, 3 \rbrace$, list all the subsets of $A$.
-2. Given the set $B = \lbrace x \in \mathbb{N} \, | \, 1 \leq x \leq 5 \rbrace$, list all the elements of $B$. If you believe this is incorrect set syntax, state why.
-3. Given the set $C = \lbrace x \, | \, x \in \mathbb{Z} \, \text{and} \, x \, \text{is even} \rbrace$, write $C$ in roster notation. If you believe this is incorrect set syntax, state why.
-4. Given the set $D = \lbrace x \, \% 10 \, | \, x \in \mathbb{N} \rbrace$, write $D$ in set-builder notation. If you believe this is incorrect set syntax, state why.
+2. Given the set $B = \lbrace x \in \mathbb{N} \ | , 1 \leq x \leq 5 \rbrace$, list all the elements of $B$. If you believe this is incorrect set syntax, state why.
+3. Given the set $C = \lbrace x \ | \ x \in \mathbb{Z} \ \text{and} \ x \ \text{is even} \rbrace$, write $C$ in roster notation. If you believe this is incorrect set syntax, state why.
+4. Given the set $D = \lbrace x \ \\% 10 \ | \ x \in \mathbb{N} \rbrace$, write $D$ in set-builder notation. If you believe this is incorrect set syntax, state why.
 
 **Answers:**
 
