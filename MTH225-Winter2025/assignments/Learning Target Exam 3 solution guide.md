@@ -62,7 +62,7 @@ The algorithm stops here since the remainder is zero. The GCD is the last nonzer
 
 >(**CORE**) I can identify the hypothesis and conclusion of a conditional statement and state its converse, contrapositive, and negation.
 
-Consider the implication: *If $n$ is an odd integer, then $n^2$ is an odd integer.*
+Consider the implication: If $n$ is an odd integer, then $n^2$ is an odd integer.
 
 1. State the hypothesis and conclusion of the implication.
 2. State the converse of the implication.
@@ -168,14 +168,16 @@ a_3 &=& 3 \cdot 13 + 2 = 40 \\
 a_4 &=& 3 \cdot 40 + 3 = 121
 \end{eqnarray*}$$
 
-3. The first five elements of the set are $2, 1, 1/2, 1/4, 1/8$. Since $2$ is in the set, so is $2/2$ which is $1$. Since $1$ is in the set, so is $1/2$. Since $1/2$ is in the set, so is $1/4$. And so on.
+3. The first five elements of the set are $2, 1, \frac{1}{2}, \frac{1}{4}, \frac{1}{8}$. Since $2$ is in the set, so is $2/2$ which is $1$. Since $1$ is in the set, so is $1/2$. Since $\frac{1}{2}$ is in the set, so is $\frac{1}{4}$. And so on.
 
 
 ## Learning Target 9
 
 >(**CORE**) Given a statement to prove by mathematical induction, I can set up the framework for its proof.
 
-Consider the statement: *For all positive integers $n$, $1 + 2 + 3 + \dots + n = \dfrac{n(n+1)}{2}$.* Suppose we want to prove this statement by induction.
+Consider the statement: For all positive integers $n$, $1 + 2 + 3 + \dots + n = \dfrac{n(n+1)}{2}$. 
+
+Suppose we want to prove this statement by induction.
 
 1. State the predicate involved in the proposition.
 2. State the value of the variable that corresponds to the base case. 
