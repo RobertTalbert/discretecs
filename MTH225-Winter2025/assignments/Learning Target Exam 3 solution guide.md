@@ -2,7 +2,7 @@
 
 ## NOTES ON THIS GUIDE
 
-Answers for Learning Targets 3, 5, ---- are not given in this guide because they can be checked using a technological tool. Please consult [the "How To Practice" guide](https://github.com/RobertTalbert/discretecs/blob/master/MTH225-Winter2025/How%20to%20practice.md) for links to those tools. 
+Answers for Learning Targets 3 and 5 are not given in this guide because they can be checked using a technological tool. Please consult [the "How To Practice" guide](https://github.com/RobertTalbert/discretecs/blob/master/MTH225-Winter2025/How%20to%20practice.md) for links to those tools. 
 
 
 ---
@@ -18,6 +18,26 @@ Answers for Learning Targets 3, 5, ---- are not given in this guide because they
    - b. `123 % 44667`.
    - c. `44667 % 44667`.
 
+**Answers:**
+
+1. Quotient is 363 and remainder is 18. For steps, use the checking tool from the "How To Practice" document.
+2. The algorithm proceeds like this: 
+
+$$\begin{eqnarray*}
+44667 &=& 363 \cdot 123 + 18 \\
+123 &=& 6 \cdot 18 + 15 \\
+18 &=& 1 \cdot 15 + 3 \\
+15 &=& 5 \cdot 3 + 0
+\end{eqnarray*}$$
+
+The algorithm stops here since the remainder is zero. The GCD is the last nonzero remainder we get, which is 3. 
+
+3. 
+   - a. `44667 % 123` is 18 as we found in the long division.
+   - b. `123 % 44667` is 123 because 123 is less than 44667.
+   - c. `44667 % 44667` is 0 because 44667 is divisible by 44667.
+
+
 ## Learning Target 2
 
 >I can convert a positive integer between bases 2, 8, 10, and 16; and I can represent a negative integer in binary using twos complement.
@@ -25,6 +45,17 @@ Answers for Learning Targets 3, 5, ---- are not given in this guide because they
 1. Convert the decimal (base 10) number 44667 to hexadecimal using the base conversion algorithm. 
 2. Convert the binary number 10110111 to decimal (base 10). 
 3. Convert the octal number 127 to decimal (base 10).
+
+**Answers:**
+
+1. The algorithm proceeds like this:
+   - $44667 \div 16 = 2791$ remainder 11, which is B in hexadecimal.
+   - $2791 \div 16 = 174$ remainder 7.
+   - $174 \div 16 = 10$ remainder 14, which is E in hexadecimal.
+   - $10 \div 16 = 0$ remainder 10, which is A in hexadecimal.
+   - So, $44667 = \text{AE7B}_{16}$. 
+2. $10110111 = 1 \cdot 2^7 + 0 \cdot 2^6 + 1 \cdot 2^5 + 1 \cdot 2^4 + 0 \cdot 2^3 + 1 \cdot 2^2 + 1 \cdot 2^1 + 1 \cdot 2^0 = 183$.
+3. $127 = 1 \cdot 8^2 + 2 \cdot 8^1 + 7 \cdot 8^0 = 87$.
 
 
 ## Learning Target 4
@@ -77,6 +108,34 @@ Consider the implication: *If $n$ is an odd integer, then $n^2$ is an odd intege
 1. Use a truth table to determine if the argument with premises $p \rightarrow q$ and $q \rightarrow r$, and conclusion $p \rightarrow r$ forms a valid rule of deduction.
 2. Use a truth table to determine if the propositions $p \lor q$ and $(\neg p) \land (\neg q)$ are logically equivalent.
 
+**Answers:**
+
+1. The truth table for the argument is as follows:
+
+| p | q | r | p→q | q→r | p→r |
+|---|---|---|-----|-----|-----|
+| T | T | T | T   | T   | T   |
+| T | T | F | T   | F   | F   |
+| T | F | T | F   | T   | T   |
+| T | F | F | F   | T   | F   |
+| F | T | T | T   | T   | T   |
+| F | T | F | T   | F   | T   |
+| F | F | T | T   | T   | T   |
+| F | F | F | T   | T   | T   |
+
+The argument is valid because the conclusion is true whenever the premises are true (see rows 1, 5, 7, 8). 
+
+2. The truth table for the propositions is as follows:
+
+| p | q | p ∨ q | ¬p | ¬q | (¬p) ∧ (¬q) |
+|---|---|-------|-----|-----|-------------|
+| T | T | T     | F   | F   | F           |
+| T | F | T     | F   | T   | F           |
+| F | T | T     | T   | F   | F           |
+| F | F | F     | T   | T   | T           |
+
+The two statements are not logically equivalent because the last column is not the same as the third column.
+
 ## Learning Target 8
 
 >Given a recurrence relation for a sequence or other structure, I can find several instances of the sequence or structure.
@@ -86,6 +145,30 @@ Consider the implication: *If $n$ is an odd integer, then $n^2$ is an odd intege
 1. Consider the recurrence relation $a_n = 2a_{n-1} - 3a_{n-2}$ with initial conditions $a_0 = 1$ and $a_1 = 2$. Find the first five terms of the sequence.
 2. Consider the recurrence relation $a_n = 3a_{n-1} + n$ with initial condition $a_0 = 1$. Find the first five terms of the sequence.
 3. Consider the following set defined recursively: The number $2$ is an element of the set, and if $a$ is an element of the set then $a/2$ is also an element of the set. List at least five elements of the set.
+
+**Answers:**
+
+1. The first five terms of the sequence are $1, 2, 1, 4, -5$: 
+
+$$\begin{eqnarray*}
+a_0 &=& 1 \\
+a_1 &=& 2 \\
+a_2 &=& 2 \cdot 2 - 3 \cdot 1 = 1 \\
+a_3 &=& 2 \cdot 1 - 3 \cdot 2 = 4 \\
+a_4 &=& 2 \cdot 4 - 3 \cdot 1 = -5
+\end{eqnarray*}$$
+
+2. The first five terms of the sequence are $1, 4, 13, 40, 121$.
+
+$$\begin{eqnarray*}
+a_0 &=& 1 \\
+a_1 &=& 3 \cdot 1 + 0 = 4 \\
+a_2 &=& 3 \cdot 4 + 1 = 13 \\
+a_3 &=& 3 \cdot 13 + 2 = 40 \\
+a_4 &=& 3 \cdot 40 + 3 = 121
+\end{eqnarray*}$$
+
+3. The first five elements of the set are $2, 1, 1/2, 1/4, 1/8$. Since $2$ is in the set, so is $2/2$ which is $1$. Since $1$ is in the set, so is $1/2$. Since $1/2$ is in the set, so is $1/4$. And so on.
 
 
 ## Learning Target 9
