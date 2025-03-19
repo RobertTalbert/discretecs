@@ -207,8 +207,8 @@ Suppose we want to prove this statement by induction.
 
 1. The subsets of $A$ are $\emptyset$, $\lbrace 1 \rbrace$, $\lbrace 2 \rbrace$, $\lbrace 3 \rbrace$, $\lbrace 1, 2 \rbrace$, $\lbrace 1, 3 \rbrace$, $\lbrace 2, 3 \rbrace$, and $\lbrace 1, 2, 3 \rbrace$.
 2. This is correct set syntax. The elements of $B$ are $1, 2, 3, 4, 5$. 
-3. This is correct set syntax. $C = \lbrace x \, | \, x \in \mathbb{Z} \, \text{and} \, x \, \text{is even} \rbrace = \lbrace \dots, -4, -2, 0, 2, 4, \dots \rbrace$.
-4. This is correct set syntax. (But there was a typo, should say "roster notation" not "set builder".) $D = \lbrace x \, \\% 10 \, | \, x \in \mathbb{N} \rbrace = \lbrace 0, 1, 2, 3, 4, 5, 6, 7, 8, 9 \rbrace$. 
+3. This is correct set syntax. $C = \lbrace x \ | \ x \in \mathbb{Z} \ \text{and} \ x \ \text{is even} \rbrace = \lbrace \dots, -4, -2, 0, 2, 4, \dots \rbrace$.
+4. This is correct set syntax. (But there was a typo, should say "roster notation" not "set builder".) $D = \lbrace x  \\% 10 \ | \ x \in \mathbb{N} \rbrace = \lbrace 0, 1, 2, 3, 4, 5, 6, 7, 8, 9 \rbrace$. 
 
 ## Learning Target 11
 
