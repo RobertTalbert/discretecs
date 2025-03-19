@@ -18,9 +18,10 @@ The following practice exercises are OPTIONAL. If you turn these in, I will look
    - (c) $\binom{12}{6}$
    - (d) $\binom{15}{7}$
    - (e) $\binom{20}{10}$
+
 2, Find the number of subsets of the set $\lbrace a,b,c,d,e,f,g,h,i,j, k, l \rbrace$ that have exactly 5 elements.
-3. Find the number of ways to select a committee of 5 people from a group of 10 people, where the order of selection does not matter.
-4. Find the number of ways to select a committee of 5 people from a group of 10 people, where the order of selection does matter.
+1. Find the number of ways to select a committee of 5 people from a group of 10 people, where the order of selection does not matter.
+2. Find the number of ways to select a committee of 5 people from a group of 10 people, where the order of selection does matter.
 
  
 ## Multiple choice
@@ -69,7 +70,7 @@ The following multiple choice items are REQUIRED, that is NOT OPTIONAL. For each
 1. One application of the binomial coefficient is to a particular kind of problem where we are counting **the number of ways to distribute $n$ identical items into $k$ distinct boxes**. For example, suppose we have 10 identical apples and 5 distinct boxes. How many ways are there to distribute the apples into the boxes? This problem will have you think through some *incorrect* ways to answer this question and then arrive at the correct method. 
     - (a) Here is one incorrect approach: The answer is $\binom{10}{5} = 252$ because we are selecting 5 apples from 10. Explain why this is incorrect.
     - (b) Here is another incorrect approach: The answer is $10^5 = 100000$ because it's a license plate problem: Make 10 blanks, one for each apple, and in each blank write the numbers 1, 2, 3, 4, or 5 to indicate which box to put that apple into. There are 10 apples and 5 choices per apple, so $10^5$ in all. Explain why this is incorrect.
-    - (c) [Now go here and watch a video](https://vimeo.com/626749580) about an approach called the :"stars and bars" method, also known as the "dots and dividers" method. Apply this method to solve the problem of distributing 10 identical apples into 5 distinct boxes. Write out the solution in detail.
+    - (c) [Now go here and watch a video](https://vimeo.com/626749580) about an approach called the "stars and bars" method, also known as the "dots and dividers" method. Apply this method to solve the problem of distributing 10 identical apples into 5 distinct boxes. Write out the solution in detail.
     - (d) Explain why the "dots and dividers" method is the correct way to solve this problem.
 
 
