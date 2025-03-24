@@ -154,18 +154,18 @@ $$\begin{eqnarray*}
 a_0 &=& 1 \\
 a_1 &=& 2 \\
 a_2 &=& 2 \cdot 2 - 3 \cdot 1 = 1 \\
-a_3 &=& 2 \cdot 1 - 3 \cdot 2 = 4 \\
-a_4 &=& 2 \cdot 4 - 3 \cdot 1 = -5
+a_3 &=& 2 \cdot 1 - 3 \cdot 2 = -4 \\
+a_4 &=& 2 \cdot (-4) - 3 \cdot 1 = -11
 \end{eqnarray*}$$
 
 2. The first five terms of the sequence are $1, 4, 13, 40, 121$.
 
 $$\begin{eqnarray*}
 a_0 &=& 1 \\
-a_1 &=& 3 \cdot 1 + 0 = 4 \\
-a_2 &=& 3 \cdot 4 + 1 = 13 \\
-a_3 &=& 3 \cdot 13 + 2 = 40 \\
-a_4 &=& 3 \cdot 40 + 3 = 121
+a_1 &=& 3 \cdot 1 + 1 = 4 \\
+a_2 &=& 3 \cdot 4 + 2 = 14 \\
+a_3 &=& 3 \cdot 14 + 3 = 45 \\
+a_4 &=& 3 \cdot 45 + 4 = 139
 \end{eqnarray*}$$
 
 3. The first five elements of the set are $2, 1, \frac{1}{2}, \frac{1}{4}, \frac{1}{8}$. Since $2$ is in the set, so is $2/2$ which is $1$. Since $1$ is in the set, so is $1/2$. Since $\frac{1}{2}$ is in the set, so is $\frac{1}{4}$. And so on.
