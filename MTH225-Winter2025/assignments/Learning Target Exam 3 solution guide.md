@@ -251,6 +251,12 @@ Consider the sets $A = \lbrace 1, 2, 3 \rbrace$ and $B = \lbrace 2, 3, 4 \rbrace
 5. $A^c = \lbrace 4, 5 \rbrace$.
 6. $|A| = 3$.
 
+### Notes
+
+- There were several instances of students finding $A \times B$ instead of $A \times C$ in part 3. This makes it hard to tell if the concept was fully understood because one of the underlying sets was incorrect. If the response said that the answer was $A \times B$ and then gave a correct computation of $A \times B$, that was given Mastery rating. But if it didn't say, or if it said $A \times C$ and then computed $A \times B$, that was not given Mastery. 
+- There were a few instances where incorrect set notation was used: Using square brackets instead of curly braces, or using parentheses instead of braces, or using no braces at all; or listing the contents of a set without commas separating the elements. These were not given Mastery even if the contents of the set were correct. Notation is extremely important and using correct notation is part of the standards for Mastery as stated in the [Standards for Student Work document](https://github.com/RobertTalbert/discretecs/blob/master/MTH225-Winter2025/course-docs/Standards%20for%20Student%20Work%20MTH%20225%20W25.md). 
+- There were a few instances where the cardinality of a set (part 6) was given as a set itself, rather than a number. This was not given Mastery.
+
 ## Learning Target 12
 
 >I can determine if a mapping between two sets is a function; if it is, I can determine if it is injective, surjective, and/or bijective.
