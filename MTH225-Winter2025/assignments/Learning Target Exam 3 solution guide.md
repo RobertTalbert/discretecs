@@ -4,6 +4,19 @@
 
 Answers for Learning Targets 3 and 5 are not given in this guide because they can be checked using a technological tool. Please consult [the "How To Practice" guide](https://github.com/RobertTalbert/discretecs/blob/master/MTH225-Winter2025/How%20to%20practice.md) for links to those tools. 
 
+## Overall common mistakes 
+
+There were repeated instances of students who: 
+
+- Did not put their names on their papers
+- Put two Learning Targets on the same page, one on the front and one on the back
+- Reattempted Learning Targets on which they had already earned a "Master" rating
+
+All of these are common mistakes that had been given explicit and clear instructions in class, on the day of the exam, and in announcements. These will slow down the grading process and in some cases led to a failure to earn "Master" on a Learning Target. **Please be sure to follow all instructions carefully and pay attention to what you are doing in an exam** to avoid unnecessary mistakes.
+
+
+
+
 
 ---
 
@@ -170,6 +183,9 @@ a_4 &=& 3 \cdot 45 + 4 = 139
 
 3. The first five elements of the set are $2, 1, \frac{1}{2}, \frac{1}{4}, \frac{1}{8}$. Since $2$ is in the set, so is $2/2$ which is $1$. Since $1$ is in the set, so is $1/2$. Since $\frac{1}{2}$ is in the set, so is $\frac{1}{4}$. And so on.
 
+### Notes
+
+- Several attempts on the third part listed the number 2 as part of the set but also the expressions $a$, $a/2$, $a/4$, and so on. This is not correct because $a$ is not an element of the set, it is a variable that represents a specific number that belongs to the set. The set is defined recursively, and the only number that is explicitly in the set is 2. But since $2$ is in the set, so is $2/2 = 1$, and so on. The variable $a$ is merely a placeholder, as in a computer program. 
 
 ## Learning Target 9
 
