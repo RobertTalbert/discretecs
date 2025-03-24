@@ -267,5 +267,5 @@ Solve the following counting problems. Be sure to show all work, and explain you
 **Answers:**
 
 1. There are $8 \times 8 \times 2 \times 8 = 1024$ different outfits. (Uses the Multiplicative Principle)
-2. There are $26 \times 26 \times 10 \times 26 \times 10 = 1,690,000$ different license plates. (Uses the Multiplicative Principle, it is literally a license plate problem)
+2. There are $26 \times 26 \times 10 \times 26 \times 10 = 1757600$ different license plates. (Uses the Multiplicative Principle, it is literally a license plate problem)
 3. There are $18 + 15 - 12 = 21$ students who like basketball or soccer. (Uses the Principle of Inclusion/Exclusion)
