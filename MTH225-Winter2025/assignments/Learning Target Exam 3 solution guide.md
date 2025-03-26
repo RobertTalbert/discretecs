@@ -317,7 +317,7 @@ Solve the following counting problems. Be sure to show all work, and explain you
 
    b) $\lbrace 2^n :n \in \{1,2,3\} \rbrace$ 
 
-   c) $\lbrace x\in \lbrace 1,2,3,\dots 10 \rbrace :x \, \text{is odd} \rbrace$
+   c) $\lbrace x \in \lbrace 1,2,3,\dots 10 \rbrace : x  \text{is odd} \rbrace$
 
 
 **Answers:**
