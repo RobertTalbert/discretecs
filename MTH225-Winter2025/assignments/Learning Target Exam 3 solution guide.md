@@ -1,5 +1,8 @@
 # MTH 225: Learning Target Exam 3 -- Solutions Guide 
 
+>**NEW: The Do-Over version of Learning Target 10 is at the end.** 
+
+
 ## NOTES ON THIS GUIDE
 
 Answers for Learning Targets 3 and 5 are not given in this guide because they can be checked using a technological tool. Please consult [the "How To Practice" guide](https://github.com/RobertTalbert/discretecs/blob/master/MTH225-Winter2025/How%20to%20practice.md) for links to those tools. 
@@ -291,3 +294,42 @@ Solve the following counting problems. Be sure to show all work, and explain you
 1. There are $8 \times 8 \times 2 \times 8 = 1024$ different outfits. (Uses the Multiplicative Principle)
 2. There are $26 \times 26 \times 10 \times 26 \times 10 = 1757600$ different license plates. (Uses the Multiplicative Principle, it is literally a license plate problem)
 3. There are $18 + 15 - 12 = 21$ students who like basketball or soccer. (Uses the Principle of Inclusion/Exclusion)
+
+---
+
+## Learning Target 10 Do-Over
+
+1. Below are several statements about sets and elements. Label each one as **TRUE** or **FALSE**. 
+
+   a) $\lbrace 1,2,3\rbrace \subseteq \lbrace 0,1,2,3,4\rbrace$ 
+
+   b) $25 \in \lbrace n^2 \, : \, n \in \{0,1,2,3,4,5\} \rbrace$ 
+
+   c) $3 \in \mathbb{N}$
+
+   d) $\emptyset \subseteq \mathbb{N}$ 
+
+   e) $\mathbb{Z} \subseteq \mathbb{N}$
+
+2. Here are three sets written in set-builder notation. For each, if the set is written using correct set syntax, rewrite it using roster notation. If the set is written using incorrect syntax, write **INCORRECT SYNTAX**. 
+
+   a) $\lbrace  n \in \mathbb{N} : n+2 \rbrace$
+
+   b) $\lbrace 2^n :n \in \{1,2,3\} \rbrace$ 
+
+   c) $\lbrace x\in \lbrace 1,2,3,\dots 10 \rbrace :x \, \text{is odd} \rbrace$
+
+
+**Answers:**
+
+1. 
+   a) **TRUE** 
+   b) **TRUE** 
+   c) **TRUE** 
+   d) **TRUE** 
+   e) **FALSE** 
+
+2. 
+   a) **INCORRECT SYNTAX** because $n+2$ is a formula, not a predicate, so it should go first in the set notation.
+   b) $\lbrace 2, 4, 8 \rbrace$ 
+   c) $\lbrace 1, 3, 5, 7, 9 \rbrace$
