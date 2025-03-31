@@ -20,7 +20,7 @@
    - 2 = 0 * 2 + 2
    - Therefore, the GCD is 2 since it is the last non-zero remainder.
 3. 
-   - a. `88334 % 222` = 0
+   - a. `88334 % 222` = 200
    - b. `222 % 88334` = 222
    - c. `222 % 222` = 0
 
