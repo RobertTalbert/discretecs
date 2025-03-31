@@ -135,5 +135,5 @@ Solve the following counting problems. Be sure to show all work, and explain you
    - (a) $\binom{8}{3} = \frac{8!}{3!(8-3)!} = \frac{8!}{3!5!} = \frac{8 \cdot 7 \cdot 6}{3 \cdot 2 \cdot 1} = 56$.
    - (b) $\binom{10}{5} = \frac{10!}{5!(10-5)!} = \frac{10!}{5!5!} = \frac{10 \cdot 9 \cdot 8 \cdot 7 \cdot 6}{5 \cdot 4 \cdot 3 \cdot 2 \cdot 1} = 252$.
    - (c) $\binom{15}{7} = \frac{15!}{7!(15-7)!} = \frac{15!}{7!8!} = 6435$.
-2. The number of 3-element subsets containing the letter A is $\binom{6}{2} = \frac{6!}{2!(6-2)!} = \frac{6!}{2!4!} = \frac{6 \cdot 5}{2 \cdot 1} = 15$.
-3. The number of bitstrings of length 8 that contain exactly six `0`s is $\binom{8}{6} = \binom{8}{2} = \frac{8!}{2!(8-2)!} = \frac{8!}{2!6!} = \frac{8 \cdot 7}{2 \cdot 1} = 28$.
+2. Choosing a 3-element subset from $\lbrace{A,B,C,D,E,F,G}\rbrace$ that must include the letter A, is the same process as choosing a 2-element subset from the 6-element set $\lbrace{B,C,D,E,F,G}\rbrace$. And the number of 2-element subsets of a 6-element set is, by definition,  $\binom{6}{2} = \frac{6!}{2!(6-2)!} = \frac{6!}{2!4!} = \frac{6 \cdot 5}{2 \cdot 1} = 15$.
+3. The number of bitstrings of length 8 that contain exactly six `0`s is the same as the number of bitstrings of length 8 that have exactly 2 `1` bits. And that number is, by definition, $\binom{8}{2} = \frac{8!}{2!(8-2)!} = \frac{8!}{2!6!} = \frac{8 \cdot 7}{2 \cdot 1} = 28$.
