@@ -13,7 +13,7 @@
 
 **Answers:**
 
-1. The quotient is 397 and the remainder is 0. To see the steps, use the long division calculator linked in earlier Learning Target exams. 
+1. The quotient is 397 and the remainder is 200. To see the steps, use the long division calculator linked in earlier Learning Target exams. 
 2. The greatest common divisor of 88334 and 222 is 2. Steps:
    - 88334 = 397 * 222 + 0
    - 222 = 111 * 2 + 0
