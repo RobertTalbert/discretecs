@@ -115,7 +115,7 @@ Consider the sets $A = \lbrace 2, 3, 4, 5 \rbrace$ and $B = \lbrace 1, 2, 3, 4, 
 
 - Several submissions did not understand the notation for Cartesian product $A \times C$, or cardinality $|U|$. Please note that the Learning Target directly addresses your understanding of these concepts, so the first thing you might do if you are confused about that notation is get clear on it, using the course materials such as slides, videos, and vault. 
 - Several submissions for part 4 found $A \setminus B = \lbrace 1 \rbrace$ instead of $\emptyset$. This is incorrect because $A \setminus B$ is by definition $A \setminus B = \lbrace x \in U \ | \ x \in A \text{and} x \not \in B \rbrace$. Since $1 \not \in A$ it is not in $A \setminus B$. 
-- If you are reading this, email Prof. Talbert with the subject line "I read the solutions guide" (without the quotes) before 5:00pm on Wednesday, April 2. I am trying to understand who, if anybody, is reading these notes that I am putting a lot of effort into creating. Students sending an email with the correct subject line and before the deadline will receive 5 engagement credits. No, this is not an April Fools joke. 
+- If you are reading this, email Prof. Talbert with the subject line "I read the solutions guide" (without the quotes) before 5:00pm on Wednesday, April 2. I am trying to understand who, if anybody, is reading these notes that I am putting a lot of effort into creating. Note, the subject line must be EXACTLY as stated above -- no additions, paraphrasings, etc. Just copy and paste the text. Because I am also trying to see who can follow directions. Students sending an email with the correct subject line and before the deadline will receive 5 engagement credits. No, this is not an April Fools joke. 
 
 
 
