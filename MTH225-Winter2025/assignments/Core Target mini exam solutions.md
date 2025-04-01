@@ -84,6 +84,7 @@ Suppose we want to prove this statement by induction.
 ### Notes
 
 - Several submissions included the quantifier on the predicate and just said the predicate was the entire statement "For all integers $n \geq 6$, $6n + 6 < 2^n$. " This is incorrect because that statement is not a predicate: It is a predicate all of whose free variables have been quantified, so it's a proposition now. 
+- Several submissions left off the word "Assume" in the inductive hypothesis -- this is the most important part of the inductive hypothesis! Remember that the inductive hypothesis is a complete sentence that communicates something to a reader. It's not just a math expression with no context. 
 
 
 ## Learning Target 11
