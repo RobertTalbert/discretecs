@@ -42,6 +42,10 @@ Consider the implication: If $n$ is an even integer, then $n^2$ is an even integ
 3. The contrapositive is "If $n^2$ is not an even integer, then $n$ is not an even integer". (You can use "odd" in place of "not even" if you prefer.)
 4. The negation is "The integer $n$ is even but $n^2$ is odd." 
 
+### Notes
+
+The only main note is that we are still getting submissions that get the basic form of these wrong, particularly the negation. **Just memorize the form!** Then put the hypothesis and conclusion in. 
+
 
 ## Learning Target 9
 
@@ -77,6 +81,11 @@ Suppose we want to prove this statement by induction.
 10. Therefore, by the principle of mathematical induction, $6n + 6 < 2^n$ for all integers $n \geq 6$. (Principle of mathematical induction)
 
 
+### Notes
+
+- Several submissions included the quantifier on the predicate and just said the predicate was the entire statement "For all integers $n \geq 6$, $6n + 6 < 2^n$. " This is incorrect because that statement is not a predicate: It is a predicate all of whose free variables have been quantified, so it's a proposition now. 
+
+
 ## Learning Target 11
 
 >(**CORE**) I can find the union, intersection, Cartesian product, and difference of two sets; the complement of a set; and the cardinality of a finite set.
@@ -101,6 +110,14 @@ Consider the sets $A = \lbrace 2, 3, 4, 5 \rbrace$ and $B = \lbrace 1, 2, 3, 4, 
 5. $A^c = \lbrace 1, 6, 7, 8, 9 \rbrace$.
 6. $|U| = 9$.
 
+### Notes
+
+- Several submissions did not understand the notation for Cartesian product $A \times C$, or cardinality $|U|$. Please note that the Learning Target directly addresses your understanding of these concepts, so the first thing you might do if you are confused about that notation is get clear on it, using the course materials such as slides, videos, and vault. 
+- Several submissions for part 4 found $A \setminus B = \lbrace 1 \rbrace$ instead of $\emptyset$. This is incorrect because $A \setminus B$ is by definition $A \setminus B = \lbrace x \in U \ | \ x \in A \text{and} x \not \in B \rbrace$. Since $1 \not in A$ it is not in $A \setminus B$. 
+- If you are reading this, email talbertr@gvsu.edu before 5:00pm Eastern time on Wednesday 2025-04-02 for 5 free engagement credits. I am trying to see who's reading the solution guide and the notes and who isn't. You are not allowed to alert others -- keep it secret. No, this is not an April Fools Day joke. If you're seeing this after that date and time, the offer has expired. 
+
+
+
 ## Learning Target 13
 
 >(**CORE**) I can solve simple counting problems that involve a combination of the Additive Rule, Multiplicative Rule, and Principle of Inclusion/Exclusion.
@@ -117,6 +134,10 @@ Solve the following counting problems. Be sure to show all work, and explain you
 2. The first letter can be any of 10 letters, the second letter can be any of 10 letters, and the third letter can be any of 10 letters. Therefore, the total number of three-letter words is $10^3 = 1000$.
 3. The number of bitstrings of length 8 that start with `10` is $2^6 = 64$ (the last 6 bits can be anything). The number of bitstrings of length 8 that end with `1` is $2^7 = 128$ (the first 7 bits can be anything). However, the bitstrings that start with `10` and end with `1` are counted twice, so we need to subtract those. The number of bitstrings that start with `10` and end with `1` is $2^5 = 32$. Therefore, the total number of bitstrings is $64 + 128 - 32 = 160$.
 
+### Notes
+
+- Several submissions in part 2 used the binomial coefficient $\binom{10}{3} = 120$. This is incorrect because $\binom{10}{3}$ is the number of 3-element subsets of the set $\lbrace F, G, H, I, J, K, L, M, N, O \rbrace$, but in those subsets repetition of letters is *not* allowed. (Repetition is never allowed in a set.) So for example the string `AAB` is not counted by $\binom{10}{3}$. However it states directly in the problem statement that repetition of letters here *is* allowed. So $\binom{10}{3}$ does not count any of the strings with repeated letters, therefore it is a significant under-count of the true number. 
+- Many submissions for part 3 failed to realize that the Principle of Inclusion and Exclusion should be used. 
 
 ## Learning Target 14
 
@@ -137,3 +158,9 @@ Solve the following counting problems. Be sure to show all work, and explain you
    - (c) $\binom{15}{7} = \frac{15!}{7!(15-7)!} = \frac{15!}{7!8!} = 6435$.
 2. Choosing a 3-element subset from $\lbrace{A,B,C,D,E,F,G}\rbrace$ that must include the letter A, is the same process as choosing a 2-element subset from the 6-element set $\lbrace{B,C,D,E,F,G}\rbrace$. And the number of 2-element subsets of a 6-element set is, by definition,  $\binom{6}{2} = \frac{6!}{2!(6-2)!} = \frac{6!}{2!4!} = \frac{6 \cdot 5}{2 \cdot 1} = 15$.
 3. The number of bitstrings of length 8 that contain exactly six `0`s is the same as the number of bitstrings of length 8 that have exactly 2 `1` bits. And that number is, by definition, $\binom{8}{2} = \frac{8!}{2!(8-2)!} = \frac{8!}{2!6!} = \frac{8 \cdot 7}{2 \cdot 1} = 28$.
+
+### Notes
+
+- Several submissions had answers for binomial coefficients but no work was shown (as above). To get a *Master* rating, you must at least show how you apply the closed formula for the specific binomial coefficient you are computing. The minimal work needed would be something like this:  $\binom{8}{3} = \frac{8!}{3!(8-3)!} = 56$. But without showing the closed formula and how you're applying it, there is nothing to verify that you didn't simply use a button on a calculator, and so there's not enough evidence to support your mastery of the Learning Target. 
+- Several submissions used an incorrect formula, usually by dividing by only one factorial, such as:  $\binom{8}{3} = \frac{8!}{3!}$ 
+- Many submissions used $\binom{7}{3}$ in part 2 instead of $\binom{6}{2}$. The number $\binom{7}{3}$ is incorrect because this counts the number of 3-element subsets of a 7-element set, but this would include sets without the letter A in them. Remember: **Don't throw formulas at things.** 
