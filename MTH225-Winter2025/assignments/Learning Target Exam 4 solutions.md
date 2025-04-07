@@ -207,7 +207,7 @@ Thus $3^{k+1} - 1$ is even, and we have shown that if $P(k)$ is true, then $P(k+
    - a) FALSE. The empty set has no elements, so $5$ cannot be in it. 
    - b) FALSE. The set $\lbrace 6,7,8\rbrace$ is not a subset of $\lbrace 5,7,9 \rbrace$ because $6$ and $8$ are not in the second set. 
    - c) FALSE. The set of integers $\mathbb{Z}$ contains whole numbers, but not fractions like $\frac{1}{2}$. 
-   - d) FALSE. The set of integers $\mathbb{Z}$ contains negative numbers and zero, while the set of natural numbers $\mathbb{N}$ only contains positive whole numbers. 
+   - d) FALSE. The set of integers $\mathbb{Z}$ contains negative numbers, while the set of natural numbers $\mathbb{N}$ only contains non-negative whole numbers. 
    - e) TRUE. The empty set is a subset of every set.
 
 2. 
