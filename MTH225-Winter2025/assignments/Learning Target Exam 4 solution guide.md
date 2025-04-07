@@ -249,7 +249,7 @@ Consider the sets $A = \lbrace 0, 1, 2, 3, 4 \rbrace$,  $B = \lbrace 4, 5, 6 \rb
 
 ### Notes
 
-- A few submissions were not using the correct delimiters (braces, brackets, etc.) in part 3, the Cartesian product. A common incorrect response was to write $B \times C = \lbrace \lbrace 4,6 \rbrace, \lbrace 4,7 \rbrace, \lbrace 4,8 \rbrace, \lbrace 4,6 \rbrace, \cdots, \lbrace 6,8 \rbrace \rbrace$.Note, the Cartesian product is a set of ordered pairs, so it must be enclosed in braces; and the objects inside the set must be enclosed in parentheses because they are ordered pairs -- not enclosed in set braces. 
+- A few submissions were not using the correct delimiters (braces, brackets, etc.) in part 3, the Cartesian product. A common incorrect response was to write $B \times C = \lbrace \lbrace 4,6 \rbrace, \lbrace 4,7 \rbrace, \lbrace 4,8 \rbrace, \lbrace 4,6 \rbrace, \dots, \lbrace 6,8 \rbrace \rbrace$. This is incorrect because the Cartesian product is a set of ordered pairs, so the entire set must be enclosed in braces; and the objects inside the set must be enclosed in parentheses because they are ordered pairs -- not enclosed in set braces. 
 - Some submissions simply gave the set $A$ in part 5 rather than its cardinality. Others found the cardinality (5) and put it inside set braces, for a response of $\lbrace 5 \rbrace$. This is incorrect. The cardinality of a set is a number, not a set.
 
 
@@ -304,10 +304,14 @@ On the following, be sure to show all work, and explain your reasoning. Response
 
 1. .
     - $\binom{10}{3} = \dfrac{10!}{3! 7!} = \dfrac{10 \cdot 9 \cdot 8}{3 \cdot 2 \cdot 1} = 120$
-    - $\binom{20}{7} = \dfrac{20!}{7! 13!} = \dfrac{20 \cdot 19 \cdot 18 \cdot 17 \cdot 16 \cdot 15 \cdot 14}{7 \cdot 6 \cdot \cdots 2 \cdot 1} = \dfrac{390700800}{5040} = 77520$
+    - $\binom{20}{7} = \dfrac{20!}{7! 13!} = \dfrac{20 \cdot 19 \cdot 18 \cdot 17 \cdot 16 \cdot 15 \cdot 14}{7 \cdot 6 \cdot \cdots \cdot 2 \cdot 1} = \dfrac{390700800}{5040} = 77520$
     -  $\binom{100}{0} = 1$  (Because this number counts the number of 100-bit binary strings with no `1` bits, and there is only one of those, the zero string.)
 2. We are merely selecting 5 members from a group of 25 with no other restrictions. So the count is $\binom{25}{5} = 53130$. 
 3. This is a license plate situation: There are 25 people who can be chosen for president, then 24 for vice-president, then 23 for secretary. So the count is $25 \cdot 24 \cdot 23 = 13800$. This is the same as $P(25,3) = \dfrac{25!}{22!}$. 
+
+### Notes
+
+- Several submissions used the binomial coefficient on part 3, which is incorrect. The binomial coefficient counts the number of ways to choose a subset of a set, but this problem is asking for the number of ways to choose an ordered list of three people from a set of 25. The binomial coefficient does not count ordered lists, so it is not appropriate here. The best way to view it is as a license plate problem, where we have 25 choices for the first slot, 24 for the second, and 23 for the third.
 
 ## Learning Target 15
 
