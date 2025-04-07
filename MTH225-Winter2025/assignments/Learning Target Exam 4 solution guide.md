@@ -4,9 +4,6 @@
 
 **Answers for Learning Targets 1, 2, 3 and 5 are not given in this guide** because they can be checked using a technological tool. Please consult [the "How To Practice" guide](https://github.com/RobertTalbert/discretecs/blob/master/MTH225-Winter2025/How%20to%20practice.md) for links to those tools. 
 
-## Overall common mistakes
-
-
 ---
 
 
@@ -14,7 +11,7 @@
 
 >(**CORE**) I can identify the hypothesis and conclusion of a conditional statement and state its converse, contrapositive, and negation.
 
-Consider the implication: *If $p$ is a prime number, then $p$ is odd.*
+Consider the implication: If $p$ is a prime number, then $p$ is odd.
 
 1. State the hypothesis and conclusion of the implication.
 2. State the converse of the implication.
@@ -36,8 +33,8 @@ You can say "even" instead of "not odd" if you want, but it is not necessary.
 
 - Some submissions did not list the hypothesis and conclusion separately, but instead just listed the implication. Or, the listed the hypothesis and conclusion joined with "and" ($p$ is a prime number and $p$ is odd). This is not correct because the work has to clearly show the difference between the hypothesis and conclusion. Joining the two with a connective creates a new, third statement. 
 - Some submissions are still listing that the negation is another conditional statement, such "If $p$ is a prime number, then $p$ is not odd." This is incorrect. The negation of a conditional statement is a conjunction of the hypothesis and the negation of the conclusion.
-- Some submissions for the negation were ambiguous or ill-formed sentences. Example: *If $p$ is a prime number and $p$ is not odd.*" This is not a complete sentence and it is not clear what the statement means. The negation must be a complete sentence that is clearly a conjunction and not an implication. 
-- 
+- Some submissions for the negation were ambiguous or ill-formed sentences. Example: If $p$ is a prime number *and* $p$ is not odd." (Emphasis on "and") This is not a complete sentence and it is not clear what the statement means. The negation must be a complete sentence that is clearly a conjunction and not an implication. 
+
 ## Learning Target 6
 
 >Given a predicate, I can state the free variable(s); determine whether quantified forms are true or false; and state its negation.
@@ -142,7 +139,7 @@ Since the two propositions have different truth values in some cases, they are n
 
 >(**CORE**) Given a statement to prove by mathematical induction, I can set up the framework for its proof.
 
-*For all positive integers $n$, $3^n - 1$ is even*. Suppose we want to prove this statement by induction.
+Consider the proposition: For all positive integers $n$, $3^n - 1$ is even. Suppose we want to prove this statement by induction.
 
 Suppose we want to prove this statement by induction.
 
@@ -165,12 +162,14 @@ Suppose we want to prove this statement by induction.
 **Proof by induction.** The base case is $n=1$. In this case $3^1 - 1 = 2$, which is even.
 Assume that for some positive integer $k$, $3^k - 1$ is even. This means that there exists an integer $m$ such that $3^k - 1 = 2m$. This implies that $3^k = 2m+1$. We want to show that $3^{k+1} - 1$ is even.
 We have:
+
 $$3^{k+1} - 1 = 3 \cdot 3^k - 1 = 3(3^k) - 1 = 3(2m + 1) - 1 = 6m + 2 = 2(3m + 1).$$
+
 Thus $3^{k+1} - 1$ is even, and we have shown that if $P(k)$ is true, then $P(k+1)$ is true. By the principle of mathematical induction, $P(n)$ is true for all positive integers $n$.
 
 ### Notes
 
-- Several submissions left off the important phrase "is even" from the predicate, inductice hypothesis, and inductive step. Note that just the expression $3^n - 1$ is not a predicate. A predicate is a statement that can be true or false depending on the value of the variable. The statement $3^n - 1$ is not a statement that can be true or false, it is just an expression. Similarly, in the inductive hypothesis, the statement "for some positive integer $k$, $3^k - 1$" does not make sense because we cannot "assume $3^k - 1$". We have to assume that something is *true about* $3^k - 1$, namely that it is even. 
+- Several submissions left off the important phrase "is even" from the predicate, inductive hypothesis, or inductive step. Note that the expression $3^n - 1$ by itself is not a predicate. A predicate is a statement that can be true or false depending on the value of the variable. The statement $3^n - 1$ is not a statement that can be true or false, it is just an expression. Since it cannot be true or false, we can neither "assume" it nor "prove" it. For example in the inductive hypothesis, the statement "for some positive integer $k$, $3^k - 1$" does not make sense because we cannot "assume $3^k - 1$". We have to assume that something is *true about* $3^k - 1$, namely that it is even. 
 - Some submissions had an incorrect base case, commonly $n=0$. This is not the base case because the proposition is claimed to be true "for all positive integers", and $0$ is not a positive integer.
 
 ## Learning Target 10
@@ -213,7 +212,16 @@ Thus $3^{k+1} - 1$ is even, and we have shown that if $P(k)$ is true, then $P(k+
 2. 
    - a) $\lbrace 1, 4, 7, 10, 13, 16, 19, 22, \dots \rbrace$ (This is the set of all natural numbers that are congruent to $1$ modulo $3$.)
    - b) INCORRECT SYNTAX. The expression following the vertical bar is not a predicate, it's a formula, so it cannot be used as a condition for filtering. 
-   - c) $\lbrace 1, 2, 0 \rbrace$ This is mapping the "mod 3" function onto the given set. Notice, we do not repeat anything in a set, so $\lbrace 1, 2, 0, 1, 2, 0, 1, 2, 0, 1, 2, 0 \rbrace$ is incorrect.
+   - c) $\lbrace 1, 2, 0 \rbrace$ This is mapping the "mod 3" function onto the given set. Notice, we do not repeat anything in a set, so $\lbrace 1, 2, 0, 1, 2, 0, 1, 2, 0, 1 \rbrace$ is incorrect.
+
+
+### Notes
+
+- Having 1(d) as "True" was a common mistake. Please be aware of the definitions of the special named sets (integers, natural numbers, real numbers). 
+- Several submissions included negative numbers in the response for 2(a). Those are not natural numbers, so they are not in the set that is being filtered. 
+- Several submissions gave $\lbrace 1, 2, 0, 1, 2, 0, 1, 2, 0, 1 \rbrace$ as the response to 2(c), not realizing that sets do not repeat elements. 
+- Several submissions continue to not distinguish between correct and incorrect syntax on set-builder notation. If this is you, a primary goal for you should be to come to terms with that distinction as soon as possible. 
+
 
 ## Learning Target 11
 
@@ -221,7 +229,24 @@ Thus $3^{k+1} - 1$ is even, and we have shown that if $P(k)$ is true, then $P(k+
 
 **Note**: We usually indicate the complement of a set $A$ by putting a bar over the $A$. However this notation doesn't render well online or in some of the publishing tools I am using. Therefore we will use $A^c$ to indicate the complement of $A$ from here on out. 
 
-Consider the sets $A = \lbrace 1, 2, 3 \rbrace$ and $B = \lbrace 2, 3, 4 \rbrace$, $C = \lbrace  6,7,8 \rbrace$ and the universal set $U = \lbrace 1, 2, 3, 4, 5 \rbrace$.
+Consider the sets $A = \lbrace 0, 1, 2, 3, 4 \rbrace$,  $B = \lbrace 4, 5, 6 \rbrace$, $C = \lbrace  6,7,8 \rbrace$ and the universal set $U = \lbrace 0, 1, 2, \dots, 10  \rbrace$.
+
+1. State $B \cup C$.
+2. State $A \cap B$.
+2. State $B \times C$.
+3. State $C \setminus A$.
+4. State $B^c$.
+5. State $|A|$.
+
+**Answers:**
+
+1. $B \cup C = \lbrace 4, 5, 6, 7, 8 \rbrace$.
+2. $A \cap B = \lbrace 4 \rbrace$.
+3. $B \times C = \lbrace (4,6), (4,7), (4,8), (5,6), (5,7), (5,8), (6,6), (6,7), (6,8) \rbrace$.
+4. $C \setminus A = \lbrace 6, 7, 8 \rbrace$.
+5. $B^c = \lbrace 0, 1, 2, 3, 7, 8, 9, 10 \rbrace$.
+6. $|A| = 5$.
+
 
 
 ## Learning Target 12
@@ -248,7 +273,53 @@ Below are six mappings between sets, numbered 1 through 6. For each mapping, sta
 
 Solve the following counting problems. Be sure to show all work, and explain your reasoning. Responses that consist only of answers, even if correct, will not be rated as *Master*. Responses that are illegible or very difficult to follow will also not be rated as *Master*. 
 
+1. Standard automobile license plates in a country display 2 numbers, followed by 2 letters, followed by 3 numbers. How many different standard plates are possible in this system? (Assume repetition of letters and numbers is allowed.)
+2. A ternary string is a string made up of 0's, 1's. and 2's. How many ternary strings of length 8 are there?
+3. Every one of the 4000 students at Southern Michigan University owns either a tablet or a smartwatch (or both). Surveys show that 3500 students own a tablet, and 1000 students own a smartwatch. How many students own both a tablet and a smartwatch?
+
+**Answers:**
+
+1. This is literally a license plate problem! There are 10 ways to fill in each of the five number slots and 26 ways to fill in each of the letter slots, so the total is $10^5 \cdot 26^2 = 67600000$. 
+2. There are 8 slots to fill and 3 free choices for each slot, so the total is $3^8 = 6561$. 
+3. The number of students who have either a tablet or a smartwatch (which is all 4000 students) is the number who have a tablet (3500), plus the number who have a smartwatch (1000), minus the number of students who have both. This last quantity is what we want to find this time; give it the variable $x$ for the moment. Then $4000 = 3500 + 1000 - x$, so $4000 = 4500 - x$ which means $x = 500$ students who own both devices.  
+
+
 ## Learning Target 14
+
+On the following, be sure to show all work, and explain your reasoning. Responses that consist only of answers, even if correct, will not be rated as *Master*. Responses that are illegible or very difficult to follow will also not be rated as *Master*. 
+
+1. Compute the following. 
+   - a. $\binom{10}{3}$
+   - b. $\binom{20}{7}$
+   - c. $\binom{100}{0}$
+2. A club has 25 members. How many ways are there to choose 5 members from the club to represent the club at an activity fair? 
+3. A club has 25 members. How many ways are there to choose the president, vice president, and secretary of the club if no one can hold more than one office?
+
+**Answers:**
+
+1. .
+    - $\binom{10}{3} = \dfrac{10!}{3! 7!} = \dfrac{10 \cdot 9 \cdot 8}{3 \cdot 2 \cdot 1} = 120$
+    - $\binom{20}{7} = \dfrac{20!}{7! 13!} = \dfrac{20 \cdot 19 \cdot 18 \cdot 17 \cdot 16 \cdot 15 \cdot 14}{7 \cdot 6 \cdot \cdots 2 \cdot 1} = \dfrac{390700800}{5040} = 77520$
+    -  $\binom{100}{0} = 1$  (Because this number counts the number of 100-bit binary strings with no `1` bits, and there is only one of those, the zero string.)
+2. We are merely selecting 5 members from a group of 25 with no other restrictions. So the count is $\binom{25}{5} = 53130$. 
+3. This is a license plate situation: There are 25 people who can be chosen for president, then 24 for vice-president, then 23 for secretary. So the count is $25 \cdot 24 \cdot 23 = 13800$. This is the same as $P(25,3) = \dfrac{25!}{22!}$. 
 
 ## Learning Target 15
 
+Below are four integer sequences. Label each one as **arithmetic**, **geometric**, or **neither**. Then, if a sequence is either arithmetic or geometric, give *both* a closed formula *and* a complete recursive definition for the sequence. **You are to assume that all starting indexes are 0, not 1**. You do not need to show your work, but your answers must conform to the Standards for Student Work Document. 
+
+1. $4, 2, 1, 1/2, 1/4, \dots$
+2. $1, 5, 6, 11, \dots$
+3. $4, 8, 12, 16, 20, 24, \dots$ 
+4. $0, 1, 0, 1,0, 1, \dots$
+
+**Answers:**
+
+1. Geometric (with common factor of $1/2$.) 
+    - Closed formula: $a(n) = 4 \cdot \left( \frac{1}{2} \right)^n$. 
+    - Recursive: $a_0 = 4$ and $a_n = \frac{1}{2}a_{n-1}$ when $n > 0$. 
+2. Neither. 
+3. Arithmetic (with common step size $4$.)
+    - Closed formula: $a(n) = 4 + 4n$. 
+    - Recursive: $a_0 = 4$ and $a_n = 4 + a_{n-1}$ when $n > 0$. 
+4. Neither. 
