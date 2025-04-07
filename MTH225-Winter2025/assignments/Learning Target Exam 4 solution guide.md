@@ -247,6 +247,11 @@ Consider the sets $A = \lbrace 0, 1, 2, 3, 4 \rbrace$,  $B = \lbrace 4, 5, 6 \rb
 5. $B^c = \lbrace 0, 1, 2, 3, 7, 8, 9, 10 \rbrace$.
 6. $|A| = 5$.
 
+### Notes
+
+- A few submissions were not using the correct delimiters (braces, brackets, etc.) in part 3, the Cartesian product. Note, the Cartesian product is a set of ordered pairs, so it must be enclosed in braces; and the objects inside the set must be enclosed in parentheses because they are ordered pairs -- not enclosed in set braces. 
+- Some submissions simply gave the set $A$ in part 5 rather than its cardinality. Others found the cardinality (5) and put it inside set braces, for a response of $\lbrace 5 \rbrace$. This is incorrect. The cardinality of a set is a number, not a set.
+
 
 
 ## Learning Target 12
