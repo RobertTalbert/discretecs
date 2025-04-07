@@ -249,7 +249,7 @@ Consider the sets $A = \lbrace 0, 1, 2, 3, 4 \rbrace$,  $B = \lbrace 4, 5, 6 \rb
 
 ### Notes
 
-- A few submissions were not using the correct delimiters (braces, brackets, etc.) in part 3, the Cartesian product. Note, the Cartesian product is a set of ordered pairs, so it must be enclosed in braces; and the objects inside the set must be enclosed in parentheses because they are ordered pairs -- not enclosed in set braces. 
+- A few submissions were not using the correct delimiters (braces, brackets, etc.) in part 3, the Cartesian product. A common incorrect response was to write $B \times C = \lbrace 4,6 \rbrace, \lbrace 4,7 \rbrace, \lbrace 4,8 \rbrace, \lbrace 4,6 \rbrace, \cdots, \lbrace 6,8 \rbrace \rbrace$.Note, the Cartesian product is a set of ordered pairs, so it must be enclosed in braces; and the objects inside the set must be enclosed in parentheses because they are ordered pairs -- not enclosed in set braces. 
 - Some submissions simply gave the set $A$ in part 5 rather than its cardinality. Others found the cardinality (5) and put it inside set braces, for a response of $\lbrace 5 \rbrace$. This is incorrect. The cardinality of a set is a number, not a set.
 
 
