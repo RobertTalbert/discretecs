@@ -182,30 +182,30 @@ Thus $3^{k+1} - 1$ is even, and we have shown that if $P(k)$ is true, then $P(k+
 
    a) $5 \in \emptyset$
 
-   b) $\{6,7,8\} \subseteq \{5,7,9\}$
+   b) $\lbrace 6,7,8\rbrace \subseteq \lbrace 5,7,9\rbrace$
 
    c) $\frac{1}{2} \in \mathbb{Z}$ 
 
    d) $\mathbb{Z} \subseteq \mathbb{N}$ 
 
-   e) $\emptyset \subseteq \{1,2,3,4,5\}$
+   e) $\emptyset \subseteq \lbrace 1,2,3,4,5\rbrace$
 
    
 
 2. Here are three sets written in set-builder notation. For each, if the set is written using correct set syntax, rewrite it using roster notation. If the set is written using incorrect syntax, write **INCORRECT SYNTAX**. 
 
-   a) $\lbrace n \in \mathbb{N} \, : \, n \, \% \, 3 = 1 \rbrace$
+   a) $\lbrace n \in \mathbb{N} \ : \ n \ \\% \ 3 = 1 \rbrace$
 
-   b) $\lbrace n \in \mathbb{N} \, : \, 2^n \rbrace$ 
+   b) $\lbrace n \in \mathbb{N} \ : \ 2^n \rbrace$ 
 
-   c) $\lbrace  x \, \% \, 3 \, : \, x\in \lbrace 1,2,3,\dots 10 \rbrace \rbrace$
+   c) $\lbrace  x \ \\% \ 3 \ : \ x\in \lbrace 1,2,3,\dots 10 \rbrace \rbrace$
 
 
 **Answers:** 
 
 1. (Explanations are not necessary; they're just here to help you understand the answers.)
    - a) FALSE. The empty set has no elements, so $5$ cannot be in it. 
-   - b) FALSE. The set $\{6,7,8\}$ is not a subset of $\{5,7,9\}$ because $6$ and $8$ are not in the second set. 
+   - b) FALSE. The set $\lbrace 6,7,8\rbrace $ is not a subset of $\lbrace 5,7,9 \rbrace$ because $6$ and $8$ are not in the second set. 
    - c) FALSE. The set of integers $\mathbb{Z}$ contains whole numbers, but not fractions like $\frac{1}{2}$. 
    - d) FALSE. The set of integers $\mathbb{Z}$ contains negative numbers and zero, while the set of natural numbers $\mathbb{N}$ only contains positive whole numbers. 
    - e) TRUE. The empty set is a subset of every set.
