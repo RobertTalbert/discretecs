@@ -212,7 +212,7 @@ Thus $3^{k+1} - 1$ is even, and we have shown that if $P(k)$ is true, then $P(k+
 2. 
    - a) $\lbrace 1, 4, 7, 10, 13, 16, 19, 22, \dots \rbrace$ (This is the set of all natural numbers that are congruent to $1$ modulo $3$.)
    - b) INCORRECT SYNTAX. The expression following the vertical bar is not a predicate, it's a formula, so it cannot be used as a condition for filtering. 
-   - c) $\lbrace 1, 2, 0 \rbrace$ This is mapping the "mod 3" function onto the given set. Notice, we do not repeat anything in a set, so $\lbrace 1, 2, 0, 1, 2, 0, 1, 2, 0, 1 \rbrace$ is incorrect.
+   - c) $\lbrace 1, 2, 0 \rbrace$ This is mapping the "mod 3" function onto the given set. Notice, we do not repeat anything in a set, so $\lbrace 1, 2, 0, 1, 2, 0, 1, 2, 0, 1 \rbrace$ is incorrect. If this was the ONLY mistake on this Learning Target, it was treated as a "simple" error and Master rating was awarded, but this may not be the case in the future. Remember: No repetitions in sets! This is very important in CS applications. 
 
 
 ### Notes
