@@ -28,7 +28,7 @@
 
 1. There are many possible examples for each of the four parts. Here are a few samples. 
     - (a) Injective, but not surjective: For each input $n$, let $f(n) = n + 1$. This is injective because if it were not injective, then there would be two different inputs $a$ and $b$ that both map to the same output, so $a+1 = b+1$. But if $a+1= b+1$ then $a=b$. It is not surjective because there is no input that gives an output of 0.
-    - (b) Surjective, but not injective: For each input $n$, let $f(n) = n \\% 2$. This is surjective because the outputs are 0 and 1, and there are inputs that give both outputs. It is not injective because for example $f(0) = f(2) = 0$.
+    - (b) Surjective, but not injective: For each input $n$, let $f(n)$ be defined by dividing $n$ by 2 and then rounding down. For example $f(3) = 1$. This is surjective because given any $y$ in the codomain, $2y$ maps onto it. But not injective because for example $f(2) = f(3) = 1$.
     - (c) Both injective and surjective but not the identity function: For each input $n$, if $n$ is even then map it to $n+1$; and if $n$ is odd then map it to $n-1$. This is injective because if $f(a) = f(b)$, then either both $a$ and $b$ are even or both are odd. In either case, we can show that $a = b$. It is surjective because for every output $m$, if $m$ is even then there is an input $m-1$ that maps to it; and if $m$ is odd then there is an input $m+1$ that maps to it. (A picture is more convincing, but it's hard to draw a picture on GitHub!)
     - (d) Neither injective nor surjective: For each input $n$, let $f(n) = n \\% 3$. This is not injective because for example $f(0) = f(3) = 0$. It is not surjective because there is no input that gives an output of 3.
 
