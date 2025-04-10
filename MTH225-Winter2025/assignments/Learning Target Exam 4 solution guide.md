@@ -332,3 +332,8 @@ Below are four integer sequences. Label each one as **arithmetic**, **geometric*
     - Closed formula: $a(n) = 4 + 4n$. 
     - Recursive: $a_0 = 4$ and $a_n = 4 + a_{n-1}$ when $n > 0$. 
 4. Neither. 
+
+### Notes
+
+- Some submissions did not include the closed formula or recursive definition for the sequences that were arithmetic or geometric. This is a requirement of the problem, so be sure to include it in your response.
+- Several submissions gave closed formulas that would have been correct if the index started at 1, but were not correct when started at 0. For example, $a(n) = 4n$ is correct for part 3 if the index starts at 1, but not if it starts at 0. The correct closed formula for the sequence $4, 8, 12, 16, \dots$ starting at index 0 is $a(n) = 4 + 4n$. The instructions clearly state that the index starts at 0, so be sure to pay attention to that.
