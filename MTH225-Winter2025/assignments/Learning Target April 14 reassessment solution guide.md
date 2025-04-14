@@ -116,7 +116,9 @@ Solve the following counting problems. Be sure to show all work, and explain you
 **Answers:**
 
 1. The number of these strings that start with an `x` is $2^9 = 512$. The number of these strings that end with a `y` is also $2^9 = 512$. However, the number of these strings that start with an `x` and end with a `y` is $2^8 = 256$. Therefore, by the principle of inclusion/exclusion, the total number of strings that either start with an `x` or end with a `y` is $512 + 512 - 256 = 768$.
-2. **Note: A detail was left out of this problem, namely that you cannot have double scoops of the same flavor.** Assuming this detail, there are $5$ choices for the first scoop and $4$ choices for the second scoop. However, since the order of the scoops does not matter, we must divide by $2$. Therefore, the total number of different sundaes is $\frac{5 \cdot 4}{2} = 10$. Note, this is the same thing as $\binom{5}{2}$. If your solution did not include the detail about not allowing double scoops, then I will read your explanation and grade on the quality of the explanation. 
+2. **Note: A detail was left out of this problem, namely that you cannot have double scoops of the same flavor.** 
+   - Assuming this detail, there are $5$ choices for the first scoop and $4$ choices for the second scoop. However, since the order of the scoops does not matter, we must divide by $2$ because otherwise we are double-counting different orderings of the same two flavors (for example, chocolate then vanilla would be counted as a different sundae than vanilla followed by chocolate). Therefore, the total number of different sundaes is $\frac{5 \cdot 4}{2} = 10$. Note, this is the same thing as $\binom{5}{2}$. 
+   - If you did not make the assumption that the scoops must be different, then you have to consider two cases: First the case where the scoops are different flavors, and then where they are the same flavor. The first case is considered above and comes out to 10 choices. Then there are five possible sundaes where the scoops are the same flavor (one for each flavor). Therefore, the total number of different sundaes is $10 + 5 = 15$.
 3. The first two numbers can be any digit from 0 to 9, so there are $10 \cdot 10 = 100$ choices for the first two numbers. The next two letters can be any letter from A to Z, so there are $26 \cdot 26 = 676$ choices for the letters. Finally, the last three numbers can also be any digit from 0 to 9, so there are $10 \cdot 10 \cdot 10 = 1000$ choices for the last three numbers. Therefore, the total number of different standard plates is $100 \cdot 676 \cdot 1000 = 67,600,000$.
 
 
@@ -139,6 +141,8 @@ On the following, be sure to show all work, and explain your reasoning. Response
    - a. $\binom{11}{9} = \frac{11!}{9!2!} = \frac{11 \cdot 10}{2} = 55$.
    - b. $\binom{25}{20} = \frac{25!}{20!5!} = \frac{25 \cdot 24 \cdot 23 \cdot 22 \cdot 21}{5 \cdot 4 \cdot 3 \cdot 2 \cdot 1} = 53130$.
    - c. $\binom{1000}{1} = \frac{1000!}{1! 999!} = \frac{1000}{1} = 1000$. Or, just notice that this binomial coefficient counts the number of ways to select one item from a group of 1000, and there are 1000 ways to do this (one for each item that might be selected). 
+2. The number of these strings that contain exactly 4 `x`'s is the same as the number of ways to choose 4 positions from 10 for the `x`'s. This is $\binom{10}{4} = \frac{10!}{4!6!} = \frac{10 \cdot 9 \cdot 8 \cdot 7}{4 \cdot 3 \cdot 2 \cdot 1} = 210$.
+3. The number of different committees of 3 people that can be chosen from a group of 12 people is $\binom{12}{3} = \frac{12!}{3!9!} = \frac{12 \cdot 11 \cdot 10}{3 \cdot 2 \cdot 1} = 220$.
 
 ## Learning Target 15
 
