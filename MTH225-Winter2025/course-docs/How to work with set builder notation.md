@@ -64,11 +64,11 @@ flowchart LR
 
 1. $\lbrace x \in \mathbb{Z} | x > 0 \rbrace$ 
    - This is correct syntax: It is a domain set followed by a predicate. The domain set is $\mathbb{Z}$ and the predicate is $x > 0$. 
-   - To convert to roster notation, we filter the set using the predicate: $\lbrace 1, 2, 3, \ldots \rbrace$. The predicate takes the elements of the domain set and returns the ones that make the predicate "True", which in this case are all the positive integers.
+   - To convert to roster notation, we filter the set using the predicate to get $\lbrace 1, 2, 3, \ldots \rbrace$. The predicate takes the elements of the domain set and returns the ones that make the predicate "True", which in this case are all the positive integers.
 2. $\lbrace x \in \mathbb{Z} | x^2 \rbrace$
    - This is incorrect syntax: It is a domain set followed by a formula. The domain set is $\mathbb{Z}$ and the formula is $x^2$. 
 3. $\lbrace x \\% 2 = 0 | x \in \mathbb{Z} \rbrace$
    - This is incorrect syntax: It is a predicate followed by a domain set. The predicate is $x \\% 2 = 0$ and the domain set is $\mathbb{Z}$. Notice, $x \\% 2 = 0$ is not a formula -- it is an expression that evaluates to True/False.
 4. $\lbrace x^2 | x \in \mathbb{Z} \rbrace$
    - This is correct syntax: It is a formula followed by a domain set. The formula is $x^2$ and the domain set is $\mathbb{Z}$. 
-   - To convert to roster notation, we apply the formula to each element of the domain set: $\lbrace 0, 1, 4, 9, \ldots \rbrace$. The formula takes the elements of the domain set and applies the formula to them, which in this case are all the squares of the integers.
+   - To convert to roster notation, we apply the formula to each element of the domain set to get $\lbrace 0, 1, 4, 9, \ldots \rbrace$. The formula takes the elements of the domain set and applies the formula to them, which in this case are all the squares of the integers.
