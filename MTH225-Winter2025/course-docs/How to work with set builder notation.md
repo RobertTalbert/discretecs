@@ -16,7 +16,7 @@ Anything else is considered incorrect syntax. Specifically: **stating the predic
 | Syntax | Example | Correct/Incorrect? |
 |--------|---------|--------------------|
 | Domain set followed by predicate | $\lbrace x \in \mathbb{Z} : x > 0 \rbrace$ | **Correct** |
-| Domain set followed by formula | $\lbrace x \in \mathbb{Z} | x^2 \rbrace$ : **Incorrect** |
+| Domain set followed by formula | $\lbrace x \in \mathbb{Z} : x^2 \rbrace$ : **Incorrect** |
 | Predicate followed by domain set | $\lbrace x \\% 2 = 0 : x \in \mathbb{Z} \rbrace$ | Incorrect |
 | Formula followed by domain set | $\lbrace x^2 
 : x \in \mathbb{Z} \rbrace$ | **Correct** |
