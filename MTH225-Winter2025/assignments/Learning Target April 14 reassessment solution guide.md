@@ -162,11 +162,13 @@ Below are four integer sequences. For each one, determine if it is arithmetic, g
 
 **Answers:**
 
-1. Geometric. 
+1. Geometric (with common ratio $3$).
    - Closed formula: $a_n = 2 \cdot 3^n$.
    - Recursive formula: $a_0 = 2$, $a_n = 3 a_{n-1}$ for $n \geq 1$.
 2. Neither.    
-3. Arithmetic. 
+3. Arithmetic (with common step $2$).
    - Closed formula: $a_n = 10 + 2n$.
    - Recursive formula: $a_0 = 10$, $a_n = a_{n-1} + 2$ for $n \geq 1$.
-4. Neither.
+4. Geometric (with common ratio $-1$).
+   - Closed formula: $a_n = (-1)^n$.
+   - Recursive formula: $a_0 = -1$, $a_n = -a_{n-1}$ for $n \geq 1$.
