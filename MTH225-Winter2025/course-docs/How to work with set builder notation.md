@@ -24,7 +24,8 @@ Remember that $\mathbb{Z}$ is the entire set of integers: $\mathbb{Z} = \lbrace 
 
 ## Flowchart for deciding correctness and converting to roster notation
 
-The following flowchart can be used to determine whether the set builder notation is correct and how to convert it to roster notation. 
+The following flowchart can be used to determine whether the set builder notation is correct and how to convert it to roster notation. (Use the navigation tools to zoom in/out and pan around the flowchart.)
+
 
 ```mermaid
 flowchart LR
