@@ -13,6 +13,8 @@ Anything else is considered incorrect syntax. Specifically: **stating the predic
 
 ### Examples of correct/incorrect syntax
 
+Remember that $\mathbb{Z}$ is the entire set of integers: $\mathbb{Z} = \lbrace \ldots, -3, -2, -1, 0, 1, 2, 3, \ldots \rbrace$.
+
 | Syntax | Example | Correct/Incorrect? |
 |--------|---------|--------------------|
 | Domain set followed by predicate | $\lbrace x \in \mathbb{Z} : x > 0 \rbrace$ | **Correct** |
