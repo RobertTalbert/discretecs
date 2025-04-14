@@ -26,6 +26,9 @@ Remember that $\mathbb{Z}$ is the entire set of integers: $\mathbb{Z} = \lbrace 
 
 The following flowchart can be used to determine whether the set builder notation is correct and how to convert it to roster notation. (Use the navigation tools to zoom in/out and pan around the flowchart.)
 
+To use this flowchart, start with a set given in set builder notation. This will have two parts: A domain set, and an expression. For example if the set is $\lbrace x \in \mathbb{Z} : x > 0 \rbrace$, the domain set is $\mathbb{Z}$ and the expression is $x > 0$.
+
+
 
 ```mermaid
 flowchart LR
