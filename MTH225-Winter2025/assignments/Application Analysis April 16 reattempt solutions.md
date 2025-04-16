@@ -21,18 +21,18 @@ Click here for the exam form with the questions.
 
 ### Problem Group 1
 
-1. Here are the steps for the base conversion algorithm. We repeatedly divide by 36 and keep the remainder until the remainder is 0; then the final result is the remainders in reverse order. 
+1. Here are the steps for the base conversion algorithm. We repeatedly divide by 36 and keep the remainder until the quotient is 0; then the final result is the remainders in reverse order. 
 
 $$\begin{eqnarray*}
 483726 &= 13436(36) + 30 \\
 13436 &= 373(36) + 8 \\
 373 &= 10(36) + 13 \\
-36 &= 1(36) + 0 
+10 &= 0(36) + 10
 \end{eqnarray*}$$
 
-The remainders are 30, 8, 13, and 0. The final result is the (nonzero) remainders in reverse order, which is 13, 8, and 30. In base 36, "13" is represented by the letter `d` and "30" is represented by the letter `u`, so the final result is `du8`.
+The remainders are 30, 8, 13, 10. The final result is the remainders in reverse order, which is 10, 13, 8, and 30. In base 36, "10" is represented by the letter `a`, "13" is represented by the letter `d`, and "30" is represented by the letter `u`, so the final result is `ad8u`.
 
-2. Since $89$ is `1011001` in binary, it means that 
+1. Since $89$ is `1011001` in binary, it means that 
 $$89 = 1 \cdot 2^6 + 0 \cdot 2^5 + 1 \cdot 2^4 + 1 \cdot 2^3 + 0 \cdot 2^2 + 0 \cdot 2^1 + 1 \cdot 2^0$$
 Use this fact to replace the 89 in the exponent with a sum of powers of 2: 
 $$7^{89} = 7^{2^6 + 2^4 + 2^3 + 2^0} = 7^{64 + 16 + 8 + 1}$$
