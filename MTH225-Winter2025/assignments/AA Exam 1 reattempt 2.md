@@ -11,8 +11,6 @@
 
 For each of the questions in this part, circle the letter of the one response that you believe is most correct. 
 
-
-
 1. The quantity `a % b` represents 
    - (a) The quotient obtained when dividing $a$ by $b$
    - (b) The quotient obtained when dividing $b$ by $a$
@@ -41,12 +39,14 @@ For each of the questions in this part, circle the letter of the one response th
    - (d) Some student in this class is a math major
    - (e) None of these
 
+   <div style="page-break-after: always;"></div>
+   
 5. The statement "If $x$ is a real number, then $x^2 \geq 0$" is        
    - (a) True for all real numbers $x$
    - (b) True for some real numbers $x$
    - (c) False for all real numbers $x$
    - (d) False for some real numbers $x$
-   - (e) None of these
+   - (e) Both (b) and (d)
 
 6. The statement $P \land Q$ is known as 
    - (a) A conjunction
@@ -83,14 +83,16 @@ For each of the questions in this part, circle the letter of the one response th
     - (d) 16
     - (e) None of these
 
+<div style="page-break-after: always;"></div>
+
 ## Problem Group 1
 
 Do EXACTLY ONE of the following problems. If you do the first one, you need to do both parts. Turning in work on both problems will result in the entire group being discarded. **Do not merely give an answer, or just the setup for a calculation followed by an answer, but a complete explanation for your approach, in clear English written in complete sentences that explains why your solution is correct.** Any solution that is not accompanied by such an explanation will not be considered a successful attempt. 
 
-1.	Convert the number 483726 from base 10 to base 36 (sexagesimal) using the base conversion algorithm. For symbols, use ordinary 0-9 for zero through nine, then lower case letters a through z for 10 through 35. 
-2.	Using the “repeated squaring” algorithm from Application/Analysis Homework 2, find the last two digits of the number 7^{89} . The number 89 in binary form is 1011001. 
+1.	Convert the number 483726 from base 10 to base 36 using the base conversion algorithm. For symbols, use ordinary 0-9 for zero through nine, then lower case letters a through z for 10 through 35. 
+2.	Using the “repeated squaring” algorithm from Application/Analysis Homework 2, find the last two digits of the number $7^{89}$ . The number 89 in binary form is 1011001. 
 
-
+<div style="page-break-after: always;"></div>
 
 ## Problem Group 2
 
@@ -109,11 +111,17 @@ def recursive_max(lst):
 
 >**Proof:** For the base case, note that $4^2 = 16 \leq 2^4 = 16$. Now assume that for some integer $k$, $k^2 \leq 2^k$. We want to show that $k^2 + 1 \leq 2^{k+1}$. Start with the inequality $k^2 \leq 2^k$ from the induction hypothesis. Adding $1$ to both sides gives $k^2 + 1 \leq 2^k + 1$. Now $1 < 2$, so $2^k + 1 < 2^k + 2$. But on the right, $2^k + 2 = 2^k + 2^1 = 2^{k+1}$. Putting all this together we have that $k^2 + 1 \leq 2^k + 1 \leq 2^k + 2 = 2^{k+1}$. Therefore $k^2 + 1 \leq 2^{k+1}$ which is what we wanted to prove. 
 
-
+<div style="page-break-after: always;"></div>
 
 ## Problem Group 3
 
 1. 	Use a truth table to determine whether the following argument is valid or invalid: The premises are $p \land q$ and $(\neg p) \land r$, and the conclusion is $q \lor r$. Be sure to clearly state whether the argument is valid or invalid, and how you know this from the truth table. 
 2. In computer science there are two logical operators used frequently in circuits: $NAND$ and $NOR$. The proposition $p \ NAND \ q$ is true when either $p$ or $q$, or both, are false, and it is false when both $p$ and $q$ are true. The proposition $p \ NOR \ q$ is true when both $p$ and $q$ are false, and it is false when either $p$ or $q$, or both, are true. 
    - (a) Construct a truth table for $p \ NAND \ q$ and for $p \ NOR \ q$. 
-   - (b) Show that $p \ NAND \ q$ is logically equivalent to $\neg (p \land q)$, and that $p \ NOR \ q$ is logically equivalent to $\neg (p \lor q)$.
+   - (b) Use a truth table to show that $p \ NAND \ q$ is logically equivalent to $\neg (p \land q)$, and that $p \ NOR \ q$ is logically equivalent to $\neg (p \lor q)$.
+
+<div style="page-break-after: always;"></div>
+
+
+
+### This page intentionally left blank for overflow space
