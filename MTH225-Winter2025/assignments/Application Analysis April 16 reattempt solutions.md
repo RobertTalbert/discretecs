@@ -1,6 +1,6 @@
 # Application/Analysis Exam reattempt solution guides 
 
-This document has solutions for both of the Application/Analysis Exam reattempts from April 16. Links to the original exam forms, with the questions, are provided at the top of each section.
+This document has solutions for both of the Application/Analysis Exam reattempts from April 16. Links to the original exam forms, with the questions, are provided on the [Class Page](https://docs.google.com/document/d/1pCxYpwLsHa9ciZv4zrtCH2P3aEM6g6Za2onQsOJCung/edit?pli=1&tab=t.0) entry for April 16. 
 
 ## Exam 1 reattempt solutions
 
@@ -98,7 +98,7 @@ So the last two digits of $7^{89}$ are 07.
 In this argument, **the premises are never true simultaneously**. Therefore **this argument is considered valid** because the definition of a "valid" argument is based on the conditional statement that *if* the premises are true, *then* the conclusion is true; this conditional statement has a hypothesis that is always false, therefore the conditional statement is true. 
 
 1. .
-   - (a) Based on the descriptions above, he truth table for NAND and NOT are: 
+   - (a) Based on the descriptions above, he truth tables for NAND and NOT are: 
   
 | p | q | p NAND q | p NOR q | 
 |---|---|----------| ------ | 
