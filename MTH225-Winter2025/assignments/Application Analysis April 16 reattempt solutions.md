@@ -27,7 +27,7 @@ $$\begin{eqnarray*}
 483726 &= 13436(36) + 30 \\
 13436 &= 373(36) + 8 \\
 373 &= 10(36) + 13 \\
-36 &= 1(36) + 0 \\
+36 &= 1(36) + 0 
 \end{eqnarray*}$$
 
 The remainders are 30, 8, 13, and 0. The final result is the (nonzero) remainders in reverse order, which is 13, 8, and 30. In base 36, "13" is represented by the letter `d` and "30" is represented by the letter `u`, so the final result is `du8`.
@@ -35,10 +35,11 @@ The remainders are 30, 8, 13, and 0. The final result is the (nonzero) remainder
 2. Since $89$ is `1011001` in binary, it means that 
 $$89 = 1 \cdot 2^6 + 0 \cdot 2^5 + 1 \cdot 2^4 + 1 \cdot 2^3 + 0 \cdot 2^2 + 0 \cdot 2^1 + 1 \cdot 2^0$$
 Use this fact to replace the 89 in the exponent with a sum of powers of 2: 
-$$7^{89} = 7^{2^6 \cdot 2^4 \cdot 2^3 \cdot 2^0} = 7^{64 \cdot 16 \cdot 8 \cdot 1}$$
-Now we can use the fact that $a^{b \cdot c} = (a^b)^c$ to rewrite this as
+$$7^{89} = 7^{2^6 + 2^4 + 2^3 + 2^0} = 7^{64 + 16 + 8 + 1}$$
+Now we can use the fact that $a^{b + c} = a^b \cdot a^c$ to rewrite this as
 $$7^{89} = 7^{64} \cdot 7^{16} \cdot 7^{8} \cdot 7^{1}$$
 Now we can calculate each of these powers of 7 using repeated squaring, modulo 100 since we want the last two digits. 
+
 $$\begin{eqnarray*}
 7^1 &= 7 \\
 7^2 &= 49 \\
@@ -48,31 +49,75 @@ $$\begin{eqnarray*}
 7^{32} &= 1^2 = 1 \mod 100 \\
 7^{64} &= 1^2 = 1 \mod 100 \\
 \end{eqnarray*}$$
+
 Now we can multiply these together, modulo 100.
+
 $$\begin{eqnarray*}
 7^{89} &= 7^{64} \cdot 7^{16} \cdot 7^{8} \cdot 7^{1} \\
 &= 1 \cdot 1 \cdot 1 \cdot 7 \\
 &= 7 \mod 100 = 7 
 \end{eqnarray*}$$
+
 So the last two digits of $7^{89}$ are 07.
 
 ### Problem Group 2
 
-1. The input to the function is the list `[3,5,2,8,1]'. Here are the steps given in order as a bullet list:
+1. The input to the function is the list `[3,5,2,8,1]`. Here are the steps given in order as a bullet list:
 
-- The length of the input is not 1. So set `sub_max` equal to the function `recursive_max([5,2,8,1])`.
-- The length of the input is not 1. So set `sub_max` equal to the function `recursive_max([2,8,1])`.
-- The length of the input is not 1. So set `sub_max` equal to the function `recursive_max([8,1])`.
-- The length of the input is not 1. So set `sub_max` equal to the function `recursive_max([1])`.
-- The length of the input is 1. So return `1`.
+- The length of the input is not 1. So `sub_max` is set equal to  `recursive_max([5,2,8,1])` and the item returned is either 3 or the result of the recursive call, whichever is larger. We won't know this until the recursion is done. 
+- The length of the input is not 1. So set `sub_max` equal to the function `recursive_max([2,8,1])`. The item returned is either 5 or the result of the next recursive call, whichever is larger. We won't know this until the recursion is done.
+- The length of the input is not 1. So set `sub_max` equal to the function `recursive_max([8,1])`. The item returned is either 2 or the result of the next recursive call, whichever is larger. We won't know this until the recursion is done.
+- The length of the input is not 1. So set `sub_max` equal to the function `recursive_max([1])`. The item returned is either 8 or the result of the next recursive call, whichever is larger. We won't know this until the recursion is done.
+- The length of the input is 1. So return `1` and begin to work our way up through the pending calculations.
+- The previous function call returns the larger of 8 and 1, which is 8. 
+- The function call before that returns the larger of 2 and 8, which is 8. 
+- The function call before that returns the larger of 5 and 8, which is 8. 
+- The function call before that returns the larger of 3 and 8, which is 8. This is the top-most calculation in the stack, so the final result is 8. 
 
 
 2. The proof has more than one significant error: 
    
-   - The inductive step is incorrect. It says we need to show that $k^2 + 1 \leq 2^{k+1}$, but it should be $(k+1)^2 \leq 2^{k+1}$. Note, $k^2 + 1 \neq (k+1)^2$. (This is the main error.)
+   - The inductive step is incorrect. It says we need to show that $k^2 + 1 \leq 2^{k+1}$, but it should be $(k+1)^2 \leq 2^{k+1}$. Note, $k^2 + 1 \neq (k+1)^2$. (This is the main error and this one must be pointed out to have a successful solution.)
    - There is also an algebra error in the inductive step: It says $2^k + 2^1 = 2^{k+1}$ but this is not true. 
 
 ### Problem Group 3
+
+1. Here is a truth table comtaining all the statements. The premises are indicated with a check mark; the conclusion has a star. 
+
+| $p$ | $q$ | $r$ | $p \wedge q$ ✓ | $\neg p$     | $(\neg p) \wedge r$ ✓ | $q \vee r$ ☆     | |              
+| --- | --- | --- | --------------- | --- | ---------------------- | --- | ------------- | 
+| T   | T   | T   | T               |  F   | F                      | T   |       
+| T   | F   | T   | F               |  F   | F                      | T   |        
+| F   | T   | T   | F               |  T   | T                      | T   |      
+| F   | F   | T   | F               |  T   | T                      | T   |     
+| T   | T   | F   | T               |  F   | F                      | T   |       
+| T   | F   | F   | F               |  F   | F                      | F   |      
+| F   | T   | F   | F               |  T   | F                      | T   |  
+| F   | F   | F   | F               |  T   | F                      | F   | 
+
+In this argument, **the premises are never true simultaneously**. Therefore **this argument is considered valid** because the definition of a "valid" argument is based on the conditional statement that *if* the premises are true, *then* the conclusion is true; this conditional statement has a hypothesis that is always false, therefore the conditional statement is true. 
+
+1. .
+   - (a) Based on the descriptions above, he truth table for NAND and NOT are: 
+  
+| p | q | p NAND q | p NOR q | 
+|---|---|----------| ------ | 
+| T | T | F        | F
+| T | F | T        | F
+| F | T | T        | F
+| F | F | T        | T
+
+   - (b) Here are the truth tables for $\neg (p \land q)$ and $\neg (p \lor q)$: 
+
+| $p$ | $q$ | $p \land q$ | $\neg(p \land q)$ |  $p \lor q$   |  $\neg(p \lor q)$   |
+| --- | --- | ----------- | ----------------- | --- | --- |
+| T   | T   | T           | F                 |  T   |  F   |
+| T   | F   | F           | T                 |  T   |   F  |
+| F   | T   | F           | T                 |  T  |  F  |
+| F   | F   | F           | T                 |   F  |  T   |
+
+The results in column 4 are the same as for NAND; the results in column 6 are the same as for NOR. Therefore the logical equivalences hold. 
+
 
 
 ##  Exam 2 reattempt solutions
