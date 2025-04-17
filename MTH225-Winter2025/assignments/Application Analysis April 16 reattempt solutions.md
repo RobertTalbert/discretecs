@@ -97,7 +97,7 @@ So the last two digits of $7^{89}$ are 07.
 
 In this argument, **the premises are never true simultaneously**. Therefore **this argument is considered valid** because the definition of a "valid" argument is based on the conditional statement that *if* the premises are true, *then* the conclusion is true; this conditional statement has a hypothesis that is always false, therefore the conditional statement is true. 
 
-Put differently: An argument is *invalid* if there is a situation (row in the truth table) where the premises are true but the conclusion is false. That never happens here because the premises are never true in the same row. Therefore the argument fails to be invalid, e.g. the argument is valid. 
+Put differently: An argument is *invalid* if there is a situation (row in the truth table) where the premises are true but the conclusion is false. That never happens here because the premises are never true in the same row. Therefore the argument fails to be invalid, i.e. the argument is valid. 
 
 1. .
    - (a) Based on the descriptions above, he truth tables for NAND and NOT are: 
