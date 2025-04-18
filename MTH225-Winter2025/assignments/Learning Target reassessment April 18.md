@@ -46,7 +46,7 @@ The two expressions have different outcomes in rows 3 and 4, so they are not log
 ## Learning Target 12
 
 1. Not a function (because $f$ maps to two outputs)
-2. Surjective, but not injective (because $p$ and $c$ both map to 2)
+2. Not a function (because $p$ maps to two outputs)
 3. Injective, but not surjective (because nothing maps to 5)
 4. Neither injective nor surjective (not injective because three point map to $w$; not surjective because nothing maps to $e$)
 5. Not a function (because $v$ doesn't have an output)
