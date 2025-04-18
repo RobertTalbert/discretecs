@@ -133,7 +133,7 @@ The results in column 4 are the same as for NAND; the results in column 6 are th
 4. B
 5. A
 6. A
-7. A
+7. C 
 8. E
 9. B
 10. B
