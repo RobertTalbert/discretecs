@@ -196,4 +196,3 @@ On the following, be sure to show all work, and explain your reasoning. Response
 2. $1, 5, 6, 11, \dots$
 3. $4, 8, 12, 16, 20, 24, \dots$ 
 4. $0, 1, 0, 1,0, 1, \dots$
-
