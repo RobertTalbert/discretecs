@@ -31,10 +31,10 @@ Updates may be made to the syllabus over the semester as needed; those will be h
 - **Textbook**: None required. Optional textbook, _Discrete Mathematics: An Open Introduction_, 4th edition by Oscar Levin available for free online here: https://discrete.openmathbooks.org/dmoi4.html 
 - **Other resources**: 
 	- *Blackboard*: http://lms.gvsu.edu. 
-	- *Class Page*: A Google Doc of class meeting notes and links, [found at this link](https://docs.google.com/document/d/1pCxYpwLsHa9ciZv4zrtCH2P3aEM6g6Za2onQsOJCung/edit?usp=sharing). This link is also on the Blackboard site. **We will use the Class Page for most things, and reserve Blackboard for announcements, gradebook, and some assessments.** 
+	- *Class Page*: A Google Doc of class meeting notes and links, [found at this link](https://docs.google.com/document/d/1nMtLOtnWDsVe40Q0udnGX0qacreusKO8xDQgK90CTAo/edit?usp=sharing). This link is also on the Blackboard site. **We will use the Class Page for most things, and reserve Blackboard for announcements, gradebook, and some assessments.** 
 	- *Course Vault*: Wiki of linked articles on course content, at https://publish.obsidian.md/discretecs 
 	- *Video playlist*: Recorded lectures on course content, at ==XXXXXX==
-- **Technology requirements:** It's highly recommended to have a laptop and access to a high-speed internet connection for work outside of class. You will need a basic handheld scientific or graphing calculator for exams in class. There is no preferred model of device. For in-class technology use, [please see the "Using technology during class meetings" section](https://github.com/RobertTalbert/discretecs/blob/master/MTH225-Winter2025/course-docs/MTH%20225%20Winter%202025%20Syllabus.md#using-technology-during-class-meetings) below. 
+- **Technology requirements:** It's highly recommended to have a laptop and access to a high-speed internet connection for work outside of class. You will need a basic handheld scientific or graphing calculator for exams in class. There is no preferred model of device. 
 
 ---
 ## About MTH 225
@@ -162,7 +162,7 @@ The main drawback of this approach to grading is that it's different and might t
 
 ### The _Standards for Student Work_ document 
 
-The Standards for Student Work in MTH 225 document is a complete one-stop visit for all information about what "success" specifically looks like for each of the assignment types in the course. **It is critically important that you read this document carefully and keep it close at hand**. A link is to it is found in several places in the syllabus, also on the [Class Page](https://docs.google.com/document/d/1pCxYpwLsHa9ciZv4zrtCH2P3aEM6g6Za2onQsOJCung/edit?tab=t.0) and on Blackboard; you should also bookmark it in your web browser. 
+The [Standards for Student Work in MTH 225](https://github.com/RobertTalbert/discretecs/blob/master/MTH225-Winter2026/course-documents/MTH%20225%20Standards%20for%20Student%20Work%20Winter%202026.md) document is a complete one-stop visit for all information about what "success" specifically looks like for each of the assignment types in the course. **It is critically important that you read this document carefully and keep it close at hand**. A link is to it is found in several places in the syllabus, also on the [Class Page](https://docs.google.com/document/d/1nMtLOtnWDsVe40Q0udnGX0qacreusKO8xDQgK90CTAo/edit?usp=sharing0) and on Blackboard; you should also bookmark it in your web browser. 
 
 ### How assignments are graded and recorded in Blackboard
 
@@ -199,7 +199,7 @@ Your letter grade for the course is assigned using the table below. It shows the
 \* The maximum number of engagement credits will not be known until roughly week 10. 
 
 The base grade can be modified with a plus or minus: 
-- *Plus:* Given when Learning Targets mastered and Application/Analysis exams are at different levels. In this case, **we take the grade level of the lower of those two and add a plus to it.**  Example: Earning mastery on 11 Learning Targets ("A" level), 80% of the maximum amount of engagement credits ("B" level) but having only proficient on both Application/Analysis exams("C" level) is a C+. 
+- *Plus:* Given when Learning Targets mastered and Application/Analysis exams are at different levels. In this case, **we take the grade level of the lower of those two and add a plus to it.**  Example: Earning mastery on 11 Learning Targets ("A" level), 80% of the maximum amount of engagement credits ("B" level) but having only proficient on both Application/Analysis exams ("C" level) is a C+. 
 - *Minus:* Given when engagement credits are lower than Learning Targets or Application/Analysis exams. In this case, **we take the grade level of the lower of those two and add a minus to it**. Example: Earning mastery on 11 Learning Targets ("A" level), *Master* on both Application/Analysis exams (also "A" level), and fewer than 50% of the maximum possible engagement credits, would be an A-. 
 
 In cases where both a plus and a minus could be awarded, there is no modifier. Example: 11 Learning Targets mastered, only *Proficient* on the two Application/Analysis exams, and fewer than 60% of possible engagement credits (A, C, and F levels respectively) would qualify both for a C+ and a C-, so a C is the course grade. 
@@ -224,7 +224,7 @@ Learning Target exams are cumulative. Each version contains new versions of prob
 |          3           |           April 8           |          1--12           |     |
 |     (Final exam)     | See above for section times |          1--12           |     |
 
-(These dates may change; always [check the official course calendar](https://calendar.google.com/calendar/embed?src=00101de093246cb4a426b788997bab104cf4fd5a056846f4df83532449b477dc%40group.calendar.google.com&ctz=America%2FDetroit) for finalized dates.)
+(These dates may change; always [check the official course calendar](https://calendar.google.com/calendar/u/0?cid=OWIyYTI5MjY1MjMyMDI1MDNlNTgxYzU5NjdlOTE2YWY5YTRmYTY1Mzc0NzE1YmFkZWNkNDViYWU5NTg4YmEzMkBncm91cC5jYWxlbmRhci5nb29nbGUuY29t) for finalized dates.)
 
 Only a mark of *Master* counts toward the course grade. If you attempt a problem for a Learning Target on an exam and don't earn *Master* on it, **you can try it again at the next exam and on the final exam**. This will allow you several different attempts possible on each Learning Target. The last two weeks of class are set aside for reassessments as well, and during those times we may have smaller, targeted "mini-exams" on specific Learning Targets, especially the Core Learning Targets and Learning Targets introduced later in the course. 
 
@@ -302,7 +302,7 @@ For help with MTH 225, consider visiting the Math Tutoring Center (http://gvsu.e
 
 Course announcements are sent out every Sunday morning via Blackboard, and contain an overview of the classes for the week, a list of assignments and due dates, and specific items to note. Other announcements might be sent during the week if needed. All Blackboard announcements will also be sent to your GVSU email. It is your responsibility to check and read these emails carefully each week and manage the information contained in them. 
 
-The [Class Page](https://docs.google.com/document/d/1pCxYpwLsHa9ciZv4zrtCH2P3aEM6g6Za2onQsOJCung/edit?usp=sharing) contains a summary of each class meeting, including links to slides and other materials, given in reverse chronological order (newest first). 
+The [Class Page](https://docs.google.com/document/d/1nMtLOtnWDsVe40Q0udnGX0qacreusKO8xDQgK90CTAo/edit?usp=sharing) contains a summary of each class meeting, including links to slides and other materials, given in reverse chronological order (newest first). 
 
 ### Instructor availability and communication
 
@@ -327,7 +327,7 @@ Also please note that I work on campus Monday, Wednesday, and Friday but typical
 
 **Making up other assignments:** There are no makeups allowed for other assignments. 
 
-**Contingency plans for remote instruction:** In the event that we need to switch to remote instruction, class meetings will take place on Zoom, and the link will be shared in a course announcement and on the [Class Page](https://docs.google.com/document/d/1pCxYpwLsHa9ciZv4zrtCH2P3aEM6g6Za2onQsOJCung/edit?tab=t.0). If that day happens to be an exam day, we'll reschedule the exam and the focus of the class meeting will be determined at that time. [Click here for the official university policy on remote instruction](https://www.gvsu.edu/provost/guidelines-for-course-delivery-in-the-event-of-253.htm). 
+**Contingency plans for remote instruction:** In the event that we need to switch to remote instruction, class meetings will take place on Zoom, and the link will be shared in a course announcement and on the [Class Page](https://docs.google.com/document/d/1nMtLOtnWDsVe40Q0udnGX0qacreusKO8xDQgK90CTAo/edit?usp=sharing). If that day happens to be an exam day, we'll reschedule the exam and the focus of the class meeting will be determined at that time. [Click here for the official university policy on remote instruction](https://www.gvsu.edu/provost/guidelines-for-course-delivery-in-the-event-of-253.htm). 
 
 ### Gender identity
 
@@ -351,7 +351,7 @@ After spending my first two years of college as a Psychology major, I changed my
 
 Currently I teach a lot of MTH 225 and MTH 325, getting engineers and computer scientists to think like mathematicians. I also do research on making college teaching better; I recently [wrote a book](https://www.routledge.com/Grading-for-Growth-A-Guide-to-Alternative-Grading-Practices-that-Promote/Clark-Talbert/p/book/9781642673814) about the kinds of grading systems you see in this syllabus, and I'm working on the second edition of [my book about flipped classrooms in higher education](https://www.routledge.com/Flipped-Learning-A-Guide-for-Higher-Education-Faculty/Talbert/p/book/9781620364321) which I wrote 10 years ago. When nobody is looking, I am working on my data science skills, learning languages like [R](https://www.r-project.org/) and [Julia](https://julialang.org/), and  [studying economics](https://mru.org/). 
 
-I've been a bass guitar player for over 25 years and regularly perform live in the area with  different bands. You can learn more about my music activities at [my Bandmix page](https://www.bandmix.com/rtbass/) or [my music Instagram account](https://www.instagram.com/rtgrooves/). 
+I've been a bass guitar player for over 25 years and regularly perform live in the area with  different bands. You can learn more about my music activities at [my music website](https://rtgrooves.com/) or [my Linktree page](https://linktr.ee/rtgrooves). 
 
 I live in Allendale with my wife and 17-year old son (who's interested in computer engineering). I have a daughter studying Marketing at [Wayne State University](https://wayne.edu/) and a 21-year old daughter who lives on her own. I love the outdoors and get out to walk or hike when I can. You can read more about what I'm thinking and doing at my website, [rtalbert.org](http://rtalbert.org), or [Grading for Growth](https://gradingforgrowth.com/) about alternative grading practices which I co-author with my GVSU colleague Prof. David Clark. I'm also on Twitter at [@RobertTalbert](http://twitter.com/RobertTalbert) and on [LinkedIn](https://www.linkedin.com/in/roberttalbert/). I will accept any connection request on LinkedIn from a student!
 
@@ -373,4 +373,14 @@ I live in Allendale with my wife and 17-year old son (who's interested in comput
 
 ## Appendix B: Course calendar and important dates 
 
+The official course calendar is [found here, as a Google Calendar](https://calendar.google.com/calendar/embed?src=9b2a2926523202503e581c5967e916af9a4fa65374715badecd45bae9588ba32%40group.calendar.google.com&ctz=America%2FDetroit). **Do not use the "Calendar" feature on Blackboard, as this only includes due dates for items that are assigned on Blackboard and nothing else.**
 
+Some key dates from the calendar: 
+
+- Monday, January 12: First day of classes
+- Friday, January 16: Last day to add a course, or drop a course with 100% tuition refund
+- Monday, January 19: Martin Luther King Jr. holiday, no classes
+- Friday, February 6: Last day to withdraw from a course with 75% tutition refund 
+- Monday March 9 -- Friday March 13: Spring Break, no classes 
+- Friday, March 27 -- Last day to withdraw from a course with a "W" grade
+- Friday, April 24: Last day of classes 

@@ -361,3 +361,15 @@ I live in Allendale with my wife and 17-year old son (who's interested in comput
 12. I can implement Warshall's Algorithm to find the transitive closure of a directed graph. 
 
 ## Appendix B: Course calendar and important dates 
+
+The official course calendar is [found here, as a Google Calendar](https://calendar.google.com/calendar/u/0?cid=ZmNlMGFiNzE0MTAyZjQzMzc1MGU2MGFkMmVlZmFhYTJhOWJkNmQ5NzJhNDcxZWIyZjE2YmMxY2U3NTk3MjA2M0Bncm91cC5jYWxlbmRhci5nb29nbGUuY29t). **Do not use the "Calendar" feature on Blackboard, as this only includes due dates for items that are assigned on Blackboard and nothing else.**
+
+Some key dates from the calendar: 
+
+- Monday, January 12: First day of classes
+- Friday, January 16: Last day to add a course, or drop a course with 100% tuition refund
+- Monday, January 19: Martin Luther King Jr. holiday, no classes
+- Friday, February 6: Last day to withdraw from a course with 75% tutition refund 
+- Monday March 9 -- Friday March 13: Spring Break, no classes 
+- Friday, March 27 -- Last day to withdraw from a course with a "W" grade
+- Friday, April 24: Last day of classes 
