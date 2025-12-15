@@ -19,7 +19,7 @@ This is a web-based document, so please **bookmark it in your browser** so you c
 
 Underlined text represents a clickable link. For example, [click here for a cat video](https://www.youtube.com/watch?v=aFuUidBR1aQ). 
 
-Updates may be made to the syllabus over the semester as needed; those will be highlighted ==like this==. 
+Updates may be made to the syllabus over the semester as needed; those will be highlighted <mark>like this</mark>.  
 
 ---
 ## Course information
