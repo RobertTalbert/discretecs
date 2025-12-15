@@ -19,7 +19,7 @@ This is a web-based document, so please **bookmark it in your browser** so you c
 
 Underlined text represents a clickable link. For example, [click here for a cat video](https://www.youtube.com/watch?v=aFuUidBR1aQ). 
 
-Updates may be made to the syllabus over the semester as needed; those will be highlighted ==like this==. 
+Updates may be made to the syllabus over the semester as needed; those will be highlighted <mark>like this</mark>. 
 
 ---
 ## Course information
@@ -31,7 +31,7 @@ Updates may be made to the syllabus over the semester as needed; those will be h
 - **Textbook**: None required. Optional textbook, _Discrete Mathematics: An Open Introduction_, 4th edition by Oscar Levin available for free online here: https://discrete.openmathbooks.org/dmoi4.html 
 - **Other resources**: 
 	- *Blackboard*: http://lms.gvsu.edu. 
-	- *Class Page*: A Google Doc of class meeting notes and links, [found at this link](https://docs.google.com/document/d/1pCxYpwLsHa9ciZv4zrtCH2P3aEM6g6Za2onQsOJCung/edit?usp=sharing). This link is also on the Blackboard site. **We will use the Class Page for most things, and reserve Blackboard for announcements, gradebook, and some assessments.** 
+	- *Class Page*: A Google Doc of class meeting notes and links, [found at this link](https://docs.google.com/document/d/1wWiOifmBieQYdwgCST8vJBBfraYd3YZsztRM6bnH6d4/edit?usp=sharing). This link is also on the Blackboard site. **We will use the Class Page for most things, and reserve Blackboard for announcements, gradebook, and some assessments.** 
 	- *Course Vault*: Wiki of linked articles on course content, at https://publish.obsidian.md/discretecs 
 - **Technology requirements:** It's highly recommended to have a laptop and access to a high-speed internet connection for work outside of class. You will need a basic handheld scientific or graphing calculator for exams in class. There is no preferred model of device. For in-class technology use, [please see the "Using technology during class meetings" section](https://github.com/RobertTalbert/discretecs/blob/master/MTH225-Winter2025/course-docs/MTH%20225%20Winter%202025%20Syllabus.md#using-technology-during-class-meetings) below. 
 
@@ -148,7 +148,7 @@ The main drawback of this approach to grading is that it's different and might t
 
 ### The _Standards for Student Work_ document 
 
-The Standards for Student Work in MTH 325 document is a complete one-stop visit for all information about what "success" specifically looks like for each of the assignment types in the course. **It is critically important that you read this document carefully and keep it close at hand**. A link is to it is found in several places in the syllabus, also on the [Class Page](https://docs.google.com/document/d/1pCxYpwLsHa9ciZv4zrtCH2P3aEM6g6Za2onQsOJCung/edit?tab=t.0) and on Blackboard; you should also bookmark it in your web browser. 
+The Standards for Student Work in MTH 325 document is a complete one-stop visit for all information about what "success" specifically looks like for each of the assignment types in the course. **It is critically important that you read this document carefully and keep it close at hand**. A link is to it is found in several places in the syllabus, also on the [Class Page](https://docs.google.com/document/d/1wWiOifmBieQYdwgCST8vJBBfraYd3YZsztRM6bnH6d4/edit?usp=sharing) and on Blackboard; you should also bookmark it in your web browser. 
 
 ### How assignments are graded and recorded in Blackboard
 
@@ -181,7 +181,8 @@ Your letter grade for the course is assigned using the table below. It shows the
 |  B  | 9                              | *Master* on one, *Proficient* on the other | 80% of maximum     |     |
 |  C  | 7                              | *Proficient* on both                       | 70% of maximum     |     |
 |  D  | 5                              | Proficient on one                          | 60% of maximum     |     |
-\* The maximum number of engagement credits will not be known until roughly week 10. 
+
+Note: The final maximum number of engagement credits will not be known until roughly week 10. A running maximum total will be kept on Blackboard, updated weekly, so you can check your current percentage. 
 
 The base grade can be modified with a plus or minus: 
 - *Plus:* Given when Learning Targets mastered and Application/Analysis exams are at different levels. In this case, **we take the grade level of the lower of those two and add a plus to it.**  Example: Earning mastery on 11 Learning Targets ("A" level), 80% of the maximum amount of engagement credits ("B" level) but having only proficient on both Application/Analysis exams("C" level) is a C+. 
@@ -209,7 +210,7 @@ Learning Target exams are cumulative. Each version contains new versions of prob
 |          3           |      April 8       |          1--12           |     |
 |     (Final exam)     | See above for time |          1--12           |     |
 
-(These dates may change; always [check the official course calendar](https://calendar.google.com/calendar/embed?src=00101de093246cb4a426b788997bab104cf4fd5a056846f4df83532449b477dc%40group.calendar.google.com&ctz=America%2FDetroit) for finalized dates.)
+(These dates may change; always [check the official course calendar](https://calendar.google.com/calendar/embed?src=fce0ab714102f433750e60ad2eefaaa2a9bd6d972a471eb2f16bc1ce75972063%40group.calendar.google.com&ctz=America%2FDetroit) for finalized dates.)
 
 Only a mark of *Master* counts toward the course grade. If you attempt a problem for a Learning Target on an exam and don't earn *Master* on it, **you can try it again at the next exam and on the final exam**. This will allow you several different attempts possible on each Learning Target. The last two weeks of class are set aside for reassessments as well, and during those times we may have smaller, targeted "mini-exams" on specific Learning Targets, especially the Core Learning Targets and Learning Targets introduced later in the course. 
 
@@ -289,7 +290,7 @@ For help with prerequisite concepts from MTH 225 or high school, consider visiti
 
 Course announcements are sent out every Sunday morning via Blackboard, and contain an overview of the classes for the week, a list of assignments and due dates, and specific items to note. Other announcements might be sent during the week if needed. All Blackboard announcements will also be sent to your GVSU email. It is your responsibility to check and read these emails carefully each week and manage the information contained in them. 
 
-The [Class Page](https://docs.google.com/document/d/1pCxYpwLsHa9ciZv4zrtCH2P3aEM6g6Za2onQsOJCung/edit?usp=sharing) contains a summary of each class meeting, including links to slides and other materials, given in reverse chronological order (newest first). 
+The [Class Page](https://docs.google.com/document/d/1wWiOifmBieQYdwgCST8vJBBfraYd3YZsztRM6bnH6d4/edit?usp=sharing) contains a summary of each class meeting, including links to slides and other materials, given in reverse chronological order (newest first). 
 
 ### Instructor availability and communication
 
@@ -314,7 +315,7 @@ Also please note that I work on campus Monday, Wednesday, and Friday but typical
 
 **Making up other assignments:** There are no makeups allowed for other assignments. 
 
-**Contingency plans for remote instruction:** In the event that we need to switch to remote instruction, class meetings will take place on Zoom, and the link will be shared in a course announcement and on the [Class Page](https://docs.google.com/document/d/1pCxYpwLsHa9ciZv4zrtCH2P3aEM6g6Za2onQsOJCung/edit?tab=t.0). If that day happens to be an exam day, we'll reschedule the exam and the focus of the class meeting will be determined at that time. [Click here for the official university policy on remote instruction](https://www.gvsu.edu/provost/guidelines-for-course-delivery-in-the-event-of-253.htm). 
+**Contingency plans for remote instruction:** In the event that we need to switch to remote instruction, class meetings will take place on Zoom, and the link will be shared in a course announcement and on the [Class Page](https://docs.google.com/document/d/1wWiOifmBieQYdwgCST8vJBBfraYd3YZsztRM6bnH6d4/edit?usp=sharing). If that day happens to be an exam day, we'll reschedule the exam and the focus of the class meeting will be determined at that time. [Click here for the official university policy on remote instruction](https://www.gvsu.edu/provost/guidelines-for-course-delivery-in-the-event-of-253.htm). 
 
 ### Gender identity
 
@@ -362,7 +363,7 @@ I live in Allendale with my wife and 17-year old son (who's interested in comput
 
 ## Appendix B: Course calendar and important dates 
 
-The official course calendar is [found here, as a Google Calendar](https://calendar.google.com/calendar/u/0?cid=ZmNlMGFiNzE0MTAyZjQzMzc1MGU2MGFkMmVlZmFhYTJhOWJkNmQ5NzJhNDcxZWIyZjE2YmMxY2U3NTk3MjA2M0Bncm91cC5jYWxlbmRhci5nb29nbGUuY29t). **Do not use the "Calendar" feature on Blackboard, as this only includes due dates for items that are assigned on Blackboard and nothing else.**
+The official course calendar is [found here, as a Google Calendar](https://calendar.google.com/calendar/embed?src=fce0ab714102f433750e60ad2eefaaa2a9bd6d972a471eb2f16bc1ce75972063%40group.calendar.google.com&ctz=America%2FDetroit). **Do not use the "Calendar" feature on Blackboard, as this only includes due dates for items that are assigned on Blackboard and nothing else.**
 
 Some key dates from the calendar: 
 

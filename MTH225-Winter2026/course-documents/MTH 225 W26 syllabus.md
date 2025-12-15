@@ -198,7 +198,7 @@ Your letter grade for the course is assigned using the table below. It shows the
 |  C  | 7                              | *Proficient* on both                       | 70% of maximum     |     |
 |  D  | 5                              | Proficient on one                          | 60% of maximum     |     |
 
-Note: The maximum number of engagement credits will not be known until roughly week 10. 
+Note: The final maximum number of engagement credits will not be known until roughly week 10. A running maximum total will be kept on Blackboard, updated weekly, so you can check your current percentage. 
 
 The base grade can be modified with a plus or minus: 
 - *Plus:* Given when Learning Targets mastered and Application/Analysis exams are at different levels. In this case, **we take the grade level of the lower of those two and add a plus to it.**  Example: Earning mastery on 11 Learning Targets ("A" level), 80% of the maximum amount of engagement credits ("B" level) but having only proficient on both Application/Analysis exams ("C" level) is a C+. 
@@ -226,7 +226,7 @@ Learning Target exams are cumulative. Each version contains new versions of prob
 |          3           |           April 8           |          1--12           |     |
 |     (Final exam)     | See above for section times |          1--12           |     |
 
-(These dates may change; always [check the official course calendar](https://calendar.google.com/calendar/embed?src=fce0ab714102f433750e60ad2eefaaa2a9bd6d972a471eb2f16bc1ce75972063%40group.calendar.google.com&ctz=America%2FDetroit) for finalized dates.)
+(These dates may change; always [check the official course calendar](https://calendar.google.com/calendar/embed?src=9b2a2926523202503e581c5967e916af9a4fa65374715badecd45bae9588ba32%40group.calendar.google.com&ctz=America%2FDetroit) for finalized dates.)
 
 Only a mark of *Master* counts toward the course grade. If you attempt a problem for a Learning Target on an exam and don't earn *Master* on it, **you can try it again at the next exam and on the final exam**. This will allow you several different attempts possible on each Learning Target. The last two weeks of class are set aside for reassessments as well, and during those times we may have smaller, targeted "mini-exams" on specific Learning Targets, especially the Core Learning Targets and Learning Targets introduced later in the course. 
 
