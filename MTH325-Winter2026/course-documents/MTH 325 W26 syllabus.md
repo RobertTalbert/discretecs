@@ -33,7 +33,7 @@ Updates may be made to the syllabus over the semester as needed; those will be h
 	- *Blackboard*: http://lms.gvsu.edu. 
 	- *Class Page*: A Google Doc of class meeting notes and links, [found at this link](https://docs.google.com/document/d/1wWiOifmBieQYdwgCST8vJBBfraYd3YZsztRM6bnH6d4/edit?usp=sharing). This link is also on the Blackboard site. **We will use the Class Page for most things, and reserve Blackboard for announcements, gradebook, and some assessments.** 
 	- *Course Vault*: Wiki of linked articles on course content, at https://publish.obsidian.md/discretecs 
-- **Technology requirements:** It's highly recommended to have a laptop and access to a high-speed internet connection for work outside of class. You will need a basic handheld scientific or graphing calculator for exams in class. There is no preferred model of device. For in-class technology use, [please see the "Using technology during class meetings" section](https://github.com/RobertTalbert/discretecs/blob/master/MTH225-Winter2025/course-docs/MTH%20225%20Winter%202025%20Syllabus.md#using-technology-during-class-meetings) below. 
+- **Technology requirements:** It's highly recommended to have a laptop and access to a high-speed internet connection for work outside of class. You will need a basic handheld scientific or graphing calculator for exams in class. There is no preferred model of device. 
 
 ---
 ## About MTH 325
@@ -134,8 +134,8 @@ There is no final exam in this course. Instead, the final exam period will be us
 Grading in MTH 325 works differently than it possibly does in your other courses and in high school. In MTH 325: 
 
 - **Almost none of your assignments have point values**. (The exception is engagement credit items.) Therefore there is **no partial credit and no averaging** because there are no points. 
-- Instead, assignments have **standards** which are descriptions of what constitutes "successful" work. These are given in detail in the document ***Standards for Student Work in MTH 325, described in more detail below. 
-- Rather than attaching point values to items, I use the *Standards for Student Work* document to see if the work meets the standard for "success". Depending on the extent to which your work meets the standard or doesn't meet it, it will be marked with one of two or three adjectives that describe it. See "How assignments are graded and recorded in Blackboard" below for more. 
+- Instead, assignments have **standards** which are descriptions of what constitutes "successful" work. These are given in detail in the document [Standards for Student Work in MTH 325](https://github.com/RobertTalbert/discretecs/blob/master/MTH325-Winter2026/course-documents/MTH%20325%20Standards%20for%20Student%20Work%20Winter%2026.md), described in more detail below. 
+- Rather than attaching point values to items, I use the [*Standards for Student Work* document](https://github.com/RobertTalbert/discretecs/blob/master/MTH325-Winter2026/course-documents/MTH%20325%20Standards%20for%20Student%20Work%20Winter%2026.md) to see if the work meets the standard for "success". Depending on the extent to which your work meets the standard or doesn't meet it, it will be marked with one of two or three adjectives that describe it. See "How assignments are graded and recorded in Blackboard" below for more. 
 - After I grade your work, in most cases you will receive **detailed feedback** that will tell you whether your work meets the standards, and if not, the feedback will tell you what was missing and how you might go about fixing it. 
 - On Exams (both Learning Target and Application/Analysis), you will have the chance to **reattempt** items on the exam if needed so you can put the feedback you received to work and improve on the second attempt. 
 - Your course grade is not based on point totals or averages (because there are no point values). Instead, the course grade is based on **how many learning tasks you've successfully accomplished** by the end of the semester, using a simple table that's given below. 
@@ -148,14 +148,14 @@ The main drawback of this approach to grading is that it's different and might t
 
 ### The _Standards for Student Work_ document 
 
-The Standards for Student Work in MTH 325 document is a complete one-stop visit for all information about what "success" specifically looks like for each of the assignment types in the course. **It is critically important that you read this document carefully and keep it close at hand**. A link is to it is found in several places in the syllabus, also on the [Class Page](https://docs.google.com/document/d/1wWiOifmBieQYdwgCST8vJBBfraYd3YZsztRM6bnH6d4/edit?usp=sharing) and on Blackboard; you should also bookmark it in your web browser. 
+The [Standards for Student Work in MTH 325](https://github.com/RobertTalbert/discretecs/blob/master/MTH325-Winter2026/course-documents/MTH%20325%20Standards%20for%20Student%20Work%20Winter%2026.md) document is a complete one-stop visit for all information about what "success" specifically looks like for each of the assignment types in the course. **It is critically important that you read this document carefully and keep it close at hand**. A link is to it is found in several places in the syllabus, also on the [Class Page](https://docs.google.com/document/d/1wWiOifmBieQYdwgCST8vJBBfraYd3YZsztRM6bnH6d4/edit?usp=sharing) and on Blackboard; you should also bookmark it in your web browser. 
 
 ### How assignments are graded and recorded in Blackboard
 
-* *Learning Targets*: Learning Target exams themselves do not receive a grade. Instead, each Learning Target is graded separately, and recorded separately in Blackboard. Each is graded with one of three markings: *Master*, *Proficient*, or *Beginner*. Please see the Standards for Student Work document for the criteria for each. 
+* *Learning Targets*: Learning Target exams themselves do not receive a grade. Instead, each Learning Target is graded separately, and recorded separately in Blackboard. Each is graded with one of three markings: *Master*, *Proficient*, or *Beginner*. Please see the [Standards for Student Work document](https://github.com/RobertTalbert/discretecs/blob/master/MTH325-Winter2026/course-documents/MTH%20325%20Standards%20for%20Student%20Work%20Winter%2026.md) for the criteria for each. 
 * *Weekly practice*: You will get a score on these once you complete them on Blackboard, to show you how many responses you got correct. Earning 100% correct will earn you engagement credits (see below). Otherwise the score does not contribute to or take away from your course grade at all. 
 * *Problem Sets*: Turning in a good-faith effort at a complete and correct set of solutions on a Problem Set will earn you engagement credits (see below). Otherwise these are ungraded; you will be given verbal feedback on any problem set or part of one that you submit, but they do not by themselves earn credit. 
-* *Application/Analysis Exams*: Each Application/Analysis Exam has four parts (multiple choice/true false, and three problem groups). Each part is graded *Success* or *Retry* and will be recorded separately in Blackboard. The exam as a whole is graded *Master*, *Proficient*, or *Beginner* depending on how many of the four parts were marked *Success*. Please see the Standards for Student Work document for the specific criteria. 
+* *Application/Analysis Exams*: Each Application/Analysis Exam has four parts (multiple choice/true false, and three problem groups). Each part is graded *Success* or *Retry* and will be recorded separately in Blackboard. The exam as a whole is graded *Master*, *Proficient*, or *Beginner* depending on how many of the four parts were marked *Success*. Please see the [Standards for Student Work document](https://github.com/RobertTalbert/discretecs/blob/master/MTH325-Winter2026/course-documents/MTH%20325%20Standards%20for%20Student%20Work%20Winter%2026.md) for the specific criteria. 
 
 ### Engagement credits
 
@@ -169,7 +169,7 @@ You can earn *engagement credits* for completing tasks in the course that are no
 | Turning in good-faith complete attempt at a Problem Set | 8                         |
 \*Does not include exam days, reattempt days, or exam makeup days. 
 
-Please see the Standards for Student Work document for the specific criteria for successful completions of these tasks. Other, one-time opportunities for earning engagement credits may arise during the semester. 
+Please see the [Standards for Student Work document](https://github.com/RobertTalbert/discretecs/blob/master/MTH325-Winter2026/course-documents/MTH%20325%20Standards%20for%20Student%20Work%20Winter%2026.md) for the specific criteria for successful completions of these tasks. Other, one-time opportunities for earning engagement credits may arise during the semester. 
 
 ### How the course grade is determined
 
