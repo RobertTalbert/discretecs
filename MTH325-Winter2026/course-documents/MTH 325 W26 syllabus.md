@@ -40,7 +40,7 @@ Updates may be made to the syllabus over the semester as needed; those will be h
 
 ### Course content 
 
-MTH 325 is the sequel to MTH 225, where you learned many foundational topics in computer science including integer arithmetic, propositional logic, set theory and function, and principles of counting as well as the basic notions of mathematical proof focusing on proof by induction. ==Click here for a current MTH 225 syllabus== for more details. 
+MTH 325 is the sequel to MTH 225, where you learned many foundational topics in computer science including integer arithmetic, propositional logic, set theory and function, and principles of counting as well as the basic notions of mathematical proof focusing on proof by induction. [Click here for a current MTH 225 syllabus](https://github.com/RobertTalbert/discretecs/blob/master/MTH225-Winter2026/course-documents/MTH%20225%20W26%20syllabus.md) for more details. 
 
 In MTH 325, you'll extend these ideas to learn about four important and related ideas that are essential to computer science: 
 
