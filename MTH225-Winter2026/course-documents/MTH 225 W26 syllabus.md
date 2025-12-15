@@ -135,7 +135,7 @@ Opportunities to engage with the class so are plentiful, and many will have a po
 
 There is no final exam in this course. Instead, the final exam period will be used for any last-minute reattempts of previous assessments that may be needed. (See "Reattempts of assessments" below.) The final exam periods are: 
 
-* Section 02: Monday, April 27 10:00--11:50am 
+* Section 02: Monday, April 27 10:00-11:50am 
 * Section 03: Wednesday, April 29, 10:00-11:50am
 
 The final exam session will be held in your section's usual classroom. 
@@ -181,7 +181,8 @@ You can earn *engagement credits* for completing tasks in the course that are no
 | Attending a class meeting* (30 minute minmum)           | 1                         |
 | Completing weekly practice set with 100%                | 4                         |
 | Turning in good-faith complete attempt at a Problem Set | 8                         |
-\*Does not include exam days, reattempt days, or exam makeup days. 
+
+*Does not include exam days, reattempt days, or exam makeup days. 
 
 Please see the Standards for Student Work document for the specific criteria for successful completions of these tasks. Other, one-time opportunities for earning engagement credits may arise during the semester. 
 
@@ -196,7 +197,8 @@ Your letter grade for the course is assigned using the table below. It shows the
 |  B  | 9                              | *Master* on one, *Proficient* on the other | 80% of maximum     |     |
 |  C  | 7                              | *Proficient* on both                       | 70% of maximum     |     |
 |  D  | 5                              | Proficient on one                          | 60% of maximum     |     |
-\* The maximum number of engagement credits will not be known until roughly week 10. 
+
+Note: The maximum number of engagement credits will not be known until roughly week 10. 
 
 The base grade can be modified with a plus or minus: 
 - *Plus:* Given when Learning Targets mastered and Application/Analysis exams are at different levels. In this case, **we take the grade level of the lower of those two and add a plus to it.**  Example: Earning mastery on 11 Learning Targets ("A" level), 80% of the maximum amount of engagement credits ("B" level) but having only proficient on both Application/Analysis exams ("C" level) is a C+. 
@@ -224,7 +226,7 @@ Learning Target exams are cumulative. Each version contains new versions of prob
 |          3           |           April 8           |          1--12           |     |
 |     (Final exam)     | See above for section times |          1--12           |     |
 
-(These dates may change; always [check the official course calendar](https://calendar.google.com/calendar/u/0?cid=OWIyYTI5MjY1MjMyMDI1MDNlNTgxYzU5NjdlOTE2YWY5YTRmYTY1Mzc0NzE1YmFkZWNkNDViYWU5NTg4YmEzMkBncm91cC5jYWxlbmRhci5nb29nbGUuY29t) for finalized dates.)
+(These dates may change; always [check the official course calendar](https://calendar.google.com/calendar/embed?src=fce0ab714102f433750e60ad2eefaaa2a9bd6d972a471eb2f16bc1ce75972063%40group.calendar.google.com&ctz=America%2FDetroit) for finalized dates.)
 
 Only a mark of *Master* counts toward the course grade. If you attempt a problem for a Learning Target on an exam and don't earn *Master* on it, **you can try it again at the next exam and on the final exam**. This will allow you several different attempts possible on each Learning Target. The last two weeks of class are set aside for reassessments as well, and during those times we may have smaller, targeted "mini-exams" on specific Learning Targets, especially the Core Learning Targets and Learning Targets introduced later in the course. 
 
