@@ -33,7 +33,7 @@ Updates may be made to the syllabus over the semester as needed; those will be h
 	- *Blackboard*: http://lms.gvsu.edu. 
 	- *Class Page*: A Google Doc of class meeting notes and links, [found at this link](https://docs.google.com/document/d/1nMtLOtnWDsVe40Q0udnGX0qacreusKO8xDQgK90CTAo/edit?usp=sharing). This link is also on the Blackboard site. **We will use the Class Page for most things, and reserve Blackboard for announcements, gradebook, and some assessments.** 
 	- *Course Vault*: Wiki of linked articles on course content, at https://publish.obsidian.md/discretecs 
-	- *Video playlist*: Recorded lectures on course content, at ==XXXXXX==
+	- *Video playlist*: Recorded lectures on course content, on YouTube: [Click here](https://youtube.com/playlist?list=PLIQXHC7Gbl_VjCMyUFG01_4h-JgXHNfDh&si=zN98qMzurjzXbI68)
 - **Technology requirements:** It's highly recommended to have a laptop and access to a high-speed internet connection for work outside of class. You will need a basic handheld scientific or graphing calculator for exams in class. There is no preferred model of device. 
 
 ---
