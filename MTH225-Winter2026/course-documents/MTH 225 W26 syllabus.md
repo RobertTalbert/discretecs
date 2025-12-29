@@ -179,7 +179,7 @@ The [Standards for Student Work in MTH 225](https://github.com/RobertTalbert/dis
 You can earn *engagement credits* for completing tasks in the course that are not direct evidence of your learning, like exams, but which are important for the learning process. 
 
 | Action                                                  | Engagement credits earned |
-| ------------------------------------------------------- | ------------------------- |
+| ------------------------------------------------------- | :-------------------------: |
 | Successful completion of a Class Prep                   | 1                         |
 | Attending a class meeting* (30 minute minmum)           | 1                         |
 | Completing weekly practice set with 100%                | 4                         |
@@ -222,12 +222,12 @@ A feature of this course is that **you can redo many of your assessments** to ta
 
 Learning Target exams are cumulative. Each version contains new versions of problems for all previously tested Learning Targets, along with new Learning Targets. The plan for coverage of Learning Targets on each is shown below: 
 
-| Learning Target Exam |            Date             | Learning Targets covered |     |
-| :------------------: | :-------------------------: | :----------------------: | --- |
-|          1           |         February 4          |           1--4           |     |
-|          2           |           March 6           |           1--8           |     |
-|          3           |           April 8           |          1--12           |     |
-|     (Final exam)     | See above for section times |          1--12           |     |
+| Learning Target Exam |            Date             | Learning Targets covered |  
+| :------------------: | :-------------------------: | :----------------------: | 
+|          1           |         February 4          |           1--4           |  
+|          2           |           March 6           |           1--8           |  
+|          3           |           April 8           |          1--12           |  
+|     (Final exam)     | See above for section times |          1--12           |  
 
 (These dates may change; always [check the official course calendar](https://calendar.google.com/calendar/embed?src=9b2a2926523202503e581c5967e916af9a4fa65374715badecd45bae9588ba32%40group.calendar.google.com&ctz=America%2FDetroit) for finalized dates.)
 
