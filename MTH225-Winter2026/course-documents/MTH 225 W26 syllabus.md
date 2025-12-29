@@ -17,6 +17,8 @@
 
 This is a web-based document, so please **bookmark it in your browser** so you can get back to it easily. You should read this document once thoroughly, then search it for information when needed. (You are not expected to memorize it. Just come back to it, hit `Ctrl-F` or `Cmd-F` and then look for what you need.) 
 
+If you prefer a PDF or paper version of this document, [please let me know](mailto:talbertr@gvsu.edu) and I will prepare one for you. 
+
 Underlined text represents a clickable link. For example, [click here for a cat video](https://www.youtube.com/watch?v=aFuUidBR1aQ). 
 
 Updates may be made to the syllabus over the semester as needed; those will be highlighted <mark>like this</mark>.  
@@ -26,8 +28,7 @@ Updates may be made to the syllabus over the semester as needed; those will be h
 
 - **Instructor**: Robert Talbert, Ph.D., Professor of Mathematics. Email: [talbertr@gvsu.edu](mailto:talbertr@gvsu.edu).  Voice: (616)331-8968. 
 - **Office**: Mackinac Hall C-2-513. Office hours TBA during week 1. 
-- **Appointments:** Schedule at https://calendly.com/robert-talbert 
-- **Meetings**: Au Sable Hall 2130, MWF 11:00-11:50.
+- **Appointments:** For appointments outside normal office hours, go to https://calendly.com/robert-talbert and select a time slot. - **Meetings**: Au Sable Hall 2130, MWF 11:00-11:50.
 - **Textbook**: None required. Optional textbook, _Discrete Mathematics: An Open Introduction_, 4th edition by Oscar Levin available for free online here: https://discrete.openmathbooks.org/dmoi4.html 
 - **Other resources**: 
 	- *Blackboard*: http://lms.gvsu.edu. 
@@ -41,7 +42,7 @@ Updates may be made to the syllabus over the semester as needed; those will be h
 
 ### Course content 
 
-This course covers **most of the mathematical ideas that are the foundation of a university-level study of computer science**.  In MTH 225 we explore questions like: 
+This course covers **the mathematical ideas at the foundation of a university-level study of computer science**.  In MTH 225 we explore questions like: 
 
 - How does a computer store numbers in electronic form and do arithmetic with them? 
 - How does a computer “make decisions” when running a program, for example when to enter or exit a loop? 
@@ -51,7 +52,7 @@ This course covers **most of the mathematical ideas that are the foundation of a
 
 The course content used to address questions like these is housed in five modules: 
 
-- **Computer arithmetic**: Integer division; the Euclidean algorithm; the modulus (%) operator and modular arithmetic; integer representation and arithmetic in binary, octal, and hexadecimal.
+- **Computer arithmetic**: Integer division; the Euclidean algorithm; the modulus (%) operator and modular arithmetic; integer representation in binary, octal, and hexadecimal; arithmetic in binary. 
 - **Logic**: Logical propositions; conditional statements; truth tables; predicates and quantifiers; logical equivalence and valid rules of deduction.
 - **Recursion and induction**: Recurrence relations; recursively defined structures; basics of mathematical proof and proof by mathematical induction.
 - **Sets and functions**: Representation of sets; subsets; union, intersection, and differences of sets; cardinality; functions; injective, surjective, and bijective functions; basics of combinatorial proof.
@@ -90,11 +91,11 @@ MTH 225 is set up so that you will be **actively engaged -- before, during, and 
 
 - *Before class:* You'll complete a **Class Prep** assignment that contains *review questions* from the previous class meeting, a *reading or video selection* to introduce new ideas for the next class, and *preview questions* to make sure you have the basic knowledge for the next class. Class Prep assignments are essential for being fully prepared; **class meetings pick up where Class Prep assignments end, and we will not typically re-teach any material from Class Preps**.
 - *During class:* Class meetings typically start with a low-stakes **entry quiz** over the pre-class material, followed by going over that quiz and other questions from Class Prep. Then the middle 20-30 minutes of each session is spent on active practice and problem solving. Finally, meetings typically end with time for questions and discussion on the activities and instructions for the next meeting. 
-- *After class:* Your main job in between classes is to complete Class Prep and engage in good practice on your own, along with occasional problem sets (described later). The majority of what is normally considered "homework" is replaced by Class Prep. 
+- *After class:* Your main job in between classes is to complete Class Prep and engage in good practice on your own, along with occasional problem sets (described later). The majority of what is normally considered "homework" is replaced by ungraded in-class activities. 
 
 **IMPORTANT Note #1**: **Class meetings are active practice sessions on content that is *beyond the basics*.** There are typically no full-length lectures in class meetings. Instead, you are expected to learn the basics (like definitions of terms and simple calculations) through Class Prep assignments, then come ready to apply the basics to more advanced questions. 
 
-**IMPORTANT Note #2:**  Class Prep assignments are simple, and are only graded on completeness and effort. **But they are not optional and should be given full effort**. Failing to complete Class Preps with your full attention will lower your grade both directly and indirectly, and you will be lost during class meetings. Remember there is no re-teaching of the material you are expected to learn on Class Preps. 
+**IMPORTANT Note #2:**  Class Prep assignments are simple, and are only graded on completeness and effort. **But they are required, and should be given full effort**. Failing to complete Class Preps with your full attention will lower your grade both directly and indirectly, and you will be lost during class meetings. Remember there is no re-teaching of the material you are expected to learn on Class Preps. 
 
 **IMPORTANT Note #3**: **Consistent attendance of class meetings is essential for full understanding of the course material**. If you skip class, you are getting no help with the most difficult parts of the content. Additionally, attendance will be taken each day and factored into your grade (see below for how). This includes days that are adjacent to holidays. 
 
@@ -129,7 +130,7 @@ To test your skills with application and analysis in the course, there are two *
 
 ### Engagement credits
 
-Opportunities to engage with the class so are plentiful, and many will have a point value attached, which we call **engagement credits**. Some engagement credit opportunities are recurring (for example, successful completion of Class Prep and class attendance both earn engagement credits) while some are one-time opportunities that encourage going above and beyond basic engagement (for example, the Startup Assignment given in week 1). All such opportunities to earn engagement credits will be clearly announced. 
+Opportunities to engage with the class are plentiful, and many will have a point value attached, which we call **engagement credits**. Some engagement credit opportunities are recurring (for example, successful completion of Class Prep and class attendance both earn engagement credits) while some are one-time opportunities that encourage going above and beyond basic engagement (for example, the Startup Assignment given in week 1). All such opportunities to earn engagement credits will be clearly announced. 
 
 ### Final exam
 
@@ -148,25 +149,26 @@ The final exam session will be held in your section's usual classroom.
 Grading in MTH 225 works differently than it possibly does in your other courses and in high school. In MTH 225: 
 
 - **Almost none of your assignments have point values**. (The exception is engagement credit items.) Therefore there is **no partial credit and no averaging** because there are no points. 
-- Instead, assignments have **standards** which are descriptions of what constitutes "successful" work. These are given in detail in the document ***Standards for Student Work in MTH 225***, described in more detail below. 
-- Rather than attaching point values to items, I use the *Standards for Student Work* document to see if the work meets the standard for "success". Depending on the extent to which your work meets the standard or doesn't meet it, it will be marked with one of two or three adjectives that describe it. See "How assignments are graded and recorded in Blackboard" below for more. 
+- Instead, assignments have **standards** which are descriptions of what constitutes "successful" work. These are given in detail in the document [Standards for Student Work in MTH 225](https://github.com/RobertTalbert/discretecs/blob/master/MTH225-Winter2026/course-documents/MTH%20225%20Standards%20for%20Student%20Work%20Winter%202026.md), described in more detail below. 
+- Rather than attaching point values to items, I use the [Standards for Student Work in MTH 225](https://github.com/RobertTalbert/discretecs/blob/master/MTH225-Winter2026/course-documents/MTH%20225%20Standards%20for%20Student%20Work%20Winter%202026.md) document to see if the work meets the standard for "success". Depending on the extent to which your work meets the standard or doesn't meet it, it will be marked with one of two or three adjectives that describe it. See "How assignments are graded and recorded in Blackboard" below for more. 
 - After I grade your work, in most cases you will receive **detailed feedback** that will tell you whether your work meets the standards, and if not, the feedback will tell you what was missing and how you might go about fixing it. 
 - On Exams (both Learning Target and Application/Analysis), you will have the chance to **reattempt** items on the exam if needed so you can put the feedback you received to work and improve on the second attempt. 
 - Your course grade is not based on point totals or averages (because there are no point values). Instead, the course grade is based on **how many learning tasks you've successfully accomplished** by the end of the semester, using a simple table that's given below. 
 
-**Why is grading so weird in this class?** I believe in your ability to learn from mistakes and eventually master every part of the material in MTH 225. In order to give room for learning from mistakes, we need reattempts on things. And to make sure you know what to reattempt, your work needs to be marked with something other than points because points do not tell you what you know or don't know. Also, when there are points on assignments, you're only human and will tend to focus like a laser on the points and not on the things you need to work on. I'm no different. So we've removed points from the picture to focus on the right things; added clear standards for acceptable work so you will know where you stand; and a system of reattempts so you can keep trying if you don't meet the standard the first time. I don't care so much if you know or don't know something at a single moment -- but I care a lot about whether you can *eventually* learn it. 
-
-This approach mirrors how things work in the real world and in most places in life outside of school. Once you have a real job, for example, your boss is not going to attach a point value to your performance reviews and then choose to fire or retain you based on that point total. Instead, you have performance standards, you get feedback and coaching on how to improve, and then you act on the feedback and show the boss that you have improved. 
-
-The main drawback of this approach to grading is that it's different and might take getting used to. I've done grading this way for over 10 years now, and I find that most students need no more than a week before they are fully comfortable with this. I encourage you to ask questions at any time so I can help you. 
+> [!IMPORTANT]
+> **Why is grading so weird in this class?** I believe in your ability to learn from mistakes and eventually master every part of the material in MTH 225. In order to give room for learning from mistakes, we need reattempts on things. And to make sure you know what to reattempt, your work needs to be marked with something other than points because points do not tell you what you know or don't know. Also, when there are points on assignments, you're only human and will tend to focus like a laser on the points and not on the things you need to work on. I'm no different. So we've removed points from the picture to focus on the right things; added clear standards for acceptable work so you will know where you stand; and a system of reattempts so you can keep trying if you don't meet the standard the first time. I don't care so much if you know or don't know something at a single moment -- but I care a lot about whether you can *eventually* learn it. 
+> 
+>This approach mirrors how things work in the real world and in most places in life outside of school. Once you have a real job, for example, your boss is not going to attach a point value to your performance reviews and then choose to fire or retain you based on that point total. Instead, you have performance standards, you get feedback and coaching on how to improve, and then you act on the feedback and show the boss that you have improved. 
+>
+>The main drawback of this approach to grading is that it's different and might take getting used to. I've done grading this way for over 10 years now, and I find that most students need no more than a week before they are fully comfortable with this. I encourage you to ask questions at any time so I can help you. 
 
 ### The _Standards for Student Work_ document 
 
-The [Standards for Student Work in MTH 225](https://github.com/RobertTalbert/discretecs/blob/master/MTH225-Winter2026/course-documents/MTH%20225%20Standards%20for%20Student%20Work%20Winter%202026.md) document is a complete one-stop visit for all information about what "success" specifically looks like for each of the assignment types in the course. **It is critically important that you read this document carefully and keep it close at hand**. A link is to it is found in several places in the syllabus, also on the [Class Page](https://docs.google.com/document/d/1nMtLOtnWDsVe40Q0udnGX0qacreusKO8xDQgK90CTAo/edit?usp=sharing0) and on Blackboard; you should also bookmark it in your web browser. 
+The [Standards for Student Work in MTH 225](https://github.com/RobertTalbert/discretecs/blob/master/MTH225-Winter2026/course-documents/MTH%20225%20Standards%20for%20Student%20Work%20Winter%202026.md) document is a complete description of what "success" specifically looks like for each of the assignment types in the course. **It is critically important that you read this document carefully and keep it close at hand**. A link is to it is found in several places in the syllabus, also on the [Class Page](https://docs.google.com/document/d/1nMtLOtnWDsVe40Q0udnGX0qacreusKO8xDQgK90CTAo/edit?usp=sharing0) and on Blackboard; you should also bookmark it in your web browser. 
 
 ### How assignments are graded and recorded in Blackboard
 
-* *Learning Targets*: Learning Target exams themselves do not receive a grade. Instead, each Learning Target is graded separately, and recorded separately in Blackboard. Each is graded with one of three markings: *Master*, *Proficient*, or *Beginner*. Please see the Standards for Student Work document for the criteria for each. 
+* *Learning Targets*: Learning Target exams themselves do not receive a grade. Instead, each Learning Target is graded separately, and recorded separately in Blackboard. Each is graded with one of three markings: *Master*, *Proficient*, or *Beginner*. Please see the [Standards for Student Work in MTH 225](https://github.com/RobertTalbert/discretecs/blob/master/MTH225-Winter2026/course-documents/MTH%20225%20Standards%20for%20Student%20Work%20Winter%202026.md) document for the criteria for each. 
 * *Weekly practice*: You will get a score on these once you complete them on Blackboard, to show you how many responses you got correct. Earning 100% correct will earn you engagement credits (see below). Otherwise the score does not contribute to or take away from your course grade at all. 
 * *Problem Sets*: Turning in a good-faith effort at a complete and correct set of solutions on a Problem Set will earn you engagement credits (see below). Otherwise these are ungraded; you will be given verbal feedback on any problem set or part of one that you submit, but they do not by themselves earn credit. 
 * *Application/Analysis Exams*: Each Application/Analysis Exam has four parts (multiple choice/true false, and three problem groups). Each part is graded *Success* or *Retry* and will be recorded separately in Blackboard. The exam as a whole is graded *Master*, *Proficient*, or *Beginner* depending on how many of the four parts were marked *Success*. Please see the Standards for Student Work document for the specific criteria. 
@@ -191,14 +193,14 @@ Please see the Standards for Student Work document for the specific criteria for
 
 Your letter grade for the course is assigned using the table below. It shows the *minimum* requirements for the "base grades" of A, B, C, and D. **To earn a grade in the course, you need to meet or exceed *all* the requirements for that grade.** Plus/minus modifiers are applied using the rules below the table. A grade of "F" is assigned if not all of the requirements for a "D" are met.
 
-|     | Learning Targets with "Master" | Application/Analysis Exams                 | Engagement Credits |     |
-| :-: | ------------------------------ | ------------------------------------------ | ------------------ | --- |
-|  A  | 11                             | *Master* on both                           | 90% of maximum\*   |     |
-|  B  | 9                              | *Master* on one, *Proficient* on the other | 80% of maximum     |     |
-|  C  | 7                              | *Proficient* on both                       | 70% of maximum     |     |
-|  D  | 5                              | Proficient on one                          | 60% of maximum     |     |
+|     | Learning Targets with "Master" | Application/Analysis Exams                 | Engagement Credits |   
+| :-: | ------------------------------ | ------------------------------------------ | ------------------ | 
+|  A  | 11                             | *Master* on both                           | 90% of maximum\*   | 
+|  B  | 9                              | *Master* on one, *Proficient* on the other | 80% of maximum     |  
+|  C  | 7                              | *Proficient* on both                       | 70% of maximum     |  
+|  D  | 5                              | Proficient on one                          | 60% of maximum     | 
 
-Note: The final maximum number of engagement credits will not be known until roughly week 10. A running maximum total will be kept on Blackboard, updated weekly, so you can check your current percentage. 
+Note: The final maximum number of engagement credits will not be known until roughly week 10. A running maximum total will be kept on Blackboard and updated weekly, so you can check your current percentage. 
 
 The base grade can be modified with a plus or minus: 
 - *Plus:* Given when Learning Targets mastered and Application/Analysis exams are at different levels. In this case, **we take the grade level of the lower of those two and add a plus to it.**  Example: Earning mastery on 11 Learning Targets ("A" level), 80% of the maximum amount of engagement credits ("B" level) but having only proficient on both Application/Analysis exams ("C" level) is a C+. 
@@ -208,7 +210,7 @@ In cases where both a plus and a minus could be awarded, there is no modifier. E
 
 **CORE Learning Targets:** Six of the 12 Learning Targets are designated **CORE** targets. Failing to earn *Master* rating on all six of these will result in a one-letter grade penalty to your course grade. 
 
-**Borderline cases:** If you are close to satisfying the requirements for a grade, but not quite satisfying it, I will consider such borderline cases on a case-by-case basis at the end of the seemester using engagement credits as the primary means of deciding. Please note that having only one *Master* on an Application/Analysis exam is not considered "close to" having two of them. 
+**Borderline cases:** If you are close to satisfying the requirements for a grade, but not quite satisfying it, I will consider such borderline cases on a case-by-case basis at the end of the semester using engagement credits as the primary means of deciding. Please note that having only one *Master* on an Application/Analysis exam is not considered "close to" having two of them. 
 
 ---
 ## Reattempts of assessments
@@ -283,7 +285,7 @@ Generative AI tools offer an unparalleled ability to enhance and accelerate real
 
 When used to supplement and extend your own efforts to learn, AI is great. **But when it is used to *replace* those efforts or find shortcuts around them, it gets bad**. 
 
-In order to learn anything for mastery, you must plan on putting in many hours of hard work, in what is called "desirable difficulty". The difficulty you experience is a sign that you are doing it right. The lack of difficulty, or seeking to get around it, tells you that your'e doing things wrong. An over-reliance on AI tools in MTH 225 will become obvious very quickly: You will be lost during class, clueless on exams, and buried under the burden of repeated reattempts. 
+In order to learn anything for mastery, you must plan on putting in many hours of hard work, in what is called "[desirable difficulty](https://theeffortfuleducator.com/2020/05/22/desiring-difficulties/)". The difficulty you experience is a sign that you are doing it right. The lack of difficulty, or seeking to get around it, tells you that you're doing things wrong. An over-reliance on AI tools in MTH 225 will become obvious very quickly: You will be lost during class, clueless on exams, and buried under the burden of repeated reattempts. 
 
 **Your best plan for success in MTH 225 is to keep AI in a box and use it only to supplement and extend what is already taking place through your own hard work**. This is also how you, a future computing professional, will make yourself indispensable on the job market and give you some long-term stability in a rapidly changing world. 
 
@@ -355,8 +357,7 @@ Currently I teach a lot of MTH 225 and MTH 325, getting engineers and computer s
 
 I've been a bass guitar player for over 25 years and regularly perform live in the area with  different bands. You can learn more about my music activities at [my music website](https://rtgrooves.com/) or [my Linktree page](https://linktr.ee/rtgrooves). 
 
-I live in Allendale with my wife and 17-year old son (who's interested in computer engineering). I have a daughter studying Marketing at [Wayne State University](https://wayne.edu/) and a 21-year old daughter who lives on her own. I love the outdoors and get out to walk or hike when I can. You can read more about what I'm thinking and doing at my website, [rtalbert.org](http://rtalbert.org), or [Grading for Growth](https://gradingforgrowth.com/) about alternative grading practices which I co-author with my GVSU colleague Prof. David Clark. I'm also on Twitter at [@RobertTalbert](http://twitter.com/RobertTalbert) and on [LinkedIn](https://www.linkedin.com/in/roberttalbert/). I will accept any connection request on LinkedIn from a student!
-
+I live in Allendale with my wife and 17-year old son (who's interested in ~~computer science~~ ~~computer engineering~~ data science). I have a daughter studying Marketing at [Wayne State University](https://wayne.edu/) and a 22-year old daughter who lives on her own. I love the outdoors and get out to walk or hike when I can. You can read more about what I'm thinking and doing at my website, [rtalbert.org](http://rtalbert.org), or [Grading for Growth](https://gradingforgrowth.com/) about alternative grading practices which I co-author with my GVSU colleague Prof. David Clark. I'm also on Twitter at [@RobertTalbert](http://twitter.com/RobertTalbert) and on [LinkedIn](https://www.linkedin.com/in/roberttalbert/). I will accept any connection request on LinkedIn from a student!
 ---
 ## Appendix A: Learning Targets 
 

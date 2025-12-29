@@ -17,6 +17,8 @@
 
 This is a web-based document, so please **bookmark it in your browser** so you can get back to it easily. You should read this document once thoroughly, then search it for information when needed. (You are not expected to memorize it. Just come back to it, hit `Ctrl-F` or `Cmd-F` and then look for what you need.) 
 
+If you prefer a PDF or paper version of this document, [please let me know](mailto:talbertr@gvsu.edu) and I will prepare one for you. 
+
 Underlined text represents a clickable link. For example, [click here for a cat video](https://www.youtube.com/watch?v=aFuUidBR1aQ). 
 
 Updates may be made to the syllabus over the semester as needed; those will be highlighted <mark>like this</mark>. 
@@ -26,7 +28,7 @@ Updates may be made to the syllabus over the semester as needed; those will be h
 
 - **Instructor**: Robert Talbert, Ph.D., Professor of Mathematics. Email: [talbertr@gvsu.edu](mailto:talbertr@gvsu.edu).  Voice: (616)331-8968. 
 - **Office**: Mackinac Hall C-2-513. Office hours TBA during week 1. 
-- **Appointments:** Schedule at https://calendly.com/robert-talbert 
+- **Appointments:** For appointments outside normal office hours, go to https://calendly.com/robert-talbert and select a time slot. 
 - **Meetings**: Au Sable Hall 1142, MWF 12:00-12:50pm. 
 - **Textbook**: None required. Optional textbook, _Discrete Mathematics: An Open Introduction_, 4th edition by Oscar Levin available for free online here: https://discrete.openmathbooks.org/dmoi4.html 
 - **Other resources**: 
@@ -80,11 +82,11 @@ MTH 325 is set up so that you will be **actively engaged -- before, during, and 
 
 - *Before class:* You'll complete a **Class Prep** assignment that contains *review questions* from the previous class meeting, a *reading or video selection* to introduce new ideas for the next class, and *preview questions* to make sure you have the basic knowledge for the next class. Class Prep assignments are essential for being fully prepared; **class meetings pick up where Class Prep assignments end, and we will not typically re-teach any material from Class Preps**.
 - *During class:* Class meetings typically start with a low-stakes **entry quiz** over the pre-class material, followed by going over that quiz and other questions from Class Prep. Then the middle 20-30 minutes of each session is spent on active practice and problem solving. Finally, meetings typically end with time for questions and discussion on the activities and instructions for the next meeting. 
-- *After class:* Your main job in between classes is to complete Class Prep and engage in good practice on your own, along with occasional problem sets (described later). The majority of what is normally considered "homework" is replaced by Class Prep. 
+- *After class:* Your main job in between classes is to complete Class Prep and engage in good practice on your own, along with occasional problem sets (described later). The majority of what is normally considered "homework" is replaced by ungraded in-class activities. 
 
 **IMPORTANT Note #1**: **Class meetings are active practice sessions on content that is *beyond the basics*.** There are typically no full-length lectures in class meetings. Instead, you are expected to learn the basics (like definitions of terms and simple calculations) through Class Prep assignments, then come ready to apply the basics to more advanced questions. 
 
-**IMPORTANT Note #2:**  Class Prep assignments are simple, and are only graded on completeness and effort. **But they are not optional and should be given full effort**. Failing to complete Class Preps with your full attention will lower your grade both directly and indirectly, and you will be lost during class meetings. Remember there is no re-teaching of the material you are expected to learn on Class Preps. 
+**IMPORTANT Note #2:**  Class Prep assignments are simple, and are only graded on completeness and effort. **But they are required, and should be given full effort**. Failing to complete Class Preps with your full attention will lower your grade both directly and indirectly, and you will be lost during class meetings. Remember there is no re-teaching of the material you are expected to learn on Class Preps. 
 
 **IMPORTANT Note #3**: **Consistent attendance of class meetings is essential for full understanding of the course material**. If you skip class, you are getting no help with the most difficult parts of the content. Additionally, attendance will be taken each day and factored into your grade (see below for how). This includes days that are adjacent to holidays. 
 
@@ -119,7 +121,7 @@ To test your skills with application and analysis in the course, there are two *
 
 ### Engagement credits
 
-Opportunities to engage with the class so are plentiful, and many will have a point value attached, which we call **engagement credits**. Some engagement credit opportunities are recurring (for example, successful completion of Class Prep and class attendance both earn engagement credits) while some are one-time opportunities that encourage going above and beyond basic engagement (for example, the Startup Assignment given in week 1). All such opportunities to earn engagement credits will be clearly announced. 
+Opportunities to engage with the class are plentiful, and many will have a point value attached, which we call **engagement credits**. Some engagement credit opportunities are recurring (for example, successful completion of Class Prep and class attendance both earn engagement credits) while some are one-time opportunities that encourage going above and beyond basic engagement (for example, the Startup Assignment given in week 1). All such opportunities to earn engagement credits will be clearly announced. 
 
 ### Final exam
 
@@ -148,7 +150,7 @@ The main drawback of this approach to grading is that it's different and might t
 
 ### The _Standards for Student Work_ document 
 
-The [Standards for Student Work in MTH 325](https://github.com/RobertTalbert/discretecs/blob/master/MTH325-Winter2026/course-documents/MTH%20325%20Standards%20for%20Student%20Work%20Winter%2026.md) document is a complete one-stop visit for all information about what "success" specifically looks like for each of the assignment types in the course. **It is critically important that you read this document carefully and keep it close at hand**. A link is to it is found in several places in the syllabus, also on the [Class Page](https://docs.google.com/document/d/1wWiOifmBieQYdwgCST8vJBBfraYd3YZsztRM6bnH6d4/edit?usp=sharing) and on Blackboard; you should also bookmark it in your web browser. 
+The [Standards for Student Work in MTH 325](https://github.com/RobertTalbert/discretecs/blob/master/MTH325-Winter2026/course-documents/MTH%20325%20Standards%20for%20Student%20Work%20Winter%2026.md) document is a complete description of what "success" specifically looks like for each of the assignment types in the course. **It is critically important that you read this document carefully and keep it close at hand**. A link is to it is found in several places in the syllabus, also on the [Class Page](https://docs.google.com/document/d/1wWiOifmBieQYdwgCST8vJBBfraYd3YZsztRM6bnH6d4/edit?usp=sharing) and on Blackboard; you should also bookmark it in your web browser. 
 
 ### How assignments are graded and recorded in Blackboard
 
@@ -175,14 +177,14 @@ Please see the [Standards for Student Work document](https://github.com/RobertTa
 
 Your letter grade for the course is assigned using the table below. It shows the *minimum* requirements for the "base grades" of A, B, C, and D. **To earn a grade in the course, you need to meet or exceed *all* the requirements for that grade.** Plus/minus modifiers are applied using the rules below the table. A grade of "F" is assigned if not all of the requirements for a "D" are met.
 
-|     | Learning Targets with "Master" | Application/Analysis Exams                 | Engagement Credits |     |
-| :-: | ------------------------------ | ------------------------------------------ | ------------------ | --- |
-|  A  | 11                             | *Master* on both                           | 90% of maximum\*   |     |
-|  B  | 9                              | *Master* on one, *Proficient* on the other | 80% of maximum     |     |
-|  C  | 7                              | *Proficient* on both                       | 70% of maximum     |     |
-|  D  | 5                              | Proficient on one                          | 60% of maximum     |     |
+|     | Learning Targets with "Master" | Application/Analysis Exams                 | Engagement Credits | 
+| :-: | ------------------------------ | ------------------------------------------ | ------------------ | 
+|  A  | 11                             | *Master* on both                           | 90% of maximum\*   | 
+|  B  | 9                              | *Master* on one, *Proficient* on the other | 80% of maximum     |  
+|  C  | 7                              | *Proficient* on both                       | 70% of maximum     |
+|  D  | 5                              | Proficient on one                          | 60% of maximum     | 
 
-Note: The final maximum number of engagement credits will not be known until roughly week 10. A running maximum total will be kept on Blackboard, updated weekly, so you can check your current percentage. 
+Note: The final maximum number of engagement credits will not be known until roughly week 10. A running maximum total will be kept on Blackboard and updated weekly, so you can check your current percentage.  
 
 The base grade can be modified with a plus or minus: 
 - *Plus:* Given when Learning Targets mastered and Application/Analysis exams are at different levels. In this case, **we take the grade level of the lower of those two and add a plus to it.**  Example: Earning mastery on 11 Learning Targets ("A" level), 80% of the maximum amount of engagement credits ("B" level) but having only proficient on both Application/Analysis exams("C" level) is a C+. 
@@ -192,7 +194,7 @@ In cases where both a plus and a minus could be awarded, there is no modifier. E
 
 **CORE Learning Targets:** Five of the 12 Learning Targets are designated **CORE** targets. Failing to earn *Master* rating on all five of these will result in a one-letter grade penalty to your course grade. 
 
-**Borderline cases:** If you are close to satisfying the requirements for a grade, but not quite satisfying it, I will consider such borderline cases on a case-by-case basis at the end of the seemester using engagement credits as the primary means of deciding. Please note that having only one *Master* on an Application/Analysis exam is not considered "close to" having two of them. 
+**Borderline cases:** If you are close to satisfying the requirements for a grade, but not quite satisfying it, I will consider such borderline cases on a case-by-case basis at the end of the semester using engagement credits as the primary means of deciding. Please note that having only one *Master* on an Application/Analysis exam is not considered "close to" having two of them. 
 
 ---
 ## Reattempts of assessments
@@ -268,7 +270,7 @@ Generative AI tools offer an unparalleled ability to enhance and accelerate real
 
 When used to supplement and extend your own efforts to learn, AI is great. **But when it is used to *replace* those efforts or find shortcuts around them, it gets bad**. 
 
-In order to learn anything for mastery, you must plan on putting in many hours of hard work, in what is called "desirable difficulty". The difficulty you experience is a sign that you are doing it right. The lack of difficulty, or seeking to get around it, tells you that your'e doing things wrong. An over-reliance on AI tools in MTH 225 will become obvious very quickly: You will be lost during class, clueless on exams, and buried under the burden of repeated reattempts. 
+In order to learn anything for mastery, you must plan on putting in many hours of hard work, in what is called "[desirable difficulty](https://theeffortfuleducator.com/2020/05/22/desiring-difficulties/)". The difficulty you experience is a sign that you are doing it right. The lack of difficulty, or seeking to get around it, tells you that you're doing things wrong. An over-reliance on AI tools in MTH 225 will become obvious very quickly: You will be lost during class, clueless on exams, and buried under the burden of repeated reattempts. 
 
 **Your best plan for success in MTH 325 is to keep AI in a box and use it only to supplement and extend what is already taking place through your own hard work**. This is also how you, a future computing professional, will make yourself indispensable on the job market and give you some long-term stability in a rapidly changing world. 
 
@@ -341,7 +343,7 @@ Currently I teach a lot of MTH 225 and MTH 325, getting engineers and computer s
 
 I've been a bass guitar player for over 25 years and regularly perform live in the area with  different bands. You can learn more about my music activities at [my music website](https://rtgrooves.com/) or [my Linktree page](https://linktr.ee/rtgrooves). 
 
-I live in Allendale with my wife and 17-year old son (who's interested in computer engineering). I have a daughter studying Marketing at [Wayne State University](https://wayne.edu/) and a 21-year old daughter who lives on her own. I love the outdoors and get out to walk or hike when I can. You can read more about what I'm thinking and doing at my website, [rtalbert.org](http://rtalbert.org), or [Grading for Growth](https://gradingforgrowth.com/) about alternative grading practices which I co-author with my GVSU colleague Prof. David Clark. I'm also on Twitter at [@RobertTalbert](http://twitter.com/RobertTalbert) and on [LinkedIn](https://www.linkedin.com/in/roberttalbert/). I will accept any connection request on LinkedIn from a student!
+I live in Allendale with my wife and 17-year old son (who's interested in ~~computer science~~ ~~computer engineering~~ data science). I have a daughter studying Marketing at [Wayne State University](https://wayne.edu/) and a 21-year old daughter who lives on her own. I love the outdoors and get out to walk or hike when I can. You can read more about what I'm thinking and doing at my website, [rtalbert.org](http://rtalbert.org), or [Grading for Growth](https://gradingforgrowth.com/) about alternative grading practices which I co-author with my GVSU colleague Prof. David Clark. I'm also on Twitter at [@RobertTalbert](http://twitter.com/RobertTalbert) and on [LinkedIn](https://www.linkedin.com/in/roberttalbert/). I will accept any connection request on LinkedIn from a student!
 
 ---
 
