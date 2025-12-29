@@ -28,7 +28,8 @@ Updates may be made to the syllabus over the semester as needed; those will be h
 
 - **Instructor**: Robert Talbert, Ph.D., Professor of Mathematics. Email: [talbertr@gvsu.edu](mailto:talbertr@gvsu.edu).  Voice: (616)331-8968. 
 - **Office**: Mackinac Hall C-2-513. Office hours TBA during week 1. 
-- **Appointments:** For appointments outside normal office hours, go to https://calendly.com/robert-talbert and select a time slot. - **Meetings**: Au Sable Hall 2130, MWF 11:00-11:50.
+- **Appointments:** For appointments outside normal office hours, go to https://calendly.com/robert-talbert and select a time slot. 
+- **Meetings**: Au Sable Hall 2130, MWF 11:00-11:50.
 - **Textbook**: None required. Optional textbook, _Discrete Mathematics: An Open Introduction_, 4th edition by Oscar Levin available for free online here: https://discrete.openmathbooks.org/dmoi4.html 
 - **Other resources**: 
 	- *Blackboard*: http://lms.gvsu.edu. 
@@ -358,7 +359,9 @@ Currently I teach a lot of MTH 225 and MTH 325, getting engineers and computer s
 I've been a bass guitar player for over 25 years and regularly perform live in the area with  different bands. You can learn more about my music activities at [my music website](https://rtgrooves.com/) or [my Linktree page](https://linktr.ee/rtgrooves). 
 
 I live in Allendale with my wife and 17-year old son (who's interested in ~~computer science~~ ~~computer engineering~~ data science). I have a daughter studying Marketing at [Wayne State University](https://wayne.edu/) and a 22-year old daughter who lives on her own. I love the outdoors and get out to walk or hike when I can. You can read more about what I'm thinking and doing at my website, [rtalbert.org](http://rtalbert.org), or [Grading for Growth](https://gradingforgrowth.com/) about alternative grading practices which I co-author with my GVSU colleague Prof. David Clark. I'm also on Twitter at [@RobertTalbert](http://twitter.com/RobertTalbert) and on [LinkedIn](https://www.linkedin.com/in/roberttalbert/). I will accept any connection request on LinkedIn from a student!
+
 ---
+
 ## Appendix A: Learning Targets 
 
 1. (**CORE**) I can find the quotient and remainder when dividing one positive integer by another using the Division Algorithm, use the modulus (%) operator to find the value of an integer modulo another, and perform modular arithmetic. 
