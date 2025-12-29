@@ -32,7 +32,7 @@ Along with these four kinds of errors, are two levels of severity: "significant"
 - A **significant** error is one that pertains directly to the core concepts of the problem or assignment and calls your understanding and mastery of those concepts into question. 
 - A **minor** error is one that does not pertain directly to the core concepts of the problem or assignment, and your understanding and master of those concepts is still evident despite the error. 
 
-Whether an error is significant or minor, depends a lot on context and is at my (Talbert's) discretion to decide. Any time an error happens, of any kind of level of seriousness, it will be pointed out in the feedback you receive from me, and typically you will get a chance to correct it (see ["Reattempts of Assessments" un your syllabus](https://github.com/RobertTalbert/discretecs/blob/master/MTH225-Winter2026/course-documents/MTH%20225%20W26%20syllabus.md#reattempts-of-assessments).)
+Whether an error is significant or minor, depends a lot on context and is at my (Talbert's) discretion to decide. Any time an error happens, of any kind of level of seriousness, it will be pointed out in the feedback you receive from me, and typically you will get a chance to correct it (see ["Reattempts of Assessments" in your syllabus](https://github.com/RobertTalbert/discretecs/blob/master/MTH225-Winter2026/course-documents/MTH%20225%20W26%20syllabus.md#reattempts-of-assessments).)
 
 ## Standards for assignments in MTH 225 
 
