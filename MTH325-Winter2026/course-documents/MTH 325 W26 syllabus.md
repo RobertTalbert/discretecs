@@ -121,7 +121,18 @@ To test your skills with application and analysis in the course, there are two *
 
 ### Engagement credits
 
-Opportunities to engage with the class are plentiful, and many will have a point value attached, which we call **engagement credits**. Some engagement credit opportunities are recurring (for example, successful completion of Class Prep and class attendance both earn engagement credits) while some are one-time opportunities that encourage going above and beyond basic engagement (for example, the Startup Assignment given in week 1). All such opportunities to earn engagement credits will be clearly announced. 
+Opportunities to engage with the class are plentiful, and many will have a point value attached, which we call **engagement credits**. Some engagement credit opportunities are recurring (for example, successful completion of Class Prep and class attendance both earn engagement credits) while some are one-time opportunities that encourage going above and beyond basic engagement (for example, the Startup Assignment given in week 1). All such opportunities to earn engagement credits will be clearly announced. The value of recurring engagement credit-earning tasks is shown below: 
+
+| Action                                                  | Engagement credits earned |
+| ------------------------------------------------------- | :-------------------------: |
+| Successful completion of a Class Prep                   | 1                         |
+| Attending a class meeting* (30 minute minmum)           | 1                         |
+| Completing weekly practice set with 100%                | 4                         |
+| Turning in good-faith complete attempt at a Problem Set | 8                         |
+
+*Does not include exam days, reattempt days, or exam makeup days. 
+
+Please see the [Standards for Student Work document](https://github.com/RobertTalbert/discretecs/blob/master/MTH325-Winter2026/course-documents/MTH%20325%20Standards%20for%20Student%20Work%20Winter%2026.md) for the specific criteria for successful completions of these tasks. Other, one-time opportunities for earning engagement credits may arise during the semester. Engagement credits are recorded in Blackboard in the "Engagement credits total" column which adds up all of the individual items, recorded separately in Blackboard, that earn engagement credits. 
 
 ### Final exam
 
@@ -143,7 +154,7 @@ Grading in MTH 325 works differently than it possibly does in your other courses
 - Your course grade is not based on point totals or averages (because there are no point values). Instead, the course grade is based on **how many learning tasks you've successfully accomplished** by the end of the semester, using a simple table that's given below. 
 
 
-> ![important]
+> ![IMPORTANT]
 > **Why is grading so weird in this class?** I believe in your ability to learn from mistakes and eventually master every part of the material in MTH 325. In order to give room for learning from mistakes, we need reattempts on things. And to make sure you know what to reattempt, your work needs to be marked with something other than points because points do not tell you what you know or don't know. Also, when there are points on assignments, you're only human and will tend to focus like a laser on the points and not on the things you need to work on. I'm no different. So we've removed points from the picture to focus on the right things; added clear standards for acceptable work so you will know where you stand; and a system of reattempts so you can keep trying if you don't meet the standard the first time. I don't care so much if you know or don't know something at a single moment -- but I care a lot about whether you can *eventually* learn it. 
 > 
 > This approach mirrors how things work in the real world and in most places in life outside of school. Once you have a real job, for example, your boss is not going to attach a point value to your performance reviews and then choose to fire or retain you based on that point total. Instead, you have performance standards, you get feedback and coaching on how to improve, and then you act on the feedback and show the boss that you have improved. 
@@ -161,19 +172,17 @@ The [Standards for Student Work in MTH 325](https://github.com/RobertTalbert/dis
 * *Problem Sets*: Turning in a good-faith effort at a complete and correct set of solutions on a Problem Set will earn you engagement credits (see below). Otherwise these are ungraded; you will be given verbal feedback on any problem set or part of one that you submit, but they do not by themselves earn credit. 
 * *Application/Analysis Exams*: Each Application/Analysis Exam has four parts (multiple choice/true false, and three problem groups). Each part is graded *Success* or *Retry* and will be recorded separately in Blackboard. The exam as a whole is graded *Master*, *Proficient*, or *Beginner* depending on how many of the four parts were marked *Success*. Please see the [Standards for Student Work document](https://github.com/RobertTalbert/discretecs/blob/master/MTH325-Winter2026/course-documents/MTH%20325%20Standards%20for%20Student%20Work%20Winter%2026.md) for the specific criteria. 
 
-### Engagement credits
+### Tracking and returning graded work, and reporting gradebook errors
 
-You can earn *engagement credits* for completing tasks in the course that are not direct evidence of your learning, like exams, but which are important for the learning process. 
+**Any work submitted for feedback or grading will be graded or given feedback, within seven (7) business days of submission.** For example, Learning Target Exam 1 is scheduled to be taken in class on Wednesday, February 11; barring any calendar changes, you will receive your work back, with grades and fedeback, no later than Friday February 20. This includes items that do not receive grades but instead get feedback and engagement credits, like Problem Sets. 
 
-| Action                                                  | Engagement credits earned |
-| ------------------------------------------------------- | :-------------------------: |
-| Successful completion of a Class Prep                   | 1                         |
-| Attending a class meeting* (30 minute minmum)           | 1                         |
-| Completing weekly practice set with 100%                | 4                         |
-| Turning in good-faith complete attempt at a Problem Set | 8                         |
-\*Does not include exam days, reattempt days, or exam makeup days. 
+Please note, *I do not attempt to return items to you as quickly as possible*: Only within the 7-business day time frame. While you may sometimes get grades or feedback sooner than 7 business days, you should not expect immediate turnaround. But you can expect results within the 7-business day time frame, on every item, every time without fail. 
 
-Please see the [Standards for Student Work document](https://github.com/RobertTalbert/discretecs/blob/master/MTH325-Winter2026/course-documents/MTH%20325%20Standards%20for%20Student%20Work%20Winter%2026.md) for the specific criteria for successful completions of these tasks. Other, one-time opportunities for earning engagement credits may arise during the semester. 
+**Grading Status Board**: Items that are done by the entire class, such as Learning Target exams, can be tracked using the [Grading Status Board](https://talbertgvsu.notion.site/mth325gradingstatus) which shows the current queue for grading, what is being graded currently, and items for which grading is done. **Please do not email me to ask whether an item has been graded yet or not**: I will not reply to those emails because this is what the Grading Status Board is for.  
+
+Errors in data entry of grades to the Blackboard gradebook are common, because of the poor design of Blackboard's user interface for instructors. You are expected to keep careful records on your own, apart from Blackboard, of your grades and graded work, and to check the accuracy of the Blackboard gradebook at regular intervals. (I recommend once every 2 weeks.) If you see what appears to be an error in Blackboard, report it using the [Grade Discrepancy Form](https://forms.gle/BLrQf6yPXKaHYQFA9). I check and handle error reports **every Friday** and will report back to you once the issue is resolved. 
+
+**Regarding attendance**: The engagement credits from class attendance are recorded in a separate "Attendance" gradebook entry that has to be manually updated. Those are updated **once a week on Fridays**. Your attendance on Monday and Wednesday will not show up on Blackboard until then, so please do not submit a Grade Discrepancy Report if the attendance entry appears wrong but simply hasn't been updated yet. 
 
 ### How the course grade is determined
 
