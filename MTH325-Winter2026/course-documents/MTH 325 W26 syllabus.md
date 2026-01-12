@@ -338,6 +338,17 @@ If, for purposes of gender identity and expression, your official name (in Banne
 
 I consider classroom and campus safety our shared responsibility. Please familiarize yourself with the classroom emergency placard, which contains important information that could prove useful should an emergency arise. Emergency situations could include a fire alarm, tornado warning, medical emergency, or hostile intruder, and our response might consist of evacuating MAK Hall in an orderly manner, moving as a group to a different location in the building, rendering assistance to a class member, or staying put and locking the classroom door. In all cases, I will provide clear instructions as to what you should do. Please make sure to have your primary mobile number listed in Banner so that you will automatically receive any campus alerts. Should you receive an emergency notification in class, notify me immediately.
 
+
+Additional information about campus safety can be found at the following sites:
+- Directions for enabling additional contact means to the campus alert system: https://www.gvsu.edu/dps/warnings-and-alerts-133.htm
+Emergency alert information: https://www.gvsu.edu/emergency/
+- List of campus tornado safety locations: https: //www.gvsu.edu/emergency/tornado-safety-location-2.htm
+- Medical emergencies and campus AED locations
+- Active shooter response: https: //www.gvsu.edu/dps/active-shooter-response-85.htm
+
+---
+
+
 **The professor reserves the right to adjust this syllabus as needed and will notify you of any changes through Blackboard announcements.**
 
 ---
