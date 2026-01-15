@@ -29,7 +29,7 @@ Updates may be made to the syllabus over the semester as needed; those will be h
 - **Instructor**: Robert Talbert, Ph.D., Professor of Mathematics. Email: [talbertr@gvsu.edu](mailto:talbertr@gvsu.edu).  Voice: (616)331-8968. 
 - **Office**: Mackinac Hall C-2-513. Office hours TBA during week 1. 
 - **Appointments:** For appointments outside normal office hours, go to https://calendly.com/robert-talbert and select a time slot. 
-- **Meetings**: Au Sable Hall 1142, MWF 12:00-12:50pm. 
+- **Meetings**: Au Sable Hall <mark>2130</mark>, MWF 12:00-12:50pm. 
 - **Textbook**: None required. Optional textbook, _Discrete Mathematics: An Open Introduction_, 4th edition by Oscar Levin available for free online here: https://discrete.openmathbooks.org/dmoi4.html 
 - **Other resources**: 
 	- *Blackboard*: http://lms.gvsu.edu. 
