@@ -18,6 +18,8 @@ The **International Standard Book Number** (ISBN-10) is a 10-digit code used to 
 
 $$\sum_{i=1}^{10} i \cdot x_i \equiv 0 \pmod{11}$$
 
+The symbol on the left is [sigma notation](https://publish.obsidian.md/discretecs/Basic+math+concepts/Sigma+notation) or [summation notation](https://publish.obsidian.md/discretecs/Basic+math+concepts/Sigma+notation). Click the link to learn more in the vault. 
+
 (Note: Since the modulus is 11, if the check digit $x_{10}$ needs to be 10, we use the character 'X'.)
 
 1. Determine if the following is a valid ISBN-10 code: `0-306-40615-2`. Show your work. 
