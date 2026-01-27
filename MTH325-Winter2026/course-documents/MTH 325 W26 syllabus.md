@@ -127,7 +127,7 @@ Opportunities to engage with the class are plentiful, and many will have a point
 | ------------------------------------------------------- | :-------------------------: |
 | Successful completion of a Class Prep                   | 1                         |
 | Attending a class meeting* (30 minute minmum)           | 1                         |
-| Completing weekly practice set with 100%                | 4                         |
+| Completing weekly practice set with <mark>80%</mark>                | 4                         |
 | Turning in good-faith complete attempt at a Problem Set | 8                         |
 
 *Does not include exam days, reattempt days, or exam makeup days. 
