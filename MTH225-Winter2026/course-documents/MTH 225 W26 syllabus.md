@@ -248,7 +248,7 @@ Only a mark of *Master* counts toward the course grade. If you attempt a problem
 
 Each Application/Analysis exam has a designated day for reattempts on that exam: 
 
-- Application/Analysis Exam 1 reattempt: **February 25**
+- Application/Analysis Exam 1 reattempt: <mark>**March 4**</mark>
 - Application/Analysis Exam 2 reattempt: **April 22**
 
 If you earned *Master* or are otherwise happy with your initial attempt on an exam, you are not required to attend the reattempt session. The reattempt will consist of a new exam, similar but not identical to the first one. Unlike the initial attempt, the reattempt may not include problems taken directly from Problem Sets and weekly practice, so it's to your advantage to do as well as possible the first time. 
