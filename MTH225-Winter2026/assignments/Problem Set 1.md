@@ -43,7 +43,7 @@ $$\text{Slot} = \text{Key} \pmod{\text{Number of Slots}}$$
 
 ## Problem 2: Solving linear congruence equations
 
-In standard algebra, $2x = 6$ has only one answer: $x = 3$. But in modular arithmetic, equations can have multiple solutions or even no solution at all. These equations look like regular equations but involve integer congruence, like: $ax \equiv b \pmod n$. A *solution* for one of these is a value of $x$ that makes the relationship true. For example, a solution to $2x \equiv 6 \pmod 11$ is $x=3$. But this is not the only solution! Another is $x=14$, because $2 \times 14 = 28$ and $28 \equiv 6 \pmod 11$. 
+In standard algebra, $2x = 6$ has only one answer: $x = 3$. But in modular arithmetic, equations can have multiple solutions or even no solution at all. These equations look like regular equations but involve integer congruence, like: $ax \equiv b \pmod n$. A *solution* for one of these is a value of $x$ that makes the relationship true. For example, a solution to $2x \equiv 6 \pmod{11}$ is $x=3$. But this is not the only solution! Another is $x=14$, because $2 \times 14 = 28$ and $28 \equiv 6 \pmod{11}$. 
 
 1. Find all the integer values of $x$ between $0$ and $12$ that solve the equation $3x \equiv 6 \pmod{12}$ and show your work. If there are no such integers, say so, then explain why. 
 2. Find all the integer values of $x$ between $0$ and $12$ that solve the equation $5x \equiv 6 \pmod{12}$ and show your work. If there are no such integers, say so, then explain why. 
