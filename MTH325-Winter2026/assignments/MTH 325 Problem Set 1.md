@@ -19,7 +19,7 @@ Welcome to your first Problem Set. The purpose of this Problem Set is to apply a
 
 Consider this proposition: 
 
-*If \(n^3\) is an even integer, then $n$ is an even integer.*
+If $n^3$ is an even integer, then $n$ is an even integer.
 
 1. Set up a proof for this statement that would use a **direct proof**. That is: State what you would assume, then state what you would prove. Do not try to give a proof yet. 
 2. Set up a proof for this statement that would use **proof using the contrapositive**. That is: State what you would assume, then state what you would prove. Do not try to give a proof yet. 
