@@ -15,7 +15,7 @@ Welcome to your first Problem Set. The purpose of this Problem Set is to apply a
 
 ---
 
-## Problem 1: Even squares
+## Problem 1: Even cubes
 
 Consider this proposition: 
 
