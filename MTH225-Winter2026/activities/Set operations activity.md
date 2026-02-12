@@ -89,19 +89,11 @@ c) Employees in Engineering who do NOT work remotely
 
 d) Employees who make over $100k but are NOT in Engineering
 
-**Problem 21: Programming Application**
-
-In Python, if A and B are sets:
-- `A | B` computes A ∪ B
-- `A & B` computes A ∩ B
-- `A - B` computes A − B
-
-Write the Python set expression for: (A ∪ B) − (A ∩ B)
 
 ---
 
 ## Challenge Question
 
-22. Prove or provide a counterexample: For any sets A and B, is it true that A − B = B − A?
+21. Prove or provide a counterexample: For any sets A and B, is it true that A − B = B − A?
 
 ---
