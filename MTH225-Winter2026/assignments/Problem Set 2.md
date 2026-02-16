@@ -40,4 +40,4 @@ Translate these three system requirements into formal predicate logic:
 1. "Every server is running at least one process."
 2. "There is a process that is running on every server."
 3. "If a server is running any high-priority process, that server is overloaded."
-4. Suppose we know that $\forall s \exists p (H(p) \wedge R(s, p))$ is true. Based on your answer to statement #3, can we conclude that every server in the data center is overloaded? Explain your logical derivation.Pro
+4. Suppose we know that $\forall s \exists p (H(p) \wedge R(s, p))$ is true. Based on your answer to statement #3, can we conclude that every server in the data center is overloaded? Explain your logical derivation.
