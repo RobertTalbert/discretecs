@@ -59,6 +59,8 @@ def f13(points):
 
 ## Codomains of these functions 
 
+Use this table for the activity in a later class where you determine which of these functions is/are surjective. 
+
 | Function | Codomain | 
 | ---- | ----- | 
 | `f1` |  $\mathbb{R}$  | 
