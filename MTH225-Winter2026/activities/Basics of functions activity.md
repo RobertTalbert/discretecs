@@ -61,16 +61,16 @@ def f13(points):
 
 | Function | Codomain | 
 | ---- | ----- | 
-| `f1` |  $\\{x \in \mathbb{R} : x \geq 0\\}$  | 
-| `f2` |   | 
-| `f3` |   | 
-| `f4` |   | 
-| `f5` |   | 
-| `f6` |   | 
-| `f7` |   | 
-| `f8` |   | 
-| `f9` |   | 
-| `f10` |   | 
-| `f11` |   | 
-| `f12` |   | 
-| `f13` |   | 
+| `f1` |  $\mathbb{R}$  | 
+| `f2` |  $\mathbb{Z}$ | 
+| `f3` |  Whatever the data type of `names` entries is | 
+| `f4` |  $\mathbb{R}$ | 
+| `f5` | $\mathbb{R}$  | 
+| `f6` | $\mathbb{R}$  | 
+| `f7` | $\mathbb{R} \times \mathbb{R}$  | 
+| `f8` | Booleans ($\\{True, False\\}$)  | 
+| `f9` | Set of all lists   | 
+| `f10` |  Set of all lists | 
+| `f11` | $\mathbb{R}$  | 
+| `f12` |  *Skip this one* | 
+| `f13` | Set of all lists  | 
