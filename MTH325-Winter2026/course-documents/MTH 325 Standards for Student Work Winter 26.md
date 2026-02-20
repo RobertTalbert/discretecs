@@ -53,17 +53,20 @@ These criteria do not apply to class attendance. You will earn 1 engagement cred
 
 As explained in the Syllabus, the two Application/Analysis Exams will consist of four parts: A multiple-choice and true/false portion, and three groups of problems (where in each group you will select one problem to work from several offered). 
 
-Application/Analysis Exams are graded **holistically**, which means that while individual items will be given feedback, the grade is given to the overall work on the exam. 
+<mark>**Note: The following is a substantial update of what originally appeared in this document. It was made on 2026-02-20.**</mark>
 
-| Mark         | Criteria                                                                                                                                                                                                                                      |     |
-| ------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --- |
-| *Master*     | Roughly 9/10 of the multiple choice and true/false items are correctly answered. The work from problem groups is done with no "significant" errors and no more than 3-5 "minor" errors overall                                                |     |
-| *Proficient* | Roughly 7/10 of the multiple choice and true/false items are correctly answered. The work from problem groups contains no more than 3-5 "minor" errors overall, and no more than one of the problem groups can contain a "significant" error. |     |
-| *Beginner*   | The criteria for *Proficient* are not met; or, if one or more Problem Groups have no significant attempts at a solution.                                                                                                                      |     |
+Each of the four parts of an Application/Analysis exam are graded either *Success* or *Retry* based on the following criteria: 
 
+- Part 1 (multiple choice) is marked *Success* if at least 7/10 of the items have correct answers, and marked *Retry* otherwise. 
+- Parts 2--4 (problems to solve) are each marked *Success* if there are no significant errors and no more than 1-2 minor errors. 
 
-The individual parts of each exam will also be marked and recorded on Blackboard to help you know which portions need to be reattempted later. But only the holistic, overall mark is considered for your course grade. 
+The exam itself is marked as follows: 
 
+- *Master* if all four parts are marked *Success*
+- *Proficient* if 3 out of 4 parts are marked *Success*
+- *Beginner* otherwise. 
+
+The individual parts of each exam will recorded separately on Blackboard to help you know which portions need to be reattempted later. But only the holistic, overall mark is considered for your course grade. 
 
 ### Learning Targets
 
