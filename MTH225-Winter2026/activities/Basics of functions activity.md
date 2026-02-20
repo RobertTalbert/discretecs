@@ -61,7 +61,7 @@ def f13(points):
 
 | Function | Codomain | 
 | ---- | ----- | 
-| `f1` |  $\{x \in \mathbb{R} : x \geq 0}$  | 
+| `f1` |  $\{x \in \mathbb{R} : x \geq 0\}$  | 
 | `f2` |   | 
 | `f3` |   | 
 | `f4` |   | 
