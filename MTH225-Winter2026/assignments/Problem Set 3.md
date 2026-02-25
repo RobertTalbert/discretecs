@@ -1,6 +1,6 @@
 # Problem Set 3
 
-Submit solutions on or before **11:59pm Eastern time on Wednesday, February 18** in order to be eligible for engagement credits. 
+Submit solutions on or before **11:59pm Eastern time on Friday, March 6** in order to be eligible for engagement credits. 
 
 ## Instructions
 
