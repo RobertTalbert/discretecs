@@ -19,9 +19,9 @@ Please remember the basic rules for Problem Sets:
 
 We're currently looking at mathematical proofs using induction, but this is only one of a huge variety of methods of proof. Another important method of proof is called *combinatorial proof*. It is a used when you want to show that two sets have the same cardinality (i.e. the same "size"). The approach is to **create a bijective function from one of the sets to the other**. Since a bijection is a one-to-one correspondence between the elements of the domain and range, having a bijection lets us conclude that the domain and range have the same cardinality (size) even when those sets are infinite. 
 
-This problem runs through an important sic example that will reappear soon. 
+This problem runs through an important example that will reappear soon. 
 
-Let $B_4$ be the set of all binary strings of length $4$. For example `0111` and `1101` are both elements of $B_4$. Let $P(\{1,2,3,4\})$ be the power set of $\{1,2,3,4\}$ (the set of all subsets of $\{1,2,3,4\}$ as discussed in class earlier). 
+Let $B_4$ be the set of all binary strings of length $4$. For example `0111` and `1101` are both elements of $B_4$. Let $P(\\{1,2,3,4\\})$ be the power set of $\{1,2,3,4\}$ (the set of all subsets of $\{1,2,3,4\}$ as discussed in class earlier). 
 
 1. Write out all the elements of $B_4$. There should 16 of these because they are just the decimal numbers 0 through 15 written in binary. 
 2. Now look at the following function $f: B_4 \rightarrow P(\{1,2,3,4\})$. Given a binary string, create a subset of $\{1,2,3,4\}$ as follows: If the bit in position $n$ is 1, include the number $n$ in the subset. Otherwise do not include it. For example $f(0111) = \{2,3,4\}$ and $f(1101) = \{1,2,4\}$. Make a table of values for $f$ showing the outputs of all 16 possible inputs. Then use the table to explain why $f$ is a bijection. 
