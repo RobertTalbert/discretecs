@@ -32,11 +32,11 @@ Let $B_4$ be the set of all binary strings of length $4$. For example `0111` and
 
 If $S$ is a set then its [cardinality](https://publish.obsidian.md/discretecs/Sets+and+Functions/Cardinality), $|S|$, refers to the "size" of the set. For finite sets this is just the number of elements in the set. But it's a mistake to say the same thing about infinite sets, because "the number of" elements in such a set is hard to pin down. That's what this problem will illustrate. 
 
-1. Look at the sets $\mathbb{N}$ and $\mathbb{Z}$. These are both infinite. Is $\mathbb{N}$ a subset of $\mathbb{Z}$? Or is it the other way around? Or is it neither? Also, are these sets equal? 
+1. Look at the sets $\mathbb{N}$ (natural numbers) and $\mathbb{Z}$ (integers). These are both infinite. Is $\mathbb{N}$ a subset of $\mathbb{Z}$? Or is it the other way around? Or is it neither? Also, are these sets equal? Explain everything. 
 2. Consider the following function $f: \mathbb{N} \rightarrow \mathbb{Z}$ defined this way: 
    - If the input $n$ is an even natural number, then $f(n) = 2n$. 
    - If the input $n$ is an odd natural number, then $f(n) = -\frac{n+1}{2}$.
-  For example$f(10) = 20$ and $f(21) = -11$. Make a table of values for this function from $n=0$ to $n=10$. (Watch your arithmetic when the input is odd.)
+  For example $f(10) = 20$ and $f(21) = -11$. Make a table of values for this function from $n=0$ to $n=10$. (Watch your arithmetic when the input is odd.)
 3. Based on the table values, is $f$ injective, surjective, bijective, or neither injective nor surjective? Explain. (You don't have to give a rigorous proof, just a convincing explanation.)
 4. Based on the results of the second question, how does the cardinality of $\mathbb{N}$ compare to the cardinality of $\mathbb{Z}$? Be sure to explain your reasoning fully. Don't rely on intuition -- use question 2; also the ideas from Problem 1 can be useful. 
 5. Why is the answer to question 4 weird or counterintuitive in light of your answer to question 1?   
