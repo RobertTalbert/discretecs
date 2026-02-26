@@ -240,7 +240,7 @@ If you earned *Master* or are otherwise happy with your initial attempt on an ex
 
 ### Makeup date for Application/Analysis exams
 
-<mark>**Note: This section was on 2026-02-26.**</mark>
+<mark>**Note: This section was updated on 2026-02-26.**</mark>
 
 If you are absent from an Application/Analysis exam, you are allowed a makeup, no questions asked and no excuse needed. These will be administered on specific dates and in specific ways: 
 
