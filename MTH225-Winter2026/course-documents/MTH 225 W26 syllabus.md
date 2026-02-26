@@ -257,7 +257,14 @@ If you earned *Master* or are otherwise happy with your initial attempt on an ex
 
 ### Makeup date for Application/Analysis exams
 
-The class session on **Friday April 17** is set aside for students needing a makeup of an *initial* attempt of an Application/Analysis exam that is missed for valid medical or personal reasons. This date is not to be used for *reattempts* of a previously-taken Application/Analysis exam. Absences from both Application/Analysis exams, or absences from the reattempt session for Application/Analysis Exam 1, will be handled as needed. 
+<mark>**Note: This section was on 2026-02-26.**</mark>
+
+If you are absent from an Application/Analysis exam, you are allowed a makeup, no questions asked and no excuse needed. These will be administered on specific dates and in specific ways: 
+
+- If you are absent from **Application/Analysis Exam 1**, then your makeup date is **Wednesday, March 18**, when the reattempt for Exam 1 is given. The reattempt version of Exam 1 will be your initial version. Then, if you need to reattempt the exam, you will do so on **Friday, April 17** which is set aside for makeups, using another version of the exam. 
+- If you are absent from **Application/Analysis Exam 2**, then your makeup date is **Friday, April 17**, which is set aside for makeups. If you need a reattempt of Exam 2, this will take place on **Wednesday, April 22** which is set aside specifically for reattempts of all versions of Exam 2. 
+
+Situations that don't fit neatly into this process will be handled on a case-by-case basis. 
 
 Makeups of Application/Analysis exams are not intended to be offered outside of normal class time; that's to be done on the makeup date. 
 
