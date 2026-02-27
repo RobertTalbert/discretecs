@@ -378,7 +378,7 @@ I live in Allendale with my wife and 17-year old son (who's interested in ~~comp
 4. I can represent a graph as a list, matrix, or dictionary. 
 5. I can determine if a graph has an Euler or Hamiltonian structure and justify my reasoning. 
 6. (**CORE**) I can identify structural properties of a tree and perform an in-order, post-order, and pre-order traversal of the tree.
-7. I can find the shortest path in both a weighted graph using Dijkstra's Algorithm, and in an unweighted graph using DFS or BFS. 
+7. I can find the shortest path in an unweighted graph using DFS or BFS. 
 8. I can find a minimum spanning tree for a weighted graph using both Prim's Algorithm and Kruskal's Algorithm.
 9. I can implement a greedy algorithm to find a valid vertex coloring for a graph and determine of the chromatic number of the graph is equal to or less than the result. 
 10. (**CORE**) I can represent a directed graph in different ways, and determine information about a graph using different representations. 
