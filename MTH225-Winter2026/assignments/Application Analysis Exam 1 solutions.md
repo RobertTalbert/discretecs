@@ -96,6 +96,7 @@ Translated into symbols, the messy statement is:
 Results will vary based on the equivalence chosen. Here is a sample solution using the first equivalence in Table 7, $p \rightarrow q \equiv \neg p \vee q$: 
 
 | $p$ | $q$ | $p \rightarrow q$ | $\neg p$ | $\neg p \vee q$ | 
+| -- | -- | -- | -- | -- | 
 | T | T | T | F | T | 
 | T | F | F | F | F | 
 | F | T | T | T | T | 
