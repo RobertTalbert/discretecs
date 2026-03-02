@@ -80,6 +80,6 @@ $$\begin{eqnarray*}
 5 \cdot 3x &\equiv 5 \cdot 5 \pmod{7} \\
 (5 \cdot 3)x &\equiv 25 \pmod{7} \\
 1x &\equiv 4 \pmod{7}
-end{eqnarray*}$$
+\end{eqnarray*}$$
 
 The last line is true because $5 \cdot 3 \equiv 1 \pmod{7}$ as shown in the table, and because $25 \pmod{7} = 4$ by definition. Therefore $x = 4$. 
