@@ -83,3 +83,28 @@ $$\begin{eqnarray*}
 \end{eqnarray*}$$
 
 The last line is true because $5 \cdot 3 \equiv 1 \pmod{7}$ as shown in the table, and because $25 \pmod{7} = 4$ by definition. Therefore $x = 4$. 
+
+## Part C
+
+### Option 1
+
+Translated into symbols, the messy statement is: 
+
+
+### Option 2
+
+Results will vary based on the equivalence chosen. Here is a sample solution using the first equivalence in Table 7, $p \rightarrow q \equiv \neg p \vee q$: 
+
+| $p$ | $q$ | $p \rightarrow q$ | $\neg p$ | $\neg p \vee q$ | 
+| T | T | T | F | T | 
+| T | F | F | F | F | 
+| F | T | T | T | T | 
+| F | F | T | T | T | 
+
+Since the columns for $p \rightarrow q$ and $\neg p \vee q$ have the same outcomes in all rows, they are logically equivalent statements. 
+
+## Part D 
+
+### Option 1
+
+### Option 2
