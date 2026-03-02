@@ -17,7 +17,7 @@
 
 ### Option 1
 
-To solve $3x \equiv 6 \pmod{12}$ just run through all the integers $0$ to $12$ and check. Note, *all* integers must be checked. 
+To solve $3x \equiv 6 \pmod{12}$ just run through all the integers $0$ to $12$ and check. (Note, *all* integers must be checked, or at least there has to be an explanation about repeated values. Simply finding three values that work, is not enough -- a complete solution musst also rule out the values that don't work.)
 
 | $x$ | $3x$ | $3x \pmod{12}$ | 
 | --- | --- | ---- | 
