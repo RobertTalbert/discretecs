@@ -37,7 +37,7 @@ If $S$ is a set then its [cardinality](https://publish.obsidian.md/discretecs/Se
    - If the input $n$ is an even natural number, then $f(n) = -\frac{n}{2}$. 
    - If the input $n$ is an odd natural number, then $f(n) = \frac{n+1}{2}$.
 
-  For example $f(10) = -20$ and $f(21) = 11$. Make a table of values for this function from $n=0$ to $n=10$. (Watch your arithmetic when the input is odd.)
+  For example $f(10) = -5$ and $f(21) = 11$. Make a table of values for this function from $n=0$ to $n=10$. 
   
 1. Based on the table values, is $f$ injective, surjective, bijective, or neither injective nor surjective? Explain. (You don't have to give a rigorous proof, just a convincing explanation.)
 2. Based on the results of the second question, how does the cardinality of $\mathbb{N}$ compare to the cardinality of $\mathbb{Z}$? Be sure to explain your reasoning fully. Don't rely on intuition -- use the answer from question 3; also the ideas from Problem 1 above can be useful. 
