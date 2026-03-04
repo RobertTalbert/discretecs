@@ -102,12 +102,17 @@ $$\neg(\neg p) \vee \neg(q \vee (\neg r))$$
 
 The Double Negation law applied to the first term gives: 
 
-$$\p \vee \neg(q \vee (\neg r))$$ 
+$$p \vee \neg(q \vee (\neg r))$$ 
 
 Then another application of DeMorgan's Law to the second term gives: 
 
-$$\p \vee ((\neg q) \wedge \neg(\neg r))$$ 
+$$p \vee ((\neg q) \wedge \neg(\neg r))$$ 
 
+And finally, the Double Negation law applied to the final term gives: 
+
+$$p \vee ((\neg q) \wedge r)$$ 
+
+No more meaningful simplification can be done at this point.
 
 ### Option 2
 
