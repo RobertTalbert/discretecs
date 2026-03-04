@@ -90,6 +90,8 @@ The last line is true because $5 \cdot 3 \equiv 1 \pmod{7}$ as shown in the tabl
 
 Translated into symbols, the messy statement is: 
 
+$$\neg(((\neg p) \wedge q) \vee ((\neg p) \wedge (\neg r)))$$ 
+
 
 ### Option 2
 
