@@ -92,6 +92,15 @@ Translated into symbols, the messy statement is:
 
 $$\neg(((\neg p) \wedge q) \vee ((\neg p) \wedge (\neg r)))$$ 
 
+Using the Distributive Law to "factor out" a $\neg p$ gives us: 
+
+$$\neg ( (\neg p) \wedge (q \vee (\neg r)))$$
+
+Now use DeMorgan's Law to distribute the $\neg$ across the two statements that are joined by $\wedge$: 
+
+$$\neg(\neg p) \vee \neg(q \vee (\neg r))$$ 
+
+
 
 ### Option 2
 
