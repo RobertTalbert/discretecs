@@ -32,6 +32,8 @@ Assume that $a$ and $b$ are odd. We want to show that $a+b$ is even. Since $a$ a
 
 ### Option 1
 
+This proof uses weak induction. 
+
 The base case is when $n = 1$. In this case the left side of the equation is  $F_0 + F_1$ which is equal to $1+1 = 2$ by definition. On the right, we have $F_3 - 1$. By the recurrence relation $F_3 = F_2 + F_1$. Now, $F_2 = F_1 + F_0 = 1 + 1 = 2$. Therefore $F_3 = 2 + 1 = 3$, so $F_3 - 1 = 2$. The left and right sides are now equal, so the base case has been verified. 
 
 Now assume that $F_0 + F_1 + F_2 + \cdots + F_k = F_{k+2} -1$ for some $k$. We want to show that $F_0 + F_1 + F_2 + \cdots + F_{k+1} = F_{k+3} -1$. 
