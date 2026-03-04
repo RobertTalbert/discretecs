@@ -44,11 +44,15 @@ The proposition is equivalent to saying: For all $n \geq 1$, the Fibonacci numbe
 
 The base case in this form is $n=1$. This gives the number $F_2$ which is equal to $2$, which is even. 
 
-Now assume that $F_{3k-1}$ is even for some $k$. We want to prove that $F_{3(k+1)} - 1$ is even. In the subscript, $3(k+1) - 1 = 3k + 2$. Using the Fibonacci identity gives us: 
+Now assume that $F_{3k-1}$ is even for some $k$. We want to prove that $F_{3(k+1)-1}$ is even. In the subscript, $3(k+1) - 1 = 3k + 2$. So we want to show that $F_{3k+2}$ is even. Using the Fibonacci identity gives us: $F_{3k+2} = F_{3k+1} + F_{3k}$. We also know from the Fibonacci identity that $F_{3k+1} = F_{3k} + F_{3k-1}$. 
 
-$$F_{3k+2} = F_{3k+1} + F_{3k} = (F_{3k} + F_{3k-1}) +F_{3k} = 2 F_{3k} + F_{3k-1}$$
+Substituting this last expression into the first term of the first expression gives: 
 
-In the last term, $2 F_{3k}$ is even because it is an integer multiple of $2$; and $F_{3k-1}$ is even by the inductive hypothesis. Therefore $F_{3k+2}$ is the sum of two even numbers, which is even. 
+$$F_{3k+2} = F_{3k+1} + F_{3k} = (F_{3k} + F_{3k-1}) +F_{3k}$$
+
+Adding like terms gives  $F_{3k+2} = 2 F_{3k} + F_{3k-1}$
+
+Now, $2 F_{3k}$ is even because it is an integer multiple of $2$; and $F_{3k-1}$ is even by the inductive hypothesis. Therefore $F_{3k+2}$ is the sum of two even numbers, which is even. 
 
 
 
