@@ -88,7 +88,7 @@ The last line is true because $5 \cdot 3 \equiv 1 \pmod{7}$ as shown in the tabl
 
 ### Grading notes for Part B
 
-- Many submissions for Options 1 and 2 did not show all work, but only checked 1-3 working solutions. To have a complete solution here, every number between zero and 12 must be checked, or there must be a general argument to explain why the solutions you find are the only ones. 
+- Many submissions for Options 1 and 2 did not show all work, but only checked 1-3 working solutions. To have a complete solution here, every number (between 0 and 12 for Option 1, between 0 and 6 for Option 2) must be checked, or there must be a general argument to explain why the solutions you find are the only ones. 
 - Some submissions were attempting to do algebra on an equivalence equation That only works on regular equations. This is not an equation, it's an equivalence statement. And so algebra as we know it is not really the right approach. Just go through and check each of the possible inputs and look for solutions. 
 
 ---
