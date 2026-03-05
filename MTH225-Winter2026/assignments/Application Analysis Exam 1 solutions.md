@@ -86,7 +86,7 @@ $$\begin{eqnarray*}
 
 The last line is true because $5 \cdot 3 \equiv 1 \pmod{7}$ as shown in the table, and because $25 \pmod{7} = 4$ by definition. Therefore $x = 4$. 
 
-**Grading notes:**
+### Grading notes for Part B
 
 - Many submissions for Options 1 and 2 did not show all work, but only checked 1-3 working solutions. To have a complete solution here, every number between zero and 12 must be checked, or there must be a general argument to explain why the solutions you find are the only ones. 
 - Some submissions were attempting to do algebra on an equivalence equation That only works on regular equations. This is not an equation, it's an equivalence statement. And so algebra as we know it is not really the right approach. Just go through and check each of the possible inputs and look for solutions. 
@@ -136,7 +136,7 @@ Results will vary based on the equivalence chosen. Here is a sample solution usi
 
 Since the columns for $p \rightarrow q$ and $\neg p \vee q$ have the same outcomes in all rows, they are logically equivalent statements. 
 
-### Grading notes for Part D
+### Grading notes for Part C
 
 - Some submissions for Option 1 justified one or two of the steps in the process, but did not justify all of the steps in the process by naming the laws that were used. In order to know that you truly understand how logical equivalences work, those need to be explicitly stated on each step. 
 - Some submissions in Option 1 did not carry the simplification out as far as possible, which is necessary for this particular problem because that's what it is asking you to do. 
@@ -158,7 +158,7 @@ Since the columns for $p \rightarrow q$ and $\neg p \vee q$ have the same outcom
 
 It is possible for both of these statements to be simultaneously true.  The first statement, when translated into English, would say: **for every server, if the server is overloaded, then it is running at least one high-priority process**. The second statement says that **there exists a server which only runs low priority processes**. (Literally: For every process, if the server is running that process, then it is not high priority.) A condition under which both of these statements would be true is **if one of the servers only ran low priority processes and was never overloaded**. If it only runs low priority processes, then it makes the second statement true. If it is never overloaded, then it makes the first statement true because the hypothesis of the conditional statement is false. 
 
-**Grading notes:**
+### Grading notes for Part D
 
 There were a number of significant issues with submissions on this one. 
 
@@ -171,3 +171,4 @@ There were a number of significant issues with submissions on this one.
 - The number of submissions option two gave explanations about why the two statements can be true at the same time, but did not tie them to any of the statements in the problem. It was just a general explanation of something that could happen. The goal here is to use the actual logical propositions and give a simple condition under which they are both true. Without reference to either the two statements that are in option two or the individual predicates that are at the beginning of part D, it's impossible to know if you are translating the symbols correctly, which is the main point of this problem. 
 
 You can expect to see additional problems asking you to work out predicates because clearly this is an area of need for us. 
+
