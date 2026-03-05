@@ -62,4 +62,27 @@ Now, $2 F_{3k}$ is even because it is an integer multiple of $2$; and $F_{3k-1}$
 
 ### Option 1
 
+The adjacency matrix for the graph would have one row and one column per node in the graph. That means the matrix is $10000 \times 10000$ so there are $10000 \times 10000 = 100000000$ (one hundred million) entries. 
+
+If it were a dictionary, then there would be one set of key-value pairs per node --- so, $10000$ of those, and according to the problem data each key has 20 values on average in its adjacency list. The math we do next depends on how you interpret an "entry". If we interpret that as meaning an entry in the adjacency list, then there are going to be $20 \times 10000 = 200000$ (two hundred thousand) of those. If you count the keys too, then it's $200000 + 10000 = 210000$. (Either one is OK for a response here, all that matters is the logic being used.) 
+
+For the `is_friend` function, here is the basic logic behind how it would work in each representation: 
+
+- For the adjacency matrix, go to the row for `user_a` and the column for `user_b` and just return the value that lives at that entry. This will be either a `0` or `1` depending on whether `user_a` is connected to `user_b` in the network, so you can use the raw matrix entry as the function output. (The exact Python syntax used to access the entry of a matrix in a particular row and column is somewhat dependent on the package used to handle matrices, so the above is good enough.)
+- For the dictionary, just ask Python to tell you if `user_a` is in the adjacency list for `user_b` (or vice versa). A one-liner like `return user_b in d[user_a]`, where `d` is the dictionary for the graph, would do it. 
+
 ### Option 2
+
+Suppose $G$ is the graph and `dict_g` is its dictionary. To calculate the number of elements stored across all adjacency lists, do something like this: 
+
+- Initialize a `count` variable to `0`
+- For each node `v` in the graph, find `len(dict_g[v])` and add it to `count`. This is just looping over the keys in the dictionary and finding the length of the list attached to `v`. 
+- Then return `count`, which will give you the number of elements total in all the lists. 
+
+But notice that the **length of the adjacency list for node `v` is just the degree of $v$**. So in the above, what we're really doing is adding up the degrees of each node. Therefore `count` is just $\bigsum_{v \in V} \deg(v)$, the degree sum for the graph. The Handshake Lemma says that this equals $2|E|$, twice the number of edges. 
+
+If the graph is complete, it has a lot of edges, in fact it has the maximum possible number of edges, and the adjacency lists in the dictionary are relatively long. Searching for a specific edge in a graph means determining if node `a` is adjacent to node `b`. In a dictionary, it means going to node `a` and searching through the list attached to that key to see if `b` belongs to it. In a complete graph $K_n$ that means the adjacency list is $n$ units long, so it's a linear search through a list of length $n$. (In algorithms/CIS 263 language we would say that the process is $O(n)$.) 
+
+But in an adjacency matrix, it doesn't matter how many other nodes `a` is connected to --- we just go to the row for `a` and the column for `b` and look at that one entry. There are significantly more entries in the matrix (see Option 1) but we can skip most of them because we can do a direct lookup for two particular nodes. This does not depend at all on the number of nodes. (In algorithms/CIS 263 language we would say that the process is $O(1)$ or constant-time.) 
+
+So the dictionary approach works very well for "sparse" graphs where the adjacency lists are short because the search space is much smaller. But for full graphs, the matrix representation works better. 
