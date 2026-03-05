@@ -27,6 +27,12 @@ Results vary according to which proof technique is used. Here is a direct proof:
 
 Assume that $a$ and $b$ are odd. We want to show that $a+b$ is even. Since $a$ and $b$ are odd, there exist integers $m$ and $n$ such that $a = 2m+1$ and $b = 2n+1$. Then $a+b = 2m + 2n + 2 = 2(m+n+1)$. Since $m$ and $n$ are integers, $m+n+1$ is also an integer and therefore $a+b$ (being $2$ times an integer) is even. 
 
+### Grading notes for Part B
+
+- **A frequent mistake in Option 2**: If you prove this with a direct proof, you start by assuming $a$ and $b$ are odd. The frequent mistake was using the same variable to represent this, for example: "Since $a$ is odd then $a = 2k+1$ and since $b$ is odd then $b = 2k+1$." Using the same variable, $k$, for both $a$ and $b$ now means that $a$ and $b$ are equal **to each other** since they are both equal to $2k+1$. But that's an unwarranted assumption because we can't assume that $a$ and $b$ are equal. We are only assuming that they are both odd numbers. That's a significant enough mistake to derail the logic of the rest of the proof. So in this situation, as shown in the solution above, you have to use two different variables to represent the odd-ness of $a$ and $b$.  
+- **Just say no to induction:** Some submissions for option one saw the letter $n$ as the variable and decided to try induction. Induction is a poor fit for either of these two options because there is no recursion involved in either of them. And these two propositions are also stated to be true for all integers, not just all positive integers. Induction does not handle negative integers particularly well. 
+
+---
 
 ## Part C
 
@@ -56,7 +62,12 @@ Adding like terms gives  $F_{3k+2} = 2 F_{3k} + F_{3k-1}$
 
 Now, $2 F_{3k}$ is even because it is an integer multiple of $2$; and $F_{3k-1}$ is even by the inductive hypothesis. Therefore $F_{3k+2}$ is the sum of two even numbers, which is even. 
 
+### Grading notes for Part C
 
+- **"The pattern continues" is not a proof:** In option 2, a number of submissions use the approach of calculating a few values of the Fibonacci numbers and attempting a general argument that there's an alternating pattern of odd, odd, even in these. There is an approach to a proof of this option that does this, but these submissions gave a few examples and said, "the pattern continues". That statement alone is asking the reader to take it on faith that what you are observing in the Fibonacci numbers does, in fact, continue. What the problem is asking you to do, on the other hand, is give a convincing general mathematical argument that this is the case. Again, this can be done without induction on this particular proposition, but it didn't happen in any of the submissions that I saw. 
+- **Indexing matters:** Also on option two, there were a number of submissions that struggled with interpreting what every third Fibonacci number actually means. As you see in the solution above, it helps to tramslate this into a proposition about the indexes on the Fibonacci numbers. In my solution for example, "every third Fibonacci number" means "Fibonacci numbers with indices $3n-1$ where $n$ is a positive integer", so $F_2, F_5$, and so on. Variations from incorrect approaches included things like $F_{n+3}$ which does not skip Fibonacci numbers three at a time. 
+
+---
 
 ## Part D 
 
@@ -86,3 +97,8 @@ If the graph is complete, it has a lot of edges, in fact it has the maximum poss
 But in an adjacency matrix, it doesn't matter how many other nodes `a` is connected to --- we just go to the row for `a` and the column for `b` and look at that one entry. There are significantly more entries in the matrix (see Option 1) but we can skip most of them because we can do a direct lookup for two particular nodes. This does not depend at all on the number of nodes. (In algorithms/CIS 263 language we would say that the process is $O(1)$ or constant-time.) 
 
 So the dictionary approach works very well for "sparse" graphs where the adjacency lists are short because the search space is much smaller. **But for full graphs, the matrix representation works better.**
+
+### Grading notes for Part D
+
+- **Follow directions:** A number of solutions on both these options simply omitted parts of the problem. For example, finding the number of entries in the dictionary for the graph, but not doing the number of entries for the matrix, or giving the pseudocode for the two functions without any counting of the number of entries in either data structure. 
+- **Doing both parts:** Some submissions for option two had correct logic and a basically correct proof for the first part of option two, and an explanation for the second part of option two, but those two parts of option two did not relate to each other. What you're asked to do in option two is, as it says, "use the result to explain which representation would be more efficient". So you have to prove the result and then use the result. Giving an explanation that seems to address the efficiency issue, but does not use the mini-theorem you proved in the first part is not a complete or correct solution to this option. 
