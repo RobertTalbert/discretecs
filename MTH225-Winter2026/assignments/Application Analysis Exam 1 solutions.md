@@ -131,4 +131,11 @@ Since the columns for $p \rightarrow q$ and $\neg p \vee q$ have the same outcom
 
 ### Option 1
 
+1. $\forall s \exists p R(s,p)$ 
+2. $\exists p \forall s R(s,p)$ 
+3. $\forall s (\exists p (H(p) \wedge R(s,p)) \rightarrow O(s))$. This one would translate literally into the following English: Looking at all servers, if there is a process such that the process is high priority and is running on the server, then the server is overloaded. 
+4. **We can conclude that every server in the data center is overloaded**, if we assume that the statement in part (c) is true. That's because the final logical statement here is the hypothesis of the conditional statement that is in part (c). Nothing in the problem actually tells us that that statement in part c is true, however, But it's okay here to assume that that's the case. 
+
 ### Option 2
+
+It is possible for both of these statements to be simultaneously true.  The first statement, when translated into English, would say: **for every server, if the server is overloaded, then it is running at least one high-priority process**. The second statement says that **there exists a server which only runs low priority processes**. (Literally: For every process, if the server is running that process, then it is not high priority.) A condition under which both of these statements would be true is **if one of the servers only ran low priority processes and was never overloaded**. If it only runs low priority processes, then it makes the second statement true. If it is never overloaded, then it makes the first statement because it makes the hypothesis of the conditional statement is false. 
