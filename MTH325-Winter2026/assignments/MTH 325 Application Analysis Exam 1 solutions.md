@@ -76,7 +76,7 @@ For the `is_friend` function, here is the basic logic behind how it would work i
 Suppose $G$ is the graph and `dict_g` is its dictionary. To calculate the number of elements stored across all adjacency lists, do something like this: 
 
 - Initialize a `count` variable to `0`
-- For each node `v` in the graph, find `len(dict_g[v])` and add it to `count`. This is just looping over the keys in the dictionary and finding the length of the list attached to `v`. 
+- For each node `v` in the graph, find `len(dict_g[v])` and add it to `count`. This is just looping over the keys in the dictionary, finding the length of the list attached to `v`, and adding it to the accumulator `count`. 
 - Then return `count`, which will give you the number of elements total in all the lists. 
 
 But notice that the **length of the adjacency list for node `v` is just the degree of $v$**. So in the above, what we're really doing is adding up the degrees of each node. Therefore `count` is just $\sum_{v \in V} \deg(v)$, the degree sum for the graph. The Handshake Lemma says that this equals $2|E|$, twice the number of edges. 
