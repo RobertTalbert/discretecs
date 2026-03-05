@@ -79,10 +79,10 @@ Suppose $G$ is the graph and `dict_g` is its dictionary. To calculate the number
 - For each node `v` in the graph, find `len(dict_g[v])` and add it to `count`. This is just looping over the keys in the dictionary and finding the length of the list attached to `v`. 
 - Then return `count`, which will give you the number of elements total in all the lists. 
 
-But notice that the **length of the adjacency list for node `v` is just the degree of $v$**. So in the above, what we're really doing is adding up the degrees of each node. Therefore `count` is just $\bigsum_{v \in V} \deg(v)$, the degree sum for the graph. The Handshake Lemma says that this equals $2|E|$, twice the number of edges. 
+But notice that the **length of the adjacency list for node `v` is just the degree of $v$**. So in the above, what we're really doing is adding up the degrees of each node. Therefore `count` is just $\sum_{v \in V} \deg(v)$, the degree sum for the graph. The Handshake Lemma says that this equals $2|E|$, twice the number of edges. 
 
 If the graph is complete, it has a lot of edges, in fact it has the maximum possible number of edges, and the adjacency lists in the dictionary are relatively long. Searching for a specific edge in a graph means determining if node `a` is adjacent to node `b`. In a dictionary, it means going to node `a` and searching through the list attached to that key to see if `b` belongs to it. In a complete graph $K_n$ that means the adjacency list is $n$ units long, so it's a linear search through a list of length $n$. (In algorithms/CIS 263 language we would say that the process is $O(n)$.) 
 
 But in an adjacency matrix, it doesn't matter how many other nodes `a` is connected to --- we just go to the row for `a` and the column for `b` and look at that one entry. There are significantly more entries in the matrix (see Option 1) but we can skip most of them because we can do a direct lookup for two particular nodes. This does not depend at all on the number of nodes. (In algorithms/CIS 263 language we would say that the process is $O(1)$ or constant-time.) 
 
-So the dictionary approach works very well for "sparse" graphs where the adjacency lists are short because the search space is much smaller. But for full graphs, the matrix representation works better. 
+So the dictionary approach works very well for "sparse" graphs where the adjacency lists are short because the search space is much smaller. **But for full graphs, the matrix representation works better.**
