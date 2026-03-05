@@ -162,7 +162,11 @@ It is possible for both of these statements to be simultaneously true.  The firs
 There were a number of significant issues with submissions on this one. 
 
 - Some submissions use notation that does not make semantic sense. For example, using a quantifier without a predicate, like: $\forall s \exists p$ but nothing else. Quantifiers exist to define the scope of variables on a predicate. Withi no predicate there, it doesn't make sense. 
+- Vice versa, many submissions use only the predicates with no quantifiers. The English statements in this part of the problem are quantified, and so without symbolic quantifiers on the predicates, they can't be considered correct translations. 
+- A number of submissions were plugging quantifiers into the predicates, such as $R(s, \forall p)$ which does not make semantic sounds. 
 - There are a number of issues with parentheses on part three, either parentheses that didn't match or the quantifiers were not in the correct place inside or outside parentheses. 
 - Several submissions were attempting to use $H(p)$  as input into the predicate $R$ (so, it said $R(s, H(p))$). But this doesn't make sense because $R$ does not accept the outputs of $H$ as input. It only accepts $p$ (and $s$) as input. 
 - A fairly large number of submissions of Option 1 only had parts 1-3 and did not give the second half of this option, where it asks you to draw a conclusion and explain your logic. Please be sure to read all the directions and don't skip important parts.
 - The number of submissions option two gave explanations about why the two statements can be true at the same time, but did not tie them to any of the statements in the problem. It was just a general explanation of something that could happen. The goal here is to use the actual logical propositions and give a simple condition under which they are both true. Without reference to either the two statements that are in option two or the individual predicates that are at the beginning of part D, it's impossible to know if you are translating the symbols correctly, which is the main point of this problem. 
+
+You can expect to see additional problems asking you to work out predicates because clearly this is an area of need for us. 
