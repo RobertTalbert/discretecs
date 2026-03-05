@@ -88,7 +88,7 @@ The last line is true because $5 \cdot 3 \equiv 1 \pmod{7}$ as shown in the tabl
 
 **Grading notes:**
 
-- Many submissions did not show all work, but only checked 1-3 working solutions. To have a complete solution here, every number between zero and 12 must be checked, or there must be a general argument to explain why the solutions you find are the only ones. 
+- Many submissions for Options 1 and 2 did not show all work, but only checked 1-3 working solutions. To have a complete solution here, every number between zero and 12 must be checked, or there must be a general argument to explain why the solutions you find are the only ones. 
 - Some submissions were attempting to do algebra on an equivalence equation That only works on regular equations. This is not an equation, it's an equivalence statement. And so algebra as we know it is not really the right approach. Just go through and check each of the possible inputs and look for solutions. 
 
 ---
@@ -136,11 +136,12 @@ Results will vary based on the equivalence chosen. Here is a sample solution usi
 
 Since the columns for $p \rightarrow q$ and $\neg p \vee q$ have the same outcomes in all rows, they are logically equivalent statements. 
 
-***Grading notes:**
+### Grading notes for Part D
 
-- Some submissions for option one justified one or two of the steps in the process, but did not justify all of the steps in the process by naming the laws that were used. In order to know that you truly understand how logical equivalences work, those need to be explicitly stated on each step. 
-- Some submissions did not carry the simplification out as far as possible, which is necessary for this particular problem because that's what it is asking you to do. 
-- Some submissions on option two use the wrong number of rows in a truth table, in particular using only four rows for a truth table with three variables. 
+- Some submissions for Option 1 justified one or two of the steps in the process, but did not justify all of the steps in the process by naming the laws that were used. In order to know that you truly understand how logical equivalences work, those need to be explicitly stated on each step. 
+- Some submissions in Option 1 did not carry the simplification out as far as possible, which is necessary for this particular problem because that's what it is asking you to do. 
+- Some submissions on Option 2 used the wrong number of rows in a truth table, in particular using only four rows for a truth table with three variables. 
+- A number of submissions on Option 2 did not include intermediate columns in creating the truth table, but just gave a single column for the final answer. As explained in the standards for student work document, you must always show all intermediate columns in a truth table, otherwise it is impossible to know how you got your answer. 
 
 ---
 
