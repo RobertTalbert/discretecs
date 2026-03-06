@@ -205,14 +205,14 @@ Errors in data entry of grades to the Blackboard gradebook are common, because o
 
 Your letter grade for the course is assigned using the table below. It shows the *minimum* requirements for the "base grades" of A, B, C, and D. **To earn a grade in the course, you need to meet or exceed *all* the requirements for that grade.** Plus/minus modifiers are applied using the rules below the table. A grade of "F" is assigned if not all of the requirements for a "D" are met.
 
-|     | Learning Targets with "Master" | Application/Analysis Exams                 | Engagement Credits |   
+|     | Learning Targets with "Master" | Application/Analysis Exams                 | <mark>Engagement Credits</mark> |   
 | :-: | ------------------------------ | ------------------------------------------ | ------------------ | 
-|  A  | 11                             | *Master* on both                           | 90% of maximum\*   | 
-|  B  | 9                              | *Master* on one, *Proficient* on the other | 80% of maximum     |  
-|  C  | 7                              | *Proficient* on both                       | 70% of maximum     |  
-|  D  | 5                              | Proficient on one                          | 60% of maximum     | 
+|  A  | 11                             | *Master* on both                           | 90  | 
+|  B  | 9                              | *Master* on one, *Proficient* on the other | 80     |  
+|  C  | 7                              | *Proficient* on both                       | 70     |  
+|  D  | 5                              | Proficient on one                          | 60     | 
 
-Note: The final maximum number of engagement credits will not be known until roughly week 10. A running maximum total will be kept on Blackboard and updated weekly, so you can check your current percentage. 
+
 
 The base grade can be modified with a plus or minus: 
 - *Plus:* Given when Learning Targets mastered and Application/Analysis exams are at different levels. In this case, **we take the grade level of the lower of those two and add a plus to it.**  Example: Earning mastery on 11 Learning Targets ("A" level), 80% of the maximum amount of engagement credits ("B" level) but having only proficient on both Application/Analysis exams ("C" level) is a C+. 
