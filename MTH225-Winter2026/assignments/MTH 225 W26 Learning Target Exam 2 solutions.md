@@ -7,7 +7,15 @@
 
 ## Learning Target 2
 
+1. 302
+2. 205
+3. `2FB`
+4. `1011110`
 
+### Notes
+
+- A number of submissions were using the base conversion algorithm on parts 1 and 2 to go to base 10. That is incorrect. The base conversion algorithm is used to go **from** base 10 **to** another base, not vice versa. 
+- A number of submissions skipped the final step of part 4 and did not do an important last round of division, that results in the leftmost bit (`1`), ending up with an answer of `011110`. Remember always to reality check your work. If you arrive at an answer of `11110` when converting 94 to binary, it should strike you that that binary string is much too small. This is only a five bit string and so the resulting base 10 integer would have to be less than $2^6$ which is 64, so you can tell by looking that there's no way that could be right. 
 
 ## Learning Target 3
 
@@ -15,7 +23,16 @@
 
 ## Learning Target 4
 
+1. Hypothesis: We are on break next week. Conclusion: There are no office hours. 
+2. If there are no office hours, then we are on break next week. 
+3. If there are office hours, then we are not on break next week. 
+4. We are on break next week and there are office hours.
 
+### Notes
+
+- The word "If" *should not* be included with the hypothesis. Doing so causes problems later when forming the converse, contrapositive, and negation. 
+- The converse is not simply moving the if part to the end of a sentence like this: **"There are no office hours, if we are on break next week."** This is the same statement as the original proposition, and the logic of cause and effect has not changed. Instead of simply relocating a phrase to the end of a sentence, you must replace the hypothesis with the conclusion and the conclusion with the hypothesis. 
+- A number of submissions for the negation used a comma where the word "and" is, like this: **"We are on break next week, there are office hours"** This is, first of all, incorrectly formed English. Secondly, the comma is ambiguous. It could be taken to mean "and", but it could also be taken to mean "therefore", or "because", or any of a number of logical connectives that change the underlying logic of the statement. The word "and" (or the word "but") must be used and there are no substitutes for this. 
 
 ## Learning Target 5
 
