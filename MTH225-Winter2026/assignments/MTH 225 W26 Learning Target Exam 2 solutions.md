@@ -36,6 +36,40 @@
 
 ## Learning Target 5
 
+Part 1: 
+
+| p | q | ¬q | p → (¬q) |
+|---|---|----|----------|
+| T | T | F  | F        |
+| T | F | T  | T        |
+| F | T | F  | T        |
+| F | F | T  | T        |
+
+Part 2: 
+
+| p | q | r | p ∨ q | ¬r | (p ∨ q) → ¬r |
+|---|---|---|-------|----|---------------|
+| T | T | T | T     | F  | F             |
+| T | T | F | T     | T  | T             |
+| T | F | T | T     | F  | F             |
+| T | F | F | T     | T  | T             |
+| F | T | T | T     | F  | F             |
+| F | T | F | T     | T  | T             |
+| F | F | T | F     | F  | T             |
+| F | F | F | F     | T  | T             |
+
+
+Part 3 (combined truth table for both propositions): 
+
+| p | q | ¬q | p → q | ¬(p → q) | p ∧ (¬q) |
+|---|---|----|-------|----------|----------|
+| T | T | F  | T     | F        | F        |
+| T | F | T  | F     | T        | T        |
+| F | T | F  | T     | F        | F        |
+| F | F | T  | T     | F        | F        |
+
+We can see from the final result columns that the propositions $\neg (p \rightarrow q)$ and $p \and (\neg q)$ are logically equivalent. 
+
 ## Learning Target 6
 
 1. 
