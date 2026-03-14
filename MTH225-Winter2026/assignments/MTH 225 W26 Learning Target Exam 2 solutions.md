@@ -81,14 +81,15 @@ We can see from the final result columns that the propositions $\neg (p \rightar
 
 ## Learning Target 6
 
-1. 
+1. Please note I'm providing explanations here for learning purposes, but only the true/false answers were required on your exam. 
+
    (a) False (nothing is in the empty set)
 
    (b) False (for example $-1 \in \mathbb{Z}$ but not in $\mathbb{N}$)
 
-   (c) True 
+   (c) True (sets do not respect ordering)
 
-   (d) True (the empty set is a subset of every set)
+   (d) True ([the empty set is a subset of every set](https://publish.obsidian.md/discretecs/Sets+and+Functions/Subset))
 
    (e) False (1 is in the first set but not the second)
 
