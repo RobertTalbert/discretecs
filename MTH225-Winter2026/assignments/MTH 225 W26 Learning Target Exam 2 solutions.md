@@ -104,6 +104,19 @@ We can see from the final result columns that the propositions $\neg (p \rightar
 
 ## Learning Target 7
 
+1. 
+   (a) $\lbrace 1,2,3,4,5,6,7 \rbrace$
+
+   (b) $\lbrace 3,4,5 \rbrace$
+
+   (c) $\lbrace 1, 2 \rbrace$
+
+   (d) $\lbrace 6,7 \rbrace$
+
+2. $\lbrace (a,1), (a,2), (a,3), (b,1), (b,2), (b,3) \rbrace$
+
+3. $\emptyset$, $\lbrace x \rbrace$, $\lbrace y \rbrace$, $\lbrace x,y \rbrace$
+
 ## Learning Target 8
 
 1. Neither (not surjective, because nothing maps to $h$; not injective because both 3 and 6 map to $u$)
