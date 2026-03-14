@@ -83,16 +83,23 @@ We can see from the final result columns that the propositions $\neg (p \rightar
 
 1. 
    (a) False (nothing is in the empty set)
+
    (b) False (for example $-1 \in \mathbb{Z}$ but not in $\mathbb{N}$)
+
    (c) True 
+
    (d) True (the empty set is a subset of every set)
+
    (e) False (1 is in the first set but not the second)
 
 2. ,
    (a) $\lbrace -3, -2, -1, 0, 1, 2, 3 \rbrace$ (It's the set of all integers whose square is less than 10)
+
    (b) $\lbrace 0, 2, 4 \rbrace\$ 
 
 ### Notes 
+
+- A number of submissions did not use set braces around the answers to part 2. They must be in set braces $\lbrace \rbrace$. Results that were given with no delimiters at all (for example, just "0, 2, 4" in 2b) resulted in a downgrade from *Master*. Those that did use a delimiter but not set braces (for example, [0,2,4] or (0,2,4) in part 2b)) were considered an error but if it was the only error in the entire problem (including part 1) then you were not downgraded. 
 
 ## Learning Target 7
 
