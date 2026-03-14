@@ -72,7 +72,11 @@ We can see from the final result columns that the propositions $\neg (p \rightar
 
 ### Notes
 
+- **Please use only the number of rows that are needed for a propositions truth table.** A number of submissions attempted to put all the truth tables together into a single large truth table with eight rows, even though the propositions in parts 1 and 3 only require four rows (since there are only two variables). This can be done correctly, but it caused a number of mistakes that ended up downgrading students because you have too many rows to keep track of. In the future, this will result in an immediate downgrade to *Proficient* or lower, even if the entries in the truth table are correct.  
+- **Remember to reality check your work**. A large number of submissions said that the two statements in part 3, $\neg (p \rightarrow q)$ and $p \wedge (\neg q)$, are not logically equivalent, even though we have stressed many,times in class that the negation of "if P then Q" is "P and not Q" And this very question about logical equivalence was a major class exercise.  
 - A number of submissions gave a correct truth table in part 3 but did not state whether the propositions are logically equivalent or not. The purpose of part 3 is to see if you can apply truth tables to deciding whether propositions are logically equivalent or not. So if you had a correct truth table but no answer about logical equivalence, it's not *Master* level work yet. 
+- Remember too that when you're making a truth table, you must give all intermediate columns used in constructing the final result, or else I have no ability to see your thought processes. If you have a correct final result column, but lacking intermediate columns, it's downgraded from *Master*. 
+
 
 ## Learning Target 6
 
