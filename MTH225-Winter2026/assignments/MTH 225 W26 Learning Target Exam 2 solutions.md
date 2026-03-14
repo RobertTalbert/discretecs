@@ -68,7 +68,11 @@ Part 3 (combined truth table for both propositions):
 | F | T | F  | T     | F        | F        |
 | F | F | T  | T     | F        | F        |
 
-We can see from the final result columns that the propositions $\neg (p \rightarrow q)$ and $p \and (\neg q)$ are logically equivalent. 
+We can see from the final result columns that the propositions $\neg (p \rightarrow q)$ and $p \wedge (\neg q)$ are logically equivalent. 
+
+### Notes
+
+- A number of submissions gave a correct truth table in part 3 but did not state whether the propositions are logically equivalent or not. The purpose of part 3 is to see if you can apply truth tables to deciding whether propositions are logically equivalent or not. So if you had a correct truth table but no answer about logical equivalence, it's not *Master* level work yet. 
 
 ## Learning Target 6
 
