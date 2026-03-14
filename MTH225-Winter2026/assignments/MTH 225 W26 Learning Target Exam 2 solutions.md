@@ -3,6 +3,15 @@
 
 ## Learning Target 1
 
+1. Quotient = 205. Remainder = 45. 
+2. .
+   (a) $45$ (this can be read directly from part 1)
+
+   (b) $4$ (because `% 10` always returns the ones digit of the input)
+
+   (c) $0$ (because the input is clearly divisible by 5)
+
+3. The positive numbers that work are $3, 12, 21, 30, 39, 48, \dots$. The negative ones are $-6, -15, -24, -33, -42, \dots$. Any five of these that include at least one of the negatives is a correct list. 
 
 
 ## Learning Target 2
