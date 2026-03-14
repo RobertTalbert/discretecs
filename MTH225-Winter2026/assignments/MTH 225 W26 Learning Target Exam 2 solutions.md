@@ -117,6 +117,16 @@ We can see from the final result columns that the propositions $\neg (p \rightar
 
 3. $\emptyset$, $\lbrace x \rbrace$, $\lbrace y \rbrace$, $\lbrace x,y \rbrace$
 
+### Notes
+
+- In part two, the elements of the Cartesian product must be given as tuples in proper notation. That is, they must ordered pairs with the elements of the pair separated by a comma and enclosed in parentheses.  [As noted in the Standards for Student Work document](https://github.com/RobertTalbert/discretecs/blob/master/MTH225-Winter2026/course-documents/MTH%20225%20Standards%20for%20Student%20Work%20Winter%202026.md#learning-targets), and as discussed in class, this is a requirement. Below are some of the ways that this can be done incorrectly, resulting   in a downgrade from *Master*: 
+  - Using no notation at all to indicate the elements, for example $a1$ instead of $(a,1)$
+  - Using parentheses but no comma separation, for example $(a1)$ instead of $(a,1)$
+  - Using set brackets instead of parentheses, for example $\lbrace a,1 \rbrace$ instead of $(a,1)$ 
+- Similarly, in part 3, listing the elements of the power set as tuples and not sets, for example $(x,y)$ instead of $\lbrace x,y \rbrace$ resulted in a downgrade. When working with sets, you must use the correct notation at all times, and that includes the delimiters.
+- Listing $\lbrace \emptyset \rbrace$ as an element of $\cal{P}(S)$ instead of $\emptyset$ is an error. These are not the same and $\lbrace \emptyset \rbrace$ is not an element of $\cal{P}(S)$. This error was noted but did not result in a downgrade as long as it was the only error in the problem. 
+
+
 ## Learning Target 8
 
 1. Neither (not surjective, because nothing maps to $h$; not injective because both 3 and 6 map to $u$)
