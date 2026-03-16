@@ -17,7 +17,7 @@
 
 ### Option 1
 
-To solve $3x \equiv 6 \pmod{12}$ just run through all the integers $0$ to $12$ and check. (Note, *all* integers must be checked, or at least there has to be an explanation about repeated values. Simply finding three values that work, is not enough -- a complete solution musst also rule out the values that don't work.)
+To solve $3x \equiv 6 \pmod{12}$ just run through all the integers $0$ to $12$ and check. (Note, *all* integers must be checked, or at least there has to be an explanation about repeated values. Simply finding three values that work, is not enough -- a complete solution must also rule out the values that don't work.)
 
 | $x$ | $3x$ | $3x \pmod{12}$ | 
 | --- | --- | ---- | 
@@ -89,7 +89,7 @@ The last line is true because $5 \cdot 3 \equiv 1 \pmod{7}$ as shown in the tabl
 ### Grading notes for Part B
 
 - Many submissions for Options 1 and 2 did not show all work, but only checked 1-3 working solutions. To have a complete solution here, every number (between 0 and 12 for Option 1, between 0 and 6 for Option 2) must be checked, or there must be a general argument to explain why the solutions you find are the only ones. 
-- Some submissions were attempting to do algebra on an equivalence equation That only works on regular equations. This is not an equation, it's an equivalence statement. And so algebra as we know it is not really the right approach. Just go through and check each of the possible inputs and look for solutions. 
+- Some submissions were attempting to do algebra on an equivalence equation, for example dividing both sides by a number. That only works on regular equations. This is not an equation, it's an equivalence statement. And so algebra as we know it is not really the right approach. Just go through and check each of the possible inputs and look for solutions. 
 
 ---
 
@@ -141,7 +141,7 @@ Since the columns for $p \rightarrow q$ and $\neg p \vee q$ have the same outcom
 - Some submissions for Option 1 justified one or two of the steps in the process, but did not justify all of the steps in the process by naming the laws that were used. In order to know that you truly understand how logical equivalences work, those need to be explicitly stated on each step. 
 - Some submissions in Option 1 did not carry the simplification out as far as possible, which is necessary for this particular problem because that's what it is asking you to do. 
 - Some submissions on Option 2 used the wrong number of rows in a truth table, in particular using only four rows for a truth table with three variables. 
-- A number of submissions on Option 2 did not include intermediate columns in creating the truth table, but just gave a single column for the final answer. As explained in the standards for student work document, you must always show all intermediate columns in a truth table, otherwise it is impossible to know how you got your answer. 
+- A number of submissions on Option 2 did not include intermediate columns in creating the truth table, but just gave a single column for the final answer. As explained in the Standards for Student Work document, you must always show all intermediate columns in a truth table, otherwise it is impossible to know how you got your answer. 
 
 ---
 
@@ -162,13 +162,11 @@ It is possible for both of these statements to be simultaneously true.  The firs
 
 There were a number of significant issues with submissions on this one. 
 
-- Some submissions use notation that does not make semantic sense. For example, using a quantifier without a predicate, like: $\forall s \exists p$ but nothing else. Quantifiers exist to define the scope of variables on a predicate. Withi no predicate there, it doesn't make sense. 
+- Some submissions use notation that does not make semantic sense. For example, using a quantifier without a predicate, like: $\forall s \exists p$ but nothing else. Quantifiers exist to define the scope of variables on a predicate. With no predicate there, it doesn't make sense. 
 - Vice versa, many submissions use only the predicates with no quantifiers. The English statements in this part of the problem are quantified, and so without symbolic quantifiers on the predicates, they can't be considered correct translations. 
-- A number of submissions were plugging quantifiers into the predicates, such as $R(s, \forall p)$ which does not make semantic sounds. 
+- A number of submissions were plugging quantifiers into the predicates, such as $R(s, \forall p)$ which does not make semantic sense. 
 - There are a number of issues with parentheses on part three, either parentheses that didn't match or the quantifiers were not in the correct place inside or outside parentheses. 
 - Several submissions were attempting to use $H(p)$  as input into the predicate $R$ (so, it said $R(s, H(p))$). But this doesn't make sense because $R$ does not accept the outputs of $H$ as input. It only accepts $p$ (and $s$) as input. 
 - A fairly large number of submissions of Option 1 only had parts 1-3 and did not give the second half of this option, where it asks you to draw a conclusion and explain your logic. Please be sure to read all the directions and don't skip important parts.
 - The number of submissions option two gave explanations about why the two statements can be true at the same time, but did not tie them to any of the statements in the problem. It was just a general explanation of something that could happen. The goal here is to use the actual logical propositions and give a simple condition under which they are both true. Without reference to either the two statements that are in option two or the individual predicates that are at the beginning of part D, it's impossible to know if you are translating the symbols correctly, which is the main point of this problem. 
-
-You can expect to see additional problems asking you to work out predicates because clearly this is an area of need for us. 
 
