@@ -45,7 +45,7 @@ First of all pardon the bad English in the proposition statement. ("$b$ is odd i
 
 1. Adjacency matrix: 
 
-$$\begin{bmatrix}{cccccc}
+$$\begin{bmatrix}
 0 & 0 & 1 & 1 & 0 & 0 \\
 0 & 0 & 1 & 1 & 1 & 0 \\
 1 & 1 & 0 & 1 & 1 & 0 \\
