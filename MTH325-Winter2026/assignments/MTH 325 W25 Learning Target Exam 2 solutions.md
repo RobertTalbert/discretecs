@@ -43,7 +43,59 @@ First of all pardon the bad English in the proposition statement. ("$b$ is odd i
 
 ## Learning Target 4
 
+1. Adjacency matrix: 
+
+$$\begin{bmatrix}{cccccc}
+0 & 0 & 1 & 1 & 0 & 0 \\
+0 & 0 & 1 & 1 & 1 & 0 \\
+1 & 1 & 0 & 1 & 1 & 0 \\
+1 & 1 & 1 & 0 & 0 & 1 \\
+0 & 1 & 1 & 0 & 0 & 0 \\
+0 & 0 & 0 & 1 & 0 & 0 \\
+\end{bmatrix}$$
+
+2. Dictionary: 
+```python
+{0: [2,3], 1: [2, 3, 4], 2: [0, 1,3, 4], 3: [0,1,2,5], 4: [1,2], 5:[3]}
+```
+
 ## Learning Target 7
+
+1. DFS: 
+
+| Stack | Visited | 
+| ---- | ---- | 
+| [0] | [ ] | 
+| [7, 5, 2, 1] | [0] | 
+| [7,5,2] | [0, 1] | 
+| [7,5,6,3] | [0, 1, 2] | 
+| [7,5,6,4] | [0, 1, 2, 3] | 
+| [7,5,6] | [0,1,2,3,4] |
+| [7,5] |  [0,1,2,3,4,6] | 
+| [7] |  [0,1,2,3,4, 6, 5] | 
+| [] |  [0,1,2,3,4, 6, 5, 7] | 
+
+
+2. BFS: 
+
+| Queue | Visited | 
+| ---- | ---- | 
+| [0] | [ ] | 
+| [1,2,5,7] | [0] | 
+| [2,5,7] | [0,1] | 
+| [5,7,3,6] | [0,1,2] | 
+| [7,3,6] | [0,1,2,5] | 
+| [3,6] | [0,1,2,5,7] | 
+| [6,4] | [0,1,2,5,7,3] | 
+| [4] | [0,1,2,5,7,3,6] | 
+| [] | [0, 1, 2, 5, 7, 3, 6, 4] | 
+
+
+### Notes
+
+- Most people's BFS looked fine but in DFS, the nodes were added in the reverse order that they should have been in step 1 --- it was [1,2,5,7] instead of [7,5,2,1]. 
+- A number of submissions on the depth first search part did not add all of the neighbors of node 0 after step one. Only node 1 was added. 
+- I think a lot of the confusion on this item stemmed from a not-very-good explanation on my part in class and in the vault. So you can expect some additional class coverage on this coming soon.  
 
 ## Learning Target 8
 
