@@ -1,4 +1,4 @@
-# MTH 225: Problem Set 4
+# MTH 325: Problem Set 4
 
 Submit solutions on or before **11:59pm Eastern time on Friday March 27** in order to be eligible for engagement credits. 
 
