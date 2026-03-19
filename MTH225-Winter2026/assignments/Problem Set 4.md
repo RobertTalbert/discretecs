@@ -27,7 +27,7 @@ Please remember the basic rules for Problem Sets:
 
    (d) Neither injective nor surjective 
 
-2. For each part below, give a separate example of a function from $\mathbb{Z}$ (the natural numbers) to $\mathbb{Z}$ with the stated properties. Unlike in part 1, please give all functions as explicit formulas this time. If no such function exists, say so and explain why. (Note: you are giving four different functions, one per part — not a single function that satisfies all four parts at once.)
+2. For each part below, give a separate example of a function from $\mathbb{Z}$ (the integers) to $\mathbb{Z}$ with the stated properties. Unlike in part 1, please give all functions as explicit formulas this time. If no such function exists, say so and explain why. (Note: you are giving four different functions, one per part — not a single function that satisfies all four parts at once.)
 
    (a) Injective, but not surjective 
 
