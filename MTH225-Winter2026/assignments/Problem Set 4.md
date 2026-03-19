@@ -18,18 +18,26 @@ Please remember the basic rules for Problem Sets:
 ## Problem 1: Injective/surjective examples 
 
 1. For each part below, give a separate example of a function from $\mathbb{N}$ (the natural numbers) to $\mathbb{N}$ with the stated properties. If no such function exists, say so and explain why. Each function can be a formula, verbal description, diagram, table, or some other representation but it must be clear how your function maps input to output.  (Note: you are giving four different functions, one per part — not a single function that satisfies all four parts at once.)
+
    (a) Injective, but not surjective 
+
    (b) Surjective, but not injective 
+
    (c) Bijective, but not just the "identity" function that maps every element to itself 
+
    (d) Neither injective nor surjective 
 
-1. For each part below, give a separate example of a function from $\mathbb{Z}$ (the natural numbers) to $\mathbb{Z}$ with the stated properties. Unlike in part 1, please give all functions as explicit formulas this time. If no such function exists, say so and explain why. (Note: you are giving four different functions, one per part — not a single function that satisfies all four parts at once.)
+2. For each part below, give a separate example of a function from $\mathbb{Z}$ (the natural numbers) to $\mathbb{Z}$ with the stated properties. Unlike in part 1, please give all functions as explicit formulas this time. If no such function exists, say so and explain why. (Note: you are giving four different functions, one per part — not a single function that satisfies all four parts at once.)
+
    (a) Injective, but not surjective 
+
    (b) Surjective, but not injective 
+
    (c) Bijective, but not just the "identity" function that maps every element to itself 
+
    (d) Neither injective nor surjective 
 
-## Problem 2: Induction practice 
+## Problem 2: Induction framework practice 
 
 Choose **two** (2) of the statements and **give a complete, clearly-stated framework of an induction proof for each statement you chose**. *A completed proof is not necessary*; just two well-constructed frameworks. Be sure to state clearly which two you are focusing on. 
 
