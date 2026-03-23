@@ -16,6 +16,24 @@
 ## Part B
 
 ### Option 1
+
+(a) Find all values in $0 \leq x \leq 9$ that satisfy $4x \equiv 8 \pmod{10}$. 
+
+
+| $x$ | $4x$ | $4x \pmod{10}$ | 
+| --- | --- | ---- | 
+| $0$ | $0$  | $0$  | 
+| $1$ | $4$  | $4$  | 
+| $2$ | $8$  | $8$ $\star$ | 
+| $3$ | $12$  | $2$  | 
+| $4$ | $16$  | $6$  | 
+| $5$ | $20$  | $0$  | 
+| $6$ | $24$  | $4$   | 
+| $7$ | $28$  | $8$ $\star$  | 
+| $8$ | $32$  | $2$  | 
+| $9$ | $36$  | $6$  | 
+
+
 <!-- 
 To solve $3x \equiv 6 \pmod{12}$ just run through all the integers $0$ to $12$ and check. (Note, *all* integers must be checked, or at least there has to be an explanation about repeated values. Simply finding three values that work, is not enough -- a complete solution must also rule out the values that don't work.)
 
