@@ -17,7 +17,7 @@
 
 ### Option 1
 
-*Probably direct proof is the best choice here; here is a sample proof.*
+*Direct proof is the best choice here; here is a sample proof.*
 
 Assume that $m$ is even and $n$ is odd. Therefore there exist integers $a$ and $b$ such that $m = 2a$ and $n = 2b+1$. Then: 
 
@@ -35,8 +35,6 @@ We will prove the contrapositive: If $n$ is odd, then $n^3$ is odd. So, suppose 
 $$n^3 = (2k+1)^3 = 8k^3 + 12k^2 + 6k + 1 = 2(4k^3 + 6k^2 + 3k) + 1$$
 
 Now since $k$ is an integer, so is $4k^3 + 6k^2 + 3k$. Therefore $n^3$ is a multple of 2, plus 1, which makes it odd. 
-
-### Grading notes for Part B
 
 
 ---
