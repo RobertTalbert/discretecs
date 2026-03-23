@@ -20,7 +20,9 @@
 *Probably direct proof is the best choice here; here is a sample proof.*
 
 Assume that $m$ is even and $n$ is odd. Therefore there exist integers $a$ and $b$ such that $m = 2a$ and $n = 2b+1$. Then: 
+
 $$m^2 + n^2 = (2a)^2 + (2b+1)^2 = 4a^2 + 4b^2 + 4b + 1 = 2(2a^2 + 2b^2 + 2b) + 1$$
+
 Now since $a$ and $b$ are integers, so is $2a^2 + 2b^2 + 2b$. Therefore $m^2 + n^2$ is a multple of 2, plus 1, which makes it odd. 
 
 
