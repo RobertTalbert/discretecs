@@ -17,15 +17,22 @@
 
 ### Option 1
 
-<!-- Results vary according to which proof technique is used. Here is a proof using the contrapositive: 
+*Probably direct proof is the best choice here; here is a sample proof.*
 
-Assume that $n$ is odd. We will show that $n^3$ is odd. Since $n$ is odd, there exists an integer $k$ such that $n = 2k+1$. In that case, $n^3 = (2k+1)^3 = 8k^3 + 12k^2 + 6k + 1$. Factoring $2$ from the first three terms gives $2(4k^3 + 6k^2 + 3k) + 1$. Since $k$ is an integer, $q = 4k^3 + 6k^2 + 3k$ is also an integer. Therefore there $n^3 = 2q+1$ where $q$ is an integer, so $n^3$ is odd.  -->
+Assume that $m$ is even and $n$ is odd. Therefore there exist integers $a$ and $b$ such that $m = 2a$ and $n = 2b+1$. Then: 
+$$m^2 + n^2 = (2a)^2 + (2b+1)^2 = 4a^2 + 4b^2 + 4b + 1 = 2(2a^2 + 2b^2 + 2b) + 1$$
+Now since $a$ and $b$ are integers, so is $2a^2 + 2b^2 + 2b$. Therefore $m^2 + n^2$ is a multple of 2, plus 1, which makes it odd. 
+
 
 ### Option 2
 
-<!-- Results vary according to which proof technique is used. Here is a direct proof: 
+*Contrapositive proof is the easiest this time; here is a sample proof.*
 
-Assume that $a$ and $b$ are odd. We want to show that $a+b$ is even. Since $a$ and $b$ are odd, there exist integers $m$ and $n$ such that $a = 2m+1$ and $b = 2n+1$. Then $a+b = 2m + 2n + 2 = 2(m+n+1)$. Since $m$ and $n$ are integers, $m+n+1$ is also an integer and therefore $a+b$ (being $2$ times an integer) is even.  -->
+We will prove the contrapositive: If $n$ is odd, then $n^3$ is odd. So, suppose $n$ is odd. Then there is an integer $k$ such that $n = 2k+1$. This gives: 
+
+$$n^3 = (2k+1)^3 = 8k^3 + 12k^2 + 6k + 1 = 2(4k^3 + 6k^2 + 3k) + 1$$
+
+Now since $k$ is an integer, so is $4k^3 + 6k^2 + 3k$. Therefore $n^3$ is a multple of 2, plus 1, which makes it odd. 
 
 ### Grading notes for Part B
 
