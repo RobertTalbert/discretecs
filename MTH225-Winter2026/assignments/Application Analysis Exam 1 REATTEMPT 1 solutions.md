@@ -74,7 +74,7 @@ This time there's only one solution, $x = 6$.
 
 The modular inverse of $5$ mod $11$ is $9$. 
 
-(b) To solve $5x \cong 7 \pmod{11}$, multiply both sides by $9$ and reduce: 
+(b) To solve $5x \equiv 7 \pmod{11}$, multiply both sides by $9$ and reduce: 
 
 $$\begin{eqnarray*}
 9 \cdot 5x &\equiv 9 \cdot 7 \pmod{11} \\
