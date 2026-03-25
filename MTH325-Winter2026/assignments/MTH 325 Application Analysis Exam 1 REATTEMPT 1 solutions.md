@@ -90,6 +90,9 @@ Well, by definition $a_{k+1} = a_k + 2a_{k-1}$. By the inductive hypothesis, bot
 
 ### Grading notes for Part C
 
+- Several submissions for option 1 did not use a sum for the left-hand side, but only the final term $3n-2$. For example, they stated that we were assuming that $3k-2 = \frac{3k^2-k}{2}$. This actually leads to a false proposition, because you need to sum up all of the terms, not just use the last term in order to get the right-hand side expression. 
+- Several submissions were not using the predicate to state their inductive hypothesis. They were just saying, for example, "let's assume K". Remember to always clearly state the exact statement that you're assuming and exact statement that you're going to prove in terms of what the proposition itself says. 
+  
 
 ---
 
