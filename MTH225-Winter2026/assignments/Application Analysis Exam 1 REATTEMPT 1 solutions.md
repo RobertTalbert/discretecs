@@ -84,58 +84,51 @@ x &\equiv 8 \pmod{11}
 
 So the solution is $x=8$. 
 
-### Grading notes for Part B
-
-
-
 ---
 
 ## Part C
 
 ### Option 1
 
-<!-- Translated into symbols, the messy statement is: 
+Translated into symbols, the statement is: 
 
-$$\neg(((\neg p) \wedge q) \vee ((\neg p) \wedge (\neg r)))$$ 
+$$\neg \left( (p \wedge q) \vee (r \wedge q) \right)$$
 
-Using the Distributive Law to "factor out" a $\neg p$ gives us: 
+Applying DeMorgan's Law to the entire statement gives: 
 
-$$\neg ( (\neg p) \wedge (q \vee (\neg r)))$$
+$$\neg (p \wedge q) \wedge \neg (r \wedge q)$$
 
-Now use DeMorgan's Law to distribute the $\neg$ across the two statements that are joined by $\wedge$: 
+Now apply DeMorgan's Law twice: 
 
-$$\neg(\neg p) \vee \neg(q \vee (\neg r))$$ 
+$$(\neg p \vee \neg q) \wedge (\neg r \vee \neg q)$$
 
-The Double Negation law applied to the first term gives: 
+Now "factor out" a $\neg q$ using the Distributive Law: 
 
-$$p \vee \neg(q \vee (\neg r))$$ 
+$$\neg q \vee (\neg p \wedge \neg r)$$
 
-Then another application of DeMorgan's Law to the second term gives: 
-
-$$p \vee ((\neg q) \wedge \neg(\neg r))$$ 
-
-And finally, the Double Negation law applied to the final term gives: 
-
-$$p \vee ((\neg q) \wedge r)$$ 
-
-No more meaningful simplification can be done at this point. -->
+Translated back into words, the connection is allowed if the user is authenticated, or if both the IP is unblocked and the port is unrestricted. 
 
 ### Option 2
 
-<!-- Results will vary based on the equivalence chosen. Here is a sample solution using the first equivalence in Table 7, $p \rightarrow q \equiv \neg p \vee q$: 
+The two statements in symbolic form are: $(p \vee q) \rightarrow r$ and $(\neg p \wedge \neg q) \vee r$. A truth table for both statements is below, with all the necessary intermediate columns: 
 
-| $p$ | $q$ | $p \rightarrow q$ | $\neg p$ | $\neg p \vee q$ | 
-| -- | -- | -- | -- | -- | 
-| T | T | T | F | T | 
-| T | F | F | F | F | 
-| F | T | T | T | T | 
-| F | F | T | T | T | 
+| p | q | r | ¬p | ¬q | p ∨ q | **(p ∨ q) → r** | ¬p ∧ ¬q | **(¬p ∧ ¬q) ∨ r** |
+|---|---|---|----|----|-------|-------------|---------|---------------|
+| T | T | T | F  | F  |   T   |      T      |    F    |       T       |
+| T | T | F | F  | F  |   T   |      F      |    F    |       F       |
+| T | F | T | F  | T  |   T   |      T      |    F    |       T       |
+| T | F | F | F  | T  |   T   |      F      |    F    |       F       |
+| F | T | T | T  | F  |   T   |      T      |    F    |       T       |
+| F | T | F | T  | F  |   T   |      F      |    F    |       F       |
+| F | F | T | T  | T  |   F   |      T      |    T    |       T       |
+| F | F | F | T  | T  |   F   |      T      |    T    |       T       |
 
-Since the columns for $p \rightarrow q$ and $\neg p \vee q$ have the same outcomes in all rows, they are logically equivalent statements.  -->
+As we can see from the bolded columns, the two statements have all the same logical values and are therefore logically equivalent. 
 
 ### Grading notes for Part C
 
-
+- A number of submissions for option two did not show all the intermediate columns for the truth table. This was an explicit instruction and anytime you make a truth table, you must show all intermediate columns. 
+- Other submissions for option two had the correct truth table with all the intermediate columns, but did not answer the main question of the problem, which is whether the two statements are logically equivalent. It was just a truth table. Remember to read all the directions carefully and make sure you're giving the information that you're being asked for. 
 
 ---
 
