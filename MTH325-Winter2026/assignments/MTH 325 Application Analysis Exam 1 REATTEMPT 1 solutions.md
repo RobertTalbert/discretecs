@@ -79,7 +79,13 @@ Now we can see that the left side and right side of the equation we want to prov
 
 ### Option 2
 
+This proof uses *strong* induction. 
 
+There are two base cases, $n=0$ and $n=1$. Here, we have $a_0 = 1$ and $a_1 = 3$ and these are clearly both odd, so the base cases hold. 
+
+Now assume that $a_i$ is odd, for all integers $0 \leq i \leq k$. We want to show that $a_{k+1}$ is odd. 
+
+Well, by definition $a_{k+1} = a_k + 2a_{k-1}$. By the inductive hypothesis, both $a_k$ and $a_{k-1}$ are odd. We know $2a_{k-1}$ is even since we are multiplying by $2$. Therefore $a_{k+1}$ is the sum of an odd integer and an even integer, which results in an odd integer (using the fact we're allowed to assume here). 
 
 
 ### Grading notes for Part C
