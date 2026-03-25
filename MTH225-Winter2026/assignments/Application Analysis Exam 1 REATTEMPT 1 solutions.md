@@ -67,7 +67,7 @@ This time there's only one solution, $x = 6$.
 | $4$ | $20$  | $9$  | 
 | $5$ | $25$  | $3$  | 
 | $6$ | $30$  | $8$  | 
-| $7$ | $35$  | $3$  | 
+| $7$ | $35$  | $2$  | 
 | $8$ | $40$  | $7$  | 
 | $9$ | $45$  | $1$  $\star$  | 
 | $10$ | $50$  | $6$  | 
@@ -123,12 +123,12 @@ The two statements in symbolic form are: $(p \vee q) \rightarrow r$ and $(\neg p
 | F | F | T | T  | T  |   F   |      T      |    T    |       T       |
 | F | F | F | T  | T  |   F   |      T      |    T    |       T       |
 
-As we can see from the bolded columns, the two statements have all the same logical values and are therefore logically equivalent. 
+As we can see from the seventh and ninth columns, the two statements have all the same logical values and are therefore logically equivalent. 
 
 ### Grading notes for Part C
 
-- A number of submissions for option two did not show all the intermediate columns for the truth table. This was an explicit instruction and anytime you make a truth table, you must show all intermediate columns. 
-- Other submissions for option two had the correct truth table with all the intermediate columns, but did not answer the main question of the problem, which is whether the two statements are logically equivalent. It was just a truth table. Remember to read all the directions carefully and make sure you're giving the information that you're being asked for. 
+- A number of submissions for option 2 did not show all the intermediate columns for the truth table. This was an explicit instruction and anytime you make a truth table, you must show all intermediate columns. 
+- Other submissions for option 2 had the correct truth table with all the intermediate columns, but did not answer the main question of the problem, which is whether the two statements are logically equivalent. Remember to read all the directions carefully and make sure you're giving the information that you're being asked for. 
 
 ---
 
