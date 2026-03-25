@@ -43,29 +43,44 @@ Now since $k$ is an integer, so is $4k^3 + 6k^2 + 3k$. Therefore $n^3$ is a mult
 
 ### Option 1
 
-<!-- This proof uses weak induction. 
+This proof uses weak induction. 
 
-The base case is when $n = 0$. In this case the left side of the equation is just the single term $F_0$ (not an actual sum of multiple numbers), which is equal to $1$ by definition. On the right side we have $F_2 - 1$. Now $F_2 = F_1 + F_0 = 1 + 1 = 2$, so $F_2 - 1 =1$. The left and right sides are now equal, so the base case has been verified. 
+For the base case $n = 1$, the left side of the equation in the statement is just the single term, $1$. The right side is $\frac{3 \cdot 1^1 - 1}{2}$ which is $\frac{2}{2} = 1$. The left and right sides are equal so the base case works. 
 
-Now assume that $F_0 + F_1 + F_2 + \cdots + F_k = F_{k+2} -1$ for some $k$. We want to show that $F_0 + F_1 + F_2 + \cdots + F_{k+1} = F_{k+3} -1$. 
+Now assume that for some $k$, $1 + 4 + 7 + \cdots + (3k-2) = \frac{3k^2 -k}{2}$. We want to show that $1 + 4 + 7 + \cdots + (3(k+1)-2) = \frac{3(k+1)^2 -(k+1)}{2}$. 
 
-Looking at the left side, we have $F_0 + F_1 + F_2 + \cdots + F_{k+1}$. Grouping the all but the last term gives $(F_0 + F_1 + F_2 + \cdots + F_k) + F_{k+1}$, and by the inductive hypothesis, we can substitute the sum in parentheses to get $(F_{k+2} - 1) + F_{k+1}$. Rearranging terms gives $F_{k+2} + F_{k+1} - 1$ and then by the Fibonacci recurrence relation we have $F_{k+3} - 1$. This is what we wanted to prove.  -->
+First look at the left side expression. The next-to-last term in the sum is $3k-2$ so we can write the left side as 
+
+$$1 + 4 + 7 + \cdots + (3k-2) + (3(k+1)-2)$$
+
+Now group together all but the last term to get $\left( 1 + 4 + 7 + \cdots + (3k-2) \right) + (3(k+1)-2)$. The inductive hypothesis can be used to substitute for the expression in that group to give us: 
+
+$$\left( 1 + 4 + 7 + \cdots + (3k-2) \right) + (3(k+1)-2) = \frac{3k^2-k}{2} + (3(k+1) - 2)$$
+
+Now we'll simplify this: 
+
+$$\begin{eqnarray*}
+\frac{3k^2-k}{2} + (3(k+1) - 2) &= \frac{3k^2-k}{2} + 3k + 1 \\
+&= \frac{3k^2-k}{2} + \frac{6k + 2}{2} \\
+&= \frac{3k^2 + 5k + 2}{2}
+\end{eqnarray*}$$
+
+Now look at the right side, $\frac{3(k+1)^2 -(k+1)}{2}$. This simplifies to: 
+
+$$\begin{eqnarray*}
+\frac{3(k+1)^2 -(k+1)}{2} &= \frac{3(k^2 + 2k + 1) - k -1}{2} \\
+&= \frac{3k^2 + 6k + 3 - k - 1}{2} \\
+&= \frac{3k^2 + 5k + 2}{2}
+\end{eqnarray*}$$
+
+Now we can see that the left side and right side of the equation we want to prove, are actually equal, so the inductive step is proven. 
+
+
 
 ### Option 2
 
-<!-- The proposition is equivalent to saying: For all $n \geq 1$, the Fibonacci number $F_{3n-1}$ is even. This proof uses weak induction. 
 
-The base case in this form is $n=1$. This gives the number $F_2$ which is equal to $2$, which is even. 
 
-Now assume that $F_{3k-1}$ is even for some $k$. We want to prove that $F_{3(k+1)-1}$ is even. In the subscript, $3(k+1) - 1 = 3k + 2$. So we want to show that $F_{3k+2}$ is even. Using the Fibonacci identity gives us: $F_{3k+2} = F_{3k+1} + F_{3k}$. We also know from the Fibonacci identity that $F_{3k+1} = F_{3k} + F_{3k-1}$. 
-
-Substituting this last expression into the first term of the first expression gives: 
-
-$$F_{3k+2} = F_{3k+1} + F_{3k} = (F_{3k} + F_{3k-1}) +F_{3k}$$
-
-Adding like terms gives  $F_{3k+2} = 2 F_{3k} + F_{3k-1}$
-
-Now, $2 F_{3k}$ is even because it is an integer multiple of $2$; and $F_{3k-1}$ is even by the inductive hypothesis. Therefore $F_{3k+2}$ is the sum of two even numbers, which is even.  -->
 
 ### Grading notes for Part C
 
