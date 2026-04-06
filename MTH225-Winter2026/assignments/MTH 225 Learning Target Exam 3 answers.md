@@ -17,7 +17,7 @@
 1. $\binom{12}{9} = \frac{12!}{9! 3!} = \frac{12 \cdot 11 \cdot 10}{3 \cdot 2 \cdot 1} = 220$. 
 2. Order doesn't count when forming a committee, so the count is $\binom{20}{5} = 15504$. 
 3. All the letters in the word are distinct, so the count is $8! = 40320$. 
-4. It's best to think of this as a license plate problem. We have three slots to fill and no repetitions (since once we select a letter, it can't be selected again). This gives $8$ choices for the first character, $7$ for the second, and $6$ for the third giving a count of $8 \cdot 7 \codot 6 = 336$. This is the same as $P(8,3)$. 
+4. It's best to think of this as a license plate problem. We have three slots to fill and no repetitions (since once we select a letter, it can't be selected again). This gives $8$ choices for the first character, $7$ for the second, and $6$ for the third giving a count of $8 \cdot 7 \cdot 6 = 336$. This is the same as $P(8,3)$. 
 
 ## Learning Target 12 
 
