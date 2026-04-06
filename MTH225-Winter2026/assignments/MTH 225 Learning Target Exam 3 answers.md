@@ -19,6 +19,8 @@
 3. All the letters in the word are distinct, so the count is $8! = 40320$. 
 4. It's best to think of this as a license plate problem. We have three slots to fill and no repetitions (since once we select a letter, it can't be selected again). This gives $8$ choices for the first character, $7$ for the second, and $6$ for the third giving a count of $8 \cdot 7 \cdot 6 = 336$. This is the same as $P(8,3)$. 
 
+NOTE: In part 4 the problem uses the term "substring" to refer to strings made by selecting letters from a larger string. This is not what this word typically means, however -- a "substring" is a chunk of contiguous characters taken from the main string, so neither `OER` nor `ETR` in that way would be considered as "substrings" of `COMPUTER`. Grading will proceed by looking at your work on a case-by-case basis, especially looking for the main idea: No repetition is allowed, and order matters (because however you look at it, `OER` and `EOR` woud be considered different strings, hence order matters.) 
+
 ## Learning Target 12 
 
 1. Geometric. Closed formula: $a(n) = 3 \cdot 2^n$. Recurrence relation: $a(0) = 3$ and $a(n) = 2 \cdot a(n-1)$ for $n > 0$. 
