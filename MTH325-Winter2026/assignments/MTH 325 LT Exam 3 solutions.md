@@ -23,7 +23,7 @@ $$\begin{pmatrix}
 
 ## Learning Target 11 
 
-Note: There may be multiple specific concrete examples of property failures that are possible for each part. Here we just list a sample. 
+*Note: There may be multiple specific concrete examples of property failures that are possible for each part. Here we just list a sample.* 
 
 1. Reflexive and symmetric. But not transitive because $(A,B)$ and $(B,C)$ are in the relation but not $(A,C)$. 
 2. Reflexive and transitive. But not symmetric because $(A,B)$ is in the relation but not $(B,A)$. 
@@ -31,3 +31,5 @@ Note: There may be multiple specific concrete examples of property failures that
 
 ### Notes 
 
+- I tweaked the standard on this one to match the present form of this question: You are allowed one incorrect response on this one (out of nine) before being downgraded to Proficient. 
+- Which is good because a lot of submissions said $R_3$ was transitive when it is not -- the edge $(C,A)$ is in the relation but the one you need is $(A,C)$. 
