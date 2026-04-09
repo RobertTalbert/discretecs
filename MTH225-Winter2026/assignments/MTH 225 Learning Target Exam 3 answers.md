@@ -65,7 +65,7 @@ Based on the last two columns we see that the two statements are logically equiv
 3. Prove that $3$ divides $4^{k+1} - 1$. 
 
 
-
+---
 
 ## Learning Target 10 
 
@@ -96,6 +96,8 @@ NOTE: In part 4 the problem uses the term "substring" to refer to strings made b
 - A number of solutions did not use a correct formula for the binomial coefficient in either part one or part two, often by leaving off a factorial on the bottom of the fraction. (For example, saying $\binom{12}{9} = \frac{12!}{9!}$.)
 - Some solutions used a correct formula for part one, but an incorrect formula for the binomial coefficient on part two, or vice versa. It is the same binomial coefficient, so you'll want to use the same formula. 
 - In the fourth problem, a number of solutions simply used the binomial coefficient formula on the problem, but didn't take into account that ordering of strings counts. If you reorder a string, it is a different string, and each reordering must be counted separately. 
+
+---
 
 ## Learning Target 12 
 
