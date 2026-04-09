@@ -31,5 +31,5 @@ $$\begin{pmatrix}
 
 ### Notes 
 
-- I tweaked the standard on this one to match the present form of this question: You are allowed one incorrect response on this one (out of nine) before being downgraded to Proficient. 
+- I tweaked the standard on this one to match the present form of this question: You are allowed one incorrect response, or a correct statement that a property fails but the example doesn't work, on this one (out of nine) before being downgraded to Proficient. 
 - Which is good because a lot of submissions said $R_3$ was transitive when it is not -- the edge $(C,A)$ is in the relation but the one you need is $(A,C)$. 
