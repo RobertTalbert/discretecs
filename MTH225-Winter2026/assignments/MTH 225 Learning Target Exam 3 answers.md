@@ -73,6 +73,15 @@ Based on the last two columns we see that the two statements are logically equiv
 2. This is literally a license plate problem. There are $26$ letter choices for the first letter, then $25$ for the second one, then $24$ for the third, followed by $10$ choices for each of the digits. So the count is $26 \cdot 25 \cdot 24 \cdot 10^3 = 15,600,000$. 
 3. The number of integers in this range divisible by $3$ is $33$ and the number divisible by $5$ is $20$. There are $6$ integers in this range that are divisible by both $3$ and $5$ (that is, divisible by $15$). So we need to use the Principle of Inclusion and Exclusion, and the count is $33 + 20 - 6 = 47$. 
 
+### Notes
+
+- A number of submissions used multiplication instead of addition in part one, but we are not making a sequence of choices. We're making one choice as is stated in the problem parameters. 
+- A number of solutions for number two set up a license plate problem, but added the letter choices to the digit choices, for example $26 \cdot 25 \cdot 24 + 10 \cdot 10 \cdot 10$. There is no justification for adding these two groups of numbers since we are engaged in a sequence of six choices, not two sequences of three choices. 
+- A number of solutions not take into account that the letters cannot be repeated. And so we ended up with $26^3 \cdot 10^3$. 
+- Number of solutions failed to account for numbers that are divisible by both 3 and 5 and didn't subtract off a 6. You must use the Principle of Inclusion and Exclusion here because of the overlap between the criteria that you're counting. 
+
+---
+
 ## Learning Target 11
 
 1. $\binom{12}{9} = \frac{12!}{9! 3!} = \frac{12 \cdot 11 \cdot 10}{3 \cdot 2 \cdot 1} = 220$. 
@@ -81,6 +90,12 @@ Based on the last two columns we see that the two statements are logically equiv
 4. It's best to think of this as a license plate problem. We have three slots to fill and no repetitions (since once we select a letter, it can't be selected again). This gives $8$ choices for the first character, $7$ for the second, and $6$ for the third giving a count of $8 \cdot 7 \cdot 6 = 336$. This is the same as $P(8,3)$. 
 
 NOTE: In part 4 the problem uses the term "substring" to refer to strings made by selecting letters from a larger string. This is not what this word typically means, however -- a "substring" is a chunk of contiguous characters taken from the main string, so neither `OER` nor `ETR` in that way would be considered as "substrings" of `COMPUTER`. Grading will proceed by looking at your work on a case-by-case basis, especially looking for the main idea: No repetition is allowed, and order matters (because however you look at it, `OER` and `EOR` woud be considered different strings, hence order matters.) 
+
+### Notes
+
+- A number of solutions did not use a correct formula for the binomial coefficient in either part one or part two, often by leaving off a factorial on the bottom of the fraction. (For example, saying $\binom{12}{9} = \frac{12!}{9!}$.)
+- Some solutions used a correct formula for part one, but an incorrect formula for the binomial coefficient on part two, or vice versa. It is the same binomial coefficient, so you'll want to use the same formula. 
+- In the fourth problem, a number of solutions simply used the binomial coefficient formula on the problem, but didn't take into account that ordering of strings counts. If you reorder a string, it is a different string, and each reordering must be counted separately. 
 
 ## Learning Target 12 
 
