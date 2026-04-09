@@ -1,10 +1,71 @@
 # MTH 225 Learning Target Exam 3 answers and notes 
 
+## Learning Target 2
+
+1. $555$
+2. $86$
+3. $1373$
+4. `1000011`
+
+### Notes 
+
+- Remember that when converting from a non-decimal base to base 10, this just uses place value. And make sure to get the right place value. Converting from base 10 to a non-decimal base requires the base conversion algorithm, and you must show every step of that algorithm anywhere it's asked of you. 
+
+---
+
+
+## Learning Target 5
+
+1. 
+| p | q | ¬q | p ∧ q | (¬q) → (p ∧ q) |
+|---|---|----|-------|----------------|
+| T | T | F  | T     | T              |
+| T | F | T  | F     | F              |
+| F | T | F  | F     | T              |
+| F | F | T  | F     | F              |
+
+2. 
+| p | q | r | p ∨ q | p ∨ r | (p ∨ q) ∧ (p ∨ r) |
+|---|---|---|-------|-------|-------------------|
+| T | T | T | T     | T     | T                 |
+| T | T | F | T     | T     | T                 |
+| T | F | T | T     | T     | T                 |
+| T | F | F | T     | T     | T                 |
+| F | T | T | T     | T     | T                 |
+| F | T | F | T     | F     | F                 |
+| F | F | T | F     | T     | F                 |
+| F | F | F | F     | F     | F                 |
+
+
+
+3. 
+| p | q | ¬q | p → q | ¬(p → q) | p ∧ (¬q) |
+|---|---|----|-------|----------|----------|
+| T | T | F  | T     | F        | F        |
+| T | F | T  | F     | T        | T        |
+| F | T | F  | T     | F        | F        |
+| F | F | T  | T     | F        | F        |
+
+Based on the last two columns we see that the two statements are logically equivalent. 
+
+
+### Notes
+
+- A number of submissions lacked intermediate columns. For example, in the first question, not giving a column for p ∧ q. You must show all intermediate columns that are used for a truth table or it will be downgraded to Proficient. 
+- A number of submissions attempted to put all three parts into the same truth table with eight rows. [On Learning Target Exam 2, this happened as well, and I created a rule](https://github.com/RobertTalbert/discretecs/blob/master/MTH225-Winter2026/assignments/MTH%20225%20W26%20Learning%20Target%20Exam%202%20solutions.md#notes-2) that said if you use more rows in a truth table than are necessary, it will be immediately downgraded to proficient. Parts 1 and 3 do not require eight rows. They only require four. If you used eight, this resulted in downgrading. 
+- The third item is exactly the same one that was given on the last learning target exam. And as on that exam, The third item is exactly the same one that was given on the last learning target exam. And as on that exam, A large number of submissions said that the two statements in part 3, are not logically equivalent, even though we have stressed many times in class that the negation of "if P then Q" is "P and not Q" And this very question about logical equivalence was a major class exercise.
+
+---
+
+
 ## Learning Target 9
 
 1. The value of the variable for the base case is $n=0$. In this case, we have $4^0 - 1$ which equals $1-1$ or $0$. The integer $3$ divides $0$ because `0 % 3 = 0`. So the base case holds. 
 2. Assume that for some $k$, $3$ divides $4^k - 1$. 
 3. Prove that $3$ divides $4^{k+1} - 1$. 
+
+
+
 
 ## Learning Target 10 
 
