@@ -23,11 +23,11 @@ $$\begin{pmatrix}
 
 ## Learning Target 11 
 
-Note: There are several specific concrete examples of property failures that are possible for each part. Here we just list a sample. 
+Note: There may be multiple specific concrete examples of property failures that are possible for each part. Here we just list a sample. 
 
 1. Reflexive and symmetric. But not transitive because $(A,B)$ and $(B,C)$ are in the relation but not $(A,C)$. 
 2. Reflexive and transitive. But not symmetric because $(A,B)$ is in the relation but not $(B,A)$. 
-3. Transitive. But not reflexive because $(A,A)$ is not in the relation. Also not symmetric because $(A,B)$ is in the relation but not $(B,A)$. 
+3. Not reflexive because $(A,A)$ is not in the relation. Also not symmetric because $(A,B)$ is in the relation but not $(B,A)$. Also not transitive because $(A,B)$ and $(B,C)$ are in the relation, but $(A,C)$ is not. 
 
 ### Notes 
 
