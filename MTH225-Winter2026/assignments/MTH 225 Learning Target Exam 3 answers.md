@@ -57,6 +57,52 @@ Based on the last two columns we see that the two statements are logically equiv
 
 ---
 
+## Learning Target 6
+
+1. (a) False (because nothing is an element of the empty set) 
+   
+   (b) False (because for example $-1 \in \mathbb{Z}$)
+
+   (c) True (sets do not respect order)
+
+   (d) True (the empty set is a subset of every set)
+
+   (e) True (every element in the first is also an element in the second)
+
+
+2. (a) $\lbrace -5, -4, -3, -2, -1, 0, 1, 2, 3, 4, 5 \rbrace$ 
+
+   (b) $\lbrace 2 \rbrace$ 
+
+
+### Notes
+
+- A number of submissions left out the negative integers from 2(a) and some left out zero. If this was the only error on the work it was counted as a "simple error" and did not result in a downgrade. But remember to be aware of the difference between integers and natural numbers. 
+
+---
+
+## Learning Target 7
+
+1. (a) $\lbrace 1, 2, 3, 4, 5, 6, 8, 10 \rbrace$ 
+
+   (b) $\lbrace 2, 4, 6 \rbrace$ 
+
+   (c) $\lbrace 1, 3, 5 \rbrace$ 
+
+   (d) $\lbrace 8, 10 \rbrace$ 
+
+2. $\lbrace 7, 8, 9, 10 \rbrace$ 
+3. $\lbrace (1,x), (2,x), (3,x), (4,x), (5,x), (6,x), (1,y), (2,y), (3,y), (4,y), (5,y), (6,y) \rbrace$ 
+4. $\mathcal{P}(S) = \lbrace \emptyset, \lbrace x \rbrace, \lbrace y \rbrace, \lbrace z \rbrace, \lbrace x,y \rbrace, \lbrace x,z \rbrace, \lbrace y,z \rbrace, \lbrace x,y,z \rbrace \rbrace$ 
+
+### Notes 
+
+- Correct notation is *required* on the Cartesian product question (3). This means that $A \times \lbrace x,y \rbrace$ must be (1) enclosed in set braces, not square brackets or parentheses; (2) consist of ordered pairs, not two-element sets or two-item lists; and (3) the elements of the set must be separated by commas. 
+- A number of submissions left out the empty set from part 4. 
+- A number of submissions are listing $\lbrace \emptyset \rbrace$ instead of just $\emptyset$. The empty set is the correct item, not "the set containing the empty set". 
+
+
+
 
 ## Learning Target 9
 
