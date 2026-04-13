@@ -78,3 +78,27 @@ $$\begin{pmatrix}
 
 - I tweaked the standard on this one to match the present form of this question: You are allowed one incorrect response, or a correct statement that a property fails but the example doesn't work, on this one (out of nine) before being downgraded to Proficient. 
 - Which is good because a lot of submissions said $R_3$ was transitive when it is not -- the edge $(C,A)$ is in the relation but the one you need is $(A,C)$. 
+
+---
+
+## Learning Target 12
+
+1. 
+| **k** | **i** | **j** | **W[i,j]** | **W[i,k]** | **W[k,j]** | **Result** |
+| ----- | ----- | ----- | ---------- | ---------- | ---------- | ---------- |
+| 0     | 0     | 0     | 0          | 0          | 0          | 0          |
+| 0     | 0     | 1     | 0          | 0          | 0          | 0          |
+| 0     | 0     | 2     | 0          | 0          | 0          | 0          |
+| 0     | 0     | 3     | 1          | 0          | 1          | 1          |
+| 0     | 1     | 0     | 0          | 0          | 0          | 0          |
+| 0     | 1     | 1     | 0          | 0          | 0          | 0          |
+
+2. There are several sets of values that work including: 
+
+- $i = 0, j = 0, k = 3$
+- $i = 3, j = 3, k = 0$
+- $i = 3, j = 3, k = 2$
+- $i=2, j=2, k = 3$ 
+- $i = 2, j = 1, k = 3$ 
+
+In each of these, the bit in the matrix flips from `0` to `1` because although there is no existing edge from $i$ to $j$, there is an edge from $i$ to $k$ and then from $k$ to $j$. This search for a pivot is what makes Warshall's Algorithm work. 
