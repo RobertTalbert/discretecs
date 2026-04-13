@@ -1,5 +1,50 @@
 # MTH 325 Learning Target Exam 3 -- Solutions and Notes 
 
+## Learning Target 5
+
+1. Technically no because there are not exactly two vertices of odd degree. However if you said there was an Euler circuit and this is an example of a special kind of trail, I allowed it. 
+2. Yes, it has an Euler circuit: A, B, C, D, E, C, A. (Note our theorem from class would agree since the degree of each vertex is even.)
+3. Yes, it has a Hamilton path: A, B, C, D, E. 
+4. No, it does not have a Hamilton cycle. If the cycle started at A or B, it would have to cross C once to visit D and E but then again to complete the cycle. Similar reasoning holds for starting at C, D or E. 
+
+### Notes
+
+- Several submissions were mixing up what Euler and Hamilton mean. Euler has to do with edges, Hamilton has to do with nodes. 
+
+---
+
+## Learning Target 8
+
+---
+
+## Learning Target 9
+
+1. Here are the algorithm steps using the table we used in class: 
+
+| Node | Neighbors | Neighbors' colors | NODE COLOR | 
+| :--: | :--------: | :--------------: | :--------: | 
+| A | C | n/a | 1 | 
+| B | E, D | n/a | 1 | 
+| C | A, D, E, F | 1 | 2 | 
+| D | C, B, E | 1, 2 | 3 | 
+| E | B, C, D, F | 1, 2, 3 | 4 | 
+| F | C, E | 2, 4 | 1 | 
+
+2. No, the true chromatic number is 3. Here is a proper 3-coloring given as a dictionary: 
+
+```python
+{A: 1, B: 2, C: 2, D: 1, E: 3, F: 1}
+```
+
+And we know there is no coloring with fewer than 3 colors because of the 3-cycle B, E, D, B. 
+
+### Notes
+
+- A number of submissions did not run the algorithm using the correct node ordering (alphabetical). A key point from class discussion is that the ordering of the nodes at the beginning of the algorithm is critically important because the greedy algorithm is highly sensitive to initial conditions. So it's essential to obey the instructions given to the algorithm in terms of the ordering. 
+
+
+---
+
 ## Learning Target 10 
 
 1. $d^-(1) = 1$ and $d^+(1) = 2$. 
