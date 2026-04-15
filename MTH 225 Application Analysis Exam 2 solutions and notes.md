@@ -120,11 +120,12 @@ The creation of the delegation involves the following choices:
 
 So we need to determine how many options there are for each choice. 
 
-- There are eight faculty in all and one of the ones selected has to be the department chair. That leaves one faculty slot open, with seven 
+- There are eight faculty in all and one of the ones selected has to be the department chair. That leaves one faculty slot open, with 7 choices. 
+- There are three slots remaining (there were 5 in all and we just filled 2 of them). These can be either faculty or graduate students; there are 6 faculty remaining who can be selected and 6 graduate students, for a total of 12 people eligible for each slot. We can fill the first slot 
 
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1OTU4OTg5MTJdfQ==
+eyJoaXN0b3J5IjpbMTM2NDM3Mjg2OV19
 -->
