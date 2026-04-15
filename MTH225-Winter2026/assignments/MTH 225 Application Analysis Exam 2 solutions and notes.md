@@ -91,7 +91,7 @@ First of all here is a partial table of outputs, which would be sufficient for r
 
 #### Notes
 
-- Some submissions correctly state that the function is bijective but did not ground that assertion in any evidence -- it just stated the definition of bijection and did not explain why this particular function satisfied the definition. A full proof is not necessary -- just the table is sufficient, as it was on the problem set where this first appeared. 
+- Some submissions correctly stated that the function is bijective but did not ground that assertion in any evidence -- it just stated the definition of bijection and did not explain why this particular function satisfied the definition. A full proof is not necessary -- just the table is sufficient, as it was on [the problem set where this first appeared](https://github.com/RobertTalbert/discretecs/blob/master/MTH225-Winter2026/assignments/Problem%20Set%203.md). But there must be more explanation than just stating a definition. 
 
 ## Part D
 
@@ -137,5 +137,5 @@ $$7 \cdot (12 \cdot 11 \cdot 10) \cdot (5 \cdot 4) = 184800.$$
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA0OTAwMzNdfQ==
+eyJoaXN0b3J5IjpbLTk4MjE3ODk5M119
 -->
