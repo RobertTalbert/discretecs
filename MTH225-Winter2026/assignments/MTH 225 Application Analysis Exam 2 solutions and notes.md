@@ -77,7 +77,9 @@ This is enough for a reasonable outline. [A full proof can be found in the vault
 
 ### Notes
 
+- Many submissions gave a conclusion about one property without saying anything about the other -- for example saying that the first function is not injective, but then giving no comment about whether it is surjective or not. The instructions state that you must determine whether each function has *either* property and both must be addressed. 
 - In part (b) a few submissions noted a mismatch between the indexing and the codomain: The student first in alphabetical order is said to be in "position 0" but the codomain is 1..20000. So this is technically not a valid function because the output of the first student does not appear in the codomain. That's my fault and I read with the solution to see if the reasoning matched the conclusion, and gave "Success" if it did. 
+- 
 
 ### Option 2
 
@@ -140,5 +142,6 @@ $$7 \cdot (12 \cdot 11 \cdot 10) \cdot (5 \cdot 4) = 184800.$$
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUzMzk2MDE3OSwtOTgyMTc4OTkzXX0=
+eyJoaXN0b3J5IjpbLTE5NDQ3Nzc1NzIsLTUzMzk2MDE3OSwtOT
+gyMTc4OTkzXX0=
 -->
