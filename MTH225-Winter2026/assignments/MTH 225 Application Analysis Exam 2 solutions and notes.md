@@ -120,8 +120,9 @@ $$\binom{8}{2} \cdot 5^2 \cdot 26^6 = 28 \cdot 25 \cdot 308915776 = 216241043200
 
 #### Notes
 
-- Many submssions did not include $\binom{8}{2}$ in the calculation. This undercounts the true result because it assumes that the *first two* positions are vowels when in fact those vowels could go anywhere. 
-- 
+- Many submssions did not include $\binom{8}{2}$ in the calculation and just gave the count as $5^2 \cdot 26^6$. This undercounts the true result because it assumes that the *first two* positions are vowels when in fact those vowels could go anywhere. 
+- A number of submissions assumed that once the vowels were chosen, all other letters must be non-vowels, which led to having $21^6$ instead of $26^6$ in the calculations. The problem parameters say explicitly that repetition of characters is allowed, so the full range of 26 letters is available. 
+
 
 ### Option 2
 
