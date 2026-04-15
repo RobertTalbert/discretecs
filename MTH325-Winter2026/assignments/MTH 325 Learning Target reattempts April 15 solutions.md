@@ -238,17 +238,16 @@ This means:
 
 **Problem 3.** Visual representation (description for markdown; students draw on paper):
 
-```
-Vertices: 0, 1, 2, 3, 4
-Directed edges:
-  0 → 1
-  0 → 3
-  1 → 2
-  2 → 0
-  2 → 3
-  3 → 1
-  4 → 2
-  4 → 3
+```mermaid
+graph LR
+    4 --> 2
+    4 --> 3
+    0 --> 1
+    0 --> 3
+    2 --> 0
+    2 --> 3
+    1 --> 2
+    3 --> 1
 ```
 
 Note: Vertex 4 is a source with no incoming edges. There is a cycle involving 0, 1, 2 (0→1→2→0), and 3 is reachable from 0 and 2 but only points back to 1.
