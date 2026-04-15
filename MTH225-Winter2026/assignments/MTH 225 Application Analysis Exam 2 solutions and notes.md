@@ -118,6 +118,10 @@ We just need to count the number of outcomes of each choice.
 Therefore the count is
 $$\binom{8}{2} \cdot 5^2 \cdot 26^6 = 28 \cdot 25 \cdot 308915776 = 216241043200.$$
 
+#### Notes
+
+- Many submssions did not include $\binom{8}{2}$ in the calculation. This undercounts the true result because it assumes that the *first two* positions are vowels when in fact those vowels could go anywhere. 
+- 
 
 ### Option 2
 
@@ -143,6 +147,6 @@ $$7 \cdot (12 \cdot 11 \cdot 10) \cdot (5 \cdot 4) = 184800.$$
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzU2NTY1ODM1LC01MzM5NjAxNzksLTk4Mj
-E3ODk5M119
+eyJoaXN0b3J5IjpbMTU1NTcyOTYwOSwzNTY1NjU4MzUsLTUzMz
+k2MDE3OSwtOTgyMTc4OTkzXX0=
 -->
