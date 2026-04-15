@@ -57,10 +57,13 @@ $$P(n): 1 + 2 + \cdots + n = \frac{n(n+1)}{2}$$
 **Outline of a proof:** Several approaches are possible. Here is a sample:
 
 - We might start with the inductive hypothesis which we have assumed to be true: $1 + 2 + \cdots +k = \frac{k(k+1)}{2}$. 
-- Then add $k+1$ to both sides to get $1 + 2 + \cdots +K (k+1) = \frac{k(k+1)}{2}
+- Then add $k+1$ to both sides to get $1 + 2 + \cdots +k + (k+1) = \frac{k(k+1)}{2} + k+1$. 
+- Then do a bunch of algebra and hopefully get the two sides equal to each other. 
+
+This is enough for a reasonable outline. [A full proof can be found in the vault](https://publish.obsidian.md/discretecs/Proof/Mathematical+induction). 
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNzE1NjY3NzJdfQ==
+eyJoaXN0b3J5IjpbMTQ5MTkxMDUyMl19
 -->
