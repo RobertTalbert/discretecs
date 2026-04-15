@@ -107,10 +107,16 @@ We just need to count the number of outcomes of each choice.
 - The remaining six characters can be chosen freely from the alphabet so there are $26^6$ ways to do that. 
 
 Therefore the count is
-$$\binom{8}{2} \cdot 5^2 \cdot 26^6 = 28 \cdot 25 \cdot 308915776 = $$
+$$\binom{8}{2} \cdot 5^2 \cdot 26^6 = 28 \cdot 25 \cdot 308915776 = 216241043200.$$
+
+
+### Option 2
+
+
+
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NTk5OTM5NjRdfQ==
+eyJoaXN0b3J5IjpbMTQ2MDIwNzQ5XX0=
 -->
