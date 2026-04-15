@@ -90,8 +90,23 @@ First of all here is a partial table of outputs, which would be sufficient for r
 (b) Because this function is a bijection from $\mathbb{N}$ to $\mathbb{Z}$, the cardinalities of the two sets are **the same** (equal). The bijection provides a one-to-one pairing of natural numbers to integers without any integer left "uncovered". 
 
 
+## Part D
+
+### Option 1
+
+Selecting a password under this system involves the following sequence of choices: 
+
+- First, pick the positions where the two vowels will go. 
+- Second, pick the actual vowels that go in those positions. 
+- Third, pick the characters that go in the other six positions. 
+
+We just need to count the number of outcomes of each choice. 
+
+- The number of ways to posi
+
+
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg3MjE2NTQwXX0=
+eyJoaXN0b3J5IjpbLTE0ODE2NTg0NzhdfQ==
 -->
