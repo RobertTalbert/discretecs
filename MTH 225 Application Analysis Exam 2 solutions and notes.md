@@ -94,7 +94,7 @@ First of all here is a partial table of outputs, which would be sufficient for r
 
 ### Option 1
 
-Selecting a password under this system involves the following sequence of choices: 
+Selecting a password under this system involves the following sequence of three choices: 
 
 - First, pick the positions where the two vowels will go. 
 - Second, pick the actual vowels that go in those positions. 
@@ -104,11 +104,13 @@ We just need to count the number of outcomes of each choice.
 
 - The number of ways to position the two vowels among eight characters is $\binom{8}{2}$. This number equals $\binom{8}{2} = \frac{8!}{2! 6!} = \frac{8 \cdot 7}{2} = 28$. 
 - The number of ways to pick the actual vowels is $5^2$ because there are two of these vowels and each one has $5$ options. 
-- The r
+- The remaining six characters can be chosen freely from the alphabet so there are $26^6$ ways to do that. 
 
+Therefore the count is
+$$\binom{8}{2} \cdot 5^2 \cdot 26^6 = 28 \cdot 25 \cdot 308915776 = $$
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMzQwMDc5MjZdfQ==
+eyJoaXN0b3J5IjpbLTE1NTk5OTM5NjRdfQ==
 -->
