@@ -145,8 +145,13 @@ $$7 \cdot (12 \cdot 11 \cdot 10) \cdot (5 \cdot 4) = 184800.$$
 
 
 
-
+Reattempt Learning Target 5
+Reattempt Learning Target 6
+Reattempt Learning Target 7
+Reattempt Learning Target 9
+Reattempt Learning Target 10
+Reattempt Learning Target 11
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU1NTcyOTYwOSwzNTY1NjU4MzUsLTUzMz
-k2MDE3OSwtOTgyMTc4OTkzXX0=
+eyJoaXN0b3J5IjpbMzkwNzA2MzE5LDE1NTU3Mjk2MDksMzU2NT
+Y1ODM1LC01MzM5NjAxNzksLTk4MjE3ODk5M119
 -->
