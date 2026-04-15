@@ -71,11 +71,18 @@ This is enough for a reasonable outline. [A full proof can be found in the vault
 
 ### Option 1
 
-(a) This function would be neither injective nor surjecti
+(a) This function would be neither injective nor surjective. It would not be surjective because the only outputs possible are the ones that correspond to days of the year: 0 through 364. Anything larger than 365 would never be output. It would not be injective because in a space of 20000 people there must be at least one pair with the same birthday. 
+
+(b) Assuming nobody has the same full name, this function would be both injective and surjective. 
+
+
+### Option 2
+
+(a) 
 
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcxMDQ3MjUwNF19
+eyJoaXN0b3J5IjpbLTI0NzMwODQ1XX0=
 -->
