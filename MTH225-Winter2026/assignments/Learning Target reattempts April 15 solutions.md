@@ -1,4 +1,4 @@
-# MTH 225: Learning Target Reattempt – Solution Guide
+# MTH 225: Learning Target Reattempts from April 15  – Solution Guide
 ## 2026-04-15 | Learning Targets 5, 6, 7, 9, 10, 11
 
 *Instructor-facing document. Includes grading notes and common error flags.*
@@ -167,7 +167,7 @@ Check: $6^0 - 1 = 1 - 1 = 0$. Since $5$ divides $0$ (because $0 = 5 \cdot 0$), t
 
 Assume that for some integer $k \geq 0$, $5$ divides $6^k - 1$.
 
-Equivalently: assume $(6^k - 1) \% 5 = 0$, or that $6^k - 1 = 5m$ for some integer $m$.
+Equivalently: assume $(6^k - 1) \pmod{5} = 0$, or that $6^k - 1 = 5m$ for some integer $m$.
 
 ---
 
