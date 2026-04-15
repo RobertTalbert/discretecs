@@ -66,15 +66,15 @@
 
 | Statement | Answer | Brief reason |
 |-----------|--------|--------------|
-| $5 \in \{1, 3, 5, 7, 9\}$ | **TRUE** | 5 is explicitly listed |
+| $5 \in \lbrace 1 , 3, 5, 7, 9 \rbrace$ | **TRUE** | 5 is explicitly listed |
 | $\mathbb{N} \subseteq \mathbb{Z}$ | **TRUE** | Every natural number is an integer |
-| $\{a, b\} = \{b, a, a\}$ | **FALSE** | Sets do not contain duplicates; $\{b,a,a\} = \{a,b\}$ as a set, BUT the notation $\{b,a,a\}$ is nonstandard and technically represents the same set as $\{a,b\}$... |
+| $\lbrace a, b \rbrace = \lbrace b, a, a \rbrace$ | **FALSE** | Sets do not contain duplicates; $\lbrace b,a,a \rbrace = \lbrace a,b \rbrace$ as a set, BUT the notation $\lbrace b,a,a \rbrace$ is nonstandard and technically represents the same set as $\lbrace a,b\ rbrace$.
 
-> **Grading note on (c):** This is a subtlety. As a set, $\{b,a,a\}$ collapses to $\{a,b\}$, which *does* equal $\{a,b\}$. So the answer is actually **TRUE**. Students who answer FALSE thinking that the duplicate $a$ changes the set are making a factual error about how sets work. 
+> **Grading note on (c):** This is a subtlety. As a set, $\lbraceb,a,a\rbrace$ collapses to $\lbracea,b\rbrace$, which *does* equal $\lbracea,b\rbrace$. So the answer is actually **TRUE**. Students who answer FALSE thinking that the duplicate $a$ changes the set are making a factual error about how sets work. 
 
 | Statement | Answer |
 |-----------|--------|
-| $\{2, 4\} \subseteq \{1, 2, 3, 4, 5\}$ | **TRUE** |
+| $\lbrace2, 4\rbrace \subseteq \lbrace1, 2, 3, 4, 5\rbrace$ | **TRUE** |
 | $\emptyset \subseteq \emptyset$ | **TRUE** — the empty set is a subset of every set, including itself |
 
 **Summary of answers:** T, T, T, T, T
@@ -83,21 +83,21 @@
 
 **Problem 2.** Roster notation:
 
-**(a)** $\{ n \in \mathbb{Z} \, : \, n^2 \leq 16 \}$
+**(a)** $\lbrace n \in \mathbb{Z} \, : \, n^2 \leq 16 \rbrace$
 
 The integers whose square is at most 16: $n^2 \leq 16 \Rightarrow -4 \leq n \leq 4$.
 
-$$\{-4, -3, -2, -1, 0, 1, 2, 3, 4\}$$
+$$\lbrace-4, -3, -2, -1, 0, 1, 2, 3, 4\rbrace$$
 
-**(b)** $\{ k \in \{0, 1, 2, 3, 4, 5\} \, : \, k \% 3 = 1 \}$
+**(b)** $\lbrace k \in \lbrace0, 1, 2, 3, 4, 5\rbrace \, : \, k \% 3 = 1 \rbrace$
 
 Check each element: $0\%3=0$, $1\%3=1$ ✓, $2\%3=2$, $3\%3=0$, $4\%3=1$ ✓, $5\%3=2$.
 
-$$\{1, 4\}$$
+$$\lbrace1, 4\rbrace$$
 
 > **Grading notes:**
-> - For (a), students must include negative integers. Omitting negatives (writing $\{0,1,2,3,4\}$) is a significant error — it shows misunderstanding of $\mathbb{Z}$.
-> - For (b), methodical checking of each element is expected (or can be inferred). A bare answer of $\{1,4\}$ with no work shown is a minor concern; if everything else looks solid, it's fine.
+> - For (a), students must include negative integers. Omitting negatives (writing $\lbrace0,1,2,3,4\rbrace$) is a significant error — it shows misunderstanding of $\mathbb{Z}$.
+> - For (b), methodical checking of each element is expected (or can be inferred). A bare answer of $\lbrace1,4\rbrace$ with no work shown is a minor concern; if everything else looks solid, it's fine.
 
 ---
 
@@ -105,44 +105,44 @@ $$\{1, 4\}$$
 
 > (**CORE**) I can find the union, intersection, difference, and Cartesian product of two sets and the complement, cardinality, and power set of a single set.
 
-Sets: $A = \{1,2,3,4,5,6\}$, $B = \{1,3,5,7,9\}$, $C = \{2,4,6,8\}$, $U = \{1,2,3,4,5,6,7,8,9,10\}$
+Sets: $A = \lbrace1,2,3,4,5,6\rbrace$, $B = \lbrace1,3,5,7,9\rbrace$, $C = \lbrace2,4,6,8\rbrace$, $U = \lbrace1,2,3,4,5,6,7,8,9,10\rbrace$
 
 ---
 
 **Problem 1.**
 
-**(a)** $A \cup B = \{1, 2, 3, 4, 5, 6, 7, 9\}$
+**(a)** $A \cup B = \lbrace1, 2, 3, 4, 5, 6, 7, 9\rbrace$
 
-**(b)** $A \cap C = \{2, 4, 6\}$
+**(b)** $A \cap C = \lbrace2, 4, 6\rbrace$
 
-**(c)** $B - C$: elements in $B$ not in $C$. $B = \{1,3,5,7,9\}$, $C = \{2,4,6,8\}$. No overlap.
-$$B - C = \{1, 3, 5, 7, 9\}$$
+**(c)** $B - C$: elements in $B$ not in $C$. $B = \lbrace1,3,5,7,9\rbrace$, $C = \lbrace2,4,6,8\rbrace$. No overlap.
+$$B - C = \lbrace1, 3, 5, 7, 9\rbrace$$
 
 **(d)** $C - B$: elements in $C$ not in $B$. Same reasoning — no overlap.
-$$C - B = \{2, 4, 6, 8\}$$
+$$C - B = \lbrace2, 4, 6, 8\rbrace$$
 
 ---
 
 **Problem 2.** $B^c$ (complement of $B$ w.r.t. $U$): elements of $U$ not in $B$.
 
-$U = \{1,2,3,4,5,6,7,8,9,10\}$, $B = \{1,3,5,7,9\}$
+$U = \lbrace1,2,3,4,5,6,7,8,9,10\rbrace$, $B = \lbrace1,3,5,7,9\rbrace$
 
-$$B^c = \{2, 4, 6, 8, 10\}$$
-
----
-
-**Problem 3.** $\{a, b\} \times \{1, 2, 3\}$
-
-$$\{(a,1),\ (a,2),\ (a,3),\ (b,1),\ (b,2),\ (b,3)\}$$
+$$B^c = \lbrace2, 4, 6, 8, 10\rbrace$$
 
 ---
 
-**Problem 4.** $\mathcal{P}(\{0,1\})$
+**Problem 3.** $\lbracea, b\rbrace \times \lbrace1, 2, 3\rbrace$
 
-$$\mathcal{P}(\{0,1\}) = \{\emptyset,\ \{0\},\ \{1\},\ \{0,1\}\}$$
+$$\lbrace(a,1),\ (a,2),\ (a,3),\ (b,1),\ (b,2),\ (b,3)\rbrace$$
+
+---
+
+**Problem 4.** $\mathcal{P}(\lbrace0,1\rbrace)$
+
+$$\mathcal{P}(\lbrace0,1\rbrace) = \lbrace\emptyset,\ \lbrace0\rbrace,\ \lbrace1\rbrace,\ \lbrace0,1\rbrace\rbrace$$
 
 > **Grading notes:**
-> - Cartesian product elements must be written as **ordered pairs**, not sets. Writing $\{a,1\}$ instead of $(a,1)$ is a significant error.
+> - Cartesian product elements must be written as **ordered pairs**, not sets. Writing $\lbracea,1\rbrace$ instead of $(a,1)$ is a significant error.
 > - The power set must include $\emptyset$ and the full set itself. Omitting either is a significant error.
 > - Up to 2 minor errors allowed overall (e.g., a single element accidentally omitted from a union/intersection).
 > - **Common error on (c)/(d):** Students sometimes confuse set difference with intersection. $B - C$ is not $B \cap C$.
