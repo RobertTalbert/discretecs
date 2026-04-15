@@ -39,16 +39,21 @@ $$P(n):  3^n < n!$$
 ### Notes
 
 - A number of submissions used $n=6$ as the base case not $n=7$. 
-- Both here and in option 2 some submissions are using imprecise language to refer to the inductive hypothesis, for example "We will assume that *it* is true for $n=k$" (without stating what the "it" is referring to) or "We will assume $P(k)$ is true" (without stating what $P(k)$ says). Always give the framework in pr
+- Both here and in option 2 some submissions are using imprecise language to refer to the inductive hypothesis, for example "We will assume that *it* is true for $n=k$" (without stating what the "it" is referring to) or "We will assume $P(k)$ is true" (without stating what $P(k)$ says). Always give the framework in precise terms using the actual language of the predicate. 
+- A number of solutions just didn't do the analysis of the proof. 
 
 ## Option 2
 
-The pre
+The predicate here is 
+
+$$P(n): 1 + 2 + \cdots + n = \frac{n(n+1)}{2}$$
+
+**Verification of base case:** The base case is when $n=1$. We want to show $P(1)$ is true. In this case the left side of the equation in $P(n)$ is just the single number $1$ with no other terms. The right side is $\frac{1}{}
 
 
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA5NDg0OTI2NV19
+eyJoaXN0b3J5IjpbLTE4Njc4Nzg5NDRdfQ==
 -->
