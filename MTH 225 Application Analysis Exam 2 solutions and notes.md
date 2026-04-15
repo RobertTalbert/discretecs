@@ -48,12 +48,16 @@ The predicate here is
 
 $$P(n): 1 + 2 + \cdots + n = \frac{n(n+1)}{2}$$
 
-**Verification of base case:** The base case is when $n=1$. We want to show $P(1)$ is true. In this case the left side of the equation in $P(n)$ is just the single number $1$ with no other terms. The right side is $\frac{1}{}
+**Verification of base case:** The base case is when $n=1$. We want to show $P(1)$ is true. In this case the left side of the equation in $P(n)$ is just the single number $1$ with no other terms. The right side is $\frac{1(2)}{2}$ and this equals $1$. Since the left and right sides equal each other, the base case is verified. 
 
+**Inductive hypothesis:** Assume for some $k$ that $1 + 2 + \cdots + k = \frac{k(k+1)}{2}$. 
 
+**Inductive step:** We need to prove that $1 + 2 + \cdots + (k+1) = \frac{(k+1)(k+2)}{2}$. 
+
+**Outline of a proof:** Sev
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4Njc4Nzg5NDRdfQ==
+eyJoaXN0b3J5IjpbLTExMjAyMDE2MDJdfQ==
 -->
