@@ -89,15 +89,13 @@ The integers whose square is at most 16: $n^2 \leq 16 \Rightarrow -4 \leq n \leq
 
 $$\lbrace-4, -3, -2, -1, 0, 1, 2, 3, 4\rbrace$$
 
-**(b)** $\lbrace k \in \lbrace0, 1, 2, 3, 4, 5\rbrace :  k \% 3 = 1 \rbrace$
-
-Check each element: $0 \% 3 =0$, $1 \% 3=1$ ✓, $2 \% 3 =2$, $3 \% 3=0$, $4\% 3=1$ ✓, $5\% 3=2$.
+**(b)** $\lbrace k \in \lbrace 0, 1, 2, 3, 4, 5\rbrace :  k \pmod{3} = 1 \rbrace$
 
 $$\lbrace1, 4\rbrace$$
 
 > **Grading notes:**
-> - For (a), students must include negative integers. Omitting negatives (writing $\lbrace0,1,2,3,4\rbrace$) is a significant error — it shows misunderstanding of $\mathbb{Z}$.
-> - For (b), methodical checking of each element is expected (or can be inferred). A bare answer of $\lbrace1,4\rbrace$ with no work shown is a minor concern; if everything else looks solid, it's fine.
+> - For (a), students must include negative integers. Omitting negatives (writing $\lbrace 0,1,2,3,4\rbrace$) is a significant error — it shows misunderstanding of $\mathbb{Z}$.
+> - For (b), methodical checking of each element is expected (or can be inferred). A bare answer of $\lbrace 1,4\rbrace$ with no work shown is a minor concern; if everything else looks solid, it's fine.
 
 ---
 
