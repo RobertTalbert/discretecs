@@ -1,4 +1,4 @@
-# MTH 325: Learning Target Reattempt – Solution Guide
+# MTH 325: Learning Target Reattempts April 15 – Solution Guide
 ## 2026-04-15 | Learning Targets 5, 8, 9, 10
 
 *Instructor-facing document. Includes grading notes and common error flags.*
@@ -236,7 +236,7 @@ This means:
 
 ---
 
-**Problem 3.** Visual representation (description for markdown; students draw on paper):
+**Problem 3.** Visual representation:
 
 ```mermaid
 graph LR
