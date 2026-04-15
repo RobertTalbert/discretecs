@@ -83,15 +83,15 @@
 
 **Problem 2.** Roster notation:
 
-**(a)** $\lbrace n \in \mathbb{Z} \, : \, n^2 \leq 16 \rbrace$
+**(a)** $\lbrace n \in \mathbb{Z}  :  n^2 \leq 16 \rbrace$
 
 The integers whose square is at most 16: $n^2 \leq 16 \Rightarrow -4 \leq n \leq 4$.
 
 $$\lbrace-4, -3, -2, -1, 0, 1, 2, 3, 4\rbrace$$
 
-**(b)** $\lbrace k \in \lbrace0, 1, 2, 3, 4, 5\rbrace \, : \, k \% 3 = 1 \rbrace$
+**(b)** $\lbrace k \in \lbrace0, 1, 2, 3, 4, 5\rbrace :  k \% 3 = 1 \rbrace$
 
-Check each element: $0\%3=0$, $1\%3=1$ ✓, $2\%3=2$, $3\%3=0$, $4\%3=1$ ✓, $5\%3=2$.
+Check each element: $0 \% 3 =0$, $1 \% 3=1$ ✓, $2 \% 3 =2$, $3 \% 3=0$, $4\% 3=1$ ✓, $5\% 3=2$.
 
 $$\lbrace1, 4\rbrace$$
 
@@ -167,7 +167,7 @@ Check: $6^0 - 1 = 1 - 1 = 0$. Since $5$ divides $0$ (because $0 = 5 \cdot 0$), t
 
 **Problem 2. Inductive hypothesis.**
 
-*Assume that for some integer $k \geq 0$, $5$ divides $6^k - 1$.*
+Assume that for some integer $k \geq 0$, $5$ divides $6^k - 1$.
 
 Equivalently: assume $(6^k - 1) \% 5 = 0$, or that $6^k - 1 = 5m$ for some integer $m$.
 
@@ -175,7 +175,7 @@ Equivalently: assume $(6^k - 1) \% 5 = 0$, or that $6^k - 1 = 5m$ for some integ
 
 **Problem 3. Inductive step.**
 
-*Show that $5$ divides $6^{k+1} - 1$.*
+Show that $5$ divides $6^{k+1} - 1$.
 
 (Students are not required to complete the proof — they only need to state what must be shown.)
 
