@@ -143,14 +143,8 @@ $$7 \cdot (12 \cdot 11 \cdot 10) \cdot (5 \cdot 4) = 184800.$$
 
 (Note, step 2 above assumes there is no overlap between faculty and graduate students.) 
 
-
-
-Reattempt Learning Target 5
-Reattempt Learning Target 8
-Reattempt Learning Target 9
-Reattempt Learning Target 10
-
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTczOTQ3ODA5OCwxNTU1NzI5NjA5LDM1Nj
-U2NTgzNSwtNTMzOTYwMTc5LC05ODIxNzg5OTNdfQ==
+eyJoaXN0b3J5IjpbLTg4OTA0NzA0MSwxNzM5NDc4MDk4LDE1NT
+U3Mjk2MDksMzU2NTY1ODM1LC01MzM5NjAxNzksLTk4MjE3ODk5
+M119
 -->
