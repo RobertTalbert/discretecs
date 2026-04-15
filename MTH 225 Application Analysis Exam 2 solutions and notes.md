@@ -121,11 +121,16 @@ The creation of the delegation involves the following choices:
 So we need to determine how many options there are for each choice. 
 
 - There are eight faculty in all and one of the ones selected has to be the department chair. That leaves one faculty slot open, with 7 choices. 
-- There are three slots remaining (there were 5 in all and we just filled 2 of them). These can be either faculty or graduate students; there are 6 faculty remaining who can be selected and 6 graduate students, for a total of 12 people eligible for each slot. We can fill the first slot 
+- There are three slots remaining (there were 5 in all and we just filled 2 of them). These can be either faculty or graduate students; there are 6 faculty remaining who can be selected and 6 graduate students, for a total of 12 people eligible for each slot. We can fill the first slot 12 ways; the second one 11 ways; and the third one 10 ways. 
+- Now assign the roles. There are 5 people from whom to select so there are 5 choices for lead presenter, then 4 for note taker. 
+
+Multiplying all these options together gives us the full count: 
+
+$$7 \cdot (12 \cdot 11 \cdot 10) \cdot (5 \cot 
 
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM2NDM3Mjg2OV19
+eyJoaXN0b3J5IjpbLTEwMDE2NDgzNDZdfQ==
 -->
