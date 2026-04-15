@@ -112,11 +112,13 @@ $$\binom{8}{2} \cdot 5^2 \cdot 26^6 = 28 \cdot 25 \cdot 308915776 = 216241043200
 
 ### Option 2
 
+The creation of the delegation involves the following choices: 
 
+- First pick the two faculty members. Note, it says two faculty members must be on the delegation but one of those has to be the department chair so you are really just picking 
 
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ2MDIwNzQ5XX0=
+eyJoaXN0b3J5IjpbMjA3MTI5NDY4M119
 -->
