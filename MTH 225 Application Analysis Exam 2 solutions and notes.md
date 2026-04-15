@@ -114,11 +114,17 @@ $$\binom{8}{2} \cdot 5^2 \cdot 26^6 = 28 \cdot 25 \cdot 308915776 = 216241043200
 
 The creation of the delegation involves the following choices: 
 
-- First pick the two faculty members. Note, it says two faculty members must be on the delegation but one of those has to be the department chair so you are really just picking 
+- First pick the two faculty members. Note, it says two faculty members must be on the delegation but one of those has to be the department chair so you are really just picking one faculty member. 
+- Then pick the remaining members of the delegation (which could come from either faculty or graduate students). 
+- Then assign the two roles. 
+
+So we need to determine how many options there are for each choice. 
+
+- There are eight faculty in all and one of the ones selected has to be the department chair. That leaves one faculty slot open, with seven 
 
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA3MTI5NDY4M119
+eyJoaXN0b3J5IjpbLTE1OTU4OTg5MTJdfQ==
 -->
