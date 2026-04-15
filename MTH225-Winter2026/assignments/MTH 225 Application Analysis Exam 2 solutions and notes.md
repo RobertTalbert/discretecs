@@ -113,15 +113,15 @@ We just need to count the number of outcomes of each choice.
 
 - The number of ways to position the two vowels among eight characters is $\binom{8}{2}$. This number equals $\binom{8}{2} = \frac{8!}{2! 6!} = \frac{8 \cdot 7}{2} = 28$. 
 - The number of ways to pick the actual vowels is $5^2$ because there are two of these vowels and each one has $5$ options. 
-- The remaining six characters can be chosen freely from the alphabet so there are $26^6$ ways to do that. 
+- The problem states that there are exactly two vowels, so the  remaining six characters must be non-vowels, of which there are $21$ and we are picking 6 of these. 
 
 Therefore the count is
-$$\binom{8}{2} \cdot 5^2 \cdot 26^6 = 28 \cdot 25 \cdot 308915776 = 216241043200.$$
+$$\binom{8}{2} \cdot 5^2 \cdot 21^6 = 28 \cdot 25 \cdot 85766121 = 60036284700.$$
 
 #### Notes
 
 - Many submssions did not include $\binom{8}{2}$ in the calculation and just gave the count as $5^2 \cdot 26^6$. This undercounts the true result because it assumes that the *first two* positions are vowels when in fact those vowels could go anywhere. 
-- A number of submissions assumed that once the vowels were chosen, all other letters must be non-vowels, which led to having $21^6$ instead of $26^6$ in the calculations. The problem parameters say explicitly that repetition of characters is allowed, so the full range of 26 letters is available. 
+
 
 
 ### Option 2
