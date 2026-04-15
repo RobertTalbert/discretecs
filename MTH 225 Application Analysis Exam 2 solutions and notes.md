@@ -62,8 +62,12 @@ $$P(n): 1 + 2 + \cdots + n = \frac{n(n+1)}{2}$$
 
 This is enough for a reasonable outline. [A full proof can be found in the vault](https://publish.obsidian.md/discretecs/Proof/Mathematical+induction). 
 
+### Notes
+
+- See Option 1 notes for some common errors on both parts. 
+- A number of solutions did not write a sum for the left side but only involved the last term, for example saying that we will assume $
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ5MTkxMDUyMl19
+eyJoaXN0b3J5IjpbMjY4NjA2MDg1XX0=
 -->
