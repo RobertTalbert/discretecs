@@ -120,7 +120,7 @@ $$\binom{8}{2} \cdot 5^2 \cdot 21^6 = 28 \cdot 25 \cdot 85766121 = 60036284700.$
 
 #### Notes
 
-- Many submssions did not include $\binom{8}{2}$ in the calculation and just gave the count as $5^2 \cdot 26^6$. This undercounts the true result because it assumes that the *first two* positions are vowels when in fact those vowels could go anywhere. 
+- Many submssions did not include $\binom{8}{2}$ in the calculation and just gave the count as $5^2 \cdot 21^6$. This undercounts the true result because it assumes that the *first two* positions are vowels when in fact those vowels could go anywhere. 
 
 
 
