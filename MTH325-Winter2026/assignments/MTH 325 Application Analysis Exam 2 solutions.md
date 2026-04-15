@@ -125,7 +125,7 @@ graph TD
 The edges $(2,3)$ and $(1,3)$ have the same weight (2). Prim's algorithm (starting from vertex 1) might add 1–2 first, then either 2–3 or 1–3 (tie in weight), then 3–4 — yielding either MST depending on tie-breaking. Kruskal's adds 1–2 (weight 1), then hits the tie at weight 2 and may add either 2–3 or 1–3. Both results are valid MSTs.
 
 
-(b) Here is a proof by contradiction. Suppose $T_1$ and $T_2$ are two different MSTs of the graph $G$. Since they are different, there is at least one edge $e = $(u,v)$ that is in one but not the other. There could be several; let $e$ be the one that has the smallest weight. 
+(b) Here is a proof by contradiction. Suppose $T_1$ and $T_2$ are two different MSTs of the graph $G$. Since they are different, there is at least one edge $e = (u,v)$ that is in one but not the other. There could be several; let $e$ be the one that has the smallest weight. 
 
 Let's say that $e \in T_1$ and $e \not in T_2$. Adding $e$ to $T_2$ would create a unique cycle, $C$, in $T_2$. Since $T_1$ is a spanning tree, the cycle must contain some edge $f \in C$ that is *not* in $T_1$ (otherwise $T_1$ would contain $C$ making it no longer a tree). 
 
