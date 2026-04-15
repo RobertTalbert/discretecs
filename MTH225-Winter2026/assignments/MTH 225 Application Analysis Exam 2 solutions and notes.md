@@ -78,7 +78,7 @@ This is enough for a reasonable outline. [A full proof can be found in the vault
 ### Notes
 
 - Many submissions gave a conclusion about one property without saying anything about the other -- for example saying that the first function is not injective, but then giving no comment about whether it is surjective or not. The instructions state that you must determine whether each function has *either* property and both must be addressed. 
-- Some submissions gave conclusions about being injective or surjective but did not ground those in any explanation or evidence. Or, they were given in vague or probabilistic terms, for example "The function *might be* injective". There is enough information in the description to de
+- Some submissions gave conclusions about being injective or surjective but did not ground those in any explanation or evidence. Or, they were given in vague or probabilistic terms, for example "The function *might be* injective". There is enough information in the description to determine with certainty whether the functions are injective and whether they are surjective. 
 - In part (b) a few submissions noted a mismatch between the indexing and the codomain: The student first in alphabetical order is said to be in "position 0" but the codomain is 1..20000. So this is technically not a valid function because the output of the first student does not appear in the codomain. That's my fault and I read with the solution to see if the reasoning matched the conclusion, and gave "Success" if it did. 
 - 
 
@@ -143,6 +143,6 @@ $$7 \cdot (12 \cdot 11 \cdot 10) \cdot (5 \cdot 4) = 184800.$$
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjExNDQ4Mjk0MiwtNTMzOTYwMTc5LC05OD
-IxNzg5OTNdfQ==
+eyJoaXN0b3J5IjpbMzU2NTY1ODM1LC01MzM5NjAxNzksLTk4Mj
+E3ODk5M119
 -->
