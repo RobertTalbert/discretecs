@@ -134,11 +134,11 @@ The creation of the delegation involves the following steps:
 
 Treat the department chair being on the committee as a given. For choosing the remaining 4 we need to count the number of ways to select 4 from a group of 13 with at least one faculty member on it. We'll approach this with complementary counting. The number of ways to select a group of 4 without any constraints from a group of 13 is $\binom{13}{4} = 715$. (There's no reason to consider the ordering of the selection just yet.) Of those choices, we want to throw out the ones where *no* faculty member was selected. That would take place if we selected all graduate students; the number of ways to select 4 graduate students from a group of 6 is $\binom{6}{4} = 15$. So the number of "valid" choices (where at least one faculty member is present) is $715 - 15 = 700$.
 
-Now assign the roles. There are 5 people from whom to select so there are 5 choices for lead presenter, then 4 for note taker. 
+Now assign the roles. There are 5 people from whom to select so there are 5 choices for lead presenter, then 4 for note taker. That's $5 \cdot 4 = 20$ ways to assign the roles in any delegation once the people are selected. 
 
 We have made a sequence of two choices: pick the people, then assign the roles. So we multiply these together to get the final count: 
 
-$$700 \cdot 20 = 14000$. 
+$$700 \cdot 20 = 14000$$ 
 
 <!--stackedit_data:
 eyJoaXN0b3J5IjpbLTg4OTA0NzA0MSwxNzM5NDc4MDk4LDE1NT
