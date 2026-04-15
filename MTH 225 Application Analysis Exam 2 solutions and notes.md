@@ -38,7 +38,8 @@ $$P(n):  3^n < n!$$
 
 ### Notes
 
-- 
+- A number of submissions used $n=6$ as the base case not $n=7$. 
+- Both here and in option 2 some submissions are using imprecise language to refer to the inductive hypothesis, for example "We will assume that *it* is true for $n=k$" (without stating what the "it" is referring to) or "We will assume $P(k)$ is true" (without stating what $P(k)$ says). Always give the framework in pr
 
 ## Option 2
 
@@ -49,5 +50,5 @@ The pre
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NDI4MzkwMDNdfQ==
+eyJoaXN0b3J5IjpbMjA5NDg0OTI2NV19
 -->
