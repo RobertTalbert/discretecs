@@ -39,7 +39,7 @@ Which says that $3^{k+1} < (k+1)!$ and that is what we wanted to prove.
 Here is the conflict graph:
 
 ```mermaid
-graph TD
+graph LR
     CA --- ST
     CA --- PH
     CA --- CS
