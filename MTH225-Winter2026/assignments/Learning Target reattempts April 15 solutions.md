@@ -70,7 +70,7 @@
 | $\mathbb{N} \subseteq \mathbb{Z}$ | **TRUE** | Every natural number is an integer |
 | $\lbrace a, b \rbrace = \lbrace b, a, a \rbrace$ | **FALSE** | Sets do not contain duplicates; $\lbrace b,a,a \rbrace = \lbrace a,b \rbrace$ as a set, BUT the notation $\lbrace b,a,a \rbrace$ is nonstandard and technically represents the same set as $\lbrace a,b\ rbrace$.
 
-> **Grading note on (c):** This is a subtlety. As a set, $\lbraceb,a,a\rbrace$ collapses to $\lbracea,b\rbrace$, which *does* equal $\lbracea,b\rbrace$. So the answer is actually **TRUE**. Students who answer FALSE thinking that the duplicate $a$ changes the set are making a factual error about how sets work. 
+> **Grading note on (c):** This is a subtlety. As a set, $\lbrace b,a,a \rbrace$ collapses to $\lbrace a,b \rbrace$, which *does* equal $\lbrace a,b \rbrace$. So the answer is actually **TRUE**. Students who answer FALSE thinking that the duplicate $a$ changes the set are making a factual error about how sets work. 
 
 | Statement | Answer |
 |-----------|--------|
@@ -105,44 +105,44 @@ $$\lbrace1, 4\rbrace$$
 
 > (**CORE**) I can find the union, intersection, difference, and Cartesian product of two sets and the complement, cardinality, and power set of a single set.
 
-Sets: $A = \lbrace1,2,3,4,5,6\rbrace$, $B = \lbrace1,3,5,7,9\rbrace$, $C = \lbrace2,4,6,8\rbrace$, $U = \lbrace1,2,3,4,5,6,7,8,9,10\rbrace$
+Sets: $A = \lbrace 1,2,3,4,5,6\rbrace$, $B = \lbrace 1,3,5,7,9\rbrace$, $C = \lbrace 2,4,6,8\rbrace$, $U = \lbrace 1,2,3,4,5,6,7,8,9,10\rbrace$
 
 ---
 
 **Problem 1.**
 
-**(a)** $A \cup B = \lbrace1, 2, 3, 4, 5, 6, 7, 9\rbrace$
+**(a)** $A \cup B = \lbrace 1, 2, 3, 4, 5, 6, 7, 9\rbrace$
 
-**(b)** $A \cap C = \lbrace2, 4, 6\rbrace$
+**(b)** $A \cap C = \lbrace 2, 4, 6\rbrace$
 
-**(c)** $B - C$: elements in $B$ not in $C$. $B = \lbrace1,3,5,7,9\rbrace$, $C = \lbrace2,4,6,8\rbrace$. No overlap.
-$$B - C = \lbrace1, 3, 5, 7, 9\rbrace$$
+**(c)** $B - C$: elements in $B$ not in $C$. $B = \lbrace1,3,5,7,9\rbrace$, $C = \lbrace 2,4,6,8\rbrace$. No overlap.
+$$B - C = \lbrace 1, 3, 5, 7, 9\rbrace$$
 
 **(d)** $C - B$: elements in $C$ not in $B$. Same reasoning — no overlap.
-$$C - B = \lbrace2, 4, 6, 8\rbrace$$
+$$C - B = \lbrace 2, 4, 6, 8\rbrace$$
 
 ---
 
 **Problem 2.** $B^c$ (complement of $B$ w.r.t. $U$): elements of $U$ not in $B$.
 
-$U = \lbrace1,2,3,4,5,6,7,8,9,10\rbrace$, $B = \lbrace1,3,5,7,9\rbrace$
+$U = \lbrace 1,2,3,4,5,6,7,8,9,10\rbrace$, $B = \lbrace 1,3,5,7,9\rbrace$
 
-$$B^c = \lbrace2, 4, 6, 8, 10\rbrace$$
+$$B^c = \lbrace 2, 4, 6, 8, 10\rbrace$$
 
 ---
 
-**Problem 3.** $\lbracea, b\rbrace \times \lbrace1, 2, 3\rbrace$
+**Problem 3.** $\lbrace a, b\rbrace \times \lbrace 1, 2, 3\rbrace$
 
-$$\lbrace(a,1),\ (a,2),\ (a,3),\ (b,1),\ (b,2),\ (b,3)\rbrace$$
+$$\lbrace (a,1),\ (a,2),\ (a,3),\ (b,1),\ (b,2),\ (b,3)\rbrace$$
 
 ---
 
 **Problem 4.** $\mathcal{P}(\lbrace0,1\rbrace)$
 
-$$\mathcal{P}(\lbrace0,1\rbrace) = \lbrace\emptyset,\ \lbrace0\rbrace,\ \lbrace1\rbrace,\ \lbrace0,1\rbrace\rbrace$$
+$$\mathcal{P}(\lbrace 0,1\rbrace) = \lbrace \emptyset,\ \lbrace 0\rbrace,\ \lbrace 1\rbrace,\ \lbrace 0,1\rbrace\rbrace$$
 
 > **Grading notes:**
-> - Cartesian product elements must be written as **ordered pairs**, not sets. Writing $\lbracea,1\rbrace$ instead of $(a,1)$ is a significant error.
+> - Cartesian product elements must be written as **ordered pairs**, not sets. Writing $\lbrace a,1\rbrace$ instead of $(a,1)$ is a significant error.
 > - The power set must include $\emptyset$ and the full set itself. Omitting either is a significant error.
 > - Up to 2 minor errors allowed overall (e.g., a single element accidentally omitted from a union/intersection).
 > - **Common error on (c)/(d):** Students sometimes confuse set difference with intersection. $B - C$ is not $B \cap C$.
