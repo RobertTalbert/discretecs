@@ -126,23 +126,19 @@ $$\binom{8}{2} \cdot 5^2 \cdot 21^6 = 28 \cdot 25 \cdot 85766121 = 60036284700.$
 
 ### Option 2
 
-The creation of the delegation involves the following choices: 
+The creation of the delegation involves the following steps: 
 
-- First pick the two faculty members. Note, it says two faculty members must be on the delegation but one of those has to be the department chair so you are really just picking one faculty member. 
-- Then pick the remaining members of the delegation (which could come from either faculty or graduate students). 
-- Then assign the two roles. 
+- First make sure the department chair is on the delegation. 
+- Then select 4 more people from the remaining group of 13 (7 other faculty plus 6 graduate students) and make sure at least one of those is a faculty member. 
+- Then assign the roles. 
 
-So we need to determine how many options there are for each choice. 
+Treat the department chair being on the committee as a given. For choosing the remaining 4 we need to count the number of ways to select 4 from a group of 13 with at least one faculty member on it. We'll approach this with complementary counting. The number of ways to select a group of 4 without any constraints from a group of 13 is $\binom{13}{4} = 715$. (There's no reason to consider the ordering of the selection just yet.) Of those choices, we want to throw out the ones where *no* faculty member was selected. That would take place if we selected all graduate students; the number of ways to select 4 graduate students from a group of 6 is $\binom{6}{4} = 15$. So the number of "valid" choices (where at least one faculty member is present) is $715 - 15 = 700$.
 
-- There are eight faculty in all and one of the ones selected has to be the department chair. That leaves one faculty slot open, with 7 choices. 
-- There are three slots remaining (there were 5 in all and we just filled 2 of them). These can be either faculty or graduate students; there are 6 faculty remaining who can be selected and 6 graduate students, for a total of 12 people eligible for each slot. We can fill the first slot 12 ways; the second one 11 ways; and the third one 10 ways. 
-- Now assign the roles. There are 5 people from whom to select so there are 5 choices for lead presenter, then 4 for note taker. 
+Now assign the roles. There are 5 people from whom to select so there are 5 choices for lead presenter, then 4 for note taker. 
 
-Multiplying all these options together gives us the full count: 
+We have made a sequence of two choices: pick the people, then assign the roles. So we multiply these together to get the final count: 
 
-$$7 \cdot (12 \cdot 11 \cdot 10) \cdot (5 \cdot 4) = 184800.$$ 
-
-(Note, step 2 above assumes there is no overlap between faculty and graduate students.) 
+$$700 \cdot 20 = 14000$. 
 
 <!--stackedit_data:
 eyJoaXN0b3J5IjpbLTg4OTA0NzA0MSwxNzM5NDc4MDk4LDE1NT
