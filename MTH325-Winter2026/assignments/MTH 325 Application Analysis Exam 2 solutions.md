@@ -111,7 +111,7 @@ Starting at any vertex $v_0$, since $v_0$ has an edge pointing into it, follow t
 
 Since G is finite with $n$ vertices, after at most $n$ steps this backward path must revisit a vertex. That is, there exist indices i < j such that $v_i = v_j$. But then  $v_j \rightarrow v_{j-1} \rightarrow \cdots \rightarrow v_i$ forms a directed cycle in G.
 
-This contradicts the assumption that G is a DAG (which has no directed cycles). Therefore, our assumption was wrong, and every DAG must have at least one source.
+This contradicts G being a DAG (which has no directed cycles). Therefore, our assumption that there was no source was wrong, so every DAG must have at least one source.
 
 Similar reasoning will prove that $G$ must also have a sink. 
 
