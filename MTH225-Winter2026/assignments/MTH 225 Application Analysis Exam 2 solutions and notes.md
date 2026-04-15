@@ -89,6 +89,9 @@ First of all here is a partial table of outputs, which would be sufficient for r
 
 (b) Because this function is a bijection from $\mathbb{N}$ to $\mathbb{Z}$, the cardinalities of the two sets are **the same** (equal). The bijection provides a one-to-one pairing of natural numbers to integers without any integer left "uncovered". 
 
+#### Notes
+
+- 
 
 ## Part D
 
@@ -134,5 +137,5 @@ $$7 \cdot (12 \cdot 11 \cdot 10) \cdot (5 \cdot 4) = 184800.$$
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAxNzQ1OTAwMF19
+eyJoaXN0b3J5IjpbOTUzNzkyNzcwXX0=
 -->
