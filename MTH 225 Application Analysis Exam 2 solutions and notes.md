@@ -26,9 +26,11 @@ It also helps to have a clear statement of the predicate involved.
 
 The predicate here is
 
-$$ P(n): 
+$$P(n):  3^n < n!$$
+
+**Verification of base case:** The base case is when $n = 7$. We want to show $P(7)$ is true -- in other words we want to verify that $3^7 < 7!$. We can do this by computing the left and right sides directly: $3^7 = 2187$ and $7! = 5050$. We 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MDQwNzA4NV19
+eyJoaXN0b3J5IjpbLTYzNjIxMjQ0M119
 -->
