@@ -34,9 +34,9 @@ $$P(n):  3^n < n!$$
 
 **Inductive step:** Prove that $3^{k+1} < (k+1)!$ 
 
-**Analysis of the proposed proof:** The proposed proof has a flaw in its logic that makes it inroc
+**Analysis of the proposed proof:** The proposed proof has a flaw in its logic that makes it incorrect: When looking at the first three factors of $n!$, we do indeed have $1 \cdot 2 \cdot 3$ but those multiply to $6$, whereas the first three factors of $3^n$ multiply to  $3 \cdot 3 \cdot 3 = 27$. The proposed proof claims that 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjczOTkwMTE2XX0=
+eyJoaXN0b3J5IjpbLTExODA5OTYwMjNdfQ==
 -->
