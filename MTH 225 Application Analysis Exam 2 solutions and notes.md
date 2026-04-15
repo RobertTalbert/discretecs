@@ -78,11 +78,18 @@ This is enough for a reasonable outline. [A full proof can be found in the vault
 
 ### Option 2
 
+First of all here is a partial table of outputs, which would be sufficient for reasoning in the main problem: 
+
+|$x$| 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 
+|--|--|--|--|--|--|--|--|--|--|
+|$f(x)$| 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 
+
+
 (a) 
 
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI0NzMwODQ1XX0=
+eyJoaXN0b3J5IjpbLTE2NjAyNDQzNTldfQ==
 -->
