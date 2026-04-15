@@ -54,10 +54,13 @@ $$P(n): 1 + 2 + \cdots + n = \frac{n(n+1)}{2}$$
 
 **Inductive step:** We need to prove that $1 + 2 + \cdots + (k+1) = \frac{(k+1)(k+2)}{2}$. 
 
-**Outline of a proof:** Sev
+**Outline of a proof:** Several approaches are possible. Here is a sample:
+
+- We might start with the inductive hypothesis which we have assumed to be true: $1 + 2 + \cdots +k = \frac{k(k+1)}{2}$. 
+- Then add $k+1$ to both sides to get $1 + 2 + \cdots +K (k+1) = \frac{k(k+1)}{2}
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMjAyMDE2MDJdfQ==
+eyJoaXN0b3J5IjpbLTEzNzE1NjY3NzJdfQ==
 -->
