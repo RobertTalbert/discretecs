@@ -36,13 +36,13 @@ $$P(n):  3^n < n!$$
 
 **Analysis of the proposed proof:** The overall logic of this proof is to claim that each factor of $n!$ is greater, individually, than its corresponding factor in $3^n$, and therefore when multiplying these all together we will get a bigger number for $n!$. This approach would work, except for a logic flaw: It claims that the first three factors of $n!$ multiply to $6$ which is indeed greater than $3$, but this fact is irrelevant because it is no longer comparing one factor of $n!$ with a single factor of $3^n$. Instead it is grouping several factors of $n!$ together and saying their product is greater than a single factor of $3^n$. Because we are no longer at that point comparing factors individually, the logic of the argument breaks down. 
 
-### Notes
+#### Notes
 
 - A number of submissions used $n=6$ as the base case not $n=7$. 
 - Both here and in option 2 some submissions are using imprecise language to refer to the inductive hypothesis, for example "We will assume that *it* is true for $n=k$" (without stating what the "it" is referring to) or "We will assume $P(k)$ is true" (without stating what $P(k)$ says). Always give the framework in precise terms using the actual language of the predicate. 
 - A number of solutions just didn't do the analysis of the proof. 
 
-## Option 2
+### Option 2
 
 The predicate here is 
 
@@ -62,12 +62,20 @@ $$P(n): 1 + 2 + \cdots + n = \frac{n(n+1)}{2}$$
 
 This is enough for a reasonable outline. [A full proof can be found in the vault](https://publish.obsidian.md/discretecs/Proof/Mathematical+induction). 
 
-### Notes
+#### Notes
 
 - See Option 1 notes for some common errors on both parts. 
 - A number of solutions did not write a sum for the left side but only involved the last term, for example saying that we will assume $k = \frac{k(k+1)}{2}$. This is a fundamental misunderstanding of the predicate, which says that a **sum of** numbers equals a fraction, not that a **single** number does. 
 
+## Part C (Functions and sets) 
+
+### Option 1
+
+(a) This function would be neither injective nor surjecti
+
+
+
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwOTM2Njc5MTZdfQ==
+eyJoaXN0b3J5IjpbLTcxMDQ3MjUwNF19
 -->
