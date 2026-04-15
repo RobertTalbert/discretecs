@@ -126,11 +126,13 @@ So we need to determine how many options there are for each choice.
 
 Multiplying all these options together gives us the full count: 
 
-$$7 \cdot (12 \cdot 11 \cdot 10) \cdot (5 \cot 
+$$7 \cdot (12 \cdot 11 \cdot 10) \cdot (5 \cdot 4) = 184800.$$ 
+
+(Note, step 2 above assumes there is no overlap between faculty and graduate students.) 
 
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMDE2NDgzNDZdfQ==
+eyJoaXN0b3J5IjpbLTY3MDcxNTUxNF19
 -->
