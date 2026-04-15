@@ -72,6 +72,10 @@ A final exam schedule that works would be to schedule courses in the following t
 
 This is the smallest coloring because of the 3-cycle formed by ST, BI, and EC. 
 
+#### Notes
+
+- A number of submissions on this option did not show the work from the algorithm, just the results. The purpose of this part is to demonstrate your knowledge of the greedy algorithm. So just showing the results does not do that -- the results could have been obtained simply by guess and check. Show the steps that the algorithm goes through in determining neighbors and the colors of the neighbors. 
+
 
 ### Option 2
 
