@@ -75,6 +75,9 @@ This is enough for a reasonable outline. [A full proof can be found in the vault
 
 (b) Assuming nobody has the same full name, this function would be both injective and surjective. 
 
+### Notes
+
+- A few submissions noted a mismatch between the indexing and the codomain: The indexing 
 
 ### Option 2
 
@@ -137,5 +140,5 @@ $$7 \cdot (12 \cdot 11 \cdot 10) \cdot (5 \cdot 4) = 184800.$$
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk4MjE3ODk5M119
+eyJoaXN0b3J5IjpbLTQwMzI1MzQ5NSwtOTgyMTc4OTkzXX0=
 -->
