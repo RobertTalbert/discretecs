@@ -102,11 +102,13 @@ Selecting a password under this system involves the following sequence of choice
 
 We just need to count the number of outcomes of each choice. 
 
-- The number of ways to posi
+- The number of ways to position the two vowels among eight characters is $\binom{8}{2}$. This number equals $\binom{8}{2} = \frac{8!}{2! 6!} = \frac{8 \cdot 7}{2} = 28$. 
+- The number of ways to pick the actual vowels is $5^2$ because there are two of these vowels and each one has $5$ options. 
+- The r
 
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0ODE2NTg0NzhdfQ==
+eyJoaXN0b3J5IjpbLTEwMzQwMDc5MjZdfQ==
 -->
