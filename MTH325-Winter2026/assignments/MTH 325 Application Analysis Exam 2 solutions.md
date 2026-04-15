@@ -28,11 +28,11 @@ $$ 3^{k+1} < (k+1) \cdot 3^k < (k+1) k! = (k+1)!$$
 Which says that $3^{k+1} < (k+1)!$ and that is what we wanted to prove. 
 
 
-### Option 2 (Graph coloring) 
+### Option 2
 
 [A complete proof of this one is in the vault](https://publish.obsidian.md/discretecs/Proof/Mathematical+induction).
 
-## Part C 
+## Part C  (Graph coloring) 
 
 ## Option 1
 
