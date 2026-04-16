@@ -105,7 +105,8 @@ There are possibly many examples for each. Here are a few given as edge lists:
 
 #### Notes
 
-- A number of solutions gave a relation that had no self loops on it, but edges going both directions between nodes, for example {(a,b), (b,a)}. However, this is not transitive because there is an edge from a to b and an edge from b to a, but no self-loop edge from a to itself. 
+- A number of solutions gave a relation that had no self loops on it, but edges going both directions between nodes, for example {(a,b), (b,a)}. However, this is not transitive because there is an edge from a to b and an edge from b to a, but no self-loop edge from a to itself.
+- Having three out of the four relations correct on this one was counted as Success.  
 
 ### Option 2
 
