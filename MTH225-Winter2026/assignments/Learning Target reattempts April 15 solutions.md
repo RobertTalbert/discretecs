@@ -68,9 +68,9 @@
 |-----------|--------|--------------|
 | $5 \in \lbrace 1 , 3, 5, 7, 9 \rbrace$ | **TRUE** | 5 is explicitly listed |
 | $\mathbb{N} \subseteq \mathbb{Z}$ | **TRUE** | Every natural number is an integer |
-| $\lbrace a, b \rbrace = \lbrace b, a, a \rbrace$ | **FALSE** | Sets do not contain duplicates; $\lbrace b,a,a \rbrace = \lbrace a,b \rbrace$ as a set, BUT the notation $\lbrace b,a,a \rbrace$ is nonstandard and technically represents the same set as $\lbrace a,b\ rbrace$.
+| $\lbrace a, b \rbrace = \lbrace b, a, a \rbrace$ | **TRUE** | Sets do not contain duplicates; $\lbrace b,a,a \rbrace = \lbrace a,b \rbrace$ as a set.
 
-> **Grading note on (c):** This is a subtlety. As a set, $\lbrace b,a,a \rbrace$ collapses to $\lbrace a,b \rbrace$, which *does* equal $\lbrace a,b \rbrace$. So the answer is actually **TRUE**. Students who answer FALSE thinking that the duplicate $a$ changes the set are making a factual error about how sets work. 
+
 
 | Statement | Answer |
 |-----------|--------|
