@@ -103,6 +103,10 @@ There are possibly many examples for each. Here are a few given as edge lists:
 (d) Both symmetric and anti-symmetric:  {(a,a), (b,b)}. 
 
 
+#### Notes
+
+- A number of solutions gave a relation that had no self loops on it, but edges going both directions between nodes, for example {(a,b), (b,a)}. However, this is not transitive because there is an edge from a to b and an edge from b to a, but no self-loop edge from a to itself. 
+
 ### Option 2
 
 Assume G is a DAG with no source. Then every vertex has in-degree $\geq 1$ meaning every vertex has at least one incoming edge. 
