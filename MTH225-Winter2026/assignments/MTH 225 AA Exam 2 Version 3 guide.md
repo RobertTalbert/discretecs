@@ -50,7 +50,7 @@ The total count is therefore $26 \cdot 56 \cdot 10^3 \cdot 26^5 = 17,299,283,456
 
 Since the project director must be on the committee, this leaves 5 slots to fill. At least two slots must be filled by scientists. This means we could have two scientists, or three, or four, or five. Let's count each of those situations separately: 
 
-- Exactly two scientists: There are $\binom{5}{2}$ to choose the scientists. Then there are three slots left to be filled with engineers, and $\binom{8}{3}$ ways to choose those. (Remember one engineer, the project director, has already been selected.) We choose the scientists then choose the engineers, so use the Multiplicative Principle: $\binom{5}{2} \cdot \binom{8}{3} = 10 \cdot 56 = 560$ ways to have exactly two scientists. 
+- Exactly two scientists: There are $\binom{5}{2}$ waysn to choose the scientists. Then there are three slots left to be filled with engineers, and $\binom{8}{3}$ ways to choose those. (Remember one engineer, the project director, has already been selected.) We choose the scientists then choose the engineers, so use the Multiplicative Principle: $\binom{5}{2} \cdot \binom{8}{3} = 10 \cdot 56 = 560$ ways to have exactly two scientists. 
 - Exactly three scientists: Using similar reasoning there are $\binom{5}{3} \cdot \binom{8}{2} = 10 \cdot 28 = 280$ ways to do this. 
 - Exactly four scientists: Using similar reasoning there are $\binom{5}{4} \cdot \binom{8}{1} = 5 \cdot 8 = 40$ ways to do this. 
 - Exactly five scientists: Using similar reasoning there are $\binom{5}{5} \cdot \binom{8}{0} = 1$ way to do this. 
@@ -60,3 +60,9 @@ These are all disjoint outcomes so the total number of ways to get at least two 
 Having formed the committee, assign the roles (from the non-project director members): There are five eligible members, so 5 ways to select the spokesperson and 4 ways to select the record for a total of 20. 
 
 Therefore the total number of outcomes is $881 \cdot 20 = 17620$. 
+
+
+#### Grading notes on these
+
+- There was a lot of confusion on Option 1 about what a "character" is. Many students mistook "character" to be the same thing as a "letter" and used $36$ where the number $26$ shows up in the solution. To clarify: A letter is a character but not vice versa. "Character" refers to either a letter or a digit, but when it says "letter" in the problem it means "letter" and nothing else. 
+- Many solutions for Option 1 did not account for the fact there are $\binom{8}{3}$ positions in which to put the digits, and just computed $26^6 \cdot 10^3$. 
