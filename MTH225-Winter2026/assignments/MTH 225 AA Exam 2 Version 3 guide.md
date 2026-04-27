@@ -37,6 +37,13 @@ The proposition is: For every integer $n \geq 1$, $1 + 4 + 7 + \cdots + (3n-2) =
 
 ### Option 1
 
+- The number of ways to pick the first character is 26. 
+- The number of ways to pick the locations of the digits is $\binom{8}{3} = 56$. 
+- The number of ways to assign the values of the digits once we have picked the locations is $10^3 = 1000$ because there are three positions and 10 choices each. 
+- The number of ways to fill the remaining five letter positions (positions 2-9 minus the 3 digit positions) is $26^5$ because there are five positions, 26 choices each. 
+
+The total count is therefore $26 \cdot 56 \cdot 10^3 \cdot 26^5 = 17,299,283,456,000$.
+
 
 
 ### Option 2
